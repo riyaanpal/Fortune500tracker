@@ -1,0 +1,71 @@
+name: Refresh internships and deploy
+
+on:
+  workflow_dispatch:
+    inputs:
+      full_sweep:
+        description: "Scan all 500 companies in this run (slow; use only when needed)"
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    - cron: "23 * * * *"
+  push:
+    branches: [main]
+    paths-ignore:
+      - "data/opportunities.json"
+      - "data/fortune500_companies.json"
+      - "data/company_scan_state.json"
+      - "feed.xml"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Test eligibility and queue rules
+        run: python -m unittest discover -s tests
+      - name: Refresh official postings
+        env:
+          FULL_SWEEP: ${{ inputs.full_sweep }}
+        run: |
+          if [ "$FULL_SWEEP" = "true" ]; then
+            python scripts/update_jobs.py --full-sweep
+          else
+            python scripts/update_jobs.py
+          fi
+      - name: Commit refreshed directory, scan state, and postings
+        run: |
+          git config user.name "launchlist-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/opportunities.json data/fortune500_companies.json data/company_scan_state.json feed.xml
+          git diff --cached --quiet || git commit -m "chore: refresh Fortune 500 internship scan"
+          git push
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - uses: actions/deploy-pages@v4
+        id: deployment
+
+  notify-failure:
+    needs: refresh
+    if: failure()
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "The LaunchList refresh failed. Review the Actions log."
