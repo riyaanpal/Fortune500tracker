@@ -1,0 +1,5005 @@
+{
+  "updated_at": "2026-06-19T07:42:09Z",
+  "companies": {
+    "walmart": {
+      "rank": 2,
+      "company": "Walmart",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "error",
+      "eligible_jobs": 0,
+      "adapter": "workday",
+      "careers_url": null,
+      "error": "Failed request: https://walmart.wd5.myworkdayjobs.com/wday/cxs/walmart/WalmartExternal/jobs: 410 Client Error: Gone for url: https://walmart.wd5.myworkdayjobs.com/wday/cxs/walmart/WalmartExternal/jobs"
+    },
+    "amazon": {
+      "rank": 1,
+      "company": "Amazon",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "amazon_html",
+      "careers_url": null,
+      "error": null
+    },
+    "dell": {
+      "rank": 41,
+      "company": "Dell Technologies",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "workday",
+      "careers_url": null,
+      "error": null
+    },
+    "mastercard": {
+      "rank": 141,
+      "company": "Mastercard",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "workday",
+      "careers_url": null,
+      "error": null
+    },
+    "salesforce": {
+      "rank": 114,
+      "company": "Salesforce",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 6,
+      "adapter": "workday",
+      "careers_url": null,
+      "error": null
+    },
+    "blackstone": {
+      "rank": 310,
+      "company": "Blackstone",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "workday",
+      "careers_url": null,
+      "error": null
+    },
+    "unitedhealth-group": {
+      "rank": 3,
+      "company": "UnitedHealth Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.unitedhealthgroup.com/careers/en.html",
+      "error": null
+    },
+    "fannie-mae": {
+      "rank": 26,
+      "company": "Fannie Mae",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "workday",
+      "careers_url": null,
+      "error": null
+    },
+    "apple": {
+      "rank": 4,
+      "company": "Apple",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.apple.com/education/college-students/",
+      "error": null
+    },
+    "cvs-health": {
+      "rank": 6,
+      "company": "CVS Health",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.cvshealth.com?cid=site-CVSHealth:SuperNav:careers:na",
+      "error": null
+    },
+    "berkshire-hathaway": {
+      "rank": 7,
+      "company": "Berkshire Hathaway",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://berkshirehathaway.com/careers",
+      "error": null
+    },
+    "alphabet": {
+      "rank": 5,
+      "company": "Alphabet",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://abc.xyz/careers",
+      "error": null
+    },
+    "smucker": {
+      "rank": 456,
+      "company": "J.M. Smucker",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 7,
+      "adapter": "workday",
+      "careers_url": null,
+      "error": null
+    },
+    "costco-wholesale": {
+      "rank": 13,
+      "company": "Costco Wholesale",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "exxon-mobil": {
+      "rank": 9,
+      "company": "Exxon Mobil",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 1,
+      "adapter": "discovery",
+      "careers_url": "https://corporate.exxonmobil.com/careers",
+      "error": null
+    },
+    "mckesson": {
+      "rank": 8,
+      "company": "McKesson",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.mckesson.com/en",
+      "error": null
+    },
+    "cardinal-health": {
+      "rank": 15,
+      "company": "Cardinal Health",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.cardinalhealth.com/en/careers.html",
+      "error": null
+    },
+    "meta-platforms": {
+      "rank": 17,
+      "company": "Meta Platforms",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "jpmorgan-chase": {
+      "rank": 12,
+      "company": "JPMorgan Chase",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.jpmorganchase.com/careers",
+      "error": null
+    },
+    "microsoft": {
+      "rank": 11,
+      "company": "Microsoft",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://news.microsoft.com/signal/articles/imagine-cup-2026-student-ai-competition/?icid=mscom_marcom_SAM1a_ImagineCup26",
+      "error": null
+    },
+    "cencora": {
+      "rank": 10,
+      "company": "Cencora",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.cencora.com/us/en",
+      "error": null
+    },
+    "nvidia": {
+      "rank": 16,
+      "company": "Nvidia",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.nvidia.com/en-us/about-nvidia/careers/",
+      "error": null
+    },
+    "ge-aerospace": {
+      "rank": 101,
+      "company": "GE Aerospace",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 21,
+      "adapter": "workday",
+      "careers_url": null,
+      "error": null
+    },
+    "bank-of-america": {
+      "rank": 20,
+      "company": "Bank of America",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "error",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
+    },
+    "citigroup": {
+      "rank": 24,
+      "company": "Citigroup",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "ford-motor": {
+      "rank": 22,
+      "company": "Ford Motor",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.careers.ford.com/en/home.html/?gnav=footer-aboutford",
+      "error": null
+    },
+    "general-motors": {
+      "rank": 23,
+      "company": "General Motors",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://search-careers.gm.com/en/working-at-gm/",
+      "error": null
+    },
+    "verizon-communications": {
+      "rank": 28,
+      "company": "Verizon Communications",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "cigna-group": {
+      "rank": 14,
+      "company": "Cigna Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.thecignagroup.com/us/en",
+      "error": null
+    },
+    "chevron": {
+      "rank": 21,
+      "company": "Chevron",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://chevron.com/careers",
+      "error": null
+    },
+    "johnson-johnson": {
+      "rank": 45,
+      "company": "Johnson & Johnson",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 2,
+      "adapter": "workday",
+      "careers_url": null,
+      "error": null
+    },
+    "state-farm-insurance": {
+      "rank": 32,
+      "company": "State Farm Insurance",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "kroger": {
+      "rank": 27,
+      "company": "Kroger",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.krogerfamilycareers.com/en/sites/CX_2001",
+      "error": null
+    },
+    "freddie-mac": {
+      "rank": 33,
+      "company": "Freddie Mac",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.freddiemac.com/us/en",
+      "error": null
+    },
+    "phillips-66": {
+      "rank": 29,
+      "company": "Phillips 66",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.phillips66.com/careers/",
+      "error": null
+    },
+    "goldman-sachs-group": {
+      "rank": 36,
+      "company": "Goldman Sachs Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.goldmansachs.com/careers",
+      "error": null
+    },
+    "centene": {
+      "rank": 19,
+      "company": "Centene",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.centene.com/us/en",
+      "error": null
+    },
+    "marathon-petroleum": {
+      "rank": 30,
+      "company": "Marathon Petroleum",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://marathonpetroleum.com/careers",
+      "error": null
+    },
+    "elevance-health": {
+      "rank": 18,
+      "company": "Elevance Health",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.elevancehealth.com/",
+      "error": null
+    },
+    "valero-energy": {
+      "rank": 40,
+      "company": "Valero Energy",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 1,
+      "adapter": "discovery",
+      "careers_url": "https://www.valero.com/careers",
+      "error": null
+    },
+    "stonex-group": {
+      "rank": 31,
+      "company": "StoneX Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://stonex.com/careers",
+      "error": null
+    },
+    "morgan-stanley": {
+      "rank": 39,
+      "company": "Morgan Stanley",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "javascript:void(0);",
+      "error": null
+    },
+    "home-depot": {
+      "rank": 25,
+      "company": "Home Depot",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.homedepot.com/",
+      "error": null
+    },
+    "walt-disney": {
+      "rank": 44,
+      "company": "Walt Disney",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://disneycareers.com",
+      "error": null
+    },
+    "tesla": {
+      "rank": 43,
+      "company": "Tesla",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://tesla.com/careers",
+      "error": null
+    },
+    "att": {
+      "rank": 35,
+      "company": "ATT",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://att.com/careers",
+      "error": null
+    },
+    "target": {
+      "rank": 42,
+      "company": "Target",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://target.com/careers",
+      "error": null
+    },
+    "comcast": {
+      "rank": 37,
+      "company": "Comcast",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://comcast.com/careers",
+      "error": null
+    },
+    "wells-fargo": {
+      "rank": 38,
+      "company": "Wells Fargo",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://ellsfargo.com/careers",
+      "error": null
+    },
+    "humana": {
+      "rank": 34,
+      "company": "Humana",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://humana.com/careers",
+      "error": null
+    },
+    "ups": {
+      "rank": 48,
+      "company": "UPS",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://ups.com/careers",
+      "error": null
+    },
+    "pepsico": {
+      "rank": 46,
+      "company": "PepsiCo",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.pepsico.com/careers",
+      "error": null
+    },
+    "fedex": {
+      "rank": 50,
+      "company": "FedEx",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://fedex.com/careers",
+      "error": null
+    },
+    "rtx": {
+      "rank": 49,
+      "company": "RTX",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.rtx.com/global/en",
+      "error": null
+    },
+    "progressive": {
+      "rank": 51,
+      "company": "Progressive",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.progressive.com/",
+      "error": null
+    },
+    "energy-transfer": {
+      "rank": 53,
+      "company": "Energy Transfer",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://energytransfer.com/careers",
+      "error": null
+    },
+    "procter-gamble": {
+      "rank": 54,
+      "company": "Procter & Gamble",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://pginvestor.com/careers",
+      "error": null
+    },
+    "sysco": {
+      "rank": 55,
+      "company": "Sysco",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://sysco.com/careers",
+      "error": null
+    },
+    "archer-daniels-midland": {
+      "rank": 58,
+      "company": "Archer Daniels Midland",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.adm.com/en-us/culture-and-careers/",
+      "error": null
+    },
+    "boeing": {
+      "rank": 47,
+      "company": "Boeing",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 12,
+      "adapter": "discovery",
+      "careers_url": "https://www.boeing.com:443/company/careers",
+      "error": null
+    },
+    "american-express": {
+      "rank": 56,
+      "company": "American Express",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.americanexpress.com/en-us/careers/?inav=en_us_footer_About_Careers",
+      "error": null
+    },
+    "lockheed-martin": {
+      "rank": 61,
+      "company": "Lockheed Martin",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://lockheedmartin.com/",
+      "error": null
+    },
+    "metlife": {
+      "rank": 59,
+      "company": "MetLife",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.metlifecareers.com",
+      "error": null
+    },
+    "capital-one-financial": {
+      "rank": 63,
+      "company": "Capital One Financial",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "albertsons": {
+      "rank": 57,
+      "company": "Albertsons",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://albertsonscompanies.com/careers",
+      "error": null
+    },
+    "new-york-life-insurance": {
+      "rank": 62,
+      "company": "New York Life Insurance",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.newyorklife.com/careers/financial-professionals",
+      "error": null
+    },
+    "hca-healthcare": {
+      "rank": 60,
+      "company": "HCA Healthcare",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.hcahealthcare.com/?bid=6936",
+      "error": null
+    },
+    "ibm": {
+      "rank": 66,
+      "company": "IBM",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://skillsbuild.org/college-students?lnk=hptr1us/?utm_source=ibm.com&utm_campaign=ibmus&utm_medium=organic",
+      "error": null
+    },
+    "lowe-s": {
+      "rank": 52,
+      "company": "Lowe's",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.lowes.com/pl/Back-to-campus/2360741496",
+      "error": null
+    },
+    "nationwide": {
+      "rank": 69,
+      "company": "Nationwide",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.nationwide.com/personal/about-us/careers/",
+      "error": null
+    },
+    "broadcom": {
+      "rank": 70,
+      "company": "Broadcom",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://broadcom.com/careers",
+      "error": null
+    },
+    "eli-lilly": {
+      "rank": 67,
+      "company": "Eli Lilly",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://lilly.com/careers",
+      "error": null
+    },
+    "allstate": {
+      "rank": 64,
+      "company": "Allstate",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://allstate.com/careers",
+      "error": null
+    },
+    "caterpillar": {
+      "rank": 65,
+      "company": "Caterpillar",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 5,
+      "adapter": "discovery",
+      "careers_url": "javascript:void(0)",
+      "error": null
+    },
+    "publix-super-markets": {
+      "rank": 72,
+      "company": "Publix Super Markets",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://publix.com/careers",
+      "error": null
+    },
+    "pfizer": {
+      "rank": 73,
+      "company": "Pfizer",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.pfizer.com/about/careers",
+      "error": null
+    },
+    "galaxy-digital": {
+      "rank": 76,
+      "company": "Galaxy Digital",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "conocophillips": {
+      "rank": 75,
+      "company": "ConocoPhillips",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.conocophillips.com/",
+      "error": null
+    },
+    "td-synnex": {
+      "rank": 74,
+      "company": "TD Synnex",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.tdsynnex.com/us/en/about-us/careers.html",
+      "error": null
+    },
+    "merck": {
+      "rank": 68,
+      "company": "Merck",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 4,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.merck.com/us/en",
+      "error": null
+    },
+    "performance-food-group": {
+      "rank": 80,
+      "company": "Performance Food Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://pfgc.com/Careers",
+      "error": null
+    },
+    "tjx": {
+      "rank": 79,
+      "company": "TJX",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.tjx.com/careers",
+      "error": null
+    },
+    "abbvie": {
+      "rank": 77,
+      "company": "AbbVie",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://abbvie.com/careers",
+      "error": null
+    },
+    "cisco-systems": {
+      "rank": 83,
+      "company": "Cisco Systems",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.cisco.com/global/en/home",
+      "error": null
+    },
+    "oracle": {
+      "rank": 82,
+      "company": "Oracle",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://oracle.com/careers",
+      "error": null
+    },
+    "charter-communications": {
+      "rank": 85,
+      "company": "Charter Communications",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.spectrum.com",
+      "error": null
+    },
+    "american-airlines-group": {
+      "rank": 86,
+      "company": "American Airlines Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://aa.com/careers",
+      "error": null
+    },
+    "united-airlines-holdings": {
+      "rank": 81,
+      "company": "United Airlines Holdings",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://united.com/careers",
+      "error": null
+    },
+    "enterprise-products-partners": {
+      "rank": 89,
+      "company": "Enterprise Products Partners",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 1,
+      "adapter": "discovery",
+      "careers_url": "https://enterpriseproducts.com/careers/",
+      "error": null
+    },
+    "ingram-micro-holding": {
+      "rank": 90,
+      "company": "Ingram Micro Holding",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "uber-technologies": {
+      "rank": 92,
+      "company": "Uber Technologies",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "hp": {
+      "rank": 84,
+      "company": "HP",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.hp.com/us-en/solutions/learning-hub/university-kansas-case-study.html?jumpid=ma_hpcom_case_study_na_3_260329",
+      "error": null
+    },
+    "tyson-foods": {
+      "rank": 87,
+      "company": "Tyson Foods",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.tysonfoods.com/careers",
+      "error": null
+    },
+    "tiaa": {
+      "rank": 94,
+      "company": "TIAA",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://tiaa.org/careers",
+      "error": null
+    },
+    "usaa": {
+      "rank": 93,
+      "company": "USAA",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://usaa.com/careers",
+      "error": null
+    },
+    "general-dynamics": {
+      "rank": 91,
+      "company": "General Dynamics",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://gd.com/careers",
+      "error": null
+    },
+    "intel": {
+      "rank": 88,
+      "company": "Intel",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.intel.com/content/www/us/en/jobs/life-at-intel.html",
+      "error": null
+    },
+    "liberty-mutual-insurance-group": {
+      "rank": 95,
+      "company": "Liberty Mutual Insurance Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.libertymutualgroup.com/about-lm/careers/overview",
+      "error": null
+    },
+    "travelers": {
+      "rank": 96,
+      "company": "Travelers",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://travelers.com/careers",
+      "error": null
+    },
+    "bristol-myers-squibb": {
+      "rank": 97,
+      "company": "Bristol-Myers Squibb",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.bms.com",
+      "error": null
+    },
+    "nike": {
+      "rank": 99,
+      "company": "Nike",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.nike.com/w/womens-color-shop-blues-5e1x6z7wk8r",
+      "error": null
+    },
+    "coca-cola": {
+      "rank": 98,
+      "company": "Coca-Cola",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.coca-colacompany.com/careers",
+      "error": null
+    },
+    "delta-air-lines": {
+      "rank": 71,
+      "company": "Delta Air Lines",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://delta.com/careers",
+      "error": null
+    },
+    "massachusetts-mutual-life": {
+      "rank": 100,
+      "company": "Massachusetts Mutual Life",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "netflix": {
+      "rank": 105,
+      "company": "Netflix",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.netflix.com/jobs",
+      "error": null
+    },
+    "plains-gp-holdings": {
+      "rank": 103,
+      "company": "Plains GP Holdings",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.plains.com/careers",
+      "error": null
+    },
+    "deere": {
+      "rank": 102,
+      "company": "Deere",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://about.deere.com/en-us/careers/",
+      "error": null
+    },
+    "u-s-bancorp": {
+      "rank": 110,
+      "company": "U.S. Bancorp",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.usbank.com/bank-accounts/checking-accounts/student-checking-account.html",
+      "error": null
+    },
+    "molina-healthcare": {
+      "rank": 104,
+      "company": "Molina Healthcare",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.molinahealthcare.com/",
+      "error": null
+    },
+    "dollar-general": {
+      "rank": 111,
+      "company": "Dollar General",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.dollargeneral.com/",
+      "error": null
+    },
+    "abbott-laboratories": {
+      "rank": 107,
+      "company": "Abbott Laboratories",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 6,
+      "adapter": "discovery",
+      "careers_url": "https://www.abbott.com/en-us/careers",
+      "error": null
+    },
+    "qualcomm": {
+      "rank": 108,
+      "company": "Qualcomm",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://qualcomm.com/careers",
+      "error": null
+    },
+    "thermo-fisher-scientific": {
+      "rank": 106,
+      "company": "Thermo Fisher Scientific",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.thermofisher.com",
+      "error": null
+    },
+    "northwestern-mutual": {
+      "rank": 109,
+      "company": "Northwestern Mutual",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://northwesternmutual.com/careers",
+      "error": null
+    },
+    "cbre-group": {
+      "rank": 118,
+      "company": "CBRE Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.cbre.com/careers",
+      "error": null
+    },
+    "dow": {
+      "rank": 120,
+      "company": "Dow",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://corporate.dow.com/en-us/careers.html",
+      "error": null
+    },
+    "northrop-grumman": {
+      "rank": 112,
+      "company": "Northrop Grumman",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.northropgrumman.com/careers",
+      "error": null
+    },
+    "bank-of-new-york-bny": {
+      "rank": 115,
+      "company": "Bank of New York (BNY)",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "honeywell-international": {
+      "rank": 116,
+      "company": "Honeywell International",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "visa": {
+      "rank": 119,
+      "company": "Visa",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://visa.com/careers",
+      "error": null
+    },
+    "philip-morris-international": {
+      "rank": 117,
+      "company": "Philip Morris International",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "micron-technology": {
+      "rank": 125,
+      "company": "Micron Technology",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.micron.com/about/careers",
+      "error": null
+    },
+    "lithia-motors": {
+      "rank": 123,
+      "company": "Lithia Motors",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.lithiacareers.com/",
+      "error": null
+    },
+    "us-foods-holding": {
+      "rank": 121,
+      "company": "US Foods Holding",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "warner-bros-discovery": {
+      "rank": 126,
+      "company": "Warner Bros. Discovery",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 1,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.bd.com/",
+      "error": null
+    },
+    "mondelez-international": {
+      "rank": 122,
+      "company": "Mondelez International",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "advanced-micro-devices": {
+      "rank": 131,
+      "company": "Advanced Micro Devices",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.amd.com/en/blogs/2026/amd-dell-technologies-and-the-university-of-cambridge.html",
+      "error": null
+    },
+    "chs": {
+      "rank": 130,
+      "company": "CHS",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.chsinc.com/",
+      "error": null
+    },
+    "coupang": {
+      "rank": 132,
+      "company": "Coupang",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.coupang.jobs/en/",
+      "error": null
+    },
+    "starbucks": {
+      "rank": 127,
+      "company": "Starbucks",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.starbucks.com/",
+      "error": null
+    },
+    "d-r-horton": {
+      "rank": 134,
+      "company": "D.R. Horton",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.drhorton.com/careers",
+      "error": null
+    },
+    "ge-vernova": {
+      "rank": 124,
+      "company": "GE Vernova",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 12,
+      "adapter": "discovery",
+      "careers_url": "https://careers.gevernova.com",
+      "error": null
+    },
+    "prudential-financial": {
+      "rank": 78,
+      "company": "Prudential Financial",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 3,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.prudential.com/",
+      "error": null
+    },
+    "amgen": {
+      "rank": 129,
+      "company": "Amgen",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 3,
+      "adapter": "discovery",
+      "careers_url": "http://careers.amgen.com/",
+      "error": null
+    },
+    "world-kinect": {
+      "rank": 128,
+      "company": "World Kinect",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://orld-kinect.com/careers",
+      "error": null
+    },
+    "paypal-holdings": {
+      "rank": 139,
+      "company": "PayPal Holdings",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://paypal.com/careers",
+      "error": null
+    },
+    "best-buy": {
+      "rank": 113,
+      "company": "Best Buy",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.bestbuy.com/bby",
+      "error": null
+    },
+    "oneok": {
+      "rank": 138,
+      "company": "Oneok",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.oneok.com/careers",
+      "error": null
+    },
+    "hewlett-packard-enterprise": {
+      "rank": 133,
+      "company": "Hewlett Packard Enterprise",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "apollo-global-management": {
+      "rank": 143,
+      "company": "Apollo Global Management",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.apollo.com/careers",
+      "error": null
+    },
+    "nucor": {
+      "rank": 142,
+      "company": "Nucor",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://nucor.com/careers/",
+      "error": null
+    },
+    "cummins": {
+      "rank": 137,
+      "company": "Cummins",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.cummins.com/en-na/careers",
+      "error": null
+    },
+    "pnc-financial-services-group": {
+      "rank": 136,
+      "company": "PNC Financial Services Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "lennar": {
+      "rank": 135,
+      "company": "Lennar",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.lennar.com",
+      "error": null
+    },
+    "guidewell-mutual-holding": {
+      "rank": 140,
+      "company": "GuideWell Mutual Holding",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "duke-energy": {
+      "rank": 145,
+      "company": "Duke Energy",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.duke-energy.com/our-company/careers",
+      "error": null
+    },
+    "truist-financial": {
+      "rank": 150,
+      "company": "Truist Financial",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.truist.com/",
+      "error": null
+    },
+    "ferguson-enterprises": {
+      "rank": 147,
+      "company": "Ferguson Enterprises",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "united-natural-foods": {
+      "rank": 146,
+      "company": "United Natural Foods",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://unfi.com/careers",
+      "error": null
+    },
+    "jabil": {
+      "rank": 151,
+      "company": "Jabil",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 10,
+      "adapter": "discovery",
+      "careers_url": "https://careers.jabil.com/",
+      "error": null
+    },
+    "penske-automotive-group": {
+      "rank": 144,
+      "company": "Penske Automotive Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://penskeautomotive.com/careers",
+      "error": null
+    },
+    "kkr": {
+      "rank": 156,
+      "company": "KKR",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.kkr.com/",
+      "error": null
+    },
+    "arrow-electronics": {
+      "rank": 148,
+      "company": "Arrow Electronics",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://arrow.com/careers",
+      "error": null
+    },
+    "gilead-sciences": {
+      "rank": 153,
+      "company": "Gilead Sciences",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.gilead.com/careers",
+      "error": null
+    },
+    "nrg-energy": {
+      "rank": 149,
+      "company": "NRG Energy",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://nrg.com/careers",
+      "error": null
+    },
+    "pbf-energy": {
+      "rank": 154,
+      "company": "PBF Energy",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.pbfenergy.com/careers/",
+      "error": null
+    },
+    "quanta-services": {
+      "rank": 157,
+      "company": "Quanta Services",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.quantaservices.com/careers",
+      "error": null
+    },
+    "southern": {
+      "rank": 152,
+      "company": "Southern",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://southerncompany.jobs/?vs=2925&utm_source=southerncompany.com-DE&utm_medium=Other&utm_campaign=southerncompany.com&_ga=2.246996292.1393374614.1612792799-630953019.1598387569",
+      "error": null
+    },
+    "paramount-skydance": {
+      "rank": 155,
+      "company": "Paramount Skydance",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "baker-hughes": {
+      "rank": 164,
+      "company": "Baker Hughes",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.bakerhughes.com",
+      "error": null
+    },
+    "hartford-insurance-group": {
+      "rank": 160,
+      "company": "Hartford Insurance Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.thehartford.com/careers",
+      "error": null
+    },
+    "charles-schwab": {
+      "rank": 165,
+      "company": "Charles Schwab",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://schwabjobs.com",
+      "error": null
+    },
+    "carmax": {
+      "rank": 162,
+      "company": "CarMax",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://carmax.com/careers",
+      "error": null
+    },
+    "nextera-energy": {
+      "rank": 167,
+      "company": "NextEra Energy",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.nexteraenergy.com:443/",
+      "error": null
+    },
+    "medline": {
+      "rank": 159,
+      "company": "Medline",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "applied-materials": {
+      "rank": 160,
+      "company": "Applied Materials",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.appliedmaterials.com/us/en/careers.html",
+      "error": null
+    },
+    "paccar": {
+      "rank": 158,
+      "company": "Paccar",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://paccar.com/careers",
+      "error": null
+    },
+    "southwest-airlines": {
+      "rank": 163,
+      "company": "Southwest Airlines",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://southwest.com/careers",
+      "error": null
+    },
+    "marsh-mclennan": {
+      "rank": 168,
+      "company": "Marsh & McLennan",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.corporate.marsh.com/careers.html",
+      "error": null
+    },
+    "occidental-petroleum": {
+      "rank": 173,
+      "company": "Occidental Petroleum",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 1,
+      "adapter": "discovery",
+      "careers_url": "https://www.oxy.com/careers/",
+      "error": null
+    },
+    "booking-holdings": {
+      "rank": 169,
+      "company": "Booking Holdings",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "hf-sinclair": {
+      "rank": 171,
+      "company": "HF Sinclair",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.hfsinclair.com/",
+      "error": null
+    },
+    "autonation": {
+      "rank": 166,
+      "company": "AutoNation",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://autonation.com/careers",
+      "error": null
+    },
+    "aig": {
+      "rank": 172,
+      "company": "AIG",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "jones-lang-lasalle": {
+      "rank": 175,
+      "company": "Jones Lang LaSalle",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 12,
+      "adapter": "discovery",
+      "careers_url": "https://www.jll.com/en-us/careers",
+      "error": null
+    },
+    "mcdonald-s": {
+      "rank": 170,
+      "company": "McDonald's",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.mcdonalds.com/",
+      "error": null
+    },
+    "constellation-energy": {
+      "rank": 178,
+      "company": "Constellation Energy",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.constellationenergy.com/",
+      "error": null
+    },
+    "dollar-tree": {
+      "rank": 182,
+      "company": "Dollar Tree",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://dollartree.com/careers",
+      "error": null
+    },
+    "international-paper": {
+      "rank": 176,
+      "company": "International Paper",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.internationalpaper.com/index%2ephp/working-ip",
+      "error": null
+    },
+    "live-nation-entertainment": {
+      "rank": 180,
+      "company": "Live Nation Entertainment",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 1,
+      "adapter": "discovery",
+      "careers_url": "https://www.livenationentertainment.com/careers",
+      "error": null
+    },
+    "marriott-international": {
+      "rank": 174,
+      "company": "Marriott International",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://marriott.com/careers",
+      "error": null
+    },
+    "freeport-mcmoran": {
+      "rank": 177,
+      "company": "Freeport-McMoRan",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://fcx.com/careers",
+      "error": null
+    },
+    "waste-management": {
+      "rank": 179,
+      "company": "Waste Management",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://m.com/careers",
+      "error": null
+    },
+    "stryker": {
+      "rank": 181,
+      "company": "Stryker",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://stryker.com/careers",
+      "error": null
+    },
+    "3m": {
+      "rank": 183,
+      "company": "3M",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "error",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://3m.wd1.myworkdayjobs.com/wday/cxs/3m/es/jobs: 404 Client Error: Not Found for url: https://3m.wd1.myworkdayjobs.com/wday/cxs/3m/es/jobs"
+    },
+    "blackrock": {
+      "rank": 190,
+      "company": "BlackRock",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.blackrock.com/",
+      "error": null
+    },
+    "kraft-heinz": {
+      "rank": 184,
+      "company": "Kraft Heinz",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.kraftheinz.com",
+      "error": null
+    },
+    "adobe": {
+      "rank": 192,
+      "company": "Adobe",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.adobe.com/education.html",
+      "error": null
+    },
+    "danaher": {
+      "rank": 186,
+      "company": "Danaher",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.danaher.com/global/en",
+      "error": null
+    },
+    "reinsurance-group-of-america": {
+      "rank": 193,
+      "company": "Reinsurance Group of America",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.rgarecareers.com/us/en/",
+      "error": null
+    },
+    "block": {
+      "rank": 191,
+      "company": "Block",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://block.xyz/careers/jobs",
+      "error": null
+    },
+    "wesco-international": {
+      "rank": 195,
+      "company": "WESCO International",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://esco.com/careers",
+      "error": null
+    },
+    "sherwin-williams": {
+      "rank": 194,
+      "company": "Sherwin-Williams",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.paintprotraining.com/",
+      "error": null
+    },
+    "lear": {
+      "rank": 196,
+      "company": "Lear",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.lear.com/careers",
+      "error": null
+    },
+    "newmont": {
+      "rank": 200,
+      "company": "Newmont",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.newmont.com/",
+      "error": null
+    },
+    "eog-resources": {
+      "rank": 201,
+      "company": "EOG Resources",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.eogresources.com/careers",
+      "error": null
+    },
+    "synchrony": {
+      "rank": 197,
+      "company": "Synchrony",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "ross-stores": {
+      "rank": 199,
+      "company": "Ross Stores",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.rossstores.com/",
+      "error": null
+    },
+    "amphenol": {
+      "rank": 198,
+      "company": "Amphenol",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://amphenol.com/careers",
+      "error": null
+    },
+    "union-pacific": {
+      "rank": 187,
+      "company": "Union Pacific",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://up.jobs/",
+      "error": null
+    },
+    "state-street": {
+      "rank": 202,
+      "company": "State Street",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.statestreet.com/global/en",
+      "error": null
+    },
+    "macy-s": {
+      "rank": 203,
+      "company": "Macy's",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.macysinc.com/work-with-us/careers/default.aspx",
+      "error": null
+    },
+    "genuine-parts": {
+      "rank": 188,
+      "company": "Genuine Parts",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.genpt.com/",
+      "error": null
+    },
+    "halliburton": {
+      "rank": 207,
+      "company": "Halliburton",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.halliburton.com",
+      "error": null
+    },
+    "l3harris-technologies": {
+      "rank": 210,
+      "company": "L3Harris Technologies",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.l3harris.com/",
+      "error": null
+    },
+    "american-electric-power": {
+      "rank": 209,
+      "company": "American Electric Power",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.aep.com/careers/",
+      "error": null
+    },
+    "exelon": {
+      "rank": 189,
+      "company": "Exelon",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.exeloncorp.com/",
+      "error": null
+    },
+    "cdw": {
+      "rank": 205,
+      "company": "CDW",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://cdw.com/careers",
+      "error": null
+    },
+    "group-1-automotive": {
+      "rank": 204,
+      "company": "Group 1 Automotive",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://group1auto.com/careers",
+      "error": null
+    },
+    "avnet": {
+      "rank": 206,
+      "company": "Avnet",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://avnet.com/careers",
+      "error": null
+    },
+    "bj-s-wholesale-club": {
+      "rank": 213,
+      "company": "BJ's Wholesale Club",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.bjs.com/",
+      "error": null
+    },
+    "fiserv": {
+      "rank": 215,
+      "company": "Fiserv",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.fiserv.com",
+      "error": null
+    },
+    "super-micro-computer": {
+      "rank": 208,
+      "company": "Super Micro Computer",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.supermicro.com/en/jobs",
+      "error": null
+    },
+    "becton-dickinson": {
+      "rank": 211,
+      "company": "Becton Dickinson",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 1,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.bd.com/",
+      "error": null
+    },
+    "carrier-global": {
+      "rank": 212,
+      "company": "Carrier Global",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 2,
+      "adapter": "discovery",
+      "careers_url": "https://www.carrier.com/carrieruniversity/en/us",
+      "error": null
+    },
+    "tenet-healthcare": {
+      "rank": 214,
+      "company": "Tenet Healthcare",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.tenethealth.com/careers",
+      "error": null
+    },
+    "boston-scientific": {
+      "rank": 222,
+      "company": "Boston Scientific",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.bostonscientific.com/en-US/careers.html",
+      "error": null
+    },
+    "cognizant-technology-solutions": {
+      "rank": 216,
+      "company": "Cognizant Technology Solutions",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "cheniere-energy": {
+      "rank": 223,
+      "company": "Cheniere Energy",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.cheniere.com/careers",
+      "error": null
+    },
+    "ge-healthcare-technologies": {
+      "rank": 217,
+      "company": "GE HealthCare Technologies",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.gehealthcare.com/global/en",
+      "error": null
+    },
+    "automatic-data-processing": {
+      "rank": 218,
+      "company": "Automatic Data Processing",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.adp.com/?rb=ADP_COM",
+      "error": null
+    },
+    "colgate-palmolive": {
+      "rank": 219,
+      "company": "Colgate-Palmolive",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.colgate.com/",
+      "error": null
+    },
+    "kimberly-clark": {
+      "rank": 225,
+      "company": "Kimberly-Clark",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.kimberly-clark.com/",
+      "error": null
+    },
+    "edison-international": {
+      "rank": 228,
+      "company": "Edison International",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.edisoncareers.com",
+      "error": null
+    },
+    "american-family-insurance-group": {
+      "rank": 226,
+      "company": "American Family Insurance Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.amfam.com/",
+      "error": null
+    },
+    "carvana": {
+      "rank": 220,
+      "company": "Carvana",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://carvana.com/careers",
+      "error": null
+    },
+    "intuit": {
+      "rank": 231,
+      "company": "Intuit",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.intuit.com/careers/",
+      "error": null
+    },
+    "general-mills": {
+      "rank": 227,
+      "company": "General Mills",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.generalmills.com/careers",
+      "error": null
+    },
+    "altria-group": {
+      "rank": 221,
+      "company": "Altria Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.altria.com/people-and-careers?src=topnav",
+      "error": null
+    },
+    "parker-hannifin": {
+      "rank": 224,
+      "company": "Parker-Hannifin",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://parker.com/careers",
+      "error": null
+    },
+    "global-partners": {
+      "rank": 234,
+      "company": "Global Partners",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.globalp.com/us/en",
+      "error": null
+    },
+    "aramark": {
+      "rank": 235,
+      "company": "Aramark",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://aramark.com/careers",
+      "error": null
+    },
+    "loews": {
+      "rank": 237,
+      "company": "Loews",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://loews.com/careers/default.aspx",
+      "error": null
+    },
+    "guardian-life-ins-co-of-america": {
+      "rank": 232,
+      "company": "Guardian Life Ins. Co. of America",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "lam-research": {
+      "rank": 238,
+      "company": "Lam Research",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.lamresearch.com/careers/careers-overview/",
+      "error": null
+    },
+    "autozone": {
+      "rank": 229,
+      "company": "AutoZone",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://autozone.com/careers",
+      "error": null
+    },
+    "cleveland-cliffs": {
+      "rank": 233,
+      "company": "Cleveland-Cliffs",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.clevelandcliffs.com/",
+      "error": null
+    },
+    "pge": {
+      "rank": 185,
+      "company": "PGE",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "http://careers.pge.com/",
+      "error": null
+    },
+    "peter-kiewit-sons": {
+      "rank": 242,
+      "company": "Peter Kiewit Sons'",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.kiewit.com/our-markets/building/university-education/",
+      "error": null
+    },
+    "emerson-electric": {
+      "rank": 245,
+      "company": "Emerson Electric",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.emerson.com/en/corporate/careers",
+      "error": null
+    },
+    "corebridge-financial": {
+      "rank": 236,
+      "company": "Corebridge Financial",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.corebridgefinancial.com/careers",
+      "error": null
+    },
+    "pacific-life": {
+      "rank": 240,
+      "company": "Pacific Life",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.pacificlife.com/home/about/careers.redirect.html",
+      "error": null
+    },
+    "auto-owners-insurance": {
+      "rank": 241,
+      "company": "Auto-Owners Insurance",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.auto-owners.com/about/career-opportunities",
+      "error": null
+    },
+    "ameriprise-financial": {
+      "rank": 230,
+      "company": "Ameriprise Financial",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://ameriprise.com/careers",
+      "error": null
+    },
+    "goodyear-tire-rubber": {
+      "rank": 239,
+      "company": "Goodyear Tire & Rubber",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 2,
+      "adapter": "discovery",
+      "careers_url": "https://www.linkedin.com/company/goodyear/jobs/",
+      "error": null
+    },
+    "lincoln-national": {
+      "rank": 243,
+      "company": "Lincoln National",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://lincolnfinancial.com/careers",
+      "error": null
+    },
+    "manpowergroup": {
+      "rank": 247,
+      "company": "ManpowerGroup",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "mgm-resorts-international": {
+      "rank": 253,
+      "company": "MGM Resorts International",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.mgmresorts.com/en/company/careers.html",
+      "error": null
+    },
+    "jones-financial-edward-jones": {
+      "rank": 249,
+      "company": "Jones Financial (Edward Jones)",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "steel-dynamics": {
+      "rank": 244,
+      "company": "Steel Dynamics",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.steeldynamics.com/careersnew/",
+      "error": null
+    },
+    "asbury-automotive-group": {
+      "rank": 246,
+      "company": "Asbury Automotive Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://asburyauto.com/careers",
+      "error": null
+    },
+    "vistra": {
+      "rank": 251,
+      "company": "Vistra",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 8,
+      "adapter": "discovery",
+      "careers_url": "https://vistracorp.com/careers/",
+      "error": null
+    },
+    "w-w-grainger": {
+      "rank": 248,
+      "company": "W.W. Grainger",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://grainger.com/careers",
+      "error": null
+    },
+    "o-reilly-automotive": {
+      "rank": 250,
+      "company": "O'Reilly Automotive",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://oreillyauto.com/careers",
+      "error": null
+    },
+    "devon-energy": {
+      "rank": 259,
+      "company": "Devon Energy",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.devonenergy.com/careers",
+      "error": null
+    },
+    "aflac": {
+      "rank": 261,
+      "company": "Aflac",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.aflac.com/sales-jobs/default.aspx",
+      "error": null
+    },
+    "texas-instruments": {
+      "rank": 252,
+      "company": "Texas Instruments",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.ti.com/en/sites/CX",
+      "error": null
+    },
+    "dick-s-sporting-goods": {
+      "rank": 258,
+      "company": "Dick's Sporting Goods",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://dickssportinggoods.com/careers",
+      "error": null
+    },
+    "murphy-usa": {
+      "rank": 263,
+      "company": "Murphy USA",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.murphyusa.com/jobs",
+      "error": null
+    },
+    "pultegroup": {
+      "rank": 256,
+      "company": "PulteGroup",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "corteva": {
+      "rank": 254,
+      "company": "Corteva",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.corteva.com",
+      "error": null
+    },
+    "universal-health-services": {
+      "rank": 255,
+      "company": "Universal Health Services",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.uhs.com/careers/",
+      "error": null
+    },
+    "omnicom-group": {
+      "rank": 257,
+      "company": "Omnicom Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://omnicomgroup.com/careers",
+      "error": null
+    },
+    "leidos-holdings": {
+      "rank": 260,
+      "company": "Leidos Holdings",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.leidos.com/",
+      "error": null
+    },
+    "emcor-group": {
+      "rank": 265,
+      "company": "EMCOR Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://emcorgroup.com/careers",
+      "error": null
+    },
+    "keurig-dr-pepper": {
+      "rank": 268,
+      "company": "Keurig Dr Pepper",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.keurigdrpepper.com/",
+      "error": null
+    },
+    "dominion-energy": {
+      "rank": 272,
+      "company": "Dominion Energy",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.dominionenergy.com/",
+      "error": null
+    },
+    "targa-resources": {
+      "rank": 262,
+      "company": "Targa Resources",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.targaresources.com/careers/careers-overview",
+      "error": null
+    },
+    "lpl-financial-holdings": {
+      "rank": 264,
+      "company": "LPL Financial Holdings",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://lpl.com/careers",
+      "error": null
+    },
+    "kinder-morgan": {
+      "rank": 266,
+      "company": "Kinder Morgan",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://kindermorgan.com/",
+      "error": null
+    },
+    "consolidated-edison": {
+      "rank": 267,
+      "company": "Consolidated Edison",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://ejcu.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1033/?utm_medium=jobshare",
+      "error": null
+    },
+    "fox": {
+      "rank": 275,
+      "company": "Fox",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.foxcareers.com",
+      "error": null
+    },
+    "aecom": {
+      "rank": 276,
+      "company": "AECOM",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://aecom.com/careers/welcoming-workplace/",
+      "error": null
+    },
+    "land-o-lakes": {
+      "rank": 273,
+      "company": "Land O'Lakes",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.landolakesinc.com/us/en/",
+      "error": null
+    },
+    "republic-services": {
+      "rank": 269,
+      "company": "Republic Services",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.republicservices.com/us/en",
+      "error": null
+    },
+    "farmers-insurance-exchange": {
+      "rank": 271,
+      "company": "Farmers Insurance Exchange",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.farmers.com/careers/",
+      "error": null
+    },
+    "c-h-robinson-worldwide": {
+      "rank": 277,
+      "company": "C.H. Robinson Worldwide",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.chrobinson.com/en-us/about-us/careers/",
+      "error": null
+    },
+    "iqvia-holdings": {
+      "rank": 274,
+      "company": "IQVIA Holdings",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 6,
+      "adapter": "discovery",
+      "careers_url": "javascript:;",
+      "error": null
+    },
+    "united-rentals": {
+      "rank": 279,
+      "company": "United Rentals",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.unitedrentals.com",
+      "error": null
+    },
+    "bitgo-holdings": {
+      "rank": 278,
+      "company": "Bitgo Holdings",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "dte-energy": {
+      "rank": 285,
+      "company": "DTE Energy",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.dteenergy.com/us/en/residential/about-dte/careers/careers.html",
+      "error": null
+    },
+    "ecolab": {
+      "rank": 280,
+      "company": "Ecolab",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.ecolab.com/global/en",
+      "error": null
+    },
+    "illinois-tool-works": {
+      "rank": 281,
+      "company": "Illinois Tool Works",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.itw.com/careers/",
+      "error": null
+    },
+    "casey-s-general-stores": {
+      "rank": 282,
+      "company": "Casey's General Stores",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://caseys.com/careers",
+      "error": null
+    },
+    "raymond-james-financial": {
+      "rank": 283,
+      "company": "Raymond James Financial",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://raymondjames.com/careers",
+      "error": null
+    },
+    "corning": {
+      "rank": 286,
+      "company": "Corning",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.corning.com/worldwide/en/careers.html",
+      "error": null
+    },
+    "principal-financial": {
+      "rank": 287,
+      "company": "Principal Financial",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.principal.com/careers-home",
+      "error": null
+    },
+    "mutual-of-omaha": {
+      "rank": 288,
+      "company": "Mutual of Omaha",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "ppg-industries": {
+      "rank": 284,
+      "company": "PPG Industries",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.ppg.com/en-US/about-ppg/careers-at-ppg",
+      "error": null
+    },
+    "kohl-s": {
+      "rank": 289,
+      "company": "Kohl's",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://kohls.com/careers",
+      "error": null
+    },
+    "ally-financial": {
+      "rank": 295,
+      "company": "Ally Financial",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.ally.com/about/careers/",
+      "error": null
+    },
+    "tractor-supply": {
+      "rank": 290,
+      "company": "Tractor Supply",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://tractorsupply.com/careers",
+      "error": null
+    },
+    "builders-firstsource": {
+      "rank": 296,
+      "company": "Builders FirstSource",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.bldr.com/join-our-team",
+      "error": null
+    },
+    "whirlpool": {
+      "rank": 291,
+      "company": "Whirlpool",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://hirlpoolcorp.com/careers",
+      "error": null
+    },
+    "kenvue": {
+      "rank": 299,
+      "company": "Kenvue",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.kenvue.com/careers",
+      "error": null
+    },
+    "fluor": {
+      "rank": 292,
+      "company": "Fluor",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.fluor.com/careers",
+      "error": null
+    },
+    "gap": {
+      "rank": 293,
+      "company": "Gap",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.gapinc.com/en-us/careers",
+      "error": null
+    },
+    "stanley-black-decker": {
+      "rank": 298,
+      "company": "Stanley Black & Decker",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.stanleyblackanddecker.com/search?keys=Careers&psi=1",
+      "error": null
+    },
+    "echostar": {
+      "rank": 302,
+      "company": "EchoStar",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://echostar.com/careers",
+      "error": null
+    },
+    "s-p-global": {
+      "rank": 294,
+      "company": "S&P Global",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.spglobal.com/en/explore-s-p-global/careers",
+      "error": null
+    },
+    "diamondback-energy": {
+      "rank": 301,
+      "company": "Diamondback Energy",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.diamondbackenergy.com/careers",
+      "error": null
+    },
+    "firstenergy": {
+      "rank": 307,
+      "company": "FirstEnergy",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.firstenergycorp.com/fehome.html",
+      "error": null
+    },
+    "w-r-berkley": {
+      "rank": 305,
+      "company": "W.R. Berkley",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.berkley.com/about-us/careers",
+      "error": null
+    },
+    "markel-group": {
+      "rank": 270,
+      "company": "Markel Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://mklgroup.com/careers",
+      "error": null
+    },
+    "expedia-group": {
+      "rank": 304,
+      "company": "Expedia Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.expediagroup.com/",
+      "error": null
+    },
+    "sonic-automotive": {
+      "rank": 297,
+      "company": "Sonic Automotive",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.sonicautomotive.com/",
+      "error": null
+    },
+    "xcel-energy": {
+      "rank": 306,
+      "company": "Xcel Energy",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://xcelenergy.com/careers",
+      "error": null
+    },
+    "regeneron-pharmaceuticals": {
+      "rank": 314,
+      "company": "Regeneron Pharmaceuticals",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.regeneron.com/",
+      "error": null
+    },
+    "textron": {
+      "rank": 303,
+      "company": "Textron",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.textron.com",
+      "error": null
+    },
+    "borgwarner": {
+      "rank": 316,
+      "company": "BorgWarner",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 1,
+      "adapter": "discovery",
+      "careers_url": "https://www.borgwarner.com/careers",
+      "error": null
+    },
+    "otis-worldwide": {
+      "rank": 312,
+      "company": "Otis Worldwide",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "javascript:void(0);",
+      "error": null
+    },
+    "kyndryl-holdings": {
+      "rank": 300,
+      "company": "Kyndryl Holdings",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.kyndryl.com/us/en/careers",
+      "error": null
+    },
+    "erie-insurance-group": {
+      "rank": 308,
+      "company": "Erie Insurance Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://erieinsurance.com/careers",
+      "error": null
+    },
+    "first-citizens-bancshares": {
+      "rank": 309,
+      "company": "First Citizens BancShares",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.firstcitizens.com/personal/insights/career",
+      "error": null
+    },
+    "amentum-holdings": {
+      "rank": 313,
+      "company": "Amentum Holdings",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "fidelity-national-financial": {
+      "rank": 311,
+      "company": "Fidelity National Financial",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://fnf.com/Careers",
+      "error": null
+    },
+    "viatris": {
+      "rank": 318,
+      "company": "Viatris",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 1,
+      "adapter": "discovery",
+      "careers_url": "https://www.viatris.com/en/careers",
+      "error": null
+    },
+    "brightspring-health-services": {
+      "rank": 323,
+      "company": "BrightSpring Health Services",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.brightspringhealth.com/careers/",
+      "error": null
+    },
+    "alaska-air-group": {
+      "rank": 322,
+      "company": "Alaska Air Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://alaskaair.com/careers",
+      "error": null
+    },
+    "est-e-lauder": {
+      "rank": 315,
+      "company": "Estée Lauder",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.elcompanies.com/en/careers",
+      "error": null
+    },
+    "northern-trust": {
+      "rank": 317,
+      "company": "Northern Trust",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 1,
+      "adapter": "discovery",
+      "careers_url": "https://www.northerntrust.com/united-states/about-us/careers",
+      "error": null
+    },
+    "csx": {
+      "rank": 324,
+      "company": "CSX",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://fa-eowa-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CSXCareers",
+      "error": null
+    },
+    "lkq": {
+      "rank": 325,
+      "company": "LKQ",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://lkqcorp.com/culture-and-careers/",
+      "error": null
+    },
+    "mastec": {
+      "rank": 319,
+      "company": "MasTec",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://mastec.com/careers.html",
+      "error": null
+    },
+    "reliance": {
+      "rank": 320,
+      "company": "Reliance",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.reliance.com/",
+      "error": null
+    },
+    "eversource-energy": {
+      "rank": 332,
+      "company": "Eversource Energy",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.eversource.com/residential/about/our-company/careers",
+      "error": null
+    },
+    "western-southern-financial-group": {
+      "rank": 321,
+      "company": "Western & Southern Financial Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://esternsouthern.com/careers",
+      "error": null
+    },
+    "arthur-j-gallagher": {
+      "rank": 327,
+      "company": "Arthur J. Gallagher",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://ajg.com/careers",
+      "error": null
+    },
+    "venture-global": {
+      "rank": 328,
+      "company": "Venture Global",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "labcorp-holdings": {
+      "rank": 326,
+      "company": "Labcorp Holdings",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.labcorp.com/global/en",
+      "error": null
+    },
+    "servicenow": {
+      "rank": 333,
+      "company": "ServiceNow",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.servicenow.com/university/training-and-certification.html",
+      "error": null
+    },
+    "m-t-bank": {
+      "rank": 334,
+      "company": "M&T Bank",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.mtb.com/homepage/careers/employee-experience/volunteering",
+      "error": null
+    },
+    "henry-schein": {
+      "rank": 335,
+      "company": "Henry Schein",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.henryschein.com/us-en/Corporate/Career/Default.aspx?hsi_domain=www.henryschein.com&hsi_locale=us-en",
+      "error": null
+    },
+    "entergy": {
+      "rank": 340,
+      "company": "Entergy",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.entergy.com",
+      "error": null
+    },
+    "doordash": {
+      "rank": 329,
+      "company": "DoorDash",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://doordash.com/careers",
+      "error": null
+    },
+    "davita": {
+      "rank": 331,
+      "company": "DaVita",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.davita.com/",
+      "error": null
+    },
+    "unum-group": {
+      "rank": 338,
+      "company": "Unum Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://unumgroup.com/careers",
+      "error": null
+    },
+    "sempra": {
+      "rank": 330,
+      "company": "Sempra",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://sempra.com/careers",
+      "error": null
+    },
+    "alcoa": {
+      "rank": 344,
+      "company": "Alcoa",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.alcoa.com/careers/en",
+      "error": null
+    },
+    "gxo-logistics": {
+      "rank": 336,
+      "company": "GXO Logistics",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://gxo.com/careers/",
+      "error": null
+    },
+    "graybar-electric": {
+      "rank": 342,
+      "company": "Graybar Electric",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.graybar.com/careers",
+      "error": null
+    },
+    "fifth-third-bancorp": {
+      "rank": 341,
+      "company": "Fifth Third Bancorp",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.53.com/content/fifth-third/en/personal-banking/borrowing-basics/college-savings-plan.html",
+      "error": null
+    },
+    "cincinnati-financial": {
+      "rank": 348,
+      "company": "Cincinnati Financial",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.cinfin.com/cincinnati-insurance-careers",
+      "error": null
+    },
+    "intercontinental-exchange": {
+      "rank": 347,
+      "company": "Intercontinental Exchange",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.ice.com/careers",
+      "error": null
+    },
+    "ball": {
+      "rank": 337,
+      "company": "Ball",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://ball.com/careers",
+      "error": null
+    },
+    "dxc-technology": {
+      "rank": 343,
+      "company": "DXC Technology",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 8,
+      "adapter": "discovery",
+      "careers_url": "https://careers.dxc.com/",
+      "error": null
+    },
+    "huntington-ingalls-industries": {
+      "rank": 352,
+      "company": "Huntington Ingalls Industries",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.hii.com/careers",
+      "error": null
+    },
+    "las-vegas-sands": {
+      "rank": 339,
+      "company": "Las Vegas Sands",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.sands.com/company/careers/",
+      "error": null
+    },
+    "chewy": {
+      "rank": 349,
+      "company": "Chewy",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://chewy.com/careers",
+      "error": null
+    },
+    "ulta-beauty": {
+      "rank": 355,
+      "company": "Ulta Beauty",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.ulta.com/careers/",
+      "error": null
+    },
+    "assurant": {
+      "rank": 345,
+      "company": "Assurant",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 2,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.assurant.com/en/",
+      "error": null
+    },
+    "ryder-system": {
+      "rank": 346,
+      "company": "Ryder System",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.ryder.com/en-us/careers",
+      "error": null
+    },
+    "huntington-bancshares": {
+      "rank": 350,
+      "company": "Huntington Bancshares",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://huntington-careers.com/search/searchjobs",
+      "error": null
+    },
+    "aes": {
+      "rank": 358,
+      "company": "AES",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.aes.com/about-us/careers",
+      "error": null
+    },
+    "norfolk-southern": {
+      "rank": 359,
+      "company": "Norfolk Southern",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://norfolksouthern.com/",
+      "error": null
+    },
+    "airbnb": {
+      "rank": 357,
+      "company": "Airbnb",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 2,
+      "adapter": "discovery",
+      "careers_url": "https://airbnb.com/careers",
+      "error": null
+    },
+    "hormel-foods": {
+      "rank": 363,
+      "company": "Hormel Foods",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 8,
+      "adapter": "discovery",
+      "careers_url": "https://www.hormelfoods.com/careers/",
+      "error": null
+    },
+    "crown-holdings": {
+      "rank": 356,
+      "company": "Crown Holdings",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 1,
+      "adapter": "discovery",
+      "careers_url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/",
+      "error": null
+    },
+    "citizens-financial-group": {
+      "rank": 365,
+      "company": "Citizens Financial Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.citizensbank.com/student/overview.aspx",
+      "error": null
+    },
+    "community-health-systems": {
+      "rank": 350,
+      "company": "Community Health Systems",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.chs.net/careers",
+      "error": null
+    },
+    "wayfair": {
+      "rank": 353,
+      "company": "Wayfair",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://ayfair.com/careers",
+      "error": null
+    },
+    "lumen-technologies": {
+      "rank": 354,
+      "company": "Lumen Technologies",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.lumen.com",
+      "error": null
+    },
+    "kla": {
+      "rank": 361,
+      "company": "KLA",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 2,
+      "adapter": "discovery",
+      "careers_url": "https://www.kla.com/careers/events",
+      "error": null
+    },
+    "expand-energy": {
+      "rank": 362,
+      "company": "Expand Energy",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "public-service-enterprise-group": {
+      "rank": 360,
+      "company": "Public Service Enterprise Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://pseg.com/careers",
+      "error": null
+    },
+    "mosaic": {
+      "rank": 366,
+      "company": "Mosaic",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://mosaicco.com/Careers",
+      "error": null
+    },
+    "darden-restaurants": {
+      "rank": 364,
+      "company": "Darden Restaurants",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.darden.com/careers",
+      "error": null
+    },
+    "hilton-worldwide-holdings": {
+      "rank": 367,
+      "company": "Hilton Worldwide Holdings",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "chipotle-mexican-grill": {
+      "rank": 374,
+      "company": "Chipotle Mexican Grill",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.chipotle.com/",
+      "error": null
+    },
+    "vertex-pharmaceuticals": {
+      "rank": 370,
+      "company": "Vertex Pharmaceuticals",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.vrtx.com/stories/future-bright-learning-labs-inspire-stem-careers-across-globe/",
+      "error": null
+    },
+    "booz-allen-hamilton-holding": {
+      "rank": 372,
+      "company": "Booz Allen Hamilton Holding",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "jacobs-solutions": {
+      "rank": 369,
+      "company": "Jacobs Solutions",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.jacobs.com/en_US/careers",
+      "error": null
+    },
+    "air-products-chemicals": {
+      "rank": 368,
+      "company": "Air Products & Chemicals",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://airproducts.com/careers",
+      "error": null
+    },
+    "avis-budget-group": {
+      "rank": 380,
+      "company": "Avis Budget Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.avisbudgetgroup.jobs",
+      "error": null
+    },
+    "williams": {
+      "rank": 373,
+      "company": "Williams",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://illiams.com/careers",
+      "error": null
+    },
+    "oscar-health": {
+      "rank": 376,
+      "company": "Oscar Health",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.hioscar.com/careers",
+      "error": null
+    },
+    "yum-china-holdings": {
+      "rank": 375,
+      "company": "Yum China Holdings",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://yumchina.com/careers",
+      "error": null
+    },
+    "motorola-solutions": {
+      "rank": 378,
+      "company": "Motorola Solutions",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 14,
+      "adapter": "discovery",
+      "careers_url": "https://www.motorolasolutions.com/en_us/about/careers.html",
+      "error": null
+    },
+    "conagra-brands": {
+      "rank": 381,
+      "company": "Conagra Brands",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.conagrabrands.com/",
+      "error": null
+    },
+    "hershey": {
+      "rank": 377,
+      "company": "Hershey",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.thehersheycompany.com/",
+      "error": null
+    },
+    "keycorp": {
+      "rank": 386,
+      "company": "KeyCorp",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.key.com/personal/index.html#checking-0-4",
+      "error": null
+    },
+    "equitable-holdings": {
+      "rank": 379,
+      "company": "Equitable Holdings",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://equitableholdings.com/careers",
+      "error": null
+    },
+    "caesars-entertainment": {
+      "rank": 384,
+      "company": "Caesars Entertainment",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://caesars.com/careers",
+      "error": null
+    },
+    "thrivent-financial": {
+      "rank": 387,
+      "company": "Thrivent Financial",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "burlington-stores": {
+      "rank": 383,
+      "company": "Burlington Stores",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://burlingtonstores.jobs/?vs=2850&utm_source=burlington%20shopping%20website-de&utm_medium=other&utm_campaign=burlington%20shopping%20website",
+      "error": null
+    },
+    "owens-corning": {
+      "rank": 385,
+      "company": "Owens Corning",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://owenscorning.com/careers",
+      "error": null
+    },
+    "westlake": {
+      "rank": 388,
+      "company": "Westlake",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://estlake.com/careers",
+      "error": null
+    },
+    "westinghouse-air-brake": {
+      "rank": 389,
+      "company": "Westinghouse Air Brake",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "quest-diagnostics": {
+      "rank": 395,
+      "company": "Quest Diagnostics",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.questdiagnostics.com/our-company/actions-insights/2024-blogs/from-college-to-career-experiencing-the-building-blocks-of-professional-success-.html",
+      "error": null
+    },
+    "molson-coors-beverage": {
+      "rank": 390,
+      "company": "Molson Coors Beverage",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.molsoncoors.com/careers",
+      "error": null
+    },
+    "j-b-hunt-transport-services": {
+      "rank": 371,
+      "company": "J.B. Hunt Transport Services",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 1,
+      "adapter": "discovery",
+      "careers_url": "https://careers.jbhunt.com",
+      "error": null
+    },
+    "expeditors-intl-of-washington": {
+      "rank": 394,
+      "company": "Expeditors Intl. of Washington",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "fm": {
+      "rank": 392,
+      "company": "FM",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.fm.com/careers-home/",
+      "error": null
+    },
+    "lululemon-athletica": {
+      "rank": 391,
+      "company": "Lululemon athletica",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://lululemon.com/careers",
+      "error": null
+    },
+    "andersons": {
+      "rank": 397,
+      "company": "Andersons",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.andersonsinc.com/careers/",
+      "error": null
+    },
+    "analog-devices": {
+      "rank": 396,
+      "company": "Analog Devices",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 13,
+      "adapter": "discovery",
+      "careers_url": "https://analog.com/careers",
+      "error": null
+    },
+    "jefferies-financial-group": {
+      "rank": 402,
+      "company": "Jefferies Financial Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.jefferies.com/",
+      "error": null
+    },
+    "toll-brothers": {
+      "rank": 399,
+      "company": "Toll Brothers",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.tollcareercenter.com/",
+      "error": null
+    },
+    "mohawk-industries": {
+      "rank": 404,
+      "company": "Mohawk Industries",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.mohawkind.com/",
+      "error": null
+    },
+    "delek-us-holdings": {
+      "rank": 405,
+      "company": "Delek US Holdings",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://delekus.com/careers/jobs-delekus-com/default.aspx",
+      "error": null
+    },
+    "gold-com": {
+      "rank": 398,
+      "company": "Gold.com",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "baxter-international": {
+      "rank": 382,
+      "company": "Baxter International",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.baxter.com/careers",
+      "error": null
+    },
+    "autoliv": {
+      "rank": 403,
+      "company": "Autoliv",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.autoliv.com/careers",
+      "error": null
+    },
+    "fidelity-national-information-fis": {
+      "rank": 406,
+      "company": "Fidelity National Information (FIS)",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "welltower": {
+      "rank": 401,
+      "company": "Welltower",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://elltower.com/careers",
+      "error": null
+    },
+    "accendra-health": {
+      "rank": 407,
+      "company": "Accendra Health",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "international-flavors-fragrances": {
+      "rank": 400,
+      "company": "International Flavors & Fragrances",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://iff.com/careers",
+      "error": null
+    },
+    "oshkosh": {
+      "rank": 411,
+      "company": "Oshkosh",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.oshkoshcorp.com/careers",
+      "error": null
+    },
+    "cintas": {
+      "rank": 412,
+      "company": "Cintas",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.cintas.com/careers",
+      "error": null
+    },
+    "interactive-brokers-group": {
+      "rank": 410,
+      "company": "Interactive Brokers Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 2,
+      "adapter": "discovery",
+      "careers_url": "https://www.interactivebrokers.com/en/general/about/careers-splash.php?menu=B",
+      "error": null
+    },
+    "ebay": {
+      "rank": 393,
+      "company": "Ebay",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://ebay.com/careers",
+      "error": null
+    },
+    "constellation-brands": {
+      "rank": 416,
+      "company": "Constellation Brands",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.cbrands.com/pages/careers",
+      "error": null
+    },
+    "american-tower": {
+      "rank": 408,
+      "company": "American Tower",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://americantower.com/careers",
+      "error": null
+    },
+    "campbell-s": {
+      "rank": 413,
+      "company": "Campbell's",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 7,
+      "adapter": "discovery",
+      "careers_url": "https://careers.thecampbellscompany.com/",
+      "error": null
+    },
+    "nvr": {
+      "rank": 409,
+      "company": "NVR",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "http://www.nvrcareers.com/",
+      "error": null
+    },
+    "vertiv-holdings": {
+      "rank": 414,
+      "company": "Vertiv Holdings",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.vertiv.com/en-us/about/career-center/",
+      "error": null
+    },
+    "concentrix": {
+      "rank": 423,
+      "company": "Concentrix",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.concentrix.com/",
+      "error": null
+    },
+    "intuitive-surgical": {
+      "rank": 418,
+      "company": "Intuitive Surgical",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://intuitive.com/careers",
+      "error": null
+    },
+    "global-payments": {
+      "rank": 415,
+      "company": "Global Payments",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://globalpaymentsinc.com/careers",
+      "error": null
+    },
+    "biogen": {
+      "rank": 421,
+      "company": "Biogen",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.biogen.com/careers.html",
+      "error": null
+    },
+    "agco": {
+      "rank": 417,
+      "company": "AGCO",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.agcocorp.com/",
+      "error": null
+    },
+    "regions-financial": {
+      "rank": 428,
+      "company": "Regions Financial",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://regions.com/careers",
+      "error": null
+    },
+    "thor-industries": {
+      "rank": 429,
+      "company": "Thor Industries",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.thorindustries.com:443/careers",
+      "error": null
+    },
+    "ace-hardware": {
+      "rank": 419,
+      "company": "Ace Hardware",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.acehardware.com/careers",
+      "error": null
+    },
+    "news-corp": {
+      "rank": 422,
+      "company": "News Corp.",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.newscorp.com",
+      "error": null
+    },
+    "vf": {
+      "rank": 425,
+      "company": "VF",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://vfc.com/careers",
+      "error": null
+    },
+    "dana": {
+      "rank": 420,
+      "company": "Dana",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://dana.com/careers",
+      "error": null
+    },
+    "wec-energy-group": {
+      "rank": 424,
+      "company": "WEC Energy Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://eastcoastpetro.com/about/careers/",
+      "error": null
+    },
+    "icahn-enterprises": {
+      "rank": 427,
+      "company": "Icahn Enterprises",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://ielp.com/careers",
+      "error": null
+    },
+    "equinix": {
+      "rank": 436,
+      "company": "Equinix",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.equinix.com/homepage",
+      "error": null
+    },
+    "zoetis": {
+      "rank": 434,
+      "company": "Zoetis",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.zoetis.com/join-us/careers-at-zoetis",
+      "error": null
+    },
+    "seaboard": {
+      "rank": 426,
+      "company": "Seaboard",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.seaboardcorp.com/working-at-seaboard/",
+      "error": null
+    },
+    "apa": {
+      "rank": 438,
+      "company": "APA",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://apacorp.com/careers/",
+      "error": null
+    },
+    "qvc-group": {
+      "rank": 433,
+      "company": "QVC Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.qvcgrp.com",
+      "error": null
+    },
+    "old-republic-international": {
+      "rank": 439,
+      "company": "Old Republic International",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://oldrepublic.com/about/careers",
+      "error": null
+    },
+    "ppl": {
+      "rank": 442,
+      "company": "PPL",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.pplweb.com/",
+      "error": null
+    },
+    "workday": {
+      "rank": 430,
+      "company": "Workday",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://orkday.com/careers",
+      "error": null
+    },
+    "celanese": {
+      "rank": 431,
+      "company": "Celanese",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://celanese.com/careers",
+      "error": null
+    },
+    "packaging-corp-of-america": {
+      "rank": 445,
+      "company": "Packaging Corp. of America",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.packagingcorp.com/",
+      "error": null
+    },
+    "western-digital": {
+      "rank": 432,
+      "company": "Western Digital",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://esterndigital.com/careers",
+      "error": null
+    },
+    "centerpoint-energy": {
+      "rank": 435,
+      "company": "CenterPoint Energy",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.centerpointenergy.com/",
+      "error": null
+    },
+    "avery-dennison": {
+      "rank": 448,
+      "company": "Avery Dennison",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.averydennison.com/en/home.html",
+      "error": null
+    },
+    "ovintiv": {
+      "rank": 447,
+      "company": "Ovintiv",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.ovintiv.com/careers/",
+      "error": null
+    },
+    "comfort-systems-usa": {
+      "rank": 440,
+      "company": "Comfort Systems USA",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "sprouts-farmers-market": {
+      "rank": 450,
+      "company": "Sprouts Farmers Market",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.sprouts.com/careers/",
+      "error": null
+    },
+    "arista-networks": {
+      "rank": 444,
+      "company": "Arista Networks",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "jetblue-airways": {
+      "rank": 441,
+      "company": "JetBlue Airways",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.jetblue.com/",
+      "error": null
+    },
+    "eastman-chemical": {
+      "rank": 453,
+      "company": "Eastman Chemical",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.eastman.com/en#Careers",
+      "error": null
+    },
+    "abm-industries": {
+      "rank": 454,
+      "company": "ABM Industries",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.abm.com/careers/roles/hourly",
+      "error": null
+    },
+    "xylem": {
+      "rank": 443,
+      "company": "Xylem",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 2,
+      "adapter": "discovery",
+      "careers_url": "https://www.xylem.com/en-us/careers/",
+      "error": null
+    },
+    "prologis": {
+      "rank": 451,
+      "company": "Prologis",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.prologis.com:443/about/careers",
+      "error": null
+    },
+    "pvh": {
+      "rank": 446,
+      "company": "PVH",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.pvh.com/global/en?utm_source=pvh&utm_medium=navigation_header&utm_campaign=careers",
+      "error": null
+    },
+    "securian-financial-group": {
+      "rank": 457,
+      "company": "Securian Financial Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.securian.com/about-us/careers.html",
+      "error": null
+    },
+    "palo-alto-networks": {
+      "rank": 437,
+      "company": "Palo Alto Networks",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 10,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.paloaltonetworks.com/en/",
+      "error": null
+    },
+    "caci-international": {
+      "rank": 459,
+      "company": "CACI International",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.caci.com/",
+      "error": null
+    },
+    "sirius-xm-holdings": {
+      "rank": 463,
+      "company": "Sirius XM Holdings",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.siriusxm.com/channels/carries-country",
+      "error": null
+    },
+    "advance-auto-parts": {
+      "rank": 461,
+      "company": "Advance Auto Parts",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.advanceautoparts.com/",
+      "error": null
+    },
+    "transdigm-group": {
+      "rank": 449,
+      "company": "TransDigm Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.transdigm.com/2025/06/02/transdigm-event-uplifts-students-with-insight-and-opportunity/",
+      "error": null
+    },
+    "franklin-resources": {
+      "rank": 452,
+      "company": "Franklin Resources",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://franklinresources.com/careers",
+      "error": null
+    },
+    "nov": {
+      "rank": 455,
+      "company": "NOV",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.nov.com/careers",
+      "error": null
+    },
+    "eqt": {
+      "rank": 458,
+      "company": "EQT",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "graphic-packaging-holding": {
+      "rank": 460,
+      "company": "Graphic Packaging Holding",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "optimum-communications": {
+      "rank": 462,
+      "company": "Optimum Communications",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "rockwell-automation": {
+      "rank": 467,
+      "company": "Rockwell Automation",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 5,
+      "adapter": "discovery",
+      "careers_url": "https://rockwellautomation.com/careers",
+      "error": null
+    },
+    "hertz-global-holdings": {
+      "rank": 465,
+      "company": "Hertz Global Holdings",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "ameren": {
+      "rank": 466,
+      "company": "Ameren",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "solventum": {
+      "rank": 468,
+      "company": "Solventum",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.solventum.com/en-us/home/our-company/careers/",
+      "error": null
+    },
+    "insight-enterprises": {
+      "rank": 472,
+      "company": "Insight Enterprises",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.insight.com/en_US/content-and-resources/case-studies/christopher-newport-university-pioneers-immersive-ai-for-arts.html",
+      "error": null
+    },
+    "nasdaq": {
+      "rank": 470,
+      "company": "Nasdaq",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "monster-beverage": {
+      "rank": 469,
+      "company": "Monster Beverage",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.monsterenergy.com/en-us/careers/",
+      "error": null
+    },
+    "howmet-aerospace": {
+      "rank": 471,
+      "company": "Howmet Aerospace",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://howmet.com/careers",
+      "error": null
+    },
+    "american-financial-group": {
+      "rank": 478,
+      "company": "American Financial Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 3,
+      "adapter": "discovery",
+      "careers_url": "https://www.greatamericaninsurancegroup.com/job-seekers",
+      "error": null
+    },
+    "yum-brands": {
+      "rank": 474,
+      "company": "Yum Brands",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.yum.com/wps/portal/yumbrands/Yumbrands/",
+      "error": null
+    },
+    "fastenal": {
+      "rank": 475,
+      "company": "Fastenal",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://fastenal.com/careers",
+      "error": null
+    },
+    "marvell-technology": {
+      "rank": 476,
+      "company": "Marvell Technology",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "zimmer-biomet-holdings": {
+      "rank": 473,
+      "company": "Zimmer Biomet Holdings",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://cvent.me/9ow8LG",
+      "error": null
+    },
+    "taylor-morrison-home": {
+      "rank": 483,
+      "company": "Taylor Morrison Home",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://taylormorrison.com/careers",
+      "error": null
+    },
+    "voya-financial": {
+      "rank": 477,
+      "company": "Voya Financial",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://voya.com/careers",
+      "error": null
+    },
+    "vulcan-materials": {
+      "rank": 485,
+      "company": "Vulcan Materials",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.vulcanmaterials.com/work-for-vulcan",
+      "error": null
+    },
+    "post-holdings": {
+      "rank": 479,
+      "company": "Post Holdings",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.postholdings.com/careers-home",
+      "error": null
+    },
+    "kbr": {
+      "rank": 488,
+      "company": "KBR",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.kbr.com/",
+      "error": null
+    },
+    "xpo": {
+      "rank": 480,
+      "company": "XPO",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://xpo.com/careers",
+      "error": null
+    },
+    "dover": {
+      "rank": 484,
+      "company": "Dover",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.dovercorporation.com/about-us/careers/",
+      "error": null
+    },
+    "sanmina": {
+      "rank": 482,
+      "company": "Sanmina",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.sanmina.com/careers",
+      "error": null
+    },
+    "api-group": {
+      "rank": 486,
+      "company": "APi Group",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "roper-technologies": {
+      "rank": 487,
+      "company": "Roper Technologies",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "sonoco-products": {
+      "rank": 489,
+      "company": "Sonoco Products",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "commercial-metals": {
+      "rank": 491,
+      "company": "Commercial Metals",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.cmc.com/en-us/landing-pages/cmc-careers",
+      "error": null
+    },
+    "moody-s": {
+      "rank": 492,
+      "company": "Moody's",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "continental-resources": {
+      "rank": 493,
+      "company": "Continental Resources",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "cms-energy": {
+      "rank": 464,
+      "company": "CMS Energy",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.cmsenergy.com/careers/default.aspx",
+      "error": null
+    },
+    "williams-sonoma": {
+      "rank": 490,
+      "company": "Williams-Sonoma",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://illiams-sonomainc.com/careers",
+      "error": null
+    },
+    "ingersoll-rand": {
+      "rank": 494,
+      "company": "Ingersoll Rand",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "core-main": {
+      "rank": 495,
+      "company": "Core & Main",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.coreandmain.com/",
+      "error": null
+    },
+    "coterra-energy": {
+      "rank": 496,
+      "company": "Coterra Energy",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "primoris-services": {
+      "rank": 497,
+      "company": "Primoris Services",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "somnigroup-international": {
+      "rank": 499,
+      "company": "Somnigroup International",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "resideo-technologies": {
+      "rank": 500,
+      "company": "Resideo Technologies",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "no-career-source",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    "masco": {
+      "rank": 498,
+      "company": "Masco",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://jobs.masco.com/us/en",
+      "error": null
+    },
+    "dupont": {
+      "rank": 481,
+      "company": "DuPont",
+      "checked_at": "2026-06-19T07:42:09Z",
+      "status": "ok",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.dupont.com",
+      "error": null
+    }
+  }
+}

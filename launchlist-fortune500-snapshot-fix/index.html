@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="A focused Fortune 500 internship tracker for 2029 graduates across technology, product, analytics, consulting, operations, IT, and wealth management." />
+  <meta name="theme-color" content="#0a1020" />
+  <title>LaunchList — 2029 Internship Tracker</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="LaunchList home">
+      <span class="brand-mark">L</span>
+      <span>LaunchList</span>
+    </a>
+    <nav class="header-actions" aria-label="Primary">
+      <button class="text-button" id="savedViewButton" type="button">Saved <span id="savedCount">0</span></button>
+      <a class="outline-button" href="feed.xml" target="_blank" rel="noopener">RSS feed</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="eyebrow"><span class="live-dot"></span> Direct employer postings · 2029 eligible</div>
+      <h1>Find the internship<br /><span>before everyone else.</span></h1>
+      <p class="hero-copy">Fortune 500 internships and pre-internships matched to tech consulting, product, software engineering, wealth management, analytics, IT, operations, and digital transformation.</p>
+      <div class="hero-meta">
+        <div><strong id="heroJobCount">—</strong><span>eligible openings</span></div>
+        <div><strong id="heroCompanyCount">—</strong><span>companies in scan queue</span></div>
+        <div><strong id="lastUpdated">Loading…</strong><span>last automated check</span></div>
+      </div>
+    </section>
+
+    <section class="tracker-shell" aria-label="Opportunity tracker">
+      <div class="toolbar">
+        <label class="search-box" for="searchInput">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 21-4.35-4.35m2.35-5.65a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg>
+          <input id="searchInput" type="search" placeholder="Search company, role, skill, or city" autocomplete="off" />
+          <kbd>/</kbd>
+        </label>
+        <button class="filter-toggle" id="filterToggle" type="button" aria-expanded="false">Filters <span id="activeFilterCount">0</span></button>
+      </div>
+
+      <div class="role-strip" id="roleStrip" aria-label="Role filters"></div>
+
+      <div class="filter-panel" id="filterPanel" hidden>
+        <label>Opportunity type
+          <select id="typeFilter">
+            <option value="">All types</option>
+            <option value="Internship">Internship</option>
+            <option value="Pre-internship">Pre-internship</option>
+            <option value="Co-op">Co-op</option>
+          </select>
+        </label>
+        <label>Region
+          <select id="regionFilter">
+            <option value="">All regions</option>
+            <option value="United States">United States</option>
+            <option value="Global">Outside U.S.</option>
+            <option value="Remote">Remote</option>
+          </select>
+        </label>
+        <label>Graduation rule
+          <select id="gradFilter">
+            <option value="">All accepted rules</option>
+            <option value="2029 eligible">Explicitly includes 2029</option>
+            <option value="No graduation year listed">No year listed</option>
+          </select>
+        </label>
+        <label>Sort by
+          <select id="sortFilter">
+            <option value="newest">Newest first</option>
+            <option value="deadline">Deadline soonest</option>
+            <option value="company">Company A–Z</option>
+            <option value="match">Best match</option>
+          </select>
+        </label>
+        <label class="checkbox-row"><input id="freshmanFilter" type="checkbox" /> Freshman / sophomore friendly</label>
+        <label class="checkbox-row"><input id="savedOnlyFilter" type="checkbox" /> Saved only</label>
+        <button class="clear-button" id="clearFilters" type="button">Clear all</button>
+      </div>
+
+      <div class="results-header">
+        <div>
+          <span id="resultCount">0</span> opportunities
+          <span class="muted" id="newCount"></span>
+        </div>
+        <div class="verification-note"><span>✓</span> Graduation requirement screened</div>
+      </div>
+
+      <section class="coverage-panel" aria-label="Fortune 500 scan coverage">
+        <div class="coverage-heading">
+          <div><span class="coverage-kicker">Scanner coverage</span><strong>Every company stays in the queue until checked.</strong></div>
+          <span class="coverage-source" id="directorySource">Directory loading…</span>
+        </div>
+        <div class="coverage-grid">
+          <div><strong id="coverageQueued">—</strong><span>companies queued</span></div>
+          <div><strong id="coverageScanned">—</strong><span>checked in 24h</span></div>
+          <div><strong id="coverageFailed">—</strong><span>failed / blocked in 24h</span></div>
+          <div><strong id="coverageMatched">—</strong><span>companies with matches</span></div>
+          <div><strong id="coverageCycle">—</strong><span>estimated full cycle</span></div>
+        </div>
+        <p id="coverageDisclosure">Coverage appears after the deployed updater runs. A company is not presented as checked merely because its name is in the directory.</p>
+      </section>
+
+      <div class="job-grid" id="jobGrid" aria-live="polite"></div>
+      <div class="empty-state" id="emptyState" hidden>
+        <div class="empty-icon">⌕</div>
+        <h2>No matching openings</h2>
+        <p>Broaden a filter or clear your search. The tracker will add newly eligible roles during its next automated update.</p>
+        <button class="primary-button" id="emptyClearButton" type="button">Clear filters</button>
+      </div>
+    </section>
+
+    <section class="methodology">
+      <div>
+        <p class="section-kicker">Built for a 2029 graduate</p>
+        <h2>No buried graduation-year surprises.</h2>
+      </div>
+      <div class="rules-grid">
+        <article><span>01</span><h3>Official links only</h3><p>Every apply button points to the employer’s own career site or official applicant-tracking system.</p></article>
+        <article><span>02</span><h3>Strict eligibility screen</h3><p>A role stays only when 2029 is allowed, the range reaches 2029, the requirement says “or later,” or no graduation year is stated.</p></article>
+        <article><span>03</span><h3>All 500 in rotation</h3><p>The hourly automation scans 50 companies at a time, completing an estimated full pass in about 10 hours while recording blocked and failed sources.</p></article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div><strong>LaunchList</strong><span>Focused opportunity intelligence.</span></div>
+    <p>The queue covers 500 companies, but career-site outages and anti-bot controls can prevent a successful check. Always re-check the official posting before applying.</p>
+  </footer>
+
+  <template id="jobCardTemplate">
+    <article class="job-card">
+      <div class="card-topline">
+        <div class="company-logo" aria-hidden="true"></div>
+        <div class="company-block"><div class="company-name"></div><div class="fortune-label">FORTUNE 500</div></div>
+        <button class="save-button" type="button" aria-label="Save opportunity"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3.75h12a.75.75 0 0 1 .75.75v16.2l-6.3-3.94a.85.85 0 0 0-.9 0l-6.3 3.94V4.5A.75.75 0 0 1 6 3.75Z"/></svg></button>
+      </div>
+      <h2 class="job-title"></h2>
+      <div class="job-meta"></div>
+      <p class="job-summary"></p>
+      <div class="tag-row"></div>
+      <div class="eligibility-box"><span class="shield">✓</span><div><strong class="eligibility-title"></strong><span class="eligibility-detail"></span></div></div>
+      <div class="card-footer">
+        <div class="date-block"><span class="date-label"></span><strong class="date-value"></strong></div>
+        <a class="apply-button" target="_blank" rel="noopener noreferrer">View posting <span>↗</span></a>
+      </div>
+    </article>
+  </template>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
