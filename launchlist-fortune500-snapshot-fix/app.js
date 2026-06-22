@@ -143,6 +143,8 @@ function renderCard(job) {
 
   card.querySelector(".company-logo").textContent = titleCaseInitials(job.company);
   card.querySelector(".company-name").textContent = job.company;
+  const companyLabel = card.querySelector(".fortune-label");
+  companyLabel.textContent = job.fortune_500 === false ? "ADDED COMPANY" : "FORTUNE 500";
   card.querySelector(".job-title").textContent = job.title;
   card.querySelector(".job-meta").textContent = `${job.location || "Location not listed"} · ${job.opportunity_type || "Internship"}`;
   card.querySelector(".job-summary").textContent = job.summary || "Review the official posting for full responsibilities and qualifications.";
@@ -227,7 +229,7 @@ async function loadJobs() {
     const warningCount = Array.isArray(payload.directory_warnings) ? payload.directory_warnings.length : 0;
     els.coverageDisclosure.textContent = scanned
       ? `${scanned} of ${queued || 500} companies were actually checked during the last 24 hours.${warningCount ? ` ${warningCount} directory warning${warningCount === 1 ? "" : "s"} recorded.` : ""}`
-      : "The packaged sample has not run the live 500-company scanner yet. Deploy the included GitHub Action to populate real scan coverage.";
+      : "The packaged sample has not run the live company scanner yet. Deploy the included GitHub Action to populate real scan coverage.";
     els.lastUpdated.textContent = relativeTime(payload.updated_at);
     document.title = `${state.jobs.length} eligible openings — LaunchList`;
     render();
