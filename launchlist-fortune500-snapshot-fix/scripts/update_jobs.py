@@ -350,7 +350,8 @@ def normalize_job(*, source: dict[str, Any], title: str, description: str, locat
     return {
         "id": stable_id(source["company"], external_id, url),
         "source_key": source["key"],
-        "fortune_rank": source.get("rank"),
+        "fortune_rank": source.get("rank") if source.get("fortune_500", True) else None,
+        "fortune_500": bool(source.get("fortune_500", True)),
         "company": source["company"],
         "title": clean_text(title),
         "location": clean_text(location) or "Location not listed",
@@ -912,10 +913,13 @@ class Fetcher:
 
     def discover_career_pages(self, company: dict[str, Any]) -> list[str]:
         domain = company.get("domain", "")
+        configured = company.get("careers_urls") or company.get("careers_url") or []
+        if isinstance(configured, str):
+            configured = [configured]
+        candidates: list[str] = [url for url in configured if isinstance(url, str) and url.startswith("http")]
         if not domain:
-            return []
-        seeds = [f"https://{domain}", f"https://www.{domain}"]
-        candidates: list[str] = []
+            return list(dict.fromkeys(candidates))[:8]
+        seeds = [*candidates, f"https://{domain}", f"https://www.{domain}"]
         for seed in seeds:
             try:
                 response = self.request("GET", seed, timeout=12)
@@ -1082,7 +1086,7 @@ def choose_companies(directory: list[dict[str, Any]], state: dict[str, Any], bat
         key=lambda c: (
             checked_time(c),
             0 if c["key"] in priority_keys else 1,
-            c["rank"],
+            c.get("queue_order", c.get("rank") or 9999),
         ),
     )
     return ordered[:batch_size]
@@ -1136,7 +1140,7 @@ def write_feed(jobs: list[dict[str, Any]]) -> None:
     </item>""")
     FEED_PATH.write_text(f"""<?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0"><channel>
-<title>LaunchList — 2029-Eligible Fortune 500 Internships</title>
+<title>LaunchList — 2029-Eligible Internships</title>
 <link>https://example.github.io/launchlist/</link>
 <description>Official internship postings screened for 2029 graduation eligibility.</description>
 <lastBuildDate>{NOW.strftime('%a, %d %b %Y %H:%M:%S +0000')}</lastBuildDate>
@@ -1148,7 +1152,7 @@ def write_feed(jobs: list[dict[str, Any]]) -> None:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true")
-    parser.add_argument("--full-sweep", action="store_true", help="Scan all 500 companies in one run")
+    parser.add_argument("--full-sweep", action="store_true", help="Scan every company in the queue in one run")
     parser.add_argument("--refresh-directory-only", action="store_true")
     parser.add_argument("--source", action="append", help="Company key or rank; may be repeated")
     parser.add_argument("--batch-size", type=int)
@@ -1163,15 +1167,40 @@ def main() -> int:
     except Exception as exc:
         logging.error("Company directory refresh failed: %s", exc)
         return 2
-    companies = directory_payload.get("companies", [])
-    if len(companies) != 500:
-        logging.error("Refusing to claim Fortune 500 coverage: directory contains %d records", len(companies))
+    fortune_companies = directory_payload.get("companies", [])
+    if len(fortune_companies) != 500:
+        logging.error("Refusing to claim Fortune 500 coverage: directory contains %d records", len(fortune_companies))
         return 2
     if args.refresh_directory_only:
         print(json.dumps({k: v for k, v in directory_payload.items() if k != "companies"}, indent=2))
         return 0
 
     overrides = load_overrides()
+    companies = [
+        {**company, "fortune_500": True, "queue_order": company.get("rank", 9999)}
+        for company in fortune_companies
+    ]
+
+    # Add enabled non-Fortune companies from config/companies.json without
+    # weakening the separate verification that the official Fortune directory
+    # contains exactly 500 companies.
+    existing_names = {normalize_company_name(company["company"]) for company in companies}
+    for record in overrides.values():
+        if record.get("fortune_500", True) is not False:
+            continue
+        normalized = normalize_company_name(record.get("company", ""))
+        if not normalized or normalized in existing_names:
+            continue
+        companies.append({
+            "key": record["key"],
+            "company": record["company"],
+            "rank": None,
+            "fortune_500": False,
+            "queue_order": len(companies) + 1,
+            "domain": record.get("domain", ""),
+        })
+        existing_names.add(normalized)
+
     # Match overrides to refreshed company names when their historical key differs.
     override_by_name = {normalize_company_name(v.get("company", "")): v for v in overrides.values()}
     for company in companies:
@@ -1183,7 +1212,8 @@ def main() -> int:
     scan_state = read_json(SCAN_STATE_PATH, {"companies": {}})
     batch_size = args.batch_size or int(config.get("hourly_batch_size", 35))
     selected = choose_companies(companies, scan_state, batch_size, args.full_sweep, set(args.source or []), set(overrides))
-    logging.info("Scanning %d of 500 companies this run", len(selected))
+    total_companies = len(companies)
+    logging.info("Scanning %d of %d companies this run", len(selected), total_companies)
 
     results: list[ScanResult] = []
     workers = min(int(config.get("company_workers", 6)), max(1, len(selected)))
@@ -1196,7 +1226,8 @@ def main() -> int:
             except Exception as exc:
                 result = ScanResult(company, [], "error", error=str(exc)[:350])
             results.append(result)
-            logging.info("#%-3s %-28s %-16s %3d matches", company.get("rank", ""), company["company"][:28], result.status, len(result.jobs))
+            rank_label = company.get("rank") if company.get("fortune_500", True) else "ADD"
+            logging.info("#%-3s %-28s %-16s %3d matches", rank_label or "", company["company"][:28], result.status, len(result.jobs))
 
     existing = read_existing()
     fresh_jobs = [job for result in results for job in result.jobs]
@@ -1237,7 +1268,8 @@ def main() -> int:
         "updated_at": utc_iso(),
         "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed",
         "fortune500_year": directory_payload.get("year"),
-        "fortune500_company_count": 500,
+        "fortune500_company_count": len(fortune_companies),
+        "custom_company_count": len(companies) - len(fortune_companies),
         "companies_in_scan_queue": len(companies),
         "directory_source": directory_payload.get("source"),
         "directory_warnings": directory_payload.get("refresh_warnings", []),
@@ -1246,7 +1278,7 @@ def main() -> int:
         "companies_scanned_last_24h": scanned_24h,
         "companies_failed_last_24h": failed_24h,
         "companies_with_eligible_jobs": len({job["source_key"] for job in jobs}),
-        "estimated_full_cycle_hours": round(500 / max(1, batch_size), 1),
+        "estimated_full_cycle_hours": round(len(companies) / max(1, batch_size), 1),
         "opportunity_count": len(jobs),
         "opportunities": jobs,
     }
@@ -1258,7 +1290,7 @@ def main() -> int:
     DATA_PATH.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     SCAN_STATE_PATH.write_text(json.dumps(scan_state, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     write_feed(jobs)
-    logging.info("Wrote %d eligible opportunities; %d/500 companies scanned in the last 24h", len(jobs), scanned_24h)
+    logging.info("Wrote %d eligible opportunities; %d/%d companies scanned in the last 24h", len(jobs), scanned_24h, len(companies))
     return 0
 
 
