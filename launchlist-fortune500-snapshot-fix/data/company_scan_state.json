@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-30T04:42:50Z",
+  "updated_at": "2026-06-30T08:43:12Z",
   "companies": {
     "walmart": {
       "rank": 2,
@@ -24,12 +24,12 @@
     "dell": {
       "rank": 41,
       "company": "Dell Technologies",
-      "checked_at": "2026-06-30T04:42:50Z",
-      "status": "ok",
+      "checked_at": "2026-06-30T08:43:12Z",
+      "status": "error",
       "eligible_jobs": 0,
       "adapter": "workday",
       "careers_url": null,
-      "error": null
+      "error": "Failed request: https://dell.wd1.myworkdayjobs.com/wday/cxs/dell/External/jobs: HTTPSConnectionPool(host='dell.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=18)"
     },
     "mastercard": {
       "rank": 141,
@@ -124,12 +124,12 @@
     "smucker": {
       "rank": 456,
       "company": "J.M. Smucker",
-      "checked_at": "2026-06-30T04:42:50Z",
-      "status": "ok",
-      "eligible_jobs": 6,
+      "checked_at": "2026-06-30T08:43:12Z",
+      "status": "error",
+      "eligible_jobs": 0,
       "adapter": "workday",
       "careers_url": null,
-      "error": null
+      "error": "Failed request: https://smucker.wd5.myworkdayjobs.com/wday/cxs/smucker/US_External_Careers/jobs: HTTPSConnectionPool(host='smucker.wd5.myworkdayjobs.com', port=443): Read timed out. (read timeout=18)"
     },
     "costco-wholesale": {
       "rank": 13,
@@ -1144,7 +1144,7 @@
     "cbre-group": {
       "rank": 118,
       "company": "CBRE Group",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1154,7 +1154,7 @@
     "dow": {
       "rank": 120,
       "company": "Dow",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1194,17 +1194,17 @@
     "visa": {
       "rank": 119,
       "company": "Visa",
-      "checked_at": "2026-06-28T19:53:13Z",
-      "status": "ok",
+      "checked_at": "2026-06-30T08:43:12Z",
+      "status": "error",
       "eligible_jobs": 0,
       "adapter": "discovery",
-      "careers_url": "https://visa.com/careers",
-      "error": null
+      "careers_url": null,
+      "error": "Failed request: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs: HTTPSConnectionPool(host='visa.wd5.myworkdayjobs.com', port=443): Read timed out. (read timeout=18)"
     },
     "philip-morris-international": {
       "rank": 117,
       "company": "Philip Morris International",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "no-career-source",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1214,7 +1214,7 @@
     "micron-technology": {
       "rank": 125,
       "company": "Micron Technology",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1224,7 +1224,7 @@
     "lithia-motors": {
       "rank": 123,
       "company": "Lithia Motors",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1234,7 +1234,7 @@
     "us-foods-holding": {
       "rank": 121,
       "company": "US Foods Holding",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "no-career-source",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1244,17 +1244,17 @@
     "warner-bros-discovery": {
       "rank": 126,
       "company": "Warner Bros. Discovery",
-      "checked_at": "2026-06-28T19:53:13Z",
-      "status": "ok",
-      "eligible_jobs": 2,
+      "checked_at": "2026-06-30T08:43:12Z",
+      "status": "error",
+      "eligible_jobs": 0,
       "adapter": "discovery",
-      "careers_url": "https://jobs.bd.com/",
-      "error": null
+      "careers_url": null,
+      "error": "Failed request: https://bdx.wd1.myworkdayjobs.com/wday/cxs/bdx/EXTERNAL_CAREER_SITE_USA/jobs: HTTPSConnectionPool(host='bdx.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=18)"
     },
     "mondelez-international": {
       "rank": 122,
       "company": "Mondelez International",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "no-career-source",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1264,7 +1264,7 @@
     "advanced-micro-devices": {
       "rank": 131,
       "company": "Advanced Micro Devices",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1274,7 +1274,7 @@
     "chs": {
       "rank": 130,
       "company": "CHS",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1284,7 +1284,7 @@
     "coupang": {
       "rank": 132,
       "company": "Coupang",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1294,7 +1294,7 @@
     "starbucks": {
       "rank": 127,
       "company": "Starbucks",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1304,7 +1304,7 @@
     "d-r-horton": {
       "rank": 134,
       "company": "D.R. Horton",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1314,9 +1314,9 @@
     "ge-vernova": {
       "rank": 124,
       "company": "GE Vernova",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
-      "eligible_jobs": 11,
+      "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://careers.gevernova.com",
       "error": null
@@ -1334,17 +1334,17 @@
     "amgen": {
       "rank": 129,
       "company": "Amgen",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
-      "eligible_jobs": 4,
+      "eligible_jobs": 0,
       "adapter": "discovery",
-      "careers_url": "http://careers.amgen.com/",
+      "careers_url": "https://amgen.com/careers",
       "error": null
     },
     "world-kinect": {
       "rank": 128,
       "company": "World Kinect",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1354,7 +1354,7 @@
     "paypal-holdings": {
       "rank": 139,
       "company": "PayPal Holdings",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1374,17 +1374,17 @@
     "oneok": {
       "rank": 138,
       "company": "Oneok",
-      "checked_at": "2026-06-28T19:53:13Z",
-      "status": "ok",
+      "checked_at": "2026-06-30T08:43:12Z",
+      "status": "error",
       "eligible_jobs": 0,
       "adapter": "discovery",
-      "careers_url": "https://www.oneok.com/careers",
-      "error": null
+      "careers_url": null,
+      "error": "Failed request: https://oneok.wd1.myworkdayjobs.com/wday/cxs/oneok/ONEOK/jobs: HTTPSConnectionPool(host='oneok.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=18)"
     },
     "hewlett-packard-enterprise": {
       "rank": 133,
       "company": "Hewlett Packard Enterprise",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "no-career-source",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1394,7 +1394,7 @@
     "apollo-global-management": {
       "rank": 143,
       "company": "Apollo Global Management",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1404,7 +1404,7 @@
     "nucor": {
       "rank": 142,
       "company": "Nucor",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1414,7 +1414,7 @@
     "cummins": {
       "rank": 137,
       "company": "Cummins",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1424,7 +1424,7 @@
     "pnc-financial-services-group": {
       "rank": 136,
       "company": "PNC Financial Services Group",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "no-career-source",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1434,7 +1434,7 @@
     "lennar": {
       "rank": 135,
       "company": "Lennar",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1444,7 +1444,7 @@
     "guidewell-mutual-holding": {
       "rank": 140,
       "company": "GuideWell Mutual Holding",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "no-career-source",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1454,27 +1454,27 @@
     "duke-energy": {
       "rank": 145,
       "company": "Duke Energy",
-      "checked_at": "2026-06-28T21:38:27Z",
-      "status": "ok",
+      "checked_at": "2026-06-30T08:43:12Z",
+      "status": "error",
       "eligible_jobs": 0,
       "adapter": "discovery",
-      "careers_url": "https://www.duke-energy.com/our-company/careers",
-      "error": null
+      "careers_url": null,
+      "error": "Failed request: https://dukeenergy.wd1.myworkdayjobs.com/wday/cxs/dukeenergy/search/jobs: HTTPSConnectionPool(host='dukeenergy.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=18)"
     },
     "truist-financial": {
       "rank": 150,
       "company": "Truist Financial",
-      "checked_at": "2026-06-28T21:38:27Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
-      "careers_url": "https://careers.truist.com/",
+      "careers_url": "https://truist.com/careers",
       "error": null
     },
     "ferguson-enterprises": {
       "rank": 147,
       "company": "Ferguson Enterprises",
-      "checked_at": "2026-06-28T21:38:27Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "no-career-source",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1484,7 +1484,7 @@
     "united-natural-foods": {
       "rank": 146,
       "company": "United Natural Foods",
-      "checked_at": "2026-06-28T21:38:27Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1494,17 +1494,17 @@
     "jabil": {
       "rank": 151,
       "company": "Jabil",
-      "checked_at": "2026-06-28T21:38:27Z",
-      "status": "ok",
-      "eligible_jobs": 7,
+      "checked_at": "2026-06-30T08:43:12Z",
+      "status": "error",
+      "eligible_jobs": 0,
       "adapter": "discovery",
-      "careers_url": "https://careers.jabil.com/",
-      "error": null
+      "careers_url": null,
+      "error": "Failed request: https://jabil.wd5.myworkdayjobs.com/wday/cxs/jabil/Jabil_Careers/jobs: HTTPSConnectionPool(host='jabil.wd5.myworkdayjobs.com', port=443): Read timed out. (read timeout=18)"
     },
     "penske-automotive-group": {
       "rank": 144,
       "company": "Penske Automotive Group",
-      "checked_at": "2026-06-28T19:53:13Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1514,7 +1514,7 @@
     "kkr": {
       "rank": 156,
       "company": "KKR",
-      "checked_at": "2026-06-28T21:38:27Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1524,7 +1524,7 @@
     "arrow-electronics": {
       "rank": 148,
       "company": "Arrow Electronics",
-      "checked_at": "2026-06-28T21:38:27Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1534,17 +1534,17 @@
     "gilead-sciences": {
       "rank": 153,
       "company": "Gilead Sciences",
-      "checked_at": "2026-06-28T21:38:27Z",
-      "status": "ok",
+      "checked_at": "2026-06-30T08:43:12Z",
+      "status": "error",
       "eligible_jobs": 0,
       "adapter": "discovery",
-      "careers_url": "https://www.gilead.com/careers",
-      "error": null
+      "careers_url": null,
+      "error": "Failed request: https://gilead.wd1.myworkdayjobs.com/wday/cxs/gilead/gileadcareers/jobs: HTTPSConnectionPool(host='gilead.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=18)"
     },
     "nrg-energy": {
       "rank": 149,
       "company": "NRG Energy",
-      "checked_at": "2026-06-28T21:38:27Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1554,17 +1554,17 @@
     "pbf-energy": {
       "rank": 154,
       "company": "PBF Energy",
-      "checked_at": "2026-06-28T21:38:27Z",
-      "status": "ok",
+      "checked_at": "2026-06-30T08:43:12Z",
+      "status": "error",
       "eligible_jobs": 0,
       "adapter": "discovery",
-      "careers_url": "https://www.pbfenergy.com/careers/",
-      "error": null
+      "careers_url": null,
+      "error": "Failed request: https://pbfenergy.wd1.myworkdayjobs.com/wday/cxs/pbfenergy/PBF/jobs: HTTPSConnectionPool(host='pbfenergy.wd1.myworkdayjobs.com', port=443): Read timed out. (read timeout=18)"
     },
     "quanta-services": {
       "rank": 157,
       "company": "Quanta Services",
-      "checked_at": "2026-06-28T21:38:27Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1574,7 +1574,7 @@
     "southern": {
       "rank": 152,
       "company": "Southern",
-      "checked_at": "2026-06-28T21:38:27Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1584,7 +1584,7 @@
     "paramount-skydance": {
       "rank": 155,
       "company": "Paramount Skydance",
-      "checked_at": "2026-06-28T21:38:27Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "no-career-source",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1594,7 +1594,7 @@
     "baker-hughes": {
       "rank": 164,
       "company": "Baker Hughes",
-      "checked_at": "2026-06-28T21:38:27Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1604,17 +1604,17 @@
     "hartford-insurance-group": {
       "rank": 160,
       "company": "Hartford Insurance Group",
-      "checked_at": "2026-06-28T21:38:27Z",
-      "status": "ok",
+      "checked_at": "2026-06-30T08:43:12Z",
+      "status": "error",
       "eligible_jobs": 0,
       "adapter": "discovery",
-      "careers_url": "https://www.thehartford.com/careers",
-      "error": null
+      "careers_url": null,
+      "error": "Failed request: https://thehartford.wd5.myworkdayjobs.com/wday/cxs/thehartford/Careers_External/jobs: HTTPSConnectionPool(host='thehartford.wd5.myworkdayjobs.com', port=443): Read timed out. (read timeout=18)"
     },
     "charles-schwab": {
       "rank": 165,
       "company": "Charles Schwab",
-      "checked_at": "2026-06-28T21:38:27Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1624,7 +1624,7 @@
     "carmax": {
       "rank": 162,
       "company": "CarMax",
-      "checked_at": "2026-06-28T21:38:27Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1644,7 +1644,7 @@
     "medline": {
       "rank": 159,
       "company": "Medline",
-      "checked_at": "2026-06-28T21:38:27Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "no-career-source",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1654,7 +1654,7 @@
     "applied-materials": {
       "rank": 160,
       "company": "Applied Materials",
-      "checked_at": "2026-06-28T21:38:27Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1664,7 +1664,7 @@
     "paccar": {
       "rank": 158,
       "company": "Paccar",
-      "checked_at": "2026-06-28T21:38:27Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
@@ -1674,7 +1674,7 @@
     "southwest-airlines": {
       "rank": 163,
       "company": "Southwest Airlines",
-      "checked_at": "2026-06-28T21:38:27Z",
+      "checked_at": "2026-06-30T08:43:12Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
