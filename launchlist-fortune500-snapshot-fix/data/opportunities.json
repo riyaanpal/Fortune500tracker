@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T07:23:00Z",
+  "updated_at": "2026-07-20T08:23:51Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed",
   "fortune500_year": 2026,
   "fortune500_company_count": 500,
@@ -9,10 +9,10 @@
   "directory_warnings": [
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-07-20T07:19:55Z",
+  "directory_refreshed_at": "2026-07-20T08:19:33Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 509,
-  "companies_failed_last_24h": 49,
+  "companies_failed_last_24h": 44,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "3m",
@@ -32,7 +32,7 @@
       "rank": 407,
       "company": "Accendra Health",
       "fortune_500": true,
-      "checked_at": "2026-07-19T19:40:35Z",
+      "checked_at": "2026-07-20T08:23:51Z",
       "status": "no-career-source",
       "issue_type": "No careers source found",
       "eligible_jobs": 0,
@@ -67,29 +67,16 @@
       "error": null
     },
     {
-      "key": "arista-networks",
-      "rank": 444,
-      "company": "Arista Networks",
-      "fortune_500": true,
-      "checked_at": "2026-07-19T21:14:55Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
-    },
-    {
       "key": "bank-of-america",
       "rank": 20,
       "company": "Bank of America",
       "fortune_500": true,
-      "checked_at": "2026-07-19T21:14:55Z",
+      "checked_at": "2026-07-20T08:23:51Z",
       "status": "error",
       "issue_type": "Scan error",
       "eligible_jobs": 0,
       "adapter": "discovery",
-      "careers_url": null,
+      "careers_url": "https://careers.bankofamerica.com/en-us/students/job-search?ref=search&search=getAllJobs&start=0&rows=10",
       "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
     },
     {
@@ -132,37 +119,11 @@
       "error": null
     },
     {
-      "key": "citigroup",
-      "rank": 24,
-      "company": "Citigroup",
-      "fortune_500": true,
-      "checked_at": "2026-07-19T21:14:55Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
-    },
-    {
       "key": "cognizant-technology-solutions",
       "rank": 216,
       "company": "Cognizant Technology Solutions",
       "fortune_500": true,
       "checked_at": "2026-07-20T01:02:56Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
-    },
-    {
-      "key": "comfort-systems-usa",
-      "rank": 440,
-      "company": "Comfort Systems USA",
-      "fortune_500": true,
-      "checked_at": "2026-07-19T21:14:55Z",
       "status": "no-career-source",
       "issue_type": "No careers source found",
       "eligible_jobs": 0,
@@ -405,19 +366,6 @@
       "error": null
     },
     {
-      "key": "meta-platforms",
-      "rank": 17,
-      "company": "Meta Platforms",
-      "fortune_500": true,
-      "checked_at": "2026-07-19T21:14:55Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
-    },
-    {
       "key": "mondelez-international",
       "rank": 122,
       "company": "Mondelez International",
@@ -637,24 +585,11 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": null
-    },
-    {
-      "key": "verizon-communications",
-      "rank": 28,
-      "company": "Verizon Communications",
-      "fortune_500": true,
-      "checked_at": "2026-07-19T21:14:55Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
     }
   ],
-  "companies_with_eligible_jobs": 37,
+  "companies_with_eligible_jobs": 40,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 167,
+  "opportunity_count": 176,
   "opportunities": [
     {
       "id": "jones-lang-lasalle-9f87652f1b24",
@@ -2149,6 +2084,34 @@
       "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Krakow-Poland/Java-Intern_R66047",
       "external_id": "R66047",
       "verified_at": "2026-07-20T07:20:27Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-274a95767313",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Ukraine Internship Program - 2026",
+      "location": "KYIV Ukraine",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst"
+      ],
+      "tags": [
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Empowering Ukraine's Future Leaders in Finance At Citi, we believe in unlocking potential and fostering growth. We are excited to introduce the Citi Ukraine Internship Program, a unique one-year opportunity designed to empower talented, ambitious individuals in Ukraine",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-06-29",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/KYIV-Ukraine/Ukraine-Internship-Program---2026_25929484",
+      "external_id": "25929484",
+      "verified_at": "2026-07-20T08:20:40Z",
       "match_score": 85
     },
     {
@@ -3649,7 +3612,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Quality-Assurance-Intern--Fall-2026---Orrville--OH_115378",
       "external_id": "115378",
-      "verified_at": "2026-07-20T07:20:07Z",
+      "verified_at": "2026-07-20T08:19:42Z",
       "match_score": 85
     },
     {
@@ -3679,7 +3642,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Fall-2026_115124",
       "external_id": "115124",
-      "verified_at": "2026-07-20T07:20:07Z",
+      "verified_at": "2026-07-20T08:19:43Z",
       "match_score": 85
     },
     {
@@ -3706,7 +3669,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_114837",
       "external_id": "114837",
-      "verified_at": "2026-07-20T07:20:07Z",
+      "verified_at": "2026-07-20T08:19:42Z",
       "match_score": 85
     },
     {
@@ -3733,7 +3696,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Management-Intern--Spring-2027---Orrville--OH_114833",
       "external_id": "114833",
-      "verified_at": "2026-07-20T07:20:08Z",
+      "verified_at": "2026-07-20T08:19:42Z",
       "match_score": 85
     },
     {
@@ -3760,7 +3723,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Management-Intern--Fall-2026---Orrville--OH_115347",
       "external_id": "115347",
-      "verified_at": "2026-07-20T07:20:07Z",
+      "verified_at": "2026-07-20T08:19:42Z",
       "match_score": 85
     },
     {
@@ -3788,7 +3751,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-07-20T07:20:07Z",
+      "verified_at": "2026-07-20T08:19:42Z",
       "match_score": 85
     },
     {
@@ -4154,35 +4117,59 @@
       "match_score": 85
     },
     {
-      "id": "campbell-s-b565845bae72",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
+      "id": "comfort-systems-usa-ac56728d510c",
+      "source_key": "comfort-systems-usa",
+      "fortune_rank": 440,
       "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Modeling and Visualization Engineer Co-Op",
-      "location": "USA - PA - Hanover",
+      "company": "Comfort Systems USA",
+      "title": "Operational Finance Intern",
+      "location": "Houston, TX (TAS-Cullen HQ)",
       "region": "United States",
-      "opportunity_type": "Co-op",
+      "opportunity_type": "Internship",
       "categories": [
         "Business analyst"
       ],
       "tags": [
-        "SQL",
         "Excel",
-        "Tableau",
-        "Power BI",
-        "Cloud"
+        "Product",
+        "Operations",
+        "Finance"
       ],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
+      "summary": "POSITION OVERVIEW: The Operational Finance Intern will support the Operations Finance team with day-to-day financial operations, including data entry, account reconciliations, and basic financial reporting. This role provides hands-on experience in a professional operations…",
       "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-01-30",
       "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---PA---Hanover/Modeling-and-Visualization-Engineer-Co-Op_Req-65847",
-      "external_id": "Req-65847",
-      "verified_at": "2026-07-19T19:37:48Z",
+      "url": "https://comfortsystemsusa.wd1.myworkdayjobs.com/Corpcareers/job/Houston-TX-TAS-Cullen-HQ/Operational-Finance-Intern_JR105392-1",
+      "external_id": "JR105392",
+      "verified_at": "2026-07-20T08:20:24Z",
       "match_score": 85
+    },
+    {
+      "id": "citigroup-58bd9a3ee85b",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "2025 Wealth Management Summer Internship, Dubai, UAE (UAE Nationals preferred)",
+      "location": "Dubai United Arab Emirates",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management"
+      ],
+      "tags": [],
+      "summary": "The ten week summer analyst program starts in June and begins with an introduction to Citi and Corporate Banking. You will then join a team where you will gain a real-hands on experience by working on a number of live projects as well as attending speaker presentations",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ntations. High performing summer analysts will be considered for a full time position in 2026 after graduation. Your time here will look something like this... Supporting…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Dubai-United-Arab-Emirates/XMLNAME-2025-Wealth-Management-Summer-Internship--Dubai--UAE--UAE-Nationals-preferred-_25820546",
+      "external_id": "25820546",
+      "verified_at": "2026-07-20T08:20:41Z",
+      "match_score": 90
     },
     {
       "id": "campbell-s-e2eb221a04d7",
@@ -4212,32 +4199,38 @@
       "deadline": null,
       "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---PA---Hanover/Modeling-and-Visualization-Engineer-Co-Op_Req-65846",
       "external_id": "Req-65846",
-      "verified_at": "2026-07-19T19:37:48Z",
+      "verified_at": "2026-07-20T08:20:26Z",
       "match_score": 85
     },
     {
-      "id": "campbell-s-85c9705dabae",
+      "id": "campbell-s-b565845bae72",
       "source_key": "campbell-s",
       "fortune_rank": 413,
       "fortune_500": true,
       "company": "Campbell's",
-      "title": "Data Science Intern",
-      "location": "USA - NJ - Camden",
+      "title": "Modeling and Visualization Engineer Co-Op",
+      "location": "USA - PA - Hanover",
       "region": "United States",
-      "opportunity_type": "Internship",
+      "opportunity_type": "Co-op",
       "categories": [
-        "Data analyst"
+        "Business analyst"
       ],
-      "tags": [],
+      "tags": [
+        "SQL",
+        "Excel",
+        "Tableau",
+        "Power BI",
+        "Cloud"
+      ],
       "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
       "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
       "freshman_friendly": false,
       "posted_date": "2026-01-30",
       "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Science-Intern_Req-65844",
-      "external_id": "Req-65844",
-      "verified_at": "2026-07-19T19:37:48Z",
+      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---PA---Hanover/Modeling-and-Visualization-Engineer-Co-Op_Req-65847",
+      "external_id": "Req-65847",
+      "verified_at": "2026-07-20T08:20:26Z",
       "match_score": 85
     },
     {
@@ -4262,7 +4255,32 @@
       "deadline": null,
       "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Science-Intern_Req-65845",
       "external_id": "Req-65845",
-      "verified_at": "2026-07-19T19:37:48Z",
+      "verified_at": "2026-07-20T08:20:25Z",
+      "match_score": 85
+    },
+    {
+      "id": "campbell-s-85c9705dabae",
+      "source_key": "campbell-s",
+      "fortune_rank": 413,
+      "fortune_500": true,
+      "company": "Campbell's",
+      "title": "Data Science Intern",
+      "location": "USA - NJ - Camden",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst"
+      ],
+      "tags": [],
+      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Science-Intern_Req-65844",
+      "external_id": "Req-65844",
+      "verified_at": "2026-07-20T08:20:26Z",
       "match_score": 85
     },
     {
@@ -4293,7 +4311,7 @@
       "deadline": null,
       "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---Remote/Business-Analyst--Co-op---DA-AI_Req-65915",
       "external_id": "Req-65915",
-      "verified_at": "2026-07-19T19:37:48Z",
+      "verified_at": "2026-07-20T08:20:25Z",
       "match_score": 85
     },
     {
@@ -4324,7 +4342,7 @@
       "deadline": null,
       "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---Remote/Business-Analyst--Co-op---DA-AI_Req-65913",
       "external_id": "Req-65913",
-      "verified_at": "2026-07-19T19:37:48Z",
+      "verified_at": "2026-07-20T08:20:26Z",
       "match_score": 85
     },
     {
@@ -4355,7 +4373,7 @@
       "deadline": null,
       "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---Remote/Business-Analyst--Co-op---DA-AI_Req-65914",
       "external_id": "Req-65914",
-      "verified_at": "2026-07-19T19:37:49Z",
+      "verified_at": "2026-07-20T08:20:26Z",
       "match_score": 85
     },
     {
@@ -4613,7 +4631,7 @@
       "deadline": null,
       "url": "https://www.pwc.com/us/en/careers/entry-level/internships.html",
       "external_id": null,
-      "verified_at": "2026-07-19T21:11:37Z",
+      "verified_at": "2026-07-20T08:20:38Z",
       "match_score": 85
     },
     {
@@ -4727,7 +4745,7 @@
       "deadline": null,
       "url": "https://www.interactivebrokers.com/campus/podcasts/ibkr-podcasts/inside-ibkrs-internship-program-keys-to-a-successful-career-part-2/",
       "external_id": null,
-      "verified_at": "2026-07-19T19:37:34Z",
+      "verified_at": "2026-07-20T08:20:07Z",
       "match_score": 85
     },
     {
@@ -4755,7 +4773,7 @@
       "deadline": null,
       "url": "https://www.interactivebrokers.com/campus/podcasts/ibkr-podcasts/inside-ibkrs-internship-program-keys-to-a-successful-career-part-1/",
       "external_id": null,
-      "verified_at": "2026-07-19T19:37:33Z",
+      "verified_at": "2026-07-20T08:20:07Z",
       "match_score": 85
     },
     {
@@ -5003,6 +5021,189 @@
       "url": "https://enterpriseproducts.com/careers/early-careers/",
       "external_id": null,
       "verified_at": "2026-07-20T01:00:24Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-07eeb62d3071",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - Technology Consulting, Platforms (Offcycle Jan - Jun 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Show More Intern - Technology Consulting, Platforms (Offcycle Jan - Jun 2027) 1727425 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/8PFHXBNbfm_7yOtXjxoOdQ?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-07-20T08:20:44Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-b673769f22c0",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - Technology Consulting, Data and Artificial Intelligence (Offcycle Jan - Jun 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Cloud",
+        "AI / ML",
+        "Strategy"
+      ],
+      "summary": "Show More Intern - Technology Consulting, Data and Artificial Intelligence (Offcycle Jan - Jun 2027) 1727415 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/xa_YizO3pUghjKUMg3Nm6g?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-07-20T08:20:43Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-2261a1653241",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - Technology Consulting, Business Analyst (Offcycle Jan - Jun 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Business analyst"
+      ],
+      "tags": [
+        "SQL",
+        "AI / ML",
+        "Strategy"
+      ],
+      "summary": "Show More Intern - Technology Consulting, Business Analyst (Offcycle Jan - Jun 2027) 1727422 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/j3XQnY1oS82bWYtwSefNUQ?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-07-20T08:20:44Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-506866a27b17",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - Technology Consulting (Financial Services), Wealth & Asset Management (Jan - Jun 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Business analyst"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Excel",
+        "AI / ML",
+        "Strategy"
+      ],
+      "summary": "Show More Intern - Technology Consulting (Financial Services), Wealth & Asset Management (Jan - Jun 2027) 1727440 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/7TsrqZgm8S7CmWoXRy3BZw?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-07-20T08:20:44Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-3f4afb4e7cd5",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - Campus Talent Acquisition (Off-Cycle Jan - Jun 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy"
+      ],
+      "summary": "Show More Intern - Campus Talent Acquisition (Off-Cycle Jan - Jun 2027) 1727743 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/PLW8CK8qP9KNvwjFJkdSyQ?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-07-20T08:20:43Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-b13b1d90f418",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - Business Consulting, Business Transformation (Offcycle Jan - Jun 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Software engineering",
+        "Product operations",
+        "Product management"
+      ],
+      "tags": [
+        "SQL",
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Show More Intern - Business Consulting, Business Transformation (Offcycle Jan - Jun 2027) 1727427 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/xNDSYx8JAXREiI1GkVzK1A?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-07-20T08:20:43Z",
       "match_score": 85
     },
     {
