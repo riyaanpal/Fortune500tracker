@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T05:00:08Z",
+  "updated_at": "2026-07-20T05:22:15Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed",
   "fortune500_year": 2026,
   "fortune500_company_count": 500,
@@ -9,13 +9,847 @@
   "directory_warnings": [
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-07-20T04:56:34Z",
+  "directory_refreshed_at": "2026-07-20T05:19:29Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 509,
   "companies_failed_last_24h": 64,
+  "failed_or_blocked_companies_last_24h": [
+    {
+      "key": "3m",
+      "rank": 183,
+      "company": "3M",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T17:33:34Z",
+      "status": "error",
+      "issue_type": "Scan error",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://3m.wd1.myworkdayjobs.com/wday/cxs/3m/es/jobs: 404 Client Error: Not Found for url: https://3m.wd1.myworkdayjobs.com/wday/cxs/3m/es/jobs"
+    },
+    {
+      "key": "accendra-health",
+      "rank": 407,
+      "company": "Accendra Health",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T19:40:35Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "aig",
+      "rank": 172,
+      "company": "AIG",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T15:29:26Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "amentum-holdings",
+      "rank": 313,
+      "company": "Amentum Holdings",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T14:01:04Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "ameren",
+      "rank": 466,
+      "company": "Ameren",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T22:15:49Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "api-group",
+      "rank": 486,
+      "company": "APi Group",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T23:18:04Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "arista-networks",
+      "rank": 444,
+      "company": "Arista Networks",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T21:14:55Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "bank-of-america",
+      "rank": 20,
+      "company": "Bank of America",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T21:14:55Z",
+      "status": "error",
+      "issue_type": "Scan error",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
+    },
+    {
+      "key": "bank-of-new-york-bny",
+      "rank": 115,
+      "company": "Bank of New York (BNY)",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:00:08Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "bitgo-holdings",
+      "rank": 278,
+      "company": "Bitgo Holdings",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "booking-holdings",
+      "rank": 169,
+      "company": "Booking Holdings",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T15:29:26Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "booz-allen-hamilton-holding",
+      "rank": 372,
+      "company": "Booz Allen Hamilton Holding",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T17:33:34Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "capital-one-financial",
+      "rank": 63,
+      "company": "Capital One Financial",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T23:18:04Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "citigroup",
+      "rank": 24,
+      "company": "Citigroup",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T21:14:55Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "cognizant-technology-solutions",
+      "rank": 216,
+      "company": "Cognizant Technology Solutions",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T01:02:56Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "comfort-systems-usa",
+      "rank": 440,
+      "company": "Comfort Systems USA",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T21:14:55Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "continental-resources",
+      "rank": 493,
+      "company": "Continental Resources",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T23:18:04Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "costco-wholesale",
+      "rank": 13,
+      "company": "Costco Wholesale",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T19:40:35Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "coterra-energy",
+      "rank": 496,
+      "company": "Coterra Energy",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T23:18:04Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "eqt",
+      "rank": 458,
+      "company": "EQT",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T22:15:49Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "expand-energy",
+      "rank": 362,
+      "company": "Expand Energy",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T15:29:26Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "expeditors-intl-of-washington",
+      "rank": 394,
+      "company": "Expeditors Intl. of Washington",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T19:40:35Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "ferguson-enterprises",
+      "rank": 147,
+      "company": "Ferguson Enterprises",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T14:01:04Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "fidelity-national-information-fis",
+      "rank": 406,
+      "company": "Fidelity National Information (FIS)",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T19:40:35Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "galaxy-digital",
+      "rank": 76,
+      "company": "Galaxy Digital",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T01:02:56Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "gold-com",
+      "rank": 398,
+      "company": "Gold.com",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T19:40:35Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "graphic-packaging-holding",
+      "rank": 460,
+      "company": "Graphic Packaging Holding",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T22:15:49Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "guardian-life-ins-co-of-america",
+      "rank": 232,
+      "company": "Guardian Life Ins. Co. of America",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:00:08Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "guidewell-mutual-holding",
+      "rank": 140,
+      "company": "GuideWell Mutual Holding",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T14:01:04Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "hertz-global-holdings",
+      "rank": 465,
+      "company": "Hertz Global Holdings",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T22:15:49Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "hewlett-packard-enterprise",
+      "rank": 133,
+      "company": "Hewlett Packard Enterprise",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "hilton-worldwide-holdings",
+      "rank": 367,
+      "company": "Hilton Worldwide Holdings",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T17:33:34Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "honeywell-international",
+      "rank": 116,
+      "company": "Honeywell International",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:00:08Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "ingersoll-rand",
+      "rank": 494,
+      "company": "Ingersoll Rand",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T23:18:04Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "ingram-micro-holding",
+      "rank": 90,
+      "company": "Ingram Micro Holding",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T01:02:56Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "jones-financial-edward-jones",
+      "rank": 249,
+      "company": "Jones Financial (Edward Jones)",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:00:08Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "manpowergroup",
+      "rank": 247,
+      "company": "ManpowerGroup",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:00:08Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "marvell-technology",
+      "rank": 476,
+      "company": "Marvell Technology",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T23:18:04Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "massachusetts-mutual-life",
+      "rank": 100,
+      "company": "Massachusetts Mutual Life",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:00:08Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "medline",
+      "rank": 159,
+      "company": "Medline",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T14:01:04Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "meta-platforms",
+      "rank": 17,
+      "company": "Meta Platforms",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T21:14:55Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "mondelez-international",
+      "rank": 122,
+      "company": "Mondelez International",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "moody-s",
+      "rank": 492,
+      "company": "Moody's",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T23:18:04Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "mutual-of-omaha",
+      "rank": 288,
+      "company": "Mutual of Omaha",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T12:12:07Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "nasdaq",
+      "rank": 470,
+      "company": "Nasdaq",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T22:15:49Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "optimum-communications",
+      "rank": 462,
+      "company": "Optimum Communications",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T22:15:49Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "paramount-skydance",
+      "rank": 155,
+      "company": "Paramount Skydance",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T14:01:04Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "philip-morris-international",
+      "rank": 117,
+      "company": "Philip Morris International",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "pnc-financial-services-group",
+      "rank": 136,
+      "company": "PNC Financial Services Group",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "primoris-services",
+      "rank": 497,
+      "company": "Primoris Services",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T23:18:04Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "pultegroup",
+      "rank": 256,
+      "company": "PulteGroup",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "resideo-technologies",
+      "rank": 500,
+      "company": "Resideo Technologies",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T23:18:04Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "roper-technologies",
+      "rank": 487,
+      "company": "Roper Technologies",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T23:18:04Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "somnigroup-international",
+      "rank": 499,
+      "company": "Somnigroup International",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T23:18:04Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "sonoco-products",
+      "rank": 489,
+      "company": "Sonoco Products",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T23:18:04Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "state-farm-insurance",
+      "rank": 32,
+      "company": "State Farm Insurance",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T22:15:49Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "synchrony",
+      "rank": 197,
+      "company": "Synchrony",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T17:33:34Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "thrivent-financial",
+      "rank": 387,
+      "company": "Thrivent Financial",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T17:33:34Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "uber-technologies",
+      "rank": 92,
+      "company": "Uber Technologies",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T01:02:56Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "us-foods-holding",
+      "rank": 121,
+      "company": "US Foods Holding",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "venture-global",
+      "rank": 328,
+      "company": "Venture Global",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T14:01:04Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "verizon-communications",
+      "rank": 28,
+      "company": "Verizon Communications",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T21:14:55Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "walmart",
+      "rank": 2,
+      "company": "Walmart",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T19:40:35Z",
+      "status": "error",
+      "issue_type": "Scan error",
+      "eligible_jobs": 0,
+      "adapter": "workday",
+      "careers_url": null,
+      "error": "Failed request: https://walmart.wd5.myworkdayjobs.com/wday/cxs/walmart/WalmartExternal/jobs: 410 Client Error: Gone for url: https://walmart.wd5.myworkdayjobs.com/wday/cxs/walmart/WalmartExternal/jobs"
+    },
+    {
+      "key": "westinghouse-air-brake",
+      "rank": 389,
+      "company": "Westinghouse Air Brake",
+      "fortune_500": true,
+      "checked_at": "2026-07-19T17:33:34Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    }
+  ],
   "companies_with_eligible_jobs": 37,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 168,
+  "opportunity_count": 167,
   "opportunities": [
     {
       "id": "abbott-laboratories-cc2878f50a91",
@@ -136,6 +970,34 @@
       "match_score": 85
     },
     {
+      "id": "amgen-66030a748268",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "Internship Program – Business & Operations",
+      "location": "Portugal - Lisbon",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst"
+      ],
+      "tags": [
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Career Category Operations Job Description Join our team at AMGEN Capability Center Portugal , consistently recognized among the top companies in the Best Workplaces™ ranking by Great Place to Work® in Portugal. In 2026, we were once again distinguished as one of the top Best…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-17",
+      "deadline": null,
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/Portugal---Lisbon/Internship-Program---Business---Operations_R-245173",
+      "external_id": "R-245173",
+      "verified_at": "2026-07-20T05:20:39Z",
+      "match_score": 85
+    },
+    {
       "id": "rockwell-automation-ccd1b4a3d39f",
       "source_key": "rockwell-automation",
       "fortune_rank": 467,
@@ -242,34 +1104,6 @@
       "match_score": 85
     },
     {
-      "id": "amgen-66030a748268",
-      "source_key": "amgen",
-      "fortune_rank": 129,
-      "fortune_500": true,
-      "company": "Amgen",
-      "title": "Internship Program – Business & Operations",
-      "location": "Portugal - Lisbon",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst"
-      ],
-      "tags": [
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Career Category Operations Job Description Join our team at AMGEN Capability Center Portugal , consistently recognized among the top companies in the Best Workplaces™ ranking by Great Place to Work® in Portugal. In 2026, we were once again distinguished as one of the top Best…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-16",
-      "deadline": null,
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/Portugal---Lisbon/Internship-Program---Business---Operations_R-245173",
-      "external_id": "R-245173",
-      "verified_at": "2026-07-19T12:10:45Z",
-      "match_score": 85
-    },
-    {
       "id": "motorola-solutions-f7fa0d02601e",
       "source_key": "motorola-solutions",
       "fortune_rank": 378,
@@ -330,6 +1164,34 @@
       "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Dubai-United-Arab-Emirates/Pricing--Tender-Analytics---Business-Intelligence-Intern_R-087340",
       "external_id": "R-087340",
       "verified_at": "2026-07-19T19:38:00Z",
+      "match_score": 85
+    },
+    {
+      "id": "ge-vernova-dcbcba156838",
+      "source_key": "ge-vernova",
+      "fortune_rank": 124,
+      "fortune_500": true,
+      "company": "GE Vernova",
+      "title": "Operations Intern",
+      "location": "Bandung",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst"
+      ],
+      "tags": [
+        "Excel",
+        "Operations"
+      ],
+      "summary": "Job Description Summary Job Description Roles and Responsibilities: I. Job Summary The GE Operations Intern will be an integral part of PT GENTS Hot Gas Path (HGP) operations team, contributing to the efficiency and effectiveness of our business processes",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-15",
+      "deadline": null,
+      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Bandung/HGP-Intern_R5044086-2",
+      "external_id": "R5044086",
+      "verified_at": "2026-07-20T05:20:41Z",
       "match_score": 85
     },
     {
@@ -528,34 +1390,6 @@
       "match_score": 85
     },
     {
-      "id": "ge-vernova-dcbcba156838",
-      "source_key": "ge-vernova",
-      "fortune_rank": 124,
-      "fortune_500": true,
-      "company": "GE Vernova",
-      "title": "Operations Intern",
-      "location": "Bandung",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "Job Description Summary Job Description Roles and Responsibilities: I. Job Summary The GE Operations Intern will be an integral part of PT GENTS Hot Gas Path (HGP) operations team, contributing to the efficiency and effectiveness of our business processes",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-14",
-      "deadline": null,
-      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Bandung/HGP-Intern_R5044086-2",
-      "external_id": "R5044086",
-      "verified_at": "2026-07-19T12:10:39Z",
-      "match_score": 85
-    },
-    {
       "id": "ge-aerospace-8dad23fc923f",
       "source_key": "ge-aerospace",
       "fortune_rank": 101,
@@ -581,6 +1415,34 @@
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Rivalta-di-Torino/Internship---HR-Analytics_R5036589",
       "external_id": "R5036589",
       "verified_at": "2026-07-19T19:37:55Z",
+      "match_score": 85
+    },
+    {
+      "id": "ge-vernova-1ccd57f6dd2a",
+      "source_key": "ge-vernova",
+      "fortune_rank": 124,
+      "fortune_500": true,
+      "company": "GE Vernova",
+      "title": "MEA Engineering Intern - TareeGE",
+      "location": "Dubai",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Software engineering"
+      ],
+      "tags": [
+        "Excel",
+        "Operations"
+      ],
+      "summary": "Job Description Summary One-year TareeGE - MEA Engineering Intern role that focuses on regional engineering operations across the Middle East & Africa (MEA) region with the possibility of extension up to one year. The Engineering trainee will support and progressively take…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-13",
+      "deadline": null,
+      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Dubai/MEA-Engineering-Intern_R5047039-2",
+      "external_id": "R5047039",
+      "verified_at": "2026-07-20T05:20:42Z",
       "match_score": 85
     },
     {
@@ -662,34 +1524,6 @@
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Jacksonville/Unison-Engineering-Intern---Fall-2027_R5037092-1",
       "external_id": "R5037092",
       "verified_at": "2026-07-19T19:37:55Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-vernova-1ccd57f6dd2a",
-      "source_key": "ge-vernova",
-      "fortune_rank": 124,
-      "fortune_500": true,
-      "company": "GE Vernova",
-      "title": "MEA Engineering Intern - TareeGE",
-      "location": "Dubai",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Software engineering"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "Job Description Summary One-year TareeGE - MEA Engineering Intern role that focuses on regional engineering operations across the Middle East & Africa (MEA) region with the possibility of extension up to one year. The Engineering trainee will support and progressively take…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-12",
-      "deadline": null,
-      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Dubai/MEA-Engineering-Intern_R5047039-2",
-      "external_id": "R5047039",
-      "verified_at": "2026-07-19T12:10:39Z",
       "match_score": 85
     },
     {
@@ -865,6 +1699,35 @@
       "match_score": 85
     },
     {
+      "id": "ge-vernova-d8d6b46126dc",
+      "source_key": "ge-vernova",
+      "fortune_rank": 124,
+      "fortune_500": true,
+      "company": "GE Vernova",
+      "title": "Milan Finance Internship Program",
+      "location": "Milan",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Business analyst"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Job Description Summary Looking to make a global impact and solve problems? Join GE Vernova's Finance Internship Program and gain unparalleled hands-on experience within our dynamic finance team. This project-oriented work assignment is designed to immerse you in GE Vernova's…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-10",
+      "deadline": null,
+      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Milan/Milan-Finance-Internship-Program_R5046630-1",
+      "external_id": "R5046630",
+      "verified_at": "2026-07-20T05:20:42Z",
+      "match_score": 85
+    },
+    {
       "id": "ge-aerospace-f01308cc77a6",
       "source_key": "ge-aerospace",
       "fortune_rank": 101,
@@ -1005,35 +1868,6 @@
       "match_score": 85
     },
     {
-      "id": "ge-vernova-d8d6b46126dc",
-      "source_key": "ge-vernova",
-      "fortune_rank": 124,
-      "fortune_500": true,
-      "company": "GE Vernova",
-      "title": "Milan Finance Internship Program",
-      "location": "Milan",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Business analyst"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Job Description Summary Looking to make a global impact and solve problems? Join GE Vernova's Finance Internship Program and gain unparalleled hands-on experience within our dynamic finance team. This project-oriented work assignment is designed to immerse you in GE Vernova's…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-09",
-      "deadline": null,
-      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Milan/Milan-Finance-Internship-Program_R5046630-1",
-      "external_id": "R5046630",
-      "verified_at": "2026-07-19T12:10:40Z",
-      "match_score": 85
-    },
-    {
       "id": "ge-aerospace-759f74975284",
       "source_key": "ge-aerospace",
       "fortune_rank": 101,
@@ -1122,6 +1956,36 @@
       "match_score": 85
     },
     {
+      "id": "amgen-4f51dec0cf26",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "Internship Program - Technology",
+      "location": "Portugal - Lisbon",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Software engineering",
+        "Data analyst"
+      ],
+      "tags": [
+        "Cloud",
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "Career Category Information Systems Job Description Join our team at AMGEN Capability Center Portugal , consistently recognized among the top companies in the Best Workplaces™ ranking by Great Place to Work® in Portugal. In 2026, we were once again distinguished as one of the…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-08",
+      "deadline": null,
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/Portugal---Lisbon/Internship-Program---Technology_R-245174",
+      "external_id": "R-245174",
+      "verified_at": "2026-07-20T05:20:39Z",
+      "match_score": 85
+    },
+    {
       "id": "ge-aerospace-452acc711f2e",
       "source_key": "ge-aerospace",
       "fortune_rank": 101,
@@ -1203,36 +2067,6 @@
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Singapore/Equipment-Maintenance-Intern_R5037065-1",
       "external_id": "R5037065",
       "verified_at": "2026-07-19T19:37:59Z",
-      "match_score": 85
-    },
-    {
-      "id": "amgen-4f51dec0cf26",
-      "source_key": "amgen",
-      "fortune_rank": 129,
-      "fortune_500": true,
-      "company": "Amgen",
-      "title": "Internship Program - Technology",
-      "location": "Portugal - Lisbon",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Software engineering",
-        "Data analyst"
-      ],
-      "tags": [
-        "Cloud",
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Career Category Information Systems Job Description Join our team at AMGEN Capability Center Portugal , consistently recognized among the top companies in the Best Workplaces™ ranking by Great Place to Work® in Portugal. In 2026, we were once again distinguished as one of the…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-07",
-      "deadline": null,
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/Portugal---Lisbon/Internship-Program---Technology_R-245174",
-      "external_id": "R-245174",
-      "verified_at": "2026-07-19T12:10:45Z",
       "match_score": 85
     },
     {
@@ -3063,7 +3897,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Quality-Assurance-Intern--Fall-2026---Orrville--OH_115378",
       "external_id": "115378",
-      "verified_at": "2026-07-20T04:56:41Z",
+      "verified_at": "2026-07-20T05:19:35Z",
       "match_score": 85
     },
     {
@@ -3093,7 +3927,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Fall-2026_115124",
       "external_id": "115124",
-      "verified_at": "2026-07-20T04:56:41Z",
+      "verified_at": "2026-07-20T05:19:35Z",
       "match_score": 85
     },
     {
@@ -3120,7 +3954,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_114837",
       "external_id": "114837",
-      "verified_at": "2026-07-20T04:56:40Z",
+      "verified_at": "2026-07-20T05:19:34Z",
       "match_score": 85
     },
     {
@@ -3147,7 +3981,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Management-Intern--Spring-2027---Orrville--OH_114833",
       "external_id": "114833",
-      "verified_at": "2026-07-20T04:56:40Z",
+      "verified_at": "2026-07-20T05:19:35Z",
       "match_score": 85
     },
     {
@@ -3174,7 +4008,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Management-Intern--Fall-2026---Orrville--OH_115347",
       "external_id": "115347",
-      "verified_at": "2026-07-20T04:56:40Z",
+      "verified_at": "2026-07-20T05:19:34Z",
       "match_score": 85
     },
     {
@@ -3202,7 +4036,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-07-20T04:56:40Z",
+      "verified_at": "2026-07-20T05:19:35Z",
       "match_score": 85
     },
     {
@@ -3256,7 +4090,7 @@
       "deadline": null,
       "url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Dalian-Liaoning-China/Safety-Operations-Intern-DL-2027_R1538929",
       "external_id": "R1538929",
-      "verified_at": "2026-07-19T10:52:46Z",
+      "verified_at": "2026-07-20T05:20:07Z",
       "match_score": 85
     },
     {
@@ -3284,7 +4118,7 @@
       "deadline": null,
       "url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Singapore/Intern_R1531776",
       "external_id": "R1531776",
-      "verified_at": "2026-07-19T10:52:46Z",
+      "verified_at": "2026-07-20T05:20:07Z",
       "match_score": 85
     },
     {
@@ -3311,7 +4145,7 @@
       "deadline": null,
       "url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Prague-Czech-Republic/Intern-analyst_R1260082",
       "external_id": "R1260082",
-      "verified_at": "2026-07-19T10:52:45Z",
+      "verified_at": "2026-07-20T05:20:06Z",
       "match_score": 85
     },
     {
@@ -3340,7 +4174,7 @@
       "deadline": null,
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Tampere/MSc-Thesis-Opportunities-Through-a-Summer-Internship---Multiple-Openings_R5035971-2",
       "external_id": "R5035971",
-      "verified_at": "2026-07-19T12:10:42Z",
+      "verified_at": "2026-07-20T05:20:44Z",
       "match_score": 85
     },
     {
@@ -3368,7 +4202,7 @@
       "deadline": null,
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Jebel-Ali/Internship--Lean-Manufacturing---Operations_R5039041-2",
       "external_id": "R5039041",
-      "verified_at": "2026-07-19T12:10:41Z",
+      "verified_at": "2026-07-20T05:20:43Z",
       "match_score": 85
     },
     {
@@ -3395,7 +4229,7 @@
       "deadline": null,
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Rochester/GE-Vernova-Grid-Automation-Product-Management-Intern---Fall-2026_R5035460",
       "external_id": "R5035460",
-      "verified_at": "2026-07-19T12:10:42Z",
+      "verified_at": "2026-07-20T05:20:44Z",
       "match_score": 85
     },
     {
@@ -3424,7 +4258,7 @@
       "deadline": null,
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Stafford/Data-Analyst-Intern---Competency-Management_R5044024",
       "external_id": "R5044024",
-      "verified_at": "2026-07-19T12:10:41Z",
+      "verified_at": "2026-07-20T05:20:44Z",
       "match_score": 85
     },
     {
@@ -3449,7 +4283,7 @@
       "deadline": null,
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Chennai/DT-Intern_R5027950-2",
       "external_id": "R5027950",
-      "verified_at": "2026-07-19T12:10:42Z",
+      "verified_at": "2026-07-20T05:20:45Z",
       "match_score": 85
     },
     {
@@ -3771,7 +4605,7 @@
       "deadline": null,
       "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/Singapore-Affiliate---Duo-Tower/Medical-Affairs-Intern-for-Amgen-Southeast-Asia_R-242188",
       "external_id": "R-242188",
-      "verified_at": "2026-07-19T12:10:45Z",
+      "verified_at": "2026-07-20T05:20:39Z",
       "match_score": 85
     },
     {
@@ -4114,34 +4948,6 @@
       "url": "https://www.interactivebrokers.com/campus/podcasts/ibkr-podcasts/inside-ibkrs-internship-program-keys-to-a-successful-career-part-1/",
       "external_id": null,
       "verified_at": "2026-07-19T19:37:33Z",
-      "match_score": 85
-    },
-    {
-      "id": "iqvia-holdings-a503cb7dbde7",
-      "source_key": "iqvia-holdings",
-      "fortune_rank": 274,
-      "fortune_500": true,
-      "company": "IQVIA Holdings",
-      "title": "Always growing: Alex's journey from intern to statistical programming manager",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Tech consulting"
-      ],
-      "tags": [
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "With motivation, teamwork and an eagerness to learn, there’s no telling where your skills can take you at IQVIA. Alex Moffatt’s career journey is a prime example of our limitless possibilities. For Alex, his week-long work experience program has blossomed into a position on…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://jobs.iqvia.com/en/blog/intern-to-statistical-programming-manager-career-journey",
-      "external_id": null,
-      "verified_at": "2026-07-19T10:52:57Z",
       "match_score": 85
     },
     {

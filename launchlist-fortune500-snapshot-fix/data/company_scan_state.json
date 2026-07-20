@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-20T05:00:08Z",
+  "updated_at": "2026-07-20T05:22:15Z",
   "companies": {
     "walmart": {
       "rank": 2,
@@ -22,14 +22,17 @@
       "error": null
     },
     "dell": {
+      "key": "dell",
       "rank": 41,
       "company": "Dell Technologies",
-      "checked_at": "2026-07-20T05:00:08Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "workday",
       "careers_url": null,
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "mastercard": {
       "rank": 141,
@@ -122,14 +125,17 @@
       "error": null
     },
     "smucker": {
+      "key": "smucker",
       "rank": 456,
       "company": "J.M. Smucker",
-      "checked_at": "2026-07-20T05:00:08Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 6,
       "adapter": "workday",
       "careers_url": null,
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "costco-wholesale": {
       "rank": 13,
@@ -1142,24 +1148,30 @@
       "error": null
     },
     "cbre-group": {
+      "key": "cbre-group",
       "rank": 118,
       "company": "CBRE Group",
-      "checked_at": "2026-07-19T12:12:07Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://www.cbre.com/careers",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "dow": {
+      "key": "dow",
       "rank": 120,
       "company": "Dow",
-      "checked_at": "2026-07-19T12:12:07Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://dow.com/careers",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "northrop-grumman": {
       "rank": 112,
@@ -1192,134 +1204,173 @@
       "error": null
     },
     "visa": {
+      "key": "visa",
       "rank": 119,
       "company": "Visa",
-      "checked_at": "2026-07-19T12:12:07Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://visa.com/careers",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "philip-morris-international": {
+      "key": "philip-morris-international",
       "rank": 117,
       "company": "Philip Morris International",
-      "checked_at": "2026-07-19T12:12:07Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "no-career-source",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": null
+      "error": null,
+      "issue_type": "No careers source found"
     },
     "micron-technology": {
+      "key": "micron-technology",
       "rank": 125,
       "company": "Micron Technology",
-      "checked_at": "2026-07-19T12:12:07Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://www.micron.com/about/careers",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "lithia-motors": {
+      "key": "lithia-motors",
       "rank": 123,
       "company": "Lithia Motors",
-      "checked_at": "2026-07-19T12:12:07Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://www.lithiacareers.com/",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "us-foods-holding": {
+      "key": "us-foods-holding",
       "rank": 121,
       "company": "US Foods Holding",
-      "checked_at": "2026-07-19T12:12:07Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "no-career-source",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": null
+      "error": null,
+      "issue_type": "No careers source found"
     },
     "warner-bros-discovery": {
+      "key": "warner-bros-discovery",
       "rank": 126,
       "company": "Warner Bros. Discovery",
-      "checked_at": "2026-07-19T12:12:07Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://bd.com/careers",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "mondelez-international": {
+      "key": "mondelez-international",
       "rank": 122,
       "company": "Mondelez International",
-      "checked_at": "2026-07-19T12:12:07Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "no-career-source",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": null
+      "error": null,
+      "issue_type": "No careers source found"
     },
     "advanced-micro-devices": {
+      "key": "advanced-micro-devices",
       "rank": 131,
       "company": "Advanced Micro Devices",
-      "checked_at": "2026-07-19T12:12:07Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://www.amd.com/en/corporate/careers.html",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "chs": {
+      "key": "chs",
       "rank": 130,
       "company": "CHS",
-      "checked_at": "2026-07-19T12:12:07Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://jobs.chsinc.com/",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "coupang": {
+      "key": "coupang",
       "rank": 132,
       "company": "Coupang",
-      "checked_at": "2026-07-19T12:12:07Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://aboutcoupang.com/careers",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "starbucks": {
+      "key": "starbucks",
       "rank": 127,
       "company": "Starbucks",
-      "checked_at": "2026-07-19T12:12:07Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://careers.starbucks.com/",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "d-r-horton": {
+      "key": "d-r-horton",
       "rank": 134,
       "company": "D.R. Horton",
-      "checked_at": "2026-07-19T12:12:07Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://www.drhorton.com/careers",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "ge-vernova": {
+      "key": "ge-vernova",
       "rank": 124,
       "company": "GE Vernova",
-      "checked_at": "2026-07-19T12:12:07Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 8,
       "adapter": "discovery",
       "careers_url": "https://careers.gevernova.com",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "prudential-financial": {
       "rank": 78,
@@ -1332,24 +1383,30 @@
       "error": null
     },
     "amgen": {
+      "key": "amgen",
       "rank": 129,
       "company": "Amgen",
-      "checked_at": "2026-07-19T12:12:07Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 3,
       "adapter": "discovery",
       "careers_url": "http://careers.amgen.com/",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "world-kinect": {
+      "key": "world-kinect",
       "rank": 128,
       "company": "World Kinect",
-      "checked_at": "2026-07-19T12:12:07Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://orld-kinect.com/careers",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "paypal-holdings": {
       "rank": 139,
@@ -1382,14 +1439,17 @@
       "error": null
     },
     "hewlett-packard-enterprise": {
+      "key": "hewlett-packard-enterprise",
       "rank": 133,
       "company": "Hewlett Packard Enterprise",
-      "checked_at": "2026-07-19T12:12:07Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "no-career-source",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": null
+      "error": null,
+      "issue_type": "No careers source found"
     },
     "apollo-global-management": {
       "rank": 143,
@@ -1412,34 +1472,43 @@
       "error": null
     },
     "cummins": {
+      "key": "cummins",
       "rank": 137,
       "company": "Cummins",
-      "checked_at": "2026-07-19T12:12:07Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://www.cummins.com/en-na/careers",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "pnc-financial-services-group": {
+      "key": "pnc-financial-services-group",
       "rank": 136,
       "company": "PNC Financial Services Group",
-      "checked_at": "2026-07-19T12:12:07Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "no-career-source",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": null
+      "error": null,
+      "issue_type": "No careers source found"
     },
     "lennar": {
+      "key": "lennar",
       "rank": 135,
       "company": "Lennar",
-      "checked_at": "2026-07-19T12:12:07Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://careers.lennar.com",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "guidewell-mutual-holding": {
       "rank": 140,
@@ -2542,24 +2611,30 @@
       "error": null
     },
     "devon-energy": {
+      "key": "devon-energy",
       "rank": 259,
       "company": "Devon Energy",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://www.devonenergy.com/careers",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "aflac": {
+      "key": "aflac",
       "rank": 261,
       "company": "Aflac",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://aflac.com/careers",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "texas-instruments": {
       "rank": 252,
@@ -2572,34 +2647,43 @@
       "error": null
     },
     "dick-s-sporting-goods": {
+      "key": "dick-s-sporting-goods",
       "rank": 258,
       "company": "Dick's Sporting Goods",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://dickssportinggoods.com/careers",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "murphy-usa": {
+      "key": "murphy-usa",
       "rank": 263,
       "company": "Murphy USA",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://www.murphyusa.com/jobs",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "pultegroup": {
+      "key": "pultegroup",
       "rank": 256,
       "company": "PulteGroup",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "no-career-source",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": null
+      "error": null,
+      "issue_type": "No careers source found"
     },
     "corteva": {
       "rank": 254,
@@ -2622,184 +2706,238 @@
       "error": null
     },
     "omnicom-group": {
+      "key": "omnicom-group",
       "rank": 257,
       "company": "Omnicom Group",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://omnicomgroup.com/careers",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "leidos-holdings": {
+      "key": "leidos-holdings",
       "rank": 260,
       "company": "Leidos Holdings",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://careers.leidos.com/",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "emcor-group": {
+      "key": "emcor-group",
       "rank": 265,
       "company": "EMCOR Group",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://emcorgroup.com/careers",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "keurig-dr-pepper": {
+      "key": "keurig-dr-pepper",
       "rank": 268,
       "company": "Keurig Dr Pepper",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://www.keurigdrpepper.com/",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "dominion-energy": {
+      "key": "dominion-energy",
       "rank": 272,
       "company": "Dominion Energy",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://careers.dominionenergy.com/",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "targa-resources": {
+      "key": "targa-resources",
       "rank": 262,
       "company": "Targa Resources",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://targaresources.com/careers",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "lpl-financial-holdings": {
+      "key": "lpl-financial-holdings",
       "rank": 264,
       "company": "LPL Financial Holdings",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://lpl.com/careers",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "kinder-morgan": {
+      "key": "kinder-morgan",
       "rank": 266,
       "company": "Kinder Morgan",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://kindermorgan.com/",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "consolidated-edison": {
+      "key": "consolidated-edison",
       "rank": 267,
       "company": "Consolidated Edison",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://ejcu.fa.us6.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1033/?utm_medium=jobshare",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "fox": {
+      "key": "fox",
       "rank": 275,
       "company": "Fox",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://www.foxcareers.com",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "aecom": {
+      "key": "aecom",
       "rank": 276,
       "company": "AECOM",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://aecom.com/careers/welcoming-workplace/",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "land-o-lakes": {
+      "key": "land-o-lakes",
       "rank": 273,
       "company": "Land O'Lakes",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://careers.landolakesinc.com/us/en/",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "republic-services": {
+      "key": "republic-services",
       "rank": 269,
       "company": "Republic Services",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://republicservices.com/careers",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "farmers-insurance-exchange": {
+      "key": "farmers-insurance-exchange",
       "rank": 271,
       "company": "Farmers Insurance Exchange",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://farmers.com/careers",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "c-h-robinson-worldwide": {
+      "key": "c-h-robinson-worldwide",
       "rank": 277,
       "company": "C.H. Robinson Worldwide",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://www.chrobinson.com/en-us/about-us/careers/",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "iqvia-holdings": {
+      "key": "iqvia-holdings",
       "rank": 274,
       "company": "IQVIA Holdings",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
-      "eligible_jobs": 4,
+      "eligible_jobs": 3,
       "adapter": "discovery",
       "careers_url": "javascript:;",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "united-rentals": {
+      "key": "united-rentals",
       "rank": 279,
       "company": "United Rentals",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://jobs.unitedrentals.com",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "bitgo-holdings": {
+      "key": "bitgo-holdings",
       "rank": 278,
       "company": "Bitgo Holdings",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "no-career-source",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": null
+      "error": null,
+      "issue_type": "No careers source found"
     },
     "dte-energy": {
       "rank": 285,
@@ -2812,34 +2950,43 @@
       "error": null
     },
     "ecolab": {
+      "key": "ecolab",
       "rank": 280,
       "company": "Ecolab",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://jobs.ecolab.com/global/en",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "illinois-tool-works": {
+      "key": "illinois-tool-works",
       "rank": 281,
       "company": "Illinois Tool Works",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://www.itw.com/careers/",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "casey-s-general-stores": {
+      "key": "casey-s-general-stores",
       "rank": 282,
       "company": "Casey's General Stores",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://caseys.com/careers",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "raymond-james-financial": {
       "rank": 283,
@@ -3032,14 +3179,17 @@
       "error": null
     },
     "markel-group": {
+      "key": "markel-group",
       "rank": 270,
       "company": "Markel Group",
-      "checked_at": "2026-07-19T10:55:50Z",
+      "fortune_500": true,
+      "checked_at": "2026-07-20T05:22:15Z",
       "status": "ok",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://mklgroup.com/careers",
-      "error": null
+      "error": null,
+      "issue_type": null
     },
     "expedia-group": {
       "rank": 304,
