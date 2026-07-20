@@ -71,14 +71,25 @@ jobs:
           git config user.name "launchlist-bot"
           git config user.email "actions@users.noreply.github.com"
 
+          mkdir -p /tmp/launchlist-output/data
+          cp data/opportunities.json /tmp/launchlist-output/data/opportunities.json
+          cp data/fortune500_companies.json /tmp/launchlist-output/data/fortune500_companies.json
+          cp data/company_scan_state.json /tmp/launchlist-output/data/company_scan_state.json
+          cp feed.xml /tmp/launchlist-output/feed.xml
+
+          git pull --rebase --autostash origin main
+
+          cp /tmp/launchlist-output/data/opportunities.json data/opportunities.json
+          cp /tmp/launchlist-output/data/fortune500_companies.json data/fortune500_companies.json
+          cp /tmp/launchlist-output/data/company_scan_state.json data/company_scan_state.json
+          cp /tmp/launchlist-output/feed.xml feed.xml
+
           git add data/opportunities.json
           git add data/fortune500_companies.json
           git add data/company_scan_state.json
           git add feed.xml
 
           git diff --cached --quiet || git commit -m "chore: refresh Fortune 500 internship scan"
-
-          git pull --rebase --autostash origin main
           git push
 
       - name: Configure GitHub Pages
