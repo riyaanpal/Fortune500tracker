@@ -105,6 +105,23 @@
           <div><strong id="coverageCycle">—</strong><span>estimated full cycle</span></div>
         </div>
         <p id="coverageDisclosure">Coverage appears after the deployed updater runs. A company is not presented as checked merely because its name is in the directory.</p>
+        <div class="scan-failure-actions">
+          <button class="failure-toggle" id="failedScanToggle" type="button" aria-expanded="false">
+            <span class="toggle-text">Show failed / blocked companies</span>
+            <span id="failedScanCount">0</span>
+          </button>
+          <a class="raw-scan-link" href="data/company_scan_state.json" target="_blank" rel="noopener">Open raw scan log ↗</a>
+        </div>
+        <div class="scan-failure-panel" id="failedScanPanel" hidden>
+          <div class="scan-failure-header">
+            <div>
+              <strong>Failed or blocked scans</strong>
+              <span>Companies that were checked in the last 24 hours but did not complete successfully.</span>
+            </div>
+          </div>
+          <div class="scan-failure-list" id="failedCompanyList"></div>
+          <p class="scan-failure-empty" id="failedCompanyEmpty">No failed or blocked company scans in the last 24 hours.</p>
+        </div>
       </section>
 
       <div class="job-grid" id="jobGrid" aria-live="polite"></div>
