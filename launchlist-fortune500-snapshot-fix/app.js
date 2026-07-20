@@ -1,5 +1,6 @@
 const state = {
   jobs: [],
+  scanFailures: [],
   role: "All roles",
   search: "",
   type: "",
@@ -46,6 +47,11 @@ const els = {
   coverageCycle: document.querySelector("#coverageCycle"),
   directorySource: document.querySelector("#directorySource"),
   coverageDisclosure: document.querySelector("#coverageDisclosure"),
+  failedScanToggle: document.querySelector("#failedScanToggle"),
+  failedScanCount: document.querySelector("#failedScanCount"),
+  failedScanPanel: document.querySelector("#failedScanPanel"),
+  failedCompanyList: document.querySelector("#failedCompanyList"),
+  failedCompanyEmpty: document.querySelector("#failedCompanyEmpty"),
 };
 
 function titleCaseInitials(name) {
@@ -201,6 +207,76 @@ function render() {
   els.activeFilterCount.textContent = activeFilterTotal();
 }
 
+function failureBadgeClass(record) {
+  const status = String(record.status || "").toLowerCase();
+  const issue = String(record.issue_type || "").toLowerCase();
+  if (issue.includes("blocked") || issue.includes("access") || status.includes("blocked")) return "blocked";
+  if (issue.includes("timeout") || status.includes("timeout")) return "timeout";
+  if (status === "no-career-source") return "no-source";
+  return "error";
+}
+
+function renderScanFailures() {
+  if (!els.failedCompanyList) return;
+  const failures = [...state.scanFailures].sort((a, b) => {
+    const at = parseDate(a.checked_at)?.getTime() || 0;
+    const bt = parseDate(b.checked_at)?.getTime() || 0;
+    return bt - at || String(a.company || "").localeCompare(String(b.company || ""));
+  });
+
+  els.failedScanCount.textContent = failures.length;
+  els.failedScanToggle.disabled = failures.length === 0;
+  els.failedScanToggle.setAttribute("aria-label", failures.length ? `Show ${failures.length} failed or blocked companies` : "No failed or blocked companies in the last 24 hours");
+  els.failedCompanyList.innerHTML = "";
+  els.failedCompanyEmpty.hidden = failures.length > 0;
+
+  failures.forEach(record => {
+    const row = document.createElement("article");
+    row.className = "scan-failure-row";
+
+    const top = document.createElement("div");
+    top.className = "scan-failure-top";
+
+    const companyBlock = document.createElement("div");
+    companyBlock.className = "scan-failure-company";
+    const company = document.createElement("strong");
+    company.textContent = record.company || "Unknown company";
+    const meta = document.createElement("span");
+    const rank = record.fortune_500 === false ? "Added company" : (record.rank ? `Fortune #${record.rank}` : "Fortune 500");
+    meta.textContent = `${rank} · ${record.adapter || "discovery"} · checked ${relativeTime(record.checked_at)}`;
+    companyBlock.append(company, meta);
+
+    const badge = document.createElement("span");
+    badge.className = `scan-status ${failureBadgeClass(record)}`;
+    badge.textContent = record.issue_type || record.status || "Scan issue";
+
+    top.append(companyBlock, badge);
+
+    const reason = document.createElement("p");
+    reason.className = "scan-failure-reason";
+    reason.textContent = record.error || (record.status === "no-career-source" ? "The scanner could not confirm an official careers or ATS source for this company." : "The scan did not complete successfully.");
+
+    const links = document.createElement("div");
+    links.className = "scan-failure-links";
+    if (record.careers_url) {
+      const a = document.createElement("a");
+      a.href = record.careers_url;
+      a.target = "_blank";
+      a.rel = "noopener noreferrer";
+      a.textContent = "Open careers page ↗";
+      links.append(a);
+    }
+    if (record.key) {
+      const key = document.createElement("span");
+      key.textContent = record.key;
+      links.append(key);
+    }
+
+    row.append(top, reason, links);
+    els.failedCompanyList.append(row);
+  });
+}
+
 function resetFilters() {
   Object.assign(state, { role: "All roles", search: "", type: "", region: "", grad: "", sort: "newest", freshman: false, savedOnly: false });
   els.search.value = ""; els.type.value = ""; els.region.value = ""; els.grad.value = ""; els.sort.value = "newest"; els.freshman.checked = false; els.savedOnly.checked = false;
@@ -213,10 +289,13 @@ async function loadJobs() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const payload = await response.json();
     state.jobs = payload.opportunities || [];
+    state.scanFailures = Array.isArray(payload.failed_or_blocked_companies_last_24h)
+      ? payload.failed_or_blocked_companies_last_24h
+      : [];
     els.heroJobCount.textContent = state.jobs.length;
     const queued = Number(payload.companies_in_scan_queue ?? payload.fortune500_company_count ?? 0);
     const scanned = Number(payload.companies_scanned_last_24h ?? 0);
-    const failed = Number(payload.companies_failed_last_24h ?? 0);
+    const failed = Number(payload.companies_failed_last_24h ?? state.scanFailures.length ?? 0);
     const matched = Number(payload.companies_with_eligible_jobs ?? new Set(state.jobs.map(job => job.company)).size);
     const cycle = Number(payload.estimated_full_cycle_hours ?? 0);
     els.heroCompanyCount.textContent = queued || "—";
@@ -227,16 +306,19 @@ async function loadJobs() {
     els.coverageCycle.textContent = cycle ? `${cycle}h` : "—";
     els.directorySource.textContent = payload.directory_source || "Awaiting first automated directory refresh";
     const warningCount = Array.isArray(payload.directory_warnings) ? payload.directory_warnings.length : 0;
+    const failureText = state.scanFailures.length ? ` Use the failed/blocked panel below to see the affected companies.` : "";
     els.coverageDisclosure.textContent = scanned
-      ? `${scanned} of ${queued || 500} companies were actually checked during the last 24 hours.${warningCount ? ` ${warningCount} directory warning${warningCount === 1 ? "" : "s"} recorded.` : ""}`
+      ? `${scanned} of ${queued || 500} companies were actually checked during the last 24 hours.${warningCount ? ` ${warningCount} directory warning${warningCount === 1 ? "" : "s"} recorded.` : ""}${failureText}`
       : "The packaged sample has not run the live company scanner yet. Deploy the included GitHub Action to populate real scan coverage.";
     els.lastUpdated.textContent = relativeTime(payload.updated_at);
     document.title = `${state.jobs.length} eligible openings — LaunchList`;
     render();
+    renderScanFailures();
     state.jobs.forEach(job => state.seen.add(job.id));
     localStorage.setItem("launchlist:seen", JSON.stringify([...state.seen].slice(-1000)));
   } catch (error) {
     els.grid.innerHTML = `<div class="empty-state"><div class="empty-icon">!</div><h2>Could not load opportunity data</h2><p>${error.message}. Open the site through a local web server or deploy it with GitHub Pages.</p></div>`;
+    state.scanFailures = [];
     els.heroJobCount.textContent = "0";
     els.heroCompanyCount.textContent = "0";
     els.coverageQueued.textContent = "0";
@@ -246,6 +328,7 @@ async function loadJobs() {
     els.coverageCycle.textContent = "—";
     els.directorySource.textContent = "Unavailable";
     els.lastUpdated.textContent = "Unavailable";
+    renderScanFailures();
   }
 }
 
@@ -261,6 +344,12 @@ function bindEvents() {
     const willOpen = els.filterPanel.hidden;
     els.filterPanel.hidden = !willOpen;
     els.filterToggle.setAttribute("aria-expanded", String(willOpen));
+  });
+  els.failedScanToggle?.addEventListener("click", () => {
+    const willOpen = els.failedScanPanel.hidden;
+    els.failedScanPanel.hidden = !willOpen;
+    els.failedScanToggle.setAttribute("aria-expanded", String(willOpen));
+    els.failedScanToggle.querySelector(".toggle-text").textContent = willOpen ? "Hide failed / blocked companies" : "Show failed / blocked companies";
   });
   document.querySelector("#clearFilters").addEventListener("click", resetFilters);
   document.querySelector("#emptyClearButton").addEventListener("click", resetFilters);
