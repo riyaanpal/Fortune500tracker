@@ -118,6 +118,7 @@ ATS_HOST_HINTS = (
     "ashbyhq.com", "icims.com", "successfactors.com", "oraclecloud.com",
     "phenompeople.com", "eightfold.ai", "jobvite.com", "careers-page.com",
 )
+FAILURE_STATUSES = {"error", "no-career-source", "blocked", "timeout", "timed-out"}
 
 
 @dataclass
@@ -1055,6 +1056,23 @@ def read_json(path: Path, default: Any) -> Any:
         return default
 
 
+def classify_scan_issue(status: str | None, error: str | None) -> str:
+    """Return a short user-facing reason for failed company scans."""
+    status_text = (status or "").lower()
+    error_text = (error or "").lower()
+    if status_text == "no-career-source":
+        return "No careers source found"
+    if any(term in error_text for term in ("403", "forbidden", "blocked", "captcha", "access denied")):
+        return "Blocked / access denied"
+    if any(term in error_text for term in ("timeout", "timed out", "read timed out", "connection aborted")):
+        return "Timed out"
+    if any(term in error_text for term in ("429", "too many requests", "rate limit")):
+        return "Rate limited"
+    if status_text in {"blocked", "timeout", "timed-out"}:
+        return status_text.replace("-", " ").title()
+    return "Scan error"
+
+
 def read_existing() -> dict[str, Any]:
     return read_json(DATA_PATH, {"updated_at": None, "opportunities": []})
 
@@ -1239,30 +1257,49 @@ def main() -> int:
     company_state = scan_state.setdefault("companies", {})
     for result in results:
         company_state[result.company["key"]] = {
+            "key": result.company["key"],
             "rank": result.company.get("rank"),
             "company": result.company["company"],
+            "fortune_500": result.company.get("fortune_500", True),
             "checked_at": utc_iso(),
             "status": result.status,
             "eligible_jobs": len(result.jobs),
             "adapter": result.adapter,
             "careers_url": result.careers_url,
             "error": result.error,
+            "issue_type": classify_scan_issue(result.status, result.error) if result.status in FAILURE_STATUSES else None,
         }
     scan_state["updated_at"] = utc_iso()
 
     cutoff_24h = NOW - timedelta(hours=24)
     scanned_24h = 0
     failed_24h = 0
-    for record in company_state.values():
+    failed_or_blocked_companies_24h: list[dict[str, Any]] = []
+    for key, record in company_state.items():
         try:
             checked = date_parser.parse(record.get("checked_at", ""))
             if checked.tzinfo is None:
                 checked = checked.replace(tzinfo=timezone.utc)
             if checked >= cutoff_24h:
                 scanned_24h += 1
-                failed_24h += record.get("status") in ("error", "no-career-source")
+                if record.get("status") in FAILURE_STATUSES:
+                    failed_24h += 1
+                    failed_or_blocked_companies_24h.append({
+                        "key": record.get("key") or key,
+                        "rank": record.get("rank"),
+                        "company": record.get("company"),
+                        "fortune_500": record.get("fortune_500", True),
+                        "checked_at": record.get("checked_at"),
+                        "status": record.get("status"),
+                        "issue_type": record.get("issue_type") or classify_scan_issue(record.get("status"), record.get("error")),
+                        "eligible_jobs": record.get("eligible_jobs", 0),
+                        "adapter": record.get("adapter"),
+                        "careers_url": record.get("careers_url"),
+                        "error": record.get("error"),
+                    })
         except (ValueError, TypeError):
             pass
+    failed_or_blocked_companies_24h.sort(key=lambda item: (item.get("company") or "").lower())
 
     payload = {
         "updated_at": utc_iso(),
@@ -1277,6 +1314,7 @@ def main() -> int:
         "companies_scanned_this_run": len(results),
         "companies_scanned_last_24h": scanned_24h,
         "companies_failed_last_24h": failed_24h,
+        "failed_or_blocked_companies_last_24h": failed_or_blocked_companies_24h,
         "companies_with_eligible_jobs": len({job["source_key"] for job in jobs}),
         "estimated_full_cycle_hours": round(len(companies) / max(1, batch_size), 1),
         "opportunity_count": len(jobs),
