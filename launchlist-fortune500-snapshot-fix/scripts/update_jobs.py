@@ -918,6 +918,17 @@ class Fetcher:
         if isinstance(configured, str):
             configured = [configured]
         candidates: list[str] = [url for url in configured if isinstance(url, str) and url.startswith("http")]
+
+        # Treat user-provided career URLs as verified official sources. Many
+        # Fortune 500 career portals live on ATS or brand-specific hosts that do
+        # not match the corporate domain, so their hosts must be whitelisted for
+        # direct job links discovered from those pages.
+        configured_hosts = {urlparse(url).netloc.lower() for url in candidates}
+        if configured_hosts:
+            existing_hosts = set(company.get("allowed_hosts", []))
+            company["allowed_hosts"] = sorted(existing_hosts | configured_hosts)
+            company["ats_verified"] = True
+
         if not domain:
             return list(dict.fromkeys(candidates))[:8]
         seeds = [*candidates, f"https://{domain}", f"https://www.{domain}"]
@@ -942,6 +953,12 @@ class Fetcher:
         generic_links: list[str] = []
         allowed_hosts: set[str] = set(source.get("allowed_hosts", []))
         for page_url in career_pages[:6]:
+            page_host = urlparse(page_url).netloc.lower()
+            if page_host:
+                allowed_hosts.add(page_host)
+            direct_ats = self.parse_ats_url(page_url)
+            if direct_ats:
+                ats.append(direct_ats)
             try:
                 response = self.request("GET", page_url, timeout=15)
             except Exception:
@@ -950,6 +967,9 @@ class Fetcher:
             page_host = urlparse(response.url).netloc.lower()
             if any(hint in page_host for hint in ATS_HOST_HINTS):
                 allowed_hosts.add(page_host)
+            redirected_ats = self.parse_ats_url(response.url)
+            if redirected_ats:
+                ats.append(redirected_ats)
             for anchor in soup.select("a[href]"):
                 href = urljoin(response.url, anchor.get("href", ""))
                 label = clean_text(anchor.get_text(" "))
@@ -970,7 +990,7 @@ class Fetcher:
         parsed = urlparse(url)
         host = parsed.netloc.lower()
         parts = [part for part in parsed.path.split("/") if part]
-        if "boards.greenhouse.io" in host and parts:
+        if ("boards.greenhouse.io" in host or "job-boards.greenhouse.io" in host) and parts:
             return ("greenhouse", parts[0])
         if "jobs.lever.co" in host and parts:
             return ("lever", parts[0])
@@ -1016,9 +1036,18 @@ class Fetcher:
             source["domain"] = source.get("domain") or company.get("domain", "")
         started = time.time()
         try:
+            adapter_error: str | None = None
             if source.get("adapter"):
-                jobs = getattr(self, f"fetch_{source['adapter']}")(source)
-                return ScanResult(source, jobs, "ok", adapter=source["adapter"])
+                try:
+                    jobs = getattr(self, f"fetch_{source['adapter']}")(source)
+                    if jobs or not (source.get("careers_urls") or source.get("careers_url")):
+                        return ScanResult(source, jobs, "ok", adapter=source["adapter"])
+                except Exception as exc:
+                    adapter_error = str(exc)[:350]
+                # If a direct adapter failed or returned zero matches and the
+                # company has configured career URLs, fall through to discovery
+                # instead of marking the company as failed.
+                source.pop("adapter", None)
 
             career_pages = self.discover_career_pages(source)
             ats_sources, generic_links = self.discover_ats(source, career_pages)
@@ -1044,9 +1073,14 @@ class Fetcher:
             status = "ok" if career_pages or ats_sources or generic_links else "no-career-source"
             careers_url = career_pages[0] if career_pages else None
             logging.debug("%s scan %.1fs via %s", source["company"], time.time() - started, ats_sources or "discovery")
-            return ScanResult(source, dedupe(jobs), status, careers_url=careers_url, adapter="discovery")
+            error_note = adapter_error if adapter_error and not jobs else None
+            return ScanResult(source, dedupe(jobs), status, error=error_note, careers_url=careers_url, adapter="discovery")
         except Exception as exc:
-            return ScanResult(source, [], "error", error=str(exc)[:350], adapter=source.get("adapter", "discovery"))
+            configured = source.get("careers_urls") or source.get("careers_url") or []
+            if isinstance(configured, str):
+                configured = [configured]
+            careers_url = configured[0] if configured else None
+            return ScanResult(source, [], "error", error=str(exc)[:350], careers_url=careers_url, adapter=source.get("adapter", "discovery"))
 
 
 def read_json(path: Path, default: Any) -> Any:
@@ -1080,6 +1114,34 @@ def read_existing() -> dict[str, Any]:
 def load_overrides() -> dict[str, dict[str, Any]]:
     records = read_json(OVERRIDES_PATH, [])
     return {record["key"]: record for record in records if record.get("enabled", True)}
+
+
+def override_name_tokens(override: dict[str, Any]) -> set[str]:
+    names = [override.get("company", ""), *override.get("company_aliases", [])]
+    return {normalize_company_name(name) for name in names if normalize_company_name(name)}
+
+
+def find_override_for_company(company: dict[str, Any], overrides: dict[str, dict[str, Any]],
+                              override_by_name: dict[str, dict[str, Any]]) -> dict[str, Any] | None:
+    direct = overrides.get(company["key"])
+    if direct:
+        return direct
+    normalized_company = normalize_company_name(company.get("company", ""))
+    direct = override_by_name.get(normalized_company)
+    if direct:
+        return direct
+
+    # User-provided company names can differ slightly from Fortune's legal names
+    # (for example, "Massachusetts Mutual Life" vs. "Massachusetts Mutual Life
+    # Insurance"). Match aliases conservatively so URL overrides still attach to
+    # the intended official Fortune company without adding duplicate custom rows.
+    for override in overrides.values():
+        if company["key"] in override.get("key_aliases", []):
+            return override
+        for token in override_name_tokens(override):
+            if len(token) >= 8 and (token in normalized_company or normalized_company in token):
+                return override
+    return None
 
 
 def choose_companies(directory: list[dict[str, Any]], state: dict[str, Any], batch_size: int, full_sweep: bool,
@@ -1220,12 +1282,14 @@ def main() -> int:
         existing_names.add(normalized)
 
     # Match overrides to refreshed company names when their historical key differs.
-    override_by_name = {normalize_company_name(v.get("company", "")): v for v in overrides.values()}
+    override_by_name: dict[str, dict[str, Any]] = {}
+    for override in overrides.values():
+        for token in override_name_tokens(override):
+            override_by_name[token] = override
     for company in companies:
-        if company["key"] not in overrides:
-            candidate = override_by_name.get(normalize_company_name(company["company"]))
-            if candidate:
-                overrides[company["key"]] = candidate
+        candidate = find_override_for_company(company, overrides, override_by_name)
+        if candidate:
+            overrides[company["key"]] = candidate
 
     scan_state = read_json(SCAN_STATE_PATH, {"companies": {}})
     batch_size = args.batch_size or int(config.get("hourly_batch_size", 35))
@@ -1251,7 +1315,7 @@ def main() -> int:
     fresh_jobs = [job for result in results for job in result.jobs]
     selected_keys = {r.company["key"] for r in results}
     success_keys = {r.company["key"] for r in results if r.status == "ok"}
-    failure_keys = {r.company["key"] for r in results if r.status in ("error", "no-career-source")}
+    failure_keys = {r.company["key"] for r in results if r.status in FAILURE_STATUSES}
     jobs = dedupe([*fresh_jobs, *retain_existing_jobs(existing, selected_keys, success_keys, failure_keys)])
 
     company_state = scan_state.setdefault("companies", {})
