@@ -1,4 +1,17 @@
-name: Refresh internships and deploy
+name: Commit refreshed directory, scan state, and postings
+  run: |
+    git config user.name "launchlist-bot"
+    git config user.email "actions@users.noreply.github.com"
+
+    git add data/opportunities.json
+    git add data/fortune500_companies.json
+    git add data/company_scan_state.json
+    git add feed.xml
+
+    git diff --cached --quiet || git commit -m "chore: refresh Fortune 500 internship scan"
+
+    git pull --rebase --autostash origin main
+    git push
 
 on:
   workflow_dispatch:
