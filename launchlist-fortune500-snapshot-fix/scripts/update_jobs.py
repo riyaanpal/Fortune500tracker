@@ -120,6 +120,25 @@ ATS_HOST_HINTS = (
 )
 FAILURE_STATUSES = {"error", "no-career-source", "blocked", "timeout", "timed-out"}
 
+# Graduate-level internships are intentionally excluded. LaunchList is aimed at
+# undergraduate / pre-internship opportunities for a 2029 graduation timeline,
+# so postings specifically branded for Master's, MBA, PhD, doctoral, or
+# postdoctoral candidates should not appear even if they otherwise match a role.
+GRADUATE_LEVEL_TITLE_RE = re.compile(
+    r"\b(graduate|grad|master(?:[\'’]s|s)?|m\.?s\.?|mba|m\.?b\.?a\.?|ph\.?d\.?|doctoral|doctorate|post[- ]?doc(?:toral)?)\b",
+    re.I,
+)
+GRADUATE_LEVEL_CONTEXT_RE = re.compile(
+    r"(?:currently\s+)?(?:pursu(?:e|ing)|enrolled\s+in|working\s+towards?|working\s+toward|complet(?:e|ing)|student\s+in|candidate\s+for|must\s+be\s+in|requires?)"
+    r"[^.;:]{0,90}?"
+    r"\b(master(?:[\'’]s|s)?|m\.?s\.?|mba|m\.?b\.?a\.?|ph\.?d\.?|doctoral|doctorate|graduate\s+degree|post[- ]?doc(?:toral)?)\b",
+    re.I,
+)
+UNDERGRAD_LEVEL_RE = re.compile(
+    r"\b(bachelor(?:[\'’]s|s)?|b\.?s\.?|b\.?a\.?|undergrad(?:uate)?|undergraduate\s+degree|associate[\'’]s)\b",
+    re.I,
+)
+
 
 @dataclass
 class GradDecision:
@@ -248,6 +267,48 @@ def freshman_friendly(text: str, grad: GradDecision) -> bool:
     return (positive and not negative) or (grad.status == "2029 eligible" and not negative)
 
 
+def is_graduate_level_internship(title: str, description: str) -> bool:
+    """Return True for postings specifically aimed at Master's/MBA/PhD candidates.
+
+    This intentionally does not reject every posting that merely mentions a
+    graduate degree somewhere. Some undergraduate-friendly job descriptions say
+    "Bachelor's or Master's". Those stay eligible when undergraduate language is
+    present and the title is not graduate-branded.
+    """
+    title_text = clean_text(title)
+    full_text = clean_text(f"{title} {description}")
+
+    # A title like "PhD Software Engineer Intern", "MBA Product Intern", or
+    # "Graduate Intern" is almost always a graduate-level-only internship.
+    if GRADUATE_LEVEL_TITLE_RE.search(title_text) and not UNDERGRAD_LEVEL_RE.search(title_text):
+        return True
+
+    for match in GRADUATE_LEVEL_CONTEXT_RE.finditer(full_text):
+        start = max(0, match.start() - 140)
+        end = min(len(full_text), match.end() + 140)
+        context = full_text[start:end]
+        if not UNDERGRAD_LEVEL_RE.search(context):
+            return True
+
+    # Catch common standalone requirement phrasings that do not use verbs like
+    # "pursuing": "Master's student required", "PhD candidate preferred",
+    # "graduate students only", etc. Keep mixed Bachelor/Master requirements.
+    standalone_re = re.compile(
+        r"\b(master(?:[\'’]s|s)?|m\.?s\.?|mba|m\.?b\.?a\.?|ph\.?d\.?|doctoral|doctorate|graduate\s+student|graduate-level|post[- ]?doc(?:toral)?)"
+        r"[^.;:]{0,70}?"
+        r"\b(required|only|candidate|student|program|degree)\b",
+        re.I,
+    )
+    for match in standalone_re.finditer(full_text):
+        start = max(0, match.start() - 120)
+        end = min(len(full_text), match.end() + 120)
+        context = full_text[start:end]
+        if not UNDERGRAD_LEVEL_RE.search(context):
+            return True
+
+    return False
+
+
 def infer_region(location: str) -> str:
     if REMOTE_RE.search(location) and (US_RE.search(location) or location.strip().lower() == "remote"):
         return "Remote"
@@ -341,6 +402,8 @@ def normalize_job(*, source: dict[str, Any], title: str, description: str, locat
         return None
     categories = classify_roles(title, full_text)
     if not categories:
+        return None
+    if is_graduate_level_internship(title, description):
         return None
     grad = evaluate_graduation(full_text)
     if not grad.eligible:
@@ -1367,7 +1430,8 @@ def main() -> int:
 
     payload = {
         "updated_at": utc_iso(),
-        "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed",
+        "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
+        "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
         "fortune500_year": directory_payload.get("year"),
         "fortune500_company_count": len(fortune_companies),
         "custom_company_count": len(companies) - len(fortune_companies),
