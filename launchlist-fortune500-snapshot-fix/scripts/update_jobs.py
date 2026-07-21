@@ -128,10 +128,24 @@ GRADUATE_LEVEL_TITLE_RE = re.compile(
     r"\b(graduate|grad|master(?:[\'’]s|s)?|m\.?s\.?|mba|m\.?b\.?a\.?|ph\.?d\.?|doctoral|doctorate|post[- ]?doc(?:toral)?)\b",
     re.I,
 )
-GRADUATE_LEVEL_CONTEXT_RE = re.compile(
-    r"(?:currently\s+)?(?:pursu(?:e|ing)|enrolled\s+in|working\s+towards?|working\s+toward|complet(?:e|ing)|student\s+in|candidate\s+for|must\s+be\s+in|requires?)"
-    r"[^.;:]{0,90}?"
+GRAD_DEGREE_RE = re.compile(
+    r"\b(master(?:[\'’]s|s)?|m\.?s\.?|mba|m\.?b\.?a\.?|ph\.?d\.?|doctoral|doctorate|doctorate\s+degree|graduate\s+degree|post[- ]?doc(?:toral)?)\b",
+    re.I,
+)
+STRICT_GRAD_REQUIREMENT_RE = re.compile(
+    r"\b(?:current(?:ly)?|pursu(?:e|ing)|enrolled|working\s+towards?|working\s+toward|complet(?:e|ing)|student|candidate|degree|program|qualification|requirements?|requires?|required|preferred|must|eligible)\b"
+    r"[^.;:\n]{0,180}?"
     r"\b(master(?:[\'’]s|s)?|m\.?s\.?|mba|m\.?b\.?a\.?|ph\.?d\.?|doctoral|doctorate|graduate\s+degree|post[- ]?doc(?:toral)?)\b",
+    re.I,
+)
+STRICT_GRAD_REQUIREMENT_REVERSE = re.compile(
+    r"\b(master(?:[\'’]s|s)?|m\.?s\.?|mba|m\.?b\.?a\.?|ph\.?d\.?|doctoral|doctorate|graduate\s+degree|post[- ]?doc(?:toral)?)\b"
+    r"[^.;:\n]{0,180}?"
+    r"\b(?:current(?:ly)?|pursu(?:e|ing)|enrolled|working\s+towards?|working\s+toward|complet(?:e|ing)|student|candidate|degree|program|qualification|requirements?|requires?|required|preferred|must|eligible)\b",
+    re.I,
+)
+GRAD_ONLY_RE = re.compile(
+    r"\b(?:graduate[- ]level|graduate\s+intern(?:ship)?|graduate\s+student(?:s)?|post[- ]?doc(?:toral)?|ph\.?d\.?\s+intern(?:ship)?|mba\s+intern(?:ship)?|master(?:[\'’]s|s)?\s+intern(?:ship)?)\b",
     re.I,
 )
 UNDERGRAD_LEVEL_RE = re.compile(
@@ -268,45 +282,60 @@ def freshman_friendly(text: str, grad: GradDecision) -> bool:
 
 
 def is_graduate_level_internship(title: str, description: str) -> bool:
-    """Return True for postings specifically aimed at Master's/MBA/PhD candidates.
+    """Return True when a posting is graduate-level or mentions current Master's/PhD candidacy.
 
-    This intentionally does not reject every posting that merely mentions a
-    graduate degree somewhere. Some undergraduate-friendly job descriptions say
-    "Bachelor's or Master's". Those stay eligible when undergraduate language is
-    present and the title is not graduate-branded.
+    LaunchList is intended for undergraduate-friendly internships. This strict
+    filter rejects postings that say candidates are currently pursuing, enrolled
+    in, students in, or candidates for Master's/MBA/PhD/doctoral programs, even
+    when the sentence also says Bachelor's. That prevents listings such as
+    "currently pursuing a Bachelor's, Master's, or PhD" from appearing.
     """
     title_text = clean_text(title)
     full_text = clean_text(f"{title} {description}")
 
-    # A title like "PhD Software Engineer Intern", "MBA Product Intern", or
-    # "Graduate Intern" is almost always a graduate-level-only internship.
-    if GRADUATE_LEVEL_TITLE_RE.search(title_text) and not UNDERGRAD_LEVEL_RE.search(title_text):
+    if GRADUATE_LEVEL_TITLE_RE.search(title_text):
         return True
 
-    for match in GRADUATE_LEVEL_CONTEXT_RE.finditer(full_text):
-        start = max(0, match.start() - 140)
-        end = min(len(full_text), match.end() + 140)
-        context = full_text[start:end]
-        if not UNDERGRAD_LEVEL_RE.search(context):
-            return True
+    if GRAD_ONLY_RE.search(full_text):
+        return True
 
-    # Catch common standalone requirement phrasings that do not use verbs like
-    # "pursuing": "Master's student required", "PhD candidate preferred",
-    # "graduate students only", etc. Keep mixed Bachelor/Master requirements.
-    standalone_re = re.compile(
-        r"\b(master(?:[\'’]s|s)?|m\.?s\.?|mba|m\.?b\.?a\.?|ph\.?d\.?|doctoral|doctorate|graduate\s+student|graduate-level|post[- ]?doc(?:toral)?)"
-        r"[^.;:]{0,70}?"
-        r"\b(required|only|candidate|student|program|degree)\b",
+    # Strict requirement patterns catch both directions:
+    # "currently pursuing a Master's" and "Master's student/candidate required".
+    if STRICT_GRAD_REQUIREMENT_RE.search(full_text) or STRICT_GRAD_REQUIREMENT_REVERSE.search(full_text):
+        return True
+
+    # Split into short requirement-like chunks. If a chunk contains a graduate
+    # degree and eligibility language, exclude it. This catches ATS text that
+    # compresses bullets into one long line.
+    chunks = re.split(r"[\n•]+|(?<=[.;:])\s+", full_text)
+    trigger_re = re.compile(
+        r"\b(current(?:ly)?|pursu(?:e|ing)|enrolled|working\s+towards?|working\s+toward|complet(?:e|ing)|student|candidate|degree|program|qualification|requirements?|requires?|required|preferred|must|eligible|minimum|basic)\b",
         re.I,
     )
-    for match in standalone_re.finditer(full_text):
-        start = max(0, match.start() - 120)
-        end = min(len(full_text), match.end() + 120)
-        context = full_text[start:end]
-        if not UNDERGRAD_LEVEL_RE.search(context):
+    for chunk in chunks:
+        if GRAD_DEGREE_RE.search(chunk) and trigger_re.search(chunk):
             return True
 
     return False
+
+
+def existing_job_has_graduate_signal(job: dict[str, Any]) -> bool:
+    """Apply the same graduate filter to retained/stale jobs already in data.
+
+    Existing opportunities do not store the full job description, so use every
+    text field that may contain degree evidence. This removes stale Master's/PhD
+    cards from opportunities.json the next time the workflow runs.
+    """
+    text_parts: list[str] = []
+    for key in ("title", "summary", "grad_evidence", "grad_status", "opportunity_type"):
+        value = job.get(key)
+        if isinstance(value, str):
+            text_parts.append(value)
+    for key in ("tags", "categories"):
+        value = job.get(key)
+        if isinstance(value, list):
+            text_parts.extend(str(item) for item in value)
+    return is_graduate_level_internship(str(job.get("title", "")), " ".join(text_parts))
 
 
 def infer_region(location: str) -> str:
@@ -1238,6 +1267,8 @@ def choose_companies(directory: list[dict[str, Any]], state: dict[str, Any], bat
 def retain_existing_jobs(existing: dict[str, Any], selected: set[str], successes: set[str], failures: set[str]) -> list[dict[str, Any]]:
     keep: list[dict[str, Any]] = []
     for job in existing.get("opportunities", []):
+        if existing_job_has_graduate_signal(job):
+            continue
         key = job.get("source_key")
         if key in successes:
             continue
@@ -1380,6 +1411,7 @@ def main() -> int:
     success_keys = {r.company["key"] for r in results if r.status == "ok"}
     failure_keys = {r.company["key"] for r in results if r.status in FAILURE_STATUSES}
     jobs = dedupe([*fresh_jobs, *retain_existing_jobs(existing, selected_keys, success_keys, failure_keys)])
+    jobs = [job for job in jobs if not existing_job_has_graduate_signal(job)]
 
     company_state = scan_state.setdefault("companies", {})
     for result in results:
