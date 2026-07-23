@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T14:38:26Z",
+  "updated_at": "2026-07-23T16:52:26Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "fortune500_year": 2026,
@@ -10,10 +10,10 @@
   "directory_warnings": [
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-07-23T14:35:17Z",
+  "directory_refreshed_at": "2026-07-23T16:48:55Z",
   "companies_scanned_this_run": 50,
-  "companies_scanned_last_24h": 491,
-  "companies_failed_last_24h": 7,
+  "companies_scanned_last_24h": 507,
+  "companies_failed_last_24h": 9,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "3m",
@@ -55,6 +55,19 @@
       "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
     },
     {
+      "key": "coterra-energy",
+      "rank": 496,
+      "company": "Coterra Energy",
+      "fortune_500": true,
+      "checked_at": "2026-07-23T16:52:26Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
       "key": "ferguson-enterprises",
       "rank": 147,
       "company": "Ferguson Enterprises",
@@ -72,7 +85,20 @@
       "rank": 66,
       "company": "International Business Machines",
       "fortune_500": true,
-      "checked_at": "2026-07-22T16:53:29Z",
+      "checked_at": "2026-07-23T16:52:26Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "roper-technologies",
+      "rank": 487,
+      "company": "Roper Technologies",
+      "fortune_500": true,
+      "checked_at": "2026-07-23T16:52:26Z",
       "status": "no-career-source",
       "issue_type": "No careers source found",
       "eligible_jobs": 0,
@@ -85,7 +111,7 @@
       "rank": 48,
       "company": "United Parcel Service",
       "fortune_500": true,
-      "checked_at": "2026-07-22T16:53:29Z",
+      "checked_at": "2026-07-23T16:52:26Z",
       "status": "no-career-source",
       "issue_type": "No careers source found",
       "eligible_jobs": 0,
@@ -98,7 +124,7 @@
       "rank": 93,
       "company": "United Services Automobile Assn.",
       "fortune_500": true,
-      "checked_at": "2026-07-22T16:53:29Z",
+      "checked_at": "2026-07-23T16:52:26Z",
       "status": "no-career-source",
       "issue_type": "No careers source found",
       "eligible_jobs": 0,
@@ -109,8 +135,60 @@
   ],
   "companies_with_eligible_jobs": 40,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 124,
+  "opportunity_count": 125,
   "opportunities": [
+    {
+      "id": "j-m-smucker-a75c9b9f551c",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Operations Engineering Intern, Fall 2026 - Orrville, OH",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Software engineering"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in O perations , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and manage projects,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-23",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Engineering-Intern--Fall-2026---Orrville--OH_114566",
+      "external_id": "114566",
+      "verified_at": "2026-07-23T16:49:04Z",
+      "match_score": 85
+    },
+    {
+      "id": "ge-vernova-0194348609e9",
+      "source_key": "ge-vernova",
+      "fortune_rank": 124,
+      "fortune_500": true,
+      "company": "GE Vernova",
+      "title": "Customer Support Engineering Intern - ECGIP",
+      "location": "Lagos",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Software engineering"
+      ],
+      "tags": [],
+      "summary": "Job Description Summary GE Vernova Gas Power is pleased to offer selected graduating students the opportunity to join our business for an internship. You will be exposed to our business, which provides a perfect opportunity for us to learn about you and your interests and for…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-23",
+      "deadline": "2026-08-20",
+      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Lagos/Customer-Support-Engineering-Intern---ECGIP_R5048156-2",
+      "external_id": "R5048156",
+      "verified_at": "2026-07-23T16:50:42Z",
+      "match_score": 85
+    },
     {
       "id": "mosaic-d44073a324f1",
       "source_key": "mosaic",
@@ -279,7 +357,7 @@
       "deadline": null,
       "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/Netherlands---Breda/HR-Operations-Internship_R-250742",
       "external_id": "R-250742",
-      "verified_at": "2026-07-22T16:50:46Z",
+      "verified_at": "2026-07-23T16:49:52Z",
       "match_score": 85
     },
     {
@@ -707,7 +785,7 @@
       "deadline": null,
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Dubai/MEA-Engineering-Intern_R5047039-2",
       "external_id": "R5047039",
-      "verified_at": "2026-07-22T16:50:43Z",
+      "verified_at": "2026-07-23T16:50:54Z",
       "match_score": 85
     },
     {
@@ -2011,7 +2089,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Quality-Assurance-Intern--Fall-2026---Orrville--OH_115378",
       "external_id": "115378",
-      "verified_at": "2026-07-23T14:35:26Z",
+      "verified_at": "2026-07-23T16:49:04Z",
       "match_score": 85
     },
     {
@@ -2041,7 +2119,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Fall-2026_115124",
       "external_id": "115124",
-      "verified_at": "2026-07-23T14:35:27Z",
+      "verified_at": "2026-07-23T16:49:05Z",
       "match_score": 85
     },
     {
@@ -2068,7 +2146,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_114837",
       "external_id": "114837",
-      "verified_at": "2026-07-23T14:35:26Z",
+      "verified_at": "2026-07-23T16:49:04Z",
       "match_score": 85
     },
     {
@@ -2095,7 +2173,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Management-Intern--Spring-2027---Orrville--OH_114833",
       "external_id": "114833",
-      "verified_at": "2026-07-23T14:35:26Z",
+      "verified_at": "2026-07-23T16:49:04Z",
       "match_score": 85
     },
     {
@@ -2122,7 +2200,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Management-Intern--Fall-2026---Orrville--OH_115347",
       "external_id": "115347",
-      "verified_at": "2026-07-23T14:35:26Z",
+      "verified_at": "2026-07-23T16:49:04Z",
       "match_score": 85
     },
     {
@@ -2150,7 +2228,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-07-23T14:35:40Z",
+      "verified_at": "2026-07-23T16:49:04Z",
       "match_score": 85
     },
     {
@@ -2287,7 +2365,7 @@
       "deadline": null,
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Tampere/MSc-Thesis-Opportunities-Through-a-Summer-Internship---Multiple-Openings_R5035971-2",
       "external_id": "R5035971",
-      "verified_at": "2026-07-22T16:50:47Z",
+      "verified_at": "2026-07-23T16:50:56Z",
       "match_score": 85
     },
     {
@@ -2315,36 +2393,7 @@
       "deadline": null,
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Jebel-Ali/Internship--Lean-Manufacturing---Operations_R5039041-2",
       "external_id": "R5039041",
-      "verified_at": "2026-07-22T16:50:46Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-vernova-97147cf04008",
-      "source_key": "ge-vernova",
-      "fortune_rank": 124,
-      "fortune_500": true,
-      "company": "GE Vernova",
-      "title": "Data Analyst Intern - Competency Management",
-      "location": "Stafford",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst"
-      ],
-      "tags": [
-        "Python",
-        "Excel",
-        "Tableau"
-      ],
-      "summary": "Job Description Summary As a Data Analyst Intern reporting to the Chief Engineer’s Office, you will play a crucial role in analysing data to support competency development within the Engineering and Technology function at Grid Solutions",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Stafford/Data-Analyst-Intern---Competency-Management_R5044024",
-      "external_id": "R5044024",
-      "verified_at": "2026-07-22T16:50:47Z",
+      "verified_at": "2026-07-23T16:50:56Z",
       "match_score": 85
     },
     {
@@ -2369,7 +2418,7 @@
       "deadline": null,
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Chennai/DT-Intern_R5027950-2",
       "external_id": "R5027950",
-      "verified_at": "2026-07-22T16:50:47Z",
+      "verified_at": "2026-07-23T16:51:00Z",
       "match_score": 85
     },
     {
@@ -2590,7 +2639,7 @@
       "deadline": null,
       "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/Singapore-Affiliate---Duo-Tower/Medical-Affairs-Intern-for-Amgen-Southeast-Asia_R-242188",
       "external_id": "R-242188",
-      "verified_at": "2026-07-22T16:50:47Z",
+      "verified_at": "2026-07-23T16:49:52Z",
       "match_score": 85
     },
     {
@@ -3192,7 +3241,7 @@
       "fortune_rank": 239,
       "fortune_500": true,
       "company": "Goodyear Tire & Rubber",
-      "title": "36,000+ Intern Jobs in United States",
+      "title": "38,000+ Intern Jobs in United States",
       "location": "Clear text",
       "region": "Global",
       "opportunity_type": "Internship",
@@ -3208,7 +3257,7 @@
         "Operations",
         "Finance"
       ],
-      "summary": "Get notified when a new job is posted. Set alert Sign in to set job alerts for “Intern” roles. Email or phone Password Show Forgot password? Sign in Sign in with Email or New to LinkedIn? Join now By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement ,…",
+      "summary": "Get notified about new Intern jobs in United States",
       "grad_status": "No graduation year listed",
       "grad_evidence": "School enrollment is required, but no graduation year is stated.",
       "freshman_friendly": false,
@@ -3216,7 +3265,7 @@
       "deadline": null,
       "url": "https://www.linkedin.com/jobs/intern-jobs",
       "external_id": null,
-      "verified_at": "2026-07-22T14:27:47Z",
+      "verified_at": "2026-07-23T16:49:26Z",
       "match_score": 85
     },
     {
