@@ -16,7 +16,10 @@ const state = {
 const roles = [
   "All roles", "Tech consulting", "Product management", "Wealth management",
   "Software engineering", "Business analyst", "Data analyst", "Operations analyst",
-  "IT analyst", "Startup analytics", "Digital transformation", "Product operations"
+  "IT analyst", "Startup analytics", "Digital transformation", "Product operations",
+  "Commercial banking", "Credit analyst / enterprise credit", "Corporate treasury",
+  "Corporate finance", "Credit risk", "Middle-market banking", "Asset-based lending",
+  "FP&A", "Risk management", "Accounting / financial analyst"
 ];
 
 const els = {
