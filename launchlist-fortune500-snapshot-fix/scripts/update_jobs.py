@@ -49,9 +49,22 @@ FEED_PATH = ROOT / "feed.xml"
 USER_AGENT = "LaunchList/2.2 (+personal Fortune 500 internship tracker)"
 NOW = datetime.now(timezone.utc)
 
-SEARCH_TERMS = ["intern", "internship", "co-op", "early insight", "explore program"]
+SEARCH_TERMS = [
+    "intern", "internship", "co-op", "summer analyst", "analyst program",
+    "early insight", "explore program",
+    "commercial banking intern", "corporate banking intern", "middle market banking intern",
+    "credit analyst intern", "enterprise credit intern", "credit risk intern",
+    "asset based lending intern", "asset-based lending intern",
+    "corporate treasury intern", "treasury analyst intern",
+    "corporate finance intern", "financial analyst intern", "accounting intern",
+    "fp&a intern", "financial planning and analysis intern", "risk management intern",
+]
 CAREER_WORDS = re.compile(r"\b(careers?|jobs?|students?|university|early careers?|campus)\b", re.I)
-JOB_LINK_WORDS = re.compile(r"\b(intern(ship)?|co[- ]?op|extern(ship)?|apprentice(ship)?|early insight|explore|discovery)\b", re.I)
+JOB_LINK_WORDS = re.compile(
+    r"\b(intern(ship)?|co[- ]?op|extern(ship)?|apprentice(ship)?|early insight|"
+    r"explore|discovery|summer analyst|analyst program)\b",
+    re.I,
+)
 
 ROLE_RULES: dict[str, tuple[str, ...]] = {
     "Tech consulting": (
@@ -98,11 +111,52 @@ ROLE_RULES: dict[str, tuple[str, ...]] = {
         "product operations", "product ops", "program manager intern", "product delivery",
         "business operations intern", "product commercialization", "technical program manager intern",
     ),
+    "Commercial banking": (
+        "commercial banking", "commercial bank", "corporate banking", "business banking",
+        "wholesale banking", "relationship banking", "banking summer analyst",
+    ),
+    "Credit analyst / enterprise credit": (
+        "credit analyst", "enterprise credit", "credit underwriting", "underwriting analyst",
+        "loan underwriting", "credit program", "credit intern", "lending analyst",
+    ),
+    "Corporate treasury": (
+        "corporate treasury", "treasury analyst", "treasury intern", "cash management",
+        "liquidity management", "capital management", "funding analyst",
+    ),
+    "Corporate finance": (
+        "corporate finance", "finance leadership", "finance development program",
+        "financial analyst program", "finance analyst", "finance intern", "strategic finance",
+    ),
+    "Credit risk": (
+        "credit risk", "risk analytics", "risk analyst", "credit portfolio",
+        "portfolio risk", "counterparty risk", "credit strategy",
+    ),
+    "Middle-market banking": (
+        "middle market", "middle-market", "mid market banking", "middle market banking",
+        "commercial middle market", "business banking middle market",
+    ),
+    "Asset-based lending": (
+        "asset based lending", "asset-based lending", "abl", "secured lending",
+        "collateral analyst", "borrowing base", "lending solutions",
+    ),
+    "FP&A": (
+        "fp&a", "fpa", "financial planning and analysis", "financial planning & analysis",
+        "planning and analysis", "budgeting", "forecasting", "variance analysis",
+    ),
+    "Risk management": (
+        "risk management", "enterprise risk", "operational risk", "market risk",
+        "model risk", "risk intern", "risk control", "risk and compliance",
+    ),
+    "Accounting / financial analyst": (
+        "accounting intern", "accounting analyst", "financial analyst", "financial analyst intern",
+        "accounting and finance", "controllership", "audit intern", "accounting co-op",
+    ),
 }
 
 INTERN_TITLE_RE = re.compile(
     r"\b(intern(ship)?|co[- ]?op|extern(ship)?|apprentice(ship)?|early insight|early identification|"
-    r"sophomore program|freshman program|explore program|discovery program|pre[- ]?intern)\b",
+    r"sophomore program|freshman program|explore program|discovery program|pre[- ]?intern|"
+    r"summer analyst|analyst program)\b",
     re.I,
 )
 GRAD_TRIGGER_RE = re.compile(
@@ -261,6 +315,10 @@ def derive_tags(text: str) -> list[str]:
         "Tableau": r"\btableau\b", "Power BI": r"\bpower\s*bi\b", "Cloud": r"\bcloud\b",
         "AI / ML": r"\b(ai|machine learning|ml|generative ai|genai)\b", "Product": r"\bproduct\b",
         "Strategy": r"\bstrategy\b", "Operations": r"\boperations?\b", "Finance": r"\bfinance\b",
+        "Banking": r"\b(commercial banking|corporate banking|middle[- ]market|business banking)\b",
+        "Credit": r"\b(credit|underwriting|lending)\b", "Treasury": r"\btreasury\b",
+        "FP&A": r"\b(fp&a|fpa|forecasting|budgeting|planning and analysis)\b",
+        "Risk": r"\brisk\b", "Accounting": r"\baccounting|audit|controllership\b",
     }
     return [label for label, pattern in candidates.items() if re.search(pattern, text, re.I)][:5]
 
@@ -881,7 +939,12 @@ class Fetcher:
 
     def fetch_amazon_html(self, source: dict[str, Any]) -> list[dict[str, Any]]:
         links: set[str] = set()
-        for query in ("intern", "software engineer internship", "business analyst intern", "product manager intern", "data analyst intern", "operations intern"):
+        for query in (
+            "intern", "software engineer internship", "business analyst intern",
+            "product manager intern", "data analyst intern", "operations intern",
+            "commercial banking intern", "credit analyst intern", "corporate finance intern",
+            "treasury intern", "risk management intern", "financial analyst intern",
+        ):
             url = f"{source['base_url']}/en/search?base_query={quote_plus(query)}&loc_query=United+States&sort=recent"
             soup = BeautifulSoup(self.request("GET", url).text, "html.parser")
             for anchor in soup.select('a[href*="/en/jobs/"]'):
@@ -1464,6 +1527,7 @@ def main() -> int:
         "updated_at": utc_iso(),
         "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
         "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
+        "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
         "fortune500_year": directory_payload.get("year"),
         "fortune500_company_count": len(fortune_companies),
         "custom_company_count": len(companies) - len(fortune_companies),
