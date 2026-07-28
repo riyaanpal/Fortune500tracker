@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T06:44:40Z",
+  "updated_at": "2026-07-28T10:00:33Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,10 +12,10 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-07-28T06:42:38Z",
+  "directory_refreshed_at": "2026-07-28T09:57:05Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 446,
-  "companies_failed_last_24h": 8,
+  "companies_failed_last_24h": 9,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "accendra-health",
@@ -62,6 +62,19 @@
       "company": "Coterra Energy",
       "fortune_500": true,
       "checked_at": "2026-07-27T15:20:10Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "ferguson-enterprises",
+      "rank": 147,
+      "company": "Ferguson Enterprises",
+      "fortune_500": true,
+      "checked_at": "2026-07-28T10:00:33Z",
       "status": "no-career-source",
       "issue_type": "No careers source found",
       "eligible_jobs": 0,
@@ -122,9 +135,9 @@
       "error": null
     }
   ],
-  "companies_with_eligible_jobs": 71,
+  "companies_with_eligible_jobs": 73,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 374,
+  "opportunity_count": 381,
   "opportunities": [
     {
       "id": "motorola-solutions-4ef35ca90d5b",
@@ -1500,34 +1513,6 @@
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-a75c9b9f551c",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Operations Engineering Intern, Fall 2026 - Orrville, OH",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Software engineering",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in O perations , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and manage projects,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-24",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Engineering-Intern--Fall-2026---Orrville--OH_114566",
-      "external_id": "114566",
-      "verified_at": "2026-07-28T06:42:58Z",
-      "match_score": 85
-    },
-    {
       "id": "ingram-micro-holding-24c41062b2c5",
       "source_key": "ingram-micro-holding",
       "fortune_rank": 90,
@@ -2312,6 +2297,34 @@
       "match_score": 85
     },
     {
+      "id": "j-m-smucker-a75c9b9f551c",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Operations Engineering Intern, Fall 2026 - Orrville, OH",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Software engineering",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in O perations , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and manage projects,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-23",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Engineering-Intern--Fall-2026---Orrville--OH_114566",
+      "external_id": "114566",
+      "verified_at": "2026-07-28T09:57:25Z",
+      "match_score": 85
+    },
+    {
       "id": "elevance-health-16aba6d9de62",
       "source_key": "elevance-health",
       "fortune_rank": 18,
@@ -2795,31 +2808,6 @@
       "match_score": 85
     },
     {
-      "id": "jabil-1e29c42a5e9c",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "HR Intern",
-      "location": "Nhon Trach",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-22",
-      "deadline": null,
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Nhon-Trach/HR-Intern_J2457644",
-      "external_id": "J2457644",
-      "verified_at": "2026-07-27T04:55:08Z",
-      "match_score": 85
-    },
-    {
       "id": "iqvia-holdings-ab359e763e80",
       "source_key": "iqvia-holdings",
       "fortune_rank": 274,
@@ -3122,31 +3110,6 @@
       "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Toronto-Ontario-Canada/Finance-Co-Op-Fall-Spring-2026-2027_R-078288",
       "external_id": "R-078288",
       "verified_at": "2026-07-27T15:18:22Z",
-      "match_score": 85
-    },
-    {
-      "id": "jabil-82ef6c84cb8d",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Calibration Technician Intern - PartTime",
-      "location": "Grand Junction, CO",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-21",
-      "deadline": "2026-07-27",
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Grand-Junction-CO/Calibration-Technician-Intern---PartTime_J2458100",
-      "external_id": "J2458100",
-      "verified_at": "2026-07-27T04:55:09Z",
       "match_score": 85
     },
     {
@@ -3578,6 +3541,31 @@
       "match_score": 85
     },
     {
+      "id": "biogen-75b07750763f",
+      "source_key": "biogen",
+      "fortune_rank": 421,
+      "fortune_500": true,
+      "company": "Biogen",
+      "title": "HR Intern",
+      "location": "Madrid, Spain",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Biogen y el programa de Biorace Biogen es una compañía líder en biotecnología dedicada al desarrollo de tratamientos para enfermedades raras, inmunológicas y neurológicas. Con el objetivo de atraer y formar al mejor talento, Biogen cuenta con un programa anual de becas: BioRace",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-17",
+      "deadline": null,
+      "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Madrid-Spain/HR-Intern_REQ23755",
+      "external_id": "REQ23755",
+      "verified_at": "2026-07-28T09:57:36Z",
+      "match_score": 85
+    },
+    {
       "id": "abbott-laboratories-95f6169d023e",
       "source_key": "abbott-laboratories",
       "fortune_rank": 107,
@@ -3717,6 +3705,33 @@
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Bandung/Intern-Co-op-OTH_R5046691-2",
       "external_id": "R5046691",
       "verified_at": "2026-07-28T06:43:37Z",
+      "match_score": 85
+    },
+    {
+      "id": "biogen-b0311731fa3e",
+      "source_key": "biogen",
+      "fortune_rank": 421,
+      "fortune_500": true,
+      "company": "Biogen",
+      "title": "Medical Intern",
+      "location": "Madrid, Spain",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "Biogen y el programa de Biorace Biogen es una compañía líder en biotecnología dedicada al desarrollo de tratamientos para enfermedades raras, inmunológicas y neurológicas. Con el objetivo de atraer y formar al mejor talento, Biogen cuenta con un programa anual de becas: BioRace",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-16",
+      "deadline": null,
+      "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Madrid-Spain/Medical-Intern_REQ23749",
+      "external_id": "REQ23749",
+      "verified_at": "2026-07-28T09:57:36Z",
       "match_score": 85
     },
     {
@@ -4227,6 +4242,33 @@
       "match_score": 85
     },
     {
+      "id": "biogen-26214d3522a5",
+      "source_key": "biogen",
+      "fortune_rank": 421,
+      "fortune_500": true,
+      "company": "Biogen",
+      "title": "Patient Engagement & Communication Intern",
+      "location": "Madrid, Spain",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "Biogen y el programa de Biorace Biogen es una compañía líder en biotecnología dedicada al desarrollo de tratamientos para enfermedades raras, inmunológicas y neurológicas. Con el objetivo de atraer y formar al mejor talento, Biogen cuenta con un programa anual de becas: BioRace",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-13",
+      "deadline": null,
+      "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Madrid-Spain/Patient-Engagement---Communication-Intern_REQ23731",
+      "external_id": "REQ23731",
+      "verified_at": "2026-07-28T09:57:36Z",
+      "match_score": 85
+    },
+    {
       "id": "ge-vernova-5a5aaa17cb70",
       "source_key": "ge-vernova",
       "fortune_rank": 124,
@@ -4458,6 +4500,33 @@
       "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Katowice-Poland/Intern-Financial-Planning-and-Analysis_R26-5097",
       "external_id": "R26-5097",
       "verified_at": "2026-07-27T07:55:21Z",
+      "match_score": 85
+    },
+    {
+      "id": "qvc-group-c2ca5a04384d",
+      "source_key": "qvc-group",
+      "fortune_rank": 433,
+      "fortune_500": true,
+      "company": "QVC Group",
+      "title": "Intern - Temp (Cinmar)",
+      "location": "USA, OH, West Chester",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "CBFG0008 Product Design Intern QVC Group West Chester, OH Working at QVC Group means joining a live social shopping company with incredible teams, ambitious projects and amazing careers. is a Fortune 500 company with six leading retail brands - QVC®, HSN®, and our four…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-10",
+      "deadline": null,
+      "url": "https://qvc.wd5.myworkdayjobs.com/QRG/job/USA-OH-West-Chester/Intern---Temp--Cinmar-_R82805",
+      "external_id": "R82805",
+      "verified_at": "2026-07-28T09:58:01Z",
       "match_score": 85
     },
     {
@@ -4916,6 +4985,33 @@
       "match_score": 85
     },
     {
+      "id": "biogen-ca6aab9d563c",
+      "source_key": "biogen",
+      "fortune_rank": 421,
+      "fortune_500": true,
+      "company": "Biogen",
+      "title": "External Affairs Intern",
+      "location": "Madrid, Spain",
+      "region": "Global",
+      "opportunity_type": "Pre-internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "Biogen y el programa de Biorace Biogen es una compañía líder en biotecnología dedicada al desarrollo de tratamientos para enfermedades raras, inmunológicas y neurológicas. Con el objetivo de atraer y formar al mejor talento, Biogen cuenta con un programa anual de becas: BioRace",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-08",
+      "deadline": null,
+      "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Madrid-Spain/External-Affairs-Intern_REQ23710",
+      "external_id": "REQ23710",
+      "verified_at": "2026-07-28T09:57:36Z",
+      "match_score": 85
+    },
+    {
       "id": "viatris-3d19e2e90323",
       "source_key": "viatris",
       "fortune_rank": 318,
@@ -4941,31 +5037,6 @@
       "url": "https://viatris.wd5.myworkdayjobs.com/External/job/Baldoyle-Dublin-Ireland/HR-Intern-fixed-term-contract_R5671062",
       "external_id": "R5671062",
       "verified_at": "2026-07-27T18:52:04Z",
-      "match_score": 85
-    },
-    {
-      "id": "jabil-8d7a9f8d55d3",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Lean Six Sigma Intern",
-      "location": "Guadalajara",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-07",
-      "deadline": null,
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Guadalajara/Lean-Six-Sigma-Intern_J2456667",
-      "external_id": "J2456667",
-      "verified_at": "2026-07-27T04:55:10Z",
       "match_score": 85
     },
     {
@@ -5141,6 +5212,31 @@
       "match_score": 85
     },
     {
+      "id": "jabil-8d7a9f8d55d3",
+      "source_key": "jabil",
+      "fortune_rank": 151,
+      "fortune_500": true,
+      "company": "Jabil",
+      "title": "Lean Six Sigma Intern",
+      "location": "Guadalajara",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-06",
+      "deadline": null,
+      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Guadalajara/Lean-Six-Sigma-Intern_J2456667",
+      "external_id": "J2456667",
+      "verified_at": "2026-07-28T09:58:34Z",
+      "match_score": 85
+    },
+    {
       "id": "biogen-75ec90fff309",
       "source_key": "biogen",
       "fortune_rank": 421,
@@ -5151,7 +5247,8 @@
       "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
-        "Operations analyst"
+        "Operations analyst",
+        "Asset-based lending"
       ],
       "tags": [
         "Excel",
@@ -5161,11 +5258,71 @@
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
-      "posted_date": "2026-07-07",
+      "posted_date": "2026-07-06",
       "deadline": null,
       "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Warsaw-Poland/Purchasing-Intern--Procurement-Operations-Internship-12-months_REQ23656-1",
       "external_id": "REQ23656",
-      "verified_at": "2026-07-27T04:05:26Z",
+      "verified_at": "2026-07-28T09:57:37Z",
+      "match_score": 85
+    },
+    {
+      "id": "biogen-85cd4f132e03",
+      "source_key": "biogen",
+      "fortune_rank": 421,
+      "fortune_500": true,
+      "company": "Biogen",
+      "title": "Accounts Payable Internship, US CANADA (12 months)",
+      "location": "Warsaw, Poland",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "About This Role: As a Procure to Pay Accounts Payable Intern, you will become an integral part of the P2P department, contributing significantly to the Accounts Payable processes. This 12-month internship offers a unique opportunity to learn the PTP process from a fresh…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-06",
+      "deadline": null,
+      "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Warsaw-Poland/Accounts-Payable-Internship--US-CANADA--12-months-_REQ23697",
+      "external_id": "REQ23697",
+      "verified_at": "2026-07-28T09:57:37Z",
+      "match_score": 85
+    },
+    {
+      "id": "biogen-6f1c805e806c",
+      "source_key": "biogen",
+      "fortune_rank": 421,
+      "fortune_500": true,
+      "company": "Biogen",
+      "title": "Accounts Payable Internship, EU MART (12 months)",
+      "location": "Warsaw, Poland",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "About This Role: As a Procure to Pay Accounts Payable Intern, you will become an integral part of the P2P department, contributing significantly to the Accounts Payable processes. This 12-month internship offers a unique opportunity to learn the PTP process from a fresh…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-06",
+      "deadline": null,
+      "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Warsaw-Poland/Accounts-Payable-Internship--EU-MART--12-months-_REQ23696-1",
+      "external_id": "REQ23696",
+      "verified_at": "2026-07-28T09:57:37Z",
       "match_score": 85
     },
     {
@@ -5225,33 +5382,6 @@
       "match_score": 85
     },
     {
-      "id": "jabil-31287fdbd5d4",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Recruitment Marketing Intern",
-      "location": "Guadalajara",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-03",
-      "deadline": null,
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Guadalajara/Recruitment-Marketing-Intern_J2456400",
-      "external_id": "J2456400",
-      "verified_at": "2026-07-27T04:55:10Z",
-      "match_score": 85
-    },
-    {
       "id": "ge-aerospace-fe5f4cfe9486",
       "source_key": "ge-aerospace",
       "fortune_rank": 101,
@@ -5304,6 +5434,33 @@
       "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Krakow-Poland/Systems-Integration-Engineer---Dimetra-SLCI-Intern_R66417",
       "external_id": "R66417",
       "verified_at": "2026-07-28T00:13:58Z",
+      "match_score": 85
+    },
+    {
+      "id": "jabil-31287fdbd5d4",
+      "source_key": "jabil",
+      "fortune_rank": 151,
+      "fortune_500": true,
+      "company": "Jabil",
+      "title": "Recruitment Marketing Intern",
+      "location": "Guadalajara",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-02",
+      "deadline": null,
+      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Guadalajara/Recruitment-Marketing-Intern_J2456400",
+      "external_id": "J2456400",
+      "verified_at": "2026-07-28T09:58:34Z",
       "match_score": 85
     },
     {
@@ -5556,36 +5713,6 @@
       "match_score": 85
     },
     {
-      "id": "biogen-3470a441cacf",
-      "source_key": "biogen",
-      "fortune_rank": 421,
-      "fortune_500": true,
-      "company": "Biogen",
-      "title": "Advanced Process Data Analytics and Modeling Internship",
-      "location": "Solothurn, Switzerland",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst"
-      ],
-      "tags": [
-        "Python",
-        "AI / ML",
-        "Product",
-        "Operations"
-      ],
-      "summary": "About This Role: As an Intern in Advanced Data Analytics, you will be an integral part of the Global Manufacturing Sciences Team at our Solothurn Biologics Manufacturing facility. Your primary focus will be on harnessing process data analytics and leveraging Artificial…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-01",
-      "deadline": null,
-      "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Solothurn-Switzerland/Advanced-Process-Data-Analytics-and-Modeling-Internship_REQ23652",
-      "external_id": "REQ23652",
-      "verified_at": "2026-07-27T04:05:26Z",
-      "match_score": 85
-    },
-    {
       "id": "abbott-laboratories-2de6993f4d80",
       "source_key": "abbott-laboratories",
       "fortune_rank": 107,
@@ -5719,6 +5846,64 @@
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Pittsburgh/Military-DoD-SkillBridge-Internship---Maintenance-Technician_R5032037-1",
       "external_id": "R5032037",
       "verified_at": "2026-07-27T15:17:26Z",
+      "match_score": 85
+    },
+    {
+      "id": "biogen-0c6ce47367fe",
+      "source_key": "biogen",
+      "fortune_rank": 421,
+      "fortune_500": true,
+      "company": "Biogen",
+      "title": "Manufacturing Maintenance Technician Apprentice (24-Month Program)",
+      "location": "Research Triangle Park, NC",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "About This Role An Apprenticeship at Biogen is a pathway to a long-term career in the biopharmaceutical industry. This 24-month program combines hands-on experience within our operations with enrollment in a registered partner community college to further your education",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-06-30",
+      "deadline": null,
+      "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Research-Triangle-Park-NC/Manufacturing-Maintenance-Technician-Apprentice--24-Month-Program-_REQ23654",
+      "external_id": "REQ23654",
+      "verified_at": "2026-07-28T09:57:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "biogen-3470a441cacf",
+      "source_key": "biogen",
+      "fortune_rank": 421,
+      "fortune_500": true,
+      "company": "Biogen",
+      "title": "Advanced Process Data Analytics and Modeling Internship",
+      "location": "Solothurn, Switzerland",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "AI / ML",
+        "Product",
+        "Operations"
+      ],
+      "summary": "About This Role: As an Intern in Advanced Data Analytics, you will be an integral part of the Global Manufacturing Sciences Team at our Solothurn Biologics Manufacturing facility. Your primary focus will be on harnessing process data analytics and leveraging Artificial…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-06-30",
+      "deadline": null,
+      "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Solothurn-Switzerland/Advanced-Process-Data-Analytics-and-Modeling-Internship_REQ23652",
+      "external_id": "REQ23652",
+      "verified_at": "2026-07-28T09:57:37Z",
       "match_score": 85
     },
     {
@@ -6103,7 +6288,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-07-28T06:43:22Z",
+      "verified_at": "2026-07-28T09:57:45Z",
       "match_score": 85
     },
     {
@@ -6128,7 +6313,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Aarup-Denmark/Intern_JR100830",
       "external_id": "JR100830",
-      "verified_at": "2026-07-28T06:43:22Z",
+      "verified_at": "2026-07-28T09:57:45Z",
       "match_score": 85
     },
     {
@@ -7391,7 +7576,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Shanghai/Legal-Intern_J2453958",
       "external_id": "J2453958",
-      "verified_at": "2026-07-27T04:55:10Z",
+      "verified_at": "2026-07-28T09:58:34Z",
       "match_score": 85
     },
     {
@@ -7419,7 +7604,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---Talent-Acquisition--Campus-Outreach-_J2454758",
       "external_id": "J2454758",
-      "verified_at": "2026-07-27T04:55:10Z",
+      "verified_at": "2026-07-28T09:58:34Z",
       "match_score": 85
     },
     {
@@ -7446,7 +7631,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---Talent-Acquisition_J2420136",
       "external_id": "J2420136",
-      "verified_at": "2026-07-27T04:55:11Z",
+      "verified_at": "2026-07-28T09:58:35Z",
       "match_score": 85
     },
     {
@@ -7474,7 +7659,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---IoT_J2417208",
       "external_id": "J2417208",
-      "verified_at": "2026-07-27T04:55:17Z",
+      "verified_at": "2026-07-28T09:58:44Z",
       "match_score": 85
     },
     {
@@ -7503,7 +7688,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Summer-2027-Intern-Interest-Application_115178",
       "external_id": "115178",
-      "verified_at": "2026-07-28T06:42:58Z",
+      "verified_at": "2026-07-28T09:57:24Z",
       "match_score": 85
     },
     {
@@ -7532,7 +7717,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Quality-Assurance-Intern--Fall-2026---Orrville--OH_115378",
       "external_id": "115378",
-      "verified_at": "2026-07-28T06:42:58Z",
+      "verified_at": "2026-07-28T09:57:25Z",
       "match_score": 85
     },
     {
@@ -7563,7 +7748,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Fall-2026_115124",
       "external_id": "115124",
-      "verified_at": "2026-07-28T06:42:59Z",
+      "verified_at": "2026-07-28T09:57:25Z",
       "match_score": 85
     },
     {
@@ -7591,7 +7776,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_114837",
       "external_id": "114837",
-      "verified_at": "2026-07-28T06:42:58Z",
+      "verified_at": "2026-07-28T09:57:24Z",
       "match_score": 85
     },
     {
@@ -7620,7 +7805,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Management-Intern--Spring-2027---Orrville--OH_114833",
       "external_id": "114833",
-      "verified_at": "2026-07-28T06:42:58Z",
+      "verified_at": "2026-07-28T09:57:24Z",
       "match_score": 85
     },
     {
@@ -7649,7 +7834,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Management-Intern--Fall-2026---Orrville--OH_115347",
       "external_id": "115347",
-      "verified_at": "2026-07-28T06:43:00Z",
+      "verified_at": "2026-07-28T09:57:25Z",
       "match_score": 85
     },
     {
@@ -7682,7 +7867,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-07-28T06:42:58Z",
+      "verified_at": "2026-07-28T09:57:24Z",
       "match_score": 85
     },
     {
@@ -9179,6 +9364,33 @@
       "match_score": 85
     },
     {
+      "id": "zoetis-7e269d241e94",
+      "source_key": "zoetis",
+      "fortune_rank": 434,
+      "fortune_500": true,
+      "company": "Zoetis",
+      "title": "Intern at Zoetis!",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "We offer internships with real purpose and big impact! Play the video Home → Join Us → Internships Gain Hands-On Experience in Our Supportive and Collaborative Environment The Zoetis Summer Intern Program offers students the opportunity to gain real-world experience in our…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.zoetis.com/join-us/intern-at-zoetis",
+      "external_id": null,
+      "verified_at": "2026-07-28T09:58:02Z",
+      "match_score": 85
+    },
+    {
       "id": "valero-energy-ac21abc6c4fd",
       "source_key": "valero-energy",
       "fortune_rank": 40,
@@ -9429,8 +9641,7 @@
       ],
       "tags": [
         "Product",
-        "Strategy",
-        "Operations"
+        "Strategy"
       ],
       "summary": "View all jobs Home Blog Section Navigating to Create New Career Experiences From Intern to Global Leader Navigating to Create New Career Experiences – From Intern to Global Leader Link Copied Link Copied A link has been copied to your clipboard!",
       "grad_status": "No graduation year listed",
@@ -9440,7 +9651,7 @@
       "deadline": null,
       "url": "https://careers.kimberly-clark.com/en/blog/navigating-to-create-new-career-experiences-from-intern-to-global-leader",
       "external_id": null,
-      "verified_at": "2026-07-27T04:55:12Z",
+      "verified_at": "2026-07-28T09:58:37Z",
       "match_score": 85
     },
     {
@@ -9470,7 +9681,7 @@
       "deadline": null,
       "url": "https://careers.jabil.com/students-internship-apprenticeship-programs.html",
       "external_id": null,
-      "verified_at": "2026-07-27T04:55:25Z",
+      "verified_at": "2026-07-28T09:59:03Z",
       "match_score": 85
     },
     {
@@ -9500,7 +9711,7 @@
       "deadline": null,
       "url": "https://careers.jabil.com/students-internship-apprenticeship-programs.html?utm_source=main_menu&utm_medium=referral&utm_campaign=jabil_com_referrals&_gl=1*76lc07*_gcl_aw*R0NMLjE3NTM5NzU5MzAuRUFJYUlRb2JDaE1JNTl2czM3RG1qZ01WN1ItdEJoMjJqZ0Q0RUFBWUFTQUFFZ0xrRVBEX0J3RQ..*_gcl_au*MTEwOTcwNDk0OC4xNzU2MjI4NTIy",
       "external_id": null,
-      "verified_at": "2026-07-27T04:55:25Z",
+      "verified_at": "2026-07-28T09:59:04Z",
       "match_score": 85
     },
     {
@@ -9528,7 +9739,7 @@
       "deadline": null,
       "url": "https://careers.jabil.com/student-apprenticeship-program.html",
       "external_id": null,
-      "verified_at": "2026-07-27T04:55:25Z",
+      "verified_at": "2026-07-28T09:59:04Z",
       "match_score": 85
     },
     {
