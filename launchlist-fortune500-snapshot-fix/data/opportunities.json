@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T10:03:22Z",
+  "updated_at": "2026-07-31T12:23:26Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,10 +12,10 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-07-31T10:00:15Z",
+  "directory_refreshed_at": "2026-07-31T12:19:48Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 437,
-  "companies_failed_last_24h": 7,
+  "companies_failed_last_24h": 8,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "alcoa",
@@ -49,6 +49,19 @@
       "company": "Coterra Energy",
       "fortune_500": true,
       "checked_at": "2026-07-30T20:39:46Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "ferguson-enterprises",
+      "rank": 147,
+      "company": "Ferguson Enterprises",
+      "fortune_500": true,
+      "checked_at": "2026-07-31T12:23:25Z",
       "status": "no-career-source",
       "issue_type": "No careers source found",
       "eligible_jobs": 0,
@@ -109,9 +122,9 @@
       "error": null
     }
   ],
-  "companies_with_eligible_jobs": 75,
+  "companies_with_eligible_jobs": 74,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 377,
+  "opportunity_count": 376,
   "opportunities": [
     {
       "id": "unum-group-8b89bddf4091",
@@ -416,6 +429,35 @@
       "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Shanghai-China/R-D-Intern_R-091422",
       "external_id": "R-091422",
       "verified_at": "2026-07-30T14:36:35Z",
+      "match_score": 85
+    },
+    {
+      "id": "jabil-d23d02ec5bb6",
+      "source_key": "jabil",
+      "fortune_rank": 151,
+      "fortune_500": true,
+      "company": "Jabil",
+      "title": "Project Management Intern",
+      "location": "Remote - USA",
+      "region": "Remote",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy",
+        "Risk"
+      ],
+      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-07-30",
+      "deadline": "2026-08-17",
+      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Remote---USA/Project-Management-Intern_J2459394",
+      "external_id": "J2459394",
+      "verified_at": "2026-07-31T12:22:05Z",
       "match_score": 85
     },
     {
@@ -1004,62 +1046,6 @@
       "match_score": 85
     },
     {
-      "id": "carrier-global-01377777677a",
-      "source_key": "carrier-global",
-      "fortune_rank": 212,
-      "fortune_500": true,
-      "company": "Carrier Global",
-      "title": "New Product Development – Co-op – Jumpstart Program",
-      "location": "CANHQ: CCS HQ - Syracuse, 6304 Carrier Parkway, East Syracuse, NY, 13057 USA",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-29",
-      "deadline": "2026-08-21",
-      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CANHQ-CCS-HQ---Syracuse-6304-Carrier-Parkway-East-Syracuse-NY-13057-USA/Systems-Engineering---Co-op---Jumpstart-Program_30213476",
-      "external_id": "30213476",
-      "verified_at": "2026-07-30T06:44:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "carrier-global-544b97016122",
-      "source_key": "carrier-global",
-      "fortune_rank": 212,
-      "fortune_500": true,
-      "company": "Carrier Global",
-      "title": "Intern, FPA",
-      "location": "Viessmann Elektronik GmbH, Beetwiese 2, 35107 Allendorf (Eder), Germany",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "FP&A"
-      ],
-      "tags": [
-        "Excel",
-        "FP&A"
-      ],
-      "summary": "Über Carrier Carrier Global Corporation, ein weltweit führendes Unternehmen für intelligente Klima- und Energielösungen, engagiert sich für Innovationen, die Komfort, Sicherheit und Nachhaltigkeit in den Alltag bringen. Durch modernste Entwicklungen in Bereichen wie…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-29",
-      "deadline": "2026-08-27",
-      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/Viessmann-Elektronik-GmbH-Beetwiese-2-35107-Allendorf-Eder-Germany/Intern--FP-A_30209895",
-      "external_id": "30209895",
-      "verified_at": "2026-07-30T06:44:26Z",
-      "match_score": 85
-    },
-    {
       "id": "campbell-s-644d9754323b",
       "source_key": "campbell-s",
       "fortune_rank": 413,
@@ -1442,7 +1428,7 @@
       "deadline": "2026-08-28",
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Grand-Junction-CO/Calibration-Technician-Intern---PartTime_J2458100",
       "external_id": "J2458100",
-      "verified_at": "2026-07-30T09:45:11Z",
+      "verified_at": "2026-07-31T12:22:07Z",
       "match_score": 85
     },
     {
@@ -1508,52 +1494,20 @@
       "match_score": 85
     },
     {
-      "id": "carrier-global-31bb4181acae",
+      "id": "carrier-global-01377777677a",
       "source_key": "carrier-global",
       "fortune_rank": 212,
       "fortune_500": true,
       "company": "Carrier Global",
-      "title": "Infrastructure Services Intern - Fall",
-      "location": "CAF77: CCS - CIB, 13995 Pasteur Boulevard, Palm Beach Gardens, FL, 33418 USA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "Excel",
-        "Cloud",
-        "Operations"
-      ],
-      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-28",
-      "deadline": "2026-08-21",
-      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAF77-CCS---CIB-13995-Pasteur-Boulevard-Palm-Beach-Gardens-FL-33418-USA/Infrastructure-Services-Intern---Fall_30212744",
-      "external_id": "30212744",
-      "verified_at": "2026-07-30T06:44:26Z",
-      "match_score": 85
-    },
-    {
-      "id": "carrier-global-1cb2e20e3c70",
-      "source_key": "carrier-global",
-      "fortune_rank": 212,
-      "fortune_500": true,
-      "company": "Carrier Global",
-      "title": "Engineering Intern – Jumpstart Program",
+      "title": "New Product Development – Co-op – Jumpstart Program",
       "location": "CANHQ: CCS HQ - Syracuse, 6304 Carrier Parkway, East Syracuse, NY, 13057 USA",
       "region": "United States",
-      "opportunity_type": "Internship",
+      "opportunity_type": "Co-op",
       "categories": [
-        "Software engineering",
         "Asset-based lending"
       ],
       "tags": [
         "Product",
-        "Strategy",
         "Operations"
       ],
       "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
@@ -1562,9 +1516,37 @@
       "freshman_friendly": false,
       "posted_date": "2026-07-28",
       "deadline": "2026-08-21",
-      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CANHQ-CCS-HQ---Syracuse-6304-Carrier-Parkway-East-Syracuse-NY-13057-USA/Engineering-Intern---Jumpstart-Program_30212994",
-      "external_id": "30212994",
-      "verified_at": "2026-07-30T06:44:26Z",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CANHQ-CCS-HQ---Syracuse-6304-Carrier-Parkway-East-Syracuse-NY-13057-USA/Systems-Engineering---Co-op---Jumpstart-Program_30213476",
+      "external_id": "30213476",
+      "verified_at": "2026-07-31T12:20:33Z",
+      "match_score": 85
+    },
+    {
+      "id": "carrier-global-544b97016122",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
+      "fortune_500": true,
+      "company": "Carrier Global",
+      "title": "Intern, FPA",
+      "location": "Viessmann Elektronik GmbH, Beetwiese 2, 35107 Allendorf (Eder), Germany",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "FP&A"
+      ],
+      "tags": [
+        "Excel",
+        "FP&A"
+      ],
+      "summary": "Über Carrier Carrier Global Corporation, ein weltweit führendes Unternehmen für intelligente Klima- und Energielösungen, engagiert sich für Innovationen, die Komfort, Sicherheit und Nachhaltigkeit in den Alltag bringen. Durch modernste Entwicklungen in Bereichen wie…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-28",
+      "deadline": "2026-08-27",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/Viessmann-Elektronik-GmbH-Beetwiese-2-35107-Allendorf-Eder-Germany/Intern--FP-A_30209895",
+      "external_id": "30209895",
+      "verified_at": "2026-07-31T12:20:31Z",
       "match_score": 85
     },
     {
@@ -2048,6 +2030,66 @@
       "match_score": 85
     },
     {
+      "id": "carrier-global-31bb4181acae",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
+      "fortune_500": true,
+      "company": "Carrier Global",
+      "title": "Infrastructure Services Intern - Fall",
+      "location": "CAF77: CCS - CIB, 13995 Pasteur Boulevard, Palm Beach Gardens, FL, 33418 USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Excel",
+        "Cloud",
+        "Operations"
+      ],
+      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-27",
+      "deadline": "2026-08-21",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAF77-CCS---CIB-13995-Pasteur-Boulevard-Palm-Beach-Gardens-FL-33418-USA/Infrastructure-Services-Intern---Fall_30212744",
+      "external_id": "30212744",
+      "verified_at": "2026-07-31T12:20:31Z",
+      "match_score": 85
+    },
+    {
+      "id": "carrier-global-1cb2e20e3c70",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
+      "fortune_500": true,
+      "company": "Carrier Global",
+      "title": "Engineering Intern – Jumpstart Program",
+      "location": "CANHQ: CCS HQ - Syracuse, 6304 Carrier Parkway, East Syracuse, NY, 13057 USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Software engineering",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-27",
+      "deadline": "2026-08-21",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CANHQ-CCS-HQ---Syracuse-6304-Carrier-Parkway-East-Syracuse-NY-13057-USA/Engineering-Intern---Jumpstart-Program_30212994",
+      "external_id": "30212994",
+      "verified_at": "2026-07-31T12:20:31Z",
+      "match_score": 85
+    },
+    {
       "id": "blackstone-4e21046c333c",
       "source_key": "blackstone",
       "fortune_rank": 310,
@@ -2108,33 +2150,6 @@
       "url": "https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/PGIM--2027-Private-Credit--Investment-Analyst-Program_R-124650",
       "external_id": "R-124650",
       "verified_at": "2026-07-31T00:21:52Z",
-      "match_score": 85
-    },
-    {
-      "id": "carrier-global-9eac3654a1e3",
-      "source_key": "carrier-global",
-      "fortune_rank": 212,
-      "fortune_500": true,
-      "company": "Carrier Global",
-      "title": "Facilities Intern – Jumpstart Program",
-      "location": "CANHQ: CCS HQ - Syracuse, 6304 Carrier Parkway, East Syracuse, NY, 13057 USA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-25",
-      "deadline": "2026-08-14",
-      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CANHQ-CCS-HQ---Syracuse-6304-Carrier-Parkway-East-Syracuse-NY-13057-USA/Facilities-Intern---Jumpstart-Program_30213157",
-      "external_id": "30213157",
-      "verified_at": "2026-07-30T06:44:26Z",
       "match_score": 85
     },
     {
@@ -2450,6 +2465,33 @@
       "match_score": 85
     },
     {
+      "id": "carrier-global-9eac3654a1e3",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
+      "fortune_500": true,
+      "company": "Carrier Global",
+      "title": "Facilities Intern – Jumpstart Program",
+      "location": "CANHQ: CCS HQ - Syracuse, 6304 Carrier Parkway, East Syracuse, NY, 13057 USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-24",
+      "deadline": "2026-08-14",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CANHQ-CCS-HQ---Syracuse-6304-Carrier-Parkway-East-Syracuse-NY-13057-USA/Facilities-Intern---Jumpstart-Program_30213157",
+      "external_id": "30213157",
+      "verified_at": "2026-07-31T12:20:31Z",
+      "match_score": 85
+    },
+    {
       "id": "c-h-robinson-worldwide-6f71c3d330bb",
       "source_key": "c-h-robinson-worldwide",
       "fortune_rank": 277,
@@ -2555,7 +2597,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Engineering-Intern--Fall-2026---Orrville--OH_114566",
       "external_id": "114566",
-      "verified_at": "2026-07-31T10:00:34Z",
+      "verified_at": "2026-07-31T12:20:08Z",
       "match_score": 85
     },
     {
@@ -3520,82 +3562,6 @@
       "match_score": 85
     },
     {
-      "id": "carrier-global-2137ee2554a9",
-      "source_key": "carrier-global",
-      "fortune_rank": 212,
-      "fortune_500": true,
-      "company": "Carrier Global",
-      "title": "Thermal Optimization Engineering Intern – Fall",
-      "location": "CAG10: ALC HQ, 1025 Cobb Place Boulevard, Kennesaw, GA, 30145 USA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Software engineering",
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-21",
-      "deadline": "2026-08-04",
-      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAG10-ALC-HQ-1025-Cobb-Place-Boulevard-Kennesaw-GA-30145-USA/Thermal-Optimization-Engineering-Intern---Fall_30204244",
-      "external_id": "30204244",
-      "verified_at": "2026-07-30T06:44:26Z",
-      "match_score": 85
-    },
-    {
-      "id": "carrier-global-cf9c36fcc0fb",
-      "source_key": "carrier-global",
-      "fortune_rank": 212,
-      "fortune_500": true,
-      "company": "Carrier Global",
-      "title": "Field Service – Co-op",
-      "location": "CAM69: ALC - Mass (Canton), 95 Shawmut Road, Canton, MA, 02021 USA",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-21",
-      "deadline": "2026-08-04",
-      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAM69-ALC---Mass-Canton-95-Shawmut-Road-Canton-MA-02021-USA/Field-Service---Co-op_30212736",
-      "external_id": "30212736",
-      "verified_at": "2026-07-30T06:44:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "carrier-global-cd3aac97e39f",
-      "source_key": "carrier-global",
-      "fortune_rank": 212,
-      "fortune_500": true,
-      "company": "Carrier Global",
-      "title": "Engineering Co-op – Jumpstart Program",
-      "location": "CANHQ: CCS HQ - Syracuse, 6304 Carrier Parkway, East Syracuse, NY, 13057 USA",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-21",
-      "deadline": "2026-08-04",
-      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CANHQ-CCS-HQ---Syracuse-6304-Carrier-Parkway-East-Syracuse-NY-13057-USA/Engineering-Co-op---Jumpstart-Program_30212970-2",
-      "external_id": "30212970",
-      "verified_at": "2026-07-30T06:44:30Z",
-      "match_score": 85
-    },
-    {
       "id": "amgen-46f7f6be5f80",
       "source_key": "amgen",
       "fortune_rank": 129,
@@ -3702,6 +3668,57 @@
       "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Tax-Expenses-Intern_JR103462-1",
       "external_id": "JR103462",
       "verified_at": "2026-07-31T07:17:21Z",
+      "match_score": 85
+    },
+    {
+      "id": "carrier-global-2137ee2554a9",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
+      "fortune_500": true,
+      "company": "Carrier Global",
+      "title": "Thermal Optimization Engineering Intern – Fall",
+      "location": "CAG10: ALC HQ, 1025 Cobb Place Boulevard, Kennesaw, GA, 30145 USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Software engineering",
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-20",
+      "deadline": "2026-08-04",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAG10-ALC-HQ-1025-Cobb-Place-Boulevard-Kennesaw-GA-30145-USA/Thermal-Optimization-Engineering-Intern---Fall_30204244",
+      "external_id": "30204244",
+      "verified_at": "2026-07-31T12:20:31Z",
+      "match_score": 85
+    },
+    {
+      "id": "carrier-global-cf9c36fcc0fb",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
+      "fortune_500": true,
+      "company": "Carrier Global",
+      "title": "Field Service – Co-op",
+      "location": "CAM69: ALC - Mass (Canton), 95 Shawmut Road, Canton, MA, 02021 USA",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-20",
+      "deadline": "2026-08-04",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAM69-ALC---Mass-Canton-95-Shawmut-Road-Canton-MA-02021-USA/Field-Service---Co-op_30212736",
+      "external_id": "30212736",
+      "verified_at": "2026-07-31T12:20:33Z",
       "match_score": 85
     },
     {
@@ -4258,33 +4275,6 @@
       "match_score": 85
     },
     {
-      "id": "andersons-b79882901334",
-      "source_key": "andersons",
-      "fortune_rank": 397,
-      "fortune_500": true,
-      "company": "Andersons",
-      "title": "Engineering Co-Op (Spring 2027)",
-      "location": "Maumee, OH",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "As a North American leader in agribusiness and renewable fuels, The Andersons operates in a unique space, bringing together agriculture, energy, and global markets. From the farm to customers around the world, we help move food, feed, and fuel where it’s needed most",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-07-14",
-      "deadline": null,
-      "url": "https://andersonsinc.wd1.myworkdayjobs.com/TheAndersonsCareers/job/Maumee-OH/Engineering-Co-Op--Spring-2027-_R12340",
-      "external_id": "R12340",
-      "verified_at": "2026-07-30T06:45:18Z",
-      "match_score": 85
-    },
-    {
       "id": "abbott-laboratories-f78d02988b16",
       "source_key": "abbott-laboratories",
       "fortune_rank": 107,
@@ -4476,6 +4466,33 @@
       "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Madrid-Spain/Patient-Engagement---Communication-Intern_REQ23731",
       "external_id": "REQ23731",
       "verified_at": "2026-07-30T12:07:07Z",
+      "match_score": 85
+    },
+    {
+      "id": "andersons-b79882901334",
+      "source_key": "andersons",
+      "fortune_rank": 397,
+      "fortune_500": true,
+      "company": "Andersons",
+      "title": "Engineering Co-Op (Spring 2027)",
+      "location": "Maumee, OH",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "As a North American leader in agribusiness and renewable fuels, The Andersons operates in a unique space, bringing together agriculture, energy, and global markets. From the farm to customers around the world, we help move food, feed, and fuel where it’s needed most",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-07-13",
+      "deadline": null,
+      "url": "https://andersonsinc.wd1.myworkdayjobs.com/TheAndersonsCareers/job/Maumee-OH/Engineering-Co-Op--Spring-2027-_R12340",
+      "external_id": "R12340",
+      "verified_at": "2026-07-31T12:21:12Z",
       "match_score": 85
     },
     {
@@ -5361,7 +5378,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Guadalajara/Lean-Six-Sigma-Intern_J2456667",
       "external_id": "J2456667",
-      "verified_at": "2026-07-30T09:45:13Z",
+      "verified_at": "2026-07-31T12:22:08Z",
       "match_score": 85
     },
     {
@@ -5505,7 +5522,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Guadalajara/Recruitment-Marketing-Intern_J2456400",
       "external_id": "J2456400",
-      "verified_at": "2026-07-30T09:45:14Z",
+      "verified_at": "2026-07-31T12:22:08Z",
       "match_score": 85
     },
     {
@@ -6133,7 +6150,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-07-31T10:00:59Z",
+      "verified_at": "2026-07-31T12:20:36Z",
       "match_score": 85
     },
     {
@@ -6158,7 +6175,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Aarup-Denmark/Intern_JR100830",
       "external_id": "JR100830",
-      "verified_at": "2026-07-31T10:00:58Z",
+      "verified_at": "2026-07-31T12:20:36Z",
       "match_score": 85
     },
     {
@@ -7385,7 +7402,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Shanghai/Legal-Intern_J2453958",
       "external_id": "J2453958",
-      "verified_at": "2026-07-30T09:45:13Z",
+      "verified_at": "2026-07-31T12:22:08Z",
       "match_score": 85
     },
     {
@@ -7413,7 +7430,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---Talent-Acquisition--Campus-Outreach-_J2454758",
       "external_id": "J2454758",
-      "verified_at": "2026-07-30T09:45:13Z",
+      "verified_at": "2026-07-31T12:22:08Z",
       "match_score": 85
     },
     {
@@ -7440,7 +7457,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---Talent-Acquisition_J2420136",
       "external_id": "J2420136",
-      "verified_at": "2026-07-30T09:45:14Z",
+      "verified_at": "2026-07-31T12:22:09Z",
       "match_score": 85
     },
     {
@@ -7468,7 +7485,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---IoT_J2417208",
       "external_id": "J2417208",
-      "verified_at": "2026-07-30T09:45:22Z",
+      "verified_at": "2026-07-31T12:22:14Z",
       "match_score": 85
     },
     {
@@ -7497,7 +7514,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Summer-2027-Intern-Interest-Application_115178",
       "external_id": "115178",
-      "verified_at": "2026-07-31T10:00:34Z",
+      "verified_at": "2026-07-31T12:20:08Z",
       "match_score": 85
     },
     {
@@ -7526,7 +7543,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Quality-Assurance-Intern--Fall-2026---Orrville--OH_115378",
       "external_id": "115378",
-      "verified_at": "2026-07-31T10:00:34Z",
+      "verified_at": "2026-07-31T12:20:09Z",
       "match_score": 85
     },
     {
@@ -7557,7 +7574,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Fall-2026_115124",
       "external_id": "115124",
-      "verified_at": "2026-07-31T10:00:34Z",
+      "verified_at": "2026-07-31T12:20:09Z",
       "match_score": 85
     },
     {
@@ -7585,7 +7602,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_114837",
       "external_id": "114837",
-      "verified_at": "2026-07-31T10:00:34Z",
+      "verified_at": "2026-07-31T12:20:08Z",
       "match_score": 85
     },
     {
@@ -7614,7 +7631,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Management-Intern--Spring-2027---Orrville--OH_114833",
       "external_id": "114833",
-      "verified_at": "2026-07-31T10:00:34Z",
+      "verified_at": "2026-07-31T12:20:08Z",
       "match_score": 85
     },
     {
@@ -7643,7 +7660,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Management-Intern--Fall-2026---Orrville--OH_115347",
       "external_id": "115347",
-      "verified_at": "2026-07-31T10:00:34Z",
+      "verified_at": "2026-07-31T12:20:09Z",
       "match_score": 85
     },
     {
@@ -7676,7 +7693,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-07-31T10:00:34Z",
+      "verified_at": "2026-07-31T12:20:09Z",
       "match_score": 85
     },
     {
@@ -8634,7 +8651,7 @@
       "deadline": null,
       "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/UK-Field-Based-Field-Based-United-Kingdom/Engineering-Apprenticeship_30190431",
       "external_id": "30190431",
-      "verified_at": "2026-07-30T06:44:36Z",
+      "verified_at": "2026-07-31T12:20:34Z",
       "match_score": 85
     },
     {
@@ -9438,7 +9455,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-07-31T10:00:20Z",
+      "verified_at": "2026-07-31T12:19:55Z",
       "match_score": 85
     },
     {
@@ -9499,36 +9516,6 @@
       "match_score": 85
     },
     {
-      "id": "jabil-5f7b223e6383",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Students, Internships, and Apprenticeship Programs",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Software engineering",
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Students, Internships, and Apprenticeship Programs Search Jobs Learn from the best and make an impact We drive innovation for the world’s top brands. At Jabil, we’re committed to connecting people, advancing technology, and making a positive impact on the world we share",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://careers.jabil.com/students-internship-apprenticeship-programs.html",
-      "external_id": null,
-      "verified_at": "2026-07-30T09:45:37Z",
-      "match_score": 85
-    },
-    {
       "id": "jabil-dc3103284b10",
       "source_key": "jabil",
       "fortune_rank": 151,
@@ -9555,7 +9542,37 @@
       "deadline": null,
       "url": "https://careers.jabil.com/students-internship-apprenticeship-programs.html?utm_source=main_menu&utm_medium=referral&utm_campaign=jabil_com_referrals&_gl=1*76lc07*_gcl_aw*R0NMLjE3NTM5NzU5MzAuRUFJYUlRb2JDaE1JNTl2czM3RG1qZ01WN1ItdEJoMjJqZ0Q0RUFBWUFTQUFFZ0xrRVBEX0J3RQ..*_gcl_au*MTEwOTcwNDk0OC4xNzU2MjI4NTIy",
       "external_id": null,
-      "verified_at": "2026-07-30T09:45:37Z",
+      "verified_at": "2026-07-31T12:22:24Z",
+      "match_score": 85
+    },
+    {
+      "id": "jabil-5f7b223e6383",
+      "source_key": "jabil",
+      "fortune_rank": 151,
+      "fortune_500": true,
+      "company": "Jabil",
+      "title": "Students, Internships, and Apprenticeship Programs",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Software engineering",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Students, Internships, and Apprenticeship Programs Search Jobs Learn from the best and make an impact We drive innovation for the world’s top brands. At Jabil, we’re committed to connecting people, advancing technology, and making a positive impact on the world we share",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://careers.jabil.com/students-internship-apprenticeship-programs.html",
+      "external_id": null,
+      "verified_at": "2026-07-31T12:22:24Z",
       "match_score": 85
     },
     {
@@ -9583,7 +9600,7 @@
       "deadline": null,
       "url": "https://careers.jabil.com/student-apprenticeship-program.html",
       "external_id": null,
-      "verified_at": "2026-07-30T09:45:37Z",
+      "verified_at": "2026-07-31T12:22:24Z",
       "match_score": 85
     },
     {
@@ -10085,38 +10102,6 @@
       "url": "https://www.firstenergycorp.com/careers/apprenticeship-program.html",
       "external_id": null,
       "verified_at": "2026-07-31T00:17:16Z",
-      "match_score": 85
-    },
-    {
-      "id": "exxonmobil-holdings-0904a6de0dd3",
-      "source_key": "exxonmobil-holdings",
-      "fortune_rank": 9,
-      "fortune_500": true,
-      "company": "ExxonMobil Holdings",
-      "title": "Search results for \"Intern/co-op/apprentice AND United States\".",
-      "location": "Search by location",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Risk management",
-        "Credit risk",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Finance",
-        "Risk",
-        "Accounting"
-      ],
-      "summary": "By clicking “Accept all cookies”, you agree to the storing of optional cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. By clicking “Reject all cookies” you reject the storing of the optional cookies on your device",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://jobs.exxonmobil.com/search/",
-      "external_id": null,
-      "verified_at": "2026-07-30T09:45:42Z",
       "match_score": 85
     },
     {
