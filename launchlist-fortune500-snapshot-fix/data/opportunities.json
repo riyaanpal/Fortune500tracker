@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T03:57:11Z",
+  "updated_at": "2026-07-31T07:18:59Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,10 +12,10 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-07-31T03:53:18Z",
+  "directory_refreshed_at": "2026-07-31T07:15:59Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 437,
-  "companies_failed_last_24h": 5,
+  "companies_failed_last_24h": 8,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "accendra-health",
@@ -29,6 +29,19 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": null
+    },
+    {
+      "key": "alcoa",
+      "rank": 344,
+      "company": "Alcoa",
+      "fortune_500": true,
+      "checked_at": "2026-07-31T07:18:59Z",
+      "status": "error",
+      "issue_type": "Scan error",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs: 404 Client Error: Not Found for url: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs"
     },
     {
       "key": "bank-of-america",
@@ -57,11 +70,11 @@
       "error": null
     },
     {
-      "key": "ferguson-enterprises",
-      "rank": 147,
-      "company": "Ferguson Enterprises",
+      "key": "international-business-machines",
+      "rank": 66,
+      "company": "International Business Machines",
       "fortune_500": true,
-      "checked_at": "2026-07-30T06:48:22Z",
+      "checked_at": "2026-07-31T07:18:59Z",
       "status": "no-career-source",
       "issue_type": "No careers source found",
       "eligible_jobs": 0,
@@ -81,11 +94,37 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": null
+    },
+    {
+      "key": "united-parcel-service",
+      "rank": 48,
+      "company": "United Parcel Service",
+      "fortune_500": true,
+      "checked_at": "2026-07-31T07:18:59Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "united-services-automobile-assn",
+      "rank": 93,
+      "company": "United Services Automobile Assn.",
+      "fortune_500": true,
+      "checked_at": "2026-07-31T07:18:59Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
     }
   ],
   "companies_with_eligible_jobs": 75,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 383,
+  "opportunity_count": 375,
   "opportunities": [
     {
       "id": "unum-group-8b89bddf4091",
@@ -141,6 +180,31 @@
       "url": "https://otis.wd5.myworkdayjobs.com/REC_Ext_Gateway/job/LOC3309-No28-Jiuhuan-Road-Hangzhou-Shangcheng-District-Zhejiang-China/Intern--Cust-Data-Mgmt_20162321-1",
       "external_id": "20162321",
       "verified_at": "2026-07-31T00:18:10Z",
+      "match_score": 85
+    },
+    {
+      "id": "dxc-technology-e9d3e4a6b54f",
+      "source_key": "dxc-technology",
+      "fortune_rank": 343,
+      "fortune_500": true,
+      "company": "DXC Technology",
+      "title": "Internship",
+      "location": "PRT - LISBON",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Job Description: #LI-DNI Essential Job Functions: • Execute business process transactions, closely following established procedures and guidelines. • Collaborate with senior analysts, managers, and other staff. • Support process improvement initiatives and data analysis",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-31",
+      "deadline": null,
+      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/PRT---LISBON/Internship_51586136",
+      "external_id": "51586136",
+      "verified_at": "2026-07-31T07:16:50Z",
       "match_score": 85
     },
     {
@@ -349,66 +413,73 @@
       "match_score": 85
     },
     {
-      "id": "ge-vernova-9855cd9f3289",
+      "id": "ge-vernova-f7334473c4a3",
       "source_key": "ge-vernova",
       "fortune_rank": 124,
       "fortune_500": true,
       "company": "GE Vernova",
-      "title": "manufacturing Engineering Co-Op – Fall/Winter 2026",
-      "location": "Allentown",
+      "title": "Supply Chain Finance Intern",
+      "location": "Noventa di Piave",
       "region": "Global",
-      "opportunity_type": "Co-op",
+      "opportunity_type": "Internship",
       "categories": [
-        "Asset-based lending"
+        "Corporate finance",
+        "Business analyst",
+        "Accounting / financial analyst"
       ],
       "tags": [
-        "Strategy"
+        "Finance",
+        "Accounting"
       ],
-      "summary": "Job Description Summary The Energy to Change the World GE Vernova is a planned, purpose-built energy company that includes Power, Wind, and Electriﬁcation segments and is supported by its accelerator businesses. At GE Vernova, we are working to solve the world’s most pressing…",
+      "summary": "Job Description Summary Lo stage è un tirocinio della durata di 6 mesi che mira a fornire agli studenti una vera esperienza lavorativa nel settore finanziario correlata alla loro laurea. Il candidato/ a individuato avrà la possibilità di lavorare in un ambiente internazionale,…",
       "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-07-30",
-      "deadline": "2026-08-12",
-      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Allentown/manufacturing-Engineering-Co-Op---Fall-Winter-2026_R5048325-2",
-      "external_id": "R5048325",
-      "verified_at": "2026-07-30T03:34:08Z",
+      "deadline": null,
+      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Noventa-di-Piave/Supply-Chain-Finance-Intern_R5044723-2",
+      "external_id": "R5044723",
+      "verified_at": "2026-07-31T07:18:05Z",
       "match_score": 85
     },
     {
-      "id": "ge-vernova-907ca1affd74",
+      "id": "ge-vernova-6605146b7bd4",
       "source_key": "ge-vernova",
       "fortune_rank": 124,
       "fortune_500": true,
       "company": "GE Vernova",
-      "title": "Reliability Engineer Co-Op – Fall/Winter 2026",
-      "location": "Parsippany",
+      "title": "Lean Operations/Continuous Improvement Intern",
+      "location": "Grand Forks",
       "region": "Global",
-      "opportunity_type": "Co-op",
+      "opportunity_type": "Internship",
       "categories": [
+        "Operations analyst",
         "Asset-based lending"
       ],
       "tags": [
-        "Strategy"
+        "Excel",
+        "Power BI",
+        "Strategy",
+        "Operations"
       ],
-      "summary": "Job Description Summary Job Description The Energy to Change the World GE Vernova is a planned, purpose-built energy company that includes Power, Wind, and Electriﬁcation segments and is supported by its accelerator businesses. At GE Vernova, we are working to solve the world’s…",
+      "summary": "Job Description Summary We are seeking a motivated and detail-oriented Lean Operations / Continuous Improvement Intern to support key operational excellence initiatives within our plant environment. The selected candidate will spend significant time on the production floor…",
       "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-07-30",
-      "deadline": "2026-08-12",
-      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Parsippany/Reliability-Engineer-Co-Op---Fall-Winter-2026_R5048448-3",
-      "external_id": "R5048448",
-      "verified_at": "2026-07-30T03:34:08Z",
+      "deadline": null,
+      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Grand-Forks/Lean-Operations-Continuous-Improvement-Intern_R5041944",
+      "external_id": "R5041944",
+      "verified_at": "2026-07-31T07:18:03Z",
       "match_score": 85
     },
     {
-      "id": "ge-vernova-b423df43fc95",
+      "id": "ge-vernova-5600149e3490",
       "source_key": "ge-vernova",
       "fortune_rank": 124,
       "fortune_500": true,
       "company": "GE Vernova",
-      "title": "Process Engineering Co-Op – Fall/Winter 2026",
+      "title": "GE Vernova Process Engineering Co-Op – Fall/Winter 2026",
       "location": "Allentown",
       "region": "Global",
       "opportunity_type": "Co-op",
@@ -422,13 +493,13 @@
       "freshman_friendly": false,
       "posted_date": "2026-07-30",
       "deadline": "2026-08-12",
-      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Allentown/Process-Engineering-Co-Op---Fall-Winter-2026_R5048323-2",
-      "external_id": "R5048323",
-      "verified_at": "2026-07-30T03:34:10Z",
+      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Allentown/GE-Vernova-Process-Engineering-Co-Op---Fall-Winter-2026_R5048637-2",
+      "external_id": "R5048637",
+      "verified_at": "2026-07-31T07:18:04Z",
       "match_score": 85
     },
     {
-      "id": "ge-vernova-c56c623d78df",
+      "id": "ge-vernova-c40eb10d69d5",
       "source_key": "ge-vernova",
       "fortune_rank": 124,
       "fortune_500": true,
@@ -447,87 +518,40 @@
       "freshman_friendly": false,
       "posted_date": "2026-07-30",
       "deadline": "2026-08-12",
-      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Parsippany/Continuous-Improvement--Manufacturing-Engineering--Co-Op---Fall-Winter-2026_R5048322-2",
-      "external_id": "R5048322",
-      "verified_at": "2026-07-30T03:34:10Z",
+      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Parsippany/Continuous-Improvement--Manufacturing-Engineering--Co-Op---Fall-Winter-2026_R5048560",
+      "external_id": "R5048560",
+      "verified_at": "2026-07-31T07:18:03Z",
       "match_score": 85
     },
     {
-      "id": "assurant-998d34eee16a",
-      "source_key": "assurant",
-      "fortune_rank": 345,
+      "id": "abbott-laboratories-a544f799664f",
+      "source_key": "abbott-laboratories",
+      "fortune_rank": 107,
       "fortune_500": true,
-      "company": "Assurant",
-      "title": "Intern",
-      "location": "Barueri, Sao Paulo",
+      "company": "Abbott Laboratories",
+      "title": "Business Analyst intern - Vascular",
+      "location": "Italy - Rome",
       "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
+        "Business analyst",
+        "FP&A",
         "Asset-based lending"
       ],
       "tags": [
         "Excel",
-        "AI / ML"
+        "Finance",
+        "FP&A"
       ],
-      "summary": "Sobre a Empresa A Assurant é uma empresa global líder em serviços empresariais, dedicada a apoiar, proteger e conectar importantes aquisições dos consumidores. Integrante da lista Fortune 500 e presente em 21 países, a Assurant contribui para o avanço de um mundo cada vez mais…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-30",
-      "deadline": "2026-08-31",
-      "url": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Barueri-Sao-Paulo/Intern_R-114525-2",
-      "external_id": "R-114525",
-      "verified_at": "2026-07-30T00:13:39Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-958c699f67f6",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Technical Validation Intern - ANS - Granada",
-      "location": "Spain - Granada",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "JOB DESCRIPTION: La cualificación/validación consiste en demostrar con evidencias que con un elevado grado de confianza, un equipo/proceso de laboratorio QA específico trabaja de forma correcta de acuerdo a lo esperado y produce de forma consistente un producto o salida que…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-30",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Granada/Technical-Validation-Intern---ANS---Granada_31155377",
-      "external_id": "31155377",
-      "verified_at": "2026-07-30T00:15:20Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-dce54e81e886",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Medical Sales Intern",
-      "location": "Egypt - Remote",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "JOB DESCRIPTION: About Abbott Abbott is a global healthcare leader, creating breakthrough science to improve people’s health. We’re always looking towards the future, anticipating changes in medical science and technology. Working at Abbott At Abbott, you can do work that…",
+      "summary": "JOB DESCRIPTION: About the Role We are looking for a motivated and analytical intern to join our Vascular Division and support the development of the Long Range Plan (LRP) for the Endovascular business in Italy . This internship represents an excellent opportunity to gain…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "School enrollment is required, but no graduation year is stated.",
       "freshman_friendly": false,
       "posted_date": "2026-07-30",
-      "deadline": "2026-08-06",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Egypt---Remote/Medical-Sales-Intern_31157637",
-      "external_id": "31157637",
-      "verified_at": "2026-07-30T00:15:20Z",
+      "deadline": null,
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Italy---Rome/Business-Analyst-intern---Vascular_31157752",
+      "external_id": "31157752",
+      "verified_at": "2026-07-31T07:17:06Z",
       "match_score": 85
     },
     {
@@ -676,31 +700,6 @@
       "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Tampa-FL-Lithia-area/Accounting---Finance-Co-Op-Intern---Summer-2027_64569",
       "external_id": "64569",
       "verified_at": "2026-07-30T03:33:36Z",
-      "match_score": 85
-    },
-    {
-      "id": "medline-398fd33f134d",
-      "source_key": "medline",
-      "fortune_rank": 159,
-      "fortune_500": true,
-      "company": "Medline",
-      "title": "OEM Microtek Intern",
-      "location": "MFG - Alpharetta, GA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Job Summary Job Description As you consider your future, seize the opportunity to work at Medline on a seasonal/summer basis. This individual will work closely with their manager to meet the needs of Medline's internal and external customers",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-29",
-      "deadline": null,
-      "url": "https://medline.wd5.myworkdayjobs.com/Medline/job/MFG---Alpharetta-GA/OEM-Microtek-Intern_R2614861-1",
-      "external_id": "R2614861",
-      "verified_at": "2026-07-30T03:34:05Z",
       "match_score": 85
     },
     {
@@ -866,88 +865,107 @@
       "match_score": 85
     },
     {
-      "id": "ge-vernova-f1aee023a8d6",
+      "id": "ge-vernova-9855cd9f3289",
       "source_key": "ge-vernova",
       "fortune_rank": 124,
       "fortune_500": true,
       "company": "GE Vernova",
-      "title": "Intern - Mantenimiento",
-      "location": "Morelia",
+      "title": "manufacturing Engineering Co-Op – Fall/Winter 2026",
+      "location": "Allentown",
       "region": "Global",
-      "opportunity_type": "Internship",
+      "opportunity_type": "Co-op",
       "categories": [
         "Asset-based lending"
       ],
       "tags": [
-        "Excel"
+        "Strategy"
       ],
-      "summary": "Job Description Summary Estamos buscando un pasante analítico y organizado para unirse a nuestro equipo de Mantenimiento en el taller de reparación de turbinas eléctricas. Esta posición ofrece una oportunidad estratégica para involucrarse en la gestión administrativa de…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-29",
-      "deadline": null,
-      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Morelia/Intern---Mantenimiento_R5046278-3",
-      "external_id": "R5046278",
-      "verified_at": "2026-07-30T03:34:13Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-vernova-ec1b424287a8",
-      "source_key": "ge-vernova",
-      "fortune_rank": 124,
-      "fortune_500": true,
-      "company": "GE Vernova",
-      "title": "Gas Turbine Test Apprentice-1",
-      "location": "Greenville",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Description Summary The Test Apprenticeship Program combines both academic studies and on-the-job training to develop the fundamentals required to become a skilled Test Operator. An operator will test Heavy Duty Gas Turbines at the test facility and participate in all…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-29",
-      "deadline": null,
-      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Greenville/Gas-Turbine-Test-Apprentice-1_R5048398-2",
-      "external_id": "R5048398",
-      "verified_at": "2026-07-30T03:34:13Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-vernova-5662637cb9bb",
-      "source_key": "ge-vernova",
-      "fortune_rank": 124,
-      "fortune_500": true,
-      "company": "GE Vernova",
-      "title": "FP&A Intern",
-      "location": "Monterrey",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "FP&A",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "FP&A",
-        "Accounting"
-      ],
-      "summary": "Job Description Summary The FP&A Intern will be responsible for executing FP&A Activities for Americas Aero Services and support daily related activities. Job Description What you'll do: Pacing: Manage updates to Sonic (Tool), prepare file to be reviewed with the CSLs/SDs, take…",
+      "summary": "Job Description Summary The Energy to Change the World GE Vernova is a planned, purpose-built energy company that includes Power, Wind, and Electriﬁcation segments and is supported by its accelerator businesses. At GE Vernova, we are working to solve the world’s most pressing…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "School enrollment is required, but no graduation year is stated.",
       "freshman_friendly": false,
       "posted_date": "2026-07-29",
-      "deadline": null,
-      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Monterrey/FP-A-Intern_R5047172-2",
-      "external_id": "R5047172",
-      "verified_at": "2026-07-30T03:34:11Z",
+      "deadline": "2026-08-12",
+      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Allentown/manufacturing-Engineering-Co-Op---Fall-Winter-2026_R5048325-2",
+      "external_id": "R5048325",
+      "verified_at": "2026-07-31T07:18:06Z",
+      "match_score": 85
+    },
+    {
+      "id": "ge-vernova-907ca1affd74",
+      "source_key": "ge-vernova",
+      "fortune_rank": 124,
+      "fortune_500": true,
+      "company": "GE Vernova",
+      "title": "Reliability Engineer Co-Op – Fall/Winter 2026",
+      "location": "Parsippany",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy"
+      ],
+      "summary": "Job Description Summary Job Description The Energy to Change the World GE Vernova is a planned, purpose-built energy company that includes Power, Wind, and Electriﬁcation segments and is supported by its accelerator businesses. At GE Vernova, we are working to solve the world’s…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-29",
+      "deadline": "2026-08-12",
+      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Parsippany/Reliability-Engineer-Co-Op---Fall-Winter-2026_R5048448-3",
+      "external_id": "R5048448",
+      "verified_at": "2026-07-31T07:18:05Z",
+      "match_score": 85
+    },
+    {
+      "id": "ge-vernova-b423df43fc95",
+      "source_key": "ge-vernova",
+      "fortune_rank": 124,
+      "fortune_500": true,
+      "company": "GE Vernova",
+      "title": "Process Engineering Co-Op – Fall/Winter 2026",
+      "location": "Allentown",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Job Description Summary Job Description The Energy to Change the World GE Vernova is a planned, purpose-built energy company that includes Power, Wind, and Electriﬁcation segments and is supported by its accelerator businesses. At GE Vernova, we are working to solve the world’s…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-29",
+      "deadline": "2026-08-12",
+      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Allentown/Process-Engineering-Co-Op---Fall-Winter-2026_R5048323-2",
+      "external_id": "R5048323",
+      "verified_at": "2026-07-31T07:18:07Z",
+      "match_score": 85
+    },
+    {
+      "id": "ge-vernova-c56c623d78df",
+      "source_key": "ge-vernova",
+      "fortune_rank": 124,
+      "fortune_500": true,
+      "company": "GE Vernova",
+      "title": "Continuous Improvement (Manufacturing Engineering) Co-Op – Fall/Winter 2026",
+      "location": "Parsippany",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Job Description Summary Job Description The Energy to Change the World GE Vernova is a planned, purpose-built energy company that includes Power, Wind, and Electriﬁcation segments and is supported by its accelerator businesses. At GE Vernova, we are working to solve the world’s…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-29",
+      "deadline": "2026-08-12",
+      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Parsippany/Continuous-Improvement--Manufacturing-Engineering--Co-Op---Fall-Winter-2026_R5048322-2",
+      "external_id": "R5048322",
+      "verified_at": "2026-07-31T07:18:07Z",
       "match_score": 85
     },
     {
@@ -1086,6 +1104,84 @@
       "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---UT---Richmond/Processing-Apprentice-Operator--2nd-Shift---2265-hr_Req-66879-1",
       "external_id": "Req-66879",
       "verified_at": "2026-07-30T09:45:50Z",
+      "match_score": 85
+    },
+    {
+      "id": "assurant-998d34eee16a",
+      "source_key": "assurant",
+      "fortune_rank": 345,
+      "fortune_500": true,
+      "company": "Assurant",
+      "title": "Intern",
+      "location": "Barueri, Sao Paulo",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML"
+      ],
+      "summary": "Sobre a Empresa A Assurant é uma empresa global líder em serviços empresariais, dedicada a apoiar, proteger e conectar importantes aquisições dos consumidores. Integrante da lista Fortune 500 e presente em 21 países, a Assurant contribui para o avanço de um mundo cada vez mais…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-29",
+      "deadline": "2026-08-31",
+      "url": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Barueri-Sao-Paulo/Intern_R-114525-2",
+      "external_id": "R-114525",
+      "verified_at": "2026-07-31T07:16:44Z",
+      "match_score": 85
+    },
+    {
+      "id": "abbott-laboratories-958c699f67f6",
+      "source_key": "abbott-laboratories",
+      "fortune_rank": 107,
+      "fortune_500": true,
+      "company": "Abbott Laboratories",
+      "title": "Technical Validation Intern - ANS - Granada",
+      "location": "Spain - Granada",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "JOB DESCRIPTION: La cualificación/validación consiste en demostrar con evidencias que con un elevado grado de confianza, un equipo/proceso de laboratorio QA específico trabaja de forma correcta de acuerdo a lo esperado y produce de forma consistente un producto o salida que…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-29",
+      "deadline": null,
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Granada/Technical-Validation-Intern---ANS---Granada_31155377",
+      "external_id": "31155377",
+      "verified_at": "2026-07-31T07:17:06Z",
+      "match_score": 85
+    },
+    {
+      "id": "abbott-laboratories-dce54e81e886",
+      "source_key": "abbott-laboratories",
+      "fortune_rank": 107,
+      "fortune_500": true,
+      "company": "Abbott Laboratories",
+      "title": "Medical Sales Intern",
+      "location": "Egypt - Remote",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "JOB DESCRIPTION: About Abbott Abbott is a global healthcare leader, creating breakthrough science to improve people’s health. We’re always looking towards the future, anticipating changes in medical science and technology. Working at Abbott At Abbott, you can do work that…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-29",
+      "deadline": "2026-08-06",
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Egypt---Remote/Medical-Sales-Intern_31157637",
+      "external_id": "31157637",
+      "verified_at": "2026-07-31T07:17:06Z",
       "match_score": 85
     },
     {
@@ -1287,6 +1383,31 @@
       "match_score": 85
     },
     {
+      "id": "medline-398fd33f134d",
+      "source_key": "medline",
+      "fortune_rank": 159,
+      "fortune_500": true,
+      "company": "Medline",
+      "title": "OEM Microtek Intern",
+      "location": "MFG - Alpharetta, GA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Job Summary Job Description As you consider your future, seize the opportunity to work at Medline on a seasonal/summer basis. This individual will work closely with their manager to meet the needs of Medline's internal and external customers",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-28",
+      "deadline": null,
+      "url": "https://medline.wd5.myworkdayjobs.com/Medline/job/MFG---Alpharetta-GA/OEM-Microtek-Intern_R2614861-1",
+      "external_id": "R2614861",
+      "verified_at": "2026-07-31T07:17:44Z",
+      "match_score": 85
+    },
+    {
       "id": "marvell-technology-c6ab28fe2603",
       "source_key": "marvell-technology",
       "fortune_rank": 476,
@@ -1401,300 +1522,34 @@
       "match_score": 85
     },
     {
-      "id": "crown-holdings-9bda714c99d9",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
+      "id": "ge-vernova-5662637cb9bb",
+      "source_key": "ge-vernova",
+      "fortune_rank": 124,
       "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Training department Intern",
-      "location": "Orizaba",
+      "company": "GE Vernova",
+      "title": "FP&A Intern",
+      "location": "Monterrey",
       "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-28",
-      "deadline": "2026-08-07",
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Orizaba/Training-department-Intern_JR103604",
-      "external_id": "JR103604",
-      "verified_at": "2026-07-30T00:14:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-d4a871e3b1ad",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Quality Intern",
-      "location": "Orizaba",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
+        "FP&A",
         "Asset-based lending"
       ],
       "tags": [
         "Excel",
+        "Finance",
+        "FP&A",
         "Accounting"
       ],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "summary": "Job Description Summary The FP&A Intern will be responsible for executing FP&A Activities for Americas Aero Services and support daily related activities. Job Description What you'll do: Pacing: Manage updates to Sonic (Tool), prepare file to be reviewed with the CSLs/SDs, take…",
       "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
       "freshman_friendly": false,
       "posted_date": "2026-07-28",
-      "deadline": "2026-08-07",
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Orizaba/Quality-Intern_JR103601",
-      "external_id": "JR103601",
-      "verified_at": "2026-07-30T00:14:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-32cea21ea7f1",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Quality Intern",
-      "location": "Orizaba",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Accounting"
-      ],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-28",
-      "deadline": "2026-08-07",
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Orizaba/Quality-Intern_JR103600",
-      "external_id": "JR103600",
-      "verified_at": "2026-07-30T00:14:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-2f1048a5f8df",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Plant administration Intern",
-      "location": "Orizaba",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-28",
-      "deadline": "2026-08-07",
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Orizaba/Plant-administration-Intern_JR103596",
-      "external_id": "JR103596",
-      "verified_at": "2026-07-30T00:14:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-d157529250c1",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Plant Administration Intern",
-      "location": "Orizaba",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-28",
-      "deadline": "2026-08-07",
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Orizaba/Plant-Administration-Intern_JR103594",
-      "external_id": "JR103594",
-      "verified_at": "2026-07-30T00:14:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-fd2f844c0d57",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Mould Intern",
-      "location": "Orizaba",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-28",
-      "deadline": "2026-08-07",
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Orizaba/Mould-Intern_JR103603",
-      "external_id": "JR103603",
-      "verified_at": "2026-07-30T00:14:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-d24811424106",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Maintenance Intern",
-      "location": "Orizaba",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-28",
-      "deadline": "2026-08-07",
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Orizaba/Maintenance-Intern_JR103602",
-      "external_id": "JR103602",
-      "verified_at": "2026-07-30T00:14:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-298f60b99e00",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Intern Accounting",
-      "location": "Orizaba",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending",
-        "Accounting / financial analyst"
-      ],
-      "tags": [
-        "Excel",
-        "Accounting"
-      ],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-28",
-      "deadline": "2026-08-07",
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Orizaba/Intern-Accounting_JR103598",
-      "external_id": "JR103598",
-      "verified_at": "2026-07-30T00:14:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-a77c005a8915",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "INTERN ACCOUNTING",
-      "location": "Orizaba",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending",
-        "Accounting / financial analyst"
-      ],
-      "tags": [
-        "Excel",
-        "Accounting"
-      ],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-28",
-      "deadline": "2026-08-07",
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Orizaba/INTERN-ACCOUNTING_JR103597",
-      "external_id": "JR103597",
-      "verified_at": "2026-07-30T00:14:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-5257a450a0fa",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Electronic Maintenance intern",
-      "location": "Orizaba",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-28",
-      "deadline": "2026-08-07",
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Orizaba/Electronic-Maintenance-intern_JR103605",
-      "external_id": "JR103605",
-      "verified_at": "2026-07-30T00:14:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-17a2d76d2b4b",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "EHS Intern",
-      "location": "Orizaba",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-28",
-      "deadline": "2026-08-07",
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Orizaba/EHS-Intern_JR103599",
-      "external_id": "JR103599",
-      "verified_at": "2026-07-30T00:14:25Z",
+      "deadline": null,
+      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Monterrey/FP-A-Intern_R5047172-2",
+      "external_id": "R5047172",
+      "verified_at": "2026-07-31T07:18:09Z",
       "match_score": 85
     },
     {
@@ -1755,34 +1610,6 @@
       "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CANHQ-CCS-HQ---Syracuse-6304-Carrier-Parkway-East-Syracuse-NY-13057-USA/Engineering-Intern---Jumpstart-Program_30212994",
       "external_id": "30212994",
       "verified_at": "2026-07-30T06:44:26Z",
-      "match_score": 85
-    },
-    {
-      "id": "assurant-1f2f4f059d58",
-      "source_key": "assurant",
-      "fortune_rank": 345,
-      "fortune_500": true,
-      "company": "Assurant",
-      "title": "Intern",
-      "location": "Barueri, Sao Paulo",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML"
-      ],
-      "summary": "Sobre a Empresa A Assurant é uma empresa global líder em serviços empresariais, dedicada a apoiar, proteger e conectar importantes aquisições dos consumidores. Integrante da lista Fortune 500 e presente em 21 países, a Assurant contribui para o avanço de um mundo cada vez mais…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-28",
-      "deadline": "2026-08-31",
-      "url": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Barueri-Sao-Paulo/Intern_R-114524",
-      "external_id": "R-114524",
-      "verified_at": "2026-07-30T00:13:40Z",
       "match_score": 85
     },
     {
@@ -2102,6 +1929,86 @@
       "match_score": 85
     },
     {
+      "id": "crown-holdings-32cea21ea7f1",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Quality Intern",
+      "location": "Orizaba",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Accounting"
+      ],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-27",
+      "deadline": "2026-08-07",
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Orizaba/Quality-Intern_JR103600",
+      "external_id": "JR103600",
+      "verified_at": "2026-07-31T07:17:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-d157529250c1",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Plant Administration Intern",
+      "location": "Orizaba",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-27",
+      "deadline": "2026-08-07",
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Orizaba/Plant-Administration-Intern_JR103594",
+      "external_id": "JR103594",
+      "verified_at": "2026-07-31T07:17:21Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-5257a450a0fa",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Electronic Maintenance intern",
+      "location": "Orizaba",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-27",
+      "deadline": "2026-08-07",
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Orizaba/Electronic-Maintenance-intern_JR103605",
+      "external_id": "JR103605",
+      "verified_at": "2026-07-31T07:17:21Z",
+      "match_score": 85
+    },
+    {
       "id": "blackstone-4e21046c333c",
       "source_key": "blackstone",
       "fortune_rank": 310,
@@ -2190,94 +2097,6 @@
       "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/CA---Esterhazy-SK/Electrical-Engineer-Technologist-Co-op-Student---Summer-2027_64714",
       "external_id": "64714",
       "verified_at": "2026-07-30T03:33:40Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-vernova-4612a781ed1f",
-      "source_key": "ge-vernova",
-      "fortune_rank": 124,
-      "fortune_500": true,
-      "company": "GE Vernova",
-      "title": "GE Vernova Finance Coop - Grid Automation",
-      "location": "Markham",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending",
-        "Accounting / financial analyst"
-      ],
-      "tags": [
-        "Power BI",
-        "Operations",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Job Description Summary We are seeking an enthusiastic, driven, and collaborative coop student to join our Markham Plant Finance team for and 4 or 8-month work term. Great opportunity to learn Manufacturing Finance. Job Description Essential Responsibilities: Support Grid…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-25",
-      "deadline": "2026-07-31",
-      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Markham/Finance-Coop---Grid-Automation_R5025772-2",
-      "external_id": "R5025772",
-      "verified_at": "2026-07-30T03:34:33Z",
-      "match_score": 85
-    },
-    {
-      "id": "dxc-technology-8e20e83265d7",
-      "source_key": "dxc-technology",
-      "fortune_rank": 343,
-      "fortune_500": true,
-      "company": "DXC Technology",
-      "title": "Service Desk Agent (Intern)",
-      "location": "SGP - SINGAPORE",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Job Description: DXC Technology (NYSE: DXC) is a leading enterprise technology and innovation partner delivering software, services, and solutions to global enterprises and public sector organizations — helping them harness AI to drive outcomes at a time of exponential change…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-25",
-      "deadline": "2026-08-31",
-      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/SGP---SINGAPORE/Service-Desk-Agent--Intern-_51579463",
-      "external_id": "51579463",
-      "verified_at": "2026-07-30T00:13:46Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-07ba73ed1cf4",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Compensation Intern",
-      "location": "Nuevo León",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Finance"
-      ],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-25",
-      "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Compensation-Intern_JR103578",
-      "external_id": "JR103578",
-      "verified_at": "2026-07-30T00:14:24Z",
       "match_score": 85
     },
     {
@@ -2450,34 +2269,6 @@
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-a75c9b9f551c",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Operations Engineering Intern, Fall 2026 - Orrville, OH",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Software engineering",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in O perations , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and manage projects,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-24",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Engineering-Intern--Fall-2026---Orrville--OH_114566",
-      "external_id": "114566",
-      "verified_at": "2026-07-31T03:53:38Z",
-      "match_score": 85
-    },
-    {
       "id": "ingram-micro-holding-24c41062b2c5",
       "source_key": "ingram-micro-holding",
       "fortune_rank": 90,
@@ -2504,32 +2295,6 @@
       "url": "https://ingrammicro.wd5.myworkdayjobs.com/IngramMicro/job/Utrecht-Netherlands/Global-Employer-Branding---Recruitment-Marketing-Intern_R-116583",
       "external_id": "R-116583",
       "verified_at": "2026-07-30T22:30:18Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-vernova-0194348609e9",
-      "source_key": "ge-vernova",
-      "fortune_rank": 124,
-      "fortune_500": true,
-      "company": "GE Vernova",
-      "title": "Customer Support Engineering Intern - ECGIP",
-      "location": "Lagos",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Software engineering",
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Job Description Summary GE Vernova Gas Power is pleased to offer selected graduating students the opportunity to join our business for an internship. You will be exposed to our business, which provides a perfect opportunity for us to learn about you and your interests and for…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-24",
-      "deadline": "2026-08-20",
-      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Lagos/Customer-Support-Engineering-Intern---ECGIP_R5048156-2",
-      "external_id": "R5048156",
-      "verified_at": "2026-07-30T03:34:19Z",
       "match_score": 85
     },
     {
@@ -2589,30 +2354,60 @@
       "match_score": 85
     },
     {
-      "id": "crown-holdings-44ce0d0ff719",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
+      "id": "dxc-technology-8e20e83265d7",
+      "source_key": "dxc-technology",
+      "fortune_rank": 343,
       "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Plant Administration Intern",
-      "location": "Meoqui",
+      "company": "DXC Technology",
+      "title": "Service Desk Agent (Intern)",
+      "location": "SGP - SINGAPORE",
       "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
         "Asset-based lending"
       ],
       "tags": [
-        "Excel"
+        "Cloud",
+        "AI / ML",
+        "Operations"
       ],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "summary": "Job Description: DXC Technology (NYSE: DXC) is a leading enterprise technology and innovation partner delivering software, services, and solutions to global enterprises and public sector organizations — helping them harness AI to drive outcomes at a time of exponential change…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-07-24",
+      "deadline": "2026-08-31",
+      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/SGP---SINGAPORE/Service-Desk-Agent--Intern-_51579463",
+      "external_id": "51579463",
+      "verified_at": "2026-07-31T07:16:50Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-07ba73ed1cf4",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Compensation Intern",
+      "location": "Nuevo León",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance"
+      ],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-24",
       "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Meoqui/Plant-Administration-Intern_JR103557-1",
-      "external_id": "JR103557",
-      "verified_at": "2026-07-30T00:14:25Z",
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Compensation-Intern_JR103578",
+      "external_id": "JR103578",
+      "verified_at": "2026-07-31T07:17:20Z",
       "match_score": 85
     },
     {
@@ -2667,34 +2462,6 @@
       "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Monterrey-Nuevo-Leon-Mexico/Appointment-Scheduler-Intern_R48744",
       "external_id": "R48744",
       "verified_at": "2026-07-30T22:29:27Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-c78721330f1d",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship",
-      "location": "Portugal - Remote",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "JOB DESCRIPTION: Trainee - Clinical Sales Representative CRM Location – Lisbon / Portugal Primary objective of the position For this position we are looking for a candidate with educational background on Cardiac Pacing . Support the team in sales and technical support to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-24",
-      "deadline": "2026-08-07",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Portugal---Remote/Internship_31157132",
-      "external_id": "31157132",
-      "verified_at": "2026-07-30T00:15:20Z",
       "match_score": 85
     },
     {
@@ -3058,6 +2825,87 @@
       "match_score": 85
     },
     {
+      "id": "j-m-smucker-a75c9b9f551c",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Operations Engineering Intern, Fall 2026 - Orrville, OH",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Software engineering",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in O perations , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and manage projects,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-23",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Engineering-Intern--Fall-2026---Orrville--OH_114566",
+      "external_id": "114566",
+      "verified_at": "2026-07-31T07:16:18Z",
+      "match_score": 85
+    },
+    {
+      "id": "ge-vernova-0194348609e9",
+      "source_key": "ge-vernova",
+      "fortune_rank": 124,
+      "fortune_500": true,
+      "company": "GE Vernova",
+      "title": "Customer Support Engineering Intern - ECGIP",
+      "location": "Lagos",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Software engineering",
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Job Description Summary GE Vernova Gas Power is pleased to offer selected graduating students the opportunity to join our business for an internship. You will be exposed to our business, which provides a perfect opportunity for us to learn about you and your interests and for…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-23",
+      "deadline": "2026-08-20",
+      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Lagos/Customer-Support-Engineering-Intern---ECGIP_R5048156-2",
+      "external_id": "R5048156",
+      "verified_at": "2026-07-31T07:18:11Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-44ce0d0ff719",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Plant Administration Intern",
+      "location": "Meoqui",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-23",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Meoqui/Plant-Administration-Intern_JR103557-1",
+      "external_id": "JR103557",
+      "verified_at": "2026-07-31T07:17:21Z",
+      "match_score": 85
+    },
+    {
       "id": "citigroup-30186b4db59b",
       "source_key": "citigroup",
       "fortune_rank": 24,
@@ -3109,6 +2957,34 @@
       "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---UT---Richmond/Robotics-Apprentice-Operator--2nd-Shift--2265-hr_Req-66900-1",
       "external_id": "Req-66900",
       "verified_at": "2026-07-30T09:45:53Z",
+      "match_score": 85
+    },
+    {
+      "id": "abbott-laboratories-c78721330f1d",
+      "source_key": "abbott-laboratories",
+      "fortune_rank": 107,
+      "fortune_500": true,
+      "company": "Abbott Laboratories",
+      "title": "Internship",
+      "location": "Portugal - Remote",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "JOB DESCRIPTION: Trainee - Clinical Sales Representative CRM Location – Lisbon / Portugal Primary objective of the position For this position we are looking for a candidate with educational background on Cardiac Pacing . Support the team in sales and technical support to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-23",
+      "deadline": "2026-08-07",
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Portugal---Remote/Internship_31157132",
+      "external_id": "31157132",
+      "verified_at": "2026-07-31T07:17:06Z",
       "match_score": 85
     },
     {
@@ -3608,64 +3484,6 @@
       "match_score": 85
     },
     {
-      "id": "abbott-laboratories-883906e40078",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Formación Comercial Internship - Core Lab (Madrid)",
-      "location": "Spain - Madrid",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "JOB DESCRIPTION: Sobre Abbott Abbott es un líder mundial en atención médica, impulsando la innovación para mejorar la salud de las personas. Siempre estamos mirando hacia el futuro, anticipando cambios en la ciencia y la tecnología médica",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-22",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Madrid/Formacin-Comercial-Internship---Core-Lab--Madrid-_31148604",
-      "external_id": "31148604",
-      "verified_at": "2026-07-30T00:15:22Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-18204891c046",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Demand & Supply Planning Intern",
-      "location": "Malaysia > Selangor : Imazium, No. 8, Jalan SS 21/37",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "FP&A",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Power BI",
-        "Operations",
-        "FP&A"
-      ],
-      "summary": "Practical exposure to demand and supply planning operations 2. Experience working with real business data and analytics tools 3. Opportunity to build dashboards and enhance data visualization skills (Power BI) 4. Cross-functional exposure in a corporate environment 5",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-22",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Malaysia--Selangor--Imazium-No-8-Jalan-SS-2137/Demand---Supply-Planning-Intern_31154727",
-      "external_id": "31154727",
-      "verified_at": "2026-07-30T00:15:20Z",
-      "match_score": 85
-    },
-    {
       "id": "motorola-solutions-36bf33482d82",
       "source_key": "motorola-solutions",
       "fortune_rank": 378,
@@ -3717,31 +3535,6 @@
       "url": "https://iqvia.wd1.myworkdayjobs.com/IQVIA/job/Guangzhou-China/CRC-Intern-_R1554392",
       "external_id": "R1554392",
       "verified_at": "2026-07-30T22:29:46Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-6ff4d8197447",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Tax Expenses Intern",
-      "location": "Nuevo León",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-21",
-      "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Tax-Expenses-Intern_JR103462-1",
-      "external_id": "JR103462",
-      "verified_at": "2026-07-30T00:14:25Z",
       "match_score": 85
     },
     {
@@ -3821,6 +3614,58 @@
       "match_score": 85
     },
     {
+      "id": "abbott-laboratories-883906e40078",
+      "source_key": "abbott-laboratories",
+      "fortune_rank": 107,
+      "fortune_500": true,
+      "company": "Abbott Laboratories",
+      "title": "Formación Comercial Internship - Core Lab (Madrid)",
+      "location": "Spain - Madrid",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "JOB DESCRIPTION: Sobre Abbott Abbott es un líder mundial en atención médica, impulsando la innovación para mejorar la salud de las personas. Siempre estamos mirando hacia el futuro, anticipando cambios en la ciencia y la tecnología médica",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-21",
+      "deadline": null,
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Madrid/Formacin-Comercial-Internship---Core-Lab--Madrid-_31148604",
+      "external_id": "31148604",
+      "verified_at": "2026-07-31T07:17:07Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-6ff4d8197447",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Tax Expenses Intern",
+      "location": "Nuevo León",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-20",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Tax-Expenses-Intern_JR103462-1",
+      "external_id": "JR103462",
+      "verified_at": "2026-07-31T07:17:21Z",
+      "match_score": 85
+    },
+    {
       "id": "campbell-s-50f185121c36",
       "source_key": "campbell-s",
       "fortune_rank": 413,
@@ -3872,34 +3717,6 @@
       "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Penang-Malaysia/Intern---Electrical-Electronic-Engineering_R66798",
       "external_id": "R66798",
       "verified_at": "2026-07-30T03:34:06Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-cc2878f50a91",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "EPD Summer Intern (UAE Nationals only)",
-      "location": "United Arab Emirates - Dubai",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "JOB DESCRIPTION: EPD Summer Intern (UAE Nationals only) About Abbott Abbott is a global healthcare leader, creating breakthrough science to improve people’s health. We’re always looking towards the future, anticipating changes in medical science and technology",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-18",
-      "deadline": "2026-08-10",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-Arab-Emirates---Dubai/EPD-Summer-Intern--UAE-Nationals-only-_31156431",
-      "external_id": "31156431",
-      "verified_at": "2026-07-30T00:15:20Z",
       "match_score": 85
     },
     {
@@ -4039,28 +3856,31 @@
       "match_score": 85
     },
     {
-      "id": "abbott-laboratories-95f6169d023e",
+      "id": "abbott-laboratories-cc2878f50a91",
       "source_key": "abbott-laboratories",
       "fortune_rank": 107,
       "fortune_500": true,
       "company": "Abbott Laboratories",
-      "title": "Intern",
-      "location": "Netherlands - Olst",
+      "title": "EPD Summer Intern (UAE Nationals only)",
+      "location": "United Arab Emirates - Dubai",
       "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
+        "Data analyst",
         "Asset-based lending"
       ],
-      "tags": [],
-      "summary": "JOB DESCRIPTION: Internship The base pay for this position is N/A In specific locations, the pay range may vary from the range posted. JOB FAMILY: Administrative Support DIVISION: EPD Established Pharma LOCATION: Netherlands > Olst : OAA/OAB ADDITIONAL LOCATIONS: WORK SHIFT:…",
+      "tags": [
+        "Excel"
+      ],
+      "summary": "JOB DESCRIPTION: EPD Summer Intern (UAE Nationals only) About Abbott Abbott is a global healthcare leader, creating breakthrough science to improve people’s health. We’re always looking towards the future, anticipating changes in medical science and technology",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-07-17",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Intern_31151074",
-      "external_id": "31151074",
-      "verified_at": "2026-07-30T00:15:19Z",
+      "deadline": "2026-08-10",
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-Arab-Emirates---Dubai/EPD-Summer-Intern--UAE-Nationals-only-_31156431",
+      "external_id": "31156431",
+      "verified_at": "2026-07-31T07:17:06Z",
       "match_score": 85
     },
     {
@@ -4096,34 +3916,6 @@
       "match_score": 90
     },
     {
-      "id": "ge-vernova-6f9d8fefda7d",
-      "source_key": "ge-vernova",
-      "fortune_rank": 124,
-      "fortune_500": true,
-      "company": "GE Vernova",
-      "title": "EHS Intern",
-      "location": "Bandung",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Accounting"
-      ],
-      "summary": "Job Description Summary Job Description Key Roles & Responsibilities 1. Project & Program Support Assist in the implementation of site-wide safety initiatives, including safety training programs and health awareness campaigns. Support the coordination of EHS-related audits,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-16",
-      "deadline": null,
-      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Bandung/Intern-Co-op-OTH_R5046691-2",
-      "external_id": "R5046691",
-      "verified_at": "2026-07-30T03:34:20Z",
-      "match_score": 85
-    },
-    {
       "id": "biogen-b0311731fa3e",
       "source_key": "biogen",
       "fortune_rank": 421,
@@ -4148,6 +3940,31 @@
       "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Madrid-Spain/Medical-Intern_REQ23749",
       "external_id": "REQ23749",
       "verified_at": "2026-07-30T12:07:07Z",
+      "match_score": 85
+    },
+    {
+      "id": "abbott-laboratories-95f6169d023e",
+      "source_key": "abbott-laboratories",
+      "fortune_rank": 107,
+      "fortune_500": true,
+      "company": "Abbott Laboratories",
+      "title": "Intern",
+      "location": "Netherlands - Olst",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "JOB DESCRIPTION: Internship The base pay for this position is N/A In specific locations, the pay range may vary from the range posted. JOB FAMILY: Administrative Support DIVISION: EPD Established Pharma LOCATION: Netherlands > Olst : OAA/OAB ADDITIONAL LOCATIONS: WORK SHIFT:…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-16",
+      "deadline": null,
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Olst/Intern_31151074",
+      "external_id": "31151074",
+      "verified_at": "2026-07-31T07:17:05Z",
       "match_score": 85
     },
     {
@@ -4238,6 +4055,34 @@
       "match_score": 85
     },
     {
+      "id": "ge-vernova-6f9d8fefda7d",
+      "source_key": "ge-vernova",
+      "fortune_rank": 124,
+      "fortune_500": true,
+      "company": "GE Vernova",
+      "title": "EHS Intern",
+      "location": "Bandung",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Accounting"
+      ],
+      "summary": "Job Description Summary Job Description Key Roles & Responsibilities 1. Project & Program Support Assist in the implementation of site-wide safety initiatives, including safety training programs and health awareness campaigns. Support the coordination of EHS-related audits,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-15",
+      "deadline": null,
+      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Bandung/Intern-Co-op-OTH_R5046691-2",
+      "external_id": "R5046691",
+      "verified_at": "2026-07-31T07:18:12Z",
+      "match_score": 85
+    },
+    {
       "id": "ge-aerospace-7830f50a9893",
       "source_key": "ge-aerospace",
       "fortune_rank": 101,
@@ -4288,60 +4133,6 @@
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Sao-Paulo-Sao-Paulo-Brazil/Estgio-Exclusivo-PCD---Markets--Internship--So-Paulo---Brazil--2026_26977986",
       "external_id": "26977986",
       "verified_at": "2026-07-30T16:54:04Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-f78d02988b16",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Nutrition Research Internship - ANR - Granada",
-      "location": "Spain - Granada",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "JOB DESCRIPTION: Abbott es una compañía biomédica, dedicada al cuidado de la salud, que trabaja para mejorar la vida de las personas gracias al desarrollo de productos que abarcan toda la asistencia sanitaria, así como productos nutricionales, herramientas de diagnóstico,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-15",
-      "deadline": "2026-08-25",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Granada/Nutrition-Research-Internship---ANR---Granada_31154763",
-      "external_id": "31154763",
-      "verified_at": "2026-07-30T00:15:21Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-b7124a920e51",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship Science",
-      "location": "Ireland - Longford",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-15",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Longford/Internship-Science_31155782",
-      "external_id": "31155782",
-      "verified_at": "2026-07-30T00:15:21Z",
       "match_score": 85
     },
     {
@@ -4455,6 +4246,60 @@
       "match_score": 85
     },
     {
+      "id": "abbott-laboratories-f78d02988b16",
+      "source_key": "abbott-laboratories",
+      "fortune_rank": 107,
+      "fortune_500": true,
+      "company": "Abbott Laboratories",
+      "title": "Nutrition Research Internship - ANR - Granada",
+      "location": "Spain - Granada",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "JOB DESCRIPTION: Abbott es una compañía biomédica, dedicada al cuidado de la salud, que trabaja para mejorar la vida de las personas gracias al desarrollo de productos que abarcan toda la asistencia sanitaria, así como productos nutricionales, herramientas de diagnóstico,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-14",
+      "deadline": "2026-08-25",
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Granada/Nutrition-Research-Internship---ANR---Granada_31154763",
+      "external_id": "31154763",
+      "verified_at": "2026-07-31T07:17:07Z",
+      "match_score": 85
+    },
+    {
+      "id": "abbott-laboratories-b7124a920e51",
+      "source_key": "abbott-laboratories",
+      "fortune_rank": 107,
+      "fortune_500": true,
+      "company": "Abbott Laboratories",
+      "title": "Internship Science",
+      "location": "Ireland - Longford",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-14",
+      "deadline": null,
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Longford/Internship-Science_31155782",
+      "external_id": "31155782",
+      "verified_at": "2026-07-31T07:17:07Z",
+      "match_score": 85
+    },
+    {
       "id": "united-rentals-9e1331cba6f8",
       "source_key": "united-rentals",
       "fortune_rank": 279,
@@ -4536,35 +4381,6 @@
       "match_score": 85
     },
     {
-      "id": "ge-vernova-1ccd57f6dd2a",
-      "source_key": "ge-vernova",
-      "fortune_rank": 124,
-      "fortune_500": true,
-      "company": "GE Vernova",
-      "title": "MEA Engineering Intern - TareeGE",
-      "location": "Dubai",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Software engineering",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "Job Description Summary One-year TareeGE - MEA Engineering Intern role that focuses on regional engineering operations across the Middle East & Africa (MEA) region with the possibility of extension up to one year. The Engineering trainee will support and progressively take…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-13",
-      "deadline": null,
-      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Dubai/MEA-Engineering-Intern_R5047039-2",
-      "external_id": "R5047039",
-      "verified_at": "2026-07-30T03:34:21Z",
-      "match_score": 85
-    },
-    {
       "id": "citigroup-19be3b3dbc89",
       "source_key": "citigroup",
       "fortune_rank": 24,
@@ -4624,156 +4440,13 @@
       "match_score": 85
     },
     {
-      "id": "ge-vernova-5a5aaa17cb70",
+      "id": "ge-vernova-1ccd57f6dd2a",
       "source_key": "ge-vernova",
       "fortune_rank": 124,
       "fortune_500": true,
       "company": "GE Vernova",
-      "title": "Industrial Mechanical Technician 2026 Internship",
-      "location": "Schenectady",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "The program pays $28.01/hour for a 40-hour work week. A $600/month housing stipend is also available to students whose residence is more than 50 miles away from the site. Interns will be paired with current team members in numerous roles to learn more about the trade and to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-11",
-      "deadline": null,
-      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Schenectady/Industrial-Mechanical-Technician-2026-Internship_R5036793-2",
-      "external_id": "R5036793",
-      "verified_at": "2026-07-30T03:34:21Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-8f4e52013ad5",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship Supply Chain",
-      "location": "Ireland - Galway",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Finance"
-      ],
-      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-11",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Galway/Internship-Supply-Chain_31155783",
-      "external_id": "31155783",
-      "verified_at": "2026-07-30T00:15:21Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-174b9ffc09e6",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship Statistician",
-      "location": "Ireland - Donegal Town",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-11",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Donegal-Town/Internship-Statistician_31155788",
-      "external_id": "31155788",
-      "verified_at": "2026-07-30T00:15:21Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-489bf11721c7",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship - IT",
-      "location": "Ireland - Dublin",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "IT analyst",
-        "Digital transformation",
-        "Data analyst"
-      ],
-      "tags": [
-        "Operations",
-        "Finance"
-      ],
-      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-11",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Dublin/Internship---IT_31155903",
-      "external_id": "31155903",
-      "verified_at": "2026-07-30T00:15:21Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-65410b85b6ff",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship - Finance",
-      "location": "Ireland - Dublin",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Corporate finance",
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Finance"
-      ],
-      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-11",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Dublin/Finance-Internship_31155901",
-      "external_id": "31155901",
-      "verified_at": "2026-07-30T00:15:21Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-7d7c992c75e6",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship - Engineering",
-      "location": "Ireland - Clonmel",
+      "title": "MEA Engineering Intern - TareeGE",
+      "location": "Dubai",
       "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
@@ -4781,18 +4454,18 @@
         "Asset-based lending"
       ],
       "tags": [
-        "Operations",
-        "Finance"
+        "Excel",
+        "Operations"
       ],
-      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
+      "summary": "Job Description Summary One-year TareeGE - MEA Engineering Intern role that focuses on regional engineering operations across the Middle East & Africa (MEA) region with the possibility of extension up to one year. The Engineering trainee will support and progressively take…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "School enrollment is required, but no graduation year is stated.",
       "freshman_friendly": false,
-      "posted_date": "2026-07-11",
+      "posted_date": "2026-07-12",
       "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Clonmel/Internship---Engineering_31155780",
-      "external_id": "31155780",
-      "verified_at": "2026-07-30T00:15:21Z",
+      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Dubai/MEA-Engineering-Intern_R5047039-2",
+      "external_id": "R5047039",
+      "verified_at": "2026-07-31T07:18:12Z",
       "match_score": 85
     },
     {
@@ -4886,6 +4559,31 @@
       "match_score": 85
     },
     {
+      "id": "ge-vernova-5a5aaa17cb70",
+      "source_key": "ge-vernova",
+      "fortune_rank": 124,
+      "fortune_500": true,
+      "company": "GE Vernova",
+      "title": "Industrial Mechanical Technician 2026 Internship",
+      "location": "Schenectady",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "The program pays $28.01/hour for a 40-hour work week. A $600/month housing stipend is also available to students whose residence is more than 50 miles away from the site. Interns will be paired with current team members in numerous roles to learn more about the trade and to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-10",
+      "deadline": null,
+      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Schenectady/Industrial-Mechanical-Technician-2026-Internship_R5036793-2",
+      "external_id": "R5036793",
+      "verified_at": "2026-07-31T07:18:12Z",
+      "match_score": 85
+    },
+    {
       "id": "ge-aerospace-97b6acac83da",
       "source_key": "ge-aerospace",
       "fortune_rank": 101,
@@ -4943,31 +4641,150 @@
       "match_score": 85
     },
     {
-      "id": "abbott-laboratories-604bc4a8630a",
+      "id": "abbott-laboratories-8f4e52013ad5",
       "source_key": "abbott-laboratories",
       "fortune_rank": 107,
       "fortune_500": true,
       "company": "Abbott Laboratories",
-      "title": "Comercial Excellence & Admin Intern – ADM - Madrid",
-      "location": "Spain - Madrid",
+      "title": "Internship Supply Chain",
+      "location": "Ireland - Galway",
       "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Finance"
+      ],
+      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-10",
+      "deadline": null,
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Galway/Internship-Supply-Chain_31155783",
+      "external_id": "31155783",
+      "verified_at": "2026-07-31T07:17:07Z",
+      "match_score": 85
+    },
+    {
+      "id": "abbott-laboratories-174b9ffc09e6",
+      "source_key": "abbott-laboratories",
+      "fortune_rank": 107,
+      "fortune_500": true,
+      "company": "Abbott Laboratories",
+      "title": "Internship Statistician",
+      "location": "Ireland - Donegal Town",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-10",
+      "deadline": null,
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Donegal-Town/Internship-Statistician_31155788",
+      "external_id": "31155788",
+      "verified_at": "2026-07-31T07:17:07Z",
+      "match_score": 85
+    },
+    {
+      "id": "abbott-laboratories-489bf11721c7",
+      "source_key": "abbott-laboratories",
+      "fortune_rank": 107,
+      "fortune_500": true,
+      "company": "Abbott Laboratories",
+      "title": "Internship - IT",
+      "location": "Ireland - Dublin",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "IT analyst",
+        "Digital transformation",
+        "Data analyst"
+      ],
+      "tags": [
+        "Operations",
+        "Finance"
+      ],
+      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-10",
+      "deadline": null,
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Dublin/Internship---IT_31155903",
+      "external_id": "31155903",
+      "verified_at": "2026-07-31T07:17:07Z",
+      "match_score": 85
+    },
+    {
+      "id": "abbott-laboratories-65410b85b6ff",
+      "source_key": "abbott-laboratories",
+      "fortune_rank": 107,
+      "fortune_500": true,
+      "company": "Abbott Laboratories",
+      "title": "Internship - Finance",
+      "location": "Ireland - Dublin",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate finance",
         "Business analyst",
         "Asset-based lending"
       ],
       "tags": [
-        "Excel"
+        "Operations",
+        "Finance"
       ],
-      "summary": "JOB DESCRIPTION: Aprenderás: Dar soporte al equipo comercial mediante el análisis y seguimiento de datos procedentes del CRM. Elaborar informes y reportes de actividad comercial, identificando tendencias de mercado y oportunidades de negocio",
+      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
       "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
       "freshman_friendly": false,
       "posted_date": "2026-07-10",
-      "deadline": "2026-09-24",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Madrid/Comercial-Excellence---Admin-Intern---ADM---Madrid_31154336",
-      "external_id": "31154336",
-      "verified_at": "2026-07-30T00:15:20Z",
+      "deadline": null,
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Dublin/Finance-Internship_31155901",
+      "external_id": "31155901",
+      "verified_at": "2026-07-31T07:17:07Z",
+      "match_score": 85
+    },
+    {
+      "id": "abbott-laboratories-7d7c992c75e6",
+      "source_key": "abbott-laboratories",
+      "fortune_rank": 107,
+      "fortune_500": true,
+      "company": "Abbott Laboratories",
+      "title": "Internship - Engineering",
+      "location": "Ireland - Clonmel",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Software engineering",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Finance"
+      ],
+      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-10",
+      "deadline": null,
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Clonmel/Internship---Engineering_31155780",
+      "external_id": "31155780",
+      "verified_at": "2026-07-31T07:17:06Z",
       "match_score": 85
     },
     {
@@ -5028,62 +4845,6 @@
       "match_score": 85
     },
     {
-      "id": "ge-vernova-46b6bf0df979",
-      "source_key": "ge-vernova",
-      "fortune_rank": 124,
-      "fortune_500": true,
-      "company": "GE Vernova",
-      "title": "Technical Sales Support Intern",
-      "location": "Mexico City",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML"
-      ],
-      "summary": "Job Description Summary Addressing the climate crisis is an urgent global priority, and at GE Vernova, we take our responsibility seriously. That is the singular mission of GE Vernova: to continue electrifying the world while simultaneously working to help decarbonize it",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-09",
-      "deadline": null,
-      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Mexico-City/Technical-Sales-Support-Intern_R5046534-2",
-      "external_id": "R5046534",
-      "verified_at": "2026-07-30T03:34:07Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-vernova-8cf6c4ffe70e",
-      "source_key": "ge-vernova",
-      "fortune_rank": 124,
-      "fortune_500": true,
-      "company": "GE Vernova",
-      "title": "Summer Internship Program – Grid Automation",
-      "location": "Dubai",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Finance"
-      ],
-      "summary": "Job Description Summary Ready to gain hands-on experience and take the first step in your career journey? GE Vernova’s Grid Automation business is offering an immersive Summer Internship Program (Duration: 6–8 Weeks) designed to help you learn, grow, and make a real impact",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-09",
-      "deadline": null,
-      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Dubai/Summer-Internship-Program---Grid-Automation_R5045841-2",
-      "external_id": "R5045841",
-      "verified_at": "2026-07-30T03:34:22Z",
-      "match_score": 85
-    },
-    {
       "id": "ge-aerospace-759f74975284",
       "source_key": "ge-aerospace",
       "fortune_rank": 101,
@@ -5109,6 +4870,34 @@
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Singapore/Process-Improvement-Intern---Module-Shop_R5037069-1",
       "external_id": "R5037069",
       "verified_at": "2026-07-30T14:36:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "abbott-laboratories-604bc4a8630a",
+      "source_key": "abbott-laboratories",
+      "fortune_rank": 107,
+      "fortune_500": true,
+      "company": "Abbott Laboratories",
+      "title": "Comercial Excellence & Admin Intern – ADM - Madrid",
+      "location": "Spain - Madrid",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "JOB DESCRIPTION: Aprenderás: Dar soporte al equipo comercial mediante el análisis y seguimiento de datos procedentes del CRM. Elaborar informes y reportes de actividad comercial, identificando tendencias de mercado y oportunidades de negocio",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-09",
+      "deadline": "2026-09-24",
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Madrid/Comercial-Excellence---Admin-Intern---ADM---Madrid_31154336",
+      "external_id": "31154336",
+      "verified_at": "2026-07-31T07:17:06Z",
       "match_score": 85
     },
     {
@@ -5223,6 +5012,62 @@
       "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Helsinki-FIN/Intern--Value---Risk-Advisory_REQ497962",
       "external_id": "REQ497962",
       "verified_at": "2026-07-30T12:08:05Z",
+      "match_score": 85
+    },
+    {
+      "id": "ge-vernova-46b6bf0df979",
+      "source_key": "ge-vernova",
+      "fortune_rank": 124,
+      "fortune_500": true,
+      "company": "GE Vernova",
+      "title": "Technical Sales Support Intern",
+      "location": "Mexico City",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML"
+      ],
+      "summary": "Job Description Summary Addressing the climate crisis is an urgent global priority, and at GE Vernova, we take our responsibility seriously. That is the singular mission of GE Vernova: to continue electrifying the world while simultaneously working to help decarbonize it",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-08",
+      "deadline": null,
+      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Mexico-City/Technical-Sales-Support-Intern_R5046534-2",
+      "external_id": "R5046534",
+      "verified_at": "2026-07-31T07:18:01Z",
+      "match_score": 85
+    },
+    {
+      "id": "ge-vernova-8cf6c4ffe70e",
+      "source_key": "ge-vernova",
+      "fortune_rank": 124,
+      "fortune_500": true,
+      "company": "GE Vernova",
+      "title": "Summer Internship Program – Grid Automation",
+      "location": "Dubai",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Finance"
+      ],
+      "summary": "Job Description Summary Ready to gain hands-on experience and take the first step in your career journey? GE Vernova’s Grid Automation business is offering an immersive Summer Internship Program (Duration: 6–8 Weeks) designed to help you learn, grow, and make a real impact",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-08",
+      "deadline": null,
+      "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Dubai/Summer-Internship-Program---Grid-Automation_R5045841-2",
+      "external_id": "R5045841",
+      "verified_at": "2026-07-31T07:18:12Z",
       "match_score": 85
     },
     {
@@ -5598,33 +5443,6 @@
       "match_score": 85
     },
     {
-      "id": "crown-holdings-c7ee7eaa5c92",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Talent Intern",
-      "location": "Nuevo León",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-03",
-      "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Talent-Intern_JR103258-1",
-      "external_id": "JR103258",
-      "verified_at": "2026-07-30T00:14:24Z",
-      "match_score": 85
-    },
-    {
       "id": "motorola-solutions-d5b0b981198d",
       "source_key": "motorola-solutions",
       "fortune_rank": 378,
@@ -5707,6 +5525,33 @@
       "match_score": 85
     },
     {
+      "id": "crown-holdings-c7ee7eaa5c92",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Talent Intern",
+      "location": "Nuevo León",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-02",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Talent-Intern_JR103258-1",
+      "external_id": "JR103258",
+      "verified_at": "2026-07-31T07:17:20Z",
+      "match_score": 85
+    },
+    {
       "id": "c-h-robinson-worldwide-feeadbfd0bf9",
       "source_key": "c-h-robinson-worldwide",
       "fortune_rank": 277,
@@ -5731,93 +5576,6 @@
       "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Monterrey-Nuevo-Leon-Mexico/Intern_R48584",
       "external_id": "R48584",
       "verified_at": "2026-07-30T22:29:27Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-cbdb98aaa28c",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Supply Chain Intern",
-      "location": "Malaysia > Selangor : Imazium, No. 8, Jalan SS 21/37",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "IT analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Accounting"
-      ],
-      "summary": "JOB DESCRIPTION: Job Role Description (e.g. Inbound (Import) Send ASN for warehouse deliveries from airport/port to 4PL (SG) Track and update shipment status Upload K1 number for ADD & ADC into the E-Invoice dashboard. Outbound (Export & Mobilization) Create proforma invoices &…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-02",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Malaysia--Selangor--Imazium-No-8-Jalan-SS-2137/Supply-Chain-Intern_31151124",
-      "external_id": "31151124",
-      "verified_at": "2026-07-30T00:15:20Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-2d0952b56604",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Human Resource Intern",
-      "location": "Malaysia > Selangor : Imazium, No. 8, Jalan SS 21/37",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Power BI",
-        "Operations"
-      ],
-      "summary": "JOB DESCRIPTION: Job Purpose Support the Human Resources team in administrative, documentation, and operational tasks to ensure accurate and efficient HR processes. This role focuses on structured, repeatable work that supports the employee lifecycle and HR compliance Key…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-02",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Malaysia--Selangor--Imazium-No-8-Jalan-SS-2137/Human-Resource-Intern_31148783",
-      "external_id": "31148783",
-      "verified_at": "2026-07-30T00:15:20Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-fabde043368b",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Engineering Internship",
-      "location": "Costa Rica - Alajuela",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Software engineering"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "JOB DESCRIPTION: About Abbott Abbott is a global healthcare leader that helps people live more fully at all stages of life. Our portfolio of life-changing technologies spans the spectrum of healthcare, with leading businesses and products in diagnostics, medical devices,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-02",
-      "deadline": "2026-09-30",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Costa-Rica---Alajuela/Engineering-Internship_31145402",
-      "external_id": "31145402",
-      "verified_at": "2026-07-30T00:15:21Z",
       "match_score": 85
     },
     {
@@ -5901,40 +5659,13 @@
       "match_score": 85
     },
     {
-      "id": "abbott-laboratories-2de6993f4d80",
+      "id": "abbott-laboratories-2d0952b56604",
       "source_key": "abbott-laboratories",
       "fortune_rank": 107,
       "fortune_500": true,
       "company": "Abbott Laboratories",
-      "title": "Field Service Engineer Internship - Mechanical, Industrial, Electronics or Automation Engineer (Madrid)",
-      "location": "Spain - Madrid",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "JOB DESCRIPTION: Sobre Abbott Abbott es un líder mundial en atención médica, impulsando la innovación para mejorar la salud de las personas. Siempre estamos mirando hacia el futuro, anticipando cambios en la ciencia y la tecnología médica",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-01",
-      "deadline": "2026-08-31",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Madrid/Field-Service-Engineer-Internship---Core-Lab---Madrid-_31152648",
-      "external_id": "31152648",
-      "verified_at": "2026-07-30T00:15:22Z",
-      "match_score": 85
-    },
-    {
-      "id": "ryder-system-164d08cab353",
-      "source_key": "ryder-system",
-      "fortune_rank": 346,
-      "fortune_500": true,
-      "company": "Ryder System",
-      "title": "Technician Apprentice",
-      "location": "CAN - London ON N6N 1E1",
+      "title": "Human Resource Intern",
+      "location": "Malaysia > Selangor : Imazium, No. 8, Jalan SS 21/37",
       "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
@@ -5942,17 +5673,45 @@
       ],
       "tags": [
         "Excel",
+        "Power BI",
         "Operations"
       ],
-      "summary": "Job Seekers can review the Job Applicant Privacy Policy by clicking here . Job Description : About Ryder For almost 100 years, Ryder has provided customers around the world with integrated transportation, logistics, and supply chain management solutions that enhance the way…",
+      "summary": "JOB DESCRIPTION: Job Purpose Support the Human Resources team in administrative, documentation, and operational tasks to ensure accurate and efficient HR processes. This role focuses on structured, repeatable work that supports the employee lifecycle and HR compliance Key…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
-      "posted_date": "2026-06-30",
+      "posted_date": "2026-07-01",
       "deadline": null,
-      "url": "https://ryder.wd5.myworkdayjobs.com/RyderCareers/job/CAN---London-ON-N6N-1E1/Technician-Apprentice_R176106",
-      "external_id": "R176106",
-      "verified_at": "2026-07-30T00:14:18Z",
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Malaysia--Selangor--Imazium-No-8-Jalan-SS-2137/Human-Resource-Intern_31148783",
+      "external_id": "31148783",
+      "verified_at": "2026-07-31T07:17:06Z",
+      "match_score": 85
+    },
+    {
+      "id": "abbott-laboratories-fabde043368b",
+      "source_key": "abbott-laboratories",
+      "fortune_rank": 107,
+      "fortune_500": true,
+      "company": "Abbott Laboratories",
+      "title": "Engineering Internship",
+      "location": "Costa Rica - Alajuela",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Software engineering"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "JOB DESCRIPTION: About Abbott Abbott is a global healthcare leader that helps people live more fully at all stages of life. Our portfolio of life-changing technologies spans the spectrum of healthcare, with leading businesses and products in diagnostics, medical devices,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-01",
+      "deadline": "2026-09-30",
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Costa-Rica---Alajuela/Engineering-Internship_31145402",
+      "external_id": "31145402",
+      "verified_at": "2026-07-31T07:17:06Z",
       "match_score": 85
     },
     {
@@ -6120,35 +5879,6 @@
       "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Solothurn-Switzerland/Advanced-Process-Data-Analytics-and-Modeling-Internship_REQ23652",
       "external_id": "REQ23652",
       "verified_at": "2026-07-30T12:07:07Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-87901a8a22c7",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Field Tehcnical Engineer Internship - EP - Galicia",
-      "location": "Spain - Madrid",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product",
-        "Strategy"
-      ],
-      "summary": "JOB DESCRIPTION: About Abbott Abbott is a global healthcare leader, creating breakthrough science to improve people’s health. We’re always looking towards the future, anticipating changes in medical science and technology. Working at Abbott At Abbott, You Can Do Work That…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-06-30",
-      "deadline": "2026-08-24",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Madrid/Field-Tehcnical-Engineer-Internship---EP---Galicia_31154346",
-      "external_id": "31154346",
-      "verified_at": "2026-07-30T00:15:21Z",
       "match_score": 85
     },
     {
@@ -6391,7 +6121,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-07-31T03:54:06Z",
+      "verified_at": "2026-07-31T07:16:49Z",
       "match_score": 85
     },
     {
@@ -6416,7 +6146,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Aarup-Denmark/Intern_JR100830",
       "external_id": "JR100830",
-      "verified_at": "2026-07-31T03:54:06Z",
+      "verified_at": "2026-07-31T07:16:48Z",
       "match_score": 85
     },
     {
@@ -6477,6 +6207,34 @@
       "url": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/Finland---Espoo/Internship--Sales-or-Solution-Engineering-Paths-Espoo_JR335117-2",
       "external_id": "JR335117",
       "verified_at": "2026-07-30T14:36:37Z",
+      "match_score": 85
+    },
+    {
+      "id": "ryder-system-164d08cab353",
+      "source_key": "ryder-system",
+      "fortune_rank": 346,
+      "fortune_500": true,
+      "company": "Ryder System",
+      "title": "Technician Apprentice",
+      "location": "CAN - London ON N6N 1E1",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations"
+      ],
+      "summary": "Job Seekers can review the Job Applicant Privacy Policy by clicking here . Job Description : About Ryder For almost 100 years, Ryder has provided customers around the world with integrated transportation, logistics, and supply chain management solutions that enhance the way…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://ryder.wd5.myworkdayjobs.com/RyderCareers/job/CAN---London-ON-N6N-1E1/Technician-Apprentice_R176106",
+      "external_id": "R176106",
+      "verified_at": "2026-07-31T07:17:20Z",
       "match_score": 85
     },
     {
@@ -7700,7 +7458,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Summer-2027-Intern-Interest-Application_115178",
       "external_id": "115178",
-      "verified_at": "2026-07-31T03:53:38Z",
+      "verified_at": "2026-07-31T07:16:18Z",
       "match_score": 85
     },
     {
@@ -7729,7 +7487,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Quality-Assurance-Intern--Fall-2026---Orrville--OH_115378",
       "external_id": "115378",
-      "verified_at": "2026-07-31T03:53:38Z",
+      "verified_at": "2026-07-31T07:16:18Z",
       "match_score": 85
     },
     {
@@ -7760,7 +7518,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Fall-2026_115124",
       "external_id": "115124",
-      "verified_at": "2026-07-31T03:53:38Z",
+      "verified_at": "2026-07-31T07:16:18Z",
       "match_score": 85
     },
     {
@@ -7788,7 +7546,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_114837",
       "external_id": "114837",
-      "verified_at": "2026-07-31T03:53:37Z",
+      "verified_at": "2026-07-31T07:16:18Z",
       "match_score": 85
     },
     {
@@ -7817,7 +7575,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Management-Intern--Spring-2027---Orrville--OH_114833",
       "external_id": "114833",
-      "verified_at": "2026-07-31T03:53:38Z",
+      "verified_at": "2026-07-31T07:16:18Z",
       "match_score": 85
     },
     {
@@ -7846,7 +7604,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Management-Intern--Fall-2026---Orrville--OH_115347",
       "external_id": "115347",
-      "verified_at": "2026-07-31T03:53:38Z",
+      "verified_at": "2026-07-31T07:16:18Z",
       "match_score": 85
     },
     {
@@ -7879,7 +7637,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-07-31T03:53:37Z",
+      "verified_at": "2026-07-31T07:16:18Z",
       "match_score": 85
     },
     {
@@ -8241,7 +7999,7 @@
       "deadline": null,
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Sao-Paulo/Procurement-Intern_R5044812-1",
       "external_id": "R5044812",
-      "verified_at": "2026-07-30T03:34:23Z",
+      "verified_at": "2026-07-31T07:18:13Z",
       "match_score": 85
     },
     {
@@ -8271,7 +8029,7 @@
       "deadline": null,
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Tampere/MSc-Thesis-Opportunities-Through-a-Summer-Internship---Multiple-Openings_R5035971-2",
       "external_id": "R5035971",
-      "verified_at": "2026-07-30T03:34:24Z",
+      "verified_at": "2026-07-31T07:18:14Z",
       "match_score": 85
     },
     {
@@ -8300,7 +8058,7 @@
       "deadline": null,
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Jebel-Ali/Internship--Lean-Manufacturing---Operations_R5039041-2",
       "external_id": "R5039041",
-      "verified_at": "2026-07-30T03:34:23Z",
+      "verified_at": "2026-07-31T07:18:13Z",
       "match_score": 85
     },
     {
@@ -8333,7 +8091,7 @@
       "deadline": null,
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Monterrey/Finance-IT-Intern---Data---Analytics_R5028643-3",
       "external_id": "R5028643",
-      "verified_at": "2026-07-30T03:34:34Z",
+      "verified_at": "2026-07-31T07:18:23Z",
       "match_score": 85
     },
     {
@@ -8358,7 +8116,7 @@
       "deadline": null,
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Chennai/DT-Intern_R5027950-2",
       "external_id": "R5027950",
-      "verified_at": "2026-07-30T03:34:24Z",
+      "verified_at": "2026-07-31T07:18:14Z",
       "match_score": 85
     },
     {
@@ -8471,7 +8229,7 @@
       "deadline": null,
       "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/IT-Intern_51580573",
       "external_id": "51580573",
-      "verified_at": "2026-07-30T00:13:46Z",
+      "verified_at": "2026-07-31T07:16:50Z",
       "match_score": 85
     },
     {
@@ -8496,7 +8254,7 @@
       "deadline": null,
       "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Production-Line-Operator-Intern_JR101884",
       "external_id": "JR101884",
-      "verified_at": "2026-07-30T00:14:25Z",
+      "verified_at": "2026-07-31T07:17:21Z",
       "match_score": 85
     },
     {
@@ -8523,7 +8281,7 @@
       "deadline": null,
       "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Plant-Administration-Intern_JR102942",
       "external_id": "JR102942",
-      "verified_at": "2026-07-30T00:14:25Z",
+      "verified_at": "2026-07-31T07:17:21Z",
       "match_score": 85
     },
     {
@@ -8550,7 +8308,7 @@
       "deadline": null,
       "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Import-Export-Intern_JR102825",
       "external_id": "JR102825",
-      "verified_at": "2026-07-30T00:14:25Z",
+      "verified_at": "2026-07-31T07:17:20Z",
       "match_score": 85
     },
     {
@@ -8575,7 +8333,7 @@
       "deadline": null,
       "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Commercial-Intern_JR102918",
       "external_id": "JR102918",
-      "verified_at": "2026-07-30T00:14:24Z",
+      "verified_at": "2026-07-31T07:17:20Z",
       "match_score": 85
     },
     {
@@ -9069,7 +8827,7 @@
       "deadline": "2026-08-03",
       "url": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Buenos-Aires-Butty/Data-Analytics-Intern_R-113884",
       "external_id": "R-113884",
-      "verified_at": "2026-07-30T00:13:43Z",
+      "verified_at": "2026-07-31T07:16:47Z",
       "match_score": 85
     },
     {
@@ -9153,7 +8911,7 @@
       "deadline": null,
       "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Internship-Corporate-Finance-Services_31150381",
       "external_id": "31150381",
-      "verified_at": "2026-07-30T00:15:21Z",
+      "verified_at": "2026-07-31T07:17:07Z",
       "match_score": 85
     },
     {
@@ -9179,7 +8937,7 @@
       "deadline": null,
       "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Malaysia--Selangor--Imazium-No-8-Jalan-SS-2137/IT-Intern_31149049-1",
       "external_id": "31149049",
-      "verified_at": "2026-07-30T00:15:20Z",
+      "verified_at": "2026-07-31T07:17:06Z",
       "match_score": 85
     },
     {
@@ -9205,7 +8963,7 @@
       "deadline": null,
       "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Malaysia--Selangor--Imazium-No-8-Jalan-SS-2137/HR-Service-Center-Intern_31149493",
       "external_id": "31149493",
-      "verified_at": "2026-07-30T00:15:20Z",
+      "verified_at": "2026-07-31T07:17:06Z",
       "match_score": 85
     },
     {
@@ -9236,7 +8994,63 @@
       "deadline": null,
       "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Morocco--Casablanca--42-Boulevard-Abdelmoumen/Finance-Intern_31094196",
       "external_id": "31094196",
-      "verified_at": "2026-07-30T00:15:19Z",
+      "verified_at": "2026-07-31T07:17:05Z",
+      "match_score": 85
+    },
+    {
+      "id": "abbott-laboratories-87901a8a22c7",
+      "source_key": "abbott-laboratories",
+      "fortune_rank": 107,
+      "fortune_500": true,
+      "company": "Abbott Laboratories",
+      "title": "Field Tehcnical Engineer Internship - EP - Galicia",
+      "location": "Spain - Madrid",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Product",
+        "Strategy"
+      ],
+      "summary": "JOB DESCRIPTION: About Abbott Abbott is a global healthcare leader, creating breakthrough science to improve people’s health. We’re always looking towards the future, anticipating changes in medical science and technology. Working at Abbott At Abbott, You Can Do Work That…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-08-24",
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Madrid/Field-Tehcnical-Engineer-Internship---EP---Galicia_31154346",
+      "external_id": "31154346",
+      "verified_at": "2026-07-31T07:17:07Z",
+      "match_score": 85
+    },
+    {
+      "id": "abbott-laboratories-2de6993f4d80",
+      "source_key": "abbott-laboratories",
+      "fortune_rank": 107,
+      "fortune_500": true,
+      "company": "Abbott Laboratories",
+      "title": "Field Service Engineer Internship - Mechanical, Industrial, Electronics or Automation Engineer (Madrid)",
+      "location": "Spain - Madrid",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "JOB DESCRIPTION: Sobre Abbott Abbott es un líder mundial en atención médica, impulsando la innovación para mejorar la salud de las personas. Siempre estamos mirando hacia el futuro, anticipando cambios en la ciencia y la tecnología médica",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-08-31",
+      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Madrid/Field-Service-Engineer-Internship---Core-Lab---Madrid-_31152648",
+      "external_id": "31152648",
+      "verified_at": "2026-07-31T07:17:08Z",
       "match_score": 85
     },
     {
@@ -9263,7 +9077,7 @@
       "deadline": "2026-08-10",
       "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Madrid/Field-Service-Engineer-Internship---Core-Lab--Granada-_31152661",
       "external_id": "31152661",
-      "verified_at": "2026-07-30T00:15:22Z",
+      "verified_at": "2026-07-31T07:17:08Z",
       "match_score": 85
     },
     {
@@ -9292,7 +9106,7 @@
       "deadline": null,
       "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Controlling-Intern_31153777-1",
       "external_id": "31153777",
-      "verified_at": "2026-07-30T00:15:20Z",
+      "verified_at": "2026-07-31T07:17:06Z",
       "match_score": 85
     },
     {
@@ -9324,7 +9138,7 @@
       "deadline": null,
       "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Heerlen/Business-Analyst-Internship_31149922",
       "external_id": "31149922",
-      "verified_at": "2026-07-30T00:15:21Z",
+      "verified_at": "2026-07-31T07:17:07Z",
       "match_score": 85
     },
     {
@@ -9585,7 +9399,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-07-31T03:53:26Z",
+      "verified_at": "2026-07-31T07:16:03Z",
       "match_score": 85
     },
     {
@@ -9614,7 +9428,7 @@
       "deadline": null,
       "url": "https://www.micron.com/about/careers/apprenticeship",
       "external_id": null,
-      "verified_at": "2026-07-30T03:33:56Z",
+      "verified_at": "2026-07-31T07:17:44Z",
       "match_score": 85
     },
     {
@@ -9815,7 +9629,7 @@
       "deadline": null,
       "url": "https://hii.com/careers/ingalls-apprentice-school",
       "external_id": null,
-      "verified_at": "2026-07-30T00:13:56Z",
+      "verified_at": "2026-07-31T07:16:54Z",
       "match_score": 85
     },
     {
@@ -10840,7 +10654,7 @@
       "deadline": null,
       "url": "https://careers.airbnb.com/internship-programs/",
       "external_id": null,
-      "verified_at": "2026-07-30T00:14:17Z",
+      "verified_at": "2026-07-31T07:17:14Z",
       "match_score": 85
     },
     {
@@ -10868,7 +10682,7 @@
       "deadline": null,
       "url": "https://careers.airbnb.com/connect-engineering-apprenticeship/",
       "external_id": null,
-      "verified_at": "2026-07-30T00:14:17Z",
+      "verified_at": "2026-07-31T07:17:14Z",
       "match_score": 85
     }
   ]
