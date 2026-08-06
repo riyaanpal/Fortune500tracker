@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T14:43:38Z",
+  "updated_at": "2026-08-06T19:13:16Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,10 +12,10 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-08-06T14:39:13Z",
+  "directory_refreshed_at": "2026-08-06T19:09:36Z",
   "companies_scanned_this_run": 50,
-  "companies_scanned_last_24h": 480,
-  "companies_failed_last_24h": 9,
+  "companies_scanned_last_24h": 394,
+  "companies_failed_last_24h": 7,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "accendra-health",
@@ -29,32 +29,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": null
-    },
-    {
-      "key": "alcoa",
-      "rank": 344,
-      "company": "Alcoa",
-      "fortune_500": true,
-      "checked_at": "2026-08-05T16:59:08Z",
-      "status": "error",
-      "issue_type": "Scan error",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs: 404 Client Error: Not Found for url: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs"
-    },
-    {
-      "key": "bank-of-america",
-      "rank": 20,
-      "company": "Bank of America",
-      "fortune_500": true,
-      "checked_at": "2026-08-05T16:59:08Z",
-      "status": "error",
-      "issue_type": "Scan error",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": "https://careers.bankofamerica.com/en-us/students/job-search?ref=search&search=getAllJobs&start=0&rows=10",
-      "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
     },
     {
       "key": "coterra-energy",
@@ -135,9 +109,9 @@
       "error": null
     }
   ],
-  "companies_with_eligible_jobs": 82,
+  "companies_with_eligible_jobs": 80,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 411,
+  "opportunity_count": 407,
   "opportunities": [
     {
       "id": "merck-82b9926060c0",
@@ -162,6 +136,35 @@
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/SGP---Singapore---Singapore-50-Tuas-West-Dr/Assoc-Spclst--Quality-Control-Intern_R408930",
       "external_id": "R408930",
       "verified_at": "2026-08-06T03:43:47Z",
+      "match_score": 85
+    },
+    {
+      "id": "jabil-f37c04e104f2",
+      "source_key": "jabil",
+      "fortune_rank": 151,
+      "fortune_500": true,
+      "company": "Jabil",
+      "title": "Intern - Project Coordinator",
+      "location": "Penang",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "IT analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Power BI",
+        "AI / ML"
+      ],
+      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-06",
+      "deadline": null,
+      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---Project-Coordinator_J2460354",
+      "external_id": "J2460354",
+      "verified_at": "2026-08-06T19:10:12Z",
       "match_score": 85
     },
     {
@@ -418,33 +421,6 @@
       "match_score": 85
     },
     {
-      "id": "johnson-johnson-a804d7155c9e",
-      "source_key": "johnson-johnson",
-      "fortune_rank": 45,
-      "fortune_500": true,
-      "company": "Johnson & Johnson",
-      "title": "Apprentice Manufacturing Technician",
-      "location": "Limerick, Ireland",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "At Johnson & Johnson, we believe health is everything. Our strength in healthcare innovation empowers us to build a world where complex diseases are prevented, treated, and cured, where treatments are smarter and less invasive, and solutions are personal",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-05",
-      "deadline": "2026-08-19",
-      "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Limerick-Ireland/Apprentice-Manufacturing-Technician_R-087141",
-      "external_id": "R-087141",
-      "verified_at": "2026-08-05T14:38:07Z",
-      "match_score": 85
-    },
-    {
       "id": "jabil-3d510724860f",
       "source_key": "jabil",
       "fortune_rank": 151,
@@ -469,7 +445,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Guangzhou-Juncheng/EEIT-Intern_J2455942-1",
       "external_id": "J2455942",
-      "verified_at": "2026-08-05T12:21:24Z",
+      "verified_at": "2026-08-06T19:10:13Z",
       "match_score": 85
     },
     {
@@ -637,6 +613,31 @@
       "match_score": 85
     },
     {
+      "id": "ge-aerospace-577dfd171339",
+      "source_key": "ge-aerospace",
+      "fortune_rank": 101,
+      "fortune_500": true,
+      "company": "GE Aerospace",
+      "title": "Variable Geometries Mechanical Designer Intern",
+      "location": "Queretaro",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Job Description Summary As Mechanical Designer, you will work out mechanical design problems of low to medium complexity that involve multiple teams across GE aviation. You will execute specific design or analysis tasks or even projects related to several types of Actuation…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "Mechanical-Administrative Engineering, Mechanical-Electrical Engineering, Physics or Mechatronics. Graduation date January 2027 or later English at intermediate level,…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-05",
+      "deadline": "2026-08-13",
+      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Queretaro/Variable-Geometries-Mechanical-Designer_R5037605-1",
+      "external_id": "R5037605",
+      "verified_at": "2026-08-06T19:11:44Z",
+      "match_score": 90
+    },
+    {
       "id": "ge-aerospace-69362627de56",
       "source_key": "ge-aerospace",
       "fortune_rank": 101,
@@ -658,7 +659,61 @@
       "deadline": "2026-08-07",
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Istanbul/Mechanical-Design-Engineering-Intern--6-months-_R5036669-1",
       "external_id": "R5036669",
-      "verified_at": "2026-08-05T14:37:33Z",
+      "verified_at": "2026-08-06T19:11:43Z",
+      "match_score": 85
+    },
+    {
+      "id": "ge-aerospace-164d15937363",
+      "source_key": "ge-aerospace",
+      "fortune_rank": 101,
+      "fortune_500": true,
+      "company": "GE Aerospace",
+      "title": "Engine Dynamics - Intern Engineer",
+      "location": "Queretaro",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python"
+      ],
+      "summary": "Job Description Summary Provide support on a broad range of technical projects within Engine Dynamics team. Within this role, you will interact with a group of engineers with sound technical expertise in the area of Rotordynamics to solve some of the challenges that are present…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-05",
+      "deadline": "2026-08-13",
+      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Queretaro/Engine-Dynamics----Intern-Engineer_R5038269-1",
+      "external_id": "R5038269",
+      "verified_at": "2026-08-06T19:11:43Z",
+      "match_score": 85
+    },
+    {
+      "id": "ge-aerospace-a3ccc2712f04",
+      "source_key": "ge-aerospace",
+      "fortune_rank": 101,
+      "fortune_500": true,
+      "company": "GE Aerospace",
+      "title": "EID Intern - Fluids Systems",
+      "location": "Queretaro",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Job Description Summary Support the engineering activities related to assigned fluids system components in a collaborative, multifunctional team environment. Assigned components may include electromechanical devices used in aircraft engines, such as pumps, air valves, filters,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-05",
+      "deadline": "2026-08-13",
+      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Queretaro/EID-Intern---Fluids-Systems_R5038310-1",
+      "external_id": "R5038310",
+      "verified_at": "2026-08-06T19:11:42Z",
       "match_score": 85
     },
     {
@@ -856,7 +911,7 @@
       "deadline": "2026-08-18",
       "url": "https://xcelenergy.wd1.myworkdayjobs.com/External/job/Lubbock-TX-79404/Control-Room-Operator-B-Apprentice---Lubbock--TX_JR112663-1",
       "external_id": "JR112663",
-      "verified_at": "2026-08-05T12:19:51Z",
+      "verified_at": "2026-08-06T19:10:48Z",
       "match_score": 85
     },
     {
@@ -1346,31 +1401,6 @@
       "match_score": 85
     },
     {
-      "id": "ge-aerospace-cd4b7497bbe9",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Support Equipment Tool Engineer Intern",
-      "location": "Queretaro",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Job Description Summary We are searching for a design engineer to join the Assembly and Testing team. A Tooling engineer is responsible to provide engineering solutions and design, improve or re-design Special Tooling need among others to assemble, disassemble, test and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-04",
-      "deadline": "2026-08-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Queretaro/Support-Equipment-Tool-Engineer-Intern_R5037548-1",
-      "external_id": "R5037548",
-      "verified_at": "2026-08-05T14:37:34Z",
-      "match_score": 85
-    },
-    {
       "id": "ge-aerospace-66ddb5598d89",
       "source_key": "ge-aerospace",
       "fortune_rank": 101,
@@ -1395,7 +1425,7 @@
       "deadline": "2026-08-12",
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Queretaro/Materials-Application-Engineer-Intern_R5037702-1",
       "external_id": "R5037702",
-      "verified_at": "2026-08-05T14:37:34Z",
+      "verified_at": "2026-08-06T19:11:43Z",
       "match_score": 85
     },
     {
@@ -1420,7 +1450,7 @@
       "deadline": "2026-08-12",
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Queretaro/Intern---Turbomachinery-Mechanical-Design-Engineer_R5037471",
       "external_id": "R5037471",
-      "verified_at": "2026-08-05T14:37:34Z",
+      "verified_at": "2026-08-06T19:11:44Z",
       "match_score": 85
     },
     {
@@ -1559,7 +1589,7 @@
       "deadline": null,
       "url": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/Australia---Sydney/XMLNAME-2026-Legal-Summer-Intern---Sydney_JR354606-2",
       "external_id": "JR354606",
-      "verified_at": "2026-08-05T14:37:52Z",
+      "verified_at": "2026-08-06T19:11:50Z",
       "match_score": 85
     },
     {
@@ -1614,7 +1644,7 @@
       "deadline": null,
       "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Greater-Noida-Uttar-Pradesh-India/Apprenticeship---Technical-Support_R-64179",
       "external_id": "R-64179",
-      "verified_at": "2026-08-05T12:19:33Z",
+      "verified_at": "2026-08-06T19:10:34Z",
       "match_score": 85
     },
     {
@@ -1700,7 +1730,7 @@
       "deadline": null,
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Asheville/Asheville-Shotpeen-Apprentice--2nd-Shift-_R5038234-1",
       "external_id": "R5038234",
-      "verified_at": "2026-08-05T14:37:56Z",
+      "verified_at": "2026-08-06T19:12:00Z",
       "match_score": 85
     },
     {
@@ -2200,7 +2230,7 @@
       "deadline": null,
       "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Mumbai-Maharashtra-India/Apprenticeship---Technical-Support_R-64180",
       "external_id": "R-64180",
-      "verified_at": "2026-08-05T12:19:33Z",
+      "verified_at": "2026-08-06T19:10:33Z",
       "match_score": 85
     },
     {
@@ -2976,35 +3006,6 @@
       "match_score": 85
     },
     {
-      "id": "jabil-d23d02ec5bb6",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Project Management Intern",
-      "location": "Remote - USA",
-      "region": "Remote",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Strategy",
-        "Risk"
-      ],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-07-30",
-      "deadline": "2026-08-17",
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Remote---USA/Project-Management-Intern_J2459394",
-      "external_id": "J2459394",
-      "verified_at": "2026-08-05T12:21:46Z",
-      "match_score": 85
-    },
-    {
       "id": "ge-vernova-6605146b7bd4",
       "source_key": "ge-vernova",
       "fortune_rank": 124,
@@ -3111,7 +3112,7 @@
       "deadline": "2026-08-07",
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Queretaro/Sourcing---Customs-intern_R5036983-1",
       "external_id": "R5036983",
-      "verified_at": "2026-08-05T14:37:37Z",
+      "verified_at": "2026-08-06T19:11:46Z",
       "match_score": 85
     },
     {
@@ -3359,7 +3360,7 @@
       "deadline": null,
       "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Hyderabad-Telangana-India/Apprenticeship---Technical-Support_R-64177",
       "external_id": "R-64177",
-      "verified_at": "2026-08-05T12:19:33Z",
+      "verified_at": "2026-08-06T19:10:33Z",
       "match_score": 85
     },
     {
@@ -3603,36 +3604,6 @@
       "match_score": 85
     },
     {
-      "id": "ge-aerospace-dccc76379b29",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Tool Software Eng. for Product Definition - intern",
-      "location": "Queretaro",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Software engineering",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Product"
-      ],
-      "summary": "Job Description Summary Job Description Job Description Summary As a Software Development Intern , you will support the development of digital solutions that improve engineering processes, data management, and 3D digital tools. In this role, you will contribute to the design,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-29",
-      "deadline": "2026-08-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Queretaro/Tool-Software-Eng-for-Product-Definition---intern_R5037958-1",
-      "external_id": "R5037958",
-      "verified_at": "2026-08-05T14:37:38Z",
-      "match_score": 85
-    },
-    {
       "id": "assurant-998d34eee16a",
       "source_key": "assurant",
       "fortune_rank": 345,
@@ -3858,7 +3829,7 @@
       "deadline": "2026-08-28",
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Grand-Junction-CO/Calibration-Technician-Intern---PartTime_J2458100",
       "external_id": "J2458100",
-      "verified_at": "2026-08-05T12:21:27Z",
+      "verified_at": "2026-08-06T19:10:13Z",
       "match_score": 85
     },
     {
@@ -4377,7 +4348,7 @@
       "deadline": null,
       "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Singapore/XMLNAME-2027-Real-Estate-Finance--Off-Cycle-Intern--January-to-June---Singapore_44173",
       "external_id": "44173",
-      "verified_at": "2026-08-05T14:38:14Z",
+      "verified_at": "2026-08-06T19:12:00Z",
       "match_score": 85
     },
     {
@@ -4714,7 +4685,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Engineering-Intern--Fall-2026---Orrville--OH_114566",
       "external_id": "114566",
-      "verified_at": "2026-08-06T14:39:35Z",
+      "verified_at": "2026-08-06T19:09:57Z",
       "match_score": 85
     },
     {
@@ -5183,7 +5154,7 @@
       "deadline": null,
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Singapore/NPI-Intern_R5037560",
       "external_id": "R5037560",
-      "verified_at": "2026-08-05T14:37:43Z",
+      "verified_at": "2026-08-06T19:11:49Z",
       "match_score": 85
     },
     {
@@ -6011,7 +5982,7 @@
       "deadline": null,
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Springdale/Military-DoD-SkillBridge-Internship---Structure-Parts-Operations-Supervisor--1st-Shift-_R5037460-1",
       "external_id": "R5037460",
-      "verified_at": "2026-08-05T14:37:44Z",
+      "verified_at": "2026-08-06T19:11:50Z",
       "match_score": 85
     },
     {
@@ -6039,7 +6010,7 @@
       "deadline": null,
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Springdale/Military-DoD-SkillBridge-Internship---Maintenance-Technician---Weekend-Shift_R5037432",
       "external_id": "R5037432",
-      "verified_at": "2026-08-05T14:37:45Z",
+      "verified_at": "2026-08-06T19:11:50Z",
       "match_score": 85
     },
     {
@@ -6320,7 +6291,7 @@
       "deadline": null,
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Jacksonville/Production-Associate---High-School-Co-op_R5037325-2",
       "external_id": "R5037325",
-      "verified_at": "2026-08-05T14:37:44Z",
+      "verified_at": "2026-08-06T19:11:50Z",
       "match_score": 85
     },
     {
@@ -6349,7 +6320,7 @@
       "deadline": null,
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Singapore/Digital-Transformation-Intern_R5036385-1",
       "external_id": "R5036385",
-      "verified_at": "2026-08-05T14:37:44Z",
+      "verified_at": "2026-08-06T19:11:50Z",
       "match_score": 85
     },
     {
@@ -6526,7 +6497,7 @@
       "deadline": null,
       "url": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/Denmark---Copenhagen/Internship--Sales-or-Solution-Engineering-Paths-Copenhagen_JR335115",
       "external_id": "JR335115",
-      "verified_at": "2026-08-05T14:37:52Z",
+      "verified_at": "2026-08-06T19:11:49Z",
       "match_score": 85
     },
     {
@@ -6581,7 +6552,7 @@
       "deadline": null,
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Singapore/Process-Improvement-Intern---Module-Shop_R5037069-1",
       "external_id": "R5037069",
-      "verified_at": "2026-08-05T14:37:47Z",
+      "verified_at": "2026-08-06T19:11:51Z",
       "match_score": 85
     },
     {
@@ -6805,7 +6776,7 @@
       "deadline": null,
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Singapore/Quality-Intern_R5036384-1",
       "external_id": "R5036384",
-      "verified_at": "2026-08-05T14:37:46Z",
+      "verified_at": "2026-08-06T19:11:52Z",
       "match_score": 85
     },
     {
@@ -6834,7 +6805,7 @@
       "deadline": null,
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Singapore/Manufacturing-Intern--Nozzle-_R5036804",
       "external_id": "R5036804",
-      "verified_at": "2026-08-05T14:37:46Z",
+      "verified_at": "2026-08-06T19:11:51Z",
       "match_score": 85
     },
     {
@@ -6863,7 +6834,7 @@
       "deadline": null,
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Singapore/Facilities-Intern_R5037113-1",
       "external_id": "R5037113",
-      "verified_at": "2026-08-05T14:37:46Z",
+      "verified_at": "2026-08-06T19:11:51Z",
       "match_score": 85
     },
     {
@@ -6894,32 +6865,7 @@
       "deadline": null,
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Singapore/Equipment-Maintenance-Intern_R5037065-1",
       "external_id": "R5037065",
-      "verified_at": "2026-08-05T14:37:46Z",
-      "match_score": 85
-    },
-    {
-      "id": "jabil-8d7a9f8d55d3",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Lean Six Sigma Intern",
-      "location": "Guadalajara",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-06",
-      "deadline": null,
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Guadalajara/Lean-Six-Sigma-Intern_J2456667",
-      "external_id": "J2456667",
-      "verified_at": "2026-08-05T12:21:28Z",
+      "verified_at": "2026-08-06T19:11:51Z",
       "match_score": 85
     },
     {
@@ -6948,7 +6894,7 @@
       "deadline": null,
       "url": "https://viatris.wd5.myworkdayjobs.com/External/job/Northern-Cross-Dublin-Ireland/Device-Engineering-Systems-Intern_R5670413",
       "external_id": "R5670413",
-      "verified_at": "2026-08-05T12:20:19Z",
+      "verified_at": "2026-08-06T19:11:21Z",
       "match_score": 85
     },
     {
@@ -7162,7 +7108,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-08-06T14:40:03Z",
+      "verified_at": "2026-08-06T19:10:39Z",
       "match_score": 85
     },
     {
@@ -7192,7 +7138,7 @@
       "deadline": null,
       "url": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/Sweden---Stockholm/Internship--Sales-or-Solution-Engineering-Paths-Stockholm_JR335096",
       "external_id": "JR335096",
-      "verified_at": "2026-08-05T14:37:53Z",
+      "verified_at": "2026-08-06T19:11:51Z",
       "match_score": 85
     },
     {
@@ -7732,7 +7678,7 @@
       "deadline": null,
       "url": "https://otis.wd5.myworkdayjobs.com/REC_Ext_Gateway/job/12F-The-Bay-Hub-17-Kai-Cheung-Road-Kowloon-Bay-Hong-Kong/Internship_20126813",
       "external_id": "20126813",
-      "verified_at": "2026-08-05T12:20:15Z",
+      "verified_at": "2026-08-06T19:11:16Z",
       "match_score": 85
     },
     {
@@ -7757,7 +7703,7 @@
       "deadline": null,
       "url": "https://otis.wd5.myworkdayjobs.com/REC_Ext_Gateway/job/LOC3309-No28-Jiuhuan-Road-Hangzhou-Shangcheng-District-Zhejiang-China/_20133091",
       "external_id": "20133091",
-      "verified_at": "2026-08-05T12:20:15Z",
+      "verified_at": "2026-08-06T19:11:16Z",
       "match_score": 85
     },
     {
@@ -7782,7 +7728,7 @@
       "deadline": null,
       "url": "https://otis.wd5.myworkdayjobs.com/REC_Ext_Gateway/job/LOC3309-No28-Jiuhuan-Road-Hangzhou-Shangcheng-District-Zhejiang-China/MOD-Promotion-Intern_20161384",
       "external_id": "20161384",
-      "verified_at": "2026-08-05T12:20:15Z",
+      "verified_at": "2026-08-06T19:11:16Z",
       "match_score": 85
     },
     {
@@ -7807,7 +7753,7 @@
       "deadline": null,
       "url": "https://otis.wd5.myworkdayjobs.com/REC_Ext_Gateway/job/LOC3397-Room-B27th-Floor-Times-SquareNo2-Guomao-Road-Haikou-Longhua-District-Hainan-China/Intern--Field-Svc_20161068",
       "external_id": "20161068",
-      "verified_at": "2026-08-05T12:20:15Z",
+      "verified_at": "2026-08-06T19:11:16Z",
       "match_score": 85
     },
     {
@@ -7832,7 +7778,7 @@
       "deadline": null,
       "url": "https://otis.wd5.myworkdayjobs.com/REC_Ext_Gateway/job/Coline-Business-Center-n442-La-Coline-II-Californie--Ain-Chock--CasablancaCasablanca20190Morocco/Intern--Admin_20130507",
       "external_id": "20130507",
-      "verified_at": "2026-08-05T12:20:15Z",
+      "verified_at": "2026-08-06T19:11:16Z",
       "match_score": 85
     },
     {
@@ -8302,7 +8248,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Guadalajara/Recruitment-Marketing-Intern_J2456400",
       "external_id": "J2456400",
-      "verified_at": "2026-08-05T12:21:28Z",
+      "verified_at": "2026-08-06T19:10:14Z",
       "match_score": 85
     },
     {
@@ -8327,7 +8273,32 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Shanghai/Legal-Intern_J2453958",
       "external_id": "J2453958",
-      "verified_at": "2026-08-05T12:21:29Z",
+      "verified_at": "2026-08-06T19:10:17Z",
+      "match_score": 85
+    },
+    {
+      "id": "jabil-8d7a9f8d55d3",
+      "source_key": "jabil",
+      "fortune_rank": 151,
+      "fortune_500": true,
+      "company": "Jabil",
+      "title": "Lean Six Sigma Intern",
+      "location": "Guadalajara",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Guadalajara/Lean-Six-Sigma-Intern_J2456667",
+      "external_id": "J2456667",
+      "verified_at": "2026-08-06T19:10:14Z",
       "match_score": 85
     },
     {
@@ -8355,7 +8326,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---Talent-Acquisition--Campus-Outreach-_J2454758",
       "external_id": "J2454758",
-      "verified_at": "2026-08-05T12:21:28Z",
+      "verified_at": "2026-08-06T19:10:15Z",
       "match_score": 85
     },
     {
@@ -8382,7 +8353,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---Talent-Acquisition_J2420136",
       "external_id": "J2420136",
-      "verified_at": "2026-08-05T12:21:29Z",
+      "verified_at": "2026-08-06T19:10:16Z",
       "match_score": 85
     },
     {
@@ -8410,7 +8381,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---IoT_J2417208",
       "external_id": "J2417208",
-      "verified_at": "2026-08-05T12:21:37Z",
+      "verified_at": "2026-08-06T19:10:32Z",
       "match_score": 85
     },
     {
@@ -8439,7 +8410,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Summer-2027-Intern-Interest-Application_115178",
       "external_id": "115178",
-      "verified_at": "2026-08-06T14:39:35Z",
+      "verified_at": "2026-08-06T19:09:57Z",
       "match_score": 85
     },
     {
@@ -8468,7 +8439,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Quality-Assurance-Intern--Fall-2026---Orrville--OH_115378",
       "external_id": "115378",
-      "verified_at": "2026-08-06T14:39:35Z",
+      "verified_at": "2026-08-06T19:09:57Z",
       "match_score": 85
     },
     {
@@ -8499,7 +8470,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Fall-2026_115124",
       "external_id": "115124",
-      "verified_at": "2026-08-06T14:39:36Z",
+      "verified_at": "2026-08-06T19:09:58Z",
       "match_score": 85
     },
     {
@@ -8527,7 +8498,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_114837",
       "external_id": "114837",
-      "verified_at": "2026-08-06T14:39:40Z",
+      "verified_at": "2026-08-06T19:09:57Z",
       "match_score": 85
     },
     {
@@ -8556,7 +8527,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Management-Intern--Spring-2027---Orrville--OH_114833",
       "external_id": "114833",
-      "verified_at": "2026-08-06T14:39:35Z",
+      "verified_at": "2026-08-06T19:09:57Z",
       "match_score": 85
     },
     {
@@ -8585,7 +8556,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Management-Intern--Fall-2026---Orrville--OH_115347",
       "external_id": "115347",
-      "verified_at": "2026-08-06T14:39:35Z",
+      "verified_at": "2026-08-06T19:09:57Z",
       "match_score": 85
     },
     {
@@ -8618,7 +8589,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-08-06T14:39:35Z",
+      "verified_at": "2026-08-06T19:09:57Z",
       "match_score": 85
     },
     {
@@ -9152,7 +9123,7 @@
       "deadline": null,
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Pittsburgh/Military-DoD-SkillBridge-Internship---Test-Technician-Level-2---On-Wing-Support_R5032038-1",
       "external_id": "R5032038",
-      "verified_at": "2026-08-05T14:38:04Z",
+      "verified_at": "2026-08-06T19:11:54Z",
       "match_score": 85
     },
     {
@@ -9179,7 +9150,7 @@
       "deadline": null,
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Pittsburgh/Military-DoD-SkillBridge-Internship---Test-Technician_R5032035",
       "external_id": "R5032035",
-      "verified_at": "2026-08-05T14:37:47Z",
+      "verified_at": "2026-08-06T19:11:52Z",
       "match_score": 85
     },
     {
@@ -9206,7 +9177,7 @@
       "deadline": null,
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Pittsburgh/Military-DoD-SkillBridge-Internship---On-Wing-Support-Test-Technician_R5032042-1",
       "external_id": "R5032042",
-      "verified_at": "2026-08-05T14:37:51Z",
+      "verified_at": "2026-08-06T19:11:55Z",
       "match_score": 85
     },
     {
@@ -9234,7 +9205,7 @@
       "deadline": null,
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Pittsburgh/Military-DoD-SkillBridge-Internship---Maintenance-Technician_R5032037-1",
       "external_id": "R5032037",
-      "verified_at": "2026-08-05T14:37:48Z",
+      "verified_at": "2026-08-06T19:11:52Z",
       "match_score": 85
     },
     {
@@ -9262,7 +9233,7 @@
       "deadline": null,
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Prague/HR-Admin_R5036173-2",
       "external_id": "R5036173",
-      "verified_at": "2026-08-05T14:37:47Z",
+      "verified_at": "2026-08-06T19:11:52Z",
       "match_score": 85
     },
     {
@@ -9883,7 +9854,7 @@
       "deadline": null,
       "url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Frankfurt-Omniturm/XMLNAME-2026-Blackstone-Private-Equity-H2-Off-Cycle-Internship-Frankfurt_41376-1",
       "external_id": "41376",
-      "verified_at": "2026-08-05T14:38:15Z",
+      "verified_at": "2026-08-06T19:12:02Z",
       "match_score": 85
     },
     {
@@ -10194,33 +10165,6 @@
       "match_score": 85
     },
     {
-      "id": "xcel-energy-1e8757729077",
-      "source_key": "xcel-energy",
-      "fortune_rank": 306,
-      "fortune_500": true,
-      "company": "Xcel Energy",
-      "title": "Control Room Operator B Apprentice - Lubbock, TX",
-      "location": "Lubbock, Texas, 79404, United States of America",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Union Control Room Operator B Apprentice - Lubbock, TX Back to Search Job Details Career area Union Position Type Date Posted Loading... Location Lubbock, TX 79404, United States of America Job ID JR112663 Share Facebook X LinkedIn Email Apply Lubbock, Texas, 79404, United…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://jobs.xcelenergy.com/control-room-operator-b-apprentice-lubbock-tx/job/CAEAFD1C5351ED2AD968D1B99C3FF791",
-      "external_id": null,
-      "verified_at": "2026-08-05T12:19:56Z",
-      "match_score": 85
-    },
-    {
       "id": "valero-energy-ac21abc6c4fd",
       "source_key": "valero-energy",
       "fortune_rank": 40,
@@ -10277,7 +10221,7 @@
       "deadline": null,
       "url": "https://careersblog.textron.com/intern-to-student-ambassador-after-your-textron-internship/",
       "external_id": null,
-      "verified_at": "2026-08-05T12:19:24Z",
+      "verified_at": "2026-08-06T19:10:11Z",
       "match_score": 85
     },
     {
@@ -10424,7 +10368,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-08-06T14:39:19Z",
+      "verified_at": "2026-08-06T19:09:43Z",
       "match_score": 85
     },
     {
@@ -10484,7 +10428,7 @@
       "deadline": null,
       "url": "https://careers.massmutual.com/job/boston/actuarial-intern-summer-2027/724/98808954544",
       "external_id": null,
-      "verified_at": "2026-08-06T14:39:18Z",
+      "verified_at": "2026-08-06T19:09:43Z",
       "match_score": 85
     },
     {
@@ -10543,7 +10487,7 @@
       "deadline": null,
       "url": "https://careers.jabil.com/students-internship-apprenticeship-programs.html",
       "external_id": null,
-      "verified_at": "2026-08-05T12:21:47Z",
+      "verified_at": "2026-08-06T19:10:51Z",
       "match_score": 85
     },
     {
@@ -10573,7 +10517,7 @@
       "deadline": null,
       "url": "https://careers.jabil.com/students-internship-apprenticeship-programs.html?utm_source=main_menu&utm_medium=referral&utm_campaign=jabil_com_referrals&_gl=1*76lc07*_gcl_aw*R0NMLjE3NTM5NzU5MzAuRUFJYUlRb2JDaE1JNTl2czM3RG1qZ01WN1ItdEJoMjJqZ0Q0RUFBWUFTQUFFZ0xrRVBEX0J3RQ..*_gcl_au*MTEwOTcwNDk0OC4xNzU2MjI4NTIy",
       "external_id": null,
-      "verified_at": "2026-08-05T12:21:48Z",
+      "verified_at": "2026-08-06T19:10:51Z",
       "match_score": 85
     },
     {
@@ -10601,7 +10545,7 @@
       "deadline": null,
       "url": "https://careers.jabil.com/student-apprenticeship-program.html",
       "external_id": null,
-      "verified_at": "2026-08-05T12:21:48Z",
+      "verified_at": "2026-08-06T19:10:51Z",
       "match_score": 85
     },
     {
@@ -11134,7 +11078,7 @@
       "deadline": null,
       "url": "https://www.firstenergycorp.com/careers/apprenticeship-program.html",
       "external_id": null,
-      "verified_at": "2026-08-05T12:19:32Z",
+      "verified_at": "2026-08-06T19:10:37Z",
       "match_score": 85
     },
     {
@@ -11411,96 +11355,6 @@
       "url": "https://careers.bcg.com/global/en/internship-opportunities",
       "external_id": null,
       "verified_at": "2026-08-05T16:56:54Z",
-      "match_score": 85
-    },
-    {
-      "id": "borgwarner-58e466fa36a4",
-      "source_key": "borgwarner",
-      "fortune_rank": 316,
-      "fortune_500": true,
-      "company": "BorgWarner",
-      "title": "Professional Internship Information Technology - Client Support (m/f/d)",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product",
-        "Operations",
-        "Credit"
-      ],
-      "summary": "Skip to main content close Search go back to BorgWarner home page Back to list Professional Internship Information Technology - Client Support (m/f/d) Viana do Castelo I - Portugal Aug 05, 2026 Full time R2026-3132 Apply #LI-Hybrid About us BorgWarner is a global product leader…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.borgwarner.com/careers/job-search?id=R2026-3132",
-      "external_id": null,
-      "verified_at": "2026-08-05T12:20:04Z",
-      "match_score": 85
-    },
-    {
-      "id": "borgwarner-608166e36b4f",
-      "source_key": "borgwarner",
-      "fortune_rank": 316,
-      "fortune_500": true,
-      "company": "BorgWarner",
-      "title": "Market Research Intern (Year-Round) – (Corporate - GMR)",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Tableau",
-        "Power BI",
-        "Product",
-        "Credit"
-      ],
-      "summary": "We are a company of innovators and independent thinkers that brings together talented employees, meaningful work, and amazing technology in a unique environment. At BorgWarner we constantly work towards our vision of a clean and energy-efficient world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.borgwarner.com/careers/job-search?id=R2026-3095",
-      "external_id": null,
-      "verified_at": "2026-08-05T12:20:05Z",
-      "match_score": 85
-    },
-    {
-      "id": "borgwarner-1394afeb36bd",
-      "source_key": "borgwarner",
-      "fortune_rank": 316,
-      "fortune_500": true,
-      "company": "BorgWarner",
-      "title": "Human Resources Intern",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Credit",
-        "Accounting"
-      ],
-      "summary": "Skip to main content close Search go back to BorgWarner home page Back to list Human Resources Intern Bellwood - Illinois - USA Aug 04, 2026 Part time R2026-3152 Apply Looking for a HR Intern for the fall semester 2026. Bellwood HR Intern Job Description The HR Intern provides…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.borgwarner.com/careers/job-search?id=R2026-3152",
-      "external_id": null,
-      "verified_at": "2026-08-05T12:20:06Z",
       "match_score": 85
     },
     {
