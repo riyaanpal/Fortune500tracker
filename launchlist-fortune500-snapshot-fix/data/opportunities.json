@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-06T19:13:16Z",
+  "updated_at": "2026-08-07T00:49:17Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,23 +12,23 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-08-06T19:09:36Z",
+  "directory_refreshed_at": "2026-08-07T00:44:43Z",
   "companies_scanned_this_run": 50,
-  "companies_scanned_last_24h": 394,
+  "companies_scanned_last_24h": 308,
   "companies_failed_last_24h": 7,
   "failed_or_blocked_companies_last_24h": [
     {
-      "key": "accendra-health",
-      "rank": 407,
-      "company": "Accendra Health",
+      "key": "bank-of-america",
+      "rank": 20,
+      "company": "Bank of America",
       "fortune_500": true,
-      "checked_at": "2026-08-05T22:32:27Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
+      "checked_at": "2026-08-07T00:49:17Z",
+      "status": "error",
+      "issue_type": "Scan error",
       "eligible_jobs": 0,
       "adapter": "discovery",
-      "careers_url": null,
-      "error": null
+      "careers_url": "https://careers.bankofamerica.com/en-us/students/job-search?ref=search&search=getAllJobs&start=0&rows=10",
+      "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
     },
     {
       "key": "coterra-energy",
@@ -109,9 +109,9 @@
       "error": null
     }
   ],
-  "companies_with_eligible_jobs": 80,
+  "companies_with_eligible_jobs": 79,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 407,
+  "opportunity_count": 406,
   "opportunities": [
     {
       "id": "merck-82b9926060c0",
@@ -1481,31 +1481,6 @@
       "match_score": 85
     },
     {
-      "id": "carmax-dcf2a00e5af2",
-      "source_key": "carmax",
-      "fortune_rank": 162,
-      "fortune_500": true,
-      "company": "CarMax",
-      "title": "Automotive Technician Apprentice",
-      "location": "MD - Baltimore Area - White Marsh",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "7121 - White Marsh - 10201 Philadelphia Rd, White Marsh, Maryland, 21162 CarMax, the way your career should be! Position Overview As an Automotive Tech-Apprentice, you’ll kickstart your career in automotive repair while working in a state-of-the-art, climate-controlled facility",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-04",
-      "deadline": null,
-      "url": "https://carmax.wd1.myworkdayjobs.com/External/job/MD---Baltimore-Area---White-Marsh/Automotive-Technician-Apprentice_JR-183085",
-      "external_id": "JR-183085",
-      "verified_at": "2026-08-05T14:36:45Z",
-      "match_score": 85
-    },
-    {
       "id": "biogen-85cd4f132e03",
       "source_key": "biogen",
       "fortune_rank": 421,
@@ -2154,6 +2129,37 @@
       "match_score": 90
     },
     {
+      "id": "unum-group-8b89bddf4091",
+      "source_key": "unum-group",
+      "fortune_rank": 338,
+      "fortune_500": true,
+      "company": "Unum Group",
+      "title": "Finance Apprentice",
+      "location": "Dorking, Surrey, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "FP&A",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "FP&A",
+        "Accounting"
+      ],
+      "summary": "Job Posting End Date: August 15 Who are we? We’re a specialist employee benefits provider, striving to create healthy, happy workplaces. As part of the international Unum Group, we’re on a collective mission to help the working world thrive",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-31",
+      "deadline": "2026-08-16",
+      "url": "https://unum.wd1.myworkdayjobs.com/External/job/Dorking-Surrey-UK/Finance-Apprentice_835932",
+      "external_id": "835932",
+      "verified_at": "2026-08-07T00:45:54Z",
+      "match_score": 85
+    },
+    {
       "id": "united-rentals-71fe1b75d0be",
       "source_key": "united-rentals",
       "fortune_rank": 279,
@@ -2720,37 +2726,6 @@
       "url": "https://ameren.wd1.myworkdayjobs.com/External/job/Jerseyville-IL/Gas-Utilityman-Jryman-or-Gas-Utilityman-Apprentice_033790",
       "external_id": "033790",
       "verified_at": "2026-08-05T18:57:41Z",
-      "match_score": 85
-    },
-    {
-      "id": "unum-group-8b89bddf4091",
-      "source_key": "unum-group",
-      "fortune_rank": 338,
-      "fortune_500": true,
-      "company": "Unum Group",
-      "title": "Finance Apprentice",
-      "location": "Dorking, Surrey, UK",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "FP&A",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "FP&A",
-        "Accounting"
-      ],
-      "summary": "Job Posting End Date: August 15 Who are we? We’re a specialist employee benefits provider, striving to create healthy, happy workplaces. As part of the international Unum Group, we’re on a collective mission to help the working world thrive",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-30",
-      "deadline": "2026-08-16",
-      "url": "https://unum.wd1.myworkdayjobs.com/External/job/Dorking-Surrey-UK/Finance-Apprentice_835932",
-      "external_id": "835932",
-      "verified_at": "2026-08-05T14:37:25Z",
       "match_score": 85
     },
     {
@@ -4496,6 +4471,34 @@
       "match_score": 85
     },
     {
+      "id": "j-m-smucker-a75c9b9f551c",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Operations Engineering Intern, Fall 2026 - Orrville, OH",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Software engineering",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in O perations , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and manage projects,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-24",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Engineering-Intern--Fall-2026---Orrville--OH_114566",
+      "external_id": "114566",
+      "verified_at": "2026-08-07T00:45:05Z",
+      "match_score": 85
+    },
+    {
       "id": "dxc-technology-8e20e83265d7",
       "source_key": "dxc-technology",
       "fortune_rank": 343,
@@ -4658,34 +4661,6 @@
       "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Apprentice-Journeyman--Foreman-Billy-Pratt_JR101169",
       "external_id": "JR101169",
       "verified_at": "2026-08-05T20:42:44Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-a75c9b9f551c",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Operations Engineering Intern, Fall 2026 - Orrville, OH",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Software engineering",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in O perations , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and manage projects,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-23",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Engineering-Intern--Fall-2026---Orrville--OH_114566",
-      "external_id": "114566",
-      "verified_at": "2026-08-06T19:09:57Z",
       "match_score": 85
     },
     {
@@ -5816,6 +5791,31 @@
       "match_score": 85
     },
     {
+      "id": "citigroup-209bf5bfd773",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Estágio Exclusivo PCD | Markets, Internship, São Paulo – Brazil, 2026",
+      "location": "Sao Paulo Sao Paulo Brazil",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "O Citi é o banco mais globalizado do mundo, com mais de 200 anos de atuação. Mantém presença em 95 países, 21 deles na América Latina, possui 200 milhões de contas de clientes e emprega mais de 200 mil pessoas. Disponibiliza para pessoas, corporações, governos e instituições…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-16",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Sao-Paulo-Sao-Paulo-Brazil/Estgio-Exclusivo-PCD---Markets--Internship--So-Paulo---Brazil--2026_26977986",
+      "external_id": "26977986",
+      "verified_at": "2026-08-07T00:46:55Z",
+      "match_score": 85
+    },
+    {
       "id": "motorola-solutions-f7fa0d02601e",
       "source_key": "motorola-solutions",
       "fortune_rank": 378,
@@ -5875,31 +5875,6 @@
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/NLD---North-Brabant---Boxmeer/Intern---Data-Science---BioStatistics--Manufacturing_R390572-1",
       "external_id": "R390572",
       "verified_at": "2026-08-06T03:43:55Z",
-      "match_score": 85
-    },
-    {
-      "id": "citigroup-209bf5bfd773",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Estágio Exclusivo PCD | Markets, Internship, São Paulo – Brazil, 2026",
-      "location": "Sao Paulo Sao Paulo Brazil",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "O Citi é o banco mais globalizado do mundo, com mais de 200 anos de atuação. Mantém presença em 95 países, 21 deles na América Latina, possui 200 milhões de contas de clientes e emprega mais de 200 mil pessoas. Disponibiliza para pessoas, corporações, governos e instituições…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-15",
-      "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Sao-Paulo-Sao-Paulo-Brazil/Estgio-Exclusivo-PCD---Markets--Internship--So-Paulo---Brazil--2026_26977986",
-      "external_id": "26977986",
-      "verified_at": "2026-08-05T16:56:50Z",
       "match_score": 85
     },
     {
@@ -6014,6 +5989,38 @@
       "match_score": 85
     },
     {
+      "id": "citigroup-19be3b3dbc89",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Junior Market Operations Analyst Program Fall Cohort",
+      "location": "Getzville New York United States",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Product",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Team/ Role Overview Join Citi’s Markets Operations team and start your professional journey at the heart of global financial markets. This is your opportunity to step directly into a critical role where you’ll gain hands on experience supporting the processes that keep Citi’s…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-14",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Getzville-New-York-United-States/Junior-Market-Operations-Analyst-Program-Fall-Cohort_26978963",
+      "external_id": "26978963",
+      "verified_at": "2026-08-07T00:47:05Z",
+      "match_score": 85
+    },
+    {
       "id": "biogen-26214d3522a5",
       "source_key": "biogen",
       "fortune_rank": 421,
@@ -6121,38 +6128,6 @@
       "url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Westlake-LA-USA/Intern-Diesel-Mechanic--Paid-_96305",
       "external_id": "96305",
       "verified_at": "2026-08-06T14:39:56Z",
-      "match_score": 85
-    },
-    {
-      "id": "citigroup-19be3b3dbc89",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Junior Market Operations Analyst Program Fall Cohort",
-      "location": "Getzville New York United States",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Product",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Team/ Role Overview Join Citi’s Markets Operations team and start your professional journey at the heart of global financial markets. This is your opportunity to step directly into a critical role where you’ll gain hands on experience supporting the processes that keep Citi’s…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-13",
-      "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Getzville-New-York-United-States/Junior-Market-Operations-Analyst-Program-Fall-Cohort_26978963",
-      "external_id": "26978963",
-      "verified_at": "2026-08-05T16:56:58Z",
       "match_score": 85
     },
     {
@@ -7108,7 +7083,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-08-06T19:10:39Z",
+      "verified_at": "2026-08-07T00:45:27Z",
       "match_score": 85
     },
     {
@@ -8410,7 +8385,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Summer-2027-Intern-Interest-Application_115178",
       "external_id": "115178",
-      "verified_at": "2026-08-06T19:09:57Z",
+      "verified_at": "2026-08-07T00:45:05Z",
       "match_score": 85
     },
     {
@@ -8439,7 +8414,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Quality-Assurance-Intern--Fall-2026---Orrville--OH_115378",
       "external_id": "115378",
-      "verified_at": "2026-08-06T19:09:57Z",
+      "verified_at": "2026-08-07T00:45:06Z",
       "match_score": 85
     },
     {
@@ -8470,7 +8445,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Fall-2026_115124",
       "external_id": "115124",
-      "verified_at": "2026-08-06T19:09:58Z",
+      "verified_at": "2026-08-07T00:45:06Z",
       "match_score": 85
     },
     {
@@ -8498,7 +8473,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_114837",
       "external_id": "114837",
-      "verified_at": "2026-08-06T19:09:57Z",
+      "verified_at": "2026-08-07T00:45:05Z",
       "match_score": 85
     },
     {
@@ -8527,7 +8502,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Management-Intern--Spring-2027---Orrville--OH_114833",
       "external_id": "114833",
-      "verified_at": "2026-08-06T19:09:57Z",
+      "verified_at": "2026-08-07T00:45:05Z",
       "match_score": 85
     },
     {
@@ -8556,7 +8531,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Management-Intern--Fall-2026---Orrville--OH_115347",
       "external_id": "115347",
-      "verified_at": "2026-08-06T19:09:57Z",
+      "verified_at": "2026-08-07T00:45:05Z",
       "match_score": 85
     },
     {
@@ -8589,7 +8564,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-08-06T19:09:57Z",
+      "verified_at": "2026-08-07T00:45:05Z",
       "match_score": 85
     },
     {
@@ -8921,7 +8896,7 @@
       "deadline": null,
       "url": "https://henryschein.wd1.myworkdayjobs.com/External_Careers/job/West-Allis---Wisconsin/Field-Sales-Internship-Opportunities_R122614-1",
       "external_id": "R122614",
-      "verified_at": "2026-08-05T14:37:18Z",
+      "verified_at": "2026-08-07T00:45:41Z",
       "match_score": 85
     },
     {
@@ -9396,7 +9371,7 @@
       "deadline": null,
       "url": "https://comfortsystemsusa.wd1.myworkdayjobs.com/Corpcareers/job/Houston-TX-Corp-HQ/Summer-Intern_JR106444",
       "external_id": "JR106444",
-      "verified_at": "2026-08-05T16:56:19Z",
+      "verified_at": "2026-08-07T00:46:04Z",
       "match_score": 85
     },
     {
@@ -9429,7 +9404,7 @@
       "deadline": null,
       "url": "https://comfortsystemsusa.wd1.myworkdayjobs.com/Corpcareers/job/Houston-TX-TAS-Cullen-HQ/Operational-Finance-Intern_JR105392-1",
       "external_id": "JR105392",
-      "verified_at": "2026-08-05T16:56:18Z",
+      "verified_at": "2026-08-07T00:46:05Z",
       "match_score": 85
     },
     {
@@ -9454,7 +9429,7 @@
       "deadline": null,
       "url": "https://comfortsystemsusa.wd1.myworkdayjobs.com/Corpcareers/job/Arden-NC-CSUSA-SHO/Apprentice-Plumber_JR101916-1",
       "external_id": "JR101916",
-      "verified_at": "2026-08-05T16:56:25Z",
+      "verified_at": "2026-08-07T00:46:14Z",
       "match_score": 85
     },
     {
@@ -9485,7 +9460,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/KYIV-Ukraine/Ukraine-Internship-Program---2026_25929484",
       "external_id": "25929484",
-      "verified_at": "2026-08-05T16:56:48Z",
+      "verified_at": "2026-08-07T00:46:54Z",
       "match_score": 85
     },
     {
@@ -9512,7 +9487,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Mumbai-Maharashtra-India/Citi-India-Apprenticeship-Program_25854531",
       "external_id": "25854531",
-      "verified_at": "2026-08-05T16:57:00Z",
+      "verified_at": "2026-08-07T00:47:07Z",
       "match_score": 85
     },
     {
@@ -9545,7 +9520,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Corporate-Banking--Placement-Analyst-Internship--Paris--France-2026_25908794",
       "external_id": "25908794",
-      "verified_at": "2026-08-05T16:56:50Z",
+      "verified_at": "2026-08-07T00:46:55Z",
       "match_score": 85
     },
     {
@@ -9574,7 +9549,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Dubai-United-Arab-Emirates/XMLNAME-2025-Wealth-Management-Summer-Internship--Dubai--UAE--UAE-Nationals-preferred-_25820546",
       "external_id": "25820546",
-      "verified_at": "2026-08-05T16:56:50Z",
+      "verified_at": "2026-08-07T00:46:55Z",
       "match_score": 90
     },
     {
@@ -9601,7 +9576,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Bogota--Colombia/XMLNAME-2025-Markets-Internship-Colombia_25836348",
       "external_id": "25836348",
-      "verified_at": "2026-08-05T16:56:45Z",
+      "verified_at": "2026-08-07T00:46:52Z",
       "match_score": 85
     },
     {
@@ -10278,7 +10253,7 @@
       "deadline": null,
       "url": "https://www.pwc.com/us/en/careers/entry-level/internships.html",
       "external_id": null,
-      "verified_at": "2026-08-05T16:55:53Z",
+      "verified_at": "2026-08-07T00:46:18Z",
       "match_score": 85
     },
     {
@@ -10368,7 +10343,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-08-06T19:09:43Z",
+      "verified_at": "2026-08-07T00:44:49Z",
       "match_score": 85
     },
     {
@@ -10428,7 +10403,7 @@
       "deadline": null,
       "url": "https://careers.massmutual.com/job/boston/actuarial-intern-summer-2027/724/98808954544",
       "external_id": null,
-      "verified_at": "2026-08-06T19:09:43Z",
+      "verified_at": "2026-08-07T00:44:48Z",
       "match_score": 85
     },
     {
@@ -11168,6 +11143,38 @@
       "match_score": 85
     },
     {
+      "id": "ey-cb2374ea285d",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - Assurance, Audit (NTU NBS AFL-WSDeg 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy",
+        "Operations",
+        "Risk",
+        "Accounting"
+      ],
+      "summary": "Show More Intern - Assurance, Audit (NTU NBS AFL-WSDeg 2027) 1733381 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you want it to go",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/UDDZB3pShzdYZggtV23QRQ?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-08-07T00:46:21Z",
+      "match_score": 85
+    },
+    {
       "id": "ey-93e9a6ed2224",
       "source_key": "ey",
       "fortune_rank": null,
@@ -11197,37 +11204,7 @@
       "deadline": null,
       "url": "https://eyglobal.yello.co/jobs/32luuPVsBg6Sd3j032CtAw?job_board_id=c1riT--B2O-KySgYWsZO1Q",
       "external_id": null,
-      "verified_at": "2026-08-05T16:56:00Z",
-      "match_score": 85
-    },
-    {
-      "id": "ey-0af39f51f961",
-      "source_key": "ey",
-      "fortune_rank": null,
-      "fortune_500": false,
-      "company": "EY",
-      "title": "Assurance Internship - Technology Risk",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Finance",
-        "Risk",
-        "Accounting"
-      ],
-      "summary": "Show More Assurance Internship - Technology Risk 1723732 MYS-Kuala Lumpur apply _________ What if we didn’t focus on who you are now, but who you could become? Here at EY, you’ll have the chance to build a truly exceptional experience",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://eyglobal.yello.co/jobs/Qsc94dANmsafgngDpKAWTg?job_board_id=c1riT--B2O-KySgYWsZO1Q",
-      "external_id": null,
-      "verified_at": "2026-08-05T16:56:01Z",
+      "verified_at": "2026-08-07T00:46:22Z",
       "match_score": 85
     },
     {
@@ -11321,7 +11298,7 @@
       "deadline": null,
       "url": "https://www.csx.com/index.cfm/working-at-csx/job-overviews/internship-programs/",
       "external_id": null,
-      "verified_at": "2026-08-05T14:36:43Z",
+      "verified_at": "2026-08-07T00:45:13Z",
       "match_score": 85
     },
     {
@@ -11354,7 +11331,7 @@
       "deadline": null,
       "url": "https://careers.bcg.com/global/en/internship-opportunities",
       "external_id": null,
-      "verified_at": "2026-08-05T16:56:54Z",
+      "verified_at": "2026-08-07T00:47:08Z",
       "match_score": 85
     },
     {
