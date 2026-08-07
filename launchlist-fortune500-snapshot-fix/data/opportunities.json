@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T00:49:17Z",
+  "updated_at": "2026-08-07T04:08:02Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,11 +12,24 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-08-07T00:44:43Z",
+  "directory_refreshed_at": "2026-08-07T04:04:10Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 308,
-  "companies_failed_last_24h": 7,
+  "companies_failed_last_24h": 8,
   "failed_or_blocked_companies_last_24h": [
+    {
+      "key": "alcoa",
+      "rank": 344,
+      "company": "Alcoa",
+      "fortune_500": true,
+      "checked_at": "2026-08-07T04:08:02Z",
+      "status": "error",
+      "issue_type": "Scan error",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs: 404 Client Error: Not Found for url: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs"
+    },
     {
       "key": "bank-of-america",
       "rank": 20,
@@ -109,10 +122,71 @@
       "error": null
     }
   ],
-  "companies_with_eligible_jobs": 79,
+  "companies_with_eligible_jobs": 77,
   "estimated_full_cycle_hours": 10.2,
   "opportunity_count": 406,
   "opportunities": [
+    {
+      "id": "crown-holdings-686a2ce6365d",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Plant Engineering Intern",
+      "location": "Toluca",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Software engineering",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations"
+      ],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-07",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Toluca/Plant-Engineering-Intern_JR103805",
+      "external_id": "JR103805",
+      "verified_at": "2026-08-07T04:05:28Z",
+      "match_score": 85
+    },
+    {
+      "id": "cigna-group-975ab43bb2de",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "Risk & Underwriting Summer Internship Program",
+      "location": "Bloomfield, CT",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy",
+        "Finance",
+        "Credit",
+        "Risk"
+      ],
+      "summary": "Candidates must have participated in and completed a Cigna Group internship prior to applying for this position. Accelerate your learning in underwriting this summer by contributing to work that informs real risk and pricing decisions",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-07",
+      "deadline": "2026-08-11",
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Risk---Underwriting-Summer-Internship-Program_26008897",
+      "external_id": "26008897",
+      "verified_at": "2026-08-07T04:06:04Z",
+      "match_score": 85
+    },
     {
       "id": "merck-82b9926060c0",
       "source_key": "merck",
@@ -243,6 +317,89 @@
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Stafford/Verification-and-Validation-Intern_R5037152-2",
       "external_id": "R5037152",
       "verified_at": "2026-08-06T12:22:42Z",
+      "match_score": 85
+    },
+    {
+      "id": "cigna-group-70c08bf2fc27",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "Actuarial Internship - Summer 2027",
+      "location": "Bloomfield, CT",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "FP&A",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Excel",
+        "AI / ML",
+        "Finance"
+      ],
+      "summary": "Spend your summer learning the skills to grow as a modern actuary and leader. The Cigna Group’s Actuarial Executive Development Program (AEDP) offers a premier 11-week internship that prepares future actuaries to apply data with sound judgment, connect analysis directly to real…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-06",
+      "deadline": null,
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Actuarial-Internship---Summer-2027_26006087",
+      "external_id": "26006087",
+      "verified_at": "2026-08-07T04:06:02Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-744210ecb41b",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "GIS Co-op (Real Estate)",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-06",
+      "deadline": "2026-12-24",
+      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/GIS-Co-op--Real-Estate-_033670",
+      "external_id": "033670",
+      "verified_at": "2026-08-07T04:05:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-744210ecb41b",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "GIS Co-op (Real Estate)",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-06",
+      "deadline": "2026-12-24",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/GIS-Co-op--Real-Estate-_033670-1",
+      "external_id": "033670",
+      "verified_at": "2026-08-07T04:05:43Z",
       "match_score": 85
     },
     {
@@ -717,39 +874,6 @@
       "match_score": 85
     },
     {
-      "id": "cigna-group-70c08bf2fc27",
-      "source_key": "cigna-group",
-      "fortune_rank": 14,
-      "fortune_500": true,
-      "company": "Cigna Group",
-      "title": "Actuarial Internship - Summer 2027",
-      "location": "Bloomfield, CT",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "FP&A",
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Excel",
-        "AI / ML",
-        "Finance"
-      ],
-      "summary": "Spend your summer learning the skills to grow as a modern actuary and leader. The Cigna Group’s Actuarial Executive Development Program (AEDP) offers a premier 11-week internship that prepares future actuaries to apply data with sound judgment, connect analysis directly to real…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-05",
-      "deadline": null,
-      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Actuarial-Internship---Summer-2027_26006087",
-      "external_id": "26006087",
-      "verified_at": "2026-08-05T18:58:10Z",
-      "match_score": 85
-    },
-    {
       "id": "carrier-global-cf9c36fcc0fb",
       "source_key": "carrier-global",
       "fortune_rank": 212,
@@ -808,56 +932,6 @@
       "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Fall-Intern--Financial-Analyst---January-2027--4-Month-_R247476",
       "external_id": "R247476",
       "verified_at": "2026-08-05T20:42:08Z",
-      "match_score": 85
-    },
-    {
-      "id": "ameren-744210ecb41b",
-      "source_key": "ameren",
-      "fortune_rank": 466,
-      "fortune_500": true,
-      "company": "Ameren",
-      "title": "GIS Co-op (Real Estate)",
-      "location": "St. Louis, MO",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-05",
-      "deadline": "2026-12-24",
-      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/GIS-Co-op--Real-Estate-_033670",
-      "external_id": "033670",
-      "verified_at": "2026-08-05T18:57:28Z",
-      "match_score": 85
-    },
-    {
-      "id": "ameren-744210ecb41b",
-      "source_key": "ameren",
-      "fortune_rank": 466,
-      "fortune_500": true,
-      "company": "Ameren",
-      "title": "GIS Co-op (Real Estate)",
-      "location": "St. Louis, MO",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-05",
-      "deadline": "2026-12-24",
-      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/GIS-Co-op--Real-Estate-_033670-1",
-      "external_id": "033670",
-      "verified_at": "2026-08-05T18:57:38Z",
       "match_score": 85
     },
     {
@@ -1451,33 +1525,6 @@
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Queretaro/Intern---Turbomachinery-Mechanical-Design-Engineer_R5037471",
       "external_id": "R5037471",
       "verified_at": "2026-08-06T19:11:44Z",
-      "match_score": 85
-    },
-    {
-      "id": "centene-e0e17dd0e100",
-      "source_key": "centene",
-      "fortune_rank": 19,
-      "fortune_500": true,
-      "company": "Centene",
-      "title": "Clinical Extern",
-      "location": "Remote-CA",
-      "region": "Global",
-      "opportunity_type": "Pre-internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Credit"
-      ],
-      "summary": "You could be the one who changes everything for our 28 million members as an Intern at Centene. During this 12-week program, you'll learn more about Centene and how we're transforming the health of the community, one person at a time",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-04",
-      "deadline": "2026-08-06",
-      "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-CA/Clinical-Extern_1641032",
-      "external_id": "1641032",
-      "verified_at": "2026-08-05T18:58:24Z",
       "match_score": 85
     },
     {
@@ -2129,6 +2176,33 @@
       "match_score": 90
     },
     {
+      "id": "ameren-b6007c102c84",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "Gas Utilityman Jryman or Gas Utilityman Apprentice",
+      "location": "Jerseyville, IL",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "About Ameren Illinois Ameren Illinois provides electric transmission and distribution service and natural gas distribution service. Every day, we deliver electricity to 1.2 million electric and 816,000 natural gas customers in central and southern Illinois",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-01",
+      "deadline": "2026-08-07",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/Jerseyville-IL/Gas-Utilityman-Jryman-or-Gas-Utilityman-Apprentice_033790",
+      "external_id": "033790",
+      "verified_at": "2026-08-07T04:05:48Z",
+      "match_score": 85
+    },
+    {
       "id": "unum-group-8b89bddf4091",
       "source_key": "unum-group",
       "fortune_rank": 338,
@@ -2702,33 +2776,6 @@
       "match_score": 85
     },
     {
-      "id": "ameren-b6007c102c84",
-      "source_key": "ameren",
-      "fortune_rank": 466,
-      "fortune_500": true,
-      "company": "Ameren",
-      "title": "Gas Utilityman Jryman or Gas Utilityman Apprentice",
-      "location": "Jerseyville, IL",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "About Ameren Illinois Ameren Illinois provides electric transmission and distribution service and natural gas distribution service. Every day, we deliver electricity to 1.2 million electric and 816,000 natural gas customers in central and southern Illinois",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-31",
-      "deadline": "2026-08-07",
-      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/Jerseyville-IL/Gas-Utilityman-Jryman-or-Gas-Utilityman-Apprentice_033790",
-      "external_id": "033790",
-      "verified_at": "2026-08-05T18:57:41Z",
-      "match_score": 85
-    },
-    {
       "id": "rockwell-automation-ccd1b4a3d39f",
       "source_key": "rockwell-automation",
       "fortune_rank": 467,
@@ -3191,6 +3238,34 @@
       "match_score": 85
     },
     {
+      "id": "assurant-998d34eee16a",
+      "source_key": "assurant",
+      "fortune_rank": 345,
+      "fortune_500": true,
+      "company": "Assurant",
+      "title": "Intern",
+      "location": "Barueri, Sao Paulo",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML"
+      ],
+      "summary": "Sobre a Empresa A Assurant é uma empresa global líder em serviços empresariais, dedicada a apoiar, proteger e conectar importantes aquisições dos consumidores. Integrante da lista Fortune 500 e presente em 21 países, a Assurant contribui para o avanço de um mundo cada vez mais…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-30",
+      "deadline": "2026-08-31",
+      "url": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Barueri-Sao-Paulo/Intern_R-114525-2",
+      "external_id": "R-114525",
+      "verified_at": "2026-08-07T04:04:58Z",
+      "match_score": 85
+    },
+    {
       "id": "abbott-laboratories-a544f799664f",
       "source_key": "abbott-laboratories",
       "fortune_rank": 107,
@@ -3576,34 +3651,6 @@
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Parsippany/Continuous-Improvement--Manufacturing-Engineering--Co-Op---Fall-Winter-2026_R5048322-2",
       "external_id": "R5048322",
       "verified_at": "2026-08-06T12:22:53Z",
-      "match_score": 85
-    },
-    {
-      "id": "assurant-998d34eee16a",
-      "source_key": "assurant",
-      "fortune_rank": 345,
-      "fortune_500": true,
-      "company": "Assurant",
-      "title": "Intern",
-      "location": "Barueri, Sao Paulo",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML"
-      ],
-      "summary": "Sobre a Empresa A Assurant é uma empresa global líder em serviços empresariais, dedicada a apoiar, proteger e conectar importantes aquisições dos consumidores. Integrante da lista Fortune 500 e presente em 21 países, a Assurant contribui para o avanço de um mundo cada vez mais…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-29",
-      "deadline": "2026-08-31",
-      "url": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Barueri-Sao-Paulo/Intern_R-114525-2",
-      "external_id": "R-114525",
-      "verified_at": "2026-08-05T16:55:08Z",
       "match_score": 85
     },
     {
@@ -4096,33 +4143,6 @@
       "match_score": 85
     },
     {
-      "id": "nasdaq-b18c33f4cfd3",
-      "source_key": "nasdaq",
-      "fortune_rank": 470,
-      "fortune_500": true,
-      "company": "Nasdaq",
-      "title": "MarketSite Event Concierge Intern",
-      "location": "USA - New York City - New York",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "About Nasdaq Nasdaq is a financial technology company, rewriting the future of global economies and markets by unlocking capital and opportunities through our technology, innovation, and expertise. With industry-shaping insights, unrivaled intel, and cutting-edge financial…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-27",
-      "deadline": null,
-      "url": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site/job/USA---New-York-City---New-York/MarketSite-Event-Concierge-Intern_R0026549",
-      "external_id": "R0026549",
-      "verified_at": "2026-08-05T18:57:47Z",
-      "match_score": 85
-    },
-    {
       "id": "motorola-solutions-4ef35ca90d5b",
       "source_key": "motorola-solutions",
       "fortune_rank": 378,
@@ -4388,6 +4408,63 @@
       "match_score": 85
     },
     {
+      "id": "dxc-technology-8e20e83265d7",
+      "source_key": "dxc-technology",
+      "fortune_rank": 343,
+      "fortune_500": true,
+      "company": "DXC Technology",
+      "title": "Service Desk Agent (Intern)",
+      "location": "SGP - SINGAPORE",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud",
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "Job Description: DXC Technology (NYSE: DXC) is a leading enterprise technology and innovation partner delivering software, services, and solutions to global enterprises and public sector organizations — helping them harness AI to drive outcomes at a time of exponential change…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-25",
+      "deadline": "2026-08-31",
+      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/SGP---SINGAPORE/Service-Desk-Agent--Intern-_51579463",
+      "external_id": "51579463",
+      "verified_at": "2026-08-07T04:05:02Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-07ba73ed1cf4",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Compensation Intern",
+      "location": "Nuevo León",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance"
+      ],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-25",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Compensation-Intern_JR103578",
+      "external_id": "JR103578",
+      "verified_at": "2026-08-07T04:05:28Z",
+      "match_score": 85
+    },
+    {
       "id": "vistra-71a1a21126b3",
       "source_key": "vistra",
       "fortune_rank": 251,
@@ -4495,64 +4572,34 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Engineering-Intern--Fall-2026---Orrville--OH_114566",
       "external_id": "114566",
-      "verified_at": "2026-08-07T00:45:05Z",
+      "verified_at": "2026-08-07T04:04:30Z",
       "match_score": 85
     },
     {
-      "id": "dxc-technology-8e20e83265d7",
-      "source_key": "dxc-technology",
-      "fortune_rank": 343,
-      "fortune_500": true,
-      "company": "DXC Technology",
-      "title": "Service Desk Agent (Intern)",
-      "location": "SGP - SINGAPORE",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Job Description: DXC Technology (NYSE: DXC) is a leading enterprise technology and innovation partner delivering software, services, and solutions to global enterprises and public sector organizations — helping them harness AI to drive outcomes at a time of exponential change…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-24",
-      "deadline": "2026-08-31",
-      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/SGP---SINGAPORE/Service-Desk-Agent--Intern-_51579463",
-      "external_id": "51579463",
-      "verified_at": "2026-08-05T16:55:14Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-07ba73ed1cf4",
+      "id": "crown-holdings-44ce0d0ff719",
       "source_key": "crown-holdings",
       "fortune_rank": 356,
       "fortune_500": true,
       "company": "Crown Holdings",
-      "title": "Compensation Intern",
-      "location": "Nuevo León",
+      "title": "Plant Administration Intern",
+      "location": "Meoqui",
       "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
         "Asset-based lending"
       ],
       "tags": [
-        "Excel",
-        "Finance"
+        "Excel"
       ],
       "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
       "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-07-24",
       "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Compensation-Intern_JR103578",
-      "external_id": "JR103578",
-      "verified_at": "2026-08-05T16:55:41Z",
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Meoqui/Plant-Administration-Intern_JR103557-1",
+      "external_id": "JR103557",
+      "verified_at": "2026-08-07T04:05:28Z",
       "match_score": 85
     },
     {
@@ -4661,33 +4708,6 @@
       "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Apprentice-Journeyman--Foreman-Billy-Pratt_JR101169",
       "external_id": "JR101169",
       "verified_at": "2026-08-05T20:42:44Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-44ce0d0ff719",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Plant Administration Intern",
-      "location": "Meoqui",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-23",
-      "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Meoqui/Plant-Administration-Intern_JR103557-1",
-      "external_id": "JR103557",
-      "verified_at": "2026-08-05T16:55:41Z",
       "match_score": 85
     },
     {
@@ -5490,6 +5510,31 @@
       "match_score": 85
     },
     {
+      "id": "crown-holdings-6ff4d8197447",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Tax Expenses Intern",
+      "location": "Nuevo León",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-21",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Tax-Expenses-Intern_JR103462-1",
+      "external_id": "JR103462",
+      "verified_at": "2026-08-07T04:05:28Z",
+      "match_score": 85
+    },
+    {
       "id": "abbott-laboratories-883906e40078",
       "source_key": "abbott-laboratories",
       "fortune_rank": 107,
@@ -5543,31 +5588,6 @@
       "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Beltsville-MD/Field-Service-Technician--Beltsville--MD--2026-Co-Op-Program_R63265",
       "external_id": "R63265",
       "verified_at": "2026-08-05T18:57:33Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-6ff4d8197447",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Tax Expenses Intern",
-      "location": "Nuevo León",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-20",
-      "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Tax-Expenses-Intern_JR103462-1",
-      "external_id": "JR103462",
-      "verified_at": "2026-08-05T16:55:45Z",
       "match_score": 85
     },
     {
@@ -7083,7 +7103,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-08-07T00:45:27Z",
+      "verified_at": "2026-08-07T04:05:10Z",
       "match_score": 85
     },
     {
@@ -7141,7 +7161,7 @@
       "deadline": null,
       "url": "https://ryder.wd5.myworkdayjobs.com/RyderCareers/job/CAN---London-ON-N6N-1E1/Technician-Apprentice_R176106",
       "external_id": "R176106",
-      "verified_at": "2026-08-05T16:56:07Z",
+      "verified_at": "2026-08-07T04:06:02Z",
       "match_score": 85
     },
     {
@@ -7784,7 +7804,7 @@
       "deadline": null,
       "url": "https://oxy.wd5.myworkdayjobs.com/Corporate/job/Squamish/Process-Systems-Engineering--Automation---Data-Integration---Co-op_JR108371",
       "external_id": "JR108371",
-      "verified_at": "2026-08-05T16:55:05Z",
+      "verified_at": "2026-08-07T04:04:41Z",
       "match_score": 85
     },
     {
@@ -8385,7 +8405,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Summer-2027-Intern-Interest-Application_115178",
       "external_id": "115178",
-      "verified_at": "2026-08-07T00:45:05Z",
+      "verified_at": "2026-08-07T04:04:30Z",
       "match_score": 85
     },
     {
@@ -8414,7 +8434,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Quality-Assurance-Intern--Fall-2026---Orrville--OH_115378",
       "external_id": "115378",
-      "verified_at": "2026-08-07T00:45:06Z",
+      "verified_at": "2026-08-07T04:04:30Z",
       "match_score": 85
     },
     {
@@ -8445,7 +8465,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Fall-2026_115124",
       "external_id": "115124",
-      "verified_at": "2026-08-07T00:45:06Z",
+      "verified_at": "2026-08-07T04:04:30Z",
       "match_score": 85
     },
     {
@@ -8473,7 +8493,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_114837",
       "external_id": "114837",
-      "verified_at": "2026-08-07T00:45:05Z",
+      "verified_at": "2026-08-07T04:04:30Z",
       "match_score": 85
     },
     {
@@ -8502,7 +8522,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Management-Intern--Spring-2027---Orrville--OH_114833",
       "external_id": "114833",
-      "verified_at": "2026-08-07T00:45:05Z",
+      "verified_at": "2026-08-07T04:04:30Z",
       "match_score": 85
     },
     {
@@ -8531,7 +8551,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Management-Intern--Fall-2026---Orrville--OH_115347",
       "external_id": "115347",
-      "verified_at": "2026-08-07T00:45:05Z",
+      "verified_at": "2026-08-07T04:04:30Z",
       "match_score": 85
     },
     {
@@ -8564,7 +8584,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-08-07T00:45:05Z",
+      "verified_at": "2026-08-07T04:04:30Z",
       "match_score": 85
     },
     {
@@ -9238,7 +9258,7 @@
       "deadline": null,
       "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/IT-Intern_51580573",
       "external_id": "51580573",
-      "verified_at": "2026-08-05T16:55:13Z",
+      "verified_at": "2026-08-07T04:05:02Z",
       "match_score": 85
     },
     {
@@ -9265,7 +9285,7 @@
       "deadline": null,
       "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Talent-Intern_JR103258-1",
       "external_id": "JR103258",
-      "verified_at": "2026-08-05T16:55:41Z",
+      "verified_at": "2026-08-07T04:05:28Z",
       "match_score": 85
     },
     {
@@ -9290,7 +9310,7 @@
       "deadline": null,
       "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Production-Line-Operator-Intern_JR101884",
       "external_id": "JR101884",
-      "verified_at": "2026-08-05T16:55:41Z",
+      "verified_at": "2026-08-07T04:05:28Z",
       "match_score": 85
     },
     {
@@ -9317,7 +9337,7 @@
       "deadline": null,
       "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Plant-Administration-Intern_JR102942",
       "external_id": "JR102942",
-      "verified_at": "2026-08-05T16:55:41Z",
+      "verified_at": "2026-08-07T04:05:28Z",
       "match_score": 85
     },
     {
@@ -9342,7 +9362,7 @@
       "deadline": null,
       "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Commercial-Intern_JR102918",
       "external_id": "JR102918",
-      "verified_at": "2026-08-05T16:55:41Z",
+      "verified_at": "2026-08-07T04:05:28Z",
       "match_score": 85
     },
     {
@@ -10343,7 +10363,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-08-07T00:44:49Z",
+      "verified_at": "2026-08-07T04:04:17Z",
       "match_score": 85
     },
     {
@@ -10403,7 +10423,7 @@
       "deadline": null,
       "url": "https://careers.massmutual.com/job/boston/actuarial-intern-summer-2027/724/98808954544",
       "external_id": null,
-      "verified_at": "2026-08-07T00:44:48Z",
+      "verified_at": "2026-08-07T04:04:17Z",
       "match_score": 85
     },
     {
@@ -10609,7 +10629,7 @@
       "deadline": null,
       "url": "https://hii.com/careers/ingalls-apprentice-school",
       "external_id": null,
-      "verified_at": "2026-08-05T16:55:07Z",
+      "verified_at": "2026-08-07T04:05:01Z",
       "match_score": 85
     },
     {
@@ -11550,7 +11570,7 @@
       "deadline": null,
       "url": "https://careers.airbnb.com/internship-programs/",
       "external_id": null,
-      "verified_at": "2026-08-05T16:55:33Z",
+      "verified_at": "2026-08-07T04:05:23Z",
       "match_score": 85
     },
     {
@@ -11578,7 +11598,7 @@
       "deadline": null,
       "url": "https://careers.airbnb.com/connect-engineering-apprenticeship/",
       "external_id": null,
-      "verified_at": "2026-08-05T16:55:32Z",
+      "verified_at": "2026-08-07T04:05:23Z",
       "match_score": 85
     }
   ]
