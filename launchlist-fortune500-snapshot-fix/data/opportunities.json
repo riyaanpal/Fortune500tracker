@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-08T07:22:12Z",
+  "updated_at": "2026-08-08T08:05:16Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,10 +12,10 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-08-08T07:18:04Z",
+  "directory_refreshed_at": "2026-08-08T08:01:27Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 507,
-  "companies_failed_last_24h": 17,
+  "companies_failed_last_24h": 23,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "accendra-health",
@@ -42,6 +42,19 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs: 404 Client Error: Not Found for url: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs"
+    },
+    {
+      "key": "ameren",
+      "rank": 466,
+      "company": "Ameren",
+      "fortune_500": true,
+      "checked_at": "2026-08-08T08:05:16Z",
+      "status": "error",
+      "issue_type": "Scan error",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://ameren.wd1.myworkdayjobs.com/Collegiate",
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "key": "bank-of-america",
@@ -122,6 +135,19 @@
       "error": "Expecting value: line 1 column 1 (char 0)"
     },
     {
+      "key": "elevance-health",
+      "rank": 18,
+      "company": "Elevance Health",
+      "fortune_500": true,
+      "checked_at": "2026-08-08T08:05:16Z",
+      "status": "error",
+      "issue_type": "Scan error",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
       "key": "ferguson-enterprises",
       "rank": 147,
       "company": "Ferguson Enterprises",
@@ -133,6 +159,19 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": null
+    },
+    {
+      "key": "gilead-sciences",
+      "rank": 153,
+      "company": "Gilead Sciences",
+      "fortune_500": true,
+      "checked_at": "2026-08-08T08:05:16Z",
+      "status": "error",
+      "issue_type": "Scan error",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "key": "international-business-machines",
@@ -161,11 +200,37 @@
       "error": "Expecting value: line 1 column 1 (char 0)"
     },
     {
-      "key": "smucker",
-      "rank": 456,
-      "company": "J.M. Smucker",
+      "key": "nasdaq",
+      "rank": 470,
+      "company": "Nasdaq",
       "fortune_500": true,
-      "checked_at": "2026-08-08T07:22:12Z",
+      "checked_at": "2026-08-08T08:05:16Z",
+      "status": "error",
+      "issue_type": "Scan error",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site",
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "key": "northern-trust",
+      "rank": 317,
+      "company": "Northern Trust",
+      "fortune_500": true,
+      "checked_at": "2026-08-08T08:05:16Z",
+      "status": "error",
+      "issue_type": "Scan error",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
+    },
+    {
+      "key": "pbf-energy",
+      "rank": 154,
+      "company": "PBF Energy",
+      "fortune_500": true,
+      "checked_at": "2026-08-08T08:05:16Z",
       "status": "error",
       "issue_type": "Scan error",
       "eligible_jobs": 0,
@@ -191,7 +256,7 @@
       "rank": 35,
       "company": "Somnigroup International",
       "fortune_500": true,
-      "checked_at": "2026-08-08T07:22:12Z",
+      "checked_at": "2026-08-08T08:05:16Z",
       "status": "error",
       "issue_type": "Scan error",
       "eligible_jobs": 0,
@@ -237,11 +302,24 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": null
+    },
+    {
+      "key": "xcel-energy",
+      "rank": 306,
+      "company": "Xcel Energy",
+      "fortune_500": true,
+      "checked_at": "2026-08-08T08:05:16Z",
+      "status": "error",
+      "issue_type": "Scan error",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     }
   ],
   "companies_with_eligible_jobs": 78,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 409,
+  "opportunity_count": 411,
   "opportunities": [
     {
       "id": "ge-vernova-5afb106c7b4e",
@@ -409,7 +487,7 @@
       "deadline": null,
       "url": "https://otis.wd5.myworkdayjobs.com/REC_Ext_Gateway/job/MERKEZ/Intern---Legal_20165519",
       "external_id": "20165519",
-      "verified_at": "2026-08-07T17:12:30Z",
+      "verified_at": "2026-08-08T08:02:47Z",
       "match_score": 85
     },
     {
@@ -604,7 +682,7 @@
       "deadline": "2026-08-11",
       "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Risk---Underwriting-Summer-Internship-Program_26008897",
       "external_id": "26008897",
-      "verified_at": "2026-08-07T18:07:01Z",
+      "verified_at": "2026-08-08T08:03:16Z",
       "match_score": 85
     },
     {
@@ -631,7 +709,34 @@
       "deadline": "2026-08-11",
       "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Long-Island-City---25-01-Jackson-Ave-10936/Clinical-Extern_1640816",
       "external_id": "1640816",
-      "verified_at": "2026-08-07T18:07:09Z",
+      "verified_at": "2026-08-08T08:03:39Z",
+      "match_score": 85
+    },
+    {
+      "id": "centene-a9a2dc1be6bb",
+      "source_key": "centene",
+      "fortune_rank": 19,
+      "fortune_500": true,
+      "company": "Centene",
+      "title": "Clinical Extern",
+      "location": "Remote-GA",
+      "region": "Global",
+      "opportunity_type": "Pre-internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Credit"
+      ],
+      "summary": "You could be the one who changes everything for our 28 million members as an Intern at Centene. During this 12-week program, you'll learn more about Centene and how we're transforming the health of the community, one person at a time",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-07",
+      "deadline": "2026-08-11",
+      "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-GA/Clinical-Extern_1642183",
+      "external_id": "1642183",
+      "verified_at": "2026-08-08T08:03:39Z",
       "match_score": 85
     },
     {
@@ -827,7 +932,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---Project-Coordinator_J2460354",
       "external_id": "J2460354",
-      "verified_at": "2026-08-07T17:11:08Z",
+      "verified_at": "2026-08-08T08:02:09Z",
       "match_score": 85
     },
     {
@@ -1769,7 +1874,7 @@
       "deadline": null,
       "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Actuarial-Internship---Summer-2027_26006087",
       "external_id": "26006087",
-      "verified_at": "2026-08-07T18:07:01Z",
+      "verified_at": "2026-08-08T08:03:16Z",
       "match_score": 85
     },
     {
@@ -1856,7 +1961,8 @@
       "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/GIS-Co-op--Real-Estate-_033670",
       "external_id": "033670",
       "verified_at": "2026-08-07T18:06:04Z",
-      "match_score": 85
+      "match_score": 85,
+      "source_stale": true
     },
     {
       "id": "ameren-744210ecb41b",
@@ -1881,7 +1987,8 @@
       "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/GIS-Co-op--Real-Estate-_033670-1",
       "external_id": "033670",
       "verified_at": "2026-08-07T18:06:19Z",
-      "match_score": 85
+      "match_score": 85,
+      "source_stale": true
     },
     {
       "id": "xcel-energy-5dfd056bf14c",
@@ -1908,7 +2015,8 @@
       "url": "https://xcelenergy.wd1.myworkdayjobs.com/External/job/Lubbock-TX-79404/Control-Room-Operator-B-Apprentice---Lubbock--TX_JR112663-1",
       "external_id": "JR112663",
       "verified_at": "2026-08-07T17:11:50Z",
-      "match_score": 85
+      "match_score": 85,
+      "source_stale": true
     },
     {
       "id": "united-rentals-539b69edf14f",
@@ -2249,7 +2357,7 @@
       "deadline": null,
       "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Greater-Noida-Uttar-Pradesh-India/Apprenticeship---Technical-Support_R-64179",
       "external_id": "R-64179",
-      "verified_at": "2026-08-07T17:11:26Z",
+      "verified_at": "2026-08-08T08:02:17Z",
       "match_score": 85
     },
     {
@@ -2609,7 +2717,7 @@
       "deadline": null,
       "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Mumbai-Maharashtra-India/Apprenticeship---Technical-Support_R-64180",
       "external_id": "R-64180",
-      "verified_at": "2026-08-07T17:11:26Z",
+      "verified_at": "2026-08-08T08:02:17Z",
       "match_score": 85
     },
     {
@@ -3671,7 +3779,7 @@
       "deadline": null,
       "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Hyderabad-Telangana-India/Apprenticeship---Technical-Support_R-64177",
       "external_id": "R-64177",
-      "verified_at": "2026-08-07T17:11:26Z",
+      "verified_at": "2026-08-08T08:02:17Z",
       "match_score": 85
     },
     {
@@ -4043,7 +4151,7 @@
       "deadline": "2026-08-28",
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Grand-Junction-CO/Calibration-Technician-Intern---PartTime_J2458100",
       "external_id": "J2458100",
-      "verified_at": "2026-08-07T17:11:09Z",
+      "verified_at": "2026-08-08T08:02:09Z",
       "match_score": 85
     },
     {
@@ -4626,35 +4734,6 @@
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-a75c9b9f551c",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Operations Engineering Intern, Fall 2026 - Orrville, OH",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Software engineering",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in O perations , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and manage projects,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-24",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Engineering-Intern--Fall-2026---Orrville--OH_114566",
-      "external_id": "114566",
-      "verified_at": "2026-08-08T05:59:34Z",
-      "match_score": 85,
-      "source_stale": true
-    },
-    {
       "id": "dxc-technology-8e20e83265d7",
       "source_key": "dxc-technology",
       "fortune_rank": 343,
@@ -4819,6 +4898,34 @@
       "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Apprentice-Journeyman--Foreman-Billy-Pratt_JR101169",
       "external_id": "JR101169",
       "verified_at": "2026-08-07T19:19:59Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-a75c9b9f551c",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Operations Engineering Intern, Fall 2026 - Orrville, OH",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Software engineering",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in O perations , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and manage projects,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-23",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Engineering-Intern--Fall-2026---Orrville--OH_114566",
+      "external_id": "114566",
+      "verified_at": "2026-08-08T08:01:50Z",
       "match_score": 85
     },
     {
@@ -6863,7 +6970,7 @@
       "deadline": null,
       "url": "https://viatris.wd5.myworkdayjobs.com/External/job/Northern-Cross-Dublin-Ireland/Device-Engineering-Systems-Intern_R5670413",
       "external_id": "R5670413",
-      "verified_at": "2026-08-07T17:12:17Z",
+      "verified_at": "2026-08-08T08:02:53Z",
       "match_score": 85
     },
     {
@@ -7618,7 +7725,7 @@
       "deadline": null,
       "url": "https://otis.wd5.myworkdayjobs.com/REC_Ext_Gateway/job/12F-The-Bay-Hub-17-Kai-Cheung-Road-Kowloon-Bay-Hong-Kong/Internship_20126813",
       "external_id": "20126813",
-      "verified_at": "2026-08-07T17:12:30Z",
+      "verified_at": "2026-08-08T08:02:47Z",
       "match_score": 85
     },
     {
@@ -7643,7 +7750,7 @@
       "deadline": null,
       "url": "https://otis.wd5.myworkdayjobs.com/REC_Ext_Gateway/job/LOC3309-No28-Jiuhuan-Road-Hangzhou-Shangcheng-District-Zhejiang-China/_20133091",
       "external_id": "20133091",
-      "verified_at": "2026-08-07T17:12:30Z",
+      "verified_at": "2026-08-08T08:02:47Z",
       "match_score": 85
     },
     {
@@ -7668,7 +7775,7 @@
       "deadline": null,
       "url": "https://otis.wd5.myworkdayjobs.com/REC_Ext_Gateway/job/LOC3309-No28-Jiuhuan-Road-Hangzhou-Shangcheng-District-Zhejiang-China/MOD-Promotion-Intern_20161384",
       "external_id": "20161384",
-      "verified_at": "2026-08-07T17:12:30Z",
+      "verified_at": "2026-08-08T08:02:47Z",
       "match_score": 85
     },
     {
@@ -7693,7 +7800,7 @@
       "deadline": null,
       "url": "https://otis.wd5.myworkdayjobs.com/REC_Ext_Gateway/job/LOC3397-Room-B27th-Floor-Times-SquareNo2-Guomao-Road-Haikou-Longhua-District-Hainan-China/Intern--Field-Svc_20161068",
       "external_id": "20161068",
-      "verified_at": "2026-08-07T17:12:30Z",
+      "verified_at": "2026-08-08T08:02:47Z",
       "match_score": 85
     },
     {
@@ -7718,7 +7825,7 @@
       "deadline": null,
       "url": "https://otis.wd5.myworkdayjobs.com/REC_Ext_Gateway/job/Coline-Business-Center-n442-La-Coline-II-Californie--Ain-Chock--CasablancaCasablanca20190Morocco/Intern--Admin_20130507",
       "external_id": "20130507",
-      "verified_at": "2026-08-07T17:12:30Z",
+      "verified_at": "2026-08-08T08:02:47Z",
       "match_score": 85
     },
     {
@@ -8188,7 +8295,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Guadalajara/Recruitment-Marketing-Intern_J2456400",
       "external_id": "J2456400",
-      "verified_at": "2026-08-07T17:11:11Z",
+      "verified_at": "2026-08-08T08:02:11Z",
       "match_score": 85
     },
     {
@@ -8213,7 +8320,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Shanghai/Legal-Intern_J2453958",
       "external_id": "J2453958",
-      "verified_at": "2026-08-07T17:11:11Z",
+      "verified_at": "2026-08-08T08:02:11Z",
       "match_score": 85
     },
     {
@@ -8238,7 +8345,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Guadalajara/Lean-Six-Sigma-Intern_J2456667",
       "external_id": "J2456667",
-      "verified_at": "2026-08-07T17:11:11Z",
+      "verified_at": "2026-08-08T08:02:10Z",
       "match_score": 85
     },
     {
@@ -8266,7 +8373,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---Talent-Acquisition--Campus-Outreach-_J2454758",
       "external_id": "J2454758",
-      "verified_at": "2026-08-07T17:11:11Z",
+      "verified_at": "2026-08-08T08:02:11Z",
       "match_score": 85
     },
     {
@@ -8293,7 +8400,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---Talent-Acquisition_J2420136",
       "external_id": "J2420136",
-      "verified_at": "2026-08-07T17:11:12Z",
+      "verified_at": "2026-08-08T08:02:11Z",
       "match_score": 85
     },
     {
@@ -8321,7 +8428,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---IoT_J2417208",
       "external_id": "J2417208",
-      "verified_at": "2026-08-07T17:11:20Z",
+      "verified_at": "2026-08-08T08:02:19Z",
       "match_score": 85
     },
     {
@@ -8350,9 +8457,8 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Summer-2027-Intern-Interest-Application_115178",
       "external_id": "115178",
-      "verified_at": "2026-08-08T05:59:34Z",
-      "match_score": 85,
-      "source_stale": true
+      "verified_at": "2026-08-08T08:01:50Z",
+      "match_score": 85
     },
     {
       "id": "j-m-smucker-b562a545dc7a",
@@ -8380,9 +8486,8 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Quality-Assurance-Intern--Fall-2026---Orrville--OH_115378",
       "external_id": "115378",
-      "verified_at": "2026-08-08T05:59:35Z",
-      "match_score": 85,
-      "source_stale": true
+      "verified_at": "2026-08-08T08:01:50Z",
+      "match_score": 85
     },
     {
       "id": "j-m-smucker-88918c53e895",
@@ -8412,9 +8517,8 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Fall-2026_115124",
       "external_id": "115124",
-      "verified_at": "2026-08-08T05:59:35Z",
-      "match_score": 85,
-      "source_stale": true
+      "verified_at": "2026-08-08T08:01:50Z",
+      "match_score": 85
     },
     {
       "id": "j-m-smucker-3a0ca3ad017a",
@@ -8441,9 +8545,8 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_114837",
       "external_id": "114837",
-      "verified_at": "2026-08-08T05:59:34Z",
-      "match_score": 85,
-      "source_stale": true
+      "verified_at": "2026-08-08T08:01:50Z",
+      "match_score": 85
     },
     {
       "id": "j-m-smucker-b0074ef71b1f",
@@ -8471,9 +8574,8 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Management-Intern--Spring-2027---Orrville--OH_114833",
       "external_id": "114833",
-      "verified_at": "2026-08-08T05:59:34Z",
-      "match_score": 85,
-      "source_stale": true
+      "verified_at": "2026-08-08T08:01:50Z",
+      "match_score": 85
     },
     {
       "id": "j-m-smucker-e8ca4c63707d",
@@ -8501,9 +8603,8 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Management-Intern--Fall-2026---Orrville--OH_115347",
       "external_id": "115347",
-      "verified_at": "2026-08-08T05:59:35Z",
-      "match_score": 85,
-      "source_stale": true
+      "verified_at": "2026-08-08T08:01:50Z",
+      "match_score": 85
     },
     {
       "id": "j-m-smucker-ca48df236875",
@@ -8535,9 +8636,8 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-08-08T05:59:34Z",
-      "match_score": 85,
-      "source_stale": true
+      "verified_at": "2026-08-08T08:01:50Z",
+      "match_score": 85
     },
     {
       "id": "j-b-hunt-transport-services-568597726dae",
@@ -10210,7 +10310,8 @@
       "url": "https://jobs.xcelenergy.com/1st-4th-year-apprentice-electrician-substation-construction-amarillo-tx-79118/job/C6E38CBFAC03C3298432CC57EA803B5E",
       "external_id": null,
       "verified_at": "2026-08-07T17:11:54Z",
-      "match_score": 85
+      "match_score": 85,
+      "source_stale": true
     },
     {
       "id": "valero-energy-ac21abc6c4fd",
@@ -10269,7 +10370,7 @@
       "deadline": null,
       "url": "https://careersblog.textron.com/intern-to-student-ambassador-after-your-textron-internship/",
       "external_id": null,
-      "verified_at": "2026-08-07T17:11:06Z",
+      "verified_at": "2026-08-08T08:01:48Z",
       "match_score": 85
     },
     {
@@ -10416,7 +10517,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-08-08T07:18:08Z",
+      "verified_at": "2026-08-08T08:01:35Z",
       "match_score": 85
     },
     {
@@ -10476,7 +10577,7 @@
       "deadline": null,
       "url": "https://careers.massmutual.com/job/boston/actuarial-intern-summer-2027/724/98808954544",
       "external_id": null,
-      "verified_at": "2026-08-08T07:18:08Z",
+      "verified_at": "2026-08-08T08:01:33Z",
       "match_score": 85
     },
     {
@@ -10509,36 +10610,6 @@
       "match_score": 85
     },
     {
-      "id": "jabil-5f7b223e6383",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Students, Internships, and Apprenticeship Programs",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Software engineering",
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Students, Internships, and Apprenticeship Programs Search Jobs Learn from the best and make an impact We drive innovation for the world’s top brands. At Jabil, we’re committed to connecting people, advancing technology, and making a positive impact on the world we share",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://careers.jabil.com/students-internship-apprenticeship-programs.html",
-      "external_id": null,
-      "verified_at": "2026-08-07T17:11:45Z",
-      "match_score": 85
-    },
-    {
       "id": "jabil-dc3103284b10",
       "source_key": "jabil",
       "fortune_rank": 151,
@@ -10565,7 +10636,37 @@
       "deadline": null,
       "url": "https://careers.jabil.com/students-internship-apprenticeship-programs.html?utm_source=main_menu&utm_medium=referral&utm_campaign=jabil_com_referrals&_gl=1*76lc07*_gcl_aw*R0NMLjE3NTM5NzU5MzAuRUFJYUlRb2JDaE1JNTl2czM3RG1qZ01WN1ItdEJoMjJqZ0Q0RUFBWUFTQUFFZ0xrRVBEX0J3RQ..*_gcl_au*MTEwOTcwNDk0OC4xNzU2MjI4NTIy",
       "external_id": null,
-      "verified_at": "2026-08-07T17:11:45Z",
+      "verified_at": "2026-08-08T08:02:36Z",
+      "match_score": 85
+    },
+    {
+      "id": "jabil-5f7b223e6383",
+      "source_key": "jabil",
+      "fortune_rank": 151,
+      "fortune_500": true,
+      "company": "Jabil",
+      "title": "Students, Internships, and Apprenticeship Programs",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Software engineering",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Students, Internships, and Apprenticeship Programs Search Jobs Learn from the best and make an impact We drive innovation for the world’s top brands. At Jabil, we’re committed to connecting people, advancing technology, and making a positive impact on the world we share",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://careers.jabil.com/students-internship-apprenticeship-programs.html",
+      "external_id": null,
+      "verified_at": "2026-08-08T08:02:36Z",
       "match_score": 85
     },
     {
@@ -10593,7 +10694,7 @@
       "deadline": null,
       "url": "https://careers.jabil.com/student-apprenticeship-program.html",
       "external_id": null,
-      "verified_at": "2026-08-07T17:11:45Z",
+      "verified_at": "2026-08-08T08:02:40Z",
       "match_score": 85
     },
     {
@@ -11037,7 +11138,7 @@
       "deadline": null,
       "url": "https://www.firstenergycorp.com/careers/apprenticeship-program.html",
       "external_id": null,
-      "verified_at": "2026-08-07T17:11:35Z",
+      "verified_at": "2026-08-08T08:01:58Z",
       "match_score": 85
     },
     {
@@ -11467,7 +11568,36 @@
       "deadline": null,
       "url": "https://www.borgwarner.com/careers/job-search?id=R2026-3057",
       "external_id": null,
-      "verified_at": "2026-08-07T17:11:58Z",
+      "verified_at": "2026-08-08T08:02:21Z",
+      "match_score": 85
+    },
+    {
+      "id": "borgwarner-ea01fee992bc",
+      "source_key": "borgwarner",
+      "fortune_rank": 316,
+      "fortune_500": true,
+      "company": "BorgWarner",
+      "title": "IT Technician Intern (Industrial Solutions)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations",
+        "Credit"
+      ],
+      "summary": "Skip to main content close Search go back to BorgWarner home page Back to list IT Technician Intern (Industrial Solutions) Hendersonville - North Carolina - USA Aug 07, 2026 Full time R2026-3203 Apply Position IT Technician Intern (Industrial Solutions) Location Hendersonville,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.borgwarner.com/careers/job-search?id=R2026-3203",
+      "external_id": null,
+      "verified_at": "2026-08-08T08:02:22Z",
       "match_score": 85
     },
     {
