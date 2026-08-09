@@ -52,6 +52,15 @@ NOW = datetime.now(timezone.utc)
 SEARCH_TERMS = [
     "intern", "internship", "co-op", "summer analyst", "analyst program",
     "early insight", "explore program",
+    "solutions engineer intern", "solution engineer intern", "technical solutions engineer intern",
+    "sales engineer intern", "pre sales engineer intern", "presales engineer intern",
+    "solutions consultant intern", "solution consultant intern", "technical consultant intern",
+    "customer engineer intern", "customer engineering intern",
+    "solutions architect intern", "solution architect intern", "associate solutions architect intern",
+    "technical solutions intern", "technical solutions consultant intern",
+    "fintech consulting intern", "financial technology consulting intern",
+    "implementation consulting intern", "implementation consultant intern", "implementation analyst intern",
+    "technical account manager intern", "technical account management intern", "customer success engineer intern",
     "commercial banking intern", "corporate banking intern", "middle market banking intern",
     "credit analyst intern", "enterprise credit intern", "credit risk intern",
     "asset based lending intern", "asset-based lending intern",
@@ -79,9 +88,42 @@ ROLE_RULES: dict[str, tuple[str, ...]] = {
         "wealth management", "private wealth", "asset management", "investment management",
         "client analyst", "portfolio analytics", "financial advisor intern",
     ),
-    "Software engineering": (
-        "software engineer", "software development", "software developer", "sde intern",
-        "developer intern", "engineering intern", "full stack intern", "application developer intern",
+    "Solutions Engineer": (
+        "solutions engineer", "solution engineer", "solutions engineering", "solution engineering",
+        "technical solutions engineer", "technical solution engineer", "customer solutions engineer",
+        "solution specialist", "solutions specialist",
+    ),
+    "Sales Engineer": (
+        "sales engineer", "sales engineering", "pre-sales engineer", "pre sales engineer",
+        "presales engineer", "pre-sales", "presales", "technical sales",
+    ),
+    "Solutions Consultant": (
+        "solutions consultant", "solution consultant", "technical solutions consultant",
+        "technical consultant", "pre-sales consultant", "presales consultant", "client solutions consultant",
+    ),
+    "Customer Engineer": (
+        "customer engineer", "customer engineering", "field customer engineer",
+        "technical customer engineer", "customer solutions engineer", "customer success engineer",
+    ),
+    "Solutions Architect": (
+        "solutions architect", "solution architect", "associate solutions architect",
+        "cloud solutions architect", "technical architect", "customer solutions architect",
+    ),
+    "Technical Solutions": (
+        "technical solutions", "technical solution", "technical services", "technical enablement",
+        "technical specialist", "solutions specialist", "platform solutions",
+    ),
+    "Fintech Consulting": (
+        "fintech consulting", "financial technology consulting", "payments consulting",
+        "banking technology consulting", "digital banking consulting", "financial services technology",
+    ),
+    "Implementation Consulting": (
+        "implementation consultant", "implementation consulting", "implementation analyst",
+        "technical implementation", "client implementation", "systems implementation", "deployment consultant",
+    ),
+    "Technical Account Management": (
+        "technical account manager", "technical account management", "technical account",
+        "tam intern", "customer success engineer", "technical customer success", "client success engineer",
     ),
     "Business analyst": (
         "business analyst", "business analytics", "strategy analyst", "financial analyst intern",
@@ -394,6 +436,27 @@ def existing_job_has_graduate_signal(job: dict[str, Any]) -> bool:
         if isinstance(value, list):
             text_parts.extend(str(item) for item in value)
     return is_graduate_level_internship(str(job.get("title", "")), " ".join(text_parts))
+
+
+
+REMOVED_SOFTWARE_ENGINEERING_RE = re.compile(
+    r"\b(software\s+(?:engineer|engineering|developer|development)|sde\s+intern|"
+    r"full[- ]?stack|application\s+developer|developer\s+intern)\b",
+    re.I,
+)
+
+
+def existing_job_has_removed_software_role(job: dict[str, Any]) -> bool:
+    """Remove stale Software Engineering cards created by older scanner versions."""
+    categories = job.get("categories")
+    if isinstance(categories, list) and any(str(item).lower() == "software engineering" for item in categories):
+        return True
+    text_parts: list[str] = []
+    for key in ("title", "summary", "opportunity_type"):
+        value = job.get(key)
+        if isinstance(value, str):
+            text_parts.append(value)
+    return bool(REMOVED_SOFTWARE_ENGINEERING_RE.search(" ".join(text_parts)))
 
 
 def infer_region(location: str) -> str:
@@ -940,8 +1003,9 @@ class Fetcher:
     def fetch_amazon_html(self, source: dict[str, Any]) -> list[dict[str, Any]]:
         links: set[str] = set()
         for query in (
-            "intern", "software engineer internship", "business analyst intern",
-            "product manager intern", "data analyst intern", "operations intern",
+            "intern", "solutions engineer intern", "sales engineer intern",
+            "solutions architect intern", "technical solutions intern", "technical account manager intern",
+            "business analyst intern", "product manager intern", "data analyst intern", "operations intern",
             "commercial banking intern", "credit analyst intern", "corporate finance intern",
             "treasury intern", "risk management intern", "financial analyst intern",
         ):
@@ -1330,7 +1394,7 @@ def choose_companies(directory: list[dict[str, Any]], state: dict[str, Any], bat
 def retain_existing_jobs(existing: dict[str, Any], selected: set[str], successes: set[str], failures: set[str]) -> list[dict[str, Any]]:
     keep: list[dict[str, Any]] = []
     for job in existing.get("opportunities", []):
-        if existing_job_has_graduate_signal(job):
+        if existing_job_has_graduate_signal(job) or existing_job_has_removed_software_role(job):
             continue
         key = job.get("source_key")
         if key in successes:
@@ -1474,7 +1538,11 @@ def main() -> int:
     success_keys = {r.company["key"] for r in results if r.status == "ok"}
     failure_keys = {r.company["key"] for r in results if r.status in FAILURE_STATUSES}
     jobs = dedupe([*fresh_jobs, *retain_existing_jobs(existing, selected_keys, success_keys, failure_keys)])
-    jobs = [job for job in jobs if not existing_job_has_graduate_signal(job)]
+    jobs = [
+        job for job in jobs
+        if not existing_job_has_graduate_signal(job)
+        and not existing_job_has_removed_software_role(job)
+    ]
 
     company_state = scan_state.setdefault("companies", {})
     for result in results:
