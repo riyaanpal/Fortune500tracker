@@ -15,7 +15,10 @@ const state = {
 
 const roles = [
   "All roles", "Tech consulting", "Product management", "Wealth management",
-  "Software engineering", "Business analyst", "Data analyst", "Operations analyst",
+  "Solutions Engineer", "Sales Engineer", "Solutions Consultant", "Customer Engineer",
+  "Solutions Architect", "Technical Solutions", "Fintech Consulting",
+  "Implementation Consulting", "Technical Account Management",
+  "Business analyst", "Data analyst", "Operations analyst",
   "IT analyst", "Startup analytics", "Digital transformation", "Product operations",
   "Commercial banking", "Credit analyst / enterprise credit", "Corporate treasury",
   "Corporate finance", "Credit risk", "Middle-market banking", "Asset-based lending",
