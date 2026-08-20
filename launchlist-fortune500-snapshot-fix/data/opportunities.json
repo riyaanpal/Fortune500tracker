@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-20T14:05:43Z",
+  "updated_at": "2026-08-20T15:15:45Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,10 +12,10 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-08-20T14:01:30Z",
+  "directory_refreshed_at": "2026-08-20T14:57:37Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 507,
-  "companies_failed_last_24h": 11,
+  "companies_failed_last_24h": 10,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "accendra-health",
@@ -48,26 +48,13 @@
       "rank": 20,
       "company": "Bank of America",
       "fortune_500": true,
-      "checked_at": "2026-08-20T04:06:25Z",
+      "checked_at": "2026-08-20T15:15:45Z",
       "status": "error",
       "issue_type": "Scan error",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://careers.bankofamerica.com/en-us/students/job-search?ref=search&search=getAllJobs&start=0&rows=10",
       "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
-    },
-    {
-      "key": "citigroup",
-      "rank": 24,
-      "company": "Citigroup",
-      "fortune_500": true,
-      "checked_at": "2026-08-20T04:06:25Z",
-      "status": "error",
-      "issue_type": "Timed out",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": "https://jobs.citi.com/search-jobs",
-      "error": "Failed request: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs: HTTPSConnectionPool(host='citi.wd5.myworkdayjobs.com', port=443): Read timed out. (read timeout=18)"
     },
     {
       "key": "coterra-energy",
@@ -163,7 +150,7 @@
   ],
   "companies_with_eligible_jobs": 75,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 471,
+  "opportunity_count": 485,
   "opportunities": [
     {
       "id": "occidental-petroleum-2572ab9b905a",
@@ -191,31 +178,6 @@
       "external_id": "JR110284",
       "verified_at": "2026-08-20T04:56:42Z",
       "match_score": 90
-    },
-    {
-      "id": "jabil-b960fc0f24b6",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Intern - IL",
-      "location": "Chihuahua",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-20",
-      "deadline": "2026-10-02",
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Chihuahua/Intern---IL_J2461741",
-      "external_id": "J2461741",
-      "verified_at": "2026-08-20T03:12:52Z",
-      "match_score": 85
     },
     {
       "id": "goodyear-tire-rubber-8be0bef405fe",
@@ -268,6 +230,35 @@
       "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Supply-Chain-Intern_JR103925",
       "external_id": "JR103925",
       "verified_at": "2026-08-20T04:57:22Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-30186b4db59b",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Application Development Intern",
+      "location": "Seef Bahrain",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Finance",
+        "Risk"
+      ],
+      "summary": "Come and join our Application Development team in Bahrain! Engineer the future of global finance. At Citi, our Tech team doesn’t just support finance – we are helping to redefine it. Every day, $5 trillion crosses through our network",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-20",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Seef--Bahrain/Application-Development-Intern_26930673",
+      "external_id": "26930673",
+      "verified_at": "2026-08-20T15:02:06Z",
       "match_score": 85
     },
     {
@@ -612,7 +603,7 @@
       "deadline": "2026-09-18",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Financial-Co-Op--Part-time-_R-119461-1",
       "external_id": "R-119461",
-      "verified_at": "2026-08-20T14:04:15Z",
+      "verified_at": "2026-08-20T15:00:05Z",
       "match_score": 85
     },
     {
@@ -644,7 +635,7 @@
       "deadline": "2026-09-18",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Finance-Development-Program---Internship_R-119471",
       "external_id": "R-119471",
-      "verified_at": "2026-08-20T14:04:14Z",
+      "verified_at": "2026-08-20T15:00:04Z",
       "match_score": 90
     },
     {
@@ -903,66 +894,13 @@
       "match_score": 85
     },
     {
-      "id": "jabil-de41e9385b4a",
+      "id": "jabil-b960fc0f24b6",
       "source_key": "jabil",
       "fortune_rank": 151,
       "fortune_500": true,
       "company": "Jabil",
-      "title": "Training intern",
-      "location": "Monterrey",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-19",
-      "deadline": "2026-09-18",
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Monterrey/Training-intern_J2461500",
-      "external_id": "J2461500",
-      "verified_at": "2026-08-20T03:13:04Z",
-      "match_score": 85
-    },
-    {
-      "id": "jabil-750122df54fb",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Planning Intern",
-      "location": "Guadalajara",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Power BI"
-      ],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-19",
-      "deadline": null,
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Guadalajara/Planning-Intern_J2461926",
-      "external_id": "J2461926",
-      "verified_at": "2026-08-20T03:12:52Z",
-      "match_score": 85
-    },
-    {
-      "id": "jabil-c750a98f604d",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Communications Intern",
-      "location": "San Cristobal",
+      "title": "Intern - IL",
+      "location": "Chihuahua",
       "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
@@ -974,10 +912,10 @@
       "grad_evidence": "School enrollment is required, but no graduation year is stated.",
       "freshman_friendly": false,
       "posted_date": "2026-08-19",
-      "deadline": "2026-09-08",
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/San-Cristobal/Communications-Intern_J2461372",
-      "external_id": "J2461372",
-      "verified_at": "2026-08-20T03:12:53Z",
+      "deadline": "2026-10-02",
+      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Chihuahua/Intern---IL_J2461741",
+      "external_id": "J2461741",
+      "verified_at": "2026-08-20T14:58:45Z",
       "match_score": 85
     },
     {
@@ -1367,6 +1305,84 @@
       "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Jacksonville-Florida-United-States-of-America/Materials-Engineering-Co-op_R-094380",
       "external_id": "R-094380",
       "verified_at": "2026-08-20T14:04:12Z",
+      "match_score": 85
+    },
+    {
+      "id": "jabil-de41e9385b4a",
+      "source_key": "jabil",
+      "fortune_rank": 151,
+      "fortune_500": true,
+      "company": "Jabil",
+      "title": "Training intern",
+      "location": "Monterrey",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-18",
+      "deadline": "2026-09-18",
+      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Monterrey/Training-intern_J2461500",
+      "external_id": "J2461500",
+      "verified_at": "2026-08-20T14:59:01Z",
+      "match_score": 85
+    },
+    {
+      "id": "jabil-750122df54fb",
+      "source_key": "jabil",
+      "fortune_rank": 151,
+      "fortune_500": true,
+      "company": "Jabil",
+      "title": "Planning Intern",
+      "location": "Guadalajara",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Power BI"
+      ],
+      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-18",
+      "deadline": null,
+      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Guadalajara/Planning-Intern_J2461926",
+      "external_id": "J2461926",
+      "verified_at": "2026-08-20T14:58:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "jabil-c750a98f604d",
+      "source_key": "jabil",
+      "fortune_rank": 151,
+      "fortune_500": true,
+      "company": "Jabil",
+      "title": "Communications Intern",
+      "location": "San Cristobal",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-18",
+      "deadline": "2026-09-08",
+      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/San-Cristobal/Communications-Intern_J2461372",
+      "external_id": "J2461372",
+      "verified_at": "2026-08-20T14:58:46Z",
       "match_score": 85
     },
     {
@@ -3081,31 +3097,6 @@
       "match_score": 90
     },
     {
-      "id": "otis-worldwide-268bb3f54c22",
-      "source_key": "otis-worldwide",
-      "fortune_rank": 312,
-      "fortune_500": true,
-      "company": "Otis Worldwide",
-      "title": "HR INTERN (H/M) OTIS ESPAÑA",
-      "location": "Golfo De Salónica 73, 28033 MADRID, Spain",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Date Posted: 2026-08-03 Country: Spain Location: Golfo De Salónica 73, 28033 MADRID, Spain OTIS está buscando un/a HR Intern (Policies & Documentation) para incorporarse al equipo de Recursos Humanos. Esta persona dará soporte en la organización, revisión y redacción de las…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-15",
-      "deadline": "2026-10-31",
-      "url": "https://otis.wd504.myworkdayjobs.com/REC_Ext_Gateway/job/Golfo-De-Salnica-73-28033-MADRID-Spain/HR-INTERN--H-M--OTIS-ESPAA_20166463-1",
-      "external_id": "20166463",
-      "verified_at": "2026-08-20T03:14:03Z",
-      "match_score": 85
-    },
-    {
       "id": "jones-lang-lasalle-79e18e19cf4d",
       "source_key": "jones-lang-lasalle",
       "fortune_rank": 175,
@@ -3215,6 +3206,31 @@
       "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN1/job/Tyson-Emma---Springdale-Arkansas/Year-round-Intern---UX-Design-and-Research_R0479275-1",
       "external_id": "R0479275",
       "verified_at": "2026-08-20T10:52:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "otis-worldwide-268bb3f54c22",
+      "source_key": "otis-worldwide",
+      "fortune_rank": 312,
+      "fortune_500": true,
+      "company": "Otis Worldwide",
+      "title": "HR INTERN (H/M) OTIS ESPAÑA",
+      "location": "Golfo De Salónica 73, 28033 MADRID, Spain",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Date Posted: 2026-08-03 Country: Spain Location: Golfo De Salónica 73, 28033 MADRID, Spain OTIS está buscando un/a HR Intern (Policies & Documentation) para incorporarse al equipo de Recursos Humanos. Esta persona dará soporte en la organización, revisión y redacción de las…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-14",
+      "deadline": "2026-10-31",
+      "url": "https://otis.wd504.myworkdayjobs.com/REC_Ext_Gateway/job/Golfo-De-Salnica-73-28033-MADRID-Spain/HR-INTERN--H-M--OTIS-ESPAA_20166463-1",
+      "external_id": "20166463",
+      "verified_at": "2026-08-20T15:08:56Z",
       "match_score": 85
     },
     {
@@ -3962,33 +3978,6 @@
       "match_score": 85
     },
     {
-      "id": "otis-worldwide-8f30e75f80d5",
-      "source_key": "otis-worldwide",
-      "fortune_rank": 312,
-      "fortune_500": true,
-      "company": "Otis Worldwide",
-      "title": "Sales Intern",
-      "location": "8 Kallang Avenue #07-01/09 Aperia Tower 1, Singapore",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Date Posted: 2026-07-22 Country: Singapore Location: 8 Kallang Avenue #07-01/09 Aperia Tower 1, Singapore Job Title: Intern Sales Role Overview: Support the sales team in managing service and maintenance proposals for company and ensuring smooth coordination between sales and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-12",
-      "deadline": null,
-      "url": "https://otis.wd504.myworkdayjobs.com/REC_Ext_Gateway/job/8-Kallang-Avenue-07-0109-Aperia-Tower-1-Singapore/Sales-Intern_20165713",
-      "external_id": "20165713",
-      "verified_at": "2026-08-20T03:14:03Z",
-      "match_score": 85
-    },
-    {
       "id": "motorola-solutions-c47c8171755e",
       "source_key": "motorola-solutions",
       "fortune_rank": 378,
@@ -4192,9 +4181,8 @@
       "deadline": "2026-10-12",
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Lima-Lima-Peru/Banking---Corporate-Banking-Internship--Lima---Per--2026_26983849",
       "external_id": "26983849",
-      "verified_at": "2026-08-19T15:52:24Z",
-      "match_score": 85,
-      "source_stale": true
+      "verified_at": "2026-08-20T15:02:10Z",
+      "match_score": 85
     },
     {
       "id": "carrier-global-9184ffc1d97d",
@@ -4457,6 +4445,33 @@
       "match_score": 85
     },
     {
+      "id": "otis-worldwide-8f30e75f80d5",
+      "source_key": "otis-worldwide",
+      "fortune_rank": 312,
+      "fortune_500": true,
+      "company": "Otis Worldwide",
+      "title": "Sales Intern",
+      "location": "8 Kallang Avenue #07-01/09 Aperia Tower 1, Singapore",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Date Posted: 2026-07-22 Country: Singapore Location: 8 Kallang Avenue #07-01/09 Aperia Tower 1, Singapore Job Title: Intern Sales Role Overview: Support the sales team in managing service and maintenance proposals for company and ensuring smooth coordination between sales and…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-11",
+      "deadline": null,
+      "url": "https://otis.wd504.myworkdayjobs.com/REC_Ext_Gateway/job/8-Kallang-Avenue-07-0109-Aperia-Tower-1-Singapore/Sales-Intern_20165713",
+      "external_id": "20165713",
+      "verified_at": "2026-08-20T15:08:53Z",
+      "match_score": 85
+    },
+    {
       "id": "oneok-0687484645e5",
       "source_key": "oneok",
       "fortune_rank": 138,
@@ -4567,31 +4582,6 @@
       "external_id": "",
       "verified_at": "2026-08-20T05:50:14Z",
       "match_score": 85
-    },
-    {
-      "id": "expedia-group-b10e7b9561cf",
-      "source_key": "expedia-group",
-      "fortune_rank": 304,
-      "fortune_500": true,
-      "company": "Expedia Group",
-      "title": "Business Development Intern",
-      "location": "Brazil - Sao Paulo",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "At Expedia Group, we help travelers explore the world, one journey at a time. As a global travel company powered by passionate people, trusted partnerships, and leading technology, we connect travelers, partners, and advertisers through our consumer brands, B2B network, and…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "gram (preferably in Business, Hospitality, Economics, Tourism, or related fields), with an expected graduation date between Spring 2028 and Spring 2029. Strong analytical…",
-      "freshman_friendly": true,
-      "posted_date": "2026-08-11",
-      "deadline": "2026-08-21",
-      "url": "https://expedia.wd108.myworkdayjobs.com/search/job/Brazil---Sao-Paulo/Intern-Business-Development_R-104643-1",
-      "external_id": "R-104643",
-      "verified_at": "2026-08-20T03:13:07Z",
-      "match_score": 90
     },
     {
       "id": "dxc-technology-3c9c2349d6f3",
@@ -4781,7 +4771,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Scottsville-KY/Operations-Engineering-Intern--Spring-2027---Scottsville--KY_115475-1",
       "external_id": "115475",
-      "verified_at": "2026-08-20T14:02:11Z",
+      "verified_at": "2026-08-20T14:58:17Z",
       "match_score": 85
     },
     {
@@ -4896,6 +4886,31 @@
       "external_id": "10128709",
       "verified_at": "2026-08-20T08:59:20Z",
       "match_score": 85
+    },
+    {
+      "id": "expedia-group-b10e7b9561cf",
+      "source_key": "expedia-group",
+      "fortune_rank": 304,
+      "fortune_500": true,
+      "company": "Expedia Group",
+      "title": "Business Development Intern",
+      "location": "Brazil - Sao Paulo",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "At Expedia Group, we help travelers explore the world, one journey at a time. As a global travel company powered by passionate people, trusted partnerships, and leading technology, we connect travelers, partners, and advertisers through our consumer brands, B2B network, and…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "gram (preferably in Business, Hospitality, Economics, Tourism, or related fields), with an expected graduation date between Spring 2028 and Spring 2029. Strong analytical…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-10",
+      "deadline": "2026-08-21",
+      "url": "https://expedia.wd108.myworkdayjobs.com/search/job/Brazil---Sao-Paulo/Intern-Business-Development_R-104643-1",
+      "external_id": "R-104643",
+      "verified_at": "2026-08-20T14:58:57Z",
+      "match_score": 90
     },
     {
       "id": "campbell-s-0537c6124318",
@@ -5201,35 +5216,6 @@
       "match_score": 85
     },
     {
-      "id": "jabil-f37c04e104f2",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Intern - Project Coordinator",
-      "location": "Penang",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "IT analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Power BI",
-        "AI / ML"
-      ],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-07",
-      "deadline": null,
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---Project-Coordinator_J2460354",
-      "external_id": "J2460354",
-      "verified_at": "2026-08-20T03:12:54Z",
-      "match_score": 85
-    },
-    {
       "id": "ge-vernova-5afb106c7b4e",
       "source_key": "ge-vernova",
       "fortune_rank": 124,
@@ -5510,6 +5496,35 @@
       "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Kuala-Lumpur-Malaysia/Intern--Capital-Markets--Commercial-_REQ524438",
       "external_id": "REQ524438",
       "verified_at": "2026-08-20T05:49:24Z",
+      "match_score": 85
+    },
+    {
+      "id": "jabil-f37c04e104f2",
+      "source_key": "jabil",
+      "fortune_rank": 151,
+      "fortune_500": true,
+      "company": "Jabil",
+      "title": "Intern - Project Coordinator",
+      "location": "Penang",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "IT analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Power BI",
+        "AI / ML"
+      ],
+      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-06",
+      "deadline": null,
+      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---Project-Coordinator_J2460354",
+      "external_id": "J2460354",
+      "verified_at": "2026-08-20T14:58:48Z",
       "match_score": 85
     },
     {
@@ -5927,11 +5942,11 @@
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
-      "posted_date": "2026-08-04",
+      "posted_date": "2026-08-03",
       "deadline": null,
       "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Greater-Noida-Uttar-Pradesh-India/Apprenticeship---Technical-Support_R-64179",
       "external_id": "R-64179",
-      "verified_at": "2026-08-20T03:13:11Z",
+      "verified_at": "2026-08-20T14:58:51Z",
       "match_score": 85
     },
     {
@@ -6229,34 +6244,6 @@
       "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/BangaloreIndia/Apprentice---Retail-Ops_R0000348370",
       "external_id": "R0000348370",
       "verified_at": "2026-08-20T07:14:32Z",
-      "match_score": 85
-    },
-    {
-      "id": "kyndryl-holdings-80659abefc37",
-      "source_key": "kyndryl-holdings",
-      "fortune_rank": 300,
-      "fortune_500": true,
-      "company": "Kyndryl Holdings",
-      "title": "Apprenticeship – Technical Support",
-      "location": "Mumbai, Maharashtra, India",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Who We Are At Kyndryl, we run and reimagine the mission-critical technology systems that drive advantage for the world’s leading businesses. We are at the heart of progress; with proven expertise and a continuous flow of AI-powered insight, enabling smarter decisions, faster…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-01",
-      "deadline": null,
-      "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Mumbai-Maharashtra-India/Apprenticeship---Technical-Support_R-64180",
-      "external_id": "R-64180",
-      "verified_at": "2026-08-20T03:13:11Z",
       "match_score": 85
     },
     {
@@ -6746,6 +6733,34 @@
       "match_score": 85
     },
     {
+      "id": "kyndryl-holdings-80659abefc37",
+      "source_key": "kyndryl-holdings",
+      "fortune_rank": 300,
+      "fortune_500": true,
+      "company": "Kyndryl Holdings",
+      "title": "Apprenticeship – Technical Support",
+      "location": "Mumbai, Maharashtra, India",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "Who We Are At Kyndryl, we run and reimagine the mission-critical technology systems that drive advantage for the world’s leading businesses. We are at the heart of progress; with proven expertise and a continuous flow of AI-powered insight, enabling smarter decisions, faster…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-31",
+      "deadline": null,
+      "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Mumbai-Maharashtra-India/Apprenticeship---Technical-Support_R-64180",
+      "external_id": "R-64180",
+      "verified_at": "2026-08-20T14:58:51Z",
+      "match_score": 85
+    },
+    {
       "id": "jones-lang-lasalle-448eabfaf322",
       "source_key": "jones-lang-lasalle",
       "fortune_rank": 175,
@@ -6855,34 +6870,6 @@
       "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Calabasas-CA-USA/Insomniac---Paid-Fall-Street-Marketing-Internship_JR-92052-1",
       "external_id": "JR-92052",
       "verified_at": "2026-08-20T07:59:07Z",
-      "match_score": 85
-    },
-    {
-      "id": "kyndryl-holdings-0a8e1da3564e",
-      "source_key": "kyndryl-holdings",
-      "fortune_rank": 300,
-      "fortune_500": true,
-      "company": "Kyndryl Holdings",
-      "title": "Apprenticeship – Technical Support",
-      "location": "Hyderabad, Telangana, India",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Who We Are At Kyndryl, we run and reimagine the mission-critical technology systems that drive advantage for the world’s leading businesses. We are at the heart of progress; with proven expertise and a continuous flow of AI-powered insight, enabling smarter decisions, faster…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-07-30",
-      "deadline": null,
-      "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Hyderabad-Telangana-India/Apprenticeship---Technical-Support_R-64177",
-      "external_id": "R-64177",
-      "verified_at": "2026-08-20T03:13:11Z",
       "match_score": 85
     },
     {
@@ -7206,6 +7193,34 @@
       "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Cordoba-Argentina/Program-Management-Intern_2502670",
       "external_id": "2502670",
       "verified_at": "2026-08-20T05:49:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "kyndryl-holdings-0a8e1da3564e",
+      "source_key": "kyndryl-holdings",
+      "fortune_rank": 300,
+      "fortune_500": true,
+      "company": "Kyndryl Holdings",
+      "title": "Apprenticeship – Technical Support",
+      "location": "Hyderabad, Telangana, India",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "Who We Are At Kyndryl, we run and reimagine the mission-critical technology systems that drive advantage for the world’s leading businesses. We are at the heart of progress; with proven expertise and a continuous flow of AI-powered insight, enabling smarter decisions, faster…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-29",
+      "deadline": null,
+      "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Hyderabad-Telangana-India/Apprenticeship---Technical-Support_R-64177",
+      "external_id": "R-64177",
+      "verified_at": "2026-08-20T14:58:51Z",
       "match_score": 85
     },
     {
@@ -8195,7 +8210,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Engineering-Intern--Fall-2026---Orrville--OH_114566",
       "external_id": "114566",
-      "verified_at": "2026-08-20T14:02:10Z",
+      "verified_at": "2026-08-20T14:58:17Z",
       "match_score": 85
     },
     {
@@ -8902,7 +8917,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-08-20T14:02:33Z",
+      "verified_at": "2026-08-20T14:58:37Z",
       "match_score": 85
     },
     {
@@ -9326,7 +9341,7 @@
       "deadline": null,
       "url": "https://otis.wd504.myworkdayjobs.com/REC_Ext_Gateway/job/12F-The-Bay-Hub-17-Kai-Cheung-Road-Kowloon-Bay-Hong-Kong/Internship_20126813",
       "external_id": "20126813",
-      "verified_at": "2026-08-20T03:14:03Z",
+      "verified_at": "2026-08-20T15:08:57Z",
       "match_score": 85
     },
     {
@@ -9351,7 +9366,7 @@
       "deadline": null,
       "url": "https://otis.wd504.myworkdayjobs.com/REC_Ext_Gateway/job/LOC3309-No28-Jiuhuan-Road-Hangzhou-Shangcheng-District-Zhejiang-China/_20133091",
       "external_id": "20133091",
-      "verified_at": "2026-08-20T03:14:03Z",
+      "verified_at": "2026-08-20T15:08:54Z",
       "match_score": 85
     },
     {
@@ -9376,7 +9391,7 @@
       "deadline": null,
       "url": "https://otis.wd504.myworkdayjobs.com/REC_Ext_Gateway/job/LOC3309-No28-Jiuhuan-Road-Hangzhou-Shangcheng-District-Zhejiang-China/MOD-Promotion-Intern_20161384",
       "external_id": "20161384",
-      "verified_at": "2026-08-20T03:14:03Z",
+      "verified_at": "2026-08-20T15:08:53Z",
       "match_score": 85
     },
     {
@@ -9401,7 +9416,7 @@
       "deadline": null,
       "url": "https://otis.wd504.myworkdayjobs.com/REC_Ext_Gateway/job/LOC3397-Room-B27th-Floor-Times-SquareNo2-Guomao-Road-Haikou-Longhua-District-Hainan-China/Intern--Field-Svc_20161068",
       "external_id": "20161068",
-      "verified_at": "2026-08-20T03:14:03Z",
+      "verified_at": "2026-08-20T15:08:54Z",
       "match_score": 85
     },
     {
@@ -9426,7 +9441,7 @@
       "deadline": null,
       "url": "https://otis.wd504.myworkdayjobs.com/REC_Ext_Gateway/job/Coline-Business-Center-n442-La-Coline-II-Californie--Ain-Chock--CasablancaCasablanca20190Morocco/Intern--Admin_20130507",
       "external_id": "20130507",
-      "verified_at": "2026-08-20T03:14:03Z",
+      "verified_at": "2026-08-20T15:08:53Z",
       "match_score": 85
     },
     {
@@ -9807,7 +9822,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Shanghai/Legal-Intern_J2453958",
       "external_id": "J2453958",
-      "verified_at": "2026-08-20T03:12:56Z",
+      "verified_at": "2026-08-20T14:58:50Z",
       "match_score": 85
     },
     {
@@ -9832,7 +9847,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Guadalajara/Lean-Six-Sigma-Intern_J2456667",
       "external_id": "J2456667",
-      "verified_at": "2026-08-20T03:12:56Z",
+      "verified_at": "2026-08-20T14:58:50Z",
       "match_score": 85
     },
     {
@@ -9860,7 +9875,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---Talent-Acquisition--Campus-Outreach-_J2454758",
       "external_id": "J2454758",
-      "verified_at": "2026-08-20T03:12:56Z",
+      "verified_at": "2026-08-20T14:58:50Z",
       "match_score": 85
     },
     {
@@ -9886,7 +9901,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---SAP-Functional_J2422199",
       "external_id": "J2422199",
-      "verified_at": "2026-08-20T03:13:09Z",
+      "verified_at": "2026-08-20T14:59:07Z",
       "match_score": 85
     },
     {
@@ -9913,7 +9928,7 @@
       "deadline": null,
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---IoT_J2417208",
       "external_id": "J2417208",
-      "verified_at": "2026-08-20T03:13:03Z",
+      "verified_at": "2026-08-20T14:58:59Z",
       "match_score": 85
     },
     {
@@ -9942,7 +9957,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Summer-2027-Intern-Interest-Application_115178",
       "external_id": "115178",
-      "verified_at": "2026-08-20T14:02:10Z",
+      "verified_at": "2026-08-20T14:58:17Z",
       "match_score": 85
     },
     {
@@ -9971,7 +9986,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Quality-Assurance-Intern--Fall-2026---Orrville--OH_115378",
       "external_id": "115378",
-      "verified_at": "2026-08-20T14:02:10Z",
+      "verified_at": "2026-08-20T14:58:17Z",
       "match_score": 85
     },
     {
@@ -10002,7 +10017,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Fall-2026_115124",
       "external_id": "115124",
-      "verified_at": "2026-08-20T14:02:11Z",
+      "verified_at": "2026-08-20T14:58:17Z",
       "match_score": 85
     },
     {
@@ -10029,7 +10044,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_114837",
       "external_id": "114837",
-      "verified_at": "2026-08-20T14:02:10Z",
+      "verified_at": "2026-08-20T14:58:17Z",
       "match_score": 85
     },
     {
@@ -10062,7 +10077,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-08-20T14:02:10Z",
+      "verified_at": "2026-08-20T14:58:17Z",
       "match_score": 85
     },
     {
@@ -10900,93 +10915,6 @@
       "match_score": 85
     },
     {
-      "id": "comfort-systems-usa-21d1eae5cc5b",
-      "source_key": "comfort-systems-usa",
-      "fortune_rank": 440,
-      "fortune_500": true,
-      "company": "Comfort Systems USA",
-      "title": "Summer Intern",
-      "location": "Houston, TX (Corp HQ)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Comfort Systems USA is currently searching for multiple interns to participate in their Early Careers Program for the Summer of 2026. The Early Careers Program an 8 week summer program designed to provide real-world work experience to students currently pursuing a degree in a…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://comfortsystemsusa.wd1.myworkdayjobs.com/Corpcareers/job/Houston-TX-Corp-HQ/Summer-Intern_JR106444",
-      "external_id": "JR106444",
-      "verified_at": "2026-08-20T04:03:19Z",
-      "match_score": 85
-    },
-    {
-      "id": "comfort-systems-usa-ac56728d510c",
-      "source_key": "comfort-systems-usa",
-      "fortune_rank": 440,
-      "fortune_500": true,
-      "company": "Comfort Systems USA",
-      "title": "Operational Finance Intern",
-      "location": "Houston, TX (TAS-Cullen HQ)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Corporate finance",
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product",
-        "Operations",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "POSITION OVERVIEW: The Operational Finance Intern will support the Operations Finance team with day-to-day financial operations, including data entry, account reconciliations, and basic financial reporting. This role provides hands-on experience in a professional operations…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://comfortsystemsusa.wd1.myworkdayjobs.com/Corpcareers/job/Houston-TX-TAS-Cullen-HQ/Operational-Finance-Intern_JR105392-1",
-      "external_id": "JR105392",
-      "verified_at": "2026-08-20T04:03:19Z",
-      "match_score": 85
-    },
-    {
-      "id": "comfort-systems-usa-776b83999a50",
-      "source_key": "comfort-systems-usa",
-      "fortune_rank": 440,
-      "fortune_500": true,
-      "company": "Comfort Systems USA",
-      "title": "Apprentice Plumber",
-      "location": "Arden, NC (CSUSA-SHO)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Comfort Systems USA Shoffner is the region's leader in HVACR and Plumbing services. We have a well-established reputation for quality work done by quality people and are one of the top 3 largest mechanical contractors in the nation and the value leader in the market",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://comfortsystemsusa.wd1.myworkdayjobs.com/Corpcareers/job/Arden-NC-CSUSA-SHO/Apprentice-Plumber_JR101916-1",
-      "external_id": "JR101916",
-      "verified_at": "2026-08-20T04:03:27Z",
-      "match_score": 85
-    },
-    {
       "id": "citigroup-274a95767313",
       "source_key": "citigroup",
       "fortune_rank": 24,
@@ -11014,9 +10942,8 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/KYIV-Ukraine/Ukraine-Internship-Program---2026_25929484",
       "external_id": "25929484",
-      "verified_at": "2026-08-19T15:52:23Z",
-      "match_score": 85,
-      "source_stale": true
+      "verified_at": "2026-08-20T15:02:09Z",
+      "match_score": 85
     },
     {
       "id": "citigroup-209bf5bfd773",
@@ -11040,9 +10967,8 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Sao-Paulo-Sao-Paulo-Brazil/Estgio-Exclusivo-PCD---Markets--Internship--So-Paulo---Brazil--2026_26977986",
       "external_id": "26977986",
-      "verified_at": "2026-08-19T15:52:24Z",
-      "match_score": 85,
-      "source_stale": true
+      "verified_at": "2026-08-20T15:02:10Z",
+      "match_score": 85
     },
     {
       "id": "citigroup-0684ac94ade7",
@@ -11074,9 +11000,8 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Corporate-Banking--Placement-Analyst-Internship--Paris--France-2026_25908794",
       "external_id": "25908794",
-      "verified_at": "2026-08-19T15:52:24Z",
-      "match_score": 85,
-      "source_stale": true
+      "verified_at": "2026-08-20T15:02:10Z",
+      "match_score": 85
     },
     {
       "id": "citigroup-58bd9a3ee85b",
@@ -11104,9 +11029,8 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Dubai-United-Arab-Emirates/XMLNAME-2025-Wealth-Management-Summer-Internship--Dubai--UAE--UAE-Nationals-preferred-_25820546",
       "external_id": "25820546",
-      "verified_at": "2026-08-19T15:52:24Z",
-      "match_score": 90,
-      "source_stale": true
+      "verified_at": "2026-08-20T15:02:10Z",
+      "match_score": 90
     },
     {
       "id": "citigroup-4385cec5ea73",
@@ -11132,9 +11056,8 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Bogota--Colombia/XMLNAME-2025-Markets-Internship-Colombia_25836348",
       "external_id": "25836348",
-      "verified_at": "2026-08-19T15:52:21Z",
-      "match_score": 85,
-      "source_stale": true
+      "verified_at": "2026-08-20T15:02:06Z",
+      "match_score": 85
     },
     {
       "id": "carrier-global-c7eab9237445",
@@ -11722,6 +11645,33 @@
       "match_score": 85
     },
     {
+      "id": "xcel-energy-c656788fdbf0",
+      "source_key": "xcel-energy",
+      "fortune_rank": 306,
+      "fortune_500": true,
+      "company": "Xcel Energy",
+      "title": "Apprentice (1st - 4th Year) or Journey Line Worker - Seminole, TX",
+      "location": "Seminole, Texas, 79360, United States of America",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Union Apprentice (1st - 4th Year) or Journey Line Worker - Seminole, TX Back to Search Job Details Career area Union Position Type Date Posted Loading... Location Seminole, TX 79360, United States of America Job ID JR115904 Share Facebook X LinkedIn Email Apply Seminole, Texas,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.xcelenergy.com/apprentice-1st-4th-year-or-journey-line-worker-seminole-tx/job/C96C197500BABB30283563EB9139FC80",
+      "external_id": null,
+      "verified_at": "2026-08-20T14:59:21Z",
+      "match_score": 85
+    },
+    {
       "id": "valero-energy-ac21abc6c4fd",
       "source_key": "valero-energy",
       "fortune_rank": 40,
@@ -11810,7 +11760,7 @@
       "deadline": null,
       "url": "https://careersblog.textron.com/intern-to-student-ambassador-after-your-textron-internship/",
       "external_id": null,
-      "verified_at": "2026-08-20T03:12:36Z",
+      "verified_at": "2026-08-20T14:58:27Z",
       "match_score": 85
     },
     {
@@ -11925,7 +11875,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-08-20T14:01:35Z",
+      "verified_at": "2026-08-20T14:57:44Z",
       "match_score": 85
     },
     {
@@ -12041,7 +11991,7 @@
       "deadline": null,
       "url": "https://careers.jabil.com/students-internship-apprenticeship-programs.html",
       "external_id": null,
-      "verified_at": "2026-08-20T03:13:37Z",
+      "verified_at": "2026-08-20T14:59:32Z",
       "match_score": 85
     },
     {
@@ -12070,7 +12020,7 @@
       "deadline": null,
       "url": "https://careers.jabil.com/students-internship-apprenticeship-programs.html?utm_source=main_menu&utm_medium=referral&utm_campaign=jabil_com_referrals&_gl=1*76lc07*_gcl_aw*R0NMLjE3NTM5NzU5MzAuRUFJYUlRb2JDaE1JNTl2czM3RG1qZ01WN1ItdEJoMjJqZ0Q0RUFBWUFTQUFFZ0xrRVBEX0J3RQ..*_gcl_au*MTEwOTcwNDk0OC4xNzU2MjI4NTIy",
       "external_id": null,
-      "verified_at": "2026-08-20T03:13:37Z",
+      "verified_at": "2026-08-20T14:59:32Z",
       "match_score": 85
     },
     {
@@ -12098,7 +12048,7 @@
       "deadline": null,
       "url": "https://careers.jabil.com/student-apprenticeship-program.html",
       "external_id": null,
-      "verified_at": "2026-08-20T03:13:38Z",
+      "verified_at": "2026-08-20T14:59:32Z",
       "match_score": 85
     },
     {
@@ -12570,7 +12520,7 @@
       "deadline": null,
       "url": "https://www.firstenergycorp.com/careers/apprenticeship-program.html",
       "external_id": null,
-      "verified_at": "2026-08-20T03:12:59Z",
+      "verified_at": "2026-08-20T14:58:51Z",
       "match_score": 85
     },
     {
@@ -12662,43 +12612,518 @@
       "match_score": 85
     },
     {
-      "id": "ey-f2888689a301",
+      "id": "ey-eeece20d4a28",
       "source_key": "ey",
       "fortune_rank": null,
       "fortune_500": false,
       "company": "EY",
-      "title": "GDS Consulting_Process & Controls SOX - Intern 19",
+      "title": "Risk Consulting Internship (period Oct - Dec 2026)",
       "location": "Location not listed",
       "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
         "Tech consulting",
-        "Asset-based lending"
+        "Risk management",
+        "Data analyst"
       ],
       "tags": [
         "Excel",
-        "Strategy",
         "Risk",
         "Accounting"
       ],
-      "summary": "Show More GDS Consulting_Process & Controls SOX - Intern 19 1732529 PHL-Taguig City apply _________ The Opportunity At EY Global Delivery Services (GDS), we bring together exceptional people to build a better working world. As a Risk Consulting Intern, you will gain hands-on…",
+      "summary": "Show More Risk Consulting Internship (period Oct - Dec 2026) 86236 THA-Bangkok apply ________ Intern – Consulting, Risk-Process & Control As an Intern in our Consulting, Process & Control team, you will work alongside experienced professionals to help organizations strengthen…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": null,
       "deadline": null,
-      "url": "https://eyglobal.yello.co/jobs/Fc307LyFqS5-Jwu3tkQvxA?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "url": "https://eyglobal.yello.co/jobs/H1SPqoZjSzgSnZ7HZSANgg?job_board_id=c1riT--B2O-KySgYWsZO1Q",
       "external_id": null,
-      "verified_at": "2026-08-20T04:03:34Z",
+      "verified_at": "2026-08-20T15:00:21Z",
       "match_score": 85
     },
     {
-      "id": "ey-4037015bb97d",
+      "id": "ey-82e738550368",
       "source_key": "ey",
       "fortune_rank": null,
       "fortune_500": false,
       "company": "EY",
-      "title": "EY Qatar CBS - Talent Attraction Acquisition Internship Program FY27",
+      "title": "Internship I EY-Parthenon Corporate Finance | Stockholm",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate finance",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Strategy",
+        "Finance"
+      ],
+      "summary": "Show More Internship I EY-Parthenon Corporate Finance | Stockholm 1736769 SWE-Stockholm apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you want it…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/toJIfw7eJ42mvRuh_UFRWw?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-08-20T15:00:21Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-16f2fdce0583",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - EY-Parthenon - Strategy and Execution (Jan - June 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy",
+        "Operations",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Show More Intern - EY-Parthenon - Strategy and Execution (Jan - June 2027) 1737192 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/ZA_d-irT6-uzghyeWXt5ug?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-08-20T15:00:21Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-a3f099669ea3",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - EY-Parthenon - M&A Advisory (Jan - June 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate finance",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Show More Intern - EY-Parthenon - M&A Advisory (Jan - June 2027) 1737191 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you want it…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/84d5RPs3ONsbIJtOlmvoJg?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-08-20T15:00:21Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-8de1442a37d9",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - EY-Parthenon - Financial Services, Valuation, Modelling, Economics (Jan - June 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Technical Account Management",
+        "FP&A",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Power BI",
+        "Cloud",
+        "AI / ML",
+        "Strategy"
+      ],
+      "summary": "Show More Intern - EY-Parthenon - Financial Services, Valuation, Modelling, Economics (Jan - June 2027) 1737194 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/SeYrtmpV-liu7EioqbY7OQ?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-08-20T15:00:19Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-dc567411ab30",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - EY-Parthenon - Financial Services, Strategy and Execution (Jan - June 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Show More Intern - EY-Parthenon - Financial Services, Strategy and Execution (Jan - June 2027) 1737193 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/uvNyU6m2PGs0USInqcU0tw?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-08-20T15:00:21Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-f088295b0480",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - EY-Parthenon - Financial Diligence (Jan - June 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Technical Account Management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Show More Intern - EY-Parthenon - Financial Diligence (Jan - June 2027) 1737189 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/gDzZ588NX1Y6IhqblRmsFg?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-08-20T15:00:21Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-b326652251c8",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - Assurance, Technology Risk (Winter 2026 / Jan - June 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Tableau",
+        "Power BI",
+        "AI / ML",
+        "Strategy"
+      ],
+      "summary": "Show More Intern - Assurance, Technology Risk (Winter 2026 / Jan - June 2027) 1737156 SGP-Singapore apply ________ At EY, you’ll have the chance to build a career as unique as you are, with the global scale, support, inclusive culture and technology to become the best version…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/gsorGzdSG0mrSdqZoTq82g?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-08-20T15:00:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-7fd2ad8cba99",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - Assurance, Innovation & Artificial Intelligence (Winter 2026 / Jan - June 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Tableau",
+        "AI / ML"
+      ],
+      "summary": "Show More Intern - Assurance, Innovation & Artificial Intelligence (Winter 2026 / Jan - June 2027) 1737164 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/39r-wi8PCq2sxQmf72gvsA?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-08-20T15:00:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-1e9e27310538",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - Assurance, Forensic - Fraud & Investigation (Jan - June 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy",
+        "Accounting"
+      ],
+      "summary": "Show More Intern - Assurance, Forensic - Fraud & Investigation (Jan - June 2027) 1737158 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/7XzwkW-dyL0w4TI8HX0uwA?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-08-20T15:00:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-54b08ae65086",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - Assurance, Forensic - Data Analytics (Jan - June 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "Cloud"
+      ],
+      "summary": "Show More Intern - Assurance, Forensic - Data Analytics (Jan - June 2027) 1737160 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/kEdyRt91jjBghg174_6oCg?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-08-20T15:00:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-aa497b9819a5",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - Assurance, Forensic - Cyber Investigations (Jan - June 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Technical Solutions",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud",
+        "AI / ML",
+        "Strategy",
+        "Risk"
+      ],
+      "summary": "Show More Intern - Assurance, Forensic - Cyber Investigations (Jan - June 2027) 1737159 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/1lw4u0SQ6KepQdOcjn2TYA?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-08-20T15:00:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-1ecf8143385e",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - Assurance, Financial Accounting Advisory Services - Regulatory Compliance (Jan - June 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Implementation Consulting",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Show More Intern - Assurance, Financial Accounting Advisory Services - Regulatory Compliance (Jan - June 2027) 1737168 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/jlCF4L7_XYYDv-i6XeCkMA?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-08-20T15:00:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-95179d206331",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - Assurance, Financial Accounting Advisory Services - Quantitative Analytics(Jan - June 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Corporate treasury",
+        "FP&A"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy",
+        "Finance",
+        "Credit",
+        "Treasury"
+      ],
+      "summary": "Show More Intern - Assurance, Financial Accounting Advisory Services - Quantitative Analytics(Jan - June 2027) 1737167 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/krGUmTj2js__LQsYyaDPug?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-08-20T15:00:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-5ffb260c6bf1",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - Assurance, Financial Accounting Advisory Services - Extended Assurance (Jan - June 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy",
+        "Finance",
+        "Credit",
+        "Risk"
+      ],
+      "summary": "Show More Intern - Assurance, Financial Accounting Advisory Services - Extended Assurance (Jan - June 2027) 1737169 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/FhfQ4MSyYgWzfaPRihd-3A?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-08-20T15:00:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-e87190fc0aaa",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - Assurance, Financial Accounting Advisory Services , Core (Jan - June 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending",
+        "Accounting / financial analyst"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Show More Intern - Assurance, Financial Accounting Advisory Services , Core (Jan - June 2027) 1737153 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/xVFY6c3PNt5qOLqrZj9djw?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-08-20T15:00:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-29eb37644ba8",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - Assurance, Climate Change and Sustainability Services (Jan - June 2027)",
       "location": "Location not listed",
       "region": "Global",
       "opportunity_type": "Internship",
@@ -12709,48 +13134,15 @@
         "AI / ML",
         "Strategy"
       ],
-      "summary": "Show More EY Qatar CBS - Talent Attraction Acquisition Internship Program FY27 1736566 apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you want it…",
+      "summary": "Show More Intern - Assurance, Climate Change and Sustainability Services (Jan - June 2027) 1737161 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your…",
       "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": "2026-09-06",
-      "url": "https://eyglobal.yello.co/jobs/YD9uI1G6j3VUbk6mEj0Kyg?job_board_id=c1riT--B2O-KySgYWsZO1Q",
-      "external_id": null,
-      "verified_at": "2026-08-20T04:03:33Z",
-      "match_score": 85
-    },
-    {
-      "id": "ey-1071c603d85d",
-      "source_key": "ey",
-      "fortune_rank": null,
-      "fortune_500": false,
-      "company": "EY",
-      "title": "EY Erbil Assurance Audit Internship Opportunity",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "IT analyst",
-        "Accounting / financial analyst",
-        "Risk management"
-      ],
-      "tags": [
-        "AI / ML",
-        "Strategy",
-        "Finance",
-        "Treasury",
-        "Risk"
-      ],
-      "summary": "Show More EY Erbil Assurance Audit Internship Opportunity 1731001 IRQ-Erbil apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you want it to go",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
       "freshman_friendly": false,
       "posted_date": null,
       "deadline": null,
-      "url": "https://eyglobal.yello.co/jobs/W1oF-JFHB3iaGarF4XkSUg?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "url": "https://eyglobal.yello.co/jobs/_FwJWfiZbdLh8sWRb1l88Q?job_board_id=c1riT--B2O-KySgYWsZO1Q",
       "external_id": null,
-      "verified_at": "2026-08-20T04:03:34Z",
+      "verified_at": "2026-08-20T15:00:20Z",
       "match_score": 85
     },
     {
@@ -13064,7 +13456,7 @@
       "deadline": null,
       "url": "https://careers.bcg.com/global/en/internship-opportunities",
       "external_id": null,
-      "verified_at": "2026-08-20T04:04:24Z",
+      "verified_at": "2026-08-20T15:01:18Z",
       "match_score": 85
     },
     {
@@ -13093,7 +13485,7 @@
       "deadline": null,
       "url": "https://www.borgwarner.com/careers/job-search?id=R2026-1960",
       "external_id": null,
-      "verified_at": "2026-08-20T03:13:28Z",
+      "verified_at": "2026-08-20T14:59:21Z",
       "match_score": 85
     },
     {
@@ -13124,7 +13516,37 @@
       "deadline": null,
       "url": "https://www.borgwarner.com/careers/job-search?id=R2026-3312",
       "external_id": null,
-      "verified_at": "2026-08-20T03:13:28Z",
+      "verified_at": "2026-08-20T14:59:21Z",
+      "match_score": 85
+    },
+    {
+      "id": "borgwarner-370b82e67607",
+      "source_key": "borgwarner",
+      "fortune_rank": 316,
+      "fortune_500": true,
+      "company": "BorgWarner",
+      "title": "HR Shared Services Intern (Year-Round)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Product",
+        "Credit",
+        "Accounting"
+      ],
+      "summary": "Skip to main content close Search go back to BorgWarner home page Back to list HR Shared Services Intern (Year-Round) Auburn Hills - Michigan - USA Aug 20, 2026 Part time R2026-3286 Apply Position HR Shared Services Intern ( Year-Round ) Location Auburn Hills, MI About Us…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.borgwarner.com/careers/job-search?id=R2026-3286",
+      "external_id": null,
+      "verified_at": "2026-08-20T14:59:20Z",
       "match_score": 85
     },
     {
