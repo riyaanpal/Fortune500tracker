@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T03:21:59Z",
+  "updated_at": "2026-08-24T04:11:02Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,10 +12,10 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-08-24T03:18:08Z",
+  "directory_refreshed_at": "2026-08-24T04:08:15Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 507,
-  "companies_failed_last_24h": 10,
+  "companies_failed_last_24h": 11,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "accendra-health",
@@ -120,6 +120,19 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": null
+    },
+    {
+      "key": "somnigroup-international",
+      "rank": 35,
+      "company": "Somnigroup International",
+      "fortune_500": true,
+      "checked_at": "2026-08-24T04:11:02Z",
+      "status": "error",
+      "issue_type": "Timed out",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://mattressfirm.wd1.myworkdayjobs.com/MattressFirmCareers",
+      "error": "Failed request: https://tempurpedic.wd108.myworkdayjobs.com/wday/cxs/tempurpedic/Tempur-Sealy-Careers/jobs: HTTPSConnectionPool(host='tempurpedic.wd108.myworkdayjobs.com', port=443): Max retries exceeded with url: /wday/cxs/tempurpedic/Tempur-Sealy-Careers/jobs (Caused by ConnectTimeoutError(<HTTPSConnection(host='tempurpedic.wd108.myworkdayjobs.co"
     },
     {
       "key": "united-parcel-service",
@@ -1233,7 +1246,8 @@
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Financial-Co-Op--Part-time-_R-119461-1",
       "external_id": "R-119461",
       "verified_at": "2026-08-24T03:20:20Z",
-      "match_score": 85
+      "match_score": 85,
+      "source_stale": true
     },
     {
       "id": "somnigroup-international-27c429ad8138",
@@ -1265,7 +1279,8 @@
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Finance-Development-Program---Internship_R-119471",
       "external_id": "R-119471",
       "verified_at": "2026-08-24T03:20:20Z",
-      "match_score": 90
+      "match_score": 90,
+      "source_stale": true
     },
     {
       "id": "rockwell-automation-5a9dd8e16372",
@@ -1542,6 +1557,34 @@
       "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---UT---Richmond/Robotics-Apprentice-Operator--3rd-Shift---2265-hr_Req-66003-1",
       "external_id": "Req-66003",
       "verified_at": "2026-08-23T22:42:00Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-255fed2f795f",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Intern - Systems Safety Engineering",
+      "location": "ESP - Madrid, Spain",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Product"
+      ],
+      "summary": "Intern - Systems Safety Engineering Company: Boeing Aerospace Spain, SL Boeing Global Technology - Europe is seeking a Systems Safety Engineering Intern to support our team in Madrid, Spain . This internship offers the opportunity to work alongside experienced engineers…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-20",
+      "deadline": "2026-09-30",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/ESP---Madrid-Spain/Intern---Systems-Safety-Engineering_JR2026522575-1",
+      "external_id": "JR2026522575",
+      "verified_at": "2026-08-24T04:10:24Z",
       "match_score": 85
     },
     {
@@ -1867,34 +1910,6 @@
       "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---UT---Richmond/Processing-Apprentice-Operator--3rd-shift---2265-hr_Req-67327-1",
       "external_id": "Req-67327",
       "verified_at": "2026-08-23T22:42:00Z",
-      "match_score": 85
-    },
-    {
-      "id": "boeing-255fed2f795f",
-      "source_key": "boeing",
-      "fortune_rank": 47,
-      "fortune_500": true,
-      "company": "Boeing",
-      "title": "Intern - Systems Safety Engineering",
-      "location": "ESP - Madrid, Spain",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "Product"
-      ],
-      "summary": "Intern - Systems Safety Engineering Company: Boeing Aerospace Spain, SL Boeing Global Technology - Europe is seeking a Systems Safety Engineering Intern to support our team in Madrid, Spain . This internship offers the opportunity to work alongside experienced engineers…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-19",
-      "deadline": "2026-09-30",
-      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/ESP---Madrid-Spain/Intern---Systems-Safety-Engineering_JR2026522575-1",
-      "external_id": "JR2026522575",
-      "verified_at": "2026-08-23T15:42:10Z",
       "match_score": 85
     },
     {
@@ -4860,6 +4875,33 @@
       "match_score": 85
     },
     {
+      "id": "vistra-828bc94324df",
+      "source_key": "vistra",
+      "fortune_rank": 251,
+      "fortune_500": true,
+      "company": "Vistra",
+      "title": "Nuclear Instrument & Control Tech Apprentice-Shift",
+      "location": "Shippingport, Pennsylvania",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "If you have what it takes to become part of the Vistra family and would like to start a promising career with a global leader, take a look at the exciting employment opportunities that are currently available and apply online. Job Summary Job Description DUTIES: Under direct…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-11",
+      "deadline": null,
+      "url": "https://vst.wd5.myworkdayjobs.com/vistra_careers/job/Shippingport-Pennsylvania/Nuclear-Instrument---Control-Tech-Apprentice-Shift_40015781-1",
+      "external_id": "40015781",
+      "verified_at": "2026-08-24T04:09:30Z",
+      "match_score": 85
+    },
+    {
       "id": "otis-worldwide-8f30e75f80d5",
       "source_key": "otis-worldwide",
       "fortune_rank": 312,
@@ -5054,7 +5096,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Scottsville-KY/Operations-Engineering-Intern--Spring-2027---Scottsville--KY_115475-1",
       "external_id": "115475",
-      "verified_at": "2026-08-24T03:18:49Z",
+      "verified_at": "2026-08-24T04:08:51Z",
       "match_score": 85
     },
     {
@@ -5106,6 +5148,36 @@
       "external_id": "Req-63919",
       "verified_at": "2026-08-23T22:42:03Z",
       "match_score": 85
+    },
+    {
+      "id": "boeing-766f6eda899f",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) – Security & Fire Operation (S&FO)",
+      "location": "USA - Everett, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations",
+        "Risk",
+        "Accounting"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) – Security & Fire Operation (S&FO) Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "during Summer 2027 Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-11",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Security---Fire-Operation--S-FO-_JR2026521717-1",
+      "external_id": "JR2026521717",
+      "verified_at": "2026-08-24T04:10:24Z",
+      "match_score": 90
     },
     {
       "id": "baxter-international-16b3c76ad4bb",
@@ -5161,33 +5233,6 @@
       "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Lima-OH/Telecomms-Apprentice-III---I_R17406",
       "external_id": "R17406",
       "verified_at": "2026-08-23T20:42:45Z",
-      "match_score": 85
-    },
-    {
-      "id": "vistra-828bc94324df",
-      "source_key": "vistra",
-      "fortune_rank": 251,
-      "fortune_500": true,
-      "company": "Vistra",
-      "title": "Nuclear Instrument & Control Tech Apprentice-Shift",
-      "location": "Shippingport, Pennsylvania",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "If you have what it takes to become part of the Vistra family and would like to start a promising career with a global leader, take a look at the exciting employment opportunities that are currently available and apply online. Job Summary Job Description DUTIES: Under direct…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-10",
-      "deadline": null,
-      "url": "https://vst.wd5.myworkdayjobs.com/vistra_careers/job/Shippingport-Pennsylvania/Nuclear-Instrument---Control-Tech-Apprentice-Shift_40015781-1",
-      "external_id": "40015781",
-      "verified_at": "2026-08-23T14:43:52Z",
       "match_score": 85
     },
     {
@@ -5473,33 +5518,63 @@
       "match_score": 85
     },
     {
-      "id": "boeing-766f6eda899f",
+      "id": "boeing-4d90329fc42e",
       "source_key": "boeing",
       "fortune_rank": 47,
       "fortune_500": true,
       "company": "Boeing",
-      "title": "Boeing Summer 2027 Internship Program (Paid) – Security & Fire Operation (S&FO)",
+      "title": "Boeing Summer 2027 Internship Program (Paid) – Environment, Health, and Safety (EHS)",
+      "location": "USA - Auburn, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) – Environment, Health, and Safety (EHS) Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "on school schedule Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-08",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Auburn-WA/Boeing-Summer-2027-Internship-Program--Paid----Environment--Health--and-Safety--EHS-_JR2026519561-1",
+      "external_id": "JR2026519561",
+      "verified_at": "2026-08-24T04:10:25Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-5458f418a977",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) – Data Analytics Intern",
       "location": "USA - Everett, WA",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
+        "Data analyst",
         "Asset-based lending"
       ],
       "tags": [
-        "Strategy",
-        "Operations",
-        "Risk",
-        "Accounting"
+        "AI / ML",
+        "Strategy"
       ],
-      "summary": "Boeing Summer 2027 Internship Program (Paid) – Security & Fire Operation (S&FO) Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027…",
+      "summary": "Boeing Summer 2027 Internship Program (Paid) – Data Analytics Intern Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027 intern program",
       "grad_status": "2029 eligible",
       "grad_evidence": "during Summer 2027 Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
       "freshman_friendly": true,
-      "posted_date": "2026-08-10",
+      "posted_date": "2026-08-08",
       "deadline": "2026-10-23",
-      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Security---Fire-Operation--S-FO-_JR2026521717-1",
-      "external_id": "JR2026521717",
-      "verified_at": "2026-08-23T15:42:10Z",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976-1",
+      "external_id": "JR2026520976",
+      "verified_at": "2026-08-24T04:10:24Z",
       "match_score": 90
     },
     {
@@ -5769,66 +5844,6 @@
       "external_id": "30213990",
       "verified_at": "2026-08-23T21:40:11Z",
       "match_score": 85
-    },
-    {
-      "id": "boeing-4d90329fc42e",
-      "source_key": "boeing",
-      "fortune_rank": 47,
-      "fortune_500": true,
-      "company": "Boeing",
-      "title": "Boeing Summer 2027 Internship Program (Paid) – Environment, Health, and Safety (EHS)",
-      "location": "USA - Auburn, WA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Strategy",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "Boeing Summer 2027 Internship Program (Paid) – Environment, Health, and Safety (EHS) Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "on school schedule Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
-      "freshman_friendly": true,
-      "posted_date": "2026-08-07",
-      "deadline": "2026-10-23",
-      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Auburn-WA/Boeing-Summer-2027-Internship-Program--Paid----Environment--Health--and-Safety--EHS-_JR2026519561-1",
-      "external_id": "JR2026519561",
-      "verified_at": "2026-08-23T15:42:10Z",
-      "match_score": 90
-    },
-    {
-      "id": "boeing-5458f418a977",
-      "source_key": "boeing",
-      "fortune_rank": 47,
-      "fortune_500": true,
-      "company": "Boeing",
-      "title": "Boeing Summer 2027 Internship Program (Paid) – Data Analytics Intern",
-      "location": "USA - Everett, WA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Strategy"
-      ],
-      "summary": "Boeing Summer 2027 Internship Program (Paid) – Data Analytics Intern Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027 intern program",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "during Summer 2027 Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
-      "freshman_friendly": true,
-      "posted_date": "2026-08-07",
-      "deadline": "2026-10-23",
-      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976-1",
-      "external_id": "JR2026520976",
-      "verified_at": "2026-08-23T15:42:10Z",
-      "match_score": 90
     },
     {
       "id": "ameren-24504618a196",
@@ -6401,6 +6416,161 @@
       "match_score": 85
     },
     {
+      "id": "boeing-b53ee07a9d54",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) – Quality Specialist",
+      "location": "USA - Seattle, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "SQL",
+        "Excel",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) – Quality Specialist Company: The Boeing Company Job Description Launch your career with Boeing, celebrated by Yello/WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "nt Visa status. Basic Qualifications Be currently enrolled in a college or university with expected graduation on or after August 2027. Availability to work full-time for 10…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-04",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Boeing-Summer-2027-Internship-Program--Paid----Quality-Specialist_JR2026520392-1",
+      "external_id": "JR2026520392",
+      "verified_at": "2026-08-24T04:10:24Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-d80ddcfb0951",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) – Information Digital Technology & Security (IDT&S)",
+      "location": "USA - Everett, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Product management",
+        "Data analyst",
+        "Business analyst"
+      ],
+      "tags": [
+        "Python",
+        "Cloud",
+        "AI / ML",
+        "Product",
+        "Strategy"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) – Information Digital Technology & Security (IDT&S) Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "during Summer 2027 Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-04",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Information-Digital-Technology---Security--IDT-S-_JR2026520791-1",
+      "external_id": "JR2026520791",
+      "verified_at": "2026-08-24T04:10:24Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-7cd1564bb593",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) - Quality Engineering Intern",
+      "location": "USA - Seattle, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "Product"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) - Quality Engineering Intern Company: Job Description Launch your career with Boeing, celebrated by Yello/WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "tus. Basic Qualifications (Required) Be currently enrolled in a college or university with expected graduation on or after August 2027. Availability to work full-time for…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-04",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Boeing-Summer-2027-Internship-Program--Paid----Quality-Engineering-Intern_JR2026520439-1",
+      "external_id": "JR2026520439",
+      "verified_at": "2026-08-24T04:10:24Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-8a85760425dd",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) - Methods Process Analyst",
+      "location": "USA - Seattle, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "SQL",
+        "Product",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) - Methods Process Analyst Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027 intern program",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "during Summer 2027 Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-04",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Boeing-Summer-2027-Internship-Program--Paid----Methods-Process-Analyst_JR2026519532-1",
+      "external_id": "JR2026519532",
+      "verified_at": "2026-08-24T04:10:25Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-8e97908a64de",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) - Facilities Engineering",
+      "location": "USA - Everett, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) - Facilities Engineering Company: Job Description Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ics, Physics, or Cybersecurity) Enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-04",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Facilities-Engineering_JR2026521015-1",
+      "external_id": "JR2026521015",
+      "verified_at": "2026-08-24T04:10:25Z",
+      "match_score": 90
+    },
+    {
       "id": "target-d16db347559e",
       "source_key": "target",
       "fortune_rank": 42,
@@ -6484,161 +6654,6 @@
       "external_id": "R5048387",
       "verified_at": "2026-08-23T20:45:00Z",
       "match_score": 85
-    },
-    {
-      "id": "boeing-b53ee07a9d54",
-      "source_key": "boeing",
-      "fortune_rank": 47,
-      "fortune_500": true,
-      "company": "Boeing",
-      "title": "Boeing Summer 2027 Internship Program (Paid) – Quality Specialist",
-      "location": "USA - Seattle, WA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "SQL",
-        "Excel",
-        "Operations",
-        "Accounting"
-      ],
-      "summary": "Boeing Summer 2027 Internship Program (Paid) – Quality Specialist Company: The Boeing Company Job Description Launch your career with Boeing, celebrated by Yello/WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "nt Visa status. Basic Qualifications Be currently enrolled in a college or university with expected graduation on or after August 2027. Availability to work full-time for 10…",
-      "freshman_friendly": true,
-      "posted_date": "2026-08-03",
-      "deadline": "2026-10-23",
-      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Boeing-Summer-2027-Internship-Program--Paid----Quality-Specialist_JR2026520392-1",
-      "external_id": "JR2026520392",
-      "verified_at": "2026-08-23T15:42:10Z",
-      "match_score": 90
-    },
-    {
-      "id": "boeing-d80ddcfb0951",
-      "source_key": "boeing",
-      "fortune_rank": 47,
-      "fortune_500": true,
-      "company": "Boeing",
-      "title": "Boeing Summer 2027 Internship Program (Paid) – Information Digital Technology & Security (IDT&S)",
-      "location": "USA - Everett, WA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Product management",
-        "Data analyst",
-        "Business analyst"
-      ],
-      "tags": [
-        "Python",
-        "Cloud",
-        "AI / ML",
-        "Product",
-        "Strategy"
-      ],
-      "summary": "Boeing Summer 2027 Internship Program (Paid) – Information Digital Technology & Security (IDT&S) Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "during Summer 2027 Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
-      "freshman_friendly": true,
-      "posted_date": "2026-08-03",
-      "deadline": "2026-10-23",
-      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Information-Digital-Technology---Security--IDT-S-_JR2026520791-1",
-      "external_id": "JR2026520791",
-      "verified_at": "2026-08-23T15:42:10Z",
-      "match_score": 90
-    },
-    {
-      "id": "boeing-7cd1564bb593",
-      "source_key": "boeing",
-      "fortune_rank": 47,
-      "fortune_500": true,
-      "company": "Boeing",
-      "title": "Boeing Summer 2027 Internship Program (Paid) - Quality Engineering Intern",
-      "location": "USA - Seattle, WA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Tableau",
-        "Power BI",
-        "Product"
-      ],
-      "summary": "Boeing Summer 2027 Internship Program (Paid) - Quality Engineering Intern Company: Job Description Launch your career with Boeing, celebrated by Yello/WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "tus. Basic Qualifications (Required) Be currently enrolled in a college or university with expected graduation on or after August 2027. Availability to work full-time for…",
-      "freshman_friendly": true,
-      "posted_date": "2026-08-03",
-      "deadline": "2026-10-23",
-      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Boeing-Summer-2027-Internship-Program--Paid----Quality-Engineering-Intern_JR2026520439-1",
-      "external_id": "JR2026520439",
-      "verified_at": "2026-08-23T15:42:10Z",
-      "match_score": 90
-    },
-    {
-      "id": "boeing-8a85760425dd",
-      "source_key": "boeing",
-      "fortune_rank": 47,
-      "fortune_500": true,
-      "company": "Boeing",
-      "title": "Boeing Summer 2027 Internship Program (Paid) - Methods Process Analyst",
-      "location": "USA - Seattle, WA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "SQL",
-        "Product",
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Boeing Summer 2027 Internship Program (Paid) - Methods Process Analyst Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027 intern program",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "during Summer 2027 Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
-      "freshman_friendly": true,
-      "posted_date": "2026-08-03",
-      "deadline": "2026-10-23",
-      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Boeing-Summer-2027-Internship-Program--Paid----Methods-Process-Analyst_JR2026519532-1",
-      "external_id": "JR2026519532",
-      "verified_at": "2026-08-23T15:42:10Z",
-      "match_score": 90
-    },
-    {
-      "id": "boeing-8e97908a64de",
-      "source_key": "boeing",
-      "fortune_rank": 47,
-      "fortune_500": true,
-      "company": "Boeing",
-      "title": "Boeing Summer 2027 Internship Program (Paid) - Facilities Engineering",
-      "location": "USA - Everett, WA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Boeing Summer 2027 Internship Program (Paid) - Facilities Engineering Company: Job Description Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "ics, Physics, or Cybersecurity) Enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
-      "freshman_friendly": true,
-      "posted_date": "2026-08-03",
-      "deadline": "2026-10-23",
-      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Facilities-Engineering_JR2026521015-1",
-      "external_id": "JR2026521015",
-      "verified_at": "2026-08-23T15:42:10Z",
-      "match_score": 90
     },
     {
       "id": "abbott-laboratories-53856c55dace",
@@ -8100,11 +8115,11 @@
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
-      "posted_date": "2026-07-24",
+      "posted_date": "2026-07-25",
       "deadline": null,
       "url": "https://vst.wd5.myworkdayjobs.com/vistra_careers/job/Hanging-Rock-Plant/Power-Plant-Intern_40016330",
       "external_id": "40016330",
-      "verified_at": "2026-08-23T14:43:55Z",
+      "verified_at": "2026-08-24T04:09:33Z",
       "match_score": 85
     },
     {
@@ -8458,7 +8473,8 @@
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
       "verified_at": "2026-08-24T03:19:02Z",
-      "match_score": 85
+      "match_score": 85,
+      "source_stale": true
     },
     {
       "id": "salesforce-b359ad9a2970",
@@ -10109,7 +10125,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Summer-2027-Intern-Interest-Application_115178",
       "external_id": "115178",
-      "verified_at": "2026-08-24T03:18:49Z",
+      "verified_at": "2026-08-24T04:08:52Z",
       "match_score": 85
     },
     {
@@ -10136,7 +10152,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_114837",
       "external_id": "114837",
-      "verified_at": "2026-08-24T03:18:49Z",
+      "verified_at": "2026-08-24T04:08:52Z",
       "match_score": 85
     },
     {
@@ -10163,7 +10179,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Engineering-Intern--Fall-2026---Orrville--OH_114566",
       "external_id": "114566",
-      "verified_at": "2026-08-24T03:18:48Z",
+      "verified_at": "2026-08-24T04:08:52Z",
       "match_score": 85
     },
     {
@@ -10196,7 +10212,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-08-24T03:18:48Z",
+      "verified_at": "2026-08-24T04:08:51Z",
       "match_score": 85
     },
     {
@@ -12101,7 +12117,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-08-24T03:18:15Z",
+      "verified_at": "2026-08-24T04:08:20Z",
       "match_score": 85
     },
     {
@@ -13549,7 +13565,7 @@
       "deadline": null,
       "url": "https://jobs.boeing.com/meet-Doan",
       "external_id": null,
-      "verified_at": "2026-08-23T15:42:31Z",
+      "verified_at": "2026-08-24T04:10:45Z",
       "match_score": 85
     },
     {
@@ -13580,7 +13596,7 @@
       "deadline": null,
       "url": "https://jobs.boeing.com/NiyathiGorantla",
       "external_id": null,
-      "verified_at": "2026-08-23T15:42:30Z",
+      "verified_at": "2026-08-24T04:10:44Z",
       "match_score": 85
     },
     {
@@ -13611,7 +13627,7 @@
       "deadline": null,
       "url": "https://jobs.boeing.com/MyaBeathley",
       "external_id": null,
-      "verified_at": "2026-08-23T15:42:29Z",
+      "verified_at": "2026-08-24T04:10:43Z",
       "match_score": 85
     },
     {
@@ -13642,7 +13658,7 @@
       "deadline": null,
       "url": "https://jobs.boeing.com/Meet-Abbey-Carlson",
       "external_id": null,
-      "verified_at": "2026-08-23T15:42:28Z",
+      "verified_at": "2026-08-24T04:10:42Z",
       "match_score": 85
     },
     {
@@ -13674,7 +13690,7 @@
       "deadline": null,
       "url": "https://jobs.boeing.com/EvaStrang",
       "external_id": null,
-      "verified_at": "2026-08-23T15:42:29Z",
+      "verified_at": "2026-08-24T04:10:43Z",
       "match_score": 85
     },
     {
@@ -13706,7 +13722,7 @@
       "deadline": null,
       "url": "https://jobs.boeing.com/ElisaRwagasanaIshimwe",
       "external_id": null,
-      "verified_at": "2026-08-23T15:42:29Z",
+      "verified_at": "2026-08-24T04:10:43Z",
       "match_score": 85
     },
     {
@@ -13738,7 +13754,7 @@
       "deadline": null,
       "url": "https://jobs.boeing.com/BTAP",
       "external_id": null,
-      "verified_at": "2026-08-23T15:42:27Z",
+      "verified_at": "2026-08-24T04:10:41Z",
       "match_score": 85
     },
     {
@@ -13769,7 +13785,7 @@
       "deadline": null,
       "url": "https://jobs.boeing.com/meet-Atira",
       "external_id": null,
-      "verified_at": "2026-08-23T15:42:30Z",
+      "verified_at": "2026-08-24T04:10:44Z",
       "match_score": 85
     },
     {
@@ -13800,7 +13816,7 @@
       "deadline": null,
       "url": "https://jobs.boeing.com/AdrianSosa",
       "external_id": null,
-      "verified_at": "2026-08-23T15:42:28Z",
+      "verified_at": "2026-08-24T04:10:43Z",
       "match_score": 85
     },
     {
@@ -13831,7 +13847,7 @@
       "deadline": null,
       "url": "https://jobs.boeing.com/meet-AdrianL",
       "external_id": null,
-      "verified_at": "2026-08-23T15:42:30Z",
+      "verified_at": "2026-08-24T04:10:45Z",
       "match_score": 85
     },
     {
