@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-29T11:13:01Z",
+  "updated_at": "2026-08-29T15:42:26Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,10 +12,10 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-08-29T11:08:38Z",
+  "directory_refreshed_at": "2026-08-29T15:39:26Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 179,
-  "companies_failed_last_24h": 4,
+  "companies_failed_last_24h": 2,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "alcoa",
@@ -31,32 +31,6 @@
       "error": "Failed request: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs: 404 Client Error: Not Found for url: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs"
     },
     {
-      "key": "bank-of-america",
-      "rank": 20,
-      "company": "Bank of America",
-      "fortune_500": true,
-      "checked_at": "2026-08-28T11:33:51Z",
-      "status": "error",
-      "issue_type": "Scan error",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": "https://careers.bankofamerica.com/en-us/students/job-search?ref=search&search=getAllJobs&start=0&rows=10",
-      "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
-    },
-    {
-      "key": "ferguson-enterprises",
-      "rank": 147,
-      "company": "Ferguson Enterprises",
-      "fortune_500": true,
-      "checked_at": "2026-08-28T11:33:51Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
-    },
-    {
       "key": "franklin-templeton",
       "rank": 452,
       "company": "Franklin Templeton",
@@ -70,9 +44,9 @@
       "error": null
     }
   ],
-  "companies_with_eligible_jobs": 41,
+  "companies_with_eligible_jobs": 49,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 243,
+  "opportunity_count": 344,
   "opportunities": [
     {
       "id": "united-rentals-2462e5925baf",
@@ -538,6 +512,64 @@
       "match_score": 85
     },
     {
+      "id": "jones-lang-lasalle-dca6d51ae2dc",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Tourism Specialist Internship",
+      "location": "Niagara, ON",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-28",
+      "deadline": "2026-09-07",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Niagara-ON/Tourism-Specialist-Internship_REQ531726",
+      "external_id": "REQ531726",
+      "verified_at": "2026-08-29T15:41:06Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-a289b62611af",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Hotels and Hospitality Summer 2027 Internship - Chicago, IL",
+      "location": "Chicago, IL",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-28",
+      "deadline": "2026-09-30",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Chicago-IL/Hotels-and-Hospitality-Summer-2027-Internship---Chicago--IL_REQ531742",
+      "external_id": "REQ531742",
+      "verified_at": "2026-08-29T15:41:05Z",
+      "match_score": 85
+    },
+    {
       "id": "j-m-smucker-a612a0474adf",
       "source_key": "smucker",
       "fortune_rank": 456,
@@ -562,7 +594,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
       "external_id": "115735",
-      "verified_at": "2026-08-29T11:09:16Z",
+      "verified_at": "2026-08-29T15:40:01Z",
       "match_score": 85
     },
     {
@@ -591,7 +623,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Information-Services-Intern--Summer-2027_115744",
       "external_id": "115744",
-      "verified_at": "2026-08-29T11:09:15Z",
+      "verified_at": "2026-08-29T15:40:00Z",
       "match_score": 85
     },
     {
@@ -624,7 +656,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Summer-2027_115743",
       "external_id": "115743",
-      "verified_at": "2026-08-29T11:09:15Z",
+      "verified_at": "2026-08-29T15:40:00Z",
       "match_score": 85
     },
     {
@@ -659,6 +691,174 @@
       "match_score": 90
     },
     {
+      "id": "boeing-6d129d0ac6be",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (PAID) – Finance (Evergreen)",
+      "location": "USA - Hazelwood, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Corporate finance",
+        "Business analyst"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (PAID) – Finance (Evergreen) Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027 intern program",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ng, Mathematics, Statistics, Operations Research, Aerospace Engineering, or Mechanical Engineering) Graduation date on or after August 2027 Ability to work full-time, in…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-28",
+      "deadline": "2026-10-30",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Hazelwood-MO/Boeing-Summer-2027-Internship-Program--PAID----Finance--Evergreen-_JR2026519225-1",
+      "external_id": "JR2026519225",
+      "verified_at": "2026-08-29T15:42:01Z",
+      "match_score": 90
+    },
+    {
+      "id": "american-electric-power-bec8b80256d2",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Engineering Intern – Tulsa, OK and nearby areas",
+      "location": "Tulsa, OK",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Job Posting End Date 11-07-2026 Please note the job posting will close on the day before the posting end date. Job Summary Summer Internship Program at American Electric Power Each summer, American Electric Power welcomes the brightest and most driven college students to join…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ation Board for Engineering and Technology (ABET). Must have completed at least your freshman year. Graduation date of December 2027 or later. Must be at least 18 years old.…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-28",
+      "deadline": "2026-11-07",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Tulsa-OK/Engineering-Intern---Tulsa--OK-and-nearby-areas_R18664",
+      "external_id": "R18664",
+      "verified_at": "2026-08-29T15:40:23Z",
+      "match_score": 90
+    },
+    {
+      "id": "american-electric-power-85c79afaa4be",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Engineering Intern – Shreveport, LA and nearby areas",
+      "location": "Shreveport, LA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "Job Posting End Date 11-07-2026 Please note the job posting will close on the day before the posting end date. Job Summary Summer Internship Program at American Electric Power Each summer, American Electric Power welcomes the brightest and most driven college students to join…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ation Board for Engineering and Technology (ABET). Must have completed at least your freshman year. Graduation date of December 2027 or later. Must be at least 18 years old.…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-28",
+      "deadline": "2026-11-07",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Shreveport-LA/Engineering-Intern---Shreveport--LA-and-nearby-areas_R18668",
+      "external_id": "R18668",
+      "verified_at": "2026-08-29T15:40:23Z",
+      "match_score": 90
+    },
+    {
+      "id": "american-electric-power-09eb219f61ff",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Engineering Intern – Roanoke, VA and nearby areas",
+      "location": "Roanoke, VA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Job Posting End Date 11-30-2026 Please note the job posting will close on the day before the posting end date. Job Summary Summer Internship Program at American Electric Power Each summer, American Electric Power welcomes the brightest and most driven college students to join…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ation Board for Engineering and Technology (ABET). Must have completed at least your freshman year. Graduation date of December 2027 or later. Must be at least 18 years old.…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-28",
+      "deadline": "2026-11-30",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Roanoke-VA/Engineering-Intern---Roanoke--VA-and-nearby-areas_R18722",
+      "external_id": "R18722",
+      "verified_at": "2026-08-29T15:40:23Z",
+      "match_score": 90
+    },
+    {
+      "id": "american-electric-power-67c884d2eb84",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Engineering Intern – Corpus Christi, TX and nearby areas",
+      "location": "Corpus Christi, TX",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Job Posting End Date 11-07-2026 Please note the job posting will close on the day before the posting end date. Job Summary Summer Internship Program at American Electric Power Each summer, American Electric Power welcomes the brightest and most driven college students to join…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ation Board for Engineering and Technology (ABET). Must have completed at least your freshman year. Graduation date of December 2027 or later. Must be at least 18 years old.…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-28",
+      "deadline": "2026-11-07",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Corpus-Christi-TX/Engineering-Intern---Corpus-Christi--TX-and-nearby-areas_R18670",
+      "external_id": "R18670",
+      "verified_at": "2026-08-29T15:40:23Z",
+      "match_score": 90
+    },
+    {
+      "id": "american-electric-power-7c8dabafd341",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Engineering Intern – Columbus, OH and nearby areas",
+      "location": "Columbus, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Job Posting End Date 11-30-2026 Please note the job posting will close on the day before the posting end date. Job Summary Summer Internship Program at American Electric Power Each summer, American Electric Power welcomes the brightest and most driven college students to join…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ation Board for Engineering and Technology (ABET). Must have completed at least your freshman year. Graduation date of December 2027 or later. Must be at least 18 years old.…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-28",
+      "deadline": "2026-11-30",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Columbus-OH/Engineering-Intern---Columbus--OH-and-nearby-areas_R18719",
+      "external_id": "R18719",
+      "verified_at": "2026-08-29T15:40:23Z",
+      "match_score": 90
+    },
+    {
       "id": "united-rentals-5b40b5a22477",
       "source_key": "united-rentals",
       "fortune_rank": 279,
@@ -683,6 +883,92 @@
       "url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Deerfield-Beach-FL-USA/Intern-Diesel-Mechanic--Paid-_100457",
       "external_id": "100457",
       "verified_at": "2026-08-28T11:29:11Z",
+      "match_score": 85
+    },
+    {
+      "id": "motorola-solutions-7b3d258ceb2e",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Firmware Validation, Co-Op",
+      "location": "Vancouver, Canada",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "AI / ML"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-27",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Vancouver-Canada/Firmware-Validation--Co-Op_R65684",
+      "external_id": "R65684",
+      "verified_at": "2026-08-29T15:41:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-9955c8672b43",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Quantity Surveyor Intern",
+      "location": "Cairo, EGY",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-27",
+      "deadline": "2026-09-25",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Cairo-EGY/Quantity-Surveyor-Intern_REQ530894",
+      "external_id": "REQ530894",
+      "verified_at": "2026-08-29T15:41:06Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-cf7547f4389c",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Mechatronics and Robotics Apprentice",
+      "location": "Shakopee, MN",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-27",
+      "deadline": "2026-10-30",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Shakopee-MN/Mechatronics-and-Robotics-Apprentice_REQ531768",
+      "external_id": "REQ531768",
+      "verified_at": "2026-08-29T15:41:20Z",
       "match_score": 85
     },
     {
@@ -744,7 +1030,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Supply-Chain-Intern--Summer-2027_115694",
       "external_id": "115694",
-      "verified_at": "2026-08-29T11:09:15Z",
+      "verified_at": "2026-08-29T15:40:00Z",
       "match_score": 85
     },
     {
@@ -773,7 +1059,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
       "external_id": "115736",
-      "verified_at": "2026-08-29T11:09:16Z",
+      "verified_at": "2026-08-29T15:40:01Z",
       "match_score": 85
     },
     {
@@ -890,6 +1176,96 @@
       "match_score": 85
     },
     {
+      "id": "jones-lang-lasalle-6c4cd6bcf106",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Graphic Design Summer 2027 Internship - Chicago, IL",
+      "location": "Chicago, IL",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Cloud",
+        "AI / ML"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-26",
+      "deadline": "2026-09-30",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Chicago-IL/Graphic-Design-Summer-2027-Internship---Chicago--IL_REQ531511",
+      "external_id": "REQ531511",
+      "verified_at": "2026-08-29T15:41:07Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-acc5dea0a2e2",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Business Support, Intern",
+      "location": "Harrisburg, PA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-26",
+      "deadline": "2026-09-05",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Harrisburg-PA/Business-Support--Intern_REQ531207",
+      "external_id": "REQ531207",
+      "verified_at": "2026-08-29T15:41:07Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-1b4c9e0958a6",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Automation Engineering Apprentice",
+      "location": "WINDSOR, CT",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-26",
+      "deadline": "2026-10-03",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/WINDSOR-CT/Automation-Engineering-Apprentice_REQ531532-1",
+      "external_id": "REQ531532",
+      "verified_at": "2026-08-29T15:41:22Z",
+      "match_score": 85
+    },
+    {
       "id": "johnson-johnson-4aced4387680",
       "source_key": "johnson-johnson",
       "fortune_rank": 45,
@@ -944,7 +1320,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Quality-Assurance-Intern---Oxnard--CA_115727",
       "external_id": "115727",
-      "verified_at": "2026-08-29T11:09:16Z",
+      "verified_at": "2026-08-29T15:40:01Z",
       "match_score": 85
     },
     {
@@ -969,7 +1345,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
       "external_id": "115725",
-      "verified_at": "2026-08-29T11:09:16Z",
+      "verified_at": "2026-08-29T15:40:00Z",
       "match_score": 85
     },
     {
@@ -1202,6 +1578,39 @@
       "match_score": 85
     },
     {
+      "id": "motorola-solutions-c47c8171755e",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Supply Chain Data Analyst Internship 2027",
+      "location": "Chicago, IL",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "FP&A",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Product",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "suing a Bachelors Degree in Supply Chain, Finance, Business, Mathematics or Engineering Must have a graduation date on or after December 2027 Travel Requirements None…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-25",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Supply-Chain-Data-Analyst-Internship-2027_R67489",
+      "external_id": "R67489",
+      "verified_at": "2026-08-29T15:41:33Z",
+      "match_score": 90
+    },
+    {
       "id": "johnson-johnson-73943ba07305",
       "source_key": "johnson-johnson",
       "fortune_rank": 45,
@@ -1256,7 +1665,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
       "external_id": "115677",
-      "verified_at": "2026-08-29T11:09:16Z",
+      "verified_at": "2026-08-29T15:40:00Z",
       "match_score": 85
     },
     {
@@ -1283,7 +1692,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
       "external_id": "115698",
-      "verified_at": "2026-08-29T11:09:15Z",
+      "verified_at": "2026-08-29T15:40:00Z",
       "match_score": 85
     },
     {
@@ -1308,7 +1717,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Microbiology-Intern--Summer-2027_115676",
       "external_id": "115676",
-      "verified_at": "2026-08-29T11:09:15Z",
+      "verified_at": "2026-08-29T15:40:00Z",
       "match_score": 85
     },
     {
@@ -1335,7 +1744,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Analytical-Lab-Intern--Summer-2027_115678",
       "external_id": "115678",
-      "verified_at": "2026-08-29T11:09:15Z",
+      "verified_at": "2026-08-29T15:40:00Z",
       "match_score": 85
     },
     {
@@ -2140,6 +2549,38 @@
       "match_score": 85
     },
     {
+      "id": "motorola-solutions-49356ca440f7",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Data Analyst Co-Op",
+      "location": "Ontario Remote Work",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "Accounting"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "tasks while collaborating effectively in a team environment. Basic Requirements Enrolled in an undergraduate degree program in a computer science or similar technical…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-24",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Ontario-Remote-Work/Data-Analyst-Co-Op_R67175",
+      "external_id": "R67175",
+      "verified_at": "2026-08-29T15:41:34Z",
+      "match_score": 90
+    },
+    {
       "id": "johnson-johnson-f5f38cbee39b",
       "source_key": "johnson-johnson",
       "fortune_rank": 45,
@@ -2218,7 +2659,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Memphis-TN/Operations-Engineering-Intern--Spring-2027---Memphis--TN_114845",
       "external_id": "114845",
-      "verified_at": "2026-08-29T11:09:16Z",
+      "verified_at": "2026-08-29T15:40:00Z",
       "match_score": 85
     },
     {
@@ -2245,7 +2686,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Lexington-KY/Operations-Engineering-Intern--Spring-2027---Lexington--KY_114841",
       "external_id": "114841",
-      "verified_at": "2026-08-29T11:09:15Z",
+      "verified_at": "2026-08-29T15:40:00Z",
       "match_score": 85
     },
     {
@@ -2450,6 +2891,35 @@
       "match_score": 85
     },
     {
+      "id": "kla-accf69cc041f",
+      "source_key": "kla",
+      "fortune_rank": 361,
+      "fortune_500": true,
+      "company": "KLA",
+      "title": "Software Intern",
+      "location": "Shanghai, China",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "AI / ML",
+        "Product"
+      ],
+      "summary": "Company Overview KLA is a global leader in diversified electronics for the semiconductor manufacturing ecosystem. Virtually every electronic device in the world is produced using our technologies. No laptop, smartphone, wearable device, voice-controlled gadget, flexible screen,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-22",
+      "deadline": null,
+      "url": "https://kla.wd1.myworkdayjobs.com/Search/job/Shanghai-China/Software-Intern_2639999",
+      "external_id": "2639999",
+      "verified_at": "2026-08-29T15:40:45Z",
+      "match_score": 85
+    },
+    {
       "id": "united-rentals-7b5d58ffd05b",
       "source_key": "united-rentals",
       "fortune_rank": 279,
@@ -2509,6 +2979,35 @@
       "match_score": 85
     },
     {
+      "id": "jones-lang-lasalle-79e18e19cf4d",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Capital Markets Summer 2027 Internship - New York",
+      "location": "New York, NY",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-21",
+      "deadline": "2026-09-05",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/New-York-NY/Capital-Markets-Summer-2027-Internship---New-York_REQ528322",
+      "external_id": "REQ528322",
+      "verified_at": "2026-08-29T15:41:09Z",
+      "match_score": 85
+    },
+    {
       "id": "johnson-johnson-5495ae6ac4df",
       "source_key": "johnson-johnson",
       "fortune_rank": 45,
@@ -2558,6 +3057,38 @@
       "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/St-Louis-MO/Technology-Apprentice-Program---Hybrid_26010314",
       "external_id": "26010314",
       "verified_at": "2026-08-28T22:28:48Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-d75a6a78b3a2",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Artificial Intelligence Co-Op/Intern - Spring 2027",
+      "location": "US - Tampa, FL (Lithia area)",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Product management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Cloud",
+        "AI / ML",
+        "Product",
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-20",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Tampa-FL-Lithia-area/Artificial-Intelligence-Co-Op-Intern---Spring-2027_64729",
+      "external_id": "64729",
+      "verified_at": "2026-08-29T15:40:45Z",
       "match_score": 85
     },
     {
@@ -2663,7 +3194,7 @@
       "deadline": "2026-09-18",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Financial-Co-Op--Part-time-_R-119461-1",
       "external_id": "R-119461",
-      "verified_at": "2026-08-29T11:11:12Z",
+      "verified_at": "2026-08-29T15:42:20Z",
       "match_score": 85
     },
     {
@@ -2695,7 +3226,7 @@
       "deadline": "2026-09-18",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Finance-Development-Program---Internship_R-119471",
       "external_id": "R-119471",
-      "verified_at": "2026-08-29T11:11:11Z",
+      "verified_at": "2026-08-29T15:42:20Z",
       "match_score": 90
     },
     {
@@ -2807,6 +3338,61 @@
       "match_score": 85
     },
     {
+      "id": "boeing-255fed2f795f",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Intern - Systems Safety Engineering",
+      "location": "ESP - Madrid, Spain",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Product"
+      ],
+      "summary": "Intern - Systems Safety Engineering Company: Boeing Aerospace Spain, SL Boeing Global Technology - Europe is seeking a Systems Safety Engineering Intern to support our team in Madrid, Spain . This internship offers the opportunity to work alongside experienced engineers…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-19",
+      "deadline": "2026-09-30",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/ESP---Madrid-Spain/Intern---Systems-Safety-Engineering_JR2026522575-1",
+      "external_id": "JR2026522575",
+      "verified_at": "2026-08-29T15:42:00Z",
+      "match_score": 85
+    },
+    {
+      "id": "american-electric-power-dec620bc16ce",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Transmission System Operator Intern",
+      "location": "Corpus Christi, TX",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Job Posting End Date 09-01-2026 Please note the job posting will close on the day before the posting end date. Job Description Job Description What You'll Do: Assist in monitoring and regulating system voltage levels, real and reactive power flows for the transmission system at…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-19",
+      "deadline": "2026-09-01",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Corpus-Christi-TX/Transmission-System-Operator-Intern_R18338",
+      "external_id": "R18338",
+      "verified_at": "2026-08-29T15:40:23Z",
+      "match_score": 85
+    },
+    {
       "id": "primoris-services-262f1e709681",
       "source_key": "primoris-services",
       "fortune_rank": 497,
@@ -2860,6 +3446,38 @@
       "external_id": "JR110272",
       "verified_at": "2026-08-29T11:09:58Z",
       "match_score": 90
+    },
+    {
+      "id": "jones-lang-lasalle-b4ef6de39318",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Business Support, Intern",
+      "location": "Petaling Jaya, Malaysia",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Strategy",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-18",
+      "deadline": "2026-09-30",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Petaling-Jaya-Malaysia/Business-Support--Intern_REQ529262",
+      "external_id": "REQ529262",
+      "verified_at": "2026-08-29T15:41:09Z",
+      "match_score": 85
     },
     {
       "id": "johnson-johnson-9d2f8efee5b3",
@@ -3126,6 +3744,34 @@
       "external_id": "R5038737",
       "verified_at": "2026-08-27T23:50:18Z",
       "match_score": 85
+    },
+    {
+      "id": "motorola-solutions-78125e3fb978",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Operations - 2027 Summer Internship",
+      "location": "Chicago, IL",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "s: Pursuing a degree in Marketing or a related field (e.g., Communications, Business) with expected graduation in or after December 2026. Strong writing and presentation…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-17",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Operations---2027-Summer-Internship_R67655",
+      "external_id": "R67655",
+      "verified_at": "2026-08-29T15:41:33Z",
+      "match_score": 90
     },
     {
       "id": "johnson-johnson-389cab5ba7fb",
@@ -4026,6 +4672,65 @@
       "match_score": 85
     },
     {
+      "id": "motorola-solutions-f7cbadc2ba80",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Outbound Sales Representative (2027 Internship)",
+      "location": "Allen, TX (TX139)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Product"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "I-JS3 #LI-ONSITE Basic Requirements Candidate must be currently pursuing a Bachelor's Degree with a graduation date on or after December 2027 Candidates must be local to the…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-12",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Allen-TX-TX139/Outbound-Sales-Representative--2027-Internship-_R67607",
+      "external_id": "R67607",
+      "verified_at": "2026-08-29T15:41:33Z",
+      "match_score": 90
+    },
+    {
+      "id": "jones-lang-lasalle-80b61c256f7c",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Intern, Office Leasing Advisory",
+      "location": "Makati, Philippines",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Tech consulting",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-12",
+      "deadline": "2026-09-30",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Makati-Philippines/Intern--Office-Leasing-Advisory_REQ523575",
+      "external_id": "REQ523575",
+      "verified_at": "2026-08-29T15:41:09Z",
+      "match_score": 85
+    },
+    {
       "id": "crown-holdings-953c10bbda88",
       "source_key": "crown-holdings",
       "fortune_rank": 356,
@@ -4161,6 +4866,33 @@
       "match_score": 85
     },
     {
+      "id": "motorola-solutions-c0259fde37d1",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Business Support Intern",
+      "location": "Penang, Malaysia",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-11",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Penang-Malaysia/Business-Support-Intern_R67353",
+      "external_id": "R67353",
+      "verified_at": "2026-08-29T15:41:31Z",
+      "match_score": 85
+    },
+    {
       "id": "mastercard-93269724a1f9",
       "source_key": "mastercard",
       "fortune_rank": 141,
@@ -4185,6 +4917,35 @@
       "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/San-Jose-Costa-Rica/Internship-Program--Americas--2027---San-Jose--Costa-Rica_R-287270",
       "external_id": "R-287270",
       "verified_at": "2026-08-27T23:50:37Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-7dc81432b711",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "HVAC Technician Intern",
+      "location": "Seattle, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-11",
+      "deadline": "2026-10-11",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Seattle-WA/HVAC-Technician-Intern_REQ528097",
+      "external_id": "REQ528097",
+      "verified_at": "2026-08-29T15:41:09Z",
       "match_score": 85
     },
     {
@@ -4219,6 +4980,63 @@
       "match_score": 85
     },
     {
+      "id": "mosaic-6ff04f84b703",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Operations Engineering Co-op/Intern – Spring 2027",
+      "location": "US - Riverview, FL",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-10",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Riverview-FL/Operations-Engineering-Co-op-Intern---Spring-2027_64656",
+      "external_id": "64656",
+      "verified_at": "2026-08-29T15:40:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-2ee62d6d96b4",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Intern - Ecology",
+      "location": "Taipei, Taiwan, China",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-10",
+      "deadline": "2026-08-31",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Taipei-Taiwan-China/Intern---Ecology_REQ526809",
+      "external_id": "",
+      "verified_at": "2026-08-29T15:42:09Z",
+      "match_score": 85
+    },
+    {
       "id": "j-m-smucker-7c81dce2d0cb",
       "source_key": "smucker",
       "fortune_rank": 456,
@@ -4242,7 +5060,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Scottsville-KY/Operations-Engineering-Intern--Spring-2027---Scottsville--KY_115475-1",
       "external_id": "115475",
-      "verified_at": "2026-08-29T11:09:16Z",
+      "verified_at": "2026-08-29T15:40:00Z",
       "match_score": 85
     },
     {
@@ -4271,6 +5089,36 @@
       "external_id": "51586641",
       "verified_at": "2026-08-29T11:09:57Z",
       "match_score": 85
+    },
+    {
+      "id": "boeing-766f6eda899f",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) – Security & Fire Operation (S&FO)",
+      "location": "USA - Everett, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations",
+        "Risk",
+        "Accounting"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) – Security & Fire Operation (S&FO) Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "during Summer 2027 Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-10",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Security---Fire-Operation--S-FO-_JR2026521717-1",
+      "external_id": "JR2026521717",
+      "verified_at": "2026-08-29T15:42:00Z",
+      "match_score": 90
     },
     {
       "id": "united-rentals-9a28d98f825d",
@@ -4406,6 +5254,66 @@
       "match_score": 85
     },
     {
+      "id": "boeing-4d90329fc42e",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) – Environment, Health, and Safety (EHS)",
+      "location": "USA - Auburn, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) – Environment, Health, and Safety (EHS) Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "on school schedule Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-07",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Auburn-WA/Boeing-Summer-2027-Internship-Program--Paid----Environment--Health--and-Safety--EHS-_JR2026519561-1",
+      "external_id": "JR2026519561",
+      "verified_at": "2026-08-29T15:42:00Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-5458f418a977",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) – Data Analytics Intern",
+      "location": "USA - Everett, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) – Data Analytics Intern Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027 intern program",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "during Summer 2027 Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-07",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976-1",
+      "external_id": "JR2026520976",
+      "verified_at": "2026-08-29T15:42:00Z",
+      "match_score": 90
+    },
+    {
       "id": "ameren-24504618a196",
       "source_key": "ameren",
       "fortune_rank": 466,
@@ -4465,6 +5373,34 @@
       "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Supply-Chain-Internship_033958",
       "external_id": "033958",
       "verified_at": "2026-08-28T22:27:39Z",
+      "match_score": 85
+    },
+    {
+      "id": "motorola-solutions-15ce7dcc3c42",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "HR Intern",
+      "location": "Hong Kong, Hong Kong (ZHK46)",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-06",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Hong-Kong-Hong-Kong-ZHK46/HR-Intern_R67444",
+      "external_id": "R67444",
+      "verified_at": "2026-08-29T15:41:31Z",
       "match_score": 85
     },
     {
@@ -4696,6 +5632,161 @@
       "match_score": 85
     },
     {
+      "id": "boeing-b53ee07a9d54",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) – Quality Specialist",
+      "location": "USA - Seattle, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "SQL",
+        "Excel",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) – Quality Specialist Company: The Boeing Company Job Description Launch your career with Boeing, celebrated by Yello/WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "nt Visa status. Basic Qualifications Be currently enrolled in a college or university with expected graduation on or after August 2027. Availability to work full-time for 10…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-03",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Boeing-Summer-2027-Internship-Program--Paid----Quality-Specialist_JR2026520392-1",
+      "external_id": "JR2026520392",
+      "verified_at": "2026-08-29T15:42:00Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-d80ddcfb0951",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) – Information Digital Technology & Security (IDT&S)",
+      "location": "USA - Everett, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Product management",
+        "Data analyst",
+        "Business analyst"
+      ],
+      "tags": [
+        "Python",
+        "Cloud",
+        "AI / ML",
+        "Product",
+        "Strategy"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) – Information Digital Technology & Security (IDT&S) Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "during Summer 2027 Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-03",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Information-Digital-Technology---Security--IDT-S-_JR2026520791-1",
+      "external_id": "JR2026520791",
+      "verified_at": "2026-08-29T15:42:00Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-7cd1564bb593",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) - Quality Engineering Intern",
+      "location": "USA - Seattle, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "Product"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) - Quality Engineering Intern Company: Job Description Launch your career with Boeing, celebrated by Yello/WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "tus. Basic Qualifications (Required) Be currently enrolled in a college or university with expected graduation on or after August 2027. Availability to work full-time for…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-03",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Boeing-Summer-2027-Internship-Program--Paid----Quality-Engineering-Intern_JR2026520439-1",
+      "external_id": "JR2026520439",
+      "verified_at": "2026-08-29T15:42:00Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-8a85760425dd",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) - Methods Process Analyst",
+      "location": "USA - Seattle, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "SQL",
+        "Product",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) - Methods Process Analyst Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027 intern program",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "during Summer 2027 Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-03",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Boeing-Summer-2027-Internship-Program--Paid----Methods-Process-Analyst_JR2026519532-1",
+      "external_id": "JR2026519532",
+      "verified_at": "2026-08-29T15:42:01Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-8e97908a64de",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) - Facilities Engineering",
+      "location": "USA - Everett, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) - Facilities Engineering Company: Job Description Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ics, Physics, or Cybersecurity) Enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-03",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Facilities-Engineering_JR2026521015-1",
+      "external_id": "JR2026521015",
+      "verified_at": "2026-08-29T15:42:01Z",
+      "match_score": 90
+    },
+    {
       "id": "target-d16db347559e",
       "source_key": "target",
       "fortune_rank": 42,
@@ -4750,6 +5841,61 @@
       "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Mumbai-Maharashtra-India/Apprenticeship---Technical-Support_R-64180",
       "external_id": "R-64180",
       "verified_at": "2026-08-28T22:26:01Z",
+      "match_score": 85
+    },
+    {
+      "id": "motorola-solutions-a53e991c1367",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Intern - Pre-Sales Engineer",
+      "location": "Jakarta, Indonesia",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Sales Engineer",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-30",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Jakarta-Indonesia/Intern---Pre-Sales-Engineer_R63643",
+      "external_id": "R63643",
+      "verified_at": "2026-08-29T15:41:31Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-f1964995dbd1",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Maintenance Engineer Co-Op/Intern - Summer 2027",
+      "location": "CA - Esterhazy, SK",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-07-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/CA---Esterhazy-SK/Maintenance-Engineer-Co-Op-Intern----Summer-2027_64568",
+      "external_id": "64568",
+      "verified_at": "2026-08-29T15:40:47Z",
       "match_score": 85
     },
     {
@@ -4937,7 +6083,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-08-29T11:09:47Z",
+      "verified_at": "2026-08-29T15:40:40Z",
       "match_score": 85
     },
     {
@@ -5344,6 +6490,898 @@
       "match_score": 85
     },
     {
+      "id": "motorola-solutions-3a062f31cab8",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Project Management Intern in System Integration",
+      "location": "Berlin, Germany (ZWG172)",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Berlin-Germany-ZWG172/Project-Management-Intern-in-System-Integration_R60356",
+      "external_id": "R60356",
+      "verified_at": "2026-08-29T15:41:32Z",
+      "match_score": 85
+    },
+    {
+      "id": "motorola-solutions-ac3a02004754",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Intern - Electrical/Electronic Engineering",
+      "location": "Penang, Malaysia",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Penang-Malaysia/Intern---Electrical-Electronic-Engineering---March-April-_R61865",
+      "external_id": "R61865",
+      "verified_at": "2026-08-29T15:41:31Z",
+      "match_score": 85
+    },
+    {
+      "id": "motorola-solutions-afc3d54f428a",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Customer Support Engineer Intern",
+      "location": "Taipei, Taiwan (ZTW27)",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Taipei-Taiwan-ZTW27/Customer-Support-Engineer-Intern_R66744",
+      "external_id": "R66744",
+      "verified_at": "2026-08-29T15:41:32Z",
+      "match_score": 85
+    },
+    {
+      "id": "motorola-solutions-109284470b4e",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Business Support Intern (August)",
+      "location": "Penang, Malaysia",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Penang-Malaysia/Business-Support-Intern--August-_R63990",
+      "external_id": "R63990",
+      "verified_at": "2026-08-29T15:41:32Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-af273d1364b5",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Water Balance Engineer Co-Op/Intern - Spring 2027",
+      "location": "US - Mulberry, FL",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Mulberry-FL/Water-Balance-Engineer-Co-Op-Intern---Spring-2027_64508-1",
+      "external_id": "64508",
+      "verified_at": "2026-08-29T15:40:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-417fb4865143",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Tax Co-Op/Intern - Summer 2027",
+      "location": "US - Plymouth, MN",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Power BI",
+        "Operations",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Plymouth-MN/Tax-Accounting-Co-Op-Intern---Summer-2027_64409",
+      "external_id": "64409",
+      "verified_at": "2026-08-29T15:40:44Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-579f83b43c80",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Supply Chain Operations Co-Op/Intern - Spring 2027",
+      "location": "US - Tampa, FL",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Tampa-FL/Supply-Chain-Operations-Co-Op-Intern---Spring-2027_64559",
+      "external_id": "64559",
+      "verified_at": "2026-08-29T15:40:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-d1d791da6e92",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Structural Engineer Co-Op/Intern - Summer 2027",
+      "location": "US - Tampa, FL (Lithia area)",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Tampa-FL-Lithia-area/Structural-Engineer-Co-Op-Intern---Summer-2027_64448",
+      "external_id": "64448",
+      "verified_at": "2026-08-29T15:40:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-95cdca2b90c3",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Reliability Engineer Co-Op/Intern - Winter 2027",
+      "location": "CA - Esterhazy, SK",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/CA---Esterhazy-SK/Reliability-Engineer-Co-Op-Intern---Winter-2027_64355",
+      "external_id": "64355",
+      "verified_at": "2026-08-29T15:40:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-0eb09b26524b",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Process Engineer Co-Op/Intern - Winter 2027",
+      "location": "CA-Colonsay, SK",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/CA-Colonsay-SK/Process-Engineer-Co-Op-Intern---Winter-2027_64374-1",
+      "external_id": "64374",
+      "verified_at": "2026-08-29T15:40:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-23b0ca71f831",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Process Engineer Co-Op/Intern - Summer 2027",
+      "location": "US - Bradley, FL",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Bradley-FL/Process-Engineer-Co-Op-Intern---Summer-2027_64452",
+      "external_id": "64452",
+      "verified_at": "2026-08-29T15:40:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-cc8c003690d4",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Process Engineer Co-Op/Intern - Summer 2027",
+      "location": "CA - Esterhazy, SK",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/CA---Esterhazy-SK/Process-Engineer-Co-Op-Intern---Summer-2027_64421-1",
+      "external_id": "64421",
+      "verified_at": "2026-08-29T15:40:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-853db82889e3",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Process Engineer Co-Op/Intern - Spring 2027",
+      "location": "US - Bradley, FL",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Bradley-FL/Process-Engineer-Co-Op-Intern---Spring-2027_64450",
+      "external_id": "64450",
+      "verified_at": "2026-08-29T15:40:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-81535deb1368",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Process Control Engineer Co-Op/Intern - Winter 2027",
+      "location": "CA - Esterhazy, SK",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/CA---Esterhazy-SK/Process-Control-Engineer-Co-Op-Intern---Winter-2027_64359",
+      "external_id": "64359",
+      "verified_at": "2026-08-29T15:40:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-703c119cc9ae",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Operations Engineer Co-Op/Intern - Summer 2027",
+      "location": "US - Mulberry, FL",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Mulberry-FL/Operations-Engineer-Co-Op-Intern---Summer-2027_64415",
+      "external_id": "64415",
+      "verified_at": "2026-08-29T15:40:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-f0021871f616",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Operations Engineer Co-Op/Intern - Summer 2027",
+      "location": "US - Mulberry, FL",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Mulberry-FL/Operations-Engineer-Co-Op-Intern---Summer-2027_64430-1",
+      "external_id": "64430",
+      "verified_at": "2026-08-29T15:40:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-5bea49e5023b",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Operations & Automation Engineering Co-op/Intern - Spring 2027",
+      "location": "US - Bartow, FL",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Bartow-FL/Operations---Automation-Engineering-Co-op-Intern---Spring-2027_64675-1",
+      "external_id": "64675",
+      "verified_at": "2026-08-29T15:40:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-9c6cd547cd8f",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Mining Engineer or Geoscience Co-Op/Intern - Summer 2027",
+      "location": "CA - Esterhazy, SK",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Product",
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/CA---Esterhazy-SK/Mining-Engineer-or-Geoscience-Co-Op-Intern---Summer-2027_64576",
+      "external_id": "64576",
+      "verified_at": "2026-08-29T15:40:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-613bb52a3ac4",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Mining Engineer Co-Op/Intern - Summer 2027",
+      "location": "US - Bradley, FL",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Bradley-FL/Mining-Engineer-Co-Op-Intern---Summer-2027_64433",
+      "external_id": "64433",
+      "verified_at": "2026-08-29T15:40:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-4ad801a89c1a",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Mining Engineer Co-Op/Intern - Spring 2027",
+      "location": "US - Bradley, FL",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Bradley-FL/Mining-Engineer-Co-Op-Intern---Spring-2027_64436",
+      "external_id": "64436",
+      "verified_at": "2026-08-29T15:40:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-b80e7f704efb",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Mechanical Integrity Engineer Co-Op/Intern - Summer 2027",
+      "location": "CA - Esterhazy, SK",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/CA---Esterhazy-SK/Mechanical-Integrity-Engineer-Co-Op-Intern---Summer-2027_64356",
+      "external_id": "64356",
+      "verified_at": "2026-08-29T15:40:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-83cacac1a8b6",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Finance Business Partner Co-Op/Intern - Summer 2027",
+      "location": "Durham",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "FP&A",
+        "Corporate finance",
+        "Business analyst"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Finance",
+        "FP&A",
+        "Accounting"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/Durham/Finance-Business-Partner-Co-Op-Intern---Summer-2027_64358",
+      "external_id": "64358",
+      "verified_at": "2026-08-29T15:40:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-ce87f3723e15",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Environmental Engineer Co-Op/Intern - Summer 2027",
+      "location": "US - Bartow, FL",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Bartow-FL/Environmental-Engineer-Co-Op-Intern---Summer-2027_64444",
+      "external_id": "64444",
+      "verified_at": "2026-08-29T15:40:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-1b4e13b32f3a",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Electrical Engineer/Technologist Co-op Student - Summer 2027",
+      "location": "CA - Esterhazy, SK",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/CA---Esterhazy-SK/Electrical-Engineer-Technologist-Co-op-Student---Summer-2027_64714",
+      "external_id": "64714",
+      "verified_at": "2026-08-29T15:40:47Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-197c3e8f345f",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Electrical Engineer Co-Op/Intern - Summer 2027",
+      "location": "US - Bartow, FL",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Bartow-FL/Electrical-Engineer-Co-Op-Intern---Summer-2027_64428",
+      "external_id": "64428",
+      "verified_at": "2026-08-29T15:40:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-0e3a3e309369",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Electrical Engineer Co-Op/Intern - Spring 2027",
+      "location": "US - Bartow, FL",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Bartow-FL/Electrical-Engineer-Co-Op-Intern---Spring-2027_64427",
+      "external_id": "64427",
+      "verified_at": "2026-08-29T15:40:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-3137c3fc89f4",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Capital Project Engineering Co-op/Intern - Winter 2027",
+      "location": "CA - Belle Plaine, SK",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/CA---Belle-Plaine-SK/Capital-Project-Engineering-Co-op-Intern---Winter-2027_64418",
+      "external_id": "64418",
+      "verified_at": "2026-08-29T15:40:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-1a57c5fe9104",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Capital Project Engineering Co-op/Intern - Spring 2027",
+      "location": "US - Tampa, FL (Lithia area)",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Tampa-FL-Lithia-area/Capital-Project-Engineering-Co-op-Intern---Spring-2027_64392",
+      "external_id": "64392",
+      "verified_at": "2026-08-29T15:40:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-1c6fa5767185",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Capital Project Engineering Co-Op/Intern - Spring 2027",
+      "location": "US - Riverview, FL",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Riverview-FL/Capital-Project-Engineering-Co-Op-Intern---Spring-2027_64455",
+      "external_id": "64455",
+      "verified_at": "2026-08-29T15:40:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-2eafc3bd74f4",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Applied Process Technology (APT) Engineer Co-Op /Intern - Summer 2027",
+      "location": "US - Tampa, FL (Lithia area)",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Tampa-FL-Lithia-area/Applied-Process-Technology--APT--Engineer-Co-Op--Intern----Summer-2027_64573-1",
+      "external_id": "64573",
+      "verified_at": "2026-08-29T15:40:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-c50c89458178",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Applied Process Technology (APT) Engineer Co-Op /Intern - Spring 2027",
+      "location": "US - Tampa, FL (Lithia area)",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Tampa-FL-Lithia-area/Applied-Process-Technology--APT--Engineer-Co-Op--Intern---Spring-2027_64572",
+      "external_id": "64572",
+      "verified_at": "2026-08-29T15:40:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-094a0ed1e83a",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Accounting & Finance Co-Op/Intern - Summer 2027",
+      "location": "US - Tampa, FL (Lithia area)",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Tampa-FL-Lithia-area/Accounting---Finance-Co-Op-Intern---Summer-2027_64569",
+      "external_id": "64569",
+      "verified_at": "2026-08-29T15:40:44Z",
+      "match_score": 85
+    },
+    {
       "id": "marvell-technology-c6ab28fe2603",
       "source_key": "marvell-technology",
       "fortune_rank": 476,
@@ -5528,7 +7566,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Summer-2027-Intern-Interest-Application_115178",
       "external_id": "115178",
-      "verified_at": "2026-08-29T11:09:15Z",
+      "verified_at": "2026-08-29T15:40:00Z",
       "match_score": 85
     },
     {
@@ -5555,7 +7593,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Engineering-Intern--Fall-2026---Orrville--OH_114566",
       "external_id": "114566",
-      "verified_at": "2026-08-29T11:09:16Z",
+      "verified_at": "2026-08-29T15:40:00Z",
       "match_score": 85
     },
     {
@@ -5588,7 +7626,63 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-08-29T11:09:15Z",
+      "verified_at": "2026-08-29T15:40:00Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-b-hunt-transport-services-568597726dae",
+      "source_key": "j-b-hunt-transport-services",
+      "fortune_rank": 371,
+      "fortune_500": true,
+      "company": "J.B. Hunt Transport Services",
+      "title": "Operations Internship, Summer 2026",
+      "location": "Brattleboro, VT - Old Ferry Rd",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Job Title: Operations Internship, Summer 2026 Department: Supply Chain Country: United States of America State/Province: Vermont City: Brattleboro Full/Part Time: Part time Job Summary: Under close supervision, this position will assist with customers on providing…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://jbhunt.wd501.myworkdayjobs.com/Careers/job/Brattleboro-VT---Old-Ferry-Rd/Operations-Internship--Fall-2025_00596307",
+      "external_id": "00596307",
+      "verified_at": "2026-08-29T15:41:05Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-b-hunt-transport-services-05c1a7e5efff",
+      "source_key": "j-b-hunt-transport-services",
+      "fortune_rank": 371,
+      "fortune_500": true,
+      "company": "J.B. Hunt Transport Services",
+      "title": "Operations Intern (Annual)",
+      "location": "Chicago, IL - S. Green Street Ste 204",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Job Title: Operations Intern (Annual) Department: Supply Chain Country: United States of America State/Province: Illinois City: Chicago Full/Part Time: Part time Job Summary: The Time to ACT is Now Do you want to be a part of this growth by jumpstarting your career as an intern?",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://jbhunt.wd501.myworkdayjobs.com/Careers/job/Chicago-IL---S-Green-Street-Ste-204/Operations-Intern--Annual-_00631224",
+      "external_id": "00631224",
+      "verified_at": "2026-08-29T15:41:06Z",
       "match_score": 85
     },
     {
@@ -6345,6 +8439,31 @@
       "match_score": 85
     },
     {
+      "id": "american-electric-power-765b31a370c3",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "SkillBridge Military Intern (DOW)",
+      "location": "Columbus, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Job Posting End Date 09-10-2026 Please note the job posting will close on the day before the posting end date Job Summary AEP is a proud participant in the DOW SkillBridge program, and open to considering SkillBridge interns for all of our different departments and positions…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-09-10",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Columbus-OH/SkillBridge-Military-Intern--DOW-_R13772",
+      "external_id": "R13772",
+      "verified_at": "2026-08-29T15:40:23Z",
+      "match_score": 85
+    },
+    {
       "id": "valero-energy-ac21abc6c4fd",
       "source_key": "valero-energy",
       "fortune_rank": 40,
@@ -6402,6 +8521,68 @@
       "match_score": 85
     },
     {
+      "id": "mosaic-ce363fc3131b",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "North America Mosaic Co-Op Program",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Digital transformation",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Co-Ops Program — Mosaic Applications for the upcoming term are closing soon — closes Oct 18 . North America Mosaic Co-Op Program Gain real-world experience Work along side industry experts Make an impact at a Fortune 500 Company Apply → Paid Co-op + Relocation Support **…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://mosaicco.com/Co-Op-and-Internships",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:41:03Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-769accf74e1e",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "North America Mosaic Co-Op Program",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Digital transformation",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Co-Ops Program — Mosaic Applications for the upcoming term are closing soon — closes Oct 18 . North America Mosaic Co-Op Program Gain real-world experience Work along side industry experts Make an impact at a Fortune 500 Company Apply → Paid Co-op + Relocation Support **…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://mosaicco.com/Co-op-and-Internships",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:41:04Z",
+      "match_score": 85
+    },
+    {
       "id": "mondelez-international-2ce83e181602",
       "source_key": "mondelez-international",
       "fortune_rank": 122,
@@ -6426,7 +8607,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-08-29T11:08:45Z",
+      "verified_at": "2026-08-29T15:39:33Z",
       "match_score": 85
     },
     {
@@ -6457,7 +8638,7 @@
       "deadline": null,
       "url": "https://careers.massmutual.com/job/boston/actuarial-intern-summer-2027/724/98808954544",
       "external_id": null,
-      "verified_at": "2026-08-29T11:08:44Z",
+      "verified_at": "2026-08-29T15:39:32Z",
       "match_score": 85
     },
     {
@@ -6665,6 +8846,393 @@
       "url": "https://hii.com/careers/ingalls-apprentice-school",
       "external_id": null,
       "verified_at": "2026-08-29T11:09:56Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-6979850c34dd",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Supply Chain Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Preferred major(s): Supply Chain Management Preferred GPA: Minimum 2.7 cumulative, preferred 3.0 cumulative Length of program: 3-month summer internship Need Something Else? More Internship Opportunities Questions View All FAQs Go Contact Us Go",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/supply-chain-internship/",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:40:00Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-ce3807904c98",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "R&D Product Development Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Product management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "Preferred major(s): Food Science or another related field Preferred GPA: Minimum 3.0 cumulative Length of program: 3-month summer internship Need Something Else? More Internship Opportunities Questions View All FAQs Go Contact Us Go",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/rd-product-development-internship/",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:40:01Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-def3a6809eb0",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "R&D Packaging Engineering Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Preferred major(s): Packaging Engineering Preferred GPA: Minimum 3.0 cumulative Length of program: 3-month summer internship or 6-month co-op Need Something Else? More Internship Opportunities Questions View All FAQs Go Contact Us Go",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/rd-packaging-engineering-internship/",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:40:00Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-fcc911fdbecc",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Production Management Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "< Ask & Answer Internship Opportunities Explore This Section Behind the Label Company & General Charitable Giving & Donations Coupons, Samples & Recipes Food Prep, Safety & Storage Product Availability Social Responsibility Internship Opportunities Production Management…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/production-management-internship/",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:39:59Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-45f0af090889",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Marketing Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "< Ask & Answer Internship Opportunities Explore This Section Behind the Label Company & General Charitable Giving & Donations Coupons, Samples & Recipes Food Prep, Safety & Storage Product Availability Social Responsibility Internship Opportunities Marketing Internship Tags…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/marketing-internship/",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:39:57Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-d3ffbfeee034",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Maintenance Engineering Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Preferred major(s): Mechanical Engineering, Electrical Engineering, Civil Engineering, or a related engineering field Preferred GPA: Minimum 2.7 cumulative Length of program: 3-month summer internship or 6-month co-op Need Something Else?",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/maintenance-engineering-internship/",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:39:59Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-440dfc2ff788",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Live Production Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "< Ask & Answer Internship Opportunities Explore This Section Behind the Label Company & General Charitable Giving & Donations Coupons, Samples & Recipes Food Prep, Safety & Storage Product Availability Social Responsibility Internship Opportunities Live Production Internship…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/live-production-internship/",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:39:59Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-f4c280645704",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Internship Opportunities",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Strategy",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "< Working at Hormel Foods Internship Opportunities Apply Now Explore This Section Our Culture Employee Resource Groups Military Recruitment History with U.S. Military Our Hometown Working at Hormel Foods Internship Opportunities Our Locations World Headquarters – Austin, MN…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/careers/career-center/internship-opportunities/",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:39:56Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-00c20d33c5c0",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Insights & Analytics Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Will gain exposure to and understanding of consumer and customer research components of category and brand thought leadership initiatives, analyzing various data/information sources to develop recommendations for brand growth opportunities",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/insights-analytics-internship/",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:40:01Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-48ff69caea2f",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Information Technology Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "IT analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Preferred major(s): Management of Information Systems (MIS) or related field Preferred GPA: Minimum 3.0 cumulative Length of program: 3-month summer internship Need Something Else? More Internship Opportunities Questions View All FAQs Go Contact Us Go",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/information-technology-internship/",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:40:01Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-62dcb4e134fc",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Industrial Engineering Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "Identify improvements to work methods by reviewing the methods and analyzing potential method/design changes. Analyze operations and create AutoCAD layouts. Evaluate downtimes and methods to increase efficiency. Evaluate, recommend and install new equipment and layouts",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/industrial-engineering-internship/",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:39:57Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-1ac843a64258",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Hormel Foods Recognized for Having One of the Nation’s Top Internship Programs",
+      "location": "Austin , Minn.",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "< Press Releases Company Explore This Section Press Releases Awards & Recognition Brands Company Responsibility Events Performance Innovation News Awards & Recognition Brands Company Responsibility Events Performance Innovation Media Resources Hormel Foods Recognized for Having…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/newsroom/press-releases/hormel-foods-recognized-for-having-one-of-the-nations-top-internship-programs/",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:39:57Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-788d5e3f503c",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Foodservice Sales Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Preferred major(s): Marketing, Professional Selling, Agribusiness, Business Administration, Hospitality or Hotel/Restaurant Management or relevant degree program Preferred GPA: Minimum 3.0 cumulative Length of program: 3-month summer internship Need Something Else?",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/foodservice-sales-internship/",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:39:59Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-cd84bb756d5a",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Food Safety & Quality Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "This includes supporting management in the implementation of food safety and food quality processes and procedures. Preferred major(s): Food Science, Animal Science, Agricultural Business, Management, or related field Preferred GPA: Minimum 2.7 cumulative Length of program:…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/food-safety-quality-internship/",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:39:57Z",
       "match_score": 85
     },
     {
@@ -6957,6 +9525,319 @@
       "url": "https://www.borgwarner.com/careers/job-search?id=R2026-3439",
       "external_id": null,
       "verified_at": "2026-08-28T22:26:36Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-bba324d8f147",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Đoàn Sĩ Anh | Retrofit Engineering Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Đoàn Sĩ Anh | Retrofit Engineering Intern Published Sept. 26, 2024 Business Unit: Engineering Location: Ho Chi Minh, Vietnam University: TU Delft Degree Program: Aerospace Engineering What is your role…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/meet-Doan",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:42:25Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-1f189a7c918c",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Niyathi Gorantla | Sustainability Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Niyathi Gorantla | Sustainability Intern Published Aug. 20, 2024 Business Unit: Corporate Location: Chicago University: Duke University Degree Program: B.S. in Computer Science What is your role at Boeing?",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/NiyathiGorantla",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:42:24Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-fb5e2f819966",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Mya Beathley | Engineering Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Mya Beathley | Engineering Intern Published Aug. 20, 2024 Business Unit: Boeing Defense, Space & Security Location: Oklahoma City University: University of Southern California Degree Program: B.S",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/MyaBeathley",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:42:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-aa00c3ee8d66",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Meet Abbey Carlson: Former Intern Turned Space and Launch Engineer",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Meet Abbey Carlson: Former Intern Turned Space and Launch Engineer Published April 16, 2021 While 2020 was an unusual year for everyone, with many life events put on pause or canceled, Abbey Carlson was…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/Meet-Abbey-Carlson",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:42:21Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-3bbefc4598f8",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Eva Strang | Strategy Analyst Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Eva Strang | Strategy Analyst Intern Published Aug. 20, 2024 Business Unit: Boeing Global, Ventures and Innovation Location: London University: University of Strathclyde Degree Program: B.A",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/EvaStrang",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:42:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-eb83478639e0",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Elisa Rwagasana Ishimwe | Information Technology and Data Analytics Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Elisa Rwagasana Ishimwe | Information Technology and Data Analytics Intern Published Aug. 20, 2024 Business Unit: Corporate Location: Kent, Wash. University: College of Wooster Degree Program: B.A",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/ElisaRwagasanaIshimwe",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:42:24Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-22e159d099e9",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Technical Apprenticeship Program (BTAP)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Boeing Technical Apprenticeship Program (BTAP) Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Boeing Technical Apprenticeship Program (BTAP) The digital revolution has introduced new demands for technical skills across the aerospace industry, and the…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/BTAP",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:42:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-fe9864b7a9cf",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Atira Sarat | Sustainability Innovation Research Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Atira Sarat | Sustainability Innovation Research Intern Published Sept. 26, 2024 Business Unit: Commercial Airplanes Digital Product Development Location: Singapore University: National University of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/meet-Atira",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:42:25Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-d3fc1e29e260",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Adrian Sosa | Structures Design Engineer Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Adrian Sosa | Structures Design Engineer Intern Published Aug. 20, 2024 Business Unit: Boeing Commercial Airplanes Location: Everett, Wash. University: University of Puerto Rico at Mayagüez Degree…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/AdrianSosa",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:42:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-1a2b13c2711c",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Adrian Loekman | Airplane Maintenance Engineering Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Adrian Loekman | Airplane Maintenance Engineering Intern Published Sept. 26, 2024 Business Unit: Airplane Maintenance Engineering Location: Jakarta, Indonesia & Seal Beach, California University: UCLA…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/meet-AdrianL",
+      "external_id": null,
+      "verified_at": "2026-08-29T15:42:25Z",
       "match_score": 85
     }
   ]
