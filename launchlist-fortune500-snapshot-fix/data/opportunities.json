@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T21:53:15Z",
+  "updated_at": "2026-09-02T00:22:43Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,10 +12,10 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-09-01T21:49:02Z",
+  "directory_refreshed_at": "2026-09-02T00:17:35Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 265,
-  "companies_failed_last_24h": 4,
+  "companies_failed_last_24h": 5,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "accendra-health",
@@ -29,6 +29,19 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": null
+    },
+    {
+      "key": "bank-of-america",
+      "rank": 20,
+      "company": "Bank of America",
+      "fortune_500": true,
+      "checked_at": "2026-09-02T00:22:43Z",
+      "status": "error",
+      "issue_type": "Scan error",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.bankofamerica.com/en-us/students/job-search?ref=search&search=getAllJobs&start=0&rows=10",
+      "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
     },
     {
       "key": "international-business-machines",
@@ -70,10 +83,68 @@
       "error": null
     }
   ],
-  "companies_with_eligible_jobs": 62,
+  "companies_with_eligible_jobs": 67,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 455,
+  "opportunity_count": 469,
   "opportunities": [
+    {
+      "id": "j-m-smucker-4941041a5947",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "R&D Engineering Intern, Co-Op 2027 (8 months)",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Your Opportunity as a n Engineering Intern As an intern with in our Corporate Engineering Organization, you will work on a Process Engineering Team s upporting Research and Development . Y ou will work on research projects that involve designing and executing experiments in the…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-02",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/R-D-Engineering-Intern--Co-Op-2027--8-months-_115696",
+      "external_id": "115696",
+      "verified_at": "2026-09-02T00:18:13Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-4a25b29c27f1",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Markets – Sales and Trading, Summer Analyst, London – United Kingdom, 2027",
+      "location": "London United Kingdom",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Excel",
+        "Product",
+        "Finance",
+        "Credit"
+      ],
+      "summary": "Are you ready to bring your knowledge from the classroom to the trading floor? Whether it’s honing your skills or building your network, we know that success can’t come without growth. Our programs equip you with the knowledge and training you need to play a valuable role on…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-02",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/London--United-Kingdom/Markets---Sales-and-Trading--Summer-Analyst--London---United-Kingdom--2027_26987141",
+      "external_id": "26987141",
+      "verified_at": "2026-09-02T00:21:04Z",
+      "match_score": 85
+    },
     {
       "id": "travelers-0e97868e97cc",
       "source_key": "travelers",
@@ -698,30 +769,30 @@
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-4941041a5947",
+      "id": "j-m-smucker-c6eeca22fea8",
       "source_key": "smucker",
       "fortune_rank": 456,
       "fortune_500": true,
       "company": "J.M. Smucker",
-      "title": "R&D Engineering Intern, Co-Op 2027 (8 months)",
-      "location": "Orrville, OH",
+      "title": "Operations Engineering Intern, Summer 2027 (Multiple Locations)",
+      "location": "New Orleans, LA",
       "region": "United States",
-      "opportunity_type": "Co-op",
+      "opportunity_type": "Internship",
       "categories": [
         "Asset-based lending"
       ],
       "tags": [
-        "Product"
+        "Operations"
       ],
-      "summary": "Your Opportunity as a n Engineering Intern As an intern with in our Corporate Engineering Organization, you will work on a Process Engineering Team s upporting Research and Development . Y ou will work on research projects that involve designing and executing experiments in the…",
+      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in Operations Engineering , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": true,
       "posted_date": "2026-09-01",
       "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/R-D-Engineering-Intern--Co-Op-2027--8-months-_115696",
-      "external_id": "115696",
-      "verified_at": "2026-09-01T21:49:40Z",
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/New-Orleans-LA/Operations-Engineering-Intern--Summer-2027--Multiple-Locations-_115721",
+      "external_id": "115721",
+      "verified_at": "2026-09-02T00:18:13Z",
       "match_score": 85
     },
     {
@@ -811,6 +882,37 @@
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Singapore/Equipment-Maintenance-Intern_R5037065-1",
       "external_id": "R5037065",
       "verified_at": "2026-09-01T21:50:57Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-e82c6b5427fe",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Market Operations Junior Analyst Program Hybrid",
+      "location": "Getzville New York United States",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Product",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Team/ Role Overview Join Citi’s Markets Operations team and start your professional journey at the heart of global financial markets. This is your opportunity to step directly into a critical role where you’ll gain hands on experience supporting the processes that keep Citi’s…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Getzville-New-York-United-States/Market-Operations-Junior-Analyst-Program-Hybrid_26991391-1",
+      "external_id": "26991391",
+      "verified_at": "2026-09-02T00:21:04Z",
       "match_score": 85
     },
     {
@@ -1686,33 +1788,6 @@
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-c6eeca22fea8",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Operations Engineering Intern, Summer 2027 (Multiple Locations)",
-      "location": "New Orleans, LA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in Operations Engineering , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-08-31",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/New-Orleans-LA/Operations-Engineering-Intern--Summer-2027--Multiple-Locations-_115721",
-      "external_id": "115721",
-      "verified_at": "2026-09-01T21:49:41Z",
-      "match_score": 85
-    },
-    {
       "id": "ge-vernova-ac69ac01727c",
       "source_key": "ge-vernova",
       "fortune_rank": 124,
@@ -2117,6 +2192,96 @@
       "url": "https://medline.wd5.myworkdayjobs.com/Medline/job/Wuhan-/Intern_R2616498",
       "external_id": "R2616498",
       "verified_at": "2026-09-01T05:17:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-a612a0474adf",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Spring/Summer 2027 Field Operations and Grower Representative Intern - Oxnard, CA",
+      "location": "Oxnard, CA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "Your Opportunity as a Field Operations & Grower Representative Intern As an intern within our operations department, you will work closely with the processing manager to ensure coordination of field fruit deliveries. You will ensure proper contact and relationships with the…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-29",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
+      "external_id": "115735",
+      "verified_at": "2026-09-02T00:18:13Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-5ac63b3bb2a7",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Information Services Intern, Summer 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Risk"
+      ],
+      "summary": "Infrastructure & Support Services – In this role, you will collaborate with ITP team members and employees from across the company to procure , receive, store, install, test, and ship peripheral computer equipment, software, and supplies",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-29",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Information-Services-Intern--Summer-2027_115744",
+      "external_id": "115744",
+      "verified_at": "2026-09-02T00:18:13Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-9069e430e814",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Finance & Accounting Intern, Summer 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Accounting / financial analyst",
+        "FP&A",
+        "Corporate finance"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Treasury",
+        "FP&A",
+        "Accounting"
+      ],
+      "summary": "Your Opportunity as a Finance Intern As an intern within our Accounting and Finance organization, responsibilities will vary based on the department and role within Finance. We have internship opportunities in Financial Reporting, Plant Finance, Supply Chain Finance, Finance…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-29",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Summer-2027_115743",
+      "external_id": "115743",
+      "verified_at": "2026-09-02T00:18:13Z",
       "match_score": 85
     },
     {
@@ -2643,93 +2808,62 @@
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-a612a0474adf",
+      "id": "j-m-smucker-3700e742f4f3",
       "source_key": "smucker",
       "fortune_rank": 456,
       "fortune_500": true,
       "company": "J.M. Smucker",
-      "title": "Spring/Summer 2027 Field Operations and Grower Representative Intern - Oxnard, CA",
+      "title": "Supply Chain Intern, Summer 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "Your Opportunity as a Supply Chain Intern As an intern within our Supply Chain organization, responsibilities will vary based on your position. You will have the opportunity to assist in one of the following areas: Corporate Transportation, Corporate Warehousing, Customer…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-28",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Supply-Chain-Intern--Summer-2027_115694",
+      "external_id": "115694",
+      "verified_at": "2026-09-02T00:18:12Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-9b1c1a7ac540",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Spring/Summer 2027 Supply Chain Intern - Oxnard, CA",
       "location": "Oxnard, CA",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
+        "Operations analyst",
         "Asset-based lending"
       ],
       "tags": [
-        "Operations",
+        "Product",
         "Accounting"
       ],
-      "summary": "Your Opportunity as a Field Operations & Grower Representative Intern As an intern within our operations department, you will work closely with the processing manager to ensure coordination of field fruit deliveries. You will ensure proper contact and relationships with the…",
+      "summary": "Your Opportunity as a Supply Chain Intern As an intern within our logistics department, you will work closely with management, office, quality control, maintenance and hourly personnel to achieve goals. You will have constant communication with the carrier offices and the…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-08-28",
       "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
-      "external_id": "115735",
-      "verified_at": "2026-09-01T21:49:41Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-5ac63b3bb2a7",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Information Services Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Risk"
-      ],
-      "summary": "Infrastructure & Support Services – In this role, you will collaborate with ITP team members and employees from across the company to procure , receive, store, install, test, and ship peripheral computer equipment, software, and supplies",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-08-28",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Information-Services-Intern--Summer-2027_115744",
-      "external_id": "115744",
-      "verified_at": "2026-09-01T21:49:40Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-9069e430e814",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Finance & Accounting Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Accounting / financial analyst",
-        "FP&A",
-        "Corporate finance"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Treasury",
-        "FP&A",
-        "Accounting"
-      ],
-      "summary": "Your Opportunity as a Finance Intern As an intern within our Accounting and Finance organization, responsibilities will vary based on the department and role within Finance. We have internship opportunities in Financial Reporting, Plant Finance, Supply Chain Finance, Finance…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-08-28",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Summer-2027_115743",
-      "external_id": "115743",
-      "verified_at": "2026-09-01T21:49:40Z",
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
+      "external_id": "115736",
+      "verified_at": "2026-09-02T00:18:13Z",
       "match_score": 85
     },
     {
@@ -3409,62 +3543,56 @@
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-3700e742f4f3",
+      "id": "j-m-smucker-ca1dc4157d94",
       "source_key": "smucker",
       "fortune_rank": 456,
       "fortune_500": true,
       "company": "J.M. Smucker",
-      "title": "Supply Chain Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Your Opportunity as a Supply Chain Intern As an intern within our Supply Chain organization, responsibilities will vary based on your position. You will have the opportunity to assist in one of the following areas: Corporate Transportation, Corporate Warehousing, Customer…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-08-27",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Supply-Chain-Intern--Summer-2027_115694",
-      "external_id": "115694",
-      "verified_at": "2026-09-01T21:49:40Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-9b1c1a7ac540",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Spring/Summer 2027 Supply Chain Intern - Oxnard, CA",
+      "title": "Spring/Summer 2027 Quality Assurance Intern - Oxnard, CA",
       "location": "Oxnard, CA",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
-        "Operations analyst",
         "Asset-based lending"
       ],
       "tags": [
         "Product",
         "Accounting"
       ],
-      "summary": "Your Opportunity as a Supply Chain Intern As an intern within our logistics department, you will work closely with management, office, quality control, maintenance and hourly personnel to achieve goals. You will have constant communication with the carrier offices and the…",
+      "summary": "Your Opportunity as a Quality Assurance Intern As an intern within our quality department, you will work closely with management, office, quality control, maintenance and hourly personnel to achieve goals. You will assist in identifying potential quality problems; develop,…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-08-27",
       "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
-      "external_id": "115736",
-      "verified_at": "2026-09-01T21:49:41Z",
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Quality-Assurance-Intern---Oxnard--CA_115727",
+      "external_id": "115727",
+      "verified_at": "2026-09-02T00:18:13Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-a06ab7a2cfe0",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Spring/Summer 2027 Human Resources Intern - Oxnard, CA",
+      "location": "Oxnard, CA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Your Opportunity as a Human Resources Intern As an intern within our human resources department, you will work closely with management, office, quality control, maintenance and hourly personnel to achieve goals. Location: Oxnard, CA Work Arrangements: Onsite, 100% of the time…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-27",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
+      "external_id": "115725",
+      "verified_at": "2026-09-02T00:18:13Z",
       "match_score": 85
     },
     {
@@ -3494,6 +3622,34 @@
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Lisburn/Manufacturing-Quality-Intern_R5050189-2",
       "external_id": "R5050189",
       "verified_at": "2026-09-01T18:38:24Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-811e68cd596a",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Banking - Investment Banking, Part-time Intern, Tokyo-JPN, 2027",
+      "location": "Chiyoda-ku Tokyo Japan",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Credit",
+        "Risk"
+      ],
+      "summary": "The Intern Analyst is an entry level position responsible for contributing to the services of the overall team with a focus on raising funds in the capital markets and providing strategic advisory services in coordination with the Institutional Banking team",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-27",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Chiyoda-ku-Tokyo-Japan/Banking---Investment-Banking--Part-time-Intern--Tokyo-JPN--2027_26973462",
+      "external_id": "26973462",
+      "verified_at": "2026-09-02T00:20:55Z",
       "match_score": 85
     },
     {
@@ -3656,6 +3812,33 @@
       "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/El-Segundo-CA/University---2027-Summer-Games-Cyber-Security-Intern---El-Segundo--CA_R0248047",
       "external_id": "R0248047",
       "verified_at": "2026-09-01T18:37:49Z",
+      "match_score": 85
+    },
+    {
+      "id": "vistra-828bc94324df",
+      "source_key": "vistra",
+      "fortune_rank": 251,
+      "fortune_500": true,
+      "company": "Vistra",
+      "title": "Nuclear Instrument & Control Tech Apprentice-Shift",
+      "location": "Shippingport, Pennsylvania",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "If you have what it takes to become part of the Vistra family and would like to start a promising career with a global leader, take a look at the exciting employment opportunities that are currently available and apply online. Job Summary Job Description DUTIES: Under direct…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-26",
+      "deadline": null,
+      "url": "https://vst.wd5.myworkdayjobs.com/vistra_careers/job/Shippingport-Pennsylvania/Nuclear-Instrument---Control-Tech-Apprentice-Shift_40015781-1",
+      "external_id": "40015781",
+      "verified_at": "2026-09-02T00:18:54Z",
       "match_score": 85
     },
     {
@@ -3864,56 +4047,109 @@
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-ca1dc4157d94",
+      "id": "j-m-smucker-bac848157501",
       "source_key": "smucker",
       "fortune_rank": 456,
       "fortune_500": true,
       "company": "J.M. Smucker",
-      "title": "Spring/Summer 2027 Quality Assurance Intern - Oxnard, CA",
-      "location": "Oxnard, CA",
+      "title": "Sensory and Products Research Intern, Summer 2027",
+      "location": "Orrville, OH",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
         "Asset-based lending"
       ],
       "tags": [
-        "Product",
-        "Accounting"
+        "Product"
       ],
-      "summary": "Your Opportunity as a Quality Assurance Intern As an intern within our quality department, you will work closely with management, office, quality control, maintenance and hourly personnel to achieve goals. You will assist in identifying potential quality problems; develop,…",
+      "summary": "Your Opportunity as an Intern This posting represents two internship opportunities: Sensory and R&D Products Research. Both roles are looking for students interested in sensory and consumer research. While both apply scientific rigor to understand our products and serve as a…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
+      "freshman_friendly": true,
       "posted_date": "2026-08-26",
       "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Quality-Assurance-Intern---Oxnard--CA_115727",
-      "external_id": "115727",
-      "verified_at": "2026-09-01T21:49:42Z",
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
+      "external_id": "115677",
+      "verified_at": "2026-09-02T00:18:13Z",
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-a06ab7a2cfe0",
+      "id": "j-m-smucker-ea5ec0d5abdb",
       "source_key": "smucker",
       "fortune_rank": 456,
       "fortune_500": true,
       "company": "J.M. Smucker",
-      "title": "Spring/Summer 2027 Human Resources Intern - Oxnard, CA",
-      "location": "Oxnard, CA",
+      "title": "Research & Development Intern/Co-Op, 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Your Opportunity as a Research & Development Intern As an intern within our Research and Development organization you will have the opportunity to independently manage and conduct all technical functions of a small research project, as well as analyze data and report on key…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-26",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
+      "external_id": "115698",
+      "verified_at": "2026-09-02T00:18:13Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-0fe924084904",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Microbiology Intern, Summer 2027",
+      "location": "Orrville, OH",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
         "Asset-based lending"
       ],
       "tags": [],
-      "summary": "Your Opportunity as a Human Resources Intern As an intern within our human resources department, you will work closely with management, office, quality control, maintenance and hourly personnel to achieve goals. Location: Oxnard, CA Work Arrangements: Onsite, 100% of the time…",
+      "summary": "Your Opportunity as a Microbiology Intern As an intern within our Microbiology Lab, you will complete routine microbiological testing on finished goods and environmental samples. You will provide laboratory support and complete microbiological reporting within company databases",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": true,
       "posted_date": "2026-08-26",
       "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
-      "external_id": "115725",
-      "verified_at": "2026-09-01T21:49:41Z",
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Microbiology-Intern--Summer-2027_115676",
+      "external_id": "115676",
+      "verified_at": "2026-09-02T00:18:12Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-0d79f821ca33",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Analytical Lab Intern, Summer 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Your Opportunity as a Analytical Lab Intern As an intern within our Analytical Lab you will gain experience in our corporate analytical laboratory . You will enhance your food product analytical attributes knowledge base . You will operate analytical equipment ( i.e",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-26",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Analytical-Lab-Intern--Summer-2027_115678",
+      "external_id": "115678",
+      "verified_at": "2026-09-02T00:18:12Z",
       "match_score": 85
     },
     {
@@ -4183,109 +4419,57 @@
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-bac848157501",
+      "id": "j-m-smucker-fc36c2ec7452",
       "source_key": "smucker",
       "fortune_rank": 456,
       "fortune_500": true,
       "company": "J.M. Smucker",
-      "title": "Sensory and Products Research Intern, Summer 2027",
-      "location": "Orrville, OH",
+      "title": "Operations Engineering Intern, Spring 2027 - Memphis, TN",
+      "location": "Memphis, TN",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
         "Asset-based lending"
       ],
       "tags": [
-        "Product"
+        "Operations"
       ],
-      "summary": "Your Opportunity as an Intern This posting represents two internship opportunities: Sensory and R&D Products Research. Both roles are looking for students interested in sensory and consumer research. While both apply scientific rigor to understand our products and serve as a…",
+      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in O perations , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and manage projects,…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
+      "freshman_friendly": false,
       "posted_date": "2026-08-25",
       "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
-      "external_id": "115677",
-      "verified_at": "2026-09-01T21:49:40Z",
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Memphis-TN/Operations-Engineering-Intern--Spring-2027---Memphis--TN_114845",
+      "external_id": "114845",
+      "verified_at": "2026-09-02T00:18:13Z",
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-ea5ec0d5abdb",
+      "id": "j-m-smucker-c79b6d31f2dc",
       "source_key": "smucker",
       "fortune_rank": 456,
       "fortune_500": true,
       "company": "J.M. Smucker",
-      "title": "Research & Development Intern/Co-Op, 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Your Opportunity as a Research & Development Intern As an intern within our Research and Development organization you will have the opportunity to independently manage and conduct all technical functions of a small research project, as well as analyze data and report on key…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-08-25",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
-      "external_id": "115698",
-      "verified_at": "2026-09-01T21:49:40Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-0fe924084904",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Microbiology Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Your Opportunity as a Microbiology Intern As an intern within our Microbiology Lab, you will complete routine microbiological testing on finished goods and environmental samples. You will provide laboratory support and complete microbiological reporting within company databases",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-08-25",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Microbiology-Intern--Summer-2027_115676",
-      "external_id": "115676",
-      "verified_at": "2026-09-01T21:49:40Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-0d79f821ca33",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Analytical Lab Intern, Summer 2027",
-      "location": "Orrville, OH",
+      "title": "Operations Engineering Intern, Spring 2027 - Lexington, KY",
+      "location": "Lexington, KY",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
         "Asset-based lending"
       ],
       "tags": [
-        "Product"
+        "Operations"
       ],
-      "summary": "Your Opportunity as a Analytical Lab Intern As an intern within our Analytical Lab you will gain experience in our corporate analytical laboratory . You will enhance your food product analytical attributes knowledge base . You will operate analytical equipment ( i.e",
+      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in O perations , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and manage projects,…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
+      "freshman_friendly": false,
       "posted_date": "2026-08-25",
       "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Analytical-Lab-Intern--Summer-2027_115678",
-      "external_id": "115678",
-      "verified_at": "2026-09-01T21:49:40Z",
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Lexington-KY/Operations-Engineering-Intern--Spring-2027---Lexington--KY_114841",
+      "external_id": "114841",
+      "verified_at": "2026-09-02T00:18:13Z",
       "match_score": 85
     },
     {
@@ -5174,60 +5358,6 @@
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-fc36c2ec7452",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Operations Engineering Intern, Spring 2027 - Memphis, TN",
-      "location": "Memphis, TN",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in O perations , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and manage projects,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-24",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Memphis-TN/Operations-Engineering-Intern--Spring-2027---Memphis--TN_114845",
-      "external_id": "114845",
-      "verified_at": "2026-09-01T21:49:41Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-c79b6d31f2dc",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Operations Engineering Intern, Spring 2027 - Lexington, KY",
-      "location": "Lexington, KY",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in O perations , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and manage projects,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-24",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Lexington-KY/Operations-Engineering-Intern--Spring-2027---Lexington--KY_114841",
-      "external_id": "114841",
-      "verified_at": "2026-09-01T21:49:41Z",
-      "match_score": 85
-    },
-    {
       "id": "ge-vernova-a247468845b9",
       "source_key": "ge-vernova",
       "fortune_rank": 124,
@@ -5660,6 +5790,66 @@
       "match_score": 85
     },
     {
+      "id": "somnigroup-international-3039c8625598",
+      "source_key": "somnigroup-international",
+      "fortune_rank": 35,
+      "fortune_500": true,
+      "company": "Somnigroup International",
+      "title": "Financial Co-Op (Part-time)",
+      "location": "Dallas, Texas",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "This position requires in-office presence and is only offered at the posted location. At AT&T, you’ll be empowered to create real change in an ever-expanding, connected world. Your impact will be felt no matter how your work translates to our core goal of serving customers and…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-20",
+      "deadline": "2026-09-18",
+      "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Financial-Co-Op--Part-time-_R-119461-1",
+      "external_id": "R-119461",
+      "verified_at": "2026-09-02T00:19:50Z",
+      "match_score": 85
+    },
+    {
+      "id": "somnigroup-international-27c429ad8138",
+      "source_key": "somnigroup-international",
+      "fortune_rank": 35,
+      "fortune_500": true,
+      "company": "Somnigroup International",
+      "title": "Finance Development Program - Internship",
+      "location": "Dallas, Texas",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate finance",
+        "FP&A",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "FP&A",
+        "Accounting"
+      ],
+      "summary": "This position requires in-office presence 5 days a week and is only offered at the posted location. At AT&T, you’ll be empowered to create real change in an ever-expanding, connected world. Your impact will be felt no matter how your work translates to our core goal of serving…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "helor’s degree program with a focus in Finance, Accounting, or specialized related degree Estimated graduation date between Fall 2027 - Spring 2029 Ability to meet the…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-20",
+      "deadline": "2026-09-18",
+      "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Finance-Development-Program---Internship_R-119471",
+      "external_id": "R-119471",
+      "verified_at": "2026-09-02T00:19:50Z",
+      "match_score": 90
+    },
+    {
       "id": "mosaic-d75a6a78b3a2",
       "source_key": "mosaic",
       "fortune_rank": 366,
@@ -5717,66 +5907,6 @@
       "external_id": "JR-40111795",
       "verified_at": "2026-09-01T21:49:48Z",
       "match_score": 85
-    },
-    {
-      "id": "somnigroup-international-3039c8625598",
-      "source_key": "somnigroup-international",
-      "fortune_rank": 35,
-      "fortune_500": true,
-      "company": "Somnigroup International",
-      "title": "Financial Co-Op (Part-time)",
-      "location": "Dallas, Texas",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "This position requires in-office presence and is only offered at the posted location. At AT&T, you’ll be empowered to create real change in an ever-expanding, connected world. Your impact will be felt no matter how your work translates to our core goal of serving customers and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-19",
-      "deadline": "2026-09-18",
-      "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Financial-Co-Op--Part-time-_R-119461-1",
-      "external_id": "R-119461",
-      "verified_at": "2026-09-01T21:51:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "somnigroup-international-27c429ad8138",
-      "source_key": "somnigroup-international",
-      "fortune_rank": 35,
-      "fortune_500": true,
-      "company": "Somnigroup International",
-      "title": "Finance Development Program - Internship",
-      "location": "Dallas, Texas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Corporate finance",
-        "FP&A",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "FP&A",
-        "Accounting"
-      ],
-      "summary": "This position requires in-office presence 5 days a week and is only offered at the posted location. At AT&T, you’ll be empowered to create real change in an ever-expanding, connected world. Your impact will be felt no matter how your work translates to our core goal of serving…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "helor’s degree program with a focus in Finance, Accounting, or specialized related degree Estimated graduation date between Fall 2027 - Spring 2029 Ability to meet the…",
-      "freshman_friendly": true,
-      "posted_date": "2026-08-19",
-      "deadline": "2026-09-18",
-      "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Finance-Development-Program---Internship_R-119471",
-      "external_id": "R-119471",
-      "verified_at": "2026-09-01T21:51:24Z",
-      "match_score": 90
     },
     {
       "id": "rockwell-automation-5a9dd8e16372",
@@ -7925,6 +8055,33 @@
       "match_score": 85
     },
     {
+      "id": "j-m-smucker-7c81dce2d0cb",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Operations Engineering Intern, Spring 2027 - Scottsville, KY",
+      "location": "Scottsville, KY",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in O perations , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and manage projects,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-11",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Scottsville-KY/Operations-Engineering-Intern--Spring-2027---Scottsville--KY_115475-1",
+      "external_id": "115475",
+      "verified_at": "2026-09-02T00:18:13Z",
+      "match_score": 85
+    },
+    {
       "id": "ryder-system-453762acea32",
       "source_key": "ryder-system",
       "fortune_rank": 346,
@@ -7980,33 +8137,6 @@
       "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Riverview-FL/Operations-Engineering-Co-op-Intern---Spring-2027_64656",
       "external_id": "64656",
       "verified_at": "2026-08-31T23:54:32Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-7c81dce2d0cb",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Operations Engineering Intern, Spring 2027 - Scottsville, KY",
-      "location": "Scottsville, KY",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in O perations , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and manage projects,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-10",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Scottsville-KY/Operations-Engineering-Intern--Spring-2027---Scottsville--KY_115475-1",
-      "external_id": "115475",
-      "verified_at": "2026-09-01T21:49:41Z",
       "match_score": 85
     },
     {
@@ -8946,7 +9076,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-09-01T21:50:02Z",
+      "verified_at": "2026-09-02T00:18:28Z",
       "match_score": 85
     },
     {
@@ -10188,7 +10318,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Summer-2027-Intern-Interest-Application_115178",
       "external_id": "115178",
-      "verified_at": "2026-09-01T21:49:40Z",
+      "verified_at": "2026-09-02T00:18:12Z",
       "match_score": 85
     },
     {
@@ -10215,7 +10345,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Engineering-Intern--Fall-2026---Orrville--OH_114566",
       "external_id": "114566",
-      "verified_at": "2026-09-01T21:49:41Z",
+      "verified_at": "2026-09-02T00:18:13Z",
       "match_score": 85
     },
     {
@@ -10248,7 +10378,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-09-01T21:49:40Z",
+      "verified_at": "2026-09-02T00:18:12Z",
       "match_score": 85
     },
     {
@@ -11026,6 +11156,238 @@
       "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Commercial-Intern_JR102918",
       "external_id": "JR102918",
       "verified_at": "2026-08-31T20:10:53Z",
+      "match_score": 85
+    },
+    {
+      "id": "comfort-systems-usa-21d1eae5cc5b",
+      "source_key": "comfort-systems-usa",
+      "fortune_rank": 440,
+      "fortune_500": true,
+      "company": "Comfort Systems USA",
+      "title": "Summer Intern",
+      "location": "Houston, TX (Corp HQ)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Comfort Systems USA is currently searching for multiple interns to participate in their Early Careers Program for the Summer of 2026. The Early Careers Program an 8 week summer program designed to provide real-world work experience to students currently pursuing a degree in a…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://comfortsystemsusa.wd1.myworkdayjobs.com/Corpcareers/job/Houston-TX-Corp-HQ/Summer-Intern_JR106444",
+      "external_id": "JR106444",
+      "verified_at": "2026-09-02T00:19:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "comfort-systems-usa-ac56728d510c",
+      "source_key": "comfort-systems-usa",
+      "fortune_rank": 440,
+      "fortune_500": true,
+      "company": "Comfort Systems USA",
+      "title": "Operational Finance Intern",
+      "location": "Houston, TX (TAS-Cullen HQ)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate finance",
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Product",
+        "Operations",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "POSITION OVERVIEW: The Operational Finance Intern will support the Operations Finance team with day-to-day financial operations, including data entry, account reconciliations, and basic financial reporting. This role provides hands-on experience in a professional operations…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://comfortsystemsusa.wd1.myworkdayjobs.com/Corpcareers/job/Houston-TX-TAS-Cullen-HQ/Operational-Finance-Intern_JR105392-1",
+      "external_id": "JR105392",
+      "verified_at": "2026-09-02T00:19:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "comfort-systems-usa-776b83999a50",
+      "source_key": "comfort-systems-usa",
+      "fortune_rank": 440,
+      "fortune_500": true,
+      "company": "Comfort Systems USA",
+      "title": "Apprentice Plumber",
+      "location": "Arden, NC (CSUSA-SHO)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Comfort Systems USA Shoffner is the region's leader in HVACR and Plumbing services. We have a well-established reputation for quality work done by quality people and are one of the top 3 largest mechanical contractors in the nation and the value leader in the market",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://comfortsystemsusa.wd1.myworkdayjobs.com/Corpcareers/job/Arden-NC-CSUSA-SHO/Apprentice-Plumber_JR101916-1",
+      "external_id": "JR101916",
+      "verified_at": "2026-09-02T00:19:44Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-274a95767313",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Ukraine Internship Program - 2026",
+      "location": "KYIV Ukraine",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Finance",
+        "Risk"
+      ],
+      "summary": "Empowering Ukraine's Future Leaders in Finance At Citi, we believe in unlocking potential and fostering growth. We are excited to introduce the Citi Ukraine Internship Program, a unique one-year opportunity designed to empower talented, ambitious individuals in Ukraine",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/KYIV-Ukraine/Ukraine-Internship-Program---2026_25929484",
+      "external_id": "25929484",
+      "verified_at": "2026-09-02T00:20:58Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-209bf5bfd773",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Estágio Exclusivo PCD | Markets, Internship, São Paulo – Brazil, 2026",
+      "location": "Sao Paulo Sao Paulo Brazil",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "O Citi é o banco mais globalizado do mundo, com mais de 200 anos de atuação. Mantém presença em 95 países, 21 deles na América Latina, possui 200 milhões de contas de clientes e emprega mais de 200 mil pessoas. Disponibiliza para pessoas, corporações, governos e instituições…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Sao-Paulo-Sao-Paulo-Brazil/Estgio-Exclusivo-PCD---Markets--Internship--So-Paulo---Brazil--2026_26977986",
+      "external_id": "26977986",
+      "verified_at": "2026-09-02T00:20:58Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-0684ac94ade7",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Banking, Corporate Banking, Placement Analyst Internship, Paris, France 2026",
+      "location": "Paris France",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Commercial banking",
+        "Corporate treasury",
+        "Risk management"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Banking",
+        "Credit",
+        "Treasury"
+      ],
+      "summary": "You’re ready to bring your knowledge from the classroom to the boardroom, and Citi wants to help you get there. Whether it’s honing your skills or building your network, we know that success can’t come without growth. Our programs equip you with the knowledge and training you…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Corporate-Banking--Placement-Analyst-Internship--Paris--France-2026_25908794",
+      "external_id": "25908794",
+      "verified_at": "2026-09-02T00:20:58Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-58bd9a3ee85b",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "2025 Wealth Management Summer Internship, Dubai, UAE (UAE Nationals preferred)",
+      "location": "Dubai United Arab Emirates",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Commercial banking",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Banking"
+      ],
+      "summary": "The ten week summer analyst program starts in June and begins with an introduction to Citi and Corporate Banking. You will then join a team where you will gain a real-hands on experience by working on a number of live projects as well as attending speaker presentations",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ntations. High performing summer analysts will be considered for a full time position in 2026 after graduation. Your time here will look something like this... Supporting…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Dubai-United-Arab-Emirates/XMLNAME-2025-Wealth-Management-Summer-Internship--Dubai--UAE--UAE-Nationals-preferred-_25820546",
+      "external_id": "25820546",
+      "verified_at": "2026-09-02T00:20:59Z",
+      "match_score": 90
+    },
+    {
+      "id": "citigroup-4385cec5ea73",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "2025 Markets Internship Colombia",
+      "location": "Bogota Colombia",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Treasury"
+      ],
+      "summary": "Markets is the Treasury area for the bank. We are the Business Segment that does Trading and Sales activity (Front Office) in the FX and Securities financial markets. Other job-related duties may be assigned as required. ------------------------------------------------------…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Bogota--Colombia/XMLNAME-2025-Markets-Internship-Colombia_25836348",
+      "external_id": "25836348",
+      "verified_at": "2026-09-02T00:20:56Z",
       "match_score": 85
     },
     {
@@ -11891,7 +12253,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-09-01T21:49:09Z",
+      "verified_at": "2026-09-02T00:17:40Z",
       "match_score": 85
     },
     {
@@ -12485,6 +12847,36 @@
       "match_score": 85
     },
     {
+      "id": "ey-60e62ca11248",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "EY Türkiye - Audit Long Term Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Strategy",
+        "Accounting"
+      ],
+      "summary": "Show More EY Türkiye - Audit Long Term Intern 1740468 TUR-Adana, TUR-Ankara, TUR-Bursa, TUR-Istanbul, TUR-Izmir apply _________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/cGO6sAl9_0yHitWHawgmJg?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-09-02T00:19:24Z",
+      "match_score": 85
+    },
+    {
       "id": "campbell-s-49044d669353",
       "source_key": "campbell-s",
       "fortune_rank": 413,
@@ -12593,6 +12985,39 @@
       "url": "https://www.brightspringhealth.com/campus-opportunities/internship-opportunities/",
       "external_id": null,
       "verified_at": "2026-08-31T13:58:26Z",
+      "match_score": 85
+    },
+    {
+      "id": "boston-consulting-group-bcg-8e598938abbf",
+      "source_key": "bcg",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "Boston Consulting Group (BCG)",
+      "title": "Internship Opportunities",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Tech consulting",
+        "Risk management",
+        "Product management"
+      ],
+      "tags": [
+        "Product",
+        "Operations",
+        "Finance",
+        "Treasury",
+        "Risk"
+      ],
+      "summary": "Internship Opportunities As a consulting intern, you’ll collaborate with a diverse team to solve our clients’ problems, benefitting from our world-class learning and development programs. You can also build a solid foundation from which to apply for a full-time consulting role…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://careers.bcg.com/global/en/internship-opportunities",
+      "external_id": null,
+      "verified_at": "2026-09-02T00:20:14Z",
       "match_score": 85
     },
     {
