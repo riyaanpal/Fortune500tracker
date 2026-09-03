@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T00:24:26Z",
+  "updated_at": "2026-09-03T04:43:34Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,7 +12,7 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-09-03T00:19:03Z",
+  "directory_refreshed_at": "2026-09-03T04:38:20Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 308,
   "companies_failed_last_24h": 8,
@@ -29,19 +29,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs: 404 Client Error: Not Found for url: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs"
-    },
-    {
-      "key": "bank-of-america",
-      "rank": 20,
-      "company": "Bank of America",
-      "fortune_500": true,
-      "checked_at": "2026-09-02T00:22:43Z",
-      "status": "error",
-      "issue_type": "Scan error",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": "https://careers.bankofamerica.com/en-us/students/job-search?ref=search&search=getAllJobs&start=0&rows=10",
-      "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
     },
     {
       "key": "coterra-energy",
@@ -120,11 +107,24 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": null
+    },
+    {
+      "key": "united-services-automobile-assn",
+      "rank": 93,
+      "company": "United Services Automobile Assn.",
+      "fortune_500": true,
+      "checked_at": "2026-09-03T04:43:34Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
     }
   ],
-  "companies_with_eligible_jobs": 81,
+  "companies_with_eligible_jobs": 85,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 557,
+  "opportunity_count": 549,
   "opportunities": [
     {
       "id": "pfizer-e7426897931c",
@@ -267,7 +267,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_115697",
       "external_id": "115697",
-      "verified_at": "2026-09-03T00:19:41Z",
+      "verified_at": "2026-09-03T04:39:02Z",
       "match_score": 85
     },
     {
@@ -294,7 +294,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Decatur-AL/Operations-QA-Intern--Summer-2027--Decatur--AL_115757",
       "external_id": "115757",
-      "verified_at": "2026-09-03T00:19:41Z",
+      "verified_at": "2026-09-03T04:39:01Z",
       "match_score": 85
     },
     {
@@ -594,7 +594,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/R-D-Engineering-Intern--Co-Op-2027--8-months-_115696",
       "external_id": "115696",
-      "verified_at": "2026-09-03T00:19:41Z",
+      "verified_at": "2026-09-03T04:39:01Z",
       "match_score": 85
     },
     {
@@ -738,6 +738,67 @@
       "url": "https://ameren.wd1.myworkdayjobs.com/External/job/Dexter-MO/Lineman-Apprentice_033736-1",
       "external_id": "033736",
       "verified_at": "2026-09-02T04:42:13Z",
+      "match_score": 85
+    },
+    {
+      "id": "aig-d813bfb82205",
+      "source_key": "aig",
+      "fortune_rank": 172,
+      "fortune_500": true,
+      "company": "AIG",
+      "title": "2027 Early Careers: Summer Intern, Technology – United States, Charlotte, NC, Houston, TX, & Jersey City, NJ",
+      "location": "NC-Charlotte",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Technical Solutions",
+        "IT analyst",
+        "Data analyst"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Cloud",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "AIG is reimagining how we help customers manage risk. Join us as a Summer Intern in Information Technology and play a part in that transformation while gaining opportunities to learn, grow your skills, and build your experience as a valued member of the team",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-02",
+      "deadline": null,
+      "url": "https://aig.wd1.myworkdayjobs.com/early_careers/job/NC-Charlotte/XMLNAME-2027-Early-Careers--Summer-Intern--Technology---United-States--Charlotte--NC--Houston--TX----Jersey-City--NJ_JR2603638",
+      "external_id": "JR2603638",
+      "verified_at": "2026-09-03T04:40:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "aig-7a1e83924733",
+      "source_key": "aig",
+      "fortune_rank": 172,
+      "fortune_500": true,
+      "company": "AIG",
+      "title": "2027 Early Careers: Summer Intern, Claims – Juris Doctor – United States, Jersey City & New York City",
+      "location": "NJ-Jersey City",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Risk"
+      ],
+      "summary": "AIG is reimagining the way we help customers manage risk. Join us as a Summer Intern in the Claims department to play your part in that transformation with opportunities to learn and grow your skills and experience as a valued member of the team",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-02",
+      "deadline": null,
+      "url": "https://aig.wd1.myworkdayjobs.com/early_careers/job/NJ-Jersey-City/XMLNAME-2027-Early-Careers--Summer-Intern--Claims---Juris-Doctor---United-States--Jersey-City---New-York-City_JR2603636",
+      "external_id": "JR2603636",
+      "verified_at": "2026-09-03T04:40:47Z",
       "match_score": 85
     },
     {
@@ -1991,7 +2052,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/New-Orleans-LA/Operations-Engineering-Intern--Summer-2027--Multiple-Locations-_115721",
       "external_id": "115721",
-      "verified_at": "2026-09-03T00:19:41Z",
+      "verified_at": "2026-09-03T04:39:02Z",
       "match_score": 85
     },
     {
@@ -2751,6 +2812,61 @@
       "match_score": 85
     },
     {
+      "id": "andersons-547617fc975c",
+      "source_key": "andersons",
+      "fortune_rank": 397,
+      "fortune_500": true,
+      "company": "Andersons",
+      "title": "eCommerce Content Creator Intern (Spring 2027)",
+      "location": "Maumee, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "As a North American leader in agribusiness and renewable fuels, The Andersons operates in a unique space, bringing together agriculture, energy, and global markets. From the farm to customers around the world, we help move food, feed, and fuel where it’s needed most",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": null,
+      "url": "https://andersonsinc.wd1.myworkdayjobs.com/TheAndersonsCareers/job/Maumee-OH/eCommerce-Content-Creator-Intern--Spring-2027-_R12452",
+      "external_id": "R12452",
+      "verified_at": "2026-09-03T04:39:56Z",
+      "match_score": 85
+    },
+    {
+      "id": "andersons-afad381b7350",
+      "source_key": "andersons",
+      "fortune_rank": 397,
+      "fortune_500": true,
+      "company": "Andersons",
+      "title": "Customer Service Intern (Spring 2027)",
+      "location": "Maumee, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "As a North American leader in agribusiness and renewable fuels, The Andersons operates in a unique space, bringing together agriculture, energy, and global markets. From the farm to customers around the world, we help move food, feed, and fuel where it’s needed most",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": null,
+      "url": "https://andersonsinc.wd1.myworkdayjobs.com/TheAndersonsCareers/job/Maumee-OH/Customer-Service-Intern--Spring-2027-_R12463",
+      "external_id": "R12463",
+      "verified_at": "2026-09-03T04:39:55Z",
+      "match_score": 85
+    },
+    {
       "id": "amgen-53d247933396",
       "source_key": "amgen",
       "fortune_rank": 129,
@@ -3225,151 +3341,6 @@
       "match_score": 85
     },
     {
-      "id": "campbell-s-52efe0ad8c11",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Robotics Apprentice Operator - 2nd Shift",
-      "location": "USA - UT - Richmond",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-31",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---UT---Richmond/Robotics-Apprentice-Operator---2nd-Shift_Req-67727",
-      "external_id": "Req-67727",
-      "verified_at": "2026-09-01T10:11:48Z",
-      "match_score": 85
-    },
-    {
-      "id": "campbell-s-d669c2c1afdb",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Processing Apprentice Operator - 3rd shift",
-      "location": "USA - UT - Richmond",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-31",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---UT---Richmond/Processing-Apprentice-Operator---3rd-shift_Req-67726",
-      "external_id": "Req-67726",
-      "verified_at": "2026-09-01T10:11:48Z",
-      "match_score": 85
-    },
-    {
-      "id": "campbell-s-a356e9e1724a",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Processing Apprentice Operator - 2nd Shift",
-      "location": "USA - UT - Richmond",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-31",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---UT---Richmond/Processing-Apprentice-Operator--2nd-Shift---2265-hr_Req-67709",
-      "external_id": "Req-67709",
-      "verified_at": "2026-09-01T10:11:49Z",
-      "match_score": 85
-    },
-    {
-      "id": "campbell-s-3d078744862a",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Packaging Apprentice Operator - 3rd Shift",
-      "location": "USA - UT - Richmond",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-31",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---UT---Richmond/Packaging-Apprentice-Operator---3rd-Shift_Req-67728",
-      "external_id": "Req-67728",
-      "verified_at": "2026-09-01T10:11:48Z",
-      "match_score": 85
-    },
-    {
-      "id": "campbell-s-1dddfbbebf28",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Packaging Apprentice Operator - 2nd Shift",
-      "location": "USA - UT - Richmond",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-31",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---UT---Richmond/Packaging-Apprentice-Operator---2nd-Shift_Req-67732",
-      "external_id": "Req-67732",
-      "verified_at": "2026-09-01T10:11:49Z",
-      "match_score": 85
-    },
-    {
       "id": "c-h-robinson-worldwide-dabfec0982ff",
       "source_key": "c-h-robinson-worldwide",
       "fortune_rank": 277,
@@ -3537,7 +3508,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
       "external_id": "115735",
-      "verified_at": "2026-09-03T00:19:42Z",
+      "verified_at": "2026-09-03T04:39:02Z",
       "match_score": 85
     },
     {
@@ -3566,7 +3537,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Information-Services-Intern--Summer-2027_115744",
       "external_id": "115744",
-      "verified_at": "2026-09-03T00:19:41Z",
+      "verified_at": "2026-09-03T04:39:01Z",
       "match_score": 85
     },
     {
@@ -3599,7 +3570,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Summer-2027_115743",
       "external_id": "115743",
-      "verified_at": "2026-09-03T00:19:40Z",
+      "verified_at": "2026-09-03T04:39:00Z",
       "match_score": 85
     },
     {
@@ -4227,7 +4198,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Supply-Chain-Intern--Summer-2027_115694",
       "external_id": "115694",
-      "verified_at": "2026-09-03T00:19:40Z",
+      "verified_at": "2026-09-03T04:39:01Z",
       "match_score": 85
     },
     {
@@ -4256,7 +4227,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
       "external_id": "115736",
-      "verified_at": "2026-09-03T00:19:42Z",
+      "verified_at": "2026-09-03T04:39:02Z",
       "match_score": 85
     },
     {
@@ -4338,35 +4309,6 @@
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Schenectady/GE-Vernova-WIND-Internship-2027_R5050581-1",
       "external_id": "R5050581",
       "verified_at": "2026-09-01T18:38:23Z",
-      "match_score": 85
-    },
-    {
-      "id": "campbell-s-2fba0434ec32",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Robotics Apprentice Operator - 3rd Shift",
-      "location": "USA - UT - Richmond",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-28",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---UT---Richmond/Robotics-Apprentice-Operator---3rd-Shift_Req-67733",
-      "external_id": "Req-67733",
-      "verified_at": "2026-09-01T10:11:50Z",
       "match_score": 85
     },
     {
@@ -4739,30 +4681,63 @@
       "match_score": 85
     },
     {
-      "id": "live-nation-entertainment-299ec9ef3ef0",
-      "source_key": "live-nation-entertainment",
-      "fortune_rank": 180,
+      "id": "tyson-foods-88bdda1f6925",
+      "source_key": "tyson-foods",
+      "fortune_rank": 87,
       "fortune_500": true,
-      "company": "Live Nation Entertainment",
-      "title": "Emo Nite - Production Intern",
-      "location": "Calabasas, CA, USA",
-      "region": "United States",
+      "company": "Tyson Foods",
+      "title": "Tax Accounting Year-Round Intern",
+      "location": "Corporate - Springdale, Arkansas",
+      "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
-        "Asset-based lending"
+        "Asset-based lending",
+        "Accounting / financial analyst"
       ],
       "tags": [
-        "Operations"
+        "Excel",
+        "Finance",
+        "Accounting"
       ],
-      "summary": "Do you have a deep-rooted love for emo, pop-punk, and alternative music? Are you a creative thinker with a passion for fostering community and delivering unforgettable experiences? If so, you might be just the person we're looking for!",
+      "summary": "Job Details: Summary The Tax Accounting Intern Role is an entry-level position in the Tax organization that will be participating in various activities that can include: assisting with the preparation of sales and use tax returns; assisting with audits; assisting property or…",
       "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
       "freshman_friendly": false,
       "posted_date": "2026-08-27",
       "deadline": null,
-      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Calabasas-CA-USA/Emo-Nite---Production-Intern_JR-92849-2",
-      "external_id": "JR-92849",
-      "verified_at": "2026-09-01T10:10:59Z",
+      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN/job/Corporate---Springdale-Arkansas/Tax-Accounting-Year-Round-Intern_R0481422-2",
+      "external_id": "R0481422",
+      "verified_at": "2026-09-03T04:41:33Z",
+      "match_score": 85
+    },
+    {
+      "id": "tyson-foods-88bdda1f6925",
+      "source_key": "tyson-foods",
+      "fortune_rank": 87,
+      "fortune_500": true,
+      "company": "Tyson Foods",
+      "title": "Tax Accounting Year-Round Intern",
+      "location": "Corporate - Springdale, Arkansas",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending",
+        "Accounting / financial analyst"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Job Details: Summary The Tax Accounting Intern Role is an entry-level position in the Tax organization that will be participating in various activities that can include: assisting with the preparation of sales and use tax returns; assisting with audits; assisting property or…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-27",
+      "deadline": null,
+      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN1/job/Corporate---Springdale-Arkansas/Tax-Accounting-Year-Round-Intern_R0481422-1",
+      "external_id": "R0481422",
+      "verified_at": "2026-09-03T04:42:47Z",
       "match_score": 85
     },
     {
@@ -4914,7 +4889,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Quality-Assurance-Intern---Oxnard--CA_115727",
       "external_id": "115727",
-      "verified_at": "2026-09-03T00:19:41Z",
+      "verified_at": "2026-09-03T04:39:02Z",
       "match_score": 85
     },
     {
@@ -4939,7 +4914,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
       "external_id": "115725",
-      "verified_at": "2026-09-03T00:19:41Z",
+      "verified_at": "2026-09-03T04:39:02Z",
       "match_score": 85
     },
     {
@@ -5189,66 +5164,6 @@
       "match_score": 85
     },
     {
-      "id": "tyson-foods-88bdda1f6925",
-      "source_key": "tyson-foods",
-      "fortune_rank": 87,
-      "fortune_500": true,
-      "company": "Tyson Foods",
-      "title": "Tax Accounting Year-Round Intern",
-      "location": "Corporate - Springdale, Arkansas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending",
-        "Accounting / financial analyst"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Job Details: Summary The Tax Accounting Intern Role is an entry-level position in the Tax organization that will be participating in various activities that can include: assisting with the preparation of sales and use tax returns; assisting with audits; assisting property or…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-26",
-      "deadline": null,
-      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN/job/Corporate---Springdale-Arkansas/Tax-Accounting-Year-Round-Intern_R0481422-2",
-      "external_id": "R0481422",
-      "verified_at": "2026-09-01T10:12:32Z",
-      "match_score": 85
-    },
-    {
-      "id": "tyson-foods-88bdda1f6925",
-      "source_key": "tyson-foods",
-      "fortune_rank": 87,
-      "fortune_500": true,
-      "company": "Tyson Foods",
-      "title": "Tax Accounting Year-Round Intern",
-      "location": "Corporate - Springdale, Arkansas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending",
-        "Accounting / financial analyst"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Job Details: Summary The Tax Accounting Intern Role is an entry-level position in the Tax organization that will be participating in various activities that can include: assisting with the preparation of sales and use tax returns; assisting with audits; assisting property or…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-26",
-      "deadline": null,
-      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN1/job/Corporate---Springdale-Arkansas/Tax-Accounting-Year-Round-Intern_R0481422-1",
-      "external_id": "R0481422",
-      "verified_at": "2026-09-01T10:13:43Z",
-      "match_score": 85
-    },
-    {
       "id": "ryder-system-ab47370c7361",
       "source_key": "ryder-system",
       "fortune_rank": 346,
@@ -5362,7 +5277,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
       "external_id": "115677",
-      "verified_at": "2026-09-03T00:19:41Z",
+      "verified_at": "2026-09-03T04:39:01Z",
       "match_score": 85
     },
     {
@@ -5389,7 +5304,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
       "external_id": "115698",
-      "verified_at": "2026-09-03T00:19:40Z",
+      "verified_at": "2026-09-03T04:39:01Z",
       "match_score": 85
     },
     {
@@ -5414,7 +5329,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Microbiology-Intern--Summer-2027_115676",
       "external_id": "115676",
-      "verified_at": "2026-09-03T00:19:40Z",
+      "verified_at": "2026-09-03T04:39:00Z",
       "match_score": 85
     },
     {
@@ -5441,7 +5356,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Analytical-Lab-Intern--Summer-2027_115678",
       "external_id": "115678",
-      "verified_at": "2026-09-03T00:19:40Z",
+      "verified_at": "2026-09-03T04:39:00Z",
       "match_score": 85
     },
     {
@@ -5532,6 +5447,33 @@
       "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/St-Louis-MO/Legal-Operations-Financial--Data---AI-Analytics-Intern_25016386",
       "external_id": "25016386",
       "verified_at": "2026-09-02T04:42:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "carrier-global-bfc6244d834a",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
+      "fortune_500": true,
+      "company": "Carrier Global",
+      "title": "Commercial HVAC Apprentice Service Technician – Union",
+      "location": "CAO01: CCS-Oklahoma City, 6101 West Reno Avenue, Oklahoma City, OK, 73127 USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "About Carrier Carrier, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control, air quality and…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-26",
+      "deadline": "2026-09-23",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAO01-CCS-Oklahoma-City-6101-West-Reno-Avenue-Oklahoma-City-OK-73127-USA/Commercial-HVAC-Apprentice-Service-Technician---Union-_30215964-3",
+      "external_id": "30215964",
+      "verified_at": "2026-09-03T04:40:08Z",
       "match_score": 85
     },
     {
@@ -5793,7 +5735,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Memphis-TN/Operations-Engineering-Intern--Spring-2027---Memphis--TN_114845",
       "external_id": "114845",
-      "verified_at": "2026-09-03T00:19:41Z",
+      "verified_at": "2026-09-03T04:39:01Z",
       "match_score": 85
     },
     {
@@ -5820,7 +5762,37 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Lexington-KY/Operations-Engineering-Intern--Spring-2027---Lexington--KY_114841",
       "external_id": "114841",
-      "verified_at": "2026-09-03T00:19:41Z",
+      "verified_at": "2026-09-03T04:39:01Z",
+      "match_score": 85
+    },
+    {
+      "id": "international-paper-10c9496278dc",
+      "source_key": "international-paper",
+      "fortune_rank": 176,
+      "fortune_500": true,
+      "company": "International Paper",
+      "title": "Intern in Procurement – EUDR Support",
+      "location": "Krakow",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk",
+        "Accounting"
+      ],
+      "summary": "Location – Krakow Why is this job for you: This internship offers a student or recent graduate the opportunity to gain hands-on experience in a global procurement compliance environment, contributing to DS Smith’s EUDR compliance programme",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-25",
+      "deadline": null,
+      "url": "https://dssmith.wd3.myworkdayjobs.com/careers/job/Krakow/Intern-in-Procurement---EUDR-Support_R-14151",
+      "external_id": "R-14151",
+      "verified_at": "2026-09-03T04:39:07Z",
       "match_score": 85
     },
     {
@@ -6724,6 +6696,36 @@
       "match_score": 85
     },
     {
+      "id": "carrier-global-9184ffc1d97d",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
+      "fortune_500": true,
+      "company": "Carrier Global",
+      "title": "Homestead High School Career Internship program – Fall",
+      "location": "CAI19: UTEC-Huntington, 111 East Wayne Street, Fort Wayne, IN, 46802 USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-23",
+      "deadline": "2026-09-04",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAI19-UTEC-Huntington-111-East-Wayne-Street-Fort-Wayne-IN-46802-USA/Homestead-High-School-Career-Internship-program---Fall_30214589",
+      "external_id": "30214589",
+      "verified_at": "2026-09-03T04:39:40Z",
+      "match_score": 85
+    },
+    {
       "id": "jones-lang-lasalle-79e18e19cf4d",
       "source_key": "jones-lang-lasalle",
       "fortune_rank": 175,
@@ -7067,7 +7069,7 @@
       "deadline": "2026-09-18",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Financial-Co-Op--Part-time-_R-119461-1",
       "external_id": "R-119461",
-      "verified_at": "2026-09-03T00:21:23Z",
+      "verified_at": "2026-09-03T04:40:51Z",
       "match_score": 85
     },
     {
@@ -7099,7 +7101,7 @@
       "deadline": "2026-09-05",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Finance-Development-Program---Internship_R-119471",
       "external_id": "R-119471",
-      "verified_at": "2026-09-03T00:21:23Z",
+      "verified_at": "2026-09-03T04:40:51Z",
       "match_score": 90
     },
     {
@@ -7733,31 +7735,6 @@
       "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Apprentice-Journeyman--Foreman-Danny-M_JR101685",
       "external_id": "JR101685",
       "verified_at": "2026-09-02T09:43:05Z",
-      "match_score": 85
-    },
-    {
-      "id": "live-nation-entertainment-7e2a567582d4",
-      "source_key": "live-nation-entertainment",
-      "fortune_rank": 180,
-      "fortune_500": true,
-      "company": "Live Nation Entertainment",
-      "title": "Insomniac - Paid Fall Public Relations Intern",
-      "location": "Calabasas, CA, USA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Are you passionate about Public Relations and Communications? We are looking for a highly motivated self-starter who embodies both a passion for dance culture and a love of the public relations space. If you possess exceptional writing skills and thrive in dynamic environments,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-17",
-      "deadline": "2026-09-11",
-      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Calabasas-CA-USA/Insomniac---Paid-Fall-Public-Relations-Intern_JR-92533-1",
-      "external_id": "JR-92533",
-      "verified_at": "2026-09-01T10:10:59Z",
       "match_score": 85
     },
     {
@@ -8719,6 +8696,62 @@
       "match_score": 85
     },
     {
+      "id": "tyson-foods-3d580e06aa1c",
+      "source_key": "tyson-foods",
+      "fortune_rank": 87,
+      "fortune_500": true,
+      "company": "Tyson Foods",
+      "title": "Year-round Intern - UX Design and Research",
+      "location": "Tyson Emma - Springdale, Arkansas",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML"
+      ],
+      "summary": "Job Details: Job Description Summary: Are you ready to jumpstart your career with a year-round internship at Tyson Foods? We are seeking driven and passionate interns to join our team and contribute to meaningful projects that drive our business forward",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-15",
+      "deadline": null,
+      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN/job/Tyson-Emma---Springdale-Arkansas/Year-round-Intern---UX-Design-and-Research_R0479275-2",
+      "external_id": "R0479275",
+      "verified_at": "2026-09-03T04:41:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "tyson-foods-3d580e06aa1c",
+      "source_key": "tyson-foods",
+      "fortune_rank": 87,
+      "fortune_500": true,
+      "company": "Tyson Foods",
+      "title": "Year-round Intern - UX Design and Research",
+      "location": "Tyson Emma - Springdale, Arkansas",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML"
+      ],
+      "summary": "Job Details: Job Description Summary: Are you ready to jumpstart your career with a year-round internship at Tyson Foods? We are seeking driven and passionate interns to join our team and contribute to meaningful projects that drive our business forward",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-15",
+      "deadline": null,
+      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN1/job/Tyson-Emma---Springdale-Arkansas/Year-round-Intern---UX-Design-and-Research_R0479275-1",
+      "external_id": "R0479275",
+      "verified_at": "2026-09-03T04:42:47Z",
+      "match_score": 85
+    },
+    {
       "id": "occidental-petroleum-c7734406938b",
       "source_key": "occidental-petroleum",
       "fortune_rank": 173,
@@ -8744,62 +8777,6 @@
       "external_id": "JR110204",
       "verified_at": "2026-09-02T21:52:59Z",
       "match_score": 90
-    },
-    {
-      "id": "tyson-foods-3d580e06aa1c",
-      "source_key": "tyson-foods",
-      "fortune_rank": 87,
-      "fortune_500": true,
-      "company": "Tyson Foods",
-      "title": "Year-round Intern - UX Design and Research",
-      "location": "Tyson Emma - Springdale, Arkansas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML"
-      ],
-      "summary": "Job Details: Job Description Summary: Are you ready to jumpstart your career with a year-round internship at Tyson Foods? We are seeking driven and passionate interns to join our team and contribute to meaningful projects that drive our business forward",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-14",
-      "deadline": null,
-      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN/job/Tyson-Emma---Springdale-Arkansas/Year-round-Intern---UX-Design-and-Research_R0479275-2",
-      "external_id": "R0479275",
-      "verified_at": "2026-09-01T10:12:32Z",
-      "match_score": 85
-    },
-    {
-      "id": "tyson-foods-3d580e06aa1c",
-      "source_key": "tyson-foods",
-      "fortune_rank": 87,
-      "fortune_500": true,
-      "company": "Tyson Foods",
-      "title": "Year-round Intern - UX Design and Research",
-      "location": "Tyson Emma - Springdale, Arkansas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML"
-      ],
-      "summary": "Job Details: Job Description Summary: Are you ready to jumpstart your career with a year-round internship at Tyson Foods? We are seeking driven and passionate interns to join our team and contribute to meaningful projects that drive our business forward",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-14",
-      "deadline": null,
-      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN1/job/Tyson-Emma---Springdale-Arkansas/Year-round-Intern---UX-Design-and-Research_R0479275-1",
-      "external_id": "R0479275",
-      "verified_at": "2026-09-01T10:13:43Z",
-      "match_score": 85
     },
     {
       "id": "otis-worldwide-268bb3f54c22",
@@ -8883,34 +8860,6 @@
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/SGP---Singapore---Singapore-Boulevard-Towers/Global-Clinical-Trial-Operations-Intern_R412179",
       "external_id": "R412179",
       "verified_at": "2026-09-02T21:55:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "live-nation-entertainment-dc7e5894760b",
-      "source_key": "live-nation-entertainment",
-      "fortune_rank": 180,
-      "fortune_500": true,
-      "company": "Live Nation Entertainment",
-      "title": "Brand Partnerships Intern (Fall 2026)",
-      "location": "Toronto, ON",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Strategy"
-      ],
-      "summary": "Live Nation Entertainment is the world’s leading live entertainment company, comprised of global market leaders: Ticketmaster, Live Nation Concerts, and Live Nation Media & Sponsorship. Ticketmaster is the global leader in event ticketing with over 620 million tickets sold…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-14",
-      "deadline": null,
-      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Toronto-ON/Brand-Partnerships-Intern--Fall-2026-_JR-92460",
-      "external_id": "JR-92460",
-      "verified_at": "2026-09-01T10:10:59Z",
       "match_score": 85
     },
     {
@@ -9255,6 +9204,37 @@
       "match_score": 85
     },
     {
+      "id": "baxter-international-16b3c76ad4bb",
+      "source_key": "baxter-international",
+      "fortune_rank": 382,
+      "fortune_500": true,
+      "company": "Baxter International",
+      "title": "Accounting Intern",
+      "location": "Kuala Lumpur",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Accounting / financial analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "This is where your work makes a difference. At Baxter, we believe every person—regardless of who they are or where they are from—deserves a chance to live a healthy life. It was our founding belief in 1931 and continues to be our guiding principle",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-12",
+      "deadline": null,
+      "url": "https://baxter.wd1.myworkdayjobs.com/baxter/job/Kuala-Lumpur/Accounting-Intern_JR-205657",
+      "external_id": "JR - 205657",
+      "verified_at": "2026-09-03T04:41:07Z",
+      "match_score": 85
+    },
+    {
       "id": "abbott-laboratories-8f4e52013ad5",
       "source_key": "abbott-laboratories",
       "fortune_rank": 107,
@@ -9477,7 +9457,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Scottsville-KY/Operations-Engineering-Intern--Spring-2027---Scottsville--KY_115475-1",
       "external_id": "115475",
-      "verified_at": "2026-09-03T00:19:41Z",
+      "verified_at": "2026-09-03T04:39:01Z",
       "match_score": 85
     },
     {
@@ -10301,33 +10281,6 @@
       "match_score": 85
     },
     {
-      "id": "live-nation-entertainment-45563105467a",
-      "source_key": "live-nation-entertainment",
-      "fortune_rank": 180,
-      "fortune_500": true,
-      "company": "Live Nation Entertainment",
-      "title": "Digital Intern",
-      "location": "Nashville, TN, USA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy"
-      ],
-      "summary": "Live Nation Entertainment is the world’s leading live entertainment company, comprised of global market leaders: Ticketmaster, Live Nation Concerts, and Live Nation Media & Sponsorship. Ticketmaster is the global leader in event ticketing with over 620 million tickets sold…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-04",
-      "deadline": null,
-      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Nashville-TN-USA/Digital-Intern_JR-92086",
-      "external_id": "JR-92086",
-      "verified_at": "2026-09-01T10:10:59Z",
-      "match_score": 85
-    },
-    {
       "id": "primoris-services-90e5b871604a",
       "source_key": "primoris-services",
       "fortune_rank": 497,
@@ -10811,7 +10764,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-09-03T00:19:59Z",
+      "verified_at": "2026-09-03T04:39:22Z",
       "match_score": 85
     },
     {
@@ -12320,58 +12273,6 @@
       "match_score": 85
     },
     {
-      "id": "live-nation-entertainment-5f48dd360589",
-      "source_key": "live-nation-entertainment",
-      "fortune_rank": 180,
-      "fortune_500": true,
-      "company": "Live Nation Entertainment",
-      "title": "Insomniac - Paid Fall Street Marketing Internship",
-      "location": "Calabasas, CA, USA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Driven, with an entrepreneurial spirit. Resourceful, innovative, forward thinking and committed. At Insomniac, our people embrace these qualities, so if this sounds like you then please read on! Insomniac produces some of the most innovative, immersive music festivals and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Calabasas-CA-USA/Insomniac---Paid-Fall-Street-Marketing-Internship_JR-92052-1",
-      "external_id": "JR-92052",
-      "verified_at": "2026-09-01T10:10:59Z",
-      "match_score": 85
-    },
-    {
-      "id": "live-nation-entertainment-91b784ac5df1",
-      "source_key": "live-nation-entertainment",
-      "fortune_rank": 180,
-      "fortune_500": true,
-      "company": "Live Nation Entertainment",
-      "title": "Digital Intern",
-      "location": "Etobicoke, ON, CA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy"
-      ],
-      "summary": "Live Nation Entertainment is the world’s leading live entertainment company, comprised of global market leaders: Ticketmaster, Live Nation Concerts, and Live Nation Media & Sponsorship. Ticketmaster is the global leader in event ticketing with over 620 million tickets sold…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Etobicoke-ON-CA/Digital-Intern_JR-90055",
-      "external_id": "JR-90055",
-      "verified_at": "2026-09-01T10:10:59Z",
-      "match_score": 85
-    },
-    {
       "id": "kyndryl-holdings-80659abefc37",
       "source_key": "kyndryl-holdings",
       "fortune_rank": 300,
@@ -12506,7 +12407,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Summer-2027-Intern-Interest-Application_115178",
       "external_id": "115178",
-      "verified_at": "2026-09-03T00:19:40Z",
+      "verified_at": "2026-09-03T04:39:00Z",
       "match_score": 85
     },
     {
@@ -12533,7 +12434,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Engineering-Intern--Fall-2026---Orrville--OH_114566",
       "external_id": "114566",
-      "verified_at": "2026-09-03T00:19:41Z",
+      "verified_at": "2026-09-03T04:39:01Z",
       "match_score": 85
     },
     {
@@ -12566,7 +12467,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-09-03T00:19:40Z",
+      "verified_at": "2026-09-03T04:39:00Z",
       "match_score": 85
     },
     {
@@ -12623,6 +12524,61 @@
       "url": "https://jbhunt.wd501.myworkdayjobs.com/Careers/job/Chicago-IL---S-Green-Street-Ste-204/Operations-Intern--Annual-_00631224",
       "external_id": "00631224",
       "verified_at": "2026-09-03T00:20:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "international-paper-21ab7fa85f01",
+      "source_key": "international-paper",
+      "fortune_rank": 176,
+      "fortune_500": true,
+      "company": "International Paper",
+      "title": "Supply Chain Intern",
+      "location": "Pomezia",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML"
+      ],
+      "summary": "DS Smith | Packaging Division è alla ricerca di un Supply Chain Intern per il plant di Pomezia (RM) Vuoi far parte di una realtà internazionale in rapida evoluzione, con una cultura inclusiva e orientata al cambiamento? DS Smith | Packaging Division , leader globale nelle…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://dssmith.wd3.myworkdayjobs.com/careers/job/Pomezia/Supply-Chain-Intern_R-14112-1",
+      "external_id": "R-14112",
+      "verified_at": "2026-09-03T04:39:07Z",
+      "match_score": 85
+    },
+    {
+      "id": "international-paper-936c6d407d84",
+      "source_key": "international-paper",
+      "fortune_rank": 176,
+      "fortune_500": true,
+      "company": "International Paper",
+      "title": "Design Intern",
+      "location": "Brussels",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Internship opportunity for all Design students at our Packaging Design studio Duration: 1-6 months Location : DS Smith Design & Innovation, Tour&Taxis, Brussels, Belgium We are DS Smith, a FTSE100 company who is redefining packaging for a changing world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://dssmith.wd3.myworkdayjobs.com/careers/job/Brussels/Design-Intern_R-8606",
+      "external_id": "R-8606",
+      "verified_at": "2026-09-03T04:39:07Z",
       "match_score": 85
     },
     {
@@ -13582,175 +13538,29 @@
       "match_score": 85
     },
     {
-      "id": "campbell-s-d8a7e916c5bf",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
+      "id": "carrier-global-c7eab9237445",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
       "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Data Science Intern",
-      "location": "USA - NJ - Camden",
-      "region": "United States",
+      "company": "Carrier Global",
+      "title": "Engineering Apprenticeship",
+      "location": "UK Field Based, Field Based, United Kingdom",
+      "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
-        "Data analyst"
+        "Sales Engineer",
+        "Asset-based lending"
       ],
       "tags": [],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
+      "summary": "Applications for our 2025 apprenticeship program are now closed. By submitting your application, you will join our talent community to be considered for our apprenticeship program for 2026. Kick-Start Your Career with a Carrier Apprenticeship for 2026!",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-01-30",
       "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Science-Intern_Req-65845",
-      "external_id": "Req-65845",
-      "verified_at": "2026-09-01T10:11:45Z",
-      "match_score": 85
-    },
-    {
-      "id": "campbell-s-85c9705dabae",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Data Science Intern",
-      "location": "USA - NJ - Camden",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst"
-      ],
-      "tags": [],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Science-Intern_Req-65844",
-      "external_id": "Req-65844",
-      "verified_at": "2026-09-01T10:11:45Z",
-      "match_score": 85
-    },
-    {
-      "id": "campbell-s-d1380e83e80c",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Data Engineer – Agentic AI & ML Ops (Co-op)",
-      "location": "USA - NJ - Camden",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "FP&A"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Power BI",
-        "Cloud",
-        "AI / ML"
-      ],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Engineer---Agentic-AI---ML-Ops--Co-op-_Req-65843",
-      "external_id": "Req-65843",
-      "verified_at": "2026-09-01T10:11:45Z",
-      "match_score": 85
-    },
-    {
-      "id": "campbell-s-0f89dac90b5d",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Data Engineer - Operational Support (Co-op)",
-      "location": "USA - NJ - Camden",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Power BI",
-        "Cloud",
-        "AI / ML"
-      ],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Engineer---Operational-Support--Co-op-_Req-65842",
-      "external_id": "Req-65842",
-      "verified_at": "2026-09-01T10:11:44Z",
-      "match_score": 85
-    },
-    {
-      "id": "campbell-s-44a7c5bf7ee6",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Agentic AI Engineer Co-Op",
-      "location": "USA - Remote",
-      "region": "Remote",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "Cloud",
-        "AI / ML",
-        "Product"
-      ],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---Remote/Agentic-AI-Engineer-Co-Op_Req-66015",
-      "external_id": "Req-66015",
-      "verified_at": "2026-09-01T10:11:44Z",
-      "match_score": 85
-    },
-    {
-      "id": "campbell-s-09b63e50056d",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Agentic AI Engineer Co-Op",
-      "location": "USA - Remote",
-      "region": "Remote",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "Cloud",
-        "AI / ML",
-        "Product"
-      ],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---Remote/Agentic-AI-Engineer-Co-Op_Req-66014",
-      "external_id": "Req-66014",
-      "verified_at": "2026-09-01T10:11:44Z",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/UK-Field-Based-Field-Based-United-Kingdom/Engineering-Apprenticeship_30190431",
+      "external_id": "30190431",
+      "verified_at": "2026-09-03T04:39:45Z",
       "match_score": 85
     },
     {
@@ -14389,7 +14199,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-09-03T00:19:08Z",
+      "verified_at": "2026-09-03T04:38:25Z",
       "match_score": 85
     },
     {
@@ -14449,7 +14259,7 @@
       "deadline": null,
       "url": "https://careers.massmutual.com/job/boston/actuarial-intern-summer-2027/724/98808954544",
       "external_id": null,
-      "verified_at": "2026-09-03T00:19:08Z",
+      "verified_at": "2026-09-03T04:38:24Z",
       "match_score": 85
     },
     {
@@ -15239,6 +15049,33 @@
       "match_score": 85
     },
     {
+      "id": "expand-energy-419dea617cfa",
+      "source_key": "expand-energy",
+      "fortune_rank": 362,
+      "fortune_500": true,
+      "company": "Expand Energy",
+      "title": "Intern - Land",
+      "location": "Search by Location",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "We use cookies to offer you the best possible website experience. Your cookie preferences will be stored in your browser’s local storage. This includes cookies necessary for the website's operation. Additionally, you can freely decide and change any time whether you accept…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ired Minimum: Other - Cumulative GPA of 3.0 or higher on a 4.0 scale Additional Qualifications Will graduate no earlier than December 2027 Expand Energy takes necessary…",
+      "freshman_friendly": true,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.expandenergy.com/job/Oklahoma-City-Intern-Land-OK-73118/1425417500/",
+      "external_id": null,
+      "verified_at": "2026-09-03T04:40:23Z",
+      "match_score": 90
+    },
+    {
       "id": "equinix-26b20c29d201",
       "source_key": "equinix",
       "fortune_rank": 436,
@@ -15294,7 +15131,7 @@
       "deadline": null,
       "url": "https://enterpriseproducts.com/careers/early-careers/",
       "external_id": null,
-      "verified_at": "2026-09-01T10:11:57Z",
+      "verified_at": "2026-09-03T04:40:53Z",
       "match_score": 85
     },
     {
@@ -15391,64 +15228,6 @@
       "url": "https://www.capitalonecareers.com/early-internships-program",
       "external_id": null,
       "verified_at": "2026-09-02T09:44:16Z",
-      "match_score": 85
-    },
-    {
-      "id": "campbell-s-49044d669353",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Robotics Apprentice Operator - 3rd Shift",
-      "location": "Richmond Utah 84333",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "Back to Search Robotics Apprentice Operator - 3rd Shift Apply Now Job Details Career area Manufacturing Hourly Position Type Full Time Location Richmond Utah 84333 Job ID Req-67733 Share Facebook X LinkedIn Email Apply Now Since 1869 we've connected people through food they love",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://careers.thecampbellscompany.com/robotics-apprentice-operator-3rd-shift/job/4F6ABB079B1E6C7A7D2925635CE79745",
-      "external_id": null,
-      "verified_at": "2026-09-01T10:11:56Z",
-      "match_score": 85
-    },
-    {
-      "id": "campbell-s-13591628aeb4",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Packaging Apprentice Operator - 2nd Shift",
-      "location": "Richmond Utah 84333",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "Back to Search Packaging Apprentice Operator - 2nd Shift Apply Now Job Details Career area Manufacturing Hourly Position Type Full Time Location Richmond Utah 84333 Job ID Req-67732 Share Facebook X LinkedIn Email Apply Now Since 1869 we've connected people through food they love",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://careers.thecampbellscompany.com/packaging-apprentice-operator-2nd-shift/job/CE0C404F244F6B7F2D3D204C7D093D3D",
-      "external_id": null,
-      "verified_at": "2026-09-01T10:11:56Z",
       "match_score": 85
     },
     {
