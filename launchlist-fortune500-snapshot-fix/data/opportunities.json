@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T12:49:26Z",
+  "updated_at": "2026-09-05T16:11:21Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,10 +12,10 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-09-05T12:45:24Z",
+  "directory_refreshed_at": "2026-09-05T16:06:28Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 308,
-  "companies_failed_last_24h": 6,
+  "companies_failed_last_24h": 7,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "accendra-health",
@@ -42,6 +42,19 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs: 404 Client Error: Not Found for url: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs"
+    },
+    {
+      "key": "bank-of-america",
+      "rank": 20,
+      "company": "Bank of America",
+      "fortune_500": true,
+      "checked_at": "2026-09-05T16:11:21Z",
+      "status": "error",
+      "issue_type": "Scan error",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.bankofamerica.com/en-us/students/job-search?ref=search&search=getAllJobs&start=0&rows=10",
+      "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
     },
     {
       "key": "franklin-templeton",
@@ -96,7 +109,7 @@
       "error": null
     }
   ],
-  "companies_with_eligible_jobs": 85,
+  "companies_with_eligible_jobs": 87,
   "estimated_full_cycle_hours": 10.2,
   "opportunity_count": 630,
   "opportunities": [
@@ -1016,7 +1029,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sales-Intern--Summer-2027_115803",
       "external_id": "115803",
-      "verified_at": "2026-09-05T12:46:04Z",
+      "verified_at": "2026-09-05T16:07:15Z",
       "match_score": 85
     },
     {
@@ -1042,7 +1055,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Category-Leadership-Intern--Summer-2027_115804",
       "external_id": "115804",
-      "verified_at": "2026-09-05T12:46:05Z",
+      "verified_at": "2026-09-05T16:07:17Z",
       "match_score": 85
     },
     {
@@ -1269,6 +1282,218 @@
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Asheville/GE-Aerospace-Intern---Asheville_R5037767-1",
       "external_id": "R5037767",
       "verified_at": "2026-09-05T12:47:18Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-d098fbf9f10d",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Early Career Apprenticeship Programme Manager",
+      "location": "Belfast United Kingdom",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy",
+        "Risk"
+      ],
+      "summary": "Citi is looking for an experienced Early Career Apprenticeship Programme Manager to take ownership of UK apprenticeship programmes, shaping how the next generation of talent is attracted, selected, and developed across the business",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-04",
+      "deadline": "2026-09-18",
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Belfast--United-Kingdom/Early-Career-Apprenticeship-Programme-Manager_26989504-1",
+      "external_id": "26989504",
+      "verified_at": "2026-09-05T16:09:56Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-533b47d4cc9e",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Banking, Investment Banking, Placement Analyst Internship, Paris - France 2027",
+      "location": "Paris France",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate finance",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Credit"
+      ],
+      "summary": "Citi is looking for Placement Intern Analysts to join the Investment Banking team in Paris in January 2027 for 6 months. The Investment Banking group advises corporate clients who want to raise funds in capital markets and who need strategic support in financial transactions",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-04",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Investment-Banking--Placement-Analyst-Internship--Paris---France-2027_26992441",
+      "external_id": "26992441",
+      "verified_at": "2026-09-05T16:09:49Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-c1f7ae7417fe",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Banking, Investment Banking, Financial Institution Group, Placement Analyst Internship, Paris - France 2027",
+      "location": "Paris France",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate finance",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Credit"
+      ],
+      "summary": "Citi is looking for Placement Intern Analyst to join the Investment Banking (FIG) team in Paris in January 2027 for 6 months. The Investment Banking group advises corporate clients who want to raise funds in capital markets and who need strategic support in financial transactions",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-04",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Investment-Banking--Financial-Institution-Group--Placement-Analyst-Internship--Paris---France-2027_26992470",
+      "external_id": "26992470",
+      "verified_at": "2026-09-05T16:09:49Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-e5fac644afb6",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Banking, Financing, Equity Capital Markets Placement Analyst Internship, Frankfurt - Germany 2027",
+      "location": "TAURUS",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Credit",
+        "Risk"
+      ],
+      "summary": "The Intern Analyst is an intermediate level position responsible for assisting clients in raising funds in the capital markets, as well as in providing strategic advisory services for mergers, acquisitions and other types of financial transactions in coordination with the…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-04",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/TAURUS/Banking--Financing--Equity-Capital-Markets-Placement-Analyst-Internship--Frankfurt---Germany-2027_26992449",
+      "external_id": "26992449",
+      "verified_at": "2026-09-05T16:09:49Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-fd041f62a87b",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Banking, Corporate Banking, Summer Analyst, London – United Kingdom, 2027",
+      "location": "London United Kingdom",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Commercial banking",
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Product",
+        "Finance",
+        "Banking",
+        "Credit"
+      ],
+      "summary": "You're ready to bring your knowledge from the classroom to the boardroom and Citi wants to help you get there. Whether it's honing your skills or building your network, we know that success can't come without growth. Our programs equip you with the knowledge and training you…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-04",
+      "deadline": "2026-09-30",
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/London--United-Kingdom/Banking--Corporate-Banking--Summer-Analyst--London---United-Kingdom--2027_26991689",
+      "external_id": "26991689",
+      "verified_at": "2026-09-05T16:09:50Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-6ba6f0747d40",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Banking, Corporate Banking, Relationship Analyst, Placement Analyst Internship, Milan - Italy 2027",
+      "location": "Milan Milano Italy",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Commercial banking",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Banking"
+      ],
+      "summary": "Citi is looking for candidates for a Relationship Analyst Placement in its Italy Corporate Banking Team for 6 months starting January 2027. Your time here will look something like this... As part of the internship, the candidate will support the team in the following…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-04",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Milan-Milano-Italy/Banking--Corporate-Banking--Relationship-Analyst--Placement-Analyst-Internship--Milan---Italy-2027_26992489",
+      "external_id": "26992489",
+      "verified_at": "2026-09-05T16:09:49Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-25cad772c680",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Banking, Corporate Banking, Placement Analyst Internship, Frankfurt - Germany 2027",
+      "location": "TAURUS",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Commercial banking",
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Product",
+        "Finance",
+        "Banking",
+        "Credit"
+      ],
+      "summary": "You’re ready to bring your knowledge from the classroom to the boardroom, and Citi wants to help you get there. Whether it’s honing your skills or building your network, we know that success can’t come without growth. Our programs equip you with the knowledge and training you…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-04",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/TAURUS/Banking--Corporate-Banking--Placement-Analyst-Internship--Frankfurt---Germany-2027_26992089",
+      "external_id": "26992089",
+      "verified_at": "2026-09-05T16:09:49Z",
       "match_score": 85
     },
     {
@@ -2754,34 +2979,37 @@
       "deadline": "2026-09-25",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Corporate-Communications-Internship_R-120884",
       "external_id": "R-120884",
-      "verified_at": "2026-09-05T12:48:08Z",
+      "verified_at": "2026-09-05T16:08:45Z",
       "match_score": 85
     },
     {
-      "id": "rockwell-automation-157e89c43e44",
-      "source_key": "rockwell-automation",
-      "fortune_rank": 467,
+      "id": "prologis-f9773ab40ffd",
+      "source_key": "prologis",
+      "fortune_rank": 451,
       "fortune_500": true,
-      "company": "Rockwell Automation",
-      "title": "Intern Developer",
-      "location": "Medellin, Antioquia, Colombia",
+      "company": "Prologis",
+      "title": "Internship Opportunity – Accounting (Accounts Payable)",
+      "location": "Amsterdam, Netherlands",
       "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
         "Asset-based lending"
       ],
       "tags": [
-        "Product"
+        "Excel",
+        "Operations",
+        "Finance",
+        "Accounting"
       ],
-      "summary": "Rockwell Automation is a global technology leader focused on helping the world’s manufacturers be more productive, sustainable, and agile. With more than 28,000 employees who make the world better every day, we know we have something special",
+      "summary": "Prologis is the global leader in logistics real estate. We own, manage and develop high-quality properties in the world’s most vibrant centers of commerce, approximately 72 million square meters in 19 countries. Some of the world’s largest brands (e.g., Amazon, BMW, DHL, FedEx,…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-09-03",
-      "deadline": "2026-11-04",
-      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Medellin-Antioquia-Colombia/Intern-Developer_R26-7072",
-      "external_id": "R26-7072",
-      "verified_at": "2026-09-03T21:45:53Z",
+      "deadline": "2026-09-10",
+      "url": "https://prologis.wd5.myworkdayjobs.com/Prologis_External_Careers/job/Amsterdam-Netherlands/Internship-Opportunity---Accounting--Accounts-Payable-_R6760-2",
+      "external_id": "R6760",
+      "verified_at": "2026-09-05T16:08:15Z",
       "match_score": 85
     },
     {
@@ -3224,7 +3452,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Spring-2027_115712",
       "external_id": "115712",
-      "verified_at": "2026-09-05T12:46:06Z",
+      "verified_at": "2026-09-05T16:07:19Z",
       "match_score": 85
     },
     {
@@ -3251,7 +3479,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Decatur-AL/Operations-QA-Intern--Summer-2027--Decatur--AL_115757",
       "external_id": "115757",
-      "verified_at": "2026-09-05T12:46:06Z",
+      "verified_at": "2026-09-05T16:07:17Z",
       "match_score": 85
     },
     {
@@ -3279,7 +3507,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Marketing-Intern--Summer-2027_115771",
       "external_id": "115771",
-      "verified_at": "2026-09-05T12:46:04Z",
+      "verified_at": "2026-09-05T16:07:16Z",
       "match_score": 85
     },
     {
@@ -3713,6 +3941,36 @@
       "match_score": 85
     },
     {
+      "id": "xylem-186cc5b23788",
+      "source_key": "xylem",
+      "fortune_rank": 443,
+      "fortune_500": true,
+      "company": "Xylem",
+      "title": "Internal Communications Intern",
+      "location": "Pittsburgh, Pennsylvania",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "Xylem is a Fortune 500 global water solutions company dedicated to advancing sustainable impact and empowering the people who make water work every day. As a leading water technology company with 23,000 employees operating in over 150 countries, Xylem is at the forefront of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-02",
+      "deadline": null,
+      "url": "https://xylem.wd5.myworkdayjobs.com/xylem-careers/job/Pittsburgh-Pennsylvania/Internal-Communications-Intern_R50468",
+      "external_id": "R50468",
+      "verified_at": "2026-09-05T16:07:52Z",
+      "match_score": 85
+    },
+    {
       "id": "travelers-0e97868e97cc",
       "source_key": "travelers",
       "fortune_rank": 96,
@@ -4009,7 +4267,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_115697",
       "external_id": "115697",
-      "verified_at": "2026-09-05T12:46:06Z",
+      "verified_at": "2026-09-05T16:07:18Z",
       "match_score": 85
     },
     {
@@ -4246,40 +4504,8 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Bronx-New-York-United-States/Teller-Part-Time--20-Hours----Co-Op-City-Branch_26992283-1",
       "external_id": "26992283",
-      "verified_at": "2026-09-03T21:47:50Z",
+      "verified_at": "2026-09-05T16:09:50Z",
       "match_score": 85
-    },
-    {
-      "id": "auto-owners-insurance-dd2adeda1338",
-      "source_key": "auto-owners-insurance",
-      "fortune_rank": 241,
-      "fortune_500": true,
-      "company": "Auto-Owners Insurance",
-      "title": "Business Intelligence Developer Internship - Summer 2027",
-      "location": "Lansing, MI",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Excel",
-        "Tableau",
-        "Power BI"
-      ],
-      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking a motivated…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "line, and have at least two years of coursework completed. Master’s students are also considered if graduation is August 2027 or later. High aptitude for mathematics and…",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-02",
-      "deadline": null,
-      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14417",
-      "external_id": "R_14417",
-      "verified_at": "2026-09-03T21:44:48Z",
-      "match_score": 90
     },
     {
       "id": "ameren-b845ff53659b",
@@ -4826,191 +5052,6 @@
       "match_score": 85
     },
     {
-      "id": "rockwell-automation-c0ad26e34685",
-      "source_key": "rockwell-automation",
-      "fortune_rank": 467,
-      "fortune_500": true,
-      "company": "Rockwell Automation",
-      "title": "Intern, Remote Support (LCS)",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Rockwell Automation is a global technology leader focused on helping the world’s manufacturers be more productive, sustainable, and agile. With more than 28,000 employees who make the world better every day, we know we have something special",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": "2026-10-30",
-      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Intern--Remote-Support--LCS-_R26-5025-2",
-      "external_id": "R26-5025",
-      "verified_at": "2026-09-03T21:45:54Z",
-      "match_score": 85
-    },
-    {
-      "id": "rockwell-automation-c0e754d3eb6f",
-      "source_key": "rockwell-automation",
-      "fortune_rank": 467,
-      "fortune_500": true,
-      "company": "Rockwell Automation",
-      "title": "Intern, Market Intelligence (LCS)",
-      "location": "Milwaukee, Wisconsin, United States",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy"
-      ],
-      "summary": "Rockwell Automation is a global technology leader focused on helping the world’s manufacturers be more productive, sustainable, and agile. With more than 28,000 employees who make the world better every day, we know we have something special",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": "2026-10-30",
-      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Milwaukee-Wisconsin-United-States/Intern--Market-Intelligence--LCS-_R26-5032-1",
-      "external_id": "R26-5032",
-      "verified_at": "2026-09-03T21:45:54Z",
-      "match_score": 85
-    },
-    {
-      "id": "rockwell-automation-2959097d0b9b",
-      "source_key": "rockwell-automation",
-      "fortune_rank": 467,
-      "fortune_500": true,
-      "company": "Rockwell Automation",
-      "title": "Intern, Cyber Professional Services (LCS)",
-      "location": "Mayfield Heights, Ohio, United States",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Rockwell Automation is a global technology leader focused on helping the world’s manufacturers be more productive, sustainable, and agile. With more than 28,000 employees who make the world better every day, we know we have something special",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Intern--Cyber-Professional-Services--LCS-_R26-5042-2",
-      "external_id": "R26-5042",
-      "verified_at": "2026-09-03T21:45:54Z",
-      "match_score": 85
-    },
-    {
-      "id": "rockwell-automation-6a0013da905e",
-      "source_key": "rockwell-automation",
-      "fortune_rank": 467,
-      "fortune_500": true,
-      "company": "Rockwell Automation",
-      "title": "Intern, Continuous Improvement (LCS)",
-      "location": "Mayfield Heights, Ohio, United States",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Rockwell Automation is a global technology leader focused on helping the world’s manufacturers be more productive, sustainable, and agile. With more than 28,000 employees who make the world better every day, we know we have something special",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Intern--Continuous-Improvement--LCS-_R26-5028-2",
-      "external_id": "R26-5028",
-      "verified_at": "2026-09-03T21:45:54Z",
-      "match_score": 85
-    },
-    {
-      "id": "rockwell-automation-c21d3099adfa",
-      "source_key": "rockwell-automation",
-      "fortune_rank": 467,
-      "fortune_500": true,
-      "company": "Rockwell Automation",
-      "title": "EHS Co-op/ Intern",
-      "location": "Cambridge, Ontario, Canada",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Risk",
-        "Accounting"
-      ],
-      "summary": "Rockwell Automation is a global technology leader focused on helping the world’s manufacturers be more productive, sustainable, and agile. With more than 28,000 employees who make the world better every day, we know we have something special",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Cambridge-Ontario-Canada/EHS-Co-op--Intern_R26-6480",
-      "external_id": "R26-6480",
-      "verified_at": "2026-09-03T21:45:53Z",
-      "match_score": 85
-    },
-    {
-      "id": "rockwell-automation-91ba187433ea",
-      "source_key": "rockwell-automation",
-      "fortune_rank": 467,
-      "fortune_500": true,
-      "company": "Rockwell Automation",
-      "title": "Co-op, Process Standardization & Delivery Automation (LCS)",
-      "location": "Mayfield Heights, Ohio, United States",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "Excel"
-      ],
-      "summary": "Rockwell Automation is a global technology leader focused on helping the world’s manufacturers be more productive, sustainable, and agile. With more than 28,000 employees who make the world better every day, we know we have something special",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Co-op--Process-Standardization---Delivery-Automation--LCS-_R26-5072-1",
-      "external_id": "R26-5072",
-      "verified_at": "2026-09-03T21:45:54Z",
-      "match_score": 85
-    },
-    {
-      "id": "rockwell-automation-3840e73ced5f",
-      "source_key": "rockwell-automation",
-      "fortune_rank": 467,
-      "fortune_500": true,
-      "company": "Rockwell Automation",
-      "title": "Co-op, Delivery - Projects (LCS)",
-      "location": "Mayfield Heights, Ohio, United States",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Rockwell Automation is a global technology leader focused on helping the world’s manufacturers be more productive, sustainable, and agile. With more than 28,000 employees who make the world better every day, we know we have something special",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Co-op--Delivery---Projects--LCS-_R26-5039-2",
-      "external_id": "R26-5039",
-      "verified_at": "2026-09-03T21:45:54Z",
-      "match_score": 85
-    },
-    {
       "id": "prudential-financial-bfaa64ef1da1",
       "source_key": "prudential-financial",
       "fortune_rank": 78,
@@ -5353,7 +5394,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/R-D-Engineering-Intern--Co-Op-2027--8-months-_115696",
       "external_id": "115696",
-      "verified_at": "2026-09-05T12:46:05Z",
+      "verified_at": "2026-09-05T16:07:17Z",
       "match_score": 85
     },
     {
@@ -5802,7 +5843,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/London--United-Kingdom/Markets---Sales-and-Trading--Summer-Analyst--London---United-Kingdom--2027_26987141",
       "external_id": "26987141",
-      "verified_at": "2026-09-03T21:47:53Z",
+      "verified_at": "2026-09-05T16:09:55Z",
       "match_score": 85
     },
     {
@@ -5885,61 +5926,6 @@
       "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Cyber-Security-Intern---Annapolis-Junction--MD_R0248414",
       "external_id": "R0248414",
       "verified_at": "2026-09-05T09:09:55Z",
-      "match_score": 85
-    },
-    {
-      "id": "auto-owners-insurance-f19c71e1fd46",
-      "source_key": "auto-owners-insurance",
-      "fortune_rank": 241,
-      "fortune_500": true,
-      "company": "Auto-Owners Insurance",
-      "title": "Home Office Underwriting/Audit Internship - Summer 2027",
-      "location": "Lansing, MI",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "IT analyst",
-        "Accounting / financial analyst"
-      ],
-      "tags": [
-        "Product",
-        "Credit",
-        "Accounting"
-      ],
-      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking a motivated…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Home-Office-Underwriting-Audit-Internship---Summer-2027_R_14361",
-      "external_id": "R_14361",
-      "verified_at": "2026-09-03T21:44:49Z",
-      "match_score": 85
-    },
-    {
-      "id": "auto-owners-insurance-6136965e2b0b",
-      "source_key": "auto-owners-insurance",
-      "fortune_rank": 241,
-      "fortune_500": true,
-      "company": "Auto-Owners Insurance",
-      "title": "Business/Quality Analyst Internship - Summer 2027",
-      "location": "Lansing, MI",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking motivated…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Business-Quality-Analyst-Internship---Summer-2027_R_14407",
-      "external_id": "R_14407",
-      "verified_at": "2026-09-03T21:44:48Z",
       "match_score": 85
     },
     {
@@ -6200,34 +6186,6 @@
       "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1902-Miller-Trunk-Hwy-DuluthMN-55811-1810/Store-Executive-Intern--Store-Leadership-Intern----Duluth--MN--Starting-Summer-2027------_R0000449254",
       "external_id": "R0000449254",
       "verified_at": "2026-09-04T09:44:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "rockwell-automation-646c3534b22b",
-      "source_key": "rockwell-automation",
-      "fortune_rank": 467,
-      "fortune_500": true,
-      "company": "Rockwell Automation",
-      "title": "Credit Management Intern",
-      "location": "Katowice, Poland",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Credit"
-      ],
-      "summary": "Rockwell Automation is a global technology leader focused on helping the world’s manufacturers be more productive, sustainable, and agile. With more than 28,000 employees who make the world better every day, we know we have something special",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-31",
-      "deadline": null,
-      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Katowice-Poland/Credit-Management-Intern_R26-5901",
-      "external_id": "R26-5901",
-      "verified_at": "2026-09-03T21:45:53Z",
       "match_score": 85
     },
     {
@@ -6705,7 +6663,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/New-Orleans-LA/Operations-Engineering-Intern--Summer-2027--Multiple-Locations-_115721",
       "external_id": "115721",
-      "verified_at": "2026-09-05T12:46:06Z",
+      "verified_at": "2026-09-05T16:07:18Z",
       "match_score": 85
     },
     {
@@ -6914,7 +6872,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Getzville-New-York-United-States/Market-Operations-Junior-Analyst-Program-Hybrid_26991391-1",
       "external_id": "26991391",
-      "verified_at": "2026-09-03T21:47:53Z",
+      "verified_at": "2026-09-05T16:09:55Z",
       "match_score": 85
     },
     {
@@ -7657,7 +7615,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
       "external_id": "115735",
-      "verified_at": "2026-09-05T12:46:06Z",
+      "verified_at": "2026-09-05T16:07:19Z",
       "match_score": 85
     },
     {
@@ -7686,7 +7644,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Information-Services-Intern--Summer-2027_115744",
       "external_id": "115744",
-      "verified_at": "2026-09-05T12:46:05Z",
+      "verified_at": "2026-09-05T16:07:17Z",
       "match_score": 85
     },
     {
@@ -7719,7 +7677,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Summer-2027_115743",
       "external_id": "115743",
-      "verified_at": "2026-09-05T12:46:05Z",
+      "verified_at": "2026-09-05T16:07:16Z",
       "match_score": 85
     },
     {
@@ -8135,7 +8093,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Supply-Chain-Intern--Summer-2027_115694",
       "external_id": "115694",
-      "verified_at": "2026-09-05T12:46:05Z",
+      "verified_at": "2026-09-05T16:07:16Z",
       "match_score": 85
     },
     {
@@ -8164,7 +8122,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
       "external_id": "115736",
-      "verified_at": "2026-09-05T12:46:06Z",
+      "verified_at": "2026-09-05T16:07:18Z",
       "match_score": 85
     },
     {
@@ -8338,7 +8296,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Quality-Assurance-Intern---Oxnard--CA_115727",
       "external_id": "115727",
-      "verified_at": "2026-09-05T12:46:06Z",
+      "verified_at": "2026-09-05T16:07:18Z",
       "match_score": 85
     },
     {
@@ -8363,7 +8321,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
       "external_id": "115725",
-      "verified_at": "2026-09-05T12:46:06Z",
+      "verified_at": "2026-09-05T16:07:18Z",
       "match_score": 85
     },
     {
@@ -8452,34 +8410,6 @@
       "external_id": "30215964",
       "verified_at": "2026-09-05T04:36:41Z",
       "match_score": 85
-    },
-    {
-      "id": "auto-owners-insurance-985d62a77fcc",
-      "source_key": "auto-owners-insurance",
-      "fortune_rank": 241,
-      "fortune_500": true,
-      "company": "Auto-Owners Insurance",
-      "title": "Data Engineering Internship - Summer 2027",
-      "location": "Lansing, MI",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking a motivated…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "line, and have at least two years of coursework completed. Master’s students are also considered if graduation is August 2027 or later. Successful completion of actuarial…",
-      "freshman_friendly": true,
-      "posted_date": "2026-08-26",
-      "deadline": null,
-      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Data-Engineering-Internship---Summer-2026_R_12318",
-      "external_id": "R_12318",
-      "verified_at": "2026-09-03T21:44:52Z",
-      "match_score": 90
     },
     {
       "id": "ameren-16c417418d9a",
@@ -8685,7 +8615,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
       "external_id": "115677",
-      "verified_at": "2026-09-05T12:46:05Z",
+      "verified_at": "2026-09-05T16:07:17Z",
       "match_score": 85
     },
     {
@@ -8712,7 +8642,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
       "external_id": "115698",
-      "verified_at": "2026-09-05T12:46:05Z",
+      "verified_at": "2026-09-05T16:07:17Z",
       "match_score": 85
     },
     {
@@ -8737,7 +8667,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Microbiology-Intern--Summer-2027_115676",
       "external_id": "115676",
-      "verified_at": "2026-09-05T12:46:05Z",
+      "verified_at": "2026-09-05T16:07:16Z",
       "match_score": 85
     },
     {
@@ -8764,7 +8694,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Analytical-Lab-Intern--Summer-2027_115678",
       "external_id": "115678",
-      "verified_at": "2026-09-05T12:46:05Z",
+      "verified_at": "2026-09-05T16:07:16Z",
       "match_score": 85
     },
     {
@@ -9364,7 +9294,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Memphis-TN/Operations-Engineering-Intern--Spring-2027---Memphis--TN_114845",
       "external_id": "114845",
-      "verified_at": "2026-09-05T12:46:06Z",
+      "verified_at": "2026-09-05T16:07:17Z",
       "match_score": 85
     },
     {
@@ -9391,7 +9321,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Lexington-KY/Operations-Engineering-Intern--Spring-2027---Lexington--KY_114841",
       "external_id": "114841",
-      "verified_at": "2026-09-05T12:46:06Z",
+      "verified_at": "2026-09-05T16:07:17Z",
       "match_score": 85
     },
     {
@@ -9819,32 +9749,7 @@
       "deadline": "2026-09-18",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Financial-Co-Op--Part-time-_R-119461-1",
       "external_id": "R-119461",
-      "verified_at": "2026-09-05T12:48:09Z",
-      "match_score": 85
-    },
-    {
-      "id": "rockwell-automation-5a9dd8e16372",
-      "source_key": "rockwell-automation",
-      "fortune_rank": 467,
-      "fortune_500": true,
-      "company": "Rockwell Automation",
-      "title": "Embedded Software, Intern",
-      "location": "Katowice, Poland",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Rockwell Automation is a global technology leader focused on helping the world’s manufacturers be more productive, sustainable, and agile. With more than 28,000 employees who make the world better every day, we know we have something special",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-19",
-      "deadline": null,
-      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Katowice-Poland/Embedded-Software--Intern_R26-5675-1",
-      "external_id": "R26-5675",
-      "verified_at": "2026-09-03T21:45:53Z",
+      "verified_at": "2026-09-05T16:08:45Z",
       "match_score": 85
     },
     {
@@ -11883,7 +11788,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Scottsville-KY/Operations-Engineering-Intern--Spring-2027---Scottsville--KY_115475-1",
       "external_id": "115475",
-      "verified_at": "2026-09-05T12:46:06Z",
+      "verified_at": "2026-09-05T16:07:18Z",
       "match_score": 85
     },
     {
@@ -12615,6 +12520,35 @@
       "match_score": 85
     },
     {
+      "id": "xylem-353e13428592",
+      "source_key": "xylem",
+      "fortune_rank": 443,
+      "fortune_500": true,
+      "company": "Xylem",
+      "title": "Intern, Quality",
+      "location": "Holland, Michigan (Office)",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "Xylem is a Fortune 500 global water solutions company dedicated to advancing sustainable impact and empowering the people who make water work every day. As a leading water technology company with 23,000 employees operating in over 150 countries, Xylem is at the forefront of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://xylem.wd5.myworkdayjobs.com/xylem-careers/job/Holland-Michigan-Office/Intern--Quality_R44370",
+      "external_id": "R44370",
+      "verified_at": "2026-09-05T16:07:52Z",
+      "match_score": 85
+    },
+    {
       "id": "united-rentals-e3bf8ea9d0e6",
       "source_key": "united-rentals",
       "fortune_rank": 279,
@@ -12802,7 +12736,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-09-05T12:46:50Z",
+      "verified_at": "2026-09-05T16:07:24Z",
       "match_score": 85
     },
     {
@@ -13136,6 +13070,70 @@
       "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Lineman--Apprentice----Foreman---Chris-Pavlicek_JR100942",
       "external_id": "JR100942",
       "verified_at": "2026-09-04T04:40:43Z",
+      "match_score": 85
+    },
+    {
+      "id": "palo-alto-networks-3cc54198818d",
+      "source_key": "palo-alto-networks",
+      "fortune_rank": 437,
+      "fortune_500": true,
+      "company": "Palo Alto Networks",
+      "title": "Intern - GRC Engineer",
+      "location": "Office - USA - CA - Headquarters",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Implementation Consulting",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Cloud",
+        "AI / ML",
+        "Risk"
+      ],
+      "summary": "Our Mission At Palo Alto Networks®, we’re united by a shared mission—to protect our digital way of life. We thrive at the intersection of innovation and impact, solving real-world problems with cutting-edge technology and bold thinking",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---GRC-Engineer_JR-013678",
+      "external_id": "JR-013678",
+      "verified_at": "2026-09-05T16:07:57Z",
+      "match_score": 85
+    },
+    {
+      "id": "palo-alto-networks-759080a9ad84",
+      "source_key": "palo-alto-networks",
+      "fortune_rank": 437,
+      "fortune_500": true,
+      "company": "Palo Alto Networks",
+      "title": "Business Operations Intern",
+      "location": "Office - Singapore - Singapore",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Product operations",
+        "Operations analyst",
+        "Data analyst"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Tableau",
+        "Power BI"
+      ],
+      "summary": "Our Mission At Palo Alto Networks®, we’re united by a shared mission—to protect our digital way of life. We thrive at the intersection of innovation and impact, solving real-world problems with cutting-edge technology and bold thinking",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Singapore---Singapore/Business-Operations-Intern_JR-016367",
+      "external_id": "JR-016367",
+      "verified_at": "2026-09-05T16:07:55Z",
       "match_score": 85
     },
     {
@@ -14516,7 +14514,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Summer-2027-Intern-Interest-Application_115178",
       "external_id": "115178",
-      "verified_at": "2026-09-05T12:46:04Z",
+      "verified_at": "2026-09-05T16:07:16Z",
       "match_score": 85
     },
     {
@@ -14543,7 +14541,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Engineering-Intern--Fall-2026---Orrville--OH_114566",
       "external_id": "114566",
-      "verified_at": "2026-09-05T12:46:06Z",
+      "verified_at": "2026-09-05T16:07:17Z",
       "match_score": 85
     },
     {
@@ -14576,7 +14574,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-09-05T12:46:05Z",
+      "verified_at": "2026-09-05T16:07:29Z",
       "match_score": 85
     },
     {
@@ -15382,7 +15380,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/KYIV-Ukraine/Ukraine-Internship-Program---2026_25929484",
       "external_id": "25929484",
-      "verified_at": "2026-09-03T21:47:48Z",
+      "verified_at": "2026-09-05T16:09:48Z",
       "match_score": 85
     },
     {
@@ -15407,7 +15405,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Sao-Paulo-Sao-Paulo-Brazil/Estgio-Exclusivo-PCD---Markets--Internship--So-Paulo---Brazil--2026_26977986",
       "external_id": "26977986",
-      "verified_at": "2026-09-03T21:47:48Z",
+      "verified_at": "2026-09-05T16:09:48Z",
       "match_score": 85
     },
     {
@@ -15440,7 +15438,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Corporate-Banking--Placement-Analyst-Internship--Paris--France-2026_25908794",
       "external_id": "25908794",
-      "verified_at": "2026-09-03T21:47:48Z",
+      "verified_at": "2026-09-05T16:09:48Z",
       "match_score": 85
     },
     {
@@ -15469,7 +15467,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Dubai-United-Arab-Emirates/XMLNAME-2025-Wealth-Management-Summer-Internship--Dubai--UAE--UAE-Nationals-preferred-_25820546",
       "external_id": "25820546",
-      "verified_at": "2026-09-03T21:47:49Z",
+      "verified_at": "2026-09-05T16:09:49Z",
       "match_score": 90
     },
     {
@@ -15496,7 +15494,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Bogota--Colombia/XMLNAME-2025-Markets-Internship-Colombia_25836348",
       "external_id": "25836348",
-      "verified_at": "2026-09-03T21:47:46Z",
+      "verified_at": "2026-09-05T16:09:45Z",
       "match_score": 85
     },
     {
@@ -16580,7 +16578,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-09-05T12:45:31Z",
+      "verified_at": "2026-09-05T16:06:36Z",
       "match_score": 85
     },
     {
@@ -16640,7 +16638,7 @@
       "deadline": null,
       "url": "https://careers.massmutual.com/job/boston/actuarial-intern-summer-2027/724/98808954544",
       "external_id": null,
-      "verified_at": "2026-09-05T12:45:30Z",
+      "verified_at": "2026-09-05T16:06:34Z",
       "match_score": 85
     },
     {
@@ -17309,6 +17307,35 @@
       "match_score": 90
     },
     {
+      "id": "equinix-26b20c29d201",
+      "source_key": "equinix",
+      "fortune_rank": 436,
+      "fortune_500": true,
+      "company": "Equinix",
+      "title": "Intern to impact – Haley Wynne",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Technical Solutions",
+        "Solutions Architect",
+        "Sales Engineer"
+      ],
+      "tags": [
+        "Strategy"
+      ],
+      "summary": "Kiosk mode Intern to impact – Haley Wynne Oct 14 2025 What if your internship could be the launchpad for your entire tech career? For Haley Wynne, it was exactly that. In 2023, Haley joined Equinix as an intern on our Global Technical Solutions Team (GTST) Public Sector team",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://careers.equinix.com/blogs/life-at-equinix-blogs/intern-to-impact-hayley-wynne",
+      "external_id": null,
+      "verified_at": "2026-09-05T16:06:53Z",
+      "match_score": 85
+    },
+    {
       "id": "enterprise-products-partners-2c9f6af1610b",
       "source_key": "enterprise-products-partners",
       "fortune_rank": 89,
@@ -17339,12 +17366,12 @@
       "match_score": 85
     },
     {
-      "id": "ey-60e62ca11248",
+      "id": "ey-fbc0c98162bd",
       "source_key": "ey",
       "fortune_rank": null,
       "fortune_500": false,
       "company": "EY",
-      "title": "EY Türkiye - Audit Long Term Intern",
+      "title": "USA - Assurance - Service Delivery Center - Assurance - Part-time Intern - Winter 2027",
       "location": "Location not listed",
       "region": "Global",
       "opportunity_type": "Internship",
@@ -17355,17 +17382,82 @@
         "Excel",
         "AI / ML",
         "Strategy",
+        "Credit",
         "Accounting"
       ],
-      "summary": "Show More EY Türkiye - Audit Long Term Intern 1740468 TUR-Adana, TUR-Ankara, TUR-Bursa, TUR-Istanbul, TUR-Izmir apply _________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your…",
+      "summary": "Show More USA - Assurance - Service Delivery Center - Assurance - Part-time Intern - Winter 2027 1739516 TX-San Antonio apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take…",
       "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": null,
       "deadline": null,
-      "url": "https://eyglobal.yello.co/jobs/cGO6sAl9_0yHitWHawgmJg?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "url": "https://eyglobal.yello.co/jobs/g8zjBgsp-Fr1EyagEluXuQ?job_board_id=c1riT--B2O-KySgYWsZO1Q",
       "external_id": null,
-      "verified_at": "2026-09-03T21:46:07Z",
+      "verified_at": "2026-09-05T16:08:22Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-98494ddbece3",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "USA - Assurance - Service Delivery Center - Assurance - Intern - Winter 2027",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Strategy",
+        "Credit",
+        "Accounting"
+      ],
+      "summary": "Show More USA - Assurance - Service Delivery Center - Assurance - Intern - Winter 2027 1739513 TX-San Antonio apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/YD2k6S-zaiXm9SBfucZjSw?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-09-05T16:08:22Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-153e911484a9",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - EY-Parthenon, Transactions & Corporate Finance - Corporate Finance (Jan - June 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate finance",
+        "Technical Account Management",
+        "Data analyst"
+      ],
+      "tags": [
+        "Python",
+        "Power BI",
+        "AI / ML",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Show More Intern - EY-Parthenon, Transactions & Corporate Finance - Corporate Finance (Jan - June 2027) 1742150 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/j3xhw8Mr77PmC4k3KUVFWw?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-09-05T16:08:22Z",
       "match_score": 85
     },
     {
@@ -17517,7 +17609,7 @@
       "deadline": null,
       "url": "https://careers.bcg.com/global/en/internship-opportunities",
       "external_id": null,
-      "verified_at": "2026-09-03T21:46:54Z",
+      "verified_at": "2026-09-05T16:09:14Z",
       "match_score": 85
     },
     {
@@ -17971,34 +18063,6 @@
       "url": "https://jobs.boeing.com/meet-AdrianL",
       "external_id": null,
       "verified_at": "2026-09-04T14:27:45Z",
-      "match_score": 85
-    },
-    {
-      "id": "auto-owners-insurance-9fc16ab9ccee",
-      "source_key": "auto-owners-insurance",
-      "fortune_rank": 241,
-      "fortune_500": true,
-      "company": "Auto-Owners Insurance",
-      "title": "Internship",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Credit",
-        "Accounting"
-      ],
-      "summary": "Sign up Find an Agent Sign In Search Internship Internship Home Career Opportunities Internship No prior insurance experience or knowledge? Interning with us can open your eyes to all the insurance industry offers! Our associates contribute their diverse talents to help people…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.auto-owners.com/about/career-opportunities/internship",
-      "external_id": null,
-      "verified_at": "2026-09-03T21:44:53Z",
       "match_score": 85
     },
     {
