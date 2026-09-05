@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T16:11:21Z",
+  "updated_at": "2026-09-05T18:25:03Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,10 +12,10 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-09-05T16:06:28Z",
+  "directory_refreshed_at": "2026-09-05T18:20:55Z",
   "companies_scanned_this_run": 50,
-  "companies_scanned_last_24h": 308,
-  "companies_failed_last_24h": 7,
+  "companies_scanned_last_24h": 351,
+  "companies_failed_last_24h": 8,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "accendra-health",
@@ -55,6 +55,19 @@
       "adapter": "discovery",
       "careers_url": "https://careers.bankofamerica.com/en-us/students/job-search?ref=search&search=getAllJobs&start=0&rows=10",
       "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
+    },
+    {
+      "key": "centene",
+      "rank": 19,
+      "company": "Centene",
+      "fortune_500": true,
+      "checked_at": "2026-09-05T18:25:03Z",
+      "status": "error",
+      "issue_type": "Scan error",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "key": "franklin-templeton",
@@ -109,9 +122,9 @@
       "error": null
     }
   ],
-  "companies_with_eligible_jobs": 87,
+  "companies_with_eligible_jobs": 88,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 630,
+  "opportunity_count": 647,
   "opportunities": [
     {
       "id": "travelers-0dd645ed79b4",
@@ -1029,7 +1042,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sales-Intern--Summer-2027_115803",
       "external_id": "115803",
-      "verified_at": "2026-09-05T16:07:15Z",
+      "verified_at": "2026-09-05T18:21:34Z",
       "match_score": 85
     },
     {
@@ -1055,7 +1068,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Category-Leadership-Intern--Summer-2027_115804",
       "external_id": "115804",
-      "verified_at": "2026-09-05T16:07:17Z",
+      "verified_at": "2026-09-05T18:21:35Z",
       "match_score": 85
     },
     {
@@ -1497,34 +1510,34 @@
       "match_score": 85
     },
     {
-      "id": "cigna-group-31ce7fdfadbd",
+      "id": "cigna-group-8868a6a21193",
       "source_key": "cigna-group",
       "fortune_rank": 14,
       "fortune_500": true,
       "company": "Cigna Group",
-      "title": "Artificial Intelligence Innovation Development Program (AIIDP) Summer Internship",
-      "location": "NC, Raleigh, 701 Corporate Center Dr STE 200",
-      "region": "Global",
+      "title": "Internal Audit (SOX/SOC) Intern",
+      "location": "Franklin, TN",
+      "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
+        "Risk management",
         "Asset-based lending"
       ],
       "tags": [
-        "Python",
-        "SQL",
         "AI / ML",
-        "Product",
-        "Risk"
+        "Operations",
+        "Risk",
+        "Accounting"
       ],
-      "summary": "At The Cigna Group, data, analytics, and artificial intelligence help drive decisions that improve health outcomes, make care more affordable, and create a healthcare system that works better for everyone. The AI Innovation Development Program (AIIDP) Summer Internship provides…",
+      "summary": "Explore Where Accounting, Technology, and Risk Management Meet Are you a rising junior who enjoys solving problems, asking questions, and finding better ways to work? If you're exploring how an accounting degree can be applied beyond traditional public accounting paths, this…",
       "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-09-04",
       "deadline": null,
-      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/NC-Raleigh-701-Corporate-Center-Dr-STE-200/Ai-Innovation-Development-Program--AIIDP--Summer-internship_26010712",
-      "external_id": "26010712",
-      "verified_at": "2026-09-04T00:10:58Z",
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Franklin-TN/Internal-Audit--SOX-SOC--Intern_26010366",
+      "external_id": "26010366",
+      "verified_at": "2026-09-05T18:23:23Z",
       "match_score": 85
     },
     {
@@ -2266,6 +2279,81 @@
       "match_score": 85
     },
     {
+      "id": "auto-owners-insurance-68b68d3f64c6",
+      "source_key": "auto-owners-insurance",
+      "fortune_rank": 241,
+      "fortune_500": true,
+      "company": "Auto-Owners Insurance",
+      "title": "Marketing & Sales Education & Training Internship - Summer 2027",
+      "location": "Lansing, MI",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking a motivated…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-04",
+      "deadline": null,
+      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Marketing---Sales-Education---Training-Internship---Summer-2027_R_14449",
+      "external_id": "R_14449",
+      "verified_at": "2026-09-05T18:21:32Z",
+      "match_score": 85
+    },
+    {
+      "id": "auto-owners-insurance-eebd7a59a286",
+      "source_key": "auto-owners-insurance",
+      "fortune_rank": 241,
+      "fortune_500": true,
+      "company": "Auto-Owners Insurance",
+      "title": "Corporate Customer Focus Internship - Summer 2027",
+      "location": "Lansing, MI",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking motivated…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-04",
+      "deadline": null,
+      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Corporate-Customer-Focus-Internship---Summer-2027_R_14446",
+      "external_id": "R_14446",
+      "verified_at": "2026-09-05T18:21:32Z",
+      "match_score": 85
+    },
+    {
+      "id": "auto-owners-insurance-d7624fcbb8d8",
+      "source_key": "auto-owners-insurance",
+      "fortune_rank": 241,
+      "fortune_500": true,
+      "company": "Auto-Owners Insurance",
+      "title": "Corporate Communications Internship - Summer 2027",
+      "location": "Lansing, MI",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking a motivated…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-04",
+      "deadline": null,
+      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Corporate-Communications-Internship---Summer-2027_R_14445",
+      "external_id": "R_14445",
+      "verified_at": "2026-09-05T18:21:32Z",
+      "match_score": 85
+    },
+    {
       "id": "andersons-916b248f4f3b",
       "source_key": "andersons",
       "fortune_rank": 397,
@@ -2979,7 +3067,34 @@
       "deadline": "2026-09-25",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Corporate-Communications-Internship_R-120884",
       "external_id": "R-120884",
-      "verified_at": "2026-09-05T16:08:45Z",
+      "verified_at": "2026-09-05T18:23:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "rockwell-automation-157e89c43e44",
+      "source_key": "rockwell-automation",
+      "fortune_rank": 467,
+      "fortune_500": true,
+      "company": "Rockwell Automation",
+      "title": "Intern Developer",
+      "location": "Medellin, Antioquia, Colombia",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Rockwell Automation is a global technology leader focused on helping the world’s manufacturers be more productive, sustainable, and agile. With more than 28,000 employees who make the world better every day, we know we have something special",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-03",
+      "deadline": "2026-11-04",
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Medellin-Antioquia-Colombia/Intern-Developer_R26-7072",
+      "external_id": "R26-7072",
+      "verified_at": "2026-09-05T18:22:30Z",
       "match_score": 85
     },
     {
@@ -3452,7 +3567,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Spring-2027_115712",
       "external_id": "115712",
-      "verified_at": "2026-09-05T16:07:19Z",
+      "verified_at": "2026-09-05T18:21:36Z",
       "match_score": 85
     },
     {
@@ -3479,7 +3594,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Decatur-AL/Operations-QA-Intern--Summer-2027--Decatur--AL_115757",
       "external_id": "115757",
-      "verified_at": "2026-09-05T16:07:17Z",
+      "verified_at": "2026-09-05T18:21:35Z",
       "match_score": 85
     },
     {
@@ -3507,7 +3622,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Marketing-Intern--Summer-2027_115771",
       "external_id": "115771",
-      "verified_at": "2026-09-05T16:07:16Z",
+      "verified_at": "2026-09-05T18:21:34Z",
       "match_score": 85
     },
     {
@@ -3801,6 +3916,37 @@
       "url": "https://conocophillips.wd1.myworkdayjobs.com/External/job/Kuparuk-AK/North-Slope-Operator-Apprentice_REQ-006540",
       "external_id": "REQ-006540",
       "verified_at": "2026-09-04T21:34:22Z",
+      "match_score": 85
+    },
+    {
+      "id": "cigna-group-31ce7fdfadbd",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "Artificial Intelligence Innovation Development Program (AIIDP) Summer Internship",
+      "location": "NC, Raleigh, 701 Corporate Center Dr STE 200",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "AI / ML",
+        "Product",
+        "Risk"
+      ],
+      "summary": "At The Cigna Group, data, analytics, and artificial intelligence help drive decisions that improve health outcomes, make care more affordable, and create a healthcare system that works better for everyone. The AI Innovation Development Program (AIIDP) Summer Internship provides…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-03",
+      "deadline": null,
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/NC-Raleigh-701-Corporate-Center-Dr-STE-200/Ai-Innovation-Development-Program--AIIDP--Summer-internship_26010712",
+      "external_id": "26010712",
+      "verified_at": "2026-09-05T18:23:24Z",
       "match_score": 85
     },
     {
@@ -4267,7 +4413,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_115697",
       "external_id": "115697",
-      "verified_at": "2026-09-05T16:07:18Z",
+      "verified_at": "2026-09-05T18:21:36Z",
       "match_score": 85
     },
     {
@@ -4418,66 +4564,6 @@
       "match_score": 85
     },
     {
-      "id": "elevance-health-38bf1bac479c",
-      "source_key": "elevance-health",
-      "fortune_rank": 18,
-      "fortune_500": true,
-      "company": "Elevance Health",
-      "title": "Tax Intern - Summer 2027",
-      "location": "IN-INDIANAPOLIS, 220 VIRGINIA AVE",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Strategy",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Anticipated End Date: 2026-11-07 Position Title: Tax Intern - Summer 2027 Job Description: Tax Intern – Summer 2027 Location: Indianapolis, IN This role requires associates to be in-office 1 - 2 days per week, fostering collaboration and connectivity, while providing…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-02",
-      "deadline": "2026-11-07",
-      "url": "https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Tax-Intern---Summer-2027_JR202207",
-      "external_id": "JR202207",
-      "verified_at": "2026-09-04T00:10:34Z",
-      "match_score": 85
-    },
-    {
-      "id": "elevance-health-902f898410b2",
-      "source_key": "elevance-health",
-      "fortune_rank": 18,
-      "fortune_500": true,
-      "company": "Elevance Health",
-      "title": "Information Security Co-Op Internship – 2027",
-      "location": "IN-INDIANAPOLIS, 220 VIRGINIA AVE",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "IT analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Anticipated End Date: 2026-11-07 Position Title: Information Security Co-Op Internship – 2027 Job Description: Information Security Co-Op Internship – 2027 Location: Indianapolis, IN; Atlanta, GA This role requires associates to be in-office 1 - 2 days per week, fostering…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-02",
-      "deadline": "2026-11-07",
-      "url": "https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Information-Security-Co-Op-Internship---2027_JR205939",
-      "external_id": "JR205939",
-      "verified_at": "2026-09-04T00:10:33Z",
-      "match_score": 85
-    },
-    {
       "id": "citigroup-90f949a61c3a",
       "source_key": "citigroup",
       "fortune_rank": 24,
@@ -4508,31 +4594,36 @@
       "match_score": 85
     },
     {
-      "id": "ameren-b845ff53659b",
-      "source_key": "ameren",
-      "fortune_rank": 466,
+      "id": "auto-owners-insurance-dd2adeda1338",
+      "source_key": "auto-owners-insurance",
+      "fortune_rank": 241,
       "fortune_500": true,
-      "company": "Ameren",
-      "title": "Lineman Apprentice",
-      "location": "Dexter, MO",
+      "company": "Auto-Owners Insurance",
+      "title": "Business Intelligence Developer Internship - Summer 2027",
+      "location": "Lansing, MI",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
+        "Data analyst",
         "Asset-based lending"
       ],
       "tags": [
-        "Operations"
+        "Python",
+        "SQL",
+        "Excel",
+        "Tableau",
+        "Power BI"
       ],
-      "summary": "About Ameren Missouri Ameren Missouri has been providing electric and gas service for more than 100 years, and our electric rates are among the lowest in the nation. Ameren Missouri's mission is to power the quality of life for our 1.2 million electric and 132,000 natural gas…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
+      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking a motivated…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "line, and have at least two years of coursework completed. Master’s students are also considered if graduation is August 2027 or later. High aptitude for mathematics and…",
+      "freshman_friendly": true,
       "posted_date": "2026-09-02",
-      "deadline": "2026-09-04",
-      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/Dexter-MO/Lineman-Apprentice_033736-1",
-      "external_id": "033736",
-      "verified_at": "2026-09-04T00:10:00Z",
-      "match_score": 85
+      "deadline": null,
+      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14417",
+      "external_id": "R_14417",
+      "verified_at": "2026-09-05T18:21:33Z",
+      "match_score": 90
     },
     {
       "id": "abbott-laboratories-87901a8a22c7",
@@ -5052,6 +5143,191 @@
       "match_score": 85
     },
     {
+      "id": "rockwell-automation-c0ad26e34685",
+      "source_key": "rockwell-automation",
+      "fortune_rank": 467,
+      "fortune_500": true,
+      "company": "Rockwell Automation",
+      "title": "Intern, Remote Support (LCS)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Rockwell Automation is a global technology leader focused on helping the world’s manufacturers be more productive, sustainable, and agile. With more than 28,000 employees who make the world better every day, we know we have something special",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": "2026-10-30",
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Intern--Remote-Support--LCS-_R26-5025-2",
+      "external_id": "R26-5025",
+      "verified_at": "2026-09-05T18:22:30Z",
+      "match_score": 85
+    },
+    {
+      "id": "rockwell-automation-c0e754d3eb6f",
+      "source_key": "rockwell-automation",
+      "fortune_rank": 467,
+      "fortune_500": true,
+      "company": "Rockwell Automation",
+      "title": "Intern, Market Intelligence (LCS)",
+      "location": "Milwaukee, Wisconsin, United States",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy"
+      ],
+      "summary": "Rockwell Automation is a global technology leader focused on helping the world’s manufacturers be more productive, sustainable, and agile. With more than 28,000 employees who make the world better every day, we know we have something special",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": "2026-10-30",
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Milwaukee-Wisconsin-United-States/Intern--Market-Intelligence--LCS-_R26-5032-1",
+      "external_id": "R26-5032",
+      "verified_at": "2026-09-05T18:22:30Z",
+      "match_score": 85
+    },
+    {
+      "id": "rockwell-automation-2959097d0b9b",
+      "source_key": "rockwell-automation",
+      "fortune_rank": 467,
+      "fortune_500": true,
+      "company": "Rockwell Automation",
+      "title": "Intern, Cyber Professional Services (LCS)",
+      "location": "Mayfield Heights, Ohio, United States",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Rockwell Automation is a global technology leader focused on helping the world’s manufacturers be more productive, sustainable, and agile. With more than 28,000 employees who make the world better every day, we know we have something special",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": null,
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Intern--Cyber-Professional-Services--LCS-_R26-5042-2",
+      "external_id": "R26-5042",
+      "verified_at": "2026-09-05T18:22:30Z",
+      "match_score": 85
+    },
+    {
+      "id": "rockwell-automation-6a0013da905e",
+      "source_key": "rockwell-automation",
+      "fortune_rank": 467,
+      "fortune_500": true,
+      "company": "Rockwell Automation",
+      "title": "Intern, Continuous Improvement (LCS)",
+      "location": "Mayfield Heights, Ohio, United States",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Rockwell Automation is a global technology leader focused on helping the world’s manufacturers be more productive, sustainable, and agile. With more than 28,000 employees who make the world better every day, we know we have something special",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": null,
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Intern--Continuous-Improvement--LCS-_R26-5028-2",
+      "external_id": "R26-5028",
+      "verified_at": "2026-09-05T18:22:30Z",
+      "match_score": 85
+    },
+    {
+      "id": "rockwell-automation-c21d3099adfa",
+      "source_key": "rockwell-automation",
+      "fortune_rank": 467,
+      "fortune_500": true,
+      "company": "Rockwell Automation",
+      "title": "EHS Co-op/ Intern",
+      "location": "Cambridge, Ontario, Canada",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Risk",
+        "Accounting"
+      ],
+      "summary": "Rockwell Automation is a global technology leader focused on helping the world’s manufacturers be more productive, sustainable, and agile. With more than 28,000 employees who make the world better every day, we know we have something special",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": null,
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Cambridge-Ontario-Canada/EHS-Co-op--Intern_R26-6480",
+      "external_id": "R26-6480",
+      "verified_at": "2026-09-05T18:22:30Z",
+      "match_score": 85
+    },
+    {
+      "id": "rockwell-automation-91ba187433ea",
+      "source_key": "rockwell-automation",
+      "fortune_rank": 467,
+      "fortune_500": true,
+      "company": "Rockwell Automation",
+      "title": "Co-op, Process Standardization & Delivery Automation (LCS)",
+      "location": "Mayfield Heights, Ohio, United States",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Excel"
+      ],
+      "summary": "Rockwell Automation is a global technology leader focused on helping the world’s manufacturers be more productive, sustainable, and agile. With more than 28,000 employees who make the world better every day, we know we have something special",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": null,
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Co-op--Process-Standardization---Delivery-Automation--LCS-_R26-5072-1",
+      "external_id": "R26-5072",
+      "verified_at": "2026-09-05T18:22:30Z",
+      "match_score": 85
+    },
+    {
+      "id": "rockwell-automation-3840e73ced5f",
+      "source_key": "rockwell-automation",
+      "fortune_rank": 467,
+      "fortune_500": true,
+      "company": "Rockwell Automation",
+      "title": "Co-op, Delivery - Projects (LCS)",
+      "location": "Mayfield Heights, Ohio, United States",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Rockwell Automation is a global technology leader focused on helping the world’s manufacturers be more productive, sustainable, and agile. With more than 28,000 employees who make the world better every day, we know we have something special",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": null,
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Mayfield-Heights-Ohio-United-States/Co-op--Delivery---Projects--LCS-_R26-5039-2",
+      "external_id": "R26-5039",
+      "verified_at": "2026-09-05T18:22:30Z",
+      "match_score": 85
+    },
+    {
       "id": "prudential-financial-bfaa64ef1da1",
       "source_key": "prudential-financial",
       "fortune_rank": 78,
@@ -5394,7 +5670,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/R-D-Engineering-Intern--Co-Op-2027--8-months-_115696",
       "external_id": "115696",
-      "verified_at": "2026-09-05T16:07:17Z",
+      "verified_at": "2026-09-05T18:21:35Z",
       "match_score": 85
     },
     {
@@ -5731,6 +6007,66 @@
       "match_score": 85
     },
     {
+      "id": "elevance-health-38bf1bac479c",
+      "source_key": "elevance-health",
+      "fortune_rank": 18,
+      "fortune_500": true,
+      "company": "Elevance Health",
+      "title": "Tax Intern - Summer 2027",
+      "location": "IN-INDIANAPOLIS, 220 VIRGINIA AVE",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Anticipated End Date: 2026-11-07 Position Title: Tax Intern - Summer 2027 Job Description: Tax Intern – Summer 2027 Location: Indianapolis, IN This role requires associates to be in-office 1 - 2 days per week, fostering collaboration and connectivity, while providing…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": "2026-11-07",
+      "url": "https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Tax-Intern---Summer-2027_JR202207",
+      "external_id": "JR202207",
+      "verified_at": "2026-09-05T18:23:05Z",
+      "match_score": 85
+    },
+    {
+      "id": "elevance-health-902f898410b2",
+      "source_key": "elevance-health",
+      "fortune_rank": 18,
+      "fortune_500": true,
+      "company": "Elevance Health",
+      "title": "Information Security Co-Op Internship – 2027",
+      "location": "IN-INDIANAPOLIS, 220 VIRGINIA AVE",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "IT analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Anticipated End Date: 2026-11-07 Position Title: Information Security Co-Op Internship – 2027 Job Description: Information Security Co-Op Internship – 2027 Location: Indianapolis, IN; Atlanta, GA This role requires associates to be in-office 1 - 2 days per week, fostering…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": "2026-11-07",
+      "url": "https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Information-Security-Co-Op-Internship---2027_JR205939",
+      "external_id": "JR205939",
+      "verified_at": "2026-09-05T18:23:04Z",
+      "match_score": 85
+    },
+    {
       "id": "duke-energy-890d7bbd7905",
       "source_key": "duke-energy",
       "fortune_rank": 145,
@@ -5926,6 +6262,61 @@
       "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Cyber-Security-Intern---Annapolis-Junction--MD_R0248414",
       "external_id": "R0248414",
       "verified_at": "2026-09-05T09:09:55Z",
+      "match_score": 85
+    },
+    {
+      "id": "auto-owners-insurance-f19c71e1fd46",
+      "source_key": "auto-owners-insurance",
+      "fortune_rank": 241,
+      "fortune_500": true,
+      "company": "Auto-Owners Insurance",
+      "title": "Home Office Underwriting/Audit Internship - Summer 2027",
+      "location": "Lansing, MI",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "IT analyst",
+        "Accounting / financial analyst"
+      ],
+      "tags": [
+        "Product",
+        "Credit",
+        "Accounting"
+      ],
+      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking a motivated…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": null,
+      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Home-Office-Underwriting-Audit-Internship---Summer-2027_R_14361",
+      "external_id": "R_14361",
+      "verified_at": "2026-09-05T18:21:33Z",
+      "match_score": 85
+    },
+    {
+      "id": "auto-owners-insurance-6136965e2b0b",
+      "source_key": "auto-owners-insurance",
+      "fortune_rank": 241,
+      "fortune_500": true,
+      "company": "Auto-Owners Insurance",
+      "title": "Business/Quality Analyst Internship - Summer 2027",
+      "location": "Lansing, MI",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking motivated…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": null,
+      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Business-Quality-Analyst-Internship---Summer-2027_R_14407",
+      "external_id": "R_14407",
+      "verified_at": "2026-09-05T18:21:33Z",
       "match_score": 85
     },
     {
@@ -6186,6 +6577,34 @@
       "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1902-Miller-Trunk-Hwy-DuluthMN-55811-1810/Store-Executive-Intern--Store-Leadership-Intern----Duluth--MN--Starting-Summer-2027------_R0000449254",
       "external_id": "R0000449254",
       "verified_at": "2026-09-04T09:44:51Z",
+      "match_score": 85
+    },
+    {
+      "id": "rockwell-automation-646c3534b22b",
+      "source_key": "rockwell-automation",
+      "fortune_rank": 467,
+      "fortune_500": true,
+      "company": "Rockwell Automation",
+      "title": "Credit Management Intern",
+      "location": "Katowice, Poland",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Credit"
+      ],
+      "summary": "Rockwell Automation is a global technology leader focused on helping the world’s manufacturers be more productive, sustainable, and agile. With more than 28,000 employees who make the world better every day, we know we have something special",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-31",
+      "deadline": null,
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Katowice-Poland/Credit-Management-Intern_R26-5901",
+      "external_id": "R26-5901",
+      "verified_at": "2026-09-05T18:22:30Z",
       "match_score": 85
     },
     {
@@ -6663,7 +7082,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/New-Orleans-LA/Operations-Engineering-Intern--Summer-2027--Multiple-Locations-_115721",
       "external_id": "115721",
-      "verified_at": "2026-09-05T16:07:18Z",
+      "verified_at": "2026-09-05T18:21:36Z",
       "match_score": 85
     },
     {
@@ -7615,7 +8034,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
       "external_id": "115735",
-      "verified_at": "2026-09-05T16:07:19Z",
+      "verified_at": "2026-09-05T18:21:36Z",
       "match_score": 85
     },
     {
@@ -7644,7 +8063,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Information-Services-Intern--Summer-2027_115744",
       "external_id": "115744",
-      "verified_at": "2026-09-05T16:07:17Z",
+      "verified_at": "2026-09-05T18:21:35Z",
       "match_score": 85
     },
     {
@@ -7677,7 +8096,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Summer-2027_115743",
       "external_id": "115743",
-      "verified_at": "2026-09-05T16:07:16Z",
+      "verified_at": "2026-09-05T18:21:35Z",
       "match_score": 85
     },
     {
@@ -8093,7 +8512,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Supply-Chain-Intern--Summer-2027_115694",
       "external_id": "115694",
-      "verified_at": "2026-09-05T16:07:16Z",
+      "verified_at": "2026-09-05T18:21:35Z",
       "match_score": 85
     },
     {
@@ -8122,7 +8541,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
       "external_id": "115736",
-      "verified_at": "2026-09-05T16:07:18Z",
+      "verified_at": "2026-09-05T18:21:36Z",
       "match_score": 85
     },
     {
@@ -8152,33 +8571,6 @@
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Lisburn/Manufacturing-Quality-Intern_R5050189-2",
       "external_id": "R5050189",
       "verified_at": "2026-09-05T09:10:16Z",
-      "match_score": 85
-    },
-    {
-      "id": "vistra-828bc94324df",
-      "source_key": "vistra",
-      "fortune_rank": 251,
-      "fortune_500": true,
-      "company": "Vistra",
-      "title": "Nuclear Instrument & Control Tech Apprentice-Shift",
-      "location": "Shippingport, Pennsylvania",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "If you have what it takes to become part of the Vistra family and would like to start a promising career with a global leader, take a look at the exciting employment opportunities that are currently available and apply online. Job Summary Job Description DUTIES: Under direct…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-26",
-      "deadline": null,
-      "url": "https://vst.wd5.myworkdayjobs.com/vistra_careers/job/Shippingport-Pennsylvania/Nuclear-Instrument---Control-Tech-Apprentice-Shift_40015781-1",
-      "external_id": "40015781",
-      "verified_at": "2026-09-04T00:09:41Z",
       "match_score": 85
     },
     {
@@ -8296,7 +8688,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Quality-Assurance-Intern---Oxnard--CA_115727",
       "external_id": "115727",
-      "verified_at": "2026-09-05T16:07:18Z",
+      "verified_at": "2026-09-05T18:21:36Z",
       "match_score": 85
     },
     {
@@ -8321,7 +8713,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
       "external_id": "115725",
-      "verified_at": "2026-09-05T16:07:18Z",
+      "verified_at": "2026-09-05T18:21:36Z",
       "match_score": 85
     },
     {
@@ -8353,38 +8745,6 @@
       "match_score": 85
     },
     {
-      "id": "cigna-group-208103cac73e",
-      "source_key": "cigna-group",
-      "fortune_rank": 14,
-      "fortune_500": true,
-      "company": "Cigna Group",
-      "title": "Legal Operations Financial, Data & AI Analytics Intern",
-      "location": "St. Louis, MO",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Operations",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Make an Impact Bring your curiosity, analytical mindset, financial acumen, and interest in AI to a Legal Operations team that is modernizing how legal work is measured, managed, and improved. In this internship, you will turn financial, operational, and contracting data into…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-26",
-      "deadline": null,
-      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/St-Louis-MO/Legal-Operations-Financial--Data---AI-Analytics-Intern_25016386",
-      "external_id": "25016386",
-      "verified_at": "2026-09-04T00:10:57Z",
-      "match_score": 85
-    },
-    {
       "id": "carrier-global-bfc6244d834a",
       "source_key": "carrier-global",
       "fortune_rank": 212,
@@ -8412,64 +8772,32 @@
       "match_score": 85
     },
     {
-      "id": "ameren-16c417418d9a",
-      "source_key": "ameren",
-      "fortune_rank": 466,
+      "id": "auto-owners-insurance-985d62a77fcc",
+      "source_key": "auto-owners-insurance",
+      "fortune_rank": 241,
       "fortune_500": true,
-      "company": "Ameren",
-      "title": "Strategic Sourcing Intern-1",
-      "location": "St. Louis, MO",
+      "company": "Auto-Owners Insurance",
+      "title": "Data Engineering Internship - Summer 2027",
+      "location": "Lansing, MI",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
-        "Data analyst",
         "Asset-based lending"
       ],
       "tags": [
-        "Excel",
-        "Finance",
-        "Accounting"
+        "AI / ML",
+        "Operations"
       ],
-      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
+      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking a motivated…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "line, and have at least two years of coursework completed. Master’s students are also considered if graduation is August 2027 or later. Successful completion of actuarial…",
+      "freshman_friendly": true,
       "posted_date": "2026-08-26",
-      "deadline": "2026-12-22",
-      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/Strategic-Sourcing-Intern-1_033838",
-      "external_id": "033838",
-      "verified_at": "2026-09-04T00:09:37Z",
-      "match_score": 85
-    },
-    {
-      "id": "ameren-16c417418d9a",
-      "source_key": "ameren",
-      "fortune_rank": 466,
-      "fortune_500": true,
-      "company": "Ameren",
-      "title": "Strategic Sourcing Intern-1",
-      "location": "St. Louis, MO",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-26",
-      "deadline": "2026-12-22",
-      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Strategic-Sourcing-Intern-1_033838-1",
-      "external_id": "033838",
-      "verified_at": "2026-09-04T00:09:56Z",
-      "match_score": 85
+      "deadline": null,
+      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Data-Engineering-Internship---Summer-2026_R_12318",
+      "external_id": "R_12318",
+      "verified_at": "2026-09-05T18:21:38Z",
+      "match_score": 90
     },
     {
       "id": "united-rentals-d28a733282fd",
@@ -8615,7 +8943,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
       "external_id": "115677",
-      "verified_at": "2026-09-05T16:07:17Z",
+      "verified_at": "2026-09-05T18:21:35Z",
       "match_score": 85
     },
     {
@@ -8642,7 +8970,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
       "external_id": "115698",
-      "verified_at": "2026-09-05T16:07:17Z",
+      "verified_at": "2026-09-05T18:21:35Z",
       "match_score": 85
     },
     {
@@ -8667,7 +8995,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Microbiology-Intern--Summer-2027_115676",
       "external_id": "115676",
-      "verified_at": "2026-09-05T16:07:16Z",
+      "verified_at": "2026-09-05T18:21:34Z",
       "match_score": 85
     },
     {
@@ -8694,7 +9022,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Analytical-Lab-Intern--Summer-2027_115678",
       "external_id": "115678",
-      "verified_at": "2026-09-05T16:07:16Z",
+      "verified_at": "2026-09-05T18:21:35Z",
       "match_score": 85
     },
     {
@@ -8753,46 +9081,16 @@
       "match_score": 85
     },
     {
-      "id": "cigna-group-a6f5ca1a676a",
+      "id": "cigna-group-208103cac73e",
       "source_key": "cigna-group",
       "fortune_rank": 14,
       "fortune_500": true,
       "company": "Cigna Group",
-      "title": "Legal Research Intern",
-      "location": "Bloomfield, CT",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Risk"
-      ],
-      "summary": "Make an Impact Bring your curiosity, legal mindset, and passion for learning to a team that helps navigate the complex legal and regulatory landscape of healthcare. In this internship, you'll apply your legal education to real business challenges, helping to support contracts,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-25",
-      "deadline": null,
-      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Legal-Research-Intern_26009786",
-      "external_id": "26009786",
-      "verified_at": "2026-09-04T00:10:57Z",
-      "match_score": 85
-    },
-    {
-      "id": "cigna-group-132bc1b60843",
-      "source_key": "cigna-group",
-      "fortune_rank": 14,
-      "fortune_500": true,
-      "company": "Cigna Group",
-      "title": "Healthcare Policy & Regulated Markets Intern",
+      "title": "Legal Operations Financial, Data & AI Analytics Intern",
       "location": "St. Louis, MO",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
-        "Operations analyst",
         "Data analyst",
         "Asset-based lending"
       ],
@@ -8800,47 +9098,18 @@
         "Excel",
         "AI / ML",
         "Operations",
+        "Finance",
         "Accounting"
       ],
-      "summary": "Make an Impact Are you curious about how healthcare, regulations, and pharmacy benefits management come together to shape experiences and outcomes for customers? As an intern at Evernorth Health Services, you will work alongside ambitious and compassionate experts who help…",
+      "summary": "Make an Impact Bring your curiosity, analytical mindset, financial acumen, and interest in AI to a Legal Operations team that is modernizing how legal work is measured, managed, and improved. In this internship, you will turn financial, operational, and contracting data into…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-08-25",
       "deadline": null,
-      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/St-Louis-MO/Healthcare-Policy---Regulated-Markets-Intern_26006403",
-      "external_id": "26006403",
-      "verified_at": "2026-09-04T00:10:57Z",
-      "match_score": 85
-    },
-    {
-      "id": "cigna-group-fcfc6b1d1ebc",
-      "source_key": "cigna-group",
-      "fortune_rank": 14,
-      "fortune_500": true,
-      "company": "Cigna Group",
-      "title": "Cigna Investment Management Internship",
-      "location": "Bloomfield, CT",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Wealth management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "The Cigna Investment Management Internship Start Date May 24, 2027 Location: Bloomfield, CT Work Style: Hybrid (3 days in-office/week) Duration: 11 Weeks Make an Impact This Summer Join a 10‑week internship where you’ll work on real business challenges, learn from leaders…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-25",
-      "deadline": null,
-      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Cigna-Investment-Management-Internship_26010198",
-      "external_id": "26010198",
-      "verified_at": "2026-09-04T00:10:57Z",
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/St-Louis-MO/Legal-Operations-Financial--Data---AI-Analytics-Intern_25016386",
+      "external_id": "25016386",
+      "verified_at": "2026-09-05T18:23:24Z",
       "match_score": 85
     },
     {
@@ -8903,6 +9172,66 @@
       "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/Singapore-Affiliate---Duo-Tower/Finance-Intern_R-253789",
       "external_id": "R-253789",
       "verified_at": "2026-09-05T09:10:33Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-16c417418d9a",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "Strategic Sourcing Intern-1",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-25",
+      "deadline": "2026-12-22",
+      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/Strategic-Sourcing-Intern-1_033838",
+      "external_id": "033838",
+      "verified_at": "2026-09-05T18:22:15Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-16c417418d9a",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "Strategic Sourcing Intern-1",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-25",
+      "deadline": "2026-12-22",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Strategic-Sourcing-Intern-1_033838-1",
+      "external_id": "033838",
+      "verified_at": "2026-09-05T18:22:31Z",
       "match_score": 85
     },
     {
@@ -9294,7 +9623,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Memphis-TN/Operations-Engineering-Intern--Spring-2027---Memphis--TN_114845",
       "external_id": "114845",
-      "verified_at": "2026-09-05T16:07:17Z",
+      "verified_at": "2026-09-05T18:21:36Z",
       "match_score": 85
     },
     {
@@ -9321,7 +9650,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Lexington-KY/Operations-Engineering-Intern--Spring-2027---Lexington--KY_114841",
       "external_id": "114841",
-      "verified_at": "2026-09-05T16:07:17Z",
+      "verified_at": "2026-09-05T18:21:36Z",
       "match_score": 85
     },
     {
@@ -9406,6 +9735,97 @@
       "match_score": 85
     },
     {
+      "id": "cigna-group-a6f5ca1a676a",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "Legal Research Intern",
+      "location": "Bloomfield, CT",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Risk"
+      ],
+      "summary": "Make an Impact Bring your curiosity, legal mindset, and passion for learning to a team that helps navigate the complex legal and regulatory landscape of healthcare. In this internship, you'll apply your legal education to real business challenges, helping to support contracts,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-24",
+      "deadline": null,
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Legal-Research-Intern_26009786",
+      "external_id": "26009786",
+      "verified_at": "2026-09-05T18:23:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "cigna-group-132bc1b60843",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "Healthcare Policy & Regulated Markets Intern",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "Make an Impact Are you curious about how healthcare, regulations, and pharmacy benefits management come together to shape experiences and outcomes for customers? As an intern at Evernorth Health Services, you will work alongside ambitious and compassionate experts who help…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-24",
+      "deadline": null,
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/St-Louis-MO/Healthcare-Policy---Regulated-Markets-Intern_26006403",
+      "external_id": "26006403",
+      "verified_at": "2026-09-05T18:23:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "cigna-group-fcfc6b1d1ebc",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "Cigna Investment Management Internship",
+      "location": "Bloomfield, CT",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "The Cigna Investment Management Internship Start Date May 24, 2027 Location: Bloomfield, CT Work Style: Hybrid (3 days in-office/week) Duration: 11 Weeks Make an Impact This Summer Join a 10‑week internship where you’ll work on real business challenges, learn from leaders…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-24",
+      "deadline": null,
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Cigna-Investment-Management-Internship_26010198",
+      "external_id": "26010198",
+      "verified_at": "2026-09-05T18:23:24Z",
+      "match_score": 85
+    },
+    {
       "id": "jones-lang-lasalle-79e18e19cf4d",
       "source_key": "jones-lang-lasalle",
       "fortune_rank": 175,
@@ -9432,33 +9852,6 @@
       "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/New-York-NY/Capital-Markets-Summer-2027-Internship---New-York_REQ528322",
       "external_id": "REQ528322",
       "verified_at": "2026-09-05T00:09:56Z",
-      "match_score": 85
-    },
-    {
-      "id": "cigna-group-9b5982a62400",
-      "source_key": "cigna-group",
-      "fortune_rank": 14,
-      "fortune_500": true,
-      "company": "Cigna Group",
-      "title": "Technology Apprentice Program - Hybrid",
-      "location": "St. Louis, MO",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python"
-      ],
-      "summary": "At The Cigna Group, we believe technology is the heartbeat of innovation in healthcare—powering smarter decisions, better outcomes, and more personalized experiences for millions of people. Our Technology Apprentice Program serves as a launchpad for passionate technologists…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-22",
-      "deadline": null,
-      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/St-Louis-MO/Technology-Apprentice-Program---Hybrid_26010314",
-      "external_id": "26010314",
-      "verified_at": "2026-09-04T00:11:06Z",
       "match_score": 85
     },
     {
@@ -9725,6 +10118,33 @@
       "match_score": 85
     },
     {
+      "id": "cigna-group-9b5982a62400",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "Technology Apprentice Program - Hybrid",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python"
+      ],
+      "summary": "At The Cigna Group, we believe technology is the heartbeat of innovation in healthcare—powering smarter decisions, better outcomes, and more personalized experiences for millions of people. Our Technology Apprentice Program serves as a launchpad for passionate technologists…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-21",
+      "deadline": null,
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/St-Louis-MO/Technology-Apprentice-Program---Hybrid_26010314",
+      "external_id": "26010314",
+      "verified_at": "2026-09-05T18:23:30Z",
+      "match_score": 85
+    },
+    {
       "id": "somnigroup-international-3039c8625598",
       "source_key": "somnigroup-international",
       "fortune_rank": 35,
@@ -9749,7 +10169,32 @@
       "deadline": "2026-09-18",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Financial-Co-Op--Part-time-_R-119461-1",
       "external_id": "R-119461",
-      "verified_at": "2026-09-05T16:08:45Z",
+      "verified_at": "2026-09-05T18:23:21Z",
+      "match_score": 85
+    },
+    {
+      "id": "rockwell-automation-5a9dd8e16372",
+      "source_key": "rockwell-automation",
+      "fortune_rank": 467,
+      "fortune_500": true,
+      "company": "Rockwell Automation",
+      "title": "Embedded Software, Intern",
+      "location": "Katowice, Poland",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Rockwell Automation is a global technology leader focused on helping the world’s manufacturers be more productive, sustainable, and agile. With more than 28,000 employees who make the world better every day, we know we have something special",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-19",
+      "deadline": null,
+      "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Katowice-Poland/Embedded-Software--Intern_R26-5675-1",
+      "external_id": "R26-5675",
+      "verified_at": "2026-09-05T18:22:30Z",
       "match_score": 85
     },
     {
@@ -11341,56 +11786,6 @@
       "match_score": 90
     },
     {
-      "id": "ameren-5ed297248032",
-      "source_key": "ameren",
-      "fortune_rank": 466,
-      "fortune_500": true,
-      "company": "Ameren",
-      "title": "CAD Technician Co-op",
-      "location": "St. Louis, MO",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-13",
-      "deadline": "2027-04-05",
-      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/CAD-Technician-Co-op_033920",
-      "external_id": "033920",
-      "verified_at": "2026-09-04T00:09:37Z",
-      "match_score": 85
-    },
-    {
-      "id": "ameren-5ed297248032",
-      "source_key": "ameren",
-      "fortune_rank": 466,
-      "fortune_500": true,
-      "company": "Ameren",
-      "title": "CAD Technician Co-op",
-      "location": "St. Louis, MO",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-13",
-      "deadline": "2027-04-05",
-      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/CAD-Technician-Co-op_033920-1",
-      "external_id": "033920",
-      "verified_at": "2026-09-04T00:09:57Z",
-      "match_score": 85
-    },
-    {
       "id": "abbott-laboratories-8f4e52013ad5",
       "source_key": "abbott-laboratories",
       "fortune_rank": 107,
@@ -11711,6 +12106,56 @@
       "match_score": 85
     },
     {
+      "id": "ameren-5ed297248032",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "CAD Technician Co-op",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-12",
+      "deadline": "2027-04-05",
+      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/CAD-Technician-Co-op_033920",
+      "external_id": "033920",
+      "verified_at": "2026-09-05T18:22:15Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-5ed297248032",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "CAD Technician Co-op",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-12",
+      "deadline": "2027-04-05",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/CAD-Technician-Co-op_033920-1",
+      "external_id": "033920",
+      "verified_at": "2026-09-05T18:22:31Z",
+      "match_score": 85
+    },
+    {
       "id": "mosaic-6ff04f84b703",
       "source_key": "mosaic",
       "fortune_rank": 366,
@@ -11788,7 +12233,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Scottsville-KY/Operations-Engineering-Intern--Spring-2027---Scottsville--KY_115475-1",
       "external_id": "115475",
-      "verified_at": "2026-09-05T16:07:18Z",
+      "verified_at": "2026-09-05T18:21:36Z",
       "match_score": 85
     },
     {
@@ -11960,68 +12405,6 @@
       "external_id": "JR2026521717",
       "verified_at": "2026-09-04T14:27:19Z",
       "match_score": 90
-    },
-    {
-      "id": "ameren-24504618a196",
-      "source_key": "ameren",
-      "fortune_rank": 466,
-      "fortune_500": true,
-      "company": "Ameren",
-      "title": "Supply Chain Internship",
-      "location": "St. Louis, MO",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-08",
-      "deadline": "2026-12-21",
-      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/Supply-Chain-Internship_033958-2",
-      "external_id": "033958",
-      "verified_at": "2026-09-04T00:09:39Z",
-      "match_score": 85
-    },
-    {
-      "id": "ameren-24504618a196",
-      "source_key": "ameren",
-      "fortune_rank": 466,
-      "fortune_500": true,
-      "company": "Ameren",
-      "title": "Supply Chain Internship",
-      "location": "St. Louis, MO",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-08",
-      "deadline": "2026-12-21",
-      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Supply-Chain-Internship_033958",
-      "external_id": "033958",
-      "verified_at": "2026-09-04T00:09:59Z",
-      "match_score": 85
     },
     {
       "id": "united-rentals-b77c127b3cfa",
@@ -12295,6 +12678,68 @@
       "match_score": 90
     },
     {
+      "id": "ameren-24504618a196",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "Supply Chain Internship",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-07",
+      "deadline": "2026-12-21",
+      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/Supply-Chain-Internship_033958-2",
+      "external_id": "033958",
+      "verified_at": "2026-09-05T18:22:15Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-24504618a196",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "Supply Chain Internship",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-07",
+      "deadline": "2026-12-21",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Supply-Chain-Internship_033958",
+      "external_id": "033958",
+      "verified_at": "2026-09-05T18:22:32Z",
+      "match_score": 85
+    },
+    {
       "id": "general-mills-24b2a08ea453",
       "source_key": "general-mills",
       "fortune_rank": 227,
@@ -12407,89 +12852,6 @@
       "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Minneapolis-MN/Internship---Business-Management-Associate--Foodservice-Sales_10128715",
       "external_id": "10128715",
       "verified_at": "2026-09-05T12:46:20Z",
-      "match_score": 85
-    },
-    {
-      "id": "cigna-group-70c08bf2fc27",
-      "source_key": "cigna-group",
-      "fortune_rank": 14,
-      "fortune_500": true,
-      "company": "Cigna Group",
-      "title": "Actuarial Internship - Summer 2027",
-      "location": "Bloomfield, CT",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "FP&A",
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Excel",
-        "AI / ML",
-        "Finance"
-      ],
-      "summary": "Spend your summer learning the skills to grow as a modern actuary and leader. The Cigna Group’s Actuarial Executive Development Program (AEDP) offers a premier 11-week internship that prepares future actuaries to apply data with sound judgment, connect analysis directly to real…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-06",
-      "deadline": null,
-      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Actuarial-Internship---Summer-2027_26006087",
-      "external_id": "26006087",
-      "verified_at": "2026-09-04T00:10:57Z",
-      "match_score": 85
-    },
-    {
-      "id": "ameren-744210ecb41b",
-      "source_key": "ameren",
-      "fortune_rank": 466,
-      "fortune_500": true,
-      "company": "Ameren",
-      "title": "GIS Co-op (Real Estate)",
-      "location": "St. Louis, MO",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-06",
-      "deadline": "2026-12-24",
-      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/GIS-Co-op--Real-Estate-_033670",
-      "external_id": "033670",
-      "verified_at": "2026-09-04T00:09:39Z",
-      "match_score": 85
-    },
-    {
-      "id": "ameren-744210ecb41b",
-      "source_key": "ameren",
-      "fortune_rank": 466,
-      "fortune_500": true,
-      "company": "Ameren",
-      "title": "GIS Co-op (Real Estate)",
-      "location": "St. Louis, MO",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-06",
-      "deadline": "2026-12-24",
-      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/GIS-Co-op--Real-Estate-_033670-1",
-      "external_id": "033670",
-      "verified_at": "2026-09-04T00:09:59Z",
       "match_score": 85
     },
     {
@@ -12736,7 +13098,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-09-05T16:07:24Z",
+      "verified_at": "2026-09-05T18:22:00Z",
       "match_score": 85
     },
     {
@@ -14514,7 +14876,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Summer-2027-Intern-Interest-Application_115178",
       "external_id": "115178",
-      "verified_at": "2026-09-05T16:07:16Z",
+      "verified_at": "2026-09-05T18:21:34Z",
       "match_score": 85
     },
     {
@@ -14541,7 +14903,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Operations-Engineering-Intern--Fall-2026---Orrville--OH_114566",
       "external_id": "114566",
-      "verified_at": "2026-09-05T16:07:17Z",
+      "verified_at": "2026-09-05T18:21:35Z",
       "match_score": 85
     },
     {
@@ -14574,7 +14936,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-09-05T16:07:29Z",
+      "verified_at": "2026-09-05T18:21:34Z",
       "match_score": 85
     },
     {
@@ -15498,6 +15860,39 @@
       "match_score": 85
     },
     {
+      "id": "cigna-group-70c08bf2fc27",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "Actuarial Internship - Summer 2027",
+      "location": "Bloomfield, CT",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "FP&A",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Excel",
+        "AI / ML",
+        "Finance"
+      ],
+      "summary": "Spend your summer learning the skills to grow as a modern actuary and leader. The Cigna Group’s Actuarial Executive Development Program (AEDP) offers a premier 11-week internship that prepares future actuaries to apply data with sound judgment, connect analysis directly to real…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Actuarial-Internship---Summer-2027_26006087",
+      "external_id": "26006087",
+      "verified_at": "2026-09-05T18:23:24Z",
+      "match_score": 85
+    },
+    {
       "id": "carrier-global-c7eab9237445",
       "source_key": "carrier-global",
       "fortune_rank": 212,
@@ -16124,6 +16519,56 @@
       "match_score": 85
     },
     {
+      "id": "ameren-744210ecb41b",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "GIS Co-op (Real Estate)",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-24",
+      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/GIS-Co-op--Real-Estate-_033670",
+      "external_id": "033670",
+      "verified_at": "2026-09-05T18:22:16Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-744210ecb41b",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "GIS Co-op (Real Estate)",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-24",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/GIS-Co-op--Real-Estate-_033670-1",
+      "external_id": "033670",
+      "verified_at": "2026-09-05T18:22:32Z",
+      "match_score": 85
+    },
+    {
       "id": "abbott-laboratories-958c699f67f6",
       "source_key": "abbott-laboratories",
       "fortune_rank": 107,
@@ -16578,7 +17023,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-09-05T16:06:36Z",
+      "verified_at": "2026-09-05T18:21:03Z",
       "match_score": 85
     },
     {
@@ -16638,7 +17083,7 @@
       "deadline": null,
       "url": "https://careers.massmutual.com/job/boston/actuarial-intern-summer-2027/724/98808954544",
       "external_id": null,
-      "verified_at": "2026-09-05T16:06:34Z",
+      "verified_at": "2026-09-05T18:21:01Z",
       "match_score": 85
     },
     {
@@ -18063,6 +18508,34 @@
       "url": "https://jobs.boeing.com/meet-AdrianL",
       "external_id": null,
       "verified_at": "2026-09-04T14:27:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "auto-owners-insurance-9fc16ab9ccee",
+      "source_key": "auto-owners-insurance",
+      "fortune_rank": 241,
+      "fortune_500": true,
+      "company": "Auto-Owners Insurance",
+      "title": "Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Credit",
+        "Accounting"
+      ],
+      "summary": "Sign up Find an Agent Sign In Search Internship Internship Home Career Opportunities Internship No prior insurance experience or knowledge? Interning with us can open your eyes to all the insurance industry offers! Our associates contribute their diverse talents to help people…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.auto-owners.com/about/career-opportunities/internship",
+      "external_id": null,
+      "verified_at": "2026-09-05T18:21:38Z",
       "match_score": 85
     },
     {
