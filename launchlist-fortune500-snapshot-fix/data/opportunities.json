@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-14T01:14:09Z",
+  "updated_at": "2026-09-14T06:27:53Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,11 +12,37 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-09-14T01:09:59Z",
+  "directory_refreshed_at": "2026-09-14T06:22:10Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 308,
-  "companies_failed_last_24h": 7,
+  "companies_failed_last_24h": 9,
   "failed_or_blocked_companies_last_24h": [
+    {
+      "key": "alcoa",
+      "rank": 344,
+      "company": "Alcoa",
+      "fortune_500": true,
+      "checked_at": "2026-09-14T06:27:53Z",
+      "status": "error",
+      "issue_type": "Scan error",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs: 404 Client Error: Not Found for url: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs"
+    },
+    {
+      "key": "bank-of-america",
+      "rank": 20,
+      "company": "Bank of America",
+      "fortune_500": true,
+      "checked_at": "2026-09-14T06:27:53Z",
+      "status": "error",
+      "issue_type": "Scan error",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.bankofamerica.com/en-us/students/job-search?ref=search&search=getAllJobs&start=0&rows=10",
+      "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
+    },
     {
       "key": "coterra-energy",
       "rank": 496,
@@ -109,9 +135,9 @@
       "error": null
     }
   ],
-  "companies_with_eligible_jobs": 93,
+  "companies_with_eligible_jobs": 92,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 976,
+  "opportunity_count": 974,
   "opportunities": [
     {
       "id": "merck-fdc0b62e0e18",
@@ -1890,6 +1916,35 @@
       "match_score": 85
     },
     {
+      "id": "citigroup-57d8f83798f7",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Banking, Investment Banking, Placement Analyst Internship, Milan - Italy 2027",
+      "location": "Milan Milano Italy",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate finance",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Finance",
+        "Credit"
+      ],
+      "summary": "Citi Banking is looking for a 6-Month Placement Analyst to join the Investment Banking team in Milan start in January 2027. The Investment Banking group advises corporate clients who want to raise funds in capital markets and who need strategic support in financial transactions",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-12",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Milan-Milano-Italy/Banking--Investment-Banking--Placement-Analyst-Internship--Milan---Italy-2027_26993202",
+      "external_id": "26993202",
+      "verified_at": "2026-09-14T06:26:04Z",
+      "match_score": 85
+    },
+    {
       "id": "boeing-aa89abd7fa70",
       "source_key": "boeing",
       "fortune_rank": 47,
@@ -2417,6 +2472,34 @@
       "external_id": "45456",
       "verified_at": "2026-09-14T01:12:21Z",
       "match_score": 90
+    },
+    {
+      "id": "assurant-a2b7aaae0083",
+      "source_key": "assurant",
+      "fortune_rank": 345,
+      "fortune_500": true,
+      "company": "Assurant",
+      "title": "Behavioral Science Intern",
+      "location": "Buenos Aires (Butty)",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product"
+      ],
+      "summary": "Job Purpose The People Organization is seeking an intern to help explore how principles from Behavioral Science can be applied to improve employee experiences, product adoption, change adoption, and self-service utilization of People Org",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-12",
+      "deadline": null,
+      "url": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Buenos-Aires-Butty/Behavioral-Science-Intern_R-115435-1",
+      "external_id": "R-115435",
+      "verified_at": "2026-09-14T06:23:05Z",
+      "match_score": 85
     },
     {
       "id": "xcel-energy-1ad731c96c12",
@@ -2963,7 +3046,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_115697",
       "external_id": "115697",
-      "verified_at": "2026-09-14T01:10:40Z",
+      "verified_at": "2026-09-14T06:22:45Z",
       "match_score": 85
     },
     {
@@ -2990,7 +3073,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Columbus-GA/Operations-QA-Intern--Summer-2027-Columbus--GA_115774",
       "external_id": "115774",
-      "verified_at": "2026-09-14T01:10:40Z",
+      "verified_at": "2026-09-14T06:22:45Z",
       "match_score": 85
     },
     {
@@ -3015,7 +3098,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Microbiology-Intern--Summer-2027_115676",
       "external_id": "115676",
-      "verified_at": "2026-09-14T01:10:38Z",
+      "verified_at": "2026-09-14T06:22:44Z",
       "match_score": 85
     },
     {
@@ -3153,6 +3236,36 @@
       "match_score": 85
     },
     {
+      "id": "dxc-technology-8d50bd6cea91",
+      "source_key": "dxc-technology",
+      "fortune_rank": 343,
+      "fortune_500": true,
+      "company": "DXC Technology",
+      "title": "Business Process Outsourcing Intern",
+      "location": "ITA - MI - CERNUSCO SUL NAVIGLIO",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Job Description: Xchanging Italy (DXC Technology) active in the business processing and technology services market for the finance sector, is looking for a intern to be included in the Business Process Outsourcing (BPO) area Asset Management, Wealth Manament, Private Banking",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-11",
+      "deadline": null,
+      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/ITA---MI---CERNUSCO-SUL-NAVIGLIO/Business-Process-Outsourcing-Intern_51588852",
+      "external_id": "51588852",
+      "verified_at": "2026-09-14T06:23:36Z",
+      "match_score": 85
+    },
+    {
       "id": "constellation-brands-f59980dc1a86",
       "source_key": "constellation-brands",
       "fortune_rank": 416,
@@ -3179,35 +3292,6 @@
       "url": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Chicago-Illinois/Marketing-Intern---Summer-2027_R-41276",
       "external_id": "R-41276",
       "verified_at": "2026-09-12T22:22:11Z",
-      "match_score": 85
-    },
-    {
-      "id": "citigroup-57d8f83798f7",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Banking, Investment Banking, Placement Analyst Internship, Milan - Italy 2027",
-      "location": "Milan Milano Italy",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Corporate finance",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Finance",
-        "Credit"
-      ],
-      "summary": "Citi Banking is looking for a 6-Month Placement Analyst to join the Investment Banking team in Milan start in January 2027. The Investment Banking group advises corporate clients who want to raise funds in capital markets and who need strategic support in financial transactions",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-11",
-      "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Milan-Milano-Italy/Banking--Investment-Banking--Placement-Analyst-Internship--Milan---Italy-2027_26993202",
-      "external_id": "26993202",
-      "verified_at": "2026-09-12T17:16:49Z",
       "match_score": 85
     },
     {
@@ -3626,34 +3710,6 @@
       "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/University---Summer-27--Contracts-Intern_R0249253",
       "external_id": "R0249253",
       "verified_at": "2026-09-13T23:15:09Z",
-      "match_score": 85
-    },
-    {
-      "id": "assurant-a2b7aaae0083",
-      "source_key": "assurant",
-      "fortune_rank": 345,
-      "fortune_500": true,
-      "company": "Assurant",
-      "title": "Behavioral Science Intern",
-      "location": "Buenos Aires (Butty)",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Product"
-      ],
-      "summary": "Job Purpose The People Organization is seeking an intern to help explore how principles from Behavioral Science can be applied to improve employee experiences, product adoption, change adoption, and self-service utilization of People Org",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-11",
-      "deadline": null,
-      "url": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Buenos-Aires-Butty/Behavioral-Science-Intern_R-115435-1",
-      "external_id": "R-115435",
-      "verified_at": "2026-09-12T13:38:29Z",
       "match_score": 85
     },
     {
@@ -4380,7 +4436,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Supply-Chain-Intern--Summer-2027_115694",
       "external_id": "115694",
-      "verified_at": "2026-09-14T01:10:39Z",
+      "verified_at": "2026-09-14T06:22:44Z",
       "match_score": 85
     },
     {
@@ -4407,7 +4463,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
       "external_id": "115677",
-      "verified_at": "2026-09-14T01:10:39Z",
+      "verified_at": "2026-09-14T06:22:45Z",
       "match_score": 85
     },
     {
@@ -4434,7 +4490,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sales-Intern--Summer-2027_115803",
       "external_id": "115803",
-      "verified_at": "2026-09-14T01:10:38Z",
+      "verified_at": "2026-09-14T06:22:44Z",
       "match_score": 85
     },
     {
@@ -4461,7 +4517,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
       "external_id": "115698",
-      "verified_at": "2026-09-14T01:10:39Z",
+      "verified_at": "2026-09-14T06:22:45Z",
       "match_score": 85
     },
     {
@@ -4488,7 +4544,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/R-D-Engineering-Intern--Co-Op-2027--8-months-_115696",
       "external_id": "115696",
-      "verified_at": "2026-09-14T01:10:39Z",
+      "verified_at": "2026-09-14T06:22:45Z",
       "match_score": 85
     },
     {
@@ -4519,7 +4575,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Spring-2027_115712",
       "external_id": "115712",
-      "verified_at": "2026-09-14T01:10:40Z",
+      "verified_at": "2026-09-14T06:22:45Z",
       "match_score": 85
     },
     {
@@ -4546,7 +4602,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/New-Orleans-LA/Operations-Engineering-Intern--Summer-2027--Multiple-Locations-_115721",
       "external_id": "115721",
-      "verified_at": "2026-09-14T01:10:39Z",
+      "verified_at": "2026-09-14T06:22:45Z",
       "match_score": 85
     },
     {
@@ -4573,7 +4629,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Scottsville-KY/Operations-Engineering-Intern--Spring-2027---Scottsville--KY_115475-1",
       "external_id": "115475",
-      "verified_at": "2026-09-14T01:10:39Z",
+      "verified_at": "2026-09-14T06:22:45Z",
       "match_score": 85
     },
     {
@@ -4600,7 +4656,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Memphis-TN/Operations-Engineering-Intern--Spring-2027---Memphis--TN_114845",
       "external_id": "114845",
-      "verified_at": "2026-09-14T01:10:39Z",
+      "verified_at": "2026-09-14T06:22:45Z",
       "match_score": 85
     },
     {
@@ -4627,7 +4683,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Lexington-KY/Operations-Engineering-Intern--Spring-2027---Lexington--KY_114841",
       "external_id": "114841",
-      "verified_at": "2026-09-14T01:10:39Z",
+      "verified_at": "2026-09-14T06:22:45Z",
       "match_score": 85
     },
     {
@@ -4655,7 +4711,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Marketing-Intern--Summer-2027_115771",
       "external_id": "115771",
-      "verified_at": "2026-09-14T01:10:38Z",
+      "verified_at": "2026-09-14T06:22:44Z",
       "match_score": 85
     },
     {
@@ -4684,7 +4740,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Information-Services-Intern--Summer-2027_115744",
       "external_id": "115744",
-      "verified_at": "2026-09-14T01:10:39Z",
+      "verified_at": "2026-09-14T06:22:45Z",
       "match_score": 85
     },
     {
@@ -4717,7 +4773,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Summer-2027_115743",
       "external_id": "115743",
-      "verified_at": "2026-09-14T01:10:39Z",
+      "verified_at": "2026-09-14T06:22:45Z",
       "match_score": 85
     },
     {
@@ -4750,7 +4806,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-09-14T01:10:38Z",
+      "verified_at": "2026-09-14T06:22:44Z",
       "match_score": 85
     },
     {
@@ -4776,7 +4832,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Category-Leadership-Intern--Summer-2027_115804",
       "external_id": "115804",
-      "verified_at": "2026-09-14T01:10:38Z",
+      "verified_at": "2026-09-14T06:22:45Z",
       "match_score": 85
     },
     {
@@ -4803,7 +4859,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Analytical-Lab-Intern--Summer-2027_115678",
       "external_id": "115678",
-      "verified_at": "2026-09-14T01:10:38Z",
+      "verified_at": "2026-09-14T06:22:44Z",
       "match_score": 85
     },
     {
@@ -5064,33 +5120,32 @@
       "match_score": 85
     },
     {
-      "id": "dxc-technology-8d50bd6cea91",
-      "source_key": "dxc-technology",
-      "fortune_rank": 343,
+      "id": "citigroup-ec5e9d5f808d",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
       "fortune_500": true,
-      "company": "DXC Technology",
-      "title": "Business Process Outsourcing Intern",
-      "location": "ITA - MI - CERNUSCO SUL NAVIGLIO",
+      "company": "Citigroup",
+      "title": "Banking, Financing, Summer Analyst, London - United Kingdom 2027",
+      "location": "London United Kingdom",
       "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
-        "Wealth management",
+        "Credit risk",
         "Asset-based lending"
       ],
       "tags": [
-        "Excel",
-        "Finance",
-        "Accounting"
+        "Credit",
+        "Risk"
       ],
-      "summary": "Job Description: Xchanging Italy (DXC Technology) active in the business processing and technology services market for the finance sector, is looking for a intern to be included in the Business Process Outsourcing (BPO) area Asset Management, Wealth Manament, Private Banking",
+      "summary": "You’re ready to bring your knowledge from the classroom to the boardroom, and Citi wants to help you get there. Whether it’s honing your skills or building your network, we know that success can’t come without growth. Our programs equip you with the knowledge and training you…",
       "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
       "freshman_friendly": false,
       "posted_date": "2026-09-10",
       "deadline": null,
-      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/ITA---MI---CERNUSCO-SUL-NAVIGLIO/Business-Process-Outsourcing-Intern_51588852",
-      "external_id": "51588852",
-      "verified_at": "2026-09-12T13:39:00Z",
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/London--United-Kingdom/Banking--Financing--Summer-Analyst--London---United-Kingdom-2027_26993182",
+      "external_id": "26993182",
+      "verified_at": "2026-09-14T06:26:09Z",
       "match_score": 85
     },
     {
@@ -5526,6 +5581,110 @@
       "url": "https://baxter.wd1.myworkdayjobs.com/baxter/job/La-Aurora-Heredia/Internship--Accounting_JR-209677",
       "external_id": "JR - 209677",
       "verified_at": "2026-09-12T19:27:28Z",
+      "match_score": 85
+    },
+    {
+      "id": "baker-hughes-a3031a581fd9",
+      "source_key": "baker-hughes",
+      "fortune_rank": 164,
+      "fortune_500": true,
+      "company": "Baker Hughes",
+      "title": "Intern – Stagiaire Support Utilisateur (H/F) - 2026",
+      "location": "FR-BFC-FOUGEROLLES-2-4 RUE DE FONTAINE",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "En tant que Stagiaire Support Utilisateur (H/F) , vous intégrerez l’équipe Support et contribuerez à l’assistance des utilisateurs internes et externes. En collaboration avec les équipes techniques et opérationnelles, vous participerez au traitement des demandes de support, à…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/FR-BFC-FOUGEROLLES-2-4-RUE-DE-FONTAINE/Intern---Stagiaire-Support-Utilisateur--H-F-----Fougerolles--France---2026_R168877",
+      "external_id": "R168877",
+      "verified_at": "2026-09-14T06:23:33Z",
+      "match_score": 85
+    },
+    {
+      "id": "baker-hughes-f10bd22f04db",
+      "source_key": "baker-hughes",
+      "fortune_rank": 164,
+      "fortune_500": true,
+      "company": "Baker Hughes",
+      "title": "Intern - Logistics & Supply Chain Management - 2026 Opportunities",
+      "location": "MY-KUL-KUALA LUMPUR-19th FLOOR MENARA TAN & TAN",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Would you like the opportunity to work in a global energy company? ​Do you enjoy taking on challenging projects? ​Join our innovating Internship Program ​The Baker Hughes Internship is designed to enable undergraduates pursing a Bachelors degree to gain hands-on work experience…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/MY-KUL-KUALA-LUMPUR-19th-FLOOR-MENARA-TAN--TAN/Intern-Logistics---Supply-Chain-Management---Malaysia--2026-Opportunities_R167658",
+      "external_id": "R167658",
+      "verified_at": "2026-09-14T06:23:33Z",
+      "match_score": 85
+    },
+    {
+      "id": "baker-hughes-87af111deebc",
+      "source_key": "baker-hughes",
+      "fortune_rank": 164,
+      "fortune_500": true,
+      "company": "Baker Hughes",
+      "title": "Intern - Business - 2026 Opportunities",
+      "location": "ID-JW-JAKARTA-JI. R.A. KARTINI KAV. 8, CILANDAK BARAT",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Finance"
+      ],
+      "summary": "​ Would you like the opportunity to work in a global energy company? ​ Do you enjoy taking on challenging projects? ​ Join our innovating I nternship Program ​ The Baker Hughes Internship is designed to enable undergraduates pursing a Bachelors degree to gain hands-on work…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/ID-JW-JAKARTA-JI-RA-KARTINI-KAV-8-CILANDAK-BARAT/Intern-Business--Indonesia--2026-Opportunities_R168104",
+      "external_id": "R168104",
+      "verified_at": "2026-09-14T06:23:32Z",
+      "match_score": 85
+    },
+    {
+      "id": "baker-hughes-37a5131c9426",
+      "source_key": "baker-hughes",
+      "fortune_rank": 164,
+      "fortune_500": true,
+      "company": "Baker Hughes",
+      "title": "Apprentice – Alternant(e) SQE (H/F) - 2026 Opportunities",
+      "location": "FR-BFC-FOUGEROLLES-2-4 RUE DE FONTAINE",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Vous êtes à la recherche d'une opportunité intéressante et inspirante ? Vous avez envie de faire partie d’une équipe performante ? Chez Baker Hughes, notre objectif est clair. Nous faisons progresser l'énergie en la rendant plus sûre, plus propre et plus efficace pour les…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/FR-BFC-FOUGEROLLES-2-4-RUE-DE-FONTAINE/Alternant-e--SQE--H-F-_R165075",
+      "external_id": "R165075",
+      "verified_at": "2026-09-14T06:23:37Z",
       "match_score": 85
     },
     {
@@ -6239,32 +6398,33 @@
       "match_score": 85
     },
     {
-      "id": "citigroup-ec5e9d5f808d",
+      "id": "citigroup-c1f7ae7417fe",
       "source_key": "citigroup",
       "fortune_rank": 24,
       "fortune_500": true,
       "company": "Citigroup",
-      "title": "Banking, Financing, Summer Analyst, London - United Kingdom 2027",
-      "location": "London United Kingdom",
+      "title": "Banking, Investment Banking, Financial Institution Group, Placement Analyst Internship, Paris - France 2027",
+      "location": "Paris France",
       "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
-        "Credit risk",
+        "Corporate finance",
         "Asset-based lending"
       ],
       "tags": [
-        "Credit",
-        "Risk"
+        "Excel",
+        "Finance",
+        "Credit"
       ],
-      "summary": "You’re ready to bring your knowledge from the classroom to the boardroom, and Citi wants to help you get there. Whether it’s honing your skills or building your network, we know that success can’t come without growth. Our programs equip you with the knowledge and training you…",
+      "summary": "Citi is looking for Placement Intern Analyst to join the Investment Banking (FIG) team in Paris in January 2027 for 6 months. The Investment Banking group advises corporate clients who want to raise funds in capital markets and who need strategic support in financial transactions",
       "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-09-09",
       "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/London--United-Kingdom/Banking--Financing--Summer-Analyst--London---United-Kingdom-2027_26993182",
-      "external_id": "26993182",
-      "verified_at": "2026-09-12T17:16:54Z",
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Investment-Banking--Financial-Institution-Group--Placement-Analyst-Internship--Paris---France-2027_26992470",
+      "external_id": "26992470",
+      "verified_at": "2026-09-14T06:26:05Z",
       "match_score": 85
     },
     {
@@ -6504,110 +6664,6 @@
       "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/Enterprise-Cybersecurity-Education-and-Execution-Intern_R0249071",
       "external_id": "R0249071",
       "verified_at": "2026-09-13T23:15:09Z",
-      "match_score": 85
-    },
-    {
-      "id": "baker-hughes-a3031a581fd9",
-      "source_key": "baker-hughes",
-      "fortune_rank": 164,
-      "fortune_500": true,
-      "company": "Baker Hughes",
-      "title": "Intern – Stagiaire Support Utilisateur (H/F) - 2026",
-      "location": "FR-BFC-FOUGEROLLES-2-4 RUE DE FONTAINE",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "En tant que Stagiaire Support Utilisateur (H/F) , vous intégrerez l’équipe Support et contribuerez à l’assistance des utilisateurs internes et externes. En collaboration avec les équipes techniques et opérationnelles, vous participerez au traitement des demandes de support, à…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/FR-BFC-FOUGEROLLES-2-4-RUE-DE-FONTAINE/Intern---Stagiaire-Support-Utilisateur--H-F-----Fougerolles--France---2026_R168877",
-      "external_id": "R168877",
-      "verified_at": "2026-09-12T13:38:56Z",
-      "match_score": 85
-    },
-    {
-      "id": "baker-hughes-f10bd22f04db",
-      "source_key": "baker-hughes",
-      "fortune_rank": 164,
-      "fortune_500": true,
-      "company": "Baker Hughes",
-      "title": "Intern - Logistics & Supply Chain Management - 2026 Opportunities",
-      "location": "MY-KUL-KUALA LUMPUR-19th FLOOR MENARA TAN & TAN",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Would you like the opportunity to work in a global energy company? ​Do you enjoy taking on challenging projects? ​Join our innovating Internship Program ​The Baker Hughes Internship is designed to enable undergraduates pursing a Bachelors degree to gain hands-on work experience…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/MY-KUL-KUALA-LUMPUR-19th-FLOOR-MENARA-TAN--TAN/Intern-Logistics---Supply-Chain-Management---Malaysia--2026-Opportunities_R167658",
-      "external_id": "R167658",
-      "verified_at": "2026-09-12T13:38:56Z",
-      "match_score": 85
-    },
-    {
-      "id": "baker-hughes-87af111deebc",
-      "source_key": "baker-hughes",
-      "fortune_rank": 164,
-      "fortune_500": true,
-      "company": "Baker Hughes",
-      "title": "Intern - Business - 2026 Opportunities",
-      "location": "ID-JW-JAKARTA-JI. R.A. KARTINI KAV. 8, CILANDAK BARAT",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Finance"
-      ],
-      "summary": "​ Would you like the opportunity to work in a global energy company? ​ Do you enjoy taking on challenging projects? ​ Join our innovating I nternship Program ​ The Baker Hughes Internship is designed to enable undergraduates pursing a Bachelors degree to gain hands-on work…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/ID-JW-JAKARTA-JI-RA-KARTINI-KAV-8-CILANDAK-BARAT/Intern-Business--Indonesia--2026-Opportunities_R168104",
-      "external_id": "R168104",
-      "verified_at": "2026-09-12T13:38:54Z",
-      "match_score": 85
-    },
-    {
-      "id": "baker-hughes-37a5131c9426",
-      "source_key": "baker-hughes",
-      "fortune_rank": 164,
-      "fortune_500": true,
-      "company": "Baker Hughes",
-      "title": "Apprentice – Alternant(e) SQE (H/F) - 2026 Opportunities",
-      "location": "FR-BFC-FOUGEROLLES-2-4 RUE DE FONTAINE",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Vous êtes à la recherche d'une opportunité intéressante et inspirante ? Vous avez envie de faire partie d’une équipe performante ? Chez Baker Hughes, notre objectif est clair. Nous faisons progresser l'énergie en la rendant plus sûre, plus propre et plus efficace pour les…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/FR-BFC-FOUGEROLLES-2-4-RUE-DE-FONTAINE/Alternant-e--SQE--H-F-_R165075",
-      "external_id": "R165075",
-      "verified_at": "2026-09-12T13:39:00Z",
       "match_score": 85
     },
     {
@@ -8554,33 +8610,120 @@
       "match_score": 85
     },
     {
-      "id": "citigroup-c1f7ae7417fe",
+      "id": "citigroup-a6fb985ff9ed",
       "source_key": "citigroup",
       "fortune_rank": 24,
       "fortune_500": true,
       "company": "Citigroup",
-      "title": "Banking, Investment Banking, Financial Institution Group, Placement Analyst Internship, Paris - France 2027",
-      "location": "Paris France",
+      "title": "Banking, Investment Banking, Summer Analyst, London – United Kingdom 2027",
+      "location": "London United Kingdom",
       "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
-        "Corporate finance",
         "Asset-based lending"
       ],
       "tags": [
         "Excel",
-        "Finance",
+        "Product",
         "Credit"
       ],
-      "summary": "Citi is looking for Placement Intern Analyst to join the Investment Banking (FIG) team in Paris in January 2027 for 6 months. The Investment Banking group advises corporate clients who want to raise funds in capital markets and who need strategic support in financial transactions",
+      "summary": "You're the brains behind our work: You’re ready to bring your knowledge from the classroom to the boardroom and Citi wants to help you get there. Whether it’s honing your skills or building your network, we know that success can’t come without growth",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-08",
+      "deadline": "2026-11-06",
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/London--United-Kingdom/Banking--Investment-Banking--Summer-Analyst--London---United-Kingdom-2027_26992197",
+      "external_id": "26992197",
+      "verified_at": "2026-09-14T06:26:05Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-f9fc3e7eb29e",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Banking, Financing, Equity Capital Markets, Placement Analyst Internship, Paris - France 2027",
+      "location": "Paris France",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "You are ready to bring your knowledge from the classroom to the boardroom; and Citi wants to help you get there. Whether it’s honing your skills or building your network; we know that success cannot come without growth. Our programs equip you with the knowledge and training you…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-09-08",
       "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Investment-Banking--Financial-Institution-Group--Placement-Analyst-Internship--Paris---France-2027_26992470",
-      "external_id": "26992470",
-      "verified_at": "2026-09-12T17:16:50Z",
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Financing--Equity-Capital-Markets--Placement-Analyst-Internship--Paris---France-2027_26992452",
+      "external_id": "26992452",
+      "verified_at": "2026-09-14T06:26:04Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-32522abb8534",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Banking, Financing, Debt Capital Markets, Placement Analyst Internship, Paris - France 2027",
+      "location": "Paris France",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Credit"
+      ],
+      "summary": "You are ready to bring your knowledge from the classroom to the boardroom; and Citi wants to help you get there. Whether it’s honing your skills or building your network; we know that success cannot come without growth. Our programs equip you with the knowledge and training you…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-08",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Financing--Debt-Capital-Markets--Placement-Analyst-Internship--Paris---France-2027_26992465",
+      "external_id": "26992465",
+      "verified_at": "2026-09-14T06:26:04Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-23c731fcee79",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Banking, Corporate Banking, Placement Analyst Internship, Paris - France 2027",
+      "location": "Paris France",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Commercial banking",
+        "Corporate treasury",
+        "Risk management"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Banking",
+        "Credit",
+        "Treasury"
+      ],
+      "summary": "You’re ready to bring your knowledge from the classroom to the boardroom, and Citi wants to help you get there. Whether it’s honing your skills or building your network, we know that success can’t come without growth. Our programs equip you with the knowledge and training you…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-08",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Corporate-Banking--Placement-Analyst-Internship--Paris---France-2027_26992458",
+      "external_id": "26992458",
+      "verified_at": "2026-09-14T06:26:04Z",
       "match_score": 85
     },
     {
@@ -11681,123 +11824,6 @@
       "match_score": 85
     },
     {
-      "id": "citigroup-a6fb985ff9ed",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Banking, Investment Banking, Summer Analyst, London – United Kingdom 2027",
-      "location": "London United Kingdom",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product",
-        "Credit"
-      ],
-      "summary": "You're the brains behind our work: You’re ready to bring your knowledge from the classroom to the boardroom and Citi wants to help you get there. Whether it’s honing your skills or building your network, we know that success can’t come without growth",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-07",
-      "deadline": "2026-11-06",
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/London--United-Kingdom/Banking--Investment-Banking--Summer-Analyst--London---United-Kingdom-2027_26992197",
-      "external_id": "26992197",
-      "verified_at": "2026-09-12T17:16:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "citigroup-f9fc3e7eb29e",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Banking, Financing, Equity Capital Markets, Placement Analyst Internship, Paris - France 2027",
-      "location": "Paris France",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "You are ready to bring your knowledge from the classroom to the boardroom; and Citi wants to help you get there. Whether it’s honing your skills or building your network; we know that success cannot come without growth. Our programs equip you with the knowledge and training you…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-07",
-      "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Financing--Equity-Capital-Markets--Placement-Analyst-Internship--Paris---France-2027_26992452",
-      "external_id": "26992452",
-      "verified_at": "2026-09-12T17:16:49Z",
-      "match_score": 85
-    },
-    {
-      "id": "citigroup-32522abb8534",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Banking, Financing, Debt Capital Markets, Placement Analyst Internship, Paris - France 2027",
-      "location": "Paris France",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Credit"
-      ],
-      "summary": "You are ready to bring your knowledge from the classroom to the boardroom; and Citi wants to help you get there. Whether it’s honing your skills or building your network; we know that success cannot come without growth. Our programs equip you with the knowledge and training you…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-07",
-      "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Financing--Debt-Capital-Markets--Placement-Analyst-Internship--Paris---France-2027_26992465",
-      "external_id": "26992465",
-      "verified_at": "2026-09-12T17:16:49Z",
-      "match_score": 85
-    },
-    {
-      "id": "citigroup-23c731fcee79",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Banking, Corporate Banking, Placement Analyst Internship, Paris - France 2027",
-      "location": "Paris France",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Commercial banking",
-        "Corporate treasury",
-        "Risk management"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Banking",
-        "Credit",
-        "Treasury"
-      ],
-      "summary": "You’re ready to bring your knowledge from the classroom to the boardroom, and Citi wants to help you get there. Whether it’s honing your skills or building your network, we know that success can’t come without growth. Our programs equip you with the knowledge and training you…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-07",
-      "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Corporate-Banking--Placement-Analyst-Internship--Paris---France-2027_26992458",
-      "external_id": "26992458",
-      "verified_at": "2026-09-12T17:16:49Z",
-      "match_score": 85
-    },
-    {
       "id": "cigna-group-f9f33c8979d4",
       "source_key": "cigna-group",
       "fortune_rank": 14,
@@ -11909,6 +11935,188 @@
       "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Warsaw-Indiana-United-States-of-America/Production-Planning-Co-Op-Spring-2027_R-096903",
       "external_id": "R-096903",
       "verified_at": "2026-09-14T01:12:41Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-d098fbf9f10d",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Early Career Apprenticeship Programme Manager",
+      "location": "Belfast United Kingdom",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy",
+        "Risk"
+      ],
+      "summary": "Citi is looking for an experienced Early Career Apprenticeship Programme Manager to take ownership of UK apprenticeship programmes, shaping how the next generation of talent is attracted, selected, and developed across the business",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-05",
+      "deadline": "2026-09-18",
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Belfast--United-Kingdom/Early-Career-Apprenticeship-Programme-Manager_26989504-1",
+      "external_id": "26989504",
+      "verified_at": "2026-09-14T06:26:12Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-533b47d4cc9e",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Banking, Investment Banking, Placement Analyst Internship, Paris - France 2027",
+      "location": "Paris France",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate finance",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Credit"
+      ],
+      "summary": "Citi is looking for Placement Intern Analysts to join the Investment Banking team in Paris in January 2027 for 6 months. The Investment Banking group advises corporate clients who want to raise funds in capital markets and who need strategic support in financial transactions",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-05",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Investment-Banking--Placement-Analyst-Internship--Paris---France-2027_26992441",
+      "external_id": "26992441",
+      "verified_at": "2026-09-14T06:26:04Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-e5fac644afb6",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Banking, Financing, Equity Capital Markets Placement Analyst Internship, Frankfurt - Germany 2027",
+      "location": "TAURUS",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Credit",
+        "Risk"
+      ],
+      "summary": "The Intern Analyst is an intermediate level position responsible for assisting clients in raising funds in the capital markets, as well as in providing strategic advisory services for mergers, acquisitions and other types of financial transactions in coordination with the…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-05",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/TAURUS/Banking--Financing--Equity-Capital-Markets-Placement-Analyst-Internship--Frankfurt---Germany-2027_26992449",
+      "external_id": "26992449",
+      "verified_at": "2026-09-14T06:26:05Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-fd041f62a87b",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Banking, Corporate Banking, Summer Analyst, London – United Kingdom, 2027",
+      "location": "London United Kingdom",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Commercial banking",
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Product",
+        "Finance",
+        "Banking",
+        "Credit"
+      ],
+      "summary": "You're ready to bring your knowledge from the classroom to the boardroom and Citi wants to help you get there. Whether it's honing your skills or building your network, we know that success can't come without growth. Our programs equip you with the knowledge and training you…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-05",
+      "deadline": "2026-09-30",
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/London--United-Kingdom/Banking--Corporate-Banking--Summer-Analyst--London---United-Kingdom--2027_26991689",
+      "external_id": "26991689",
+      "verified_at": "2026-09-14T06:26:10Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-6ba6f0747d40",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Banking, Corporate Banking, Relationship Analyst, Placement Analyst Internship, Milan - Italy 2027",
+      "location": "Milan Milano Italy",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Commercial banking",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Banking"
+      ],
+      "summary": "Citi is looking for candidates for a Relationship Analyst Placement in its Italy Corporate Banking Team for 6 months starting January 2027. Your time here will look something like this... As part of the internship, the candidate will support the team in the following…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-05",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Milan-Milano-Italy/Banking--Corporate-Banking--Relationship-Analyst--Placement-Analyst-Internship--Milan---Italy-2027_26992489",
+      "external_id": "26992489",
+      "verified_at": "2026-09-14T06:26:05Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-25cad772c680",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Banking, Corporate Banking, Placement Analyst Internship, Frankfurt - Germany 2027",
+      "location": "TAURUS",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Commercial banking",
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Product",
+        "Finance",
+        "Banking",
+        "Credit"
+      ],
+      "summary": "You’re ready to bring your knowledge from the classroom to the boardroom, and Citi wants to help you get there. Whether it’s honing your skills or building your network, we know that success can’t come without growth. Our programs equip you with the knowledge and training you…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-05",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/TAURUS/Banking--Corporate-Banking--Placement-Analyst-Internship--Frankfurt---Germany-2027_26992089",
+      "external_id": "26992089",
+      "verified_at": "2026-09-14T06:26:04Z",
       "match_score": 85
     },
     {
@@ -12188,7 +12396,7 @@
       "deadline": "2026-09-25",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Corporate-Communications-Internship_R-120884",
       "external_id": "R-120884",
-      "verified_at": "2026-09-14T01:12:22Z",
+      "verified_at": "2026-09-14T06:24:46Z",
       "match_score": 85
     },
     {
@@ -12881,7 +13089,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Decatur-AL/Operations-QA-Intern--Summer-2027--Decatur--AL_115757",
       "external_id": "115757",
-      "verified_at": "2026-09-14T01:10:40Z",
+      "verified_at": "2026-09-14T06:22:45Z",
       "match_score": 85
     },
     {
@@ -13023,188 +13231,6 @@
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Singapore/EHS-Intern_R5036883-1",
       "external_id": "R5036883",
       "verified_at": "2026-09-14T01:11:59Z",
-      "match_score": 85
-    },
-    {
-      "id": "citigroup-d098fbf9f10d",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Early Career Apprenticeship Programme Manager",
-      "location": "Belfast United Kingdom",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Strategy",
-        "Risk"
-      ],
-      "summary": "Citi is looking for an experienced Early Career Apprenticeship Programme Manager to take ownership of UK apprenticeship programmes, shaping how the next generation of talent is attracted, selected, and developed across the business",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-04",
-      "deadline": "2026-09-18",
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Belfast--United-Kingdom/Early-Career-Apprenticeship-Programme-Manager_26989504-1",
-      "external_id": "26989504",
-      "verified_at": "2026-09-12T17:16:57Z",
-      "match_score": 85
-    },
-    {
-      "id": "citigroup-533b47d4cc9e",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Banking, Investment Banking, Placement Analyst Internship, Paris - France 2027",
-      "location": "Paris France",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Corporate finance",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Credit"
-      ],
-      "summary": "Citi is looking for Placement Intern Analysts to join the Investment Banking team in Paris in January 2027 for 6 months. The Investment Banking group advises corporate clients who want to raise funds in capital markets and who need strategic support in financial transactions",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-04",
-      "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Investment-Banking--Placement-Analyst-Internship--Paris---France-2027_26992441",
-      "external_id": "26992441",
-      "verified_at": "2026-09-12T17:16:49Z",
-      "match_score": 85
-    },
-    {
-      "id": "citigroup-e5fac644afb6",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Banking, Financing, Equity Capital Markets Placement Analyst Internship, Frankfurt - Germany 2027",
-      "location": "TAURUS",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Credit",
-        "Risk"
-      ],
-      "summary": "The Intern Analyst is an intermediate level position responsible for assisting clients in raising funds in the capital markets, as well as in providing strategic advisory services for mergers, acquisitions and other types of financial transactions in coordination with the…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-04",
-      "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/TAURUS/Banking--Financing--Equity-Capital-Markets-Placement-Analyst-Internship--Frankfurt---Germany-2027_26992449",
-      "external_id": "26992449",
-      "verified_at": "2026-09-12T17:16:49Z",
-      "match_score": 85
-    },
-    {
-      "id": "citigroup-fd041f62a87b",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Banking, Corporate Banking, Summer Analyst, London – United Kingdom, 2027",
-      "location": "London United Kingdom",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Commercial banking",
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product",
-        "Finance",
-        "Banking",
-        "Credit"
-      ],
-      "summary": "You're ready to bring your knowledge from the classroom to the boardroom and Citi wants to help you get there. Whether it's honing your skills or building your network, we know that success can't come without growth. Our programs equip you with the knowledge and training you…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-04",
-      "deadline": "2026-09-30",
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/London--United-Kingdom/Banking--Corporate-Banking--Summer-Analyst--London---United-Kingdom--2027_26991689",
-      "external_id": "26991689",
-      "verified_at": "2026-09-12T17:16:55Z",
-      "match_score": 85
-    },
-    {
-      "id": "citigroup-6ba6f0747d40",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Banking, Corporate Banking, Relationship Analyst, Placement Analyst Internship, Milan - Italy 2027",
-      "location": "Milan Milano Italy",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Commercial banking",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Banking"
-      ],
-      "summary": "Citi is looking for candidates for a Relationship Analyst Placement in its Italy Corporate Banking Team for 6 months starting January 2027. Your time here will look something like this... As part of the internship, the candidate will support the team in the following…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-04",
-      "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Milan-Milano-Italy/Banking--Corporate-Banking--Relationship-Analyst--Placement-Analyst-Internship--Milan---Italy-2027_26992489",
-      "external_id": "26992489",
-      "verified_at": "2026-09-12T17:16:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "citigroup-25cad772c680",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Banking, Corporate Banking, Placement Analyst Internship, Frankfurt - Germany 2027",
-      "location": "TAURUS",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Commercial banking",
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product",
-        "Finance",
-        "Banking",
-        "Credit"
-      ],
-      "summary": "You’re ready to bring your knowledge from the classroom to the boardroom, and Citi wants to help you get there. Whether it’s honing your skills or building your network, we know that success can’t come without growth. Our programs equip you with the knowledge and training you…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-04",
-      "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/TAURUS/Banking--Corporate-Banking--Placement-Analyst-Internship--Frankfurt---Germany-2027_26992089",
-      "external_id": "26992089",
-      "verified_at": "2026-09-12T17:16:49Z",
       "match_score": 85
     },
     {
@@ -14692,6 +14718,36 @@
       "match_score": 85
     },
     {
+      "id": "citigroup-90f949a61c3a",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Teller Part-Time (20 Hours) - Co-Op City Branch",
+      "location": "Bronx New York United States",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations",
+        "Credit",
+        "Risk"
+      ],
+      "summary": "The Teller decreases the volume of operations at the window to improve the flow of the branch and consequently the customer experience. The Teller promotes alternative channels that Citi offers to clients. Responsibilities: Advises the Digital Branch clients, by using the…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-03",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Bronx-New-York-United-States/Teller-Part-Time--20-Hours----Co-Op-City-Branch_26992283-1",
+      "external_id": "26992283",
+      "verified_at": "2026-09-14T06:26:06Z",
+      "match_score": 85
+    },
+    {
       "id": "cigna-group-31ce7fdfadbd",
       "source_key": "cigna-group",
       "fortune_rank": 14,
@@ -15582,33 +15638,92 @@
       "match_score": 85
     },
     {
-      "id": "citigroup-90f949a61c3a",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
+      "id": "crown-holdings-b93f53ab08ae",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
       "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Teller Part-Time (20 Hours) - Co-Op City Branch",
-      "location": "Bronx New York United States",
-      "region": "United States",
-      "opportunity_type": "Co-op",
+      "company": "Crown Holdings",
+      "title": "Tax Treasury Accounting Intern",
+      "location": "Nuevo León",
+      "region": "Global",
+      "opportunity_type": "Internship",
       "categories": [
+        "Accounting / financial analyst",
         "Asset-based lending"
       ],
       "tags": [
-        "AI / ML",
-        "Operations",
-        "Credit",
-        "Risk"
+        "Finance",
+        "Treasury",
+        "Accounting"
       ],
-      "summary": "The Teller decreases the volume of operations at the window to improve the flow of the branch and consequently the customer experience. The Teller promotes alternative channels that Citi offers to clients. Responsibilities: Advises the Digital Branch clients, by using the…",
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-09-02",
       "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Bronx-New-York-United-States/Teller-Part-Time--20-Hours----Co-Op-City-Branch_26992283-1",
-      "external_id": "26992283",
-      "verified_at": "2026-09-12T17:16:50Z",
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Tax-Treasury-Accounting-Intern_JR104117",
+      "external_id": "JR104117",
+      "verified_at": "2026-09-14T06:24:11Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-60ac7bf1ca67",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Controlling Intern",
+      "location": "Nuevo León",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Accounting"
+      ],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-02",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Controlling-Intern_JR104029",
+      "external_id": "JR104029",
+      "verified_at": "2026-09-14T06:24:11Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-4a25b29c27f1",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Markets – Sales and Trading, Summer Analyst, London – United Kingdom, 2027",
+      "location": "London United Kingdom",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Excel",
+        "Product",
+        "Finance",
+        "Credit"
+      ],
+      "summary": "Are you ready to bring your knowledge from the classroom to the trading floor? Whether it’s honing your skills or building your network, we know that success can’t come without growth. Our programs equip you with the knowledge and training you need to play a valuable role on…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-02",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/London--United-Kingdom/Markets---Sales-and-Trading--Summer-Analyst--London---United-Kingdom--2027_26987141",
+      "external_id": "26987141",
+      "verified_at": "2026-09-14T06:26:10Z",
       "match_score": 85
     },
     {
@@ -15642,6 +15757,33 @@
       "external_id": "R_14417",
       "verified_at": "2026-09-13T10:20:32Z",
       "match_score": 90
+    },
+    {
+      "id": "assurant-b5f6e92e9af8",
+      "source_key": "assurant",
+      "fortune_rank": 345,
+      "fortune_500": true,
+      "company": "Assurant",
+      "title": "Data Modeling Intern",
+      "location": "Buenos Aires (Butty)",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML"
+      ],
+      "summary": "N/A Helping People Thrive in a Connected World Connect with us. Bring us your best work and your brightest ideas. And we’ll bring you a place where you can thrive. What’s the culture like at Assurant? Our unique culture is a big reason why talented people choose Assurant",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-02",
+      "deadline": null,
+      "url": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Buenos-Aires-Butty/Data-Modeling-Intern_R-114397-1",
+      "external_id": "R-114397",
+      "verified_at": "2026-09-14T06:23:07Z",
+      "match_score": 85
     },
     {
       "id": "abbott-laboratories-d420496943f1",
@@ -16432,92 +16574,34 @@
       "match_score": 85
     },
     {
-      "id": "crown-holdings-b93f53ab08ae",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
+      "id": "citigroup-e82c6b5427fe",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
       "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Tax Treasury Accounting Intern",
-      "location": "Nuevo León",
-      "region": "Global",
+      "company": "Citigroup",
+      "title": "Market Operations Junior Analyst Program Hybrid",
+      "location": "Getzville New York United States",
+      "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
-        "Accounting / financial analyst",
         "Asset-based lending"
       ],
       "tags": [
-        "Finance",
-        "Treasury",
-        "Accounting"
+        "Excel",
+        "AI / ML",
+        "Product",
+        "Operations",
+        "Finance"
       ],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "summary": "Team/ Role Overview Join Citi’s Markets Operations team and start your professional journey at the heart of global financial markets. This is your opportunity to step directly into a critical role where you’ll gain hands on experience supporting the processes that keep Citi’s…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-09-01",
       "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Tax-Treasury-Accounting-Intern_JR104117",
-      "external_id": "JR104117",
-      "verified_at": "2026-09-12T13:39:33Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-60ac7bf1ca67",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Controlling Intern",
-      "location": "Nuevo León",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Accounting"
-      ],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Controlling-Intern_JR104029",
-      "external_id": "JR104029",
-      "verified_at": "2026-09-12T13:39:33Z",
-      "match_score": 85
-    },
-    {
-      "id": "citigroup-4a25b29c27f1",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Markets – Sales and Trading, Summer Analyst, London – United Kingdom, 2027",
-      "location": "London United Kingdom",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "Excel",
-        "Product",
-        "Finance",
-        "Credit"
-      ],
-      "summary": "Are you ready to bring your knowledge from the classroom to the trading floor? Whether it’s honing your skills or building your network, we know that success can’t come without growth. Our programs equip you with the knowledge and training you need to play a valuable role on…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/London--United-Kingdom/Markets---Sales-and-Trading--Summer-Analyst--London---United-Kingdom--2027_26987141",
-      "external_id": "26987141",
-      "verified_at": "2026-09-12T17:16:55Z",
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Getzville-New-York-United-States/Market-Operations-Junior-Analyst-Program-Hybrid_26991391-1",
+      "external_id": "26991391",
+      "verified_at": "2026-09-14T06:26:10Z",
       "match_score": 85
     },
     {
@@ -16631,33 +16715,6 @@
       "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Business-Quality-Analyst-Internship---Summer-2027_R_14407",
       "external_id": "R_14407",
       "verified_at": "2026-09-13T10:20:32Z",
-      "match_score": 85
-    },
-    {
-      "id": "assurant-b5f6e92e9af8",
-      "source_key": "assurant",
-      "fortune_rank": 345,
-      "fortune_500": true,
-      "company": "Assurant",
-      "title": "Data Modeling Intern",
-      "location": "Buenos Aires (Butty)",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML"
-      ],
-      "summary": "N/A Helping People Thrive in a Connected World Connect with us. Bring us your best work and your brightest ideas. And we’ll bring you a place where you can thrive. What’s the culture like at Assurant? Our unique culture is a big reason why talented people choose Assurant",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Buenos-Aires-Butty/Data-Modeling-Intern_R-114397-1",
-      "external_id": "R-114397",
-      "verified_at": "2026-09-12T13:38:31Z",
       "match_score": 85
     },
     {
@@ -17523,37 +17580,6 @@
       "match_score": 90
     },
     {
-      "id": "citigroup-e82c6b5427fe",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Market Operations Junior Analyst Program Hybrid",
-      "location": "Getzville New York United States",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Product",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Team/ Role Overview Join Citi’s Markets Operations team and start your professional journey at the heart of global financial markets. This is your opportunity to step directly into a critical role where you’ll gain hands on experience supporting the processes that keep Citi’s…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-31",
-      "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Getzville-New-York-United-States/Market-Operations-Junior-Analyst-Program-Hybrid_26991391-1",
-      "external_id": "26991391",
-      "verified_at": "2026-09-12T17:16:55Z",
-      "match_score": 85
-    },
-    {
       "id": "andersons-547617fc975c",
       "source_key": "andersons",
       "fortune_rank": 397,
@@ -18037,7 +18063,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
       "external_id": "115735",
-      "verified_at": "2026-09-14T01:10:40Z",
+      "verified_at": "2026-09-14T06:22:45Z",
       "match_score": 85
     },
     {
@@ -18154,7 +18180,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
       "external_id": "115736",
-      "verified_at": "2026-09-14T01:10:40Z",
+      "verified_at": "2026-09-14T06:22:45Z",
       "match_score": 85
     },
     {
@@ -18442,6 +18468,34 @@
       "match_score": 90
     },
     {
+      "id": "ryder-system-ab47370c7361",
+      "source_key": "ryder-system",
+      "fortune_rank": 346,
+      "fortune_500": true,
+      "company": "Ryder System",
+      "title": "Diesel Apprentice - Technician II",
+      "location": "CAN - Dartmouth NS B3B 1V8",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations"
+      ],
+      "summary": "Job Seekers can review the Job Applicant Privacy Policy by clicking here . Job Description : About Ryder For almost 100 years, Ryder has provided customers around the world with integrated transportation, logistics, and supply chain management solutions that enhance the way…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-27",
+      "deadline": null,
+      "url": "https://ryder.wd5.myworkdayjobs.com/RyderCareers/job/CAN---Dartmouth-NS-B3B-1V8/Diesel-Apprentice---Technician-II_R181921",
+      "external_id": "R181921",
+      "verified_at": "2026-09-14T06:24:27Z",
+      "match_score": 85
+    },
+    {
       "id": "live-nation-entertainment-299ec9ef3ef0",
       "source_key": "live-nation-entertainment",
       "fortune_rank": 180,
@@ -18493,7 +18547,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Quality-Assurance-Intern---Oxnard--CA_115727",
       "external_id": "115727",
-      "verified_at": "2026-09-14T01:10:40Z",
+      "verified_at": "2026-09-14T06:22:45Z",
       "match_score": 85
     },
     {
@@ -18518,7 +18572,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
       "external_id": "115725",
-      "verified_at": "2026-09-14T01:10:40Z",
+      "verified_at": "2026-09-14T06:22:45Z",
       "match_score": 85
     },
     {
@@ -18669,34 +18723,6 @@
       "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/15450-Washington-St-ThorntonCO-80023-9719/Operation-Manager-Intern--Starting-Summer-2027--Food-Distribution-Center---Thornton--CO_R0000450440-1",
       "external_id": "R0000450440",
       "verified_at": "2026-09-13T00:05:55Z",
-      "match_score": 85
-    },
-    {
-      "id": "ryder-system-ab47370c7361",
-      "source_key": "ryder-system",
-      "fortune_rank": 346,
-      "fortune_500": true,
-      "company": "Ryder System",
-      "title": "Diesel Apprentice - Technician II",
-      "location": "CAN - Dartmouth NS B3B 1V8",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "Job Seekers can review the Job Applicant Privacy Policy by clicking here . Job Description : About Ryder For almost 100 years, Ryder has provided customers around the world with integrated transportation, logistics, and supply chain management solutions that enhance the way…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-26",
-      "deadline": null,
-      "url": "https://ryder.wd5.myworkdayjobs.com/RyderCareers/job/CAN---Dartmouth-NS-B3B-1V8/Diesel-Apprentice---Technician-II_R181921",
-      "external_id": "R181921",
-      "verified_at": "2026-09-12T13:39:46Z",
       "match_score": 85
     },
     {
@@ -19021,6 +19047,60 @@
       "match_score": 85
     },
     {
+      "id": "dxc-technology-fb7a2ac93a0c",
+      "source_key": "dxc-technology",
+      "fortune_rank": 343,
+      "fortune_500": true,
+      "company": "DXC Technology",
+      "title": "ServiceDesk Intern",
+      "location": "SGP - SINGAPORE",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud",
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "Job Description: DXC Technology (NYSE: DXC) is a leading enterprise technology and innovation partner delivering software, services, and solutions to global enterprises and public sector organizations — helping them harness AI to drive outcomes at a time of exponential change…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-25",
+      "deadline": null,
+      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/SGP---SINGAPORE/ServiceDesk-Intern_51587333",
+      "external_id": "51587333",
+      "verified_at": "2026-09-14T06:23:36Z",
+      "match_score": 85
+    },
+    {
+      "id": "dxc-technology-0a4c468ba4f2",
+      "source_key": "dxc-technology",
+      "fortune_rank": 343,
+      "fortune_500": true,
+      "company": "DXC Technology",
+      "title": "RR-0393497 Service Desk Intern-19",
+      "location": "SGP - SINGAPORE",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Job Description: Profile: The ideal candidate has previous experience in effectively coping with a fast-paced, high-pressure role in a constantly changing business environment. He/she will be strongly team-focused and have proven communication skills",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-25",
+      "deadline": null,
+      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/SGP---SINGAPORE/RR-0393497-Service-Desk-Intern-19_51583322",
+      "external_id": "51583322",
+      "verified_at": "2026-09-14T06:23:36Z",
+      "match_score": 85
+    },
+    {
       "id": "cigna-group-208103cac73e",
       "source_key": "cigna-group",
       "fortune_rank": 14,
@@ -19226,60 +19306,6 @@
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Jakarta/Intern---After-Sales-Service-Project_R5049926-1",
       "external_id": "R5049926",
       "verified_at": "2026-09-13T23:15:33Z",
-      "match_score": 85
-    },
-    {
-      "id": "dxc-technology-fb7a2ac93a0c",
-      "source_key": "dxc-technology",
-      "fortune_rank": 343,
-      "fortune_500": true,
-      "company": "DXC Technology",
-      "title": "ServiceDesk Intern",
-      "location": "SGP - SINGAPORE",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Job Description: DXC Technology (NYSE: DXC) is a leading enterprise technology and innovation partner delivering software, services, and solutions to global enterprises and public sector organizations — helping them harness AI to drive outcomes at a time of exponential change…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-24",
-      "deadline": null,
-      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/SGP---SINGAPORE/ServiceDesk-Intern_51587333",
-      "external_id": "51587333",
-      "verified_at": "2026-09-12T13:39:00Z",
-      "match_score": 85
-    },
-    {
-      "id": "dxc-technology-0a4c468ba4f2",
-      "source_key": "dxc-technology",
-      "fortune_rank": 343,
-      "fortune_500": true,
-      "company": "DXC Technology",
-      "title": "RR-0393497 Service Desk Intern-19",
-      "location": "SGP - SINGAPORE",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Job Description: Profile: The ideal candidate has previous experience in effectively coping with a fast-paced, high-pressure role in a constantly changing business environment. He/she will be strongly team-focused and have proven communication skills",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-24",
-      "deadline": null,
-      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/SGP---SINGAPORE/RR-0393497-Service-Desk-Intern-19_51583322",
-      "external_id": "51583322",
-      "verified_at": "2026-09-12T13:39:00Z",
       "match_score": 85
     },
     {
@@ -19623,8 +19649,35 @@
       "deadline": "2026-09-18",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Financial-Co-Op--Part-time-_R-119461-1",
       "external_id": "R-119461",
-      "verified_at": "2026-09-14T01:12:22Z",
+      "verified_at": "2026-09-14T06:24:47Z",
       "match_score": 85
+    },
+    {
+      "id": "occidental-petroleum-2572ab9b905a",
+      "source_key": "occidental-petroleum",
+      "fortune_rank": 173,
+      "fortune_500": true,
+      "company": "Occidental Petroleum",
+      "title": "Reservoir Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Oxy produces , markets and transports oil and natural gas to maximize value and provide resources fundamental to life. The company leverages its global leadership in carbon management to advance lower-carbon technologies and products",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "at www.oxy.com/student s in order to be considered Pursuing a degree in Engineering (Petroleum and graduate degrees are preferred) Maintain minimum cumulative 2.85 GPA on a…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-20",
+      "deadline": null,
+      "url": "https://oxy.wd5.myworkdayjobs.com/UniversityRelations/job/Reservoir-Intern_JR110284",
+      "external_id": "JR110284",
+      "verified_at": "2026-09-14T06:23:25Z",
+      "match_score": 90
     },
     {
       "id": "mosaic-d75a6a78b3a2",
@@ -19743,16 +19796,17 @@
       "match_score": 85
     },
     {
-      "id": "occidental-petroleum-2572ab9b905a",
+      "id": "occidental-petroleum-a8380f3f056f",
       "source_key": "occidental-petroleum",
       "fortune_rank": 173,
       "fortune_500": true,
       "company": "Occidental Petroleum",
-      "title": "Reservoir Intern",
+      "title": "Supply Chain Intern",
       "location": "Location not listed",
       "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
+        "Operations analyst",
         "Asset-based lending"
       ],
       "tags": [
@@ -19760,13 +19814,13 @@
       ],
       "summary": "Oxy produces , markets and transports oil and natural gas to maximize value and provide resources fundamental to life. The company leverages its global leadership in carbon management to advance lower-carbon technologies and products",
       "grad_status": "2029 eligible",
-      "grad_evidence": "at www.oxy.com/student s in order to be considered Pursuing a degree in Engineering (Petroleum and graduate degrees are preferred) Maintain minimum cumulative 2.85 GPA on a…",
+      "grad_evidence": "application at https://www.oxy.com/careers/explore-careers/students/ in order to be considered Undergraduate pursuing a bachelor’s degree in Supply Chain Management,…",
       "freshman_friendly": true,
       "posted_date": "2026-08-19",
       "deadline": null,
-      "url": "https://oxy.wd5.myworkdayjobs.com/UniversityRelations/job/Reservoir-Intern_JR110284",
-      "external_id": "JR110284",
-      "verified_at": "2026-09-12T13:38:54Z",
+      "url": "https://oxy.wd5.myworkdayjobs.com/UniversityRelations/job/Supply-Chain-Intern_JR110272",
+      "external_id": "JR110272",
+      "verified_at": "2026-09-14T06:23:26Z",
       "match_score": 90
     },
     {
@@ -19926,34 +19980,6 @@
       "external_id": "R5038737",
       "verified_at": "2026-09-14T01:12:09Z",
       "match_score": 85
-    },
-    {
-      "id": "occidental-petroleum-a8380f3f056f",
-      "source_key": "occidental-petroleum",
-      "fortune_rank": 173,
-      "fortune_500": true,
-      "company": "Occidental Petroleum",
-      "title": "Supply Chain Intern",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Oxy produces , markets and transports oil and natural gas to maximize value and provide resources fundamental to life. The company leverages its global leadership in carbon management to advance lower-carbon technologies and products",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "application at https://www.oxy.com/careers/explore-careers/students/ in order to be considered Undergraduate pursuing a bachelor’s degree in Supply Chain Management,…",
-      "freshman_friendly": true,
-      "posted_date": "2026-08-18",
-      "deadline": null,
-      "url": "https://oxy.wd5.myworkdayjobs.com/UniversityRelations/job/Supply-Chain-Intern_JR110272",
-      "external_id": "JR110272",
-      "verified_at": "2026-09-12T13:38:55Z",
-      "match_score": 90
     },
     {
       "id": "merck-09c897477cae",
@@ -20887,11 +20913,11 @@
       "grad_status": "2029 eligible",
       "grad_evidence": "ed Pursuing a degree in Engineering Maintain minimum cumulative 2.85 GPA on a 4.0 scale Must have a graduation date of December 2027 – May 2029 Desire to pursue career in…",
       "freshman_friendly": true,
-      "posted_date": "2026-08-15",
+      "posted_date": "2026-08-16",
       "deadline": null,
       "url": "https://oxy.wd5.myworkdayjobs.com/UniversityRelations/job/Midland-Texas/Engineering-Intern--Oil---Gas-Business-_JR110204",
       "external_id": "JR110204",
-      "verified_at": "2026-09-12T13:38:55Z",
+      "verified_at": "2026-09-14T06:23:26Z",
       "match_score": 90
     },
     {
@@ -21250,7 +21276,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-09-14T01:10:56Z",
+      "verified_at": "2026-09-14T06:23:12Z",
       "match_score": 85
     },
     {
@@ -23778,7 +23804,7 @@
       "deadline": null,
       "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/TWN---TPE---TAIPEI/JAVA-intern_51586641",
       "external_id": "51586641",
-      "verified_at": "2026-09-12T13:39:00Z",
+      "verified_at": "2026-09-14T06:23:36Z",
       "match_score": 85
     },
     {
@@ -23808,7 +23834,7 @@
       "deadline": null,
       "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/IT-Intern_51580573",
       "external_id": "51580573",
-      "verified_at": "2026-09-12T13:39:00Z",
+      "verified_at": "2026-09-14T06:23:36Z",
       "match_score": 85
     },
     {
@@ -23835,7 +23861,7 @@
       "deadline": null,
       "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Talent-Intern_JR103258-1",
       "external_id": "JR103258",
-      "verified_at": "2026-09-12T13:39:33Z",
+      "verified_at": "2026-09-14T06:24:11Z",
       "match_score": 85
     },
     {
@@ -23860,7 +23886,7 @@
       "deadline": null,
       "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Production-Line-Operator-Intern_JR101884",
       "external_id": "JR101884",
-      "verified_at": "2026-09-12T13:39:33Z",
+      "verified_at": "2026-09-14T06:24:11Z",
       "match_score": 85
     },
     {
@@ -23885,7 +23911,7 @@
       "deadline": null,
       "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Meoqui/Plant-Administration-Intern_JR103867",
       "external_id": "JR103867",
-      "verified_at": "2026-09-12T13:39:33Z",
+      "verified_at": "2026-09-14T06:24:11Z",
       "match_score": 85
     },
     {
@@ -23912,7 +23938,7 @@
       "deadline": null,
       "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Plant-Administration-Intern_JR102942",
       "external_id": "JR102942",
-      "verified_at": "2026-09-12T13:39:33Z",
+      "verified_at": "2026-09-14T06:24:11Z",
       "match_score": 85
     },
     {
@@ -23939,7 +23965,7 @@
       "deadline": null,
       "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Meoqui/Plant-Administration-Intern_JR103865",
       "external_id": "JR103865",
-      "verified_at": "2026-09-12T13:39:33Z",
+      "verified_at": "2026-09-14T06:24:11Z",
       "match_score": 85
     },
     {
@@ -23969,7 +23995,7 @@
       "deadline": null,
       "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Finance-Procurement-Intern_JR103801",
       "external_id": "JR103801",
-      "verified_at": "2026-09-12T13:39:33Z",
+      "verified_at": "2026-09-14T06:24:11Z",
       "match_score": 85
     },
     {
@@ -23994,7 +24020,7 @@
       "deadline": null,
       "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Commercial-Intern_JR102918",
       "external_id": "JR102918",
-      "verified_at": "2026-09-12T13:39:33Z",
+      "verified_at": "2026-09-14T06:24:11Z",
       "match_score": 85
     },
     {
@@ -24083,7 +24109,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/KYIV-Ukraine/Ukraine-Internship-Program---2026_25929484",
       "external_id": "25929484",
-      "verified_at": "2026-09-12T17:16:48Z",
+      "verified_at": "2026-09-14T06:26:03Z",
       "match_score": 85
     },
     {
@@ -24108,7 +24134,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Sao-Paulo-Sao-Paulo-Brazil/Estgio-Exclusivo-PCD---Markets--Internship--So-Paulo---Brazil--2026_26977986",
       "external_id": "26977986",
-      "verified_at": "2026-09-12T17:16:49Z",
+      "verified_at": "2026-09-14T06:26:04Z",
       "match_score": 85
     },
     {
@@ -24141,7 +24167,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Corporate-Banking--Placement-Analyst-Internship--Paris--France-2026_25908794",
       "external_id": "25908794",
-      "verified_at": "2026-09-12T17:16:49Z",
+      "verified_at": "2026-09-14T06:26:04Z",
       "match_score": 85
     },
     {
@@ -24170,7 +24196,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Dubai-United-Arab-Emirates/XMLNAME-2025-Wealth-Management-Summer-Internship--Dubai--UAE--UAE-Nationals-preferred-_25820546",
       "external_id": "25820546",
-      "verified_at": "2026-09-12T17:16:49Z",
+      "verified_at": "2026-09-14T06:26:04Z",
       "match_score": 90
     },
     {
@@ -24197,7 +24223,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Bogota--Colombia/XMLNAME-2025-Markets-Internship-Colombia_25836348",
       "external_id": "25836348",
-      "verified_at": "2026-09-12T17:16:46Z",
+      "verified_at": "2026-09-14T06:26:01Z",
       "match_score": 85
     },
     {
@@ -25579,7 +25605,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-09-14T01:10:06Z",
+      "verified_at": "2026-09-14T06:22:17Z",
       "match_score": 85
     },
     {
@@ -25927,7 +25953,7 @@
       "deadline": null,
       "url": "https://hii.com/careers/ingalls-apprentice-school",
       "external_id": null,
-      "verified_at": "2026-09-12T13:38:54Z",
+      "verified_at": "2026-09-14T06:23:28Z",
       "match_score": 85
     },
     {
@@ -26537,7 +26563,7 @@
       "deadline": null,
       "url": "https://usearlycareers.ey.com/job/san-francisco/usa-ey-parthenon-investment-banking-summer-analyst-summer-2027/39053/100310763856",
       "external_id": null,
-      "verified_at": "2026-09-12T17:15:23Z",
+      "verified_at": "2026-09-14T06:24:21Z",
       "match_score": 85
     },
     {
@@ -26567,7 +26593,7 @@
       "deadline": null,
       "url": "https://usearlycareers.ey.com/job/tampa/usa-tax-indirect-tax-state-income-tax-jd-llm-intern-summer-2027/39053/100310765200",
       "external_id": null,
-      "verified_at": "2026-09-12T17:15:23Z",
+      "verified_at": "2026-09-14T06:24:21Z",
       "match_score": 85
     },
     {
@@ -26595,7 +26621,7 @@
       "deadline": null,
       "url": "https://eyglobal.yello.co/jobs/az_vIWBM-MZk4psfJvTEtw?job_board_id=c1riT--B2O-KySgYWsZO1Q",
       "external_id": null,
-      "verified_at": "2026-09-12T17:15:23Z",
+      "verified_at": "2026-09-14T06:24:22Z",
       "match_score": 85
     },
     {
@@ -26624,7 +26650,7 @@
       "deadline": null,
       "url": "https://eyglobal.yello.co/jobs/3p3Sf8ibgx9bz1QLloxlSQ?job_board_id=c1riT--B2O-KySgYWsZO1Q",
       "external_id": null,
-      "verified_at": "2026-09-12T17:15:23Z",
+      "verified_at": "2026-09-14T06:24:22Z",
       "match_score": 85
     },
     {
@@ -27557,7 +27583,7 @@
       "deadline": null,
       "url": "https://careers.bcg.com/global/en/internship-opportunities",
       "external_id": null,
-      "verified_at": "2026-09-12T17:15:56Z",
+      "verified_at": "2026-09-14T06:25:15Z",
       "match_score": 85
     },
     {
@@ -27899,62 +27925,6 @@
       "url": "https://www.auto-owners.com/about/career-opportunities/internship",
       "external_id": null,
       "verified_at": "2026-09-13T10:20:35Z",
-      "match_score": 85
-    },
-    {
-      "id": "airbnb-ffbd3d16c91e",
-      "source_key": "airbnb",
-      "fortune_rank": 357,
-      "fortune_500": true,
-      "company": "Airbnb",
-      "title": "Internship Programs",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Interns Featuring a mix of mentorship, fun, and challenge, our internships are designed to accelerate your learning curve as you make a real impact on our product. What to Expect Onboarding experience to get you familiar with Airbnb and your new team, and set you up for success",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://careers.airbnb.com/internship-programs/",
-      "external_id": null,
-      "verified_at": "2026-09-12T13:39:15Z",
-      "match_score": 85
-    },
-    {
-      "id": "airbnb-d1fc1ff6677b",
-      "source_key": "airbnb",
-      "fortune_rank": 357,
-      "fortune_500": true,
-      "company": "Airbnb",
-      "title": "Connect Engineering Apprenticeship",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud"
-      ],
-      "summary": "What it’s about The Connect Engineering Apprenticeship Program bridges the opportunity gap for entry-level engineering candidates. Candidates from underrepresented backgrounds and unconventional paths are encouraged to apply. Engineering apprentices gain invaluable exposure to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://careers.airbnb.com/connect-engineering-apprenticeship/",
-      "external_id": null,
-      "verified_at": "2026-09-12T13:39:15Z",
       "match_score": 85
     }
   ]
