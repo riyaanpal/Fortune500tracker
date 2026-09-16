@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16T11:47:05Z",
+  "updated_at": "2026-09-16T17:08:29Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,11 +12,24 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-09-16T11:42:00Z",
+  "directory_refreshed_at": "2026-09-16T17:03:24Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 265,
-  "companies_failed_last_24h": 8,
+  "companies_failed_last_24h": 7,
   "failed_or_blocked_companies_last_24h": [
+    {
+      "key": "alcoa",
+      "rank": 344,
+      "company": "Alcoa",
+      "fortune_500": true,
+      "checked_at": "2026-09-16T17:08:29Z",
+      "status": "error",
+      "issue_type": "Scan error",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs: 404 Client Error: Not Found for url: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs"
+    },
     {
       "key": "bank-of-america",
       "rank": 20,
@@ -70,37 +83,11 @@
       "error": null
     },
     {
-      "key": "international-business-machines",
-      "rank": 66,
-      "company": "International Business Machines",
-      "fortune_500": true,
-      "checked_at": "2026-09-15T13:43:16Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
-    },
-    {
       "key": "roper-technologies",
       "rank": 487,
       "company": "Roper Technologies",
       "fortune_500": true,
       "checked_at": "2026-09-15T21:29:20Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
-    },
-    {
-      "key": "united-parcel-service",
-      "rank": 48,
-      "company": "United Parcel Service",
-      "fortune_500": true,
-      "checked_at": "2026-09-15T13:43:16Z",
       "status": "no-career-source",
       "issue_type": "No careers source found",
       "eligible_jobs": 0,
@@ -122,9 +109,9 @@
       "error": null
     }
   ],
-  "companies_with_eligible_jobs": 69,
+  "companies_with_eligible_jobs": 77,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 816,
+  "opportunity_count": 815,
   "opportunities": [
     {
       "id": "xcel-energy-ed54982ef1c2",
@@ -452,6 +439,34 @@
       "match_score": 85
     },
     {
+      "id": "ryder-system-ab47370c7361",
+      "source_key": "ryder-system",
+      "fortune_rank": 346,
+      "fortune_500": true,
+      "company": "Ryder System",
+      "title": "Diesel Apprentice - Technician II",
+      "location": "CAN - Dartmouth NS B3B 1V8",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations"
+      ],
+      "summary": "Job Seekers can review the Job Applicant Privacy Policy by clicking here . Job Description : About Ryder For almost 100 years, Ryder has provided customers around the world with integrated transportation, logistics, and supply chain management solutions that enhance the way…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-16",
+      "deadline": null,
+      "url": "https://ryder.wd5.myworkdayjobs.com/RyderCareers/job/CAN---Dartmouth-NS-B3B-1V8/Diesel-Apprentice---Technician-II_R181921",
+      "external_id": "R181921",
+      "verified_at": "2026-09-16T17:05:46Z",
+      "match_score": 85
+    },
+    {
       "id": "northern-trust-681bccb8af6d",
       "source_key": "northern-trust",
       "fortune_rank": 317,
@@ -480,6 +495,38 @@
       "url": "https://ntrs.wd1.myworkdayjobs.com/northerntrust/job/Chicago-IL/Risk-and-Compliance-Intern_R160771-1",
       "external_id": "R160771",
       "verified_at": "2026-09-16T06:08:31Z",
+      "match_score": 85
+    },
+    {
+      "id": "nasdaq-b006bfd6184a",
+      "source_key": "nasdaq",
+      "fortune_rank": 470,
+      "fortune_500": true,
+      "company": "Nasdaq",
+      "title": "Product Owner Intern - 2027 Summer Internship",
+      "location": "GA - Glenridge Point",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Product operations",
+        "Product management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Finance"
+      ],
+      "summary": "About Our Internship Program Nasdaq’s Internship Program is a 10-week summer experience designed to give students real exposure to how global markets and technology come together. Our interns work on meaningful projects alongside Nasdaq teams, gaining hands-on skills that make…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-16",
+      "deadline": null,
+      "url": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site/job/GA---Glenridge-Point/Product-Owner-Intern---2027-Summer-Internship_R0026976",
+      "external_id": "R0026976",
+      "verified_at": "2026-09-16T17:06:15Z",
       "match_score": 85
     },
     {
@@ -1114,6 +1161,34 @@
       "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249131-1",
       "external_id": "R0249131",
       "verified_at": "2026-09-16T00:27:30Z",
+      "match_score": 85
+    },
+    {
+      "id": "baker-hughes-987b12325cd9",
+      "source_key": "baker-hughes",
+      "fortune_rank": 164,
+      "fortune_500": true,
+      "company": "Baker Hughes",
+      "title": "Intern - Data Analytics - 2026 (M/F/D)",
+      "location": "IT-FI-FLORENCE-VIA FELICE MATTEUCCI 2",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "Would you like the opportunity to work in a global energy company? Do you enjoy taking on challenging projects? Join our innovating Internship Program We are looking for a highly motivated intern to support data analysis, planning, and monitoring of key indicators, contributing…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-16",
+      "deadline": null,
+      "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/IT-FI-FLORENCE-VIA-FELICE-MATTEUCCI-2/Emerging-Talent---Data-Analytics-Intern-2026-Opportunities--Florence-_R164944",
+      "external_id": "R164944",
+      "verified_at": "2026-09-16T17:04:56Z",
       "match_score": 85
     },
     {
@@ -1950,6 +2025,33 @@
       "external_id": "R000110209",
       "verified_at": "2026-09-15T01:33:54Z",
       "match_score": 90
+    },
+    {
+      "id": "centene-a9a2dc1be6bb",
+      "source_key": "centene",
+      "fortune_rank": 19,
+      "fortune_500": true,
+      "company": "Centene",
+      "title": "Clinical Extern",
+      "location": "Remote-GA",
+      "region": "Global",
+      "opportunity_type": "Pre-internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Credit"
+      ],
+      "summary": "Position Purpose: Observe preceptors and participate in various projects to learn and develop skills related to the Managed Care industry. Candidates must be receiving course credit for participating in the Externship program. At Centene, we connect people to the care they need…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-15",
+      "deadline": "2026-09-17",
+      "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-GA/Clinical-Extern_1642183",
+      "external_id": "1642183",
+      "verified_at": "2026-09-16T17:07:04Z",
+      "match_score": 85
     },
     {
       "id": "carmax-ec88694c020f",
@@ -3088,7 +3190,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Supply-Chain-Intern--Summer-2027_115694",
       "external_id": "115694",
-      "verified_at": "2026-09-16T11:42:40Z",
+      "verified_at": "2026-09-16T17:04:04Z",
       "match_score": 85
     },
     {
@@ -5376,31 +5478,6 @@
       "match_score": 90
     },
     {
-      "id": "target-04d70090f27a",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Associate Buyer Internship - Minneapolis, MN (Starting Summer, 2027)",
-      "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "This position is entry-level position that starts in Summer 2027. Starting Hourly Rate $29.00 per hour. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-11",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Associate-Buyer-Internship---Minneapolis--MN--Starting-Summer--2027-_R0000450961",
-      "external_id": "R0000450961",
-      "verified_at": "2026-09-14T22:35:20Z",
-      "match_score": 85
-    },
-    {
       "id": "rockwell-automation-0ae384c73fb7",
       "source_key": "rockwell-automation",
       "fortune_rank": 467,
@@ -5834,6 +5911,34 @@
       "match_score": 85
     },
     {
+      "id": "assurant-a2b7aaae0083",
+      "source_key": "assurant",
+      "fortune_rank": 345,
+      "fortune_500": true,
+      "company": "Assurant",
+      "title": "Behavioral Science Intern",
+      "location": "Buenos Aires (Butty)",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product"
+      ],
+      "summary": "Job Purpose The People Organization is seeking an intern to help explore how principles from Behavioral Science can be applied to improve employee experiences, product adoption, change adoption, and self-service utilization of People Org",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-11",
+      "deadline": null,
+      "url": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Buenos-Aires-Butty/Behavioral-Science-Intern_R-115435-1",
+      "external_id": "R-115435",
+      "verified_at": "2026-09-16T17:04:29Z",
+      "match_score": 85
+    },
+    {
       "id": "xcel-energy-7c10be89bc86",
       "source_key": "xcel-energy",
       "fortune_rank": 306,
@@ -5947,35 +6052,6 @@
       "url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Indianapolis-IN-USA/Service-Technician-Intern--Flooring-Solutions_97241",
       "external_id": "97241",
       "verified_at": "2026-09-16T00:25:47Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-d5d0b60ce688",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - North Colorado (Starting Summer 2027)",
-      "location": "551 S Hover Rd, Longmont, CO 80501-7920",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $28.00- $29.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-10",
-      "deadline": "2026-09-17",
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/551-S-Hover-Rd-Longmont-CO-80501-7920/Store-Executive-Intern--Store-Leadership-Intern----North-Colorado--Starting-Summer-2027-_R0000445966",
-      "external_id": "R0000445966",
-      "verified_at": "2026-09-14T22:35:22Z",
       "match_score": 85
     },
     {
@@ -6397,7 +6473,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_115697",
       "external_id": "115697",
-      "verified_at": "2026-09-16T11:42:41Z",
+      "verified_at": "2026-09-16T17:04:06Z",
       "match_score": 85
     },
     {
@@ -6424,7 +6500,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Columbus-GA/Operations-QA-Intern--Summer-2027-Columbus--GA_115774",
       "external_id": "115774",
-      "verified_at": "2026-09-16T11:42:41Z",
+      "verified_at": "2026-09-16T17:04:06Z",
       "match_score": 85
     },
     {
@@ -6449,7 +6525,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Microbiology-Intern--Summer-2027_115676",
       "external_id": "115676",
-      "verified_at": "2026-09-16T11:42:40Z",
+      "verified_at": "2026-09-16T17:04:04Z",
       "match_score": 85
     },
     {
@@ -6614,6 +6690,153 @@
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Singapore/FLIGHT-DECK-Intern_R5036663-2",
       "external_id": "R5036663",
       "verified_at": "2026-09-16T06:08:42Z",
+      "match_score": 85
+    },
+    {
+      "id": "elevance-health-6ceb96f5f354",
+      "source_key": "elevance-health",
+      "fortune_rank": 18,
+      "fortune_500": true,
+      "company": "Elevance Health",
+      "title": "Pharmacy Intern",
+      "location": "VA-RICHMOND, 2015 STAPLES MILL RD,",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy"
+      ],
+      "summary": "Anticipated End Date: 2026-09-24 Position Title: Pharmacy Intern Job Description: Pharmacy Intern Location: This role enables associates to work virtually full-time, with the exception of required in-person training sessions, providing maximum flexibility and autonomy",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-10",
+      "deadline": "2026-09-24",
+      "url": "https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/VA-RICHMOND-2015-STAPLES-MILL-RD/Pharmacy-Intern_JR206389",
+      "external_id": "JR206389",
+      "verified_at": "2026-09-16T17:06:38Z",
+      "match_score": 85
+    },
+    {
+      "id": "dxc-technology-8d50bd6cea91",
+      "source_key": "dxc-technology",
+      "fortune_rank": 343,
+      "fortune_500": true,
+      "company": "DXC Technology",
+      "title": "Business Process Outsourcing Intern",
+      "location": "ITA - MI - CERNUSCO SUL NAVIGLIO",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Job Description: Xchanging Italy (DXC Technology) active in the business processing and technology services market for the finance sector, is looking for a intern to be included in the Business Process Outsourcing (BPO) area Asset Management, Wealth Manament, Private Banking",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/ITA---MI---CERNUSCO-SUL-NAVIGLIO/Business-Process-Outsourcing-Intern_51588852",
+      "external_id": "51588852",
+      "verified_at": "2026-09-16T17:05:04Z",
+      "match_score": 85
+    },
+    {
+      "id": "cigna-group-b57a41447c50",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "The Cigna Group's Technology Development Program - Infrastructure & Cloud Engineering Track Summer Internship",
+      "location": "CT, Bloomfield, 900 Cottage Grove Rd Wilde Bldg",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Cloud"
+      ],
+      "summary": "The Cigna Group’s Technology Development Program (TECDP) Infrastructure & Cloud Engineering Summer Internship Get ready to embark on an exhilarating summer adventure with The Cigna Group’s Technology Development Program Summer Internship!",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/CT-Bloomfield-900-Cottage-Grove-Rd-Wilde-Bldg/The-Cigna-Group-s-Technology-Development-Program-----Infrastructure---Cloud-Engineering-Track_26009529",
+      "external_id": "26009529",
+      "verified_at": "2026-09-16T17:07:29Z",
+      "match_score": 85
+    },
+    {
+      "id": "cigna-group-e7a764b5f000",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "The Cigna Group's Technology Development Program - Data & Analytics Engineering Track Summer Internship",
+      "location": "Bloomfield, CT",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "Cloud"
+      ],
+      "summary": "The Cigna Group’s Technology Development Program (TECDP) Data Analytics Engineering Internship Get ready to embark on an exhilarating summer adventure with The Cigna Group’s Technology Development Program Summer Internship! We are on the lookout for passionate individuals who…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/The-Cigna-Group-s-Technology-Development-Program---Data---Analytics-Engineering-Track-Summer-Internship_26009533",
+      "external_id": "26009533",
+      "verified_at": "2026-09-16T17:07:29Z",
+      "match_score": 85
+    },
+    {
+      "id": "cigna-group-8923b02853e8",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "The Cigna Group's Technology Development Program - AI Engineering Track Summer Internship",
+      "location": "TX, Austin, 11501 Alterra Pkwy STE 500",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Technical Solutions",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "AI / ML"
+      ],
+      "summary": "The Cigna Group’s Technology Development Program (TECDP) Generative AI Summer Internship Get ready to embark on an exhilarating summer adventure with The Cigna Group’s Technology Development Program Summer Internship! We are on the lookout for passionate individuals who are…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/TX-Austin-11501-Alterra-Pkwy-STE-500/The-Cigna-Group-s-Technology-Development-Program---AI-Engineering-Track-Summer-Internship_26009535",
+      "external_id": "26009535",
+      "verified_at": "2026-09-16T17:07:29Z",
       "match_score": 85
     },
     {
@@ -7167,61 +7390,6 @@
       "match_score": 85
     },
     {
-      "id": "target-cde033401256",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "UX Design Internship - Minneapolis, MN (Starting Summer, 2027)",
-      "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "This position is entry-level position that starts in Summer 2027. Starting Hourly Rate $34.00 per hour. Our UX Design Summer Internship opportunity is a 10-week program centered around supporting new UX talent. The UX Internship Program provides a structured, supportive…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/UX-Design-Internship---Minneapolis--MN--Starting-Summer--2027-_R0000451077",
-      "external_id": "R0000451077",
-      "verified_at": "2026-09-14T22:35:23Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-f19c9aa5afe6",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Roundel Advertising Internship - Minneapolis, MN (Starting Summer, 2027)",
-      "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "This position is entry-level position that starts in Summer 2027. Starting Hourly Rate $27.00 per hour. An internship role within Roundel is an opportunity to be part of a strategic priority business for Target. Roundel is Target’s entry into the media business, a sell-side…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Roundel-Advertising-Internship---Minneapolis--MN--Starting-Summer--2027-_R0000449104",
-      "external_id": "R0000449104",
-      "verified_at": "2026-09-14T22:35:23Z",
-      "match_score": 85
-    },
-    {
       "id": "prudential-financial-7803c90cc485",
       "source_key": "prudential-financial",
       "fortune_rank": 78,
@@ -7558,7 +7726,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
       "external_id": "115677",
-      "verified_at": "2026-09-16T11:42:41Z",
+      "verified_at": "2026-09-16T17:04:05Z",
       "match_score": 85
     },
     {
@@ -7585,7 +7753,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sales-Intern--Summer-2027_115803",
       "external_id": "115803",
-      "verified_at": "2026-09-16T11:42:40Z",
+      "verified_at": "2026-09-16T17:04:04Z",
       "match_score": 85
     },
     {
@@ -7612,7 +7780,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
       "external_id": "115698",
-      "verified_at": "2026-09-16T11:42:41Z",
+      "verified_at": "2026-09-16T17:04:06Z",
       "match_score": 85
     },
     {
@@ -7639,7 +7807,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/R-D-Engineering-Intern--Co-Op-2027--8-months-_115696",
       "external_id": "115696",
-      "verified_at": "2026-09-16T11:42:41Z",
+      "verified_at": "2026-09-16T17:04:05Z",
       "match_score": 85
     },
     {
@@ -7670,7 +7838,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Spring-2027_115712",
       "external_id": "115712",
-      "verified_at": "2026-09-16T11:42:41Z",
+      "verified_at": "2026-09-16T17:04:06Z",
       "match_score": 85
     },
     {
@@ -7697,7 +7865,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/New-Orleans-LA/Operations-Engineering-Intern--Summer-2027--Multiple-Locations-_115721",
       "external_id": "115721",
-      "verified_at": "2026-09-16T11:42:41Z",
+      "verified_at": "2026-09-16T17:04:06Z",
       "match_score": 85
     },
     {
@@ -7724,7 +7892,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Scottsville-KY/Operations-Engineering-Intern--Spring-2027---Scottsville--KY_115475-1",
       "external_id": "115475",
-      "verified_at": "2026-09-16T11:42:41Z",
+      "verified_at": "2026-09-16T17:04:06Z",
       "match_score": 85
     },
     {
@@ -7751,7 +7919,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Memphis-TN/Operations-Engineering-Intern--Spring-2027---Memphis--TN_114845",
       "external_id": "114845",
-      "verified_at": "2026-09-16T11:42:41Z",
+      "verified_at": "2026-09-16T17:04:05Z",
       "match_score": 85
     },
     {
@@ -7778,7 +7946,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Lexington-KY/Operations-Engineering-Intern--Spring-2027---Lexington--KY_114841",
       "external_id": "114841",
-      "verified_at": "2026-09-16T11:42:41Z",
+      "verified_at": "2026-09-16T17:04:05Z",
       "match_score": 85
     },
     {
@@ -7806,7 +7974,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Marketing-Intern--Summer-2027_115771",
       "external_id": "115771",
-      "verified_at": "2026-09-16T11:42:40Z",
+      "verified_at": "2026-09-16T17:04:04Z",
       "match_score": 85
     },
     {
@@ -7835,7 +8003,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Information-Services-Intern--Summer-2027_115744",
       "external_id": "115744",
-      "verified_at": "2026-09-16T11:42:40Z",
+      "verified_at": "2026-09-16T17:04:05Z",
       "match_score": 85
     },
     {
@@ -7868,7 +8036,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Summer-2027_115743",
       "external_id": "115743",
-      "verified_at": "2026-09-16T11:42:41Z",
+      "verified_at": "2026-09-16T17:04:05Z",
       "match_score": 85
     },
     {
@@ -7901,7 +8069,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-09-16T11:42:40Z",
+      "verified_at": "2026-09-16T17:04:04Z",
       "match_score": 85
     },
     {
@@ -7927,7 +8095,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Category-Leadership-Intern--Summer-2027_115804",
       "external_id": "115804",
-      "verified_at": "2026-09-16T11:42:41Z",
+      "verified_at": "2026-09-16T17:04:05Z",
       "match_score": 85
     },
     {
@@ -7954,7 +8122,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Analytical-Lab-Intern--Summer-2027_115678",
       "external_id": "115678",
-      "verified_at": "2026-09-16T11:42:41Z",
+      "verified_at": "2026-09-16T17:04:05Z",
       "match_score": 85
     },
     {
@@ -8129,6 +8297,68 @@
       "match_score": 85
     },
     {
+      "id": "cigna-group-3b377bc5919f",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "The Cigna Group's Technology Development Program - Cybersecurity Track Summer Internship",
+      "location": "CT, Bloomfield, 900 Cottage Grove Rd Wilde Bldg",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The Cigna Group’s Technology Development Program (TECDP) Cyber-Security Summer Internship Get ready to embark on an exhilarating summer adventure with The Cigna Group’s Technology Development Program Summer Internship! We are on the lookout for passionate individuals who are…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": null,
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/CT-Bloomfield-900-Cottage-Grove-Rd-Wilde-Bldg/The-Cigna-Group-s-Technology-Development-Program---Cybersecurity-Track-Summer-Internship_26009531",
+      "external_id": "26009531",
+      "verified_at": "2026-09-16T17:07:29Z",
+      "match_score": 85
+    },
+    {
+      "id": "cigna-group-2054c156a507",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "Spring 2027 Actuarial Intern (Part-Time, On-Site) - Bloomfield, CT",
+      "location": "Bloomfield, CT",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "FP&A",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Excel",
+        "AI / ML",
+        "FP&A"
+      ],
+      "summary": "Spend your spring semester exploring healthcare actuarial work and building the foundational skills needed to grow as a modern actuary. The Cigna Group’s Actuarial Executive Development Program (AEDP) offers a unique part-time actuarial internship for students earlier in their…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-09-23",
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Spring-2027-Actuarial-Intern--Part-Time--On-Site----Bloomfield--CT_26010921",
+      "external_id": "26010921",
+      "verified_at": "2026-09-16T17:07:28Z",
+      "match_score": 85
+    },
+    {
       "id": "c-h-robinson-worldwide-6d64d0b50c58",
       "source_key": "c-h-robinson-worldwide",
       "fortune_rank": 277,
@@ -8288,6 +8518,110 @@
       "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Cyber-Security-Intern---Annapolis-Junction--MD_R0248414",
       "external_id": "R0248414",
       "verified_at": "2026-09-16T00:27:39Z",
+      "match_score": 85
+    },
+    {
+      "id": "baker-hughes-a3031a581fd9",
+      "source_key": "baker-hughes",
+      "fortune_rank": 164,
+      "fortune_500": true,
+      "company": "Baker Hughes",
+      "title": "Intern – Stagiaire Support Utilisateur (H/F) - 2026",
+      "location": "FR-BFC-FOUGEROLLES-2-4 RUE DE FONTAINE",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "En tant que Stagiaire Support Utilisateur (H/F) , vous intégrerez l’équipe Support et contribuerez à l’assistance des utilisateurs internes et externes. En collaboration avec les équipes techniques et opérationnelles, vous participerez au traitement des demandes de support, à…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": null,
+      "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/FR-BFC-FOUGEROLLES-2-4-RUE-DE-FONTAINE/Intern---Stagiaire-Support-Utilisateur--H-F-----Fougerolles--France---2026_R168877",
+      "external_id": "R168877",
+      "verified_at": "2026-09-16T17:04:59Z",
+      "match_score": 85
+    },
+    {
+      "id": "baker-hughes-f10bd22f04db",
+      "source_key": "baker-hughes",
+      "fortune_rank": 164,
+      "fortune_500": true,
+      "company": "Baker Hughes",
+      "title": "Intern - Logistics & Supply Chain Management - 2026 Opportunities",
+      "location": "MY-KUL-KUALA LUMPUR-19th FLOOR MENARA TAN & TAN",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Would you like the opportunity to work in a global energy company? ​Do you enjoy taking on challenging projects? ​Join our innovating Internship Program ​The Baker Hughes Internship is designed to enable undergraduates pursing a Bachelors degree to gain hands-on work experience…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": null,
+      "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/MY-KUL-KUALA-LUMPUR-19th-FLOOR-MENARA-TAN--TAN/Intern-Logistics---Supply-Chain-Management---Malaysia--2026-Opportunities_R167658",
+      "external_id": "R167658",
+      "verified_at": "2026-09-16T17:05:04Z",
+      "match_score": 85
+    },
+    {
+      "id": "baker-hughes-87af111deebc",
+      "source_key": "baker-hughes",
+      "fortune_rank": 164,
+      "fortune_500": true,
+      "company": "Baker Hughes",
+      "title": "Intern - Business - 2026 Opportunities",
+      "location": "ID-JW-JAKARTA-JI. R.A. KARTINI KAV. 8, CILANDAK BARAT",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Finance"
+      ],
+      "summary": "​ Would you like the opportunity to work in a global energy company? ​ Do you enjoy taking on challenging projects? ​ Join our innovating I nternship Program ​ The Baker Hughes Internship is designed to enable undergraduates pursing a Bachelors degree to gain hands-on work…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": null,
+      "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/ID-JW-JAKARTA-JI-RA-KARTINI-KAV-8-CILANDAK-BARAT/Intern-Business--Indonesia--2026-Opportunities_R168104",
+      "external_id": "R168104",
+      "verified_at": "2026-09-16T17:05:09Z",
+      "match_score": 85
+    },
+    {
+      "id": "baker-hughes-37a5131c9426",
+      "source_key": "baker-hughes",
+      "fortune_rank": 164,
+      "fortune_500": true,
+      "company": "Baker Hughes",
+      "title": "Apprentice – Alternant(e) SQE (H/F) - 2026 Opportunities",
+      "location": "FR-BFC-FOUGEROLLES-2-4 RUE DE FONTAINE",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Vous êtes à la recherche d'une opportunité intéressante et inspirante ? Vous avez envie de faire partie d’une équipe performante ? Chez Baker Hughes, notre objectif est clair. Nous faisons progresser l'énergie en la rendant plus sûre, plus propre et plus efficace pour les…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": null,
+      "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/FR-BFC-FOUGEROLLES-2-4-RUE-DE-FONTAINE/Alternant-e--SQE--H-F-_R165075",
+      "external_id": "R165075",
+      "verified_at": "2026-09-16T17:05:04Z",
       "match_score": 85
     },
     {
@@ -11880,32 +12214,35 @@
       "match_score": 85
     },
     {
-      "id": "campbell-s-0537c6124318",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
+      "id": "cigna-group-832ff1768151",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
       "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Robotics Apprentice Operator - 3rd Shift",
-      "location": "USA - UT - Richmond",
+      "company": "Cigna Group",
+      "title": "Pharmacy Underwriting Summer Internship Program",
+      "location": "Morris Plains, NJ",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
-        "Operations analyst",
+        "Risk management",
         "Asset-based lending"
       ],
       "tags": [
-        "Product",
-        "Operations"
+        "Excel",
+        "Strategy",
+        "Finance",
+        "Credit",
+        "Risk"
       ],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
+      "summary": "If you’re looking to add value, make an impact, and use strong analytical and math skills in a fast-paced environment, starting your career within the PBM Finance Underwriting team at The Cigna Group will allow you to do all this and more",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-09-08",
       "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---UT---Richmond/Robotics-Apprentice-Operator--3rd-Shift---2265-hr_Req-67317",
-      "external_id": "Req-67317",
-      "verified_at": "2026-09-14T22:33:49Z",
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Morris-Plains-NJ/Pharmacy-Underwriting-Summer-Internship-Program_26009219",
+      "external_id": "26009219",
+      "verified_at": "2026-09-16T17:07:28Z",
       "match_score": 85
     },
     {
@@ -12250,6 +12587,38 @@
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Corporate-Banking--Placement-Analyst-Internship--Paris---France-2027_26992458",
       "external_id": "26992458",
       "verified_at": "2026-09-16T11:45:41Z",
+      "match_score": 85
+    },
+    {
+      "id": "cigna-group-f9f33c8979d4",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "Risk & Underwriting Summer Internship Program",
+      "location": "Bloomfield, CT",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy",
+        "Finance",
+        "Credit",
+        "Risk"
+      ],
+      "summary": "Accelerate your learning in underwriting this summer by contributing to work that informs real risk and pricing decisions. As an RULDP Explore intern, you will support underwriting teams as they evaluate risk, set strategic terms, and protect financial performance",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-07",
+      "deadline": "2026-10-19",
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Risk---Underwriting-Summer-Internship-Program_26009228",
+      "external_id": "26009228",
+      "verified_at": "2026-09-16T17:07:28Z",
       "match_score": 85
     },
     {
@@ -13795,33 +14164,6 @@
       "match_score": 85
     },
     {
-      "id": "target-a3e6f08b052b",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Inventory Analyst Intern - Minneapolis, MN (Starting Summer, 2027)",
-      "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "This is an entry level intern position that starts in Summer 2026. Starting Hourly Rate $29.00 per hour. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-04",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Inventory-Analyst-Intern---Minneapolis--MN--Starting-Summer--2027-_R0000450965",
-      "external_id": "R0000450965",
-      "verified_at": "2026-09-14T22:35:34Z",
-      "match_score": 85
-    },
-    {
       "id": "merck-a9bcfe0cda38",
       "source_key": "merck",
       "fortune_rank": 68,
@@ -14213,6 +14555,37 @@
       "match_score": 85
     },
     {
+      "id": "cigna-group-8868a6a21193",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "Internal Audit (SOX/SOC) Intern",
+      "location": "Franklin, TN",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations",
+        "Risk",
+        "Accounting"
+      ],
+      "summary": "Explore Where Accounting, Technology, and Risk Management Meet Are you a rising junior who enjoys solving problems, asking questions, and finding better ways to work? If you're exploring how an accounting degree can be applied beyond traditional public accounting paths, this…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-04",
+      "deadline": null,
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Franklin-TN/Internal-Audit--SOX-SOC--Intern_26010366",
+      "external_id": "26010366",
+      "verified_at": "2026-09-16T17:07:27Z",
+      "match_score": 85
+    },
+    {
       "id": "c-h-robinson-worldwide-dabfec0982ff",
       "source_key": "c-h-robinson-worldwide",
       "fortune_rank": 277,
@@ -14428,7 +14801,7 @@
       "deadline": "2026-09-25",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Corporate-Communications-Internship_R-120884",
       "external_id": "R-120884",
-      "verified_at": "2026-09-16T11:44:59Z",
+      "verified_at": "2026-09-16T17:06:46Z",
       "match_score": 85
     },
     {
@@ -14653,7 +15026,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Decatur-AL/Operations-QA-Intern--Summer-2027--Decatur--AL_115757",
       "external_id": "115757",
-      "verified_at": "2026-09-16T11:42:41Z",
+      "verified_at": "2026-09-16T17:04:06Z",
       "match_score": 85
     },
     {
@@ -14688,66 +15061,6 @@
       "match_score": 85
     },
     {
-      "id": "constellation-brands-4c603ada6281",
-      "source_key": "constellation-brands",
-      "fortune_rank": 416,
-      "fortune_500": true,
-      "company": "Constellation Brands",
-      "title": "Intern, Technical Accounting",
-      "location": "Rochester, New York",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Technical Account Management",
-        "Accounting / financial analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Job Description Support Technical Accounting & Controls and External Reporting departments on various projects and daily tasks. Responsibilities include a wide range of duties, including analyzing data, preparing financial reports, accounting research, and maintenance of…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-03",
-      "deadline": "2026-10-30",
-      "url": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--Technical-Accounting_R-41137",
-      "external_id": "R-41137",
-      "verified_at": "2026-09-14T22:33:54Z",
-      "match_score": 85
-    },
-    {
-      "id": "constellation-brands-2a4643fce03e",
-      "source_key": "constellation-brands",
-      "fortune_rank": 416,
-      "fortune_500": true,
-      "company": "Constellation Brands",
-      "title": "Intern, Tax",
-      "location": "Rochester, New York",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Job Description This Position is intended to provide assistance with tax compliance matters while gaining general experience and exposure in the Corporate Tax Department. Reconcile data to the financial statements and other general ledger data",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-03",
-      "deadline": "2026-10-30",
-      "url": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Tax--Intern_R-41133",
-      "external_id": "R-41133",
-      "verified_at": "2026-09-14T22:33:54Z",
-      "match_score": 85
-    },
-    {
       "id": "conocophillips-859a8200c186",
       "source_key": "conocophillips",
       "fortune_rank": 75,
@@ -14772,6 +15085,37 @@
       "url": "https://conocophillips.wd1.myworkdayjobs.com/External/job/Kuparuk-AK/North-Slope-Operator-Apprentice_REQ-006540",
       "external_id": "REQ-006540",
       "verified_at": "2026-09-15T13:39:13Z",
+      "match_score": 85
+    },
+    {
+      "id": "cigna-group-31ce7fdfadbd",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "Artificial Intelligence Innovation Development Program (AIIDP) Summer Internship",
+      "location": "NC, Raleigh, 701 Corporate Center Dr STE 200",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "AI / ML",
+        "Product",
+        "Risk"
+      ],
+      "summary": "At The Cigna Group, data, analytics, and artificial intelligence help drive decisions that improve health outcomes, make care more affordable, and create a healthcare system that works better for everyone. The AI Innovation Development Program (AIIDP) Summer Internship provides…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-03",
+      "deadline": null,
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/NC-Raleigh-701-Corporate-Center-Dr-STE-200/Ai-Innovation-Development-Program--AIIDP--Summer-internship_26010712",
+      "external_id": "26010712",
+      "verified_at": "2026-09-16T17:07:29Z",
       "match_score": 85
     },
     {
@@ -14860,66 +15204,6 @@
       "url": "https://xylem.wd5.myworkdayjobs.com/xylem-careers/job/Pittsburgh-Pennsylvania/Internal-Communications-Intern_R50468",
       "external_id": "R50468",
       "verified_at": "2026-09-15T07:50:09Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-1a6296980c29",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) – San Diego North County, CA (Starting Summer 2027)",
-      "location": "2255 S El Camino Real, Oceanside,CA 92054-6318",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $28.50- $28.50. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-02",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/2255-S-El-Camino-Real-OceansideCA-92054-6318/Store-Executive-Intern--Store-Leadership-Intern----San-Diego-North-County--CA--Starting-Summer-2027-_R0000450297",
-      "external_id": "R0000450297",
-      "verified_at": "2026-09-14T22:35:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-7981f0e34887",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Operations Manager Intern (Starting Summer 2027) IR3 Distribution Center, Upper Marlboro, MD",
-      "location": "16070 Leeland Rd, Upper Marlboro,MD 20774-8528",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk",
-        "Accounting"
-      ],
-      "summary": "The pay range per hour is $28.25-$29.25. You may also earn additional compensation in the form of a shift differential, ranging from $2.00 to $3.50 per hour, based on eligibility. Pay is based on several factors which vary based on position",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-02",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/16070-Leeland-Rd-Upper-MarlboroMD-20774-8528/Operations-Manager-Intern--Starting-Summer-2027--IR3-Distribution-Center--Upper-Marlboro--MD_R0000450155",
-      "external_id": "R0000450155",
-      "verified_at": "2026-09-14T22:35:23Z",
       "match_score": 85
     },
     {
@@ -15391,354 +15675,6 @@
       "match_score": 85
     },
     {
-      "id": "target-7cdb82780d58",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - W Dallas, TX (Starting Summer 2027)",
-      "location": "2755 W University Dr. Ste 1101, Denton,TX 76201-1618",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $25.75- $26.75. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/2755-W-University-Dr-Ste-1101-DentonTX-76201-1618/Store-Executive-Intern--Store-Leadership-Intern----W-Dallas--TX--Starting-Summer-2027-_R0000448516",
-      "external_id": "R0000448516",
-      "verified_at": "2026-09-14T22:35:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-cd107c791cd1",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Tampa + St. Pete + Sarasota, FL (Starting Summer 2027) ​ ​",
-      "location": "1544 N Dale Mabry Hwy, Tampa,FL 33607-2551",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $24.50- $25.50. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1544-N-Dale-Mabry-Hwy-TampaFL-33607-2551/Store-Executive-Intern--Store-Leadership-Intern----Tampa---St-Pete---Sarasota--FL--Starting-Summer-2027------_R0000448578",
-      "external_id": "R0000448578",
-      "verified_at": "2026-09-14T22:35:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-58b1b5773d2b",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - South FL (Miami to West Palm)- Starting Summer 2027)​",
-      "location": "249 NW 6th St, Ste 120, Miami,FL 33136-4248",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $25.50- $25.75. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/249-NW-6th-St-Ste-120-MiamiFL-33136-4248/Store-Executive-Intern--Store-Leadership-Intern----South-FL--Miami-to-West-Palm---Starting-Summer-2027--_R0000448573",
-      "external_id": "R0000448573",
-      "verified_at": "2026-09-14T22:35:26Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-3ad10035b93e",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - San Antonio, TX (Starting Summer 2027) ​ ​",
-      "location": "746 NW Loop 410, San Antonio, TX 78216-5609",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $24.00- $25.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/746-NW-Loop-410-San-Antonio-TX-78216-5609/Store-Executive-Intern--Store-Leadership-Intern-----San-Antonio--TX--Starting-Summer-2027------_R0000449303",
-      "external_id": "R0000449303",
-      "verified_at": "2026-09-14T22:35:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-ad364e892189",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Raleigh, NC (Starting Summer 2027)",
-      "location": "2021 Walnut St, Cary,NC 27518-9205",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $25.00- $26.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/2021-Walnut-St-CaryNC-27518-9205/Store-Executive-Intern--Store-Leadership-Intern----Raleigh--NC--Starting-Summer-2027-_R0000449293",
-      "external_id": "R0000449293",
-      "verified_at": "2026-09-14T22:35:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-651e90c54360",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Orlando, FL (Starting Summer 2027)",
-      "location": "325 N Alafaya Trl, Orlando,FL 32828-7012",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $24.50- $25.50. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/325-N-Alafaya-Trl-OrlandoFL-32828-7012/Store-Executive-Intern--Store-Leadership-Intern----Orlando--FL--Starting-Summer-2027-_R0000448580",
-      "external_id": "R0000448580",
-      "verified_at": "2026-09-14T22:35:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-352d67012e42",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - NE Dallas, TX (Starting Summer 2027)",
-      "location": "3440 W FM 544, Wylie,TX 75098-9408",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $25.50- $26.50. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/3440-W-FM-544-WylieTX-75098-9408/Store-Executive-Intern--Store-Leadership-Intern----NE-Dallas--TX--Starting-Summer-2027-_R0000448513",
-      "external_id": "R0000448513",
-      "verified_at": "2026-09-14T22:35:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-b45387342e99",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Houston, TX (Starting Summer 2027)",
-      "location": "2580 Shearn St, Houston,TX 77007-3967",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $25.25- $25.75. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/2580-Shearn-St-HoustonTX-77007-3967/Store-Executive-Intern--Store-Leadership-Intern----Houston--TX--Starting-Summer-2027-_R0000449299",
-      "external_id": "R0000449299",
-      "verified_at": "2026-09-14T22:35:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-e934021596e7",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Fort Worth, TX (Starting Summer 2027)",
-      "location": "301 Carroll St, Fort Worth,TX 76107-1956",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $25.75- $26.75. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/301-Carroll-St-Fort-WorthTX-76107-1956/Store-Executive-Intern--Store-Leadership-Intern----Fort-Worth--TX--Starting-Summer-2027-_R0000448526",
-      "external_id": "R0000448526",
-      "verified_at": "2026-09-14T22:35:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-0d54b3941c6f",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Charlotte, NC (Starting Summer 2027) ​",
-      "location": "900 Metropolitan Ave, Ste 2Charlotte, NC 28204-3262",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $24.75- $25.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/900-Metropolitan-Ave-Ste-2Charlotte-NC-28204-3262/Store-Executive-Intern--Store-Leadership-Intern----Charlotte--NC--Starting-Summer-2027---_R0000448581",
-      "external_id": "R0000448581",
-      "verified_at": "2026-09-14T22:35:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-3fa725695890",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Charleston, SC + Savannah, GA (Starting Summer 2027) ​",
-      "location": "450 Azalea Square Blvd, Summerville,SC 29483-7321",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $24.00- $25.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/450-Azalea-Square-Blvd-SummervilleSC-29483-7321/Store-Executive-Intern--Store-Leadership-Intern----Charleston--SC---Savannah--GA--Starting-Summer-2027---_R0000448584",
-      "external_id": "R0000448584",
-      "verified_at": "2026-09-14T22:35:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-4f90a18a91dd",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Central Dallas, TX (Starting Summer 2027)",
-      "location": "6419 Skillman St, Dallas,TX 75231-7109",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $25.50- $26.50. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/6419-Skillman-St-DallasTX-75231-7109/Store-Executive-Intern--Store-Leadership-Intern----Central-Dallas--TX--Starting-Summer-2027-_R0000448531",
-      "external_id": "R0000448531",
-      "verified_at": "2026-09-14T22:35:25Z",
-      "match_score": 85
-    },
-    {
       "id": "rockwell-automation-c0ad26e34685",
       "source_key": "rockwell-automation",
       "fortune_rank": 467,
@@ -16139,6 +16075,124 @@
       "match_score": 85
     },
     {
+      "id": "elevance-health-38bf1bac479c",
+      "source_key": "elevance-health",
+      "fortune_rank": 18,
+      "fortune_500": true,
+      "company": "Elevance Health",
+      "title": "Tax Intern - Summer 2027",
+      "location": "IN-INDIANAPOLIS, 220 VIRGINIA AVE",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Anticipated End Date: 2026-11-07 Position Title: Tax Intern - Summer 2027 Job Description: Tax Intern – Summer 2027 Location: Indianapolis, IN This role requires associates to be in-office 1 - 2 days per week, fostering collaboration and connectivity, while providing…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": "2026-11-07",
+      "url": "https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Tax-Intern---Summer-2027_JR202207",
+      "external_id": "JR202207",
+      "verified_at": "2026-09-16T17:06:43Z",
+      "match_score": 85
+    },
+    {
+      "id": "elevance-health-902f898410b2",
+      "source_key": "elevance-health",
+      "fortune_rank": 18,
+      "fortune_500": true,
+      "company": "Elevance Health",
+      "title": "Information Security Co-Op Internship – 2027",
+      "location": "IN-INDIANAPOLIS, 220 VIRGINIA AVE",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "IT analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Anticipated End Date: 2026-11-07 Position Title: Information Security Co-Op Internship – 2027 Job Description: Information Security Co-Op Internship – 2027 Location: Indianapolis, IN; Atlanta, GA This role requires associates to be in-office 1 - 2 days per week, fostering…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": "2026-11-07",
+      "url": "https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Information-Security-Co-Op-Internship---2027_JR205939",
+      "external_id": "JR205939",
+      "verified_at": "2026-09-16T17:06:42Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-b93f53ab08ae",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Tax Treasury Accounting Intern",
+      "location": "Nuevo León",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Accounting / financial analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Finance",
+        "Treasury",
+        "Accounting"
+      ],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Tax-Treasury-Accounting-Intern_JR104117",
+      "external_id": "JR104117",
+      "verified_at": "2026-09-16T17:05:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-60ac7bf1ca67",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Controlling Intern",
+      "location": "Nuevo León",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Accounting"
+      ],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Controlling-Intern_JR104029",
+      "external_id": "JR104029",
+      "verified_at": "2026-09-16T17:05:45Z",
+      "match_score": 85
+    },
+    {
       "id": "biogen-3ed28a312445",
       "source_key": "biogen",
       "fortune_rank": 421,
@@ -16221,6 +16275,33 @@
       "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Business-Quality-Analyst-Internship---Summer-2027_R_14407",
       "external_id": "R_14407",
       "verified_at": "2026-09-15T13:37:36Z",
+      "match_score": 85
+    },
+    {
+      "id": "assurant-b5f6e92e9af8",
+      "source_key": "assurant",
+      "fortune_rank": 345,
+      "fortune_500": true,
+      "company": "Assurant",
+      "title": "Data Modeling Intern",
+      "location": "Buenos Aires (Butty)",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML"
+      ],
+      "summary": "N/A Helping People Thrive in a Connected World Connect with us. Bring us your best work and your brightest ideas. And we’ll bring you a place where you can thrive. What’s the culture like at Assurant? Our unique culture is a big reason why talented people choose Assurant",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": null,
+      "url": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Buenos-Aires-Butty/Data-Modeling-Intern_R-114397-1",
+      "external_id": "R-114397",
+      "verified_at": "2026-09-16T17:04:32Z",
       "match_score": 85
     },
     {
@@ -16336,65 +16417,6 @@
       "url": "https://aig.wd1.myworkdayjobs.com/early_careers/job/NJ-Jersey-City/XMLNAME-2027-Early-Careers--Summer-Intern--Claims---Juris-Doctor---United-States--Jersey-City---New-York-City_JR2603636",
       "external_id": "JR2603636",
       "verified_at": "2026-09-15T18:16:40Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-090d4116541a",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - St. Cloud, MN (Starting Summer 2027) ​ ​",
-      "location": "4201 W Division St, Saint Cloud,MN 56301-6601",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Cloud",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $27.25- $28.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-31",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/4201-W-Division-St-Saint-CloudMN-56301-6601/Store-Executive-Intern--Store-Leadership-Intern----St-Cloud--MN--Starting-Summer-2027------_R0000449255",
-      "external_id": "R0000449255",
-      "verified_at": "2026-09-14T22:35:26Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-acfc7289e2dd",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Duluth, MN (Starting Summer 2027) ​ ​",
-      "location": "1902 Miller Trunk Hwy, Duluth,MN 55811-1810",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $27.25- $28.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-31",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1902-Miller-Trunk-Hwy-DuluthMN-55811-1810/Store-Executive-Intern--Store-Leadership-Intern----Duluth--MN--Starting-Summer-2027------_R0000449254",
-      "external_id": "R0000449254",
-      "verified_at": "2026-09-14T22:35:26Z",
       "match_score": 85
     },
     {
@@ -17018,383 +17040,6 @@
       "match_score": 85
     },
     {
-      "id": "target-4be2acaa97c8",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Stores Executive Internship (Store Leadership Intern) - Omaha, NE (Starting Summer 2027)",
-      "location": "7200 Dodge St, Omaha,NE 68114-3673",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $21.25- $33.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-28",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/7200-Dodge-St-OmahaNE-68114-3673/Stores-Executive-Internship--Store-Leadership-Intern----Omaha--NE--Starting-Summer-2027-_R0000448954",
-      "external_id": "R0000448954",
-      "verified_at": "2026-09-14T22:35:28Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-cf017de6b175",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Stores Executive Internship (Store Leadership Intern) - Grand Forks, ND (Starting Summer 2027)",
-      "location": "3601 32nd Ave S, Grand Forks,ND 58201-5911",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $21.25- $33.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-28",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/3601-32nd-Ave-S-Grand-ForksND-58201-5911/Stores-Executive-Internship--Store-Leadership-Intern----Grand-Forks--ND--Starting-Summer-2027-_R0000448959",
-      "external_id": "R0000448959",
-      "verified_at": "2026-09-14T22:35:28Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-9ff583f45072",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) Des Moines, IA (Starting Summer 2027) ​",
-      "location": "5901 Douglas Ave, Des Moines,IA 50322-3303",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $24.00- $28.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-28",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/5901-Douglas-Ave-Des-MoinesIA-50322-3303/Store-Executive-Intern--Store-Leadership-Intern--Des-Moines--IA--Starting-Summer-2027---_R0000449088",
-      "external_id": "R0000449088",
-      "verified_at": "2026-09-14T22:35:27Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-a0df10096a90",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Schaumburg, IL (Starting Summer 2027) ​",
-      "location": "2621 W Schaumburg Rd, Schaumburg,IL 60194-3894",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $28.00- $29.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-28",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/2621-W-Schaumburg-Rd-SchaumburgIL-60194-3894/Store-Executive-Intern--Store-Leadership-Intern----Schaumburg--IL--Starting-Summer-2027---_R0000449085",
-      "external_id": "R0000449085",
-      "verified_at": "2026-09-14T22:35:26Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-99c9754a0907",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Norridge, IL (Starting Summer 2027) ​",
-      "location": "4050 N Harlem Ave, Norridge,IL 60706-1202",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $28.00- $28.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-28",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/4050-N-Harlem-Ave-NorridgeIL-60706-1202/Store-Executive-Intern--Store-Leadership-Intern----Norridge--IL--Starting-Summer-2027---_R0000449086",
-      "external_id": "R0000449086",
-      "verified_at": "2026-09-14T22:35:26Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-ea291a73c39c",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Milwaukee, WI (Starting Summer 2027) ​ ​",
-      "location": "2950 S Chase Ave, Milwaukee,WI 53207-6407",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $24.00- $28.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-28",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/2950-S-Chase-Ave-MilwaukeeWI-53207-6407/Store-Executive-Intern--Store-Leadership-Intern----Milwaukee--WI--Starting-Summer-2027------_R0000449239",
-      "external_id": "R0000449239",
-      "verified_at": "2026-09-14T22:35:27Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-3c25c9f05fa0",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Melrose Park, IL (Starting Summer 2027) ​",
-      "location": "850 W North Ave, Melrose Park,IL 60160-1611",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $28.00- $29.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-28",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/850-W-North-Ave-Melrose-ParkIL-60160-1611/Store-Executive-Intern--Store-Leadership-Intern----Melrose-Park--IL--Starting-Summer-2027---_R0000449083",
-      "external_id": "R0000449083",
-      "verified_at": "2026-09-14T22:35:28Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-47490f46a1f6",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Madison, WI (Starting Summer 2027) ​ ​",
-      "location": "201 Junction Rd, Madison,WI 53717-2615",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $24.00- $28.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-28",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/201-Junction-Rd-MadisonWI-53717-2615/Store-Executive-Intern--Store-Leadership-Intern----Madison--WI--Starting-Summer-2027------_R0000449243",
-      "external_id": "R0000449243",
-      "verified_at": "2026-09-14T22:35:27Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-bddda20ff01b",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Greater Salt Lake City, UT (Starting Summer 2027) ​",
-      "location": "1110 S 300 W, Salt Lake City, UT 84101-3053",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $21.25- $33.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-28",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1110-S-300-W-Salt-Lake-City-UT-84101-3053/Store-Executive-Intern--Store-Leadership-Intern----Greater-Salt-Lake-City--UT--Starting-Summer-2027---_R0000448965",
-      "external_id": "R0000448965",
-      "verified_at": "2026-09-14T22:35:28Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-8c9b244ef1b8",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Greater Minneapolis, MN (Starting Summer 2027) ​ ​",
-      "location": "900 Nicollet Mall, Minneapolis,MN 55403-2530",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $27.25- $28.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-28",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/900-Nicollet-Mall-MinneapolisMN-55403-2530/Store-Executive-Intern--Store-Leadership-Intern----Greater-Minneapolis--MN--Starting-Summer-2027------_R0000449251",
-      "external_id": "R0000449251",
-      "verified_at": "2026-09-14T22:35:26Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-8c36c3960b9d",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Cedar Rapids, IA (Starting Summer 2027) ​ ​",
-      "location": "3400 Edgewood Rd SW, Cedar Rapids,IA 52404-7214",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $24.00- $28.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-28",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/3400-Edgewood-Rd-SW-Cedar-RapidsIA-52404-7214/Store-Executive-Intern--Store-Leadership-Intern----Cedar-Rapids--IA--Starting-Summer-2027------_R0000449242",
-      "external_id": "R0000449242",
-      "verified_at": "2026-09-14T22:35:27Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-e4b63e047d88",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Arlington Heights, IL (Starting Summer 2027) ​",
-      "location": "1700 E Rand Rd, Arlington Heights,IL 60004-4379",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $21.25- $33.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-28",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1700-E-Rand-Rd-Arlington-HeightsIL-60004-4379/Store-Executive-Intern--Store-Leadership-Intern----Arlington-Heights--IL--Starting-Summer-2027---_R0000448963",
-      "external_id": "R0000448963",
-      "verified_at": "2026-09-14T22:35:26Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-f001af95b2bd",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Algonquin, IL (Starting Summer 2027) ​ ​",
-      "location": "750 S Randall Rd, Algonquin,IL 60102-5915",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $24.00- $28.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-28",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/750-S-Randall-Rd-AlgonquinIL-60102-5915/Store-Executive-Intern--Store-Leadership-Intern----Algonquin--Starting-Summer-2027------_R0000449248",
-      "external_id": "R0000449248",
-      "verified_at": "2026-09-14T22:35:27Z",
-      "match_score": 85
-    },
-    {
       "id": "j-m-smucker-a612a0474adf",
       "source_key": "smucker",
       "fortune_rank": 456,
@@ -17419,34 +17064,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
       "external_id": "115735",
-      "verified_at": "2026-09-16T11:42:42Z",
-      "match_score": 85
-    },
-    {
-      "id": "live-nation-entertainment-299ec9ef3ef0",
-      "source_key": "live-nation-entertainment",
-      "fortune_rank": 180,
-      "fortune_500": true,
-      "company": "Live Nation Entertainment",
-      "title": "Emo Nite - Production Intern",
-      "location": "Calabasas, CA, USA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Do you have a deep-rooted love for emo, pop-punk, and alternative music? Are you a creative thinker with a passion for fostering community and delivering unforgettable experiences? If so, you might be just the person we're looking for!",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-27",
-      "deadline": null,
-      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Calabasas-CA-USA/Emo-Nite---Production-Intern_JR-92849-2",
-      "external_id": "JR-92849",
-      "verified_at": "2026-09-14T22:33:11Z",
+      "verified_at": "2026-09-16T17:04:06Z",
       "match_score": 85
     },
     {
@@ -17475,7 +17093,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
       "external_id": "115736",
-      "verified_at": "2026-09-16T11:42:42Z",
+      "verified_at": "2026-09-16T17:04:06Z",
       "match_score": 85
     },
     {
@@ -17709,7 +17327,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Quality-Assurance-Intern---Oxnard--CA_115727",
       "external_id": "115727",
-      "verified_at": "2026-09-16T11:42:42Z",
+      "verified_at": "2026-09-16T17:04:06Z",
       "match_score": 85
     },
     {
@@ -17734,7 +17352,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
       "external_id": "115725",
-      "verified_at": "2026-09-16T11:42:42Z",
+      "verified_at": "2026-09-16T17:04:06Z",
       "match_score": 85
     },
     {
@@ -17853,68 +17471,6 @@
       "match_score": 85
     },
     {
-      "id": "target-d59d18f81f03",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Operation Manager Intern (Starting Summer 2027) Regional Distribution Center - Pueblo, CO",
-      "location": "34800 United Ave, Pueblo,CO 81001-4882",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk",
-        "Accounting"
-      ],
-      "summary": "Starting hourly rate $24.75 per hour. You may also earn additional compensation in the form of a shift differential, ranging from $2.00 to $3.50 per hour, based on eligibility. Pay is based on several factors which vary based on position",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-25",
-      "deadline": "2027-05-31",
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/34800-United-Ave-PuebloCO-81001-4882/Operation-Manager-Intern--Starting-Summer-2027--Regional-Distribution-Center---Pueblo--CO_R0000450392",
-      "external_id": "R0000450392",
-      "verified_at": "2026-09-14T22:35:28Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-81c32befb0fa",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Operation Manager Intern (Starting Summer 2027) Food Distribution Center - Thornton, CO",
-      "location": "15450 Washington St, Thornton,CO 80023-9719",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk",
-        "Accounting"
-      ],
-      "summary": "Starting hourly rate $27.50 per hour. You may also earn additional compensation in the form of a shift differential, ranging from $2.00 to $3.50 per hour, based on eligibility. Pay is based on several factors which vary based on position",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-25",
-      "deadline": "2027-05-31",
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/15450-Washington-St-ThorntonCO-80023-9719/Operation-Manager-Intern--Starting-Summer-2027--Food-Distribution-Center---Thornton--CO_R0000450440-1",
-      "external_id": "R0000450440",
-      "verified_at": "2026-09-14T22:35:28Z",
-      "match_score": 85
-    },
-    {
       "id": "ge-vernova-a247468845b9",
       "source_key": "ge-vernova",
       "fortune_rank": 124,
@@ -17942,96 +17498,240 @@
       "match_score": 85
     },
     {
-      "id": "target-c34fc09bed6d",
-      "source_key": "target",
-      "fortune_rank": 42,
+      "id": "cigna-group-208103cac73e",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
       "fortune_500": true,
-      "company": "Target",
-      "title": "Operation Manager Intern (Starting Summer 2027) Regional Distribution Center - Cedar Falls, IA",
-      "location": "2200 Viking Rd, Cedar Falls,IA 50613-9526",
+      "company": "Cigna Group",
+      "title": "Legal Operations Financial, Data & AI Analytics Intern",
+      "location": "St. Louis, MO",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
-        "Operations analyst",
+        "Data analyst",
         "Asset-based lending"
       ],
       "tags": [
         "Excel",
+        "AI / ML",
         "Operations",
-        "Risk",
+        "Finance",
         "Accounting"
       ],
-      "summary": "Starting hourly rate $22.75 per hour. You may also earn additional compensation in the form of a shift differential, ranging from $2.00 to $3.50 per hour, based on eligibility. Pay is based on several factors which vary based on position",
+      "summary": "Make an Impact Bring your curiosity, analytical mindset, financial acumen, and interest in AI to a Legal Operations team that is modernizing how legal work is measured, managed, and improved. In this internship, you will turn financial, operational, and contracting data into…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
-      "posted_date": "2026-08-24",
+      "posted_date": "2026-08-25",
       "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/2200-Viking-Rd-Cedar-FallsIA-50613-9526/Operation-Manager-Intern--Starting-Summer-2027--Regional-Distribution-Center---Cedar-Falls--IA_R0000450405",
-      "external_id": "R0000450405",
-      "verified_at": "2026-09-14T22:35:28Z",
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/St-Louis-MO/Legal-Operations-Financial--Data---AI-Analytics-Intern_25016386",
+      "external_id": "25016386",
+      "verified_at": "2026-09-16T17:07:27Z",
       "match_score": 85
     },
     {
-      "id": "target-6f5c4f0be30e",
-      "source_key": "target",
-      "fortune_rank": 42,
+      "id": "ameren-16c417418d9a",
+      "source_key": "ameren",
+      "fortune_rank": 466,
       "fortune_500": true,
-      "company": "Target",
-      "title": "Operation Manager Intern (Starting Summer 2027) Food Distribution Center - Denton, TX",
-      "location": "3255 Airport Rd, Denton, TX 76207",
+      "company": "Ameren",
+      "title": "Strategic Sourcing Intern-1",
+      "location": "St. Louis, MO",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
-        "Operations analyst",
+        "Data analyst",
         "Asset-based lending"
       ],
       "tags": [
         "Excel",
-        "Operations",
-        "Risk",
+        "Finance",
         "Accounting"
       ],
-      "summary": "Starting hourly rate $24.50 per hour. You may also earn additional compensation in the form of a shift differential, ranging from $2.00 to $3.50 per hour, based on eligibility. Pay is based on several factors which vary based on position",
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
       "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
       "freshman_friendly": false,
-      "posted_date": "2026-08-24",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/3255-Airport-Rd-Denton-TX-76207/Operation-Manager-Intern--Starting-Summer-2027--Food-Distribution-Center---Denton--TX_R0000450442",
-      "external_id": "R0000450442",
-      "verified_at": "2026-09-14T22:35:30Z",
+      "posted_date": "2026-08-25",
+      "deadline": "2026-12-22",
+      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/Strategic-Sourcing-Intern-1_033838",
+      "external_id": "033838",
+      "verified_at": "2026-09-16T17:05:57Z",
       "match_score": 85
     },
     {
-      "id": "target-573616b9b4f9",
-      "source_key": "target",
-      "fortune_rank": 42,
+      "id": "ameren-16c417418d9a",
+      "source_key": "ameren",
+      "fortune_rank": 466,
       "fortune_500": true,
-      "company": "Target",
-      "title": "Operation Manager Intern (Starting Summer 2027) Flow Distribution Center - Riverside, CA",
-      "location": "13786 County Rd 433, Tyler,TX 75706-4106",
+      "company": "Ameren",
+      "title": "Strategic Sourcing Intern-1",
+      "location": "St. Louis, MO",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
-        "Operations analyst",
+        "Data analyst",
         "Asset-based lending"
       ],
       "tags": [
         "Excel",
-        "Operations",
-        "Risk",
+        "Finance",
         "Accounting"
       ],
-      "summary": "Starting hourly rate $28.00 per hour. You may also earn additional compensation in the form of a shift differential, ranging from $2.00 to $3.50 per hour, based on eligibility. Pay is based on several factors which vary based on position",
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-25",
+      "deadline": "2026-12-22",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Strategic-Sourcing-Intern-1_033838-1",
+      "external_id": "033838",
+      "verified_at": "2026-09-16T17:06:36Z",
+      "match_score": 85
+    },
+    {
+      "id": "dxc-technology-fb7a2ac93a0c",
+      "source_key": "dxc-technology",
+      "fortune_rank": 343,
+      "fortune_500": true,
+      "company": "DXC Technology",
+      "title": "ServiceDesk Intern",
+      "location": "SGP - SINGAPORE",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud",
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "Job Description: DXC Technology (NYSE: DXC) is a leading enterprise technology and innovation partner delivering software, services, and solutions to global enterprises and public sector organizations — helping them harness AI to drive outcomes at a time of exponential change…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-08-24",
       "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/13786-County-Rd-433-TylerTX-75706-4106/Operation-Manager-Intern--Starting-Summer-2027--Flow-Distribution-Center---Riverside--CA_R0000450436",
-      "external_id": "R0000450436",
-      "verified_at": "2026-09-14T22:35:29Z",
+      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/SGP---SINGAPORE/ServiceDesk-Intern_51587333",
+      "external_id": "51587333",
+      "verified_at": "2026-09-16T17:05:04Z",
+      "match_score": 85
+    },
+    {
+      "id": "dxc-technology-0a4c468ba4f2",
+      "source_key": "dxc-technology",
+      "fortune_rank": 343,
+      "fortune_500": true,
+      "company": "DXC Technology",
+      "title": "RR-0393497 Service Desk Intern-19",
+      "location": "SGP - SINGAPORE",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Job Description: Profile: The ideal candidate has previous experience in effectively coping with a fast-paced, high-pressure role in a constantly changing business environment. He/she will be strongly team-focused and have proven communication skills",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-24",
+      "deadline": null,
+      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/SGP---SINGAPORE/RR-0393497-Service-Desk-Intern-19_51583322",
+      "external_id": "51583322",
+      "verified_at": "2026-09-16T17:05:04Z",
+      "match_score": 85
+    },
+    {
+      "id": "cigna-group-a6f5ca1a676a",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "Legal Research Intern",
+      "location": "Bloomfield, CT",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Risk"
+      ],
+      "summary": "Make an Impact Bring your curiosity, legal mindset, and passion for learning to a team that helps navigate the complex legal and regulatory landscape of healthcare. In this internship, you'll apply your legal education to real business challenges, helping to support contracts,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-24",
+      "deadline": null,
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Legal-Research-Intern_26009786",
+      "external_id": "26009786",
+      "verified_at": "2026-09-16T17:07:27Z",
+      "match_score": 85
+    },
+    {
+      "id": "cigna-group-132bc1b60843",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "Healthcare Policy & Regulated Markets Intern",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "Make an Impact Are you curious about how healthcare, regulations, and pharmacy benefits management come together to shape experiences and outcomes for customers? As an intern at Evernorth Health Services, you will work alongside ambitious and compassionate experts who help…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-24",
+      "deadline": null,
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/St-Louis-MO/Healthcare-Policy---Regulated-Markets-Intern_26006403",
+      "external_id": "26006403",
+      "verified_at": "2026-09-16T17:07:27Z",
+      "match_score": 85
+    },
+    {
+      "id": "cigna-group-fcfc6b1d1ebc",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "Cigna Investment Management Internship",
+      "location": "Bloomfield, CT",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "The Cigna Investment Management Internship Start Date May 24, 2027 Location: Bloomfield, CT Work Style: Hybrid (3 days in-office/week) Duration: 11 Weeks Make an Impact This Summer Join a 10‑week internship where you’ll work on real business challenges, learn from leaders…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-24",
+      "deadline": null,
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Cigna-Investment-Management-Internship_26010198",
+      "external_id": "26010198",
+      "verified_at": "2026-09-16T17:07:28Z",
       "match_score": 85
     },
     {
@@ -18141,35 +17841,30 @@
       "match_score": 85
     },
     {
-      "id": "target-b450703ee234",
-      "source_key": "target",
-      "fortune_rank": 42,
+      "id": "cigna-group-9b5982a62400",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
       "fortune_500": true,
-      "company": "Target",
-      "title": "Financial Analyst Intern - Minneapolis, MN (Starting Summer, 2027)",
-      "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
+      "company": "Cigna Group",
+      "title": "Technology Apprentice Program - Hybrid",
+      "location": "St. Louis, MO",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
-        "Accounting / financial analyst",
-        "Business analyst",
-        "FP&A"
+        "Asset-based lending"
       ],
       "tags": [
-        "Excel",
-        "Finance",
-        "FP&A",
-        "Accounting"
+        "Python"
       ],
-      "summary": "This position is an internship that starts in Summer 2027. Starting Hourly Rate $28.00 per hour. The Financial Analyst Development Program (FADP) , is a 3-year initiative thoughtfully designed to lay a strong foundation for a successful career in financial analysis",
+      "summary": "At The Cigna Group, we believe technology is the heartbeat of innovation in healthcare—powering smarter decisions, better outcomes, and more personalized experiences for millions of people. Our Technology Apprentice Program serves as a launchpad for passionate technologists…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "School enrollment is required, but no graduation year is stated.",
       "freshman_friendly": false,
       "posted_date": "2026-08-21",
       "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Financial-Analyst-Intern----Minneapolis--MN--Starting-Summer--2027-_R0000450574",
-      "external_id": "R0000450574",
-      "verified_at": "2026-09-14T22:35:34Z",
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/St-Louis-MO/Technology-Apprentice-Program---Hybrid_26010314",
+      "external_id": "26010314",
+      "verified_at": "2026-09-16T17:07:33Z",
       "match_score": 85
     },
     {
@@ -18341,8 +18036,35 @@
       "deadline": "2026-09-18",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Financial-Co-Op--Part-time-_R-119461-1",
       "external_id": "R-119461",
-      "verified_at": "2026-09-16T11:45:00Z",
+      "verified_at": "2026-09-16T17:06:46Z",
       "match_score": 85
+    },
+    {
+      "id": "occidental-petroleum-2572ab9b905a",
+      "source_key": "occidental-petroleum",
+      "fortune_rank": 173,
+      "fortune_500": true,
+      "company": "Occidental Petroleum",
+      "title": "Reservoir Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Oxy produces , markets and transports oil and natural gas to maximize value and provide resources fundamental to life. The company leverages its global leadership in carbon management to advance lower-carbon technologies and products",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "at www.oxy.com/student s in order to be considered Pursuing a degree in Engineering (Petroleum and graduate degrees are preferred) Maintain minimum cumulative 2.85 GPA on a…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-19",
+      "deadline": null,
+      "url": "https://oxy.wd5.myworkdayjobs.com/UniversityRelations/job/Reservoir-Intern_JR110284",
+      "external_id": "JR110284",
+      "verified_at": "2026-09-16T17:04:43Z",
+      "match_score": 90
     },
     {
       "id": "johnson-johnson-9d2f8efee5b3",
@@ -18565,6 +18287,34 @@
       "url": "https://thrivent.wd5.myworkdayjobs.com/External/job/MN---Minneapolis/Actuarial-Intern---Summer-2027_REQ-47928",
       "external_id": "REQ-47928",
       "verified_at": "2026-09-16T00:26:46Z",
+      "match_score": 90
+    },
+    {
+      "id": "occidental-petroleum-a8380f3f056f",
+      "source_key": "occidental-petroleum",
+      "fortune_rank": 173,
+      "fortune_500": true,
+      "company": "Occidental Petroleum",
+      "title": "Supply Chain Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Oxy produces , markets and transports oil and natural gas to maximize value and provide resources fundamental to life. The company leverages its global leadership in carbon management to advance lower-carbon technologies and products",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "application at https://www.oxy.com/careers/explore-careers/students/ in order to be considered Undergraduate pursuing a bachelor’s degree in Supply Chain Management,…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-18",
+      "deadline": null,
+      "url": "https://oxy.wd5.myworkdayjobs.com/UniversityRelations/job/Supply-Chain-Intern_JR110272",
+      "external_id": "JR110272",
+      "verified_at": "2026-09-16T17:04:44Z",
       "match_score": 90
     },
     {
@@ -19581,64 +19331,6 @@
       "match_score": 85
     },
     {
-      "id": "target-4fa7f3413ef6",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Apprentice - Technology",
-      "location": "Bangalore,India",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "JOIN US AS APPRENTICE - Tech About Target As a Fortune 50 company with more than 400,000 team members worldwide, Target is an iconic brand and one of America's leading retailers. At Target, we have a timeless purpose and a proven strategy and that hasn’t happened by accident",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/BangaloreIndia/Apprentice---Technology_R0000348368",
-      "external_id": "R0000348368",
-      "verified_at": "2026-09-14T22:35:48Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-d16db347559e",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Apprentice - Retail Ops",
-      "location": "Bangalore,India",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "About Target As a Fortune 50 company with more than 400,000 team members worldwide, Target is an iconic brand and one of America's leading retailers. At Target, we have a timeless purpose and a proven strategy and that hasn’t happened by accident",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/BangaloreIndia/Apprentice---Retail-Ops_R0000348370",
-      "external_id": "R0000348370",
-      "verified_at": "2026-09-14T22:35:48Z",
-      "match_score": 85
-    },
-    {
       "id": "somnigroup-international-08dd22ac2137",
       "source_key": "somnigroup-international",
       "fortune_rank": 35,
@@ -19660,7 +19352,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-09-16T11:43:05Z",
+      "verified_at": "2026-09-16T17:04:41Z",
       "match_score": 85
     },
     {
@@ -19882,6 +19574,33 @@
       "match_score": 85
     },
     {
+      "id": "occidental-petroleum-c7734406938b",
+      "source_key": "occidental-petroleum",
+      "fortune_rank": 173,
+      "fortune_500": true,
+      "company": "Occidental Petroleum",
+      "title": "Engineering Intern (Oil & Gas Business)",
+      "location": "Midland, Texas",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Oxy produces , markets and transports oil and natural gas to maximize value and provide resources fundamental to life. The company leverages its global leadership in carbon management to advance lower-carbon technologies and products",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ed Pursuing a degree in Engineering Maintain minimum cumulative 2.85 GPA on a 4.0 scale Must have a graduation date of December 2027 – May 2029 Desire to pursue career in…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://oxy.wd5.myworkdayjobs.com/UniversityRelations/job/Midland-Texas/Engineering-Intern--Oil---Gas-Business-_JR110204",
+      "external_id": "JR110204",
+      "verified_at": "2026-09-16T17:04:44Z",
+      "match_score": 90
+    },
+    {
       "id": "merck-e8f55f8eac21",
       "source_key": "merck",
       "fortune_rank": 68,
@@ -19935,58 +19654,6 @@
       "url": "https://mastercard.wd1.myworkdayjobs.com/Campus/job/San-Jose-Costa-Rica/Internship-Program--Americas--2027---San-Jose--Costa-Rica_R-287270",
       "external_id": "R-287270",
       "verified_at": "2026-09-16T06:09:13Z",
-      "match_score": 85
-    },
-    {
-      "id": "live-nation-entertainment-5f48dd360589",
-      "source_key": "live-nation-entertainment",
-      "fortune_rank": 180,
-      "fortune_500": true,
-      "company": "Live Nation Entertainment",
-      "title": "Insomniac - Paid Fall Street Marketing Internship",
-      "location": "Calabasas, CA, USA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Driven, with an entrepreneurial spirit. Resourceful, innovative, forward thinking and committed. At Insomniac, our people embrace these qualities, so if this sounds like you then please read on! Insomniac produces some of the most innovative, immersive music festivals and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Calabasas-CA-USA/Insomniac---Paid-Fall-Street-Marketing-Internship_JR-92052-1",
-      "external_id": "JR-92052",
-      "verified_at": "2026-09-14T22:33:11Z",
-      "match_score": 85
-    },
-    {
-      "id": "live-nation-entertainment-91b784ac5df1",
-      "source_key": "live-nation-entertainment",
-      "fortune_rank": 180,
-      "fortune_500": true,
-      "company": "Live Nation Entertainment",
-      "title": "Digital Intern",
-      "location": "Etobicoke, ON, CA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy"
-      ],
-      "summary": "Live Nation Entertainment is the world’s leading live entertainment company, comprised of global market leaders: Ticketmaster, Live Nation Concerts, and Live Nation Media & Sponsorship. Ticketmaster is the global leader in event ticketing with over 620 million tickets sold…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Etobicoke-ON-CA/Digital-Intern_JR-90055",
-      "external_id": "JR-90055",
-      "verified_at": "2026-09-14T22:33:11Z",
       "match_score": 85
     },
     {
@@ -20801,6 +20468,222 @@
       "match_score": 85
     },
     {
+      "id": "dxc-technology-3c9c2349d6f3",
+      "source_key": "dxc-technology",
+      "fortune_rank": 343,
+      "fortune_500": true,
+      "company": "DXC Technology",
+      "title": "JAVA intern",
+      "location": "TWN - TPE - TAIPEI",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "SQL"
+      ],
+      "summary": "進行 Java Web 應用程式開發，並應用 Struts Framework 建立穩定與高效能之系統功能。 3. 撰寫與優化 SQL Script，協助資料查詢、批次處理與效能調校。 4. 開發與維護 Shell Script，自動化批次作業流程與系統操作。 5. 撰寫技術文件，並提供後續維運支援。 熟悉 Java Programming，具備物件導向設計與程式開發能力。 熟悉 SQL 語法，能獨立撰寫、調校複雜查詢與 Stored Procedure。 At DXC Technology, we believe strong…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/TWN---TPE---TAIPEI/JAVA-intern_51586641",
+      "external_id": "51586641",
+      "verified_at": "2026-09-16T17:05:04Z",
+      "match_score": 85
+    },
+    {
+      "id": "dxc-technology-ed9b246e3f87",
+      "source_key": "dxc-technology",
+      "fortune_rank": 343,
+      "fortune_500": true,
+      "company": "DXC Technology",
+      "title": "IT Intern",
+      "location": "MYS - PETALING JAYA",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "IT analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Power BI",
+        "AI / ML"
+      ],
+      "summary": "Job Description: Job Description for IT Intern DXC Technology is a Fortune 500 global IT services leader. Our more than 130,000 people in 70- plus countries are entrusted by our customers to deliver what matters most. We use the power of technology to deliver mission-critical…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/IT-Intern_51580573",
+      "external_id": "51580573",
+      "verified_at": "2026-09-16T17:05:04Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-c7ee7eaa5c92",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Talent Intern",
+      "location": "Nuevo León",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Talent-Intern_JR103258-1",
+      "external_id": "JR103258",
+      "verified_at": "2026-09-16T17:05:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-be0c31721ba1",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Production Line Operator Intern",
+      "location": "Nuevo León",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Production-Line-Operator-Intern_JR101884",
+      "external_id": "JR101884",
+      "verified_at": "2026-09-16T17:05:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-da501655176b",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Plant Administration Intern",
+      "location": "Meoqui",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Meoqui/Plant-Administration-Intern_JR103865",
+      "external_id": "JR103865",
+      "verified_at": "2026-09-16T17:05:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-756154fbc9f5",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Plant Administration Intern",
+      "location": "Meoqui",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Meoqui/Plant-Administration-Intern_JR103867",
+      "external_id": "JR103867",
+      "verified_at": "2026-09-16T17:05:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-953c10bbda88",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Finance Procurement Intern",
+      "location": "Nuevo León",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Power BI",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Finance-Procurement-Intern_JR103801",
+      "external_id": "JR103801",
+      "verified_at": "2026-09-16T17:05:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-f8ccb9e8b595",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Commercial Intern",
+      "location": "Nuevo León",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Commercial-Intern_JR102918",
+      "external_id": "JR102918",
+      "verified_at": "2026-09-16T17:05:45Z",
+      "match_score": 85
+    },
+    {
       "id": "conocophillips-acbc7a4dfdee",
       "source_key": "conocophillips",
       "fortune_rank": 75,
@@ -20973,175 +20856,36 @@
       "match_score": 85
     },
     {
-      "id": "campbell-s-d8a7e916c5bf",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
+      "id": "cigna-group-70c08bf2fc27",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
       "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Data Science Intern",
-      "location": "USA - NJ - Camden",
+      "company": "Cigna Group",
+      "title": "Actuarial Internship - Summer 2027",
+      "location": "Bloomfield, CT",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
-        "Data analyst"
-      ],
-      "tags": [],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Science-Intern_Req-65845",
-      "external_id": "Req-65845",
-      "verified_at": "2026-09-14T22:33:46Z",
-      "match_score": 85
-    },
-    {
-      "id": "campbell-s-85c9705dabae",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Data Science Intern",
-      "location": "USA - NJ - Camden",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst"
-      ],
-      "tags": [],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Science-Intern_Req-65844",
-      "external_id": "Req-65844",
-      "verified_at": "2026-09-14T22:33:46Z",
-      "match_score": 85
-    },
-    {
-      "id": "campbell-s-d1380e83e80c",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Data Engineer – Agentic AI & ML Ops (Co-op)",
-      "location": "USA - NJ - Camden",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "FP&A"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Power BI",
-        "Cloud",
-        "AI / ML"
-      ],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Engineer---Agentic-AI---ML-Ops--Co-op-_Req-65843",
-      "external_id": "Req-65843",
-      "verified_at": "2026-09-14T22:33:46Z",
-      "match_score": 85
-    },
-    {
-      "id": "campbell-s-0f89dac90b5d",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Data Engineer - Operational Support (Co-op)",
-      "location": "USA - NJ - Camden",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
+        "FP&A",
+        "Data analyst",
         "Asset-based lending"
       ],
       "tags": [
         "Python",
         "SQL",
-        "Power BI",
-        "Cloud",
-        "AI / ML"
-      ],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Engineer---Operational-Support--Co-op-_Req-65842",
-      "external_id": "Req-65842",
-      "verified_at": "2026-09-14T22:33:46Z",
-      "match_score": 85
-    },
-    {
-      "id": "campbell-s-44a7c5bf7ee6",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Agentic AI Engineer Co-Op",
-      "location": "USA - Remote",
-      "region": "Remote",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "Cloud",
+        "Excel",
         "AI / ML",
-        "Product"
+        "Finance"
       ],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
+      "summary": "Spend your summer learning the skills to grow as a modern actuary and leader. The Cigna Group’s Actuarial Executive Development Program (AEDP) offers a premier 11-week internship that prepares future actuaries to apply data with sound judgment, connect analysis directly to real…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-01-30",
       "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---Remote/Agentic-AI-Engineer-Co-Op_Req-66015",
-      "external_id": "Req-66015",
-      "verified_at": "2026-09-14T22:33:45Z",
-      "match_score": 85
-    },
-    {
-      "id": "campbell-s-09b63e50056d",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Agentic AI Engineer Co-Op",
-      "location": "USA - Remote",
-      "region": "Remote",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "Cloud",
-        "AI / ML",
-        "Product"
-      ],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---Remote/Agentic-AI-Engineer-Co-Op_Req-66014",
-      "external_id": "Req-66014",
-      "verified_at": "2026-09-14T22:33:46Z",
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Actuarial-Internship---Summer-2027_26006087",
+      "external_id": "26006087",
+      "verified_at": "2026-09-16T17:07:28Z",
       "match_score": 85
     },
     {
@@ -21528,6 +21272,168 @@
       "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Madrid-Spain/External-Affairs-Intern_REQ23710",
       "external_id": "REQ23710",
       "verified_at": "2026-09-15T01:32:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-24504618a196",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "Supply Chain Internship",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-21",
+      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/Supply-Chain-Internship_033958-2",
+      "external_id": "033958",
+      "verified_at": "2026-09-16T17:05:58Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-24504618a196",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "Supply Chain Internship",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-21",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Supply-Chain-Internship_033958",
+      "external_id": "033958",
+      "verified_at": "2026-09-16T17:06:38Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-744210ecb41b",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "GIS Co-op (Real Estate)",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-24",
+      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/GIS-Co-op--Real-Estate-_033670",
+      "external_id": "033670",
+      "verified_at": "2026-09-16T17:05:59Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-744210ecb41b",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "GIS Co-op (Real Estate)",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-24",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/GIS-Co-op--Real-Estate-_033670-1",
+      "external_id": "033670",
+      "verified_at": "2026-09-16T17:06:39Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-5ed297248032",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "CAD Technician Co-op",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2027-04-05",
+      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/CAD-Technician-Co-op_033920",
+      "external_id": "033920",
+      "verified_at": "2026-09-16T17:05:57Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-5ed297248032",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "CAD Technician Co-op",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2027-04-05",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/CAD-Technician-Co-op_033920-1",
+      "external_id": "033920",
+      "verified_at": "2026-09-16T17:06:37Z",
       "match_score": 85
     },
     {
@@ -21958,39 +21864,6 @@
       "match_score": 85
     },
     {
-      "id": "valero-energy-ac21abc6c4fd",
-      "source_key": "valero-energy",
-      "fortune_rank": 40,
-      "fortune_500": true,
-      "company": "Valero Energy",
-      "title": "Intern Programs",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "SQL",
-        "Excel",
-        "Product",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Turn what you’re learning in the classroom into meaningful, real-world experience at Valero. Contribute to important projects, learn from industry professionals and build skills that can help launch your career. Interns receive competitive pay, professional development,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.valero.com/careers/university-recruiting/intern-programs",
-      "external_id": null,
-      "verified_at": "2026-09-14T22:33:52Z",
-      "match_score": 85
-    },
-    {
       "id": "thrivent-financial-98e2f95ee4a2",
       "source_key": "thrivent-financial",
       "fortune_rank": 387,
@@ -22233,31 +22106,6 @@
       "match_score": 85
     },
     {
-      "id": "target-74cfe5e85296",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Explore Intern & Entry-Level Careers",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Pre-internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Explore career areas and jobs for you Saved jobs Create a job alert Search jobs Saved jobs Create a job alert Home Careers Career Areas Explore Intern & Entry-Level Careers Accelerate your professional growth through one of our internships or entry-level programs and level up…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://corporate.target.com/careers/career-areas/intern-entry-level",
-      "external_id": null,
-      "verified_at": "2026-09-14T22:35:56Z",
-      "match_score": 85
-    },
-    {
       "id": "mutual-of-omaha-f22537d7b148",
       "source_key": "mutual-of-omaha",
       "fortune_rank": 288,
@@ -22339,7 +22187,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-09-16T11:42:07Z",
+      "verified_at": "2026-09-16T17:03:31Z",
       "match_score": 85
     },
     {
@@ -22513,6 +22361,34 @@
       "url": "https://careers.jabil.com/student-apprenticeship-program.html",
       "external_id": null,
       "verified_at": "2026-09-16T06:07:21Z",
+      "match_score": 85
+    },
+    {
+      "id": "huntington-ingalls-industries-70decc5f8728",
+      "source_key": "huntington-ingalls-industries",
+      "fortune_rank": 352,
+      "fortune_500": true,
+      "company": "Huntington Ingalls Industries",
+      "title": "Ingalls Apprentice School",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Credit"
+      ],
+      "summary": "Ingalls Apprentice School Since 1952, the Ingalls Apprentice School has produced more than 4,000 graduates in support of Ingalls Shipbuilding's operational needs About the Program The apprentice school program involves comprehensive three- to four-year curriculum for students…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://hii.com/careers/ingalls-apprentice-school",
+      "external_id": null,
+      "verified_at": "2026-09-16T17:04:53Z",
       "match_score": 85
     },
     {
@@ -23470,6 +23346,62 @@
       "url": "https://www.auto-owners.com/about/career-opportunities/internship",
       "external_id": null,
       "verified_at": "2026-09-15T13:37:40Z",
+      "match_score": 85
+    },
+    {
+      "id": "airbnb-ffbd3d16c91e",
+      "source_key": "airbnb",
+      "fortune_rank": 357,
+      "fortune_500": true,
+      "company": "Airbnb",
+      "title": "Internship Programs",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Interns Featuring a mix of mentorship, fun, and challenge, our internships are designed to accelerate your learning curve as you make a real impact on our product. What to Expect Onboarding experience to get you familiar with Airbnb and your new team, and set you up for success",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://careers.airbnb.com/internship-programs/",
+      "external_id": null,
+      "verified_at": "2026-09-16T17:05:14Z",
+      "match_score": 85
+    },
+    {
+      "id": "airbnb-d1fc1ff6677b",
+      "source_key": "airbnb",
+      "fortune_rank": 357,
+      "fortune_500": true,
+      "company": "Airbnb",
+      "title": "Connect Engineering Apprenticeship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud"
+      ],
+      "summary": "What it’s about The Connect Engineering Apprenticeship Program bridges the opportunity gap for entry-level engineering candidates. Candidates from underrepresented backgrounds and unconventional paths are encouraged to apply. Engineering apprentices gain invaluable exposure to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://careers.airbnb.com/connect-engineering-apprenticeship/",
+      "external_id": null,
+      "verified_at": "2026-09-16T17:05:14Z",
       "match_score": 85
     }
   ]
