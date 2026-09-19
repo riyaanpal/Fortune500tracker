@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T11:10:38Z",
+  "updated_at": "2026-09-19T14:32:33Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,7 +12,7 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-09-19T11:05:23Z",
+  "directory_refreshed_at": "2026-09-19T14:28:03Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 308,
   "companies_failed_last_24h": 7,
@@ -42,19 +42,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs: 404 Client Error: Not Found for url: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs"
-    },
-    {
-      "key": "bank-of-america",
-      "rank": 20,
-      "company": "Bank of America",
-      "fortune_500": true,
-      "checked_at": "2026-09-18T11:27:49Z",
-      "status": "error",
-      "issue_type": "Scan error",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": "https://careers.bankofamerica.com/en-us/students/job-search?ref=search&search=getAllJobs&start=0&rows=10",
-      "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
     },
     {
       "key": "franklin-templeton",
@@ -107,11 +94,24 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": null
+    },
+    {
+      "key": "united-services-automobile-assn",
+      "rank": 93,
+      "company": "United Services Automobile Assn.",
+      "fortune_500": true,
+      "checked_at": "2026-09-19T14:32:33Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
     }
   ],
-  "companies_with_eligible_jobs": 80,
+  "companies_with_eligible_jobs": 83,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 922,
+  "opportunity_count": 904,
   "opportunities": [
     {
       "id": "merck-a9bcfe0cda38",
@@ -817,6 +817,39 @@
       "url": "https://xcelenergy.wd1.myworkdayjobs.com/External/job/Hobbs-NM-88241/Control-Room-Operator-B-Apprentice---Maddox-Station---Hobbs--NM_JR116413-1",
       "external_id": "JR116413",
       "verified_at": "2026-09-18T11:23:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "palo-alto-networks-61c40e737c3e",
+      "source_key": "palo-alto-networks",
+      "fortune_rank": 437,
+      "fortune_500": true,
+      "company": "Palo Alto Networks",
+      "title": "Business Analyst Intern",
+      "location": "Office - Singapore - Singapore",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Business analyst",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Tableau",
+        "Power BI"
+      ],
+      "summary": "Our Mission At Palo Alto Networks®, we’re united by a shared mission—to protect our digital way of life. We thrive at the intersection of innovation and impact, solving real-world problems with cutting-edge technology and bold thinking",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-17",
+      "deadline": null,
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Singapore---Singapore/Business-Analyst-Intern_JR-022281-1",
+      "external_id": "JR-022281",
+      "verified_at": "2026-09-19T14:29:28Z",
       "match_score": 85
     },
     {
@@ -1626,62 +1659,6 @@
       "url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Charlotte-NC-USA/Intern-Diesel-Mechanic--Paid-_101424",
       "external_id": "101424",
       "verified_at": "2026-09-18T05:58:39Z",
-      "match_score": 85
-    },
-    {
-      "id": "travelers-ee8311dc58c5",
-      "source_key": "travelers",
-      "fortune_rank": 96,
-      "fortune_500": true,
-      "company": "Travelers",
-      "title": "Claim Professional Development Program Internship (CPDP Intern)",
-      "location": "NY - Buffalo",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Risk"
-      ],
-      "summary": "Taking care of our customers, our communities and each other. By honoring this commitment, we have maintained our reputation as one of the best property casualty insurers in the industry for over 170 years. Join us to discover a culture that is rooted in innovation and thrives…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-16",
-      "deadline": null,
-      "url": "https://travelers.wd5.myworkdayjobs.com/External/job/NY---Buffalo/Claim-Professional-Development-Program-Internship--CPDP-Intern-_R-52588",
-      "external_id": "R-52588",
-      "verified_at": "2026-09-17T21:28:09Z",
-      "match_score": 85
-    },
-    {
-      "id": "travelers-344b8ccad1f6",
-      "source_key": "travelers",
-      "fortune_rank": 96,
-      "fortune_500": true,
-      "company": "Travelers",
-      "title": "Claim Professional Development Program Internship (CPDP Intern)",
-      "location": "MA - West Bridgewater",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Risk"
-      ],
-      "summary": "Taking care of our customers, our communities and each other. By honoring this commitment, we have maintained our reputation as one of the best property casualty insurers in the industry for over 170 years. Join us to discover a culture that is rooted in innovation and thrives…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-16",
-      "deadline": null,
-      "url": "https://travelers.wd5.myworkdayjobs.com/External/job/MA---West-Bridgewater/Claim-Professional-Development-Program-Internship--CPDP-Intern-_R-52591",
-      "external_id": "R-52591",
-      "verified_at": "2026-09-17T21:28:09Z",
       "match_score": 85
     },
     {
@@ -2695,34 +2672,6 @@
       "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---Massachusetts---Cambridge/Undergrad-Co-op---DSTS---Chemical-Engineering----January---June-2027-_R-255684",
       "external_id": "R-255684",
       "verified_at": "2026-09-18T00:27:17Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-1b36f468b54b",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Sales Admin Operation Executive/ Intern (7-month contract)",
-      "location": "Vietnam - Ho Chi Minh City",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "JOB DESCRIPTION: GIỚI THIỆU VỀ ABBOTT Abbott là công ty chăm sóc sức khỏe toàn cầu, tiên phong trong nghiên cứu khoa học và tạo ra những đột phá trong công nghệ chăm sóc sức khỏe để giúp mọi người sống khỏe mạnh hơn. Chúng tôi luôn hướng tới tương lai, dự đoán và đáp ứng những…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-16",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Vietnam---Ho-Chi-Minh-City/Sales-Admin-Operation-Executive--Intern--7-month-contract-_31162316",
-      "external_id": "31162316",
-      "verified_at": "2026-09-17T21:29:25Z",
       "match_score": 85
     },
     {
@@ -4272,120 +4221,6 @@
       "match_score": 85
     },
     {
-      "id": "abbott-laboratories-139527dc74bf",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "QA Granada Tech Center- Intern - ANS",
-      "location": "Spain - Granada",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Accounting"
-      ],
-      "summary": "JOB DESCRIPTION: Job Purpose The role will provide support to the quality system at the Tech Center (Granada). You'll Learn: Support to Validation area for: Validation documentation: protocols, final reports, Data collection and evaluation, Validation executions… Support to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-15",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Granada/QA-Granada-Tech-Center--Intern---ANS_31157875",
-      "external_id": "31157875",
-      "verified_at": "2026-09-17T21:29:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-bba379bde987",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "2027 Sales Cancer Diagnostics Intern",
-      "location": "United States > Madison : 1 Exact Lane",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Finance"
-      ],
-      "summary": "Abbott is a global healthcare leader that helps people live more fully at all stages of life. Our portfolio of life-changing technologies spans the spectrum of healthcare, with leading businesses and products in diagnostics, medical devices, nutritionals and branded generic…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-15",
-      "deadline": "2026-11-20",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States--Madison--1-Exact-Lane/XMLNAME-2027-Sales-Cancer-Diagnostics-Intern_31161558",
-      "external_id": "31161558",
-      "verified_at": "2026-09-17T21:29:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-4fc90e1c152a",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "2027 Operations Cancer Diagnostics Intern",
-      "location": "United States > Madison : 1 Exact Lane",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Abbott is a global healthcare leader that helps people live more fully at all stages of life. Our portfolio of life-changing technologies spans the spectrum of healthcare, with leading businesses and products in diagnostics, medical devices, nutritionals and branded generic…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-15",
-      "deadline": "2026-11-20",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States--Madison--1-Exact-Lane/XMLNAME-2027-Operations-Cancer-Diagnostics-Intern_31162236",
-      "external_id": "31162236",
-      "verified_at": "2026-09-17T21:29:23Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-9936e55958d5",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "2027 Finance Cancer Diagnostics Intern",
-      "location": "United States > Madison : 1 Exact Lane",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "FP&A"
-      ],
-      "tags": [
-        "Excel",
-        "Power BI",
-        "Finance",
-        "Credit",
-        "Accounting"
-      ],
-      "summary": "Abbott is a global healthcare leader that helps people live more fully at all stages of life. Our portfolio of life-changing technologies spans the spectrum of healthcare, with leading businesses and products in diagnostics, medical devices, nutritionals and branded generic…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-15",
-      "deadline": "2026-11-20",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States--Madison--1-Exact-Lane/XMLNAME-2027-Finance-Cancer-Diagnostics-Intern_31161561",
-      "external_id": "31161561",
-      "verified_at": "2026-09-17T21:29:24Z",
-      "match_score": 85
-    },
-    {
       "id": "xcel-energy-4bcdacd7a603",
       "source_key": "xcel-energy",
       "fortune_rank": 306,
@@ -4780,33 +4615,6 @@
       "match_score": 85
     },
     {
-      "id": "vistra-828bc94324df",
-      "source_key": "vistra",
-      "fortune_rank": 251,
-      "fortune_500": true,
-      "company": "Vistra",
-      "title": "Nuclear Instrument & Control Tech Apprentice-Shift",
-      "location": "Shippingport, Pennsylvania",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "If you have what it takes to become part of the Vistra family and would like to start a promising career with a global leader, take a look at the exciting employment opportunities that are currently available and apply online. Job Summary Job Description DUTIES: Under direct…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-14",
-      "deadline": null,
-      "url": "https://vst.wd5.myworkdayjobs.com/vistra_careers/job/Shippingport-Pennsylvania/Nuclear-Instrument---Control-Tech-Apprentice-Shift_40015781-1",
-      "external_id": "40015781",
-      "verified_at": "2026-09-17T21:27:13Z",
-      "match_score": 85
-    },
-    {
       "id": "primoris-services-e7af3cd47962",
       "source_key": "primoris-services",
       "fortune_rank": 497,
@@ -4835,6 +4643,33 @@
       "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Nationwide/Field-Engineer-Intern_JR102285",
       "external_id": "JR102285",
       "verified_at": "2026-09-18T18:34:24Z",
+      "match_score": 85
+    },
+    {
+      "id": "ovintiv-ed19f7585a1e",
+      "source_key": "ovintiv",
+      "fortune_rank": 447,
+      "fortune_500": true,
+      "company": "Ovintiv",
+      "title": "Intern Air Quality",
+      "location": "Denver, CO, US",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "At Ovintiv, our products fuel the world through safe, affordable, and reliable energy. We are proud of our purpose, and attracting the right people is the key to its success. As an employer, we recognize your potential and professional aspirations, and are committed to your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-09-29",
+      "url": "https://ovintiv.wd3.myworkdayjobs.com/ovintivcareers/job/Denver-CO-US/Intern-Air-Quality_R2592",
+      "external_id": "R2592",
+      "verified_at": "2026-09-19T14:29:12Z",
       "match_score": 85
     },
     {
@@ -4953,7 +4788,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Supply-Chain-Intern--Summer-2027_115694",
       "external_id": "115694",
-      "verified_at": "2026-09-19T11:06:00Z",
+      "verified_at": "2026-09-19T14:28:44Z",
       "match_score": 85
     },
     {
@@ -5010,56 +4845,6 @@
       "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Warsaw-Poland/Contract-support-Internship--12-months-program-_REQ24076",
       "external_id": "REQ24076",
       "verified_at": "2026-09-19T11:06:39Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-aab7f903b8f5",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Medical Sales Intern",
-      "location": "United Arab Emirates - Dubai",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "JOB DESCRIPTION: About Abbott Abbott is a global healthcare leader, creating breakthrough science to improve people’s health. We’re always looking towards the future, anticipating changes in medical science and technology. Working at Abbott At Abbott, you can do work that…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-14",
-      "deadline": "2026-09-28",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-Arab-Emirates---Dubai/Medical-Sales-Intern_31161831",
-      "external_id": "31161831",
-      "verified_at": "2026-09-17T21:29:23Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-e25de877cf9c",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Field Technical Engineer- Intern - Paris - 6 Months",
-      "location": "France - Issy les Moulineaux",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "JOB DESCRIPTION: Chez Abbott, nous sommes engagés à aider les personnes à vivre pleinement grâce à une meilleure santé. Nous développons des technologies innovantes qui transforment la prise en charge des patients et façonnent l’avenir des sciences médicales",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-14",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/France---Issy-les-Moulineaux/Field-Technical-Engineer--Intern---Paris---6-Months_31162067",
-      "external_id": "31162067",
-      "verified_at": "2026-09-17T21:29:24Z",
       "match_score": 85
     },
     {
@@ -5632,6 +5417,34 @@
       "external_id": "45456",
       "verified_at": "2026-09-18T06:00:14Z",
       "match_score": 90
+    },
+    {
+      "id": "xylem-0f2a0f9e3a17",
+      "source_key": "xylem",
+      "fortune_rank": 443,
+      "fortune_500": true,
+      "company": "Xylem",
+      "title": "Sales Support Intern",
+      "location": "Lainate",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy"
+      ],
+      "summary": "Xylem is a Fortune 500 global water solutions company dedicated to advancing sustainable impact and empowering the people who make water work every day. As a leading water technology company with 23,000 employees operating in over 150 countries, Xylem is at the forefront of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-11",
+      "deadline": null,
+      "url": "https://xylem.wd5.myworkdayjobs.com/xylem-careers/job/Lainate/Sales-Support-Intern_R50693",
+      "external_id": "R50693",
+      "verified_at": "2026-09-19T14:29:35Z",
+      "match_score": 85
     },
     {
       "id": "xcel-energy-1ad731c96c12",
@@ -6451,6 +6264,33 @@
       "match_score": 85
     },
     {
+      "id": "ovintiv-667b96c0cbed",
+      "source_key": "ovintiv",
+      "fortune_rank": 447,
+      "fortune_500": true,
+      "company": "Ovintiv",
+      "title": "Intern Supply Management Sourcing Analyst/Engineer",
+      "location": "Denver, CO, US",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "At Ovintiv, our products fuel the world through safe, affordable, and reliable energy. We are proud of our purpose, and attracting the right people is the key to its success. As an employer, we recognize your potential and professional aspirations, and are committed to your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-10",
+      "deadline": "2026-09-24",
+      "url": "https://ovintiv.wd3.myworkdayjobs.com/ovintivcareers/job/Denver-CO-US/Intern-Supply-Management-Sourcing-Analyst-Engineer_R2590",
+      "external_id": "R2590",
+      "verified_at": "2026-09-19T14:29:12Z",
+      "match_score": 85
+    },
+    {
       "id": "merck-59d6ab817b9c",
       "source_key": "merck",
       "fortune_rank": 68,
@@ -6583,7 +6423,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_115697",
       "external_id": "115697",
-      "verified_at": "2026-09-19T11:06:02Z",
+      "verified_at": "2026-09-19T14:28:46Z",
       "match_score": 85
     },
     {
@@ -6610,7 +6450,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Columbus-GA/Operations-QA-Intern--Summer-2027-Columbus--GA_115774",
       "external_id": "115774",
-      "verified_at": "2026-09-19T11:06:02Z",
+      "verified_at": "2026-09-19T14:28:46Z",
       "match_score": 85
     },
     {
@@ -6635,7 +6475,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Microbiology-Intern--Summer-2027_115676",
       "external_id": "115676",
-      "verified_at": "2026-09-19T11:06:00Z",
+      "verified_at": "2026-09-19T14:28:44Z",
       "match_score": 85
     },
     {
@@ -7324,34 +7164,6 @@
       "match_score": 85
     },
     {
-      "id": "abbott-laboratories-2cf791b14342",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "New Product Introduction Intern",
-      "location": "Mexico - Cuidad de Mexico - Cuidad de Mexico",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Product management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "JOB DESCRIPTION: New Product Introduction Intern Acerca de Abbott Abbott es líder mundial en cuidado de la salud, que crea ciencia innovadora para mejorar la salud de las personas. Siempre estamos mirando hacia el futuro, anticipando cambios en la ciencia y la tecnología médica",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-10",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Mexico---Cuidad-de-Mexico---Cuidad-de-Mexico/New-Product-Introduction-Intern_31161862",
-      "external_id": "31161862",
-      "verified_at": "2026-09-17T21:29:23Z",
-      "match_score": 85
-    },
-    {
       "id": "xcel-energy-7c10be89bc86",
       "source_key": "xcel-energy",
       "fortune_rank": 306,
@@ -7576,6 +7388,39 @@
       "url": "https://pru.wd5.myworkdayjobs.com/Careers/job/Paris-France/PGIM---Real-Estate-Private-Equity-Analyst-Intern--all-genders-_R-124980-2",
       "external_id": "R-124980",
       "verified_at": "2026-09-19T11:10:30Z",
+      "match_score": 85
+    },
+    {
+      "id": "ovintiv-f64ed12daa95",
+      "source_key": "ovintiv",
+      "fortune_rank": 447,
+      "fortune_500": true,
+      "company": "Ovintiv",
+      "title": "Intern Technology, Data & Digital",
+      "location": "Denver, CO, US",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Power BI",
+        "Cloud",
+        "AI / ML"
+      ],
+      "summary": "At Ovintiv, our products fuel the world through safe, affordable, and reliable energy. We are proud of our purpose, and attracting the right people is the key to its success. As an employer, we recognize your potential and professional aspirations, and are committed to your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-09-23",
+      "url": "https://ovintiv.wd3.myworkdayjobs.com/ovintivcareers/job/Denver-CO-US/Intern-Technology--Data---Digital_R2587",
+      "external_id": "R2587",
+      "verified_at": "2026-09-19T14:29:12Z",
       "match_score": 85
     },
     {
@@ -8713,7 +8558,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
       "external_id": "115677",
-      "verified_at": "2026-09-19T11:06:01Z",
+      "verified_at": "2026-09-19T14:28:45Z",
       "match_score": 85
     },
     {
@@ -8740,7 +8585,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sales-Intern--Summer-2027_115803",
       "external_id": "115803",
-      "verified_at": "2026-09-19T11:06:00Z",
+      "verified_at": "2026-09-19T14:28:44Z",
       "match_score": 85
     },
     {
@@ -8767,7 +8612,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
       "external_id": "115698",
-      "verified_at": "2026-09-19T11:06:01Z",
+      "verified_at": "2026-09-19T14:28:45Z",
       "match_score": 85
     },
     {
@@ -8794,7 +8639,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/R-D-Engineering-Intern--Co-Op-2027--8-months-_115696",
       "external_id": "115696",
-      "verified_at": "2026-09-19T11:06:01Z",
+      "verified_at": "2026-09-19T14:28:45Z",
       "match_score": 85
     },
     {
@@ -8825,7 +8670,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Spring-2027_115712",
       "external_id": "115712",
-      "verified_at": "2026-09-19T11:06:02Z",
+      "verified_at": "2026-09-19T14:28:46Z",
       "match_score": 85
     },
     {
@@ -8852,7 +8697,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/New-Orleans-LA/Operations-Engineering-Intern--Summer-2027--Multiple-Locations-_115721",
       "external_id": "115721",
-      "verified_at": "2026-09-19T11:06:02Z",
+      "verified_at": "2026-09-19T14:28:46Z",
       "match_score": 85
     },
     {
@@ -8879,7 +8724,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Scottsville-KY/Operations-Engineering-Intern--Spring-2027---Scottsville--KY_115475-1",
       "external_id": "115475",
-      "verified_at": "2026-09-19T11:06:01Z",
+      "verified_at": "2026-09-19T14:28:45Z",
       "match_score": 85
     },
     {
@@ -8906,7 +8751,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Memphis-TN/Operations-Engineering-Intern--Spring-2027---Memphis--TN_114845",
       "external_id": "114845",
-      "verified_at": "2026-09-19T11:06:01Z",
+      "verified_at": "2026-09-19T14:28:45Z",
       "match_score": 85
     },
     {
@@ -8933,7 +8778,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Lexington-KY/Operations-Engineering-Intern--Spring-2027---Lexington--KY_114841",
       "external_id": "114841",
-      "verified_at": "2026-09-19T11:06:01Z",
+      "verified_at": "2026-09-19T14:28:45Z",
       "match_score": 85
     },
     {
@@ -8961,7 +8806,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Marketing-Intern--Summer-2027_115771",
       "external_id": "115771",
-      "verified_at": "2026-09-19T11:06:00Z",
+      "verified_at": "2026-09-19T14:28:44Z",
       "match_score": 85
     },
     {
@@ -8990,7 +8835,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Information-Services-Intern--Summer-2027_115744",
       "external_id": "115744",
-      "verified_at": "2026-09-19T11:06:00Z",
+      "verified_at": "2026-09-19T14:28:45Z",
       "match_score": 85
     },
     {
@@ -9023,7 +8868,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Summer-2027_115743",
       "external_id": "115743",
-      "verified_at": "2026-09-19T11:06:00Z",
+      "verified_at": "2026-09-19T14:28:45Z",
       "match_score": 85
     },
     {
@@ -9056,7 +8901,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-09-19T11:06:00Z",
+      "verified_at": "2026-09-19T14:28:44Z",
       "match_score": 85
     },
     {
@@ -9082,7 +8927,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Category-Leadership-Intern--Summer-2027_115804",
       "external_id": "115804",
-      "verified_at": "2026-09-19T11:06:00Z",
+      "verified_at": "2026-09-19T14:28:45Z",
       "match_score": 85
     },
     {
@@ -9109,7 +8954,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Analytical-Lab-Intern--Summer-2027_115678",
       "external_id": "115678",
-      "verified_at": "2026-09-19T11:06:00Z",
+      "verified_at": "2026-09-19T14:28:45Z",
       "match_score": 85
     },
     {
@@ -9993,62 +9838,6 @@
       "match_score": 90
     },
     {
-      "id": "travelers-9e480c4d4e56",
-      "source_key": "travelers",
-      "fortune_rank": 96,
-      "fortune_500": true,
-      "company": "Travelers",
-      "title": "Claim Professional Development Program (CPDP) Intern",
-      "location": "GA - Alpharetta",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Risk"
-      ],
-      "summary": "Taking care of our customers, our communities and each other. By honoring this commitment, we have maintained our reputation as one of the best property casualty insurers in the industry for over 170 years. Join us to discover a culture that is rooted in innovation and thrives…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-08",
-      "deadline": null,
-      "url": "https://travelers.wd5.myworkdayjobs.com/External/job/GA---Alpharetta/Claim-Professional-Development-Program--CPDP--Intern_R-52458",
-      "external_id": "R-52458",
-      "verified_at": "2026-09-17T21:28:10Z",
-      "match_score": 85
-    },
-    {
-      "id": "travelers-80d149f3f1c3",
-      "source_key": "travelers",
-      "fortune_rank": 96,
-      "fortune_500": true,
-      "company": "Travelers",
-      "title": "Claim Professional Development Program (CPDP) Intern",
-      "location": "NJ - Morristown",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Risk"
-      ],
-      "summary": "Taking care of our customers, our communities and each other. By honoring this commitment, we have maintained our reputation as one of the best property casualty insurers in the industry for over 170 years. Join us to discover a culture that is rooted in innovation and thrives…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-08",
-      "deadline": null,
-      "url": "https://travelers.wd5.myworkdayjobs.com/External/job/NJ---Morristown/Claim-Professional-Development-Program--CPDP--Intern_R-52457",
-      "external_id": "R-52457",
-      "verified_at": "2026-09-17T21:28:10Z",
-      "match_score": 85
-    },
-    {
       "id": "otis-worldwide-6a8bec049f00",
       "source_key": "otis-worldwide",
       "fortune_rank": 312,
@@ -10306,116 +10095,6 @@
       "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Intern--Data-Scientist---Winter-2027_R999619-1",
       "external_id": "R999619",
       "verified_at": "2026-09-18T18:34:53Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-9f26b7baf15a",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Nutrition Brand Management Intern - Infant and Adult - Summer 2027",
-      "location": "United States - Ohio - Columbus",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Abbott is a global healthcare leader that helps people live more fully at all stages of life. Our portfolio of life-changing technologies spans the spectrum of healthcare, with leading businesses and products in diagnostics, medical devices, nutritionals and branded generic…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-08",
-      "deadline": "2026-12-04",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---Ohio---Columbus/Nutrition-Brand-Management-Intern---Infant-and-Adult---Summer-2027_31160729",
-      "external_id": "31160729",
-      "verified_at": "2026-09-17T21:29:26Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-c78721330f1d",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship",
-      "location": "Portugal - Remote",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "JOB DESCRIPTION: Trainee - Clinical Sales Representative CRM Location – Lisbon / Portugal Primary objective of the position For this position we are looking for a candidate with educational background on Cardiac Pacing . Support the team in sales and technical support to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-08",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Portugal---Remote/Internship_31157132",
-      "external_id": "31157132",
-      "verified_at": "2026-09-17T21:29:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-3287b4324af3",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Government Affairs Intern - Madrid",
-      "location": "Spain - Madrid",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "JOB DESCRIPTION: Durante la beca, la persona se familiarizará progresivamente con el entorno institucional y regulatorio en el que operan las diversas divisiones que conforman la compañía. En concreto: Entorno institucional y regulatorio Cómo funciona la toma de decisiones…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-08",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Madrid/Government-Affairs-Intern---Madrid_31160131",
-      "external_id": "31160131",
-      "verified_at": "2026-09-17T21:29:23Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-725ebb782f52",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Commercial Excellence Intern",
-      "location": "Mexico - Cuidad de Mexico - Cuidad de Mexico",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "Excel",
-        "Power BI"
-      ],
-      "summary": "JOB DESCRIPTION: Becario de Excelencia comercial – ADC Acerca de Abbott Abbott es líder mundial en cuidado de la salud, que crea ciencia innovadora para mejorar la salud de las personas. Siempre estamos mirando hacia el futuro, anticipando cambios en la ciencia y la tecnología…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-08",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Mexico---Cuidad-de-Mexico---Cuidad-de-Mexico/Commercial-Excellence-Intern_31161540",
-      "external_id": "31161540",
-      "verified_at": "2026-09-17T21:29:23Z",
       "match_score": 85
     },
     {
@@ -13804,34 +13483,6 @@
       "match_score": 85
     },
     {
-      "id": "travelers-0dd645ed79b4",
-      "source_key": "travelers",
-      "fortune_rank": 96,
-      "fortune_500": true,
-      "company": "Travelers",
-      "title": "Claim Professional Development Program Intern",
-      "location": "TX - Richardson",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Risk"
-      ],
-      "summary": "Taking care of our customers, our communities and each other. By honoring this commitment, we have maintained our reputation as one of the best property casualty insurers in the industry for over 170 years. Join us to discover a culture that is rooted in innovation and thrives…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-04",
-      "deadline": null,
-      "url": "https://travelers.wd5.myworkdayjobs.com/External/job/TX---Richardson/Claim-Professional-Development-Program-Intern_R-52460",
-      "external_id": "R-52460",
-      "verified_at": "2026-09-17T21:28:09Z",
-      "match_score": 85
-    },
-    {
       "id": "otis-worldwide-c3f44ed1f6b0",
       "source_key": "otis-worldwide",
       "fortune_rank": 312,
@@ -15092,6 +14743,70 @@
       "match_score": 90
     },
     {
+      "id": "tyson-foods-25d5775ec921",
+      "source_key": "tyson-foods",
+      "fortune_rank": 87,
+      "fortune_500": true,
+      "company": "Tyson Foods",
+      "title": "Year-round Intern - Transportation Services",
+      "location": "Corporate 412 West - Springdale, Arkansas",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Power BI",
+        "Cloud"
+      ],
+      "summary": "Job Details: Position Summary The Analytics Intern supports the Warehousing Analytics team in developing modern data, automation, AI, and operational technology solutions for Logistics and warehouse operations. The internship is designed to provide hands-on experience solving…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-03",
+      "deadline": null,
+      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN/job/Corporate-412-West---Springdale-Arkansas/Year-round-Intern---Transportation-Services_R0483113-2",
+      "external_id": "R0483113",
+      "verified_at": "2026-09-19T14:30:42Z",
+      "match_score": 85
+    },
+    {
+      "id": "tyson-foods-25d5775ec921",
+      "source_key": "tyson-foods",
+      "fortune_rank": 87,
+      "fortune_500": true,
+      "company": "Tyson Foods",
+      "title": "Year-round Intern - Transportation Services",
+      "location": "Corporate 412 West - Springdale, Arkansas",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Power BI",
+        "Cloud"
+      ],
+      "summary": "Job Details: Position Summary The Analytics Intern supports the Warehousing Analytics team in developing modern data, automation, AI, and operational technology solutions for Logistics and warehouse operations. The internship is designed to provide hands-on experience solving…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-03",
+      "deadline": null,
+      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN1/job/Corporate-412-West---Springdale-Arkansas/Year-round-Intern---Transportation-Services_R0483113-1",
+      "external_id": "R0483113",
+      "verified_at": "2026-09-19T14:31:51Z",
+      "match_score": 85
+    },
+    {
       "id": "somnigroup-international-e5895e60b05a",
       "source_key": "somnigroup-international",
       "fortune_rank": 35,
@@ -15113,7 +14828,7 @@
       "deadline": "2026-09-25",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Corporate-Communications-Internship_R-120884",
       "external_id": "R-120884",
-      "verified_at": "2026-09-19T11:08:00Z",
+      "verified_at": "2026-09-19T14:30:43Z",
       "match_score": 85
     },
     {
@@ -15279,7 +14994,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Decatur-AL/Operations-QA-Intern--Summer-2027--Decatur--AL_115757",
       "external_id": "115757",
-      "verified_at": "2026-09-19T11:06:02Z",
+      "verified_at": "2026-09-19T14:28:46Z",
       "match_score": 85
     },
     {
@@ -15459,28 +15174,33 @@
       "match_score": 85
     },
     {
-      "id": "abbott-laboratories-7e000a5b3990",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
+      "id": "xylem-186cc5b23788",
+      "source_key": "xylem",
+      "fortune_rank": 443,
       "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "2027 Winter Engineering Co-Op",
-      "location": "United States - Minnesota - St. Paul",
-      "region": "United States",
-      "opportunity_type": "Co-op",
+      "company": "Xylem",
+      "title": "Internal Communications Intern",
+      "location": "Pittsburgh, Pennsylvania",
+      "region": "Global",
+      "opportunity_type": "Internship",
       "categories": [
         "Asset-based lending"
       ],
-      "tags": [],
-      "summary": "Abbott is a global healthcare leader that helps people live more fully at all stages of life. Our portfolio of life-changing technologies spans the spectrum of healthcare, with leading businesses and products in diagnostics, medical devices, nutritionals and branded generic…",
+      "tags": [
+        "AI / ML",
+        "Strategy",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "Xylem is a Fortune 500 global water solutions company dedicated to advancing sustainable impact and empowering the people who make water work every day. As a leading water technology company with 23,000 employees operating in over 150 countries, Xylem is at the forefront of…",
       "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
-      "posted_date": "2026-09-03",
-      "deadline": "2026-11-30",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---Minnesota---St-Paul/XMLNAME-2027-Winter-Engineering-Co-Op_31161074",
-      "external_id": "31161074",
-      "verified_at": "2026-09-17T21:29:27Z",
+      "posted_date": "2026-09-02",
+      "deadline": null,
+      "url": "https://xylem.wd5.myworkdayjobs.com/xylem-careers/job/Pittsburgh-Pennsylvania/Internal-Communications-Intern_R50468",
+      "external_id": "R50468",
+      "verified_at": "2026-09-19T14:29:35Z",
       "match_score": 85
     },
     {
@@ -15804,36 +15524,6 @@
       "match_score": 85
     },
     {
-      "id": "abbott-laboratories-d420496943f1",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Marketing Intern - CRM - Madrid",
-      "location": "Spain - Madrid",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Product management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product",
-        "Operations"
-      ],
-      "summary": "Fluent oral and written English language Team player. The base pay for this position is N/A In specific locations, the pay range may vary from the range posted. JOB FAMILY: Administrative Support DIVISION: CRM Cardiac Rhythm Management LOCATION: Spain > Madrid : Building Four…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-02",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Madrid/Marketing-Intern---CRM---Madrid_31155120",
-      "external_id": "31155120",
-      "verified_at": "2026-09-17T21:29:23Z",
-      "match_score": 85
-    },
-    {
       "id": "united-rentals-cd7615c4edcc",
       "source_key": "united-rentals",
       "fortune_rank": 279,
@@ -15858,39 +15548,6 @@
       "url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Raleigh-NC-USA/Intern-Diesel-Mechanic--Paid-_100664",
       "external_id": "100664",
       "verified_at": "2026-09-18T05:58:41Z",
-      "match_score": 85
-    },
-    {
-      "id": "travelers-0e97868e97cc",
-      "source_key": "travelers",
-      "fortune_rank": 96,
-      "fortune_500": true,
-      "company": "Travelers",
-      "title": "Product Management Development Program (PMDP) Intern",
-      "location": "CT - Hartford",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Product management",
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product",
-        "Finance",
-        "Credit",
-        "Risk"
-      ],
-      "summary": "Taking care of our customers, our communities and each other. By honoring this commitment, we have maintained our reputation as one of the best property casualty insurers in the industry for over 170 years. Join us to discover a culture that is rooted in innovation and thrives…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Product-Management-Development-Program--PMDP--Intern_R-52317",
-      "external_id": "R-52317",
-      "verified_at": "2026-09-17T21:28:10Z",
       "match_score": 85
     },
     {
@@ -16775,60 +16432,6 @@
       "match_score": 85
     },
     {
-      "id": "abbott-laboratories-87901a8a22c7",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Field Tehcnical Engineer Internship - EP - Galicia",
-      "location": "Spain - Madrid",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product",
-        "Strategy"
-      ],
-      "summary": "JOB DESCRIPTION: About Abbott Abbott is a global healthcare leader, creating breakthrough science to improve people’s health. We’re always looking towards the future, anticipating changes in medical science and technology. Working at Abbott At Abbott, You Can Do Work That…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Madrid/Field-Tehcnical-Engineer-Internship---EP---Galicia_31154346",
-      "external_id": "31154346",
-      "verified_at": "2026-09-17T21:29:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-931583847ee0",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Abbott Nutrition Inside Sales Internship Health Care Professionals (HCP) Summer 2027",
-      "location": "United States - Ohio - Columbus",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Abbott is a global healthcare leader that helps people live more fully at all stages of life. Our portfolio of life-changing technologies spans the spectrum of healthcare, with leading businesses and products in diagnostics, medical devices, nutritionals and branded generic…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": "2026-11-20",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---Ohio---Columbus/Abbott-Nutrition-Inside-Sales-Internship-Health-Care-Professionals--HCP--Summer-2027_31160320",
-      "external_id": "31160320",
-      "verified_at": "2026-09-17T21:29:26Z",
-      "match_score": 85
-    },
-    {
       "id": "target-090d4116541a",
       "source_key": "target",
       "fortune_rank": 42,
@@ -17462,33 +17065,6 @@
       "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Warsaw-Poland/Purchasing-Intern---Operations-and-Project-Support_REQ24016",
       "external_id": "REQ24016",
       "verified_at": "2026-09-19T11:06:38Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-02d7dedfe2c4",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Field-Service Engineer Internship",
-      "location": "South Africa - Johannesburg",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "JOB DESCRIPTION: About Abbott Abbott is a global healthcare leader creating breakthrough science to improve people's health. We continuously innovate and anticipate changes in medical science and technology, helping people live healthier lives at every stage",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-31",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/South-Africa---Johannesburg/Field-Service-Engineer-Internship_31160708",
-      "external_id": "31160708",
-      "verified_at": "2026-09-17T21:29:25Z",
       "match_score": 85
     },
     {
@@ -18127,7 +17703,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
       "external_id": "115735",
-      "verified_at": "2026-09-19T11:06:02Z",
+      "verified_at": "2026-09-19T14:28:46Z",
       "match_score": 85
     },
     {
@@ -18352,7 +17928,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
       "external_id": "115736",
-      "verified_at": "2026-09-19T11:06:02Z",
+      "verified_at": "2026-09-19T14:28:46Z",
       "match_score": 85
     },
     {
@@ -18408,6 +17984,66 @@
       "url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Charlotte-NC-USA/Intern-Diesel-Mechanic--Paid-_100417",
       "external_id": "100417",
       "verified_at": "2026-09-18T05:58:41Z",
+      "match_score": 85
+    },
+    {
+      "id": "tyson-foods-88bdda1f6925",
+      "source_key": "tyson-foods",
+      "fortune_rank": 87,
+      "fortune_500": true,
+      "company": "Tyson Foods",
+      "title": "Tax Accounting Year-Round Intern",
+      "location": "Corporate - Springdale, Arkansas",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending",
+        "Accounting / financial analyst"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Job Details: Summary The Tax Accounting Intern Role is an entry-level position in the Tax organization that will be participating in various activities that can include: assisting with the preparation of sales and use tax returns; assisting with audits; assisting property or…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-26",
+      "deadline": null,
+      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN/job/Corporate---Springdale-Arkansas/Tax-Accounting-Year-Round-Intern_R0481422-2",
+      "external_id": "R0481422",
+      "verified_at": "2026-09-19T14:30:43Z",
+      "match_score": 85
+    },
+    {
+      "id": "tyson-foods-88bdda1f6925",
+      "source_key": "tyson-foods",
+      "fortune_rank": 87,
+      "fortune_500": true,
+      "company": "Tyson Foods",
+      "title": "Tax Accounting Year-Round Intern",
+      "location": "Corporate - Springdale, Arkansas",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending",
+        "Accounting / financial analyst"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Job Details: Summary The Tax Accounting Intern Role is an entry-level position in the Tax organization that will be participating in various activities that can include: assisting with the preparation of sales and use tax returns; assisting with audits; assisting property or…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-26",
+      "deadline": null,
+      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN1/job/Corporate---Springdale-Arkansas/Tax-Accounting-Year-Round-Intern_R0481422-1",
+      "external_id": "R0481422",
+      "verified_at": "2026-09-19T14:31:51Z",
       "match_score": 85
     },
     {
@@ -18496,7 +18132,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Quality-Assurance-Intern---Oxnard--CA_115727",
       "external_id": "115727",
-      "verified_at": "2026-09-19T11:06:02Z",
+      "verified_at": "2026-09-19T14:28:46Z",
       "match_score": 85
     },
     {
@@ -18521,7 +18157,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
       "external_id": "115725",
-      "verified_at": "2026-09-19T11:06:02Z",
+      "verified_at": "2026-09-19T14:28:46Z",
       "match_score": 85
     },
     {
@@ -19225,66 +18861,6 @@
       "match_score": 85
     },
     {
-      "id": "abbott-laboratories-ef6f3a908e9e",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "COOP Engineering Student",
-      "location": "Puerto Rico - Barceloneta",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "Abbott is a global healthcare leader that helps people live more fully at all stages of life. Our portfolio of life-changing technologies spans the spectrum of healthcare, with leading businesses and products in diagnostics, medical devices, nutritionals and branded generic…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-21",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Puerto-Rico---Barceloneta/COOP-Engineering-Student_31158635",
-      "external_id": "31158635",
-      "verified_at": "2026-09-17T21:29:27Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-9a6bdf56b3cd",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "2027 Finance Internship",
-      "location": "United States - Illinois - Abbott Park",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Corporate finance",
-        "Business analyst",
-        "FP&A"
-      ],
-      "tags": [
-        "Excel",
-        "Power BI",
-        "Finance",
-        "Credit",
-        "Accounting"
-      ],
-      "summary": "Abbott is a global healthcare leader that helps people live more fully at all stages of life. Our portfolio of life-changing technologies spans the spectrum of healthcare, with leading businesses and products in diagnostics, medical devices, nutritionals and branded generic…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-21",
-      "deadline": "2026-11-01",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---Illinois---Abbott-Park/XMLNAME-2027-Finance-Internship_31159945",
-      "external_id": "31159945",
-      "verified_at": "2026-09-17T21:29:25Z",
-      "match_score": 85
-    },
-    {
       "id": "mosaic-d75a6a78b3a2",
       "source_key": "mosaic",
       "fortune_rank": 366,
@@ -19617,6 +19193,35 @@
       "match_score": 85
     },
     {
+      "id": "xylem-353e13428592",
+      "source_key": "xylem",
+      "fortune_rank": 443,
+      "fortune_500": true,
+      "company": "Xylem",
+      "title": "Intern, Quality",
+      "location": "Holland, Michigan (Office)",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "Xylem is a Fortune 500 global water solutions company dedicated to advancing sustainable impact and empowering the people who make water work every day. As a leading water technology company with 23,000 employees operating in over 150 countries, Xylem is at the forefront of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://xylem.wd5.myworkdayjobs.com/xylem-careers/job/Holland-Michigan-Office/Intern--Quality_R44370",
+      "external_id": "R44370",
+      "verified_at": "2026-09-19T14:29:35Z",
+      "match_score": 85
+    },
+    {
       "id": "united-rentals-b77c127b3cfa",
       "source_key": "united-rentals",
       "fortune_rank": 279,
@@ -19779,6 +19384,62 @@
       "match_score": 85
     },
     {
+      "id": "tyson-foods-3d580e06aa1c",
+      "source_key": "tyson-foods",
+      "fortune_rank": 87,
+      "fortune_500": true,
+      "company": "Tyson Foods",
+      "title": "Year-round Intern - UX Design and Research",
+      "location": "Tyson Emma - Springdale, Arkansas",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML"
+      ],
+      "summary": "Job Details: Job Description Summary: Are you ready to jumpstart your career with a year-round internship at Tyson Foods? We are seeking driven and passionate interns to join our team and contribute to meaningful projects that drive our business forward",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN/job/Tyson-Emma---Springdale-Arkansas/Year-round-Intern---UX-Design-and-Research_R0479275-2",
+      "external_id": "R0479275",
+      "verified_at": "2026-09-19T14:30:43Z",
+      "match_score": 85
+    },
+    {
+      "id": "tyson-foods-3d580e06aa1c",
+      "source_key": "tyson-foods",
+      "fortune_rank": 87,
+      "fortune_500": true,
+      "company": "Tyson Foods",
+      "title": "Year-round Intern - UX Design and Research",
+      "location": "Tyson Emma - Springdale, Arkansas",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML"
+      ],
+      "summary": "Job Details: Job Description Summary: Are you ready to jumpstart your career with a year-round internship at Tyson Foods? We are seeking driven and passionate interns to join our team and contribute to meaningful projects that drive our business forward",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN1/job/Tyson-Emma---Springdale-Arkansas/Year-round-Intern---UX-Design-and-Research_R0479275-1",
+      "external_id": "R0479275",
+      "verified_at": "2026-09-19T14:31:51Z",
+      "match_score": 85
+    },
+    {
       "id": "thrivent-financial-be973e4ed11e",
       "source_key": "thrivent-financial",
       "fortune_rank": 387,
@@ -19890,7 +19551,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-09-19T11:06:28Z",
+      "verified_at": "2026-09-19T14:29:12Z",
       "match_score": 85
     },
     {
@@ -20221,6 +19882,37 @@
       "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Lineman--Apprentice----Foreman---Chris-Pavlicek_JR100942",
       "external_id": "JR100942",
       "verified_at": "2026-09-18T18:34:25Z",
+      "match_score": 85
+    },
+    {
+      "id": "palo-alto-networks-3cc54198818d",
+      "source_key": "palo-alto-networks",
+      "fortune_rank": 437,
+      "fortune_500": true,
+      "company": "Palo Alto Networks",
+      "title": "Intern - GRC Engineer",
+      "location": "Office - USA - CA - Headquarters",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Implementation Consulting",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Cloud",
+        "AI / ML",
+        "Risk"
+      ],
+      "summary": "Our Mission At Palo Alto Networks®, we’re united by a shared mission—to protect our digital way of life. We thrive at the intersection of innovation and impact, solving real-world problems with cutting-edge technology and bold thinking",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---GRC-Engineer_JR-013678",
+      "external_id": "JR-013678",
+      "verified_at": "2026-09-19T14:29:33Z",
       "match_score": 85
     },
     {
@@ -24016,376 +23708,6 @@
       "match_score": 85
     },
     {
-      "id": "abbott-laboratories-958c699f67f6",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Technical Validation Intern - ANS - Granada",
-      "location": "Spain - Granada",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "JOB DESCRIPTION: La cualificación/validación consiste en demostrar con evidencias que con un elevado grado de confianza, un equipo/proceso de laboratorio QA específico trabaja de forma correcta de acuerdo a lo esperado y produce de forma consistente un producto o salida que…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Granada/Technical-Validation-Intern---ANS---Granada_31155377",
-      "external_id": "31155377",
-      "verified_at": "2026-09-17T21:29:23Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-8f4e52013ad5",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship Supply Chain",
-      "location": "Ireland - Galway",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Finance"
-      ],
-      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-09-20",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Galway/Internship-Supply-Chain_31155783",
-      "external_id": "31155783",
-      "verified_at": "2026-09-17T21:29:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-174b9ffc09e6",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship Statistician",
-      "location": "Ireland - Donegal Town",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-09-20",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Donegal-Town/Internship-Statistician_31155788",
-      "external_id": "31155788",
-      "verified_at": "2026-09-17T21:29:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-b7124a920e51",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship Science",
-      "location": "Ireland - Longford",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-09-20",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Longford/Internship-Science_31155782",
-      "external_id": "31155782",
-      "verified_at": "2026-09-17T21:29:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-489bf11721c7",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship - IT",
-      "location": "Ireland - Dublin",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "IT analyst",
-        "Digital transformation",
-        "Data analyst"
-      ],
-      "tags": [
-        "Operations",
-        "Finance"
-      ],
-      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Dublin/Internship---IT_31155903",
-      "external_id": "31155903",
-      "verified_at": "2026-09-17T21:29:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-65410b85b6ff",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship - Finance",
-      "location": "Ireland - Dublin",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Corporate finance",
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Finance"
-      ],
-      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-09-20",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Dublin/Finance-Internship_31155901",
-      "external_id": "31155901",
-      "verified_at": "2026-09-17T21:29:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-7d7c992c75e6",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship - Engineering",
-      "location": "Ireland - Clonmel",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Finance"
-      ],
-      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-09-20",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Clonmel/Internship---Engineering_31155780",
-      "external_id": "31155780",
-      "verified_at": "2026-09-17T21:29:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-45efb8ac2ce5",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "IT Intern",
-      "location": "Malaysia > Selangor : Imazium, No. 8, Jalan SS 21/37",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "IT analyst",
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "JOB DESCRIPTION: MAIN PURPOSE OF ROLE Performs entry-level professional business support/administrative work, gradually increasing in level of difficulty and responsibility as on-the-job/formal training is received. Follow established IT standards, methodologies, and change…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Malaysia--Selangor--Imazium-No-8-Jalan-SS-2137/IT-Intern_31149049-1",
-      "external_id": "31149049",
-      "verified_at": "2026-09-17T21:29:23Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-53856c55dace",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Field Technical Engineer Intern - Málaga - NMD",
-      "location": "Spain - Madrid",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "JOB DESCRIPTION: PURPOSE OF THE JOB Learn all roles & responsibilities of a Field Technical Engineer working in the Operation Room and develop skills to support cases and follow up of patients. Act as Company ambassador at all time and represent the Company in a professional…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Madrid/Field-Technical-Engineer-Intern---Mlaga---NMD_31156015",
-      "external_id": "31156015",
-      "verified_at": "2026-09-17T21:29:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-2de6993f4d80",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Field Service Engineer Internship - Mechanical, Industrial, Electronics or Automation Engineer (Madrid)",
-      "location": "Spain - Madrid",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "JOB DESCRIPTION: Sobre Abbott Abbott es un líder mundial en atención médica, impulsando la innovación para mejorar la salud de las personas. Siempre estamos mirando hacia el futuro, anticipando cambios en la ciencia y la tecnología médica",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Madrid/Field-Service-Engineer-Internship---Core-Lab---Madrid-_31152648",
-      "external_id": "31152648",
-      "verified_at": "2026-09-17T21:29:26Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-dde5e5cc21f1",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Commercial Excellence Intern",
-      "location": "Spain - Madrid",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Power BI",
-        "Operations"
-      ],
-      "summary": "JOB DESCRIPTION: Main Purpose of the Role Performs entry-level professional business support/administrative work, gradually increasing in level of difficulty and responsibility as on-the-job/formal training is received. Participates in analytic studies by conducting routine…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Madrid/Commercial-Excellence-Intern_31157773",
-      "external_id": "31157773",
-      "verified_at": "2026-09-17T21:29:23Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-604bc4a8630a",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Comercial Excellence & Admin Intern – ADM - Madrid",
-      "location": "Spain - Madrid",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "JOB DESCRIPTION: Aprenderás: Dar soporte al equipo comercial mediante el análisis y seguimiento de datos procedentes del CRM. Elaborar informes y reportes de actividad comercial, identificando tendencias de mercado y oportunidades de negocio",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-09-24",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Spain---Madrid/Comercial-Excellence---Admin-Intern---ADM---Madrid_31154336",
-      "external_id": "31154336",
-      "verified_at": "2026-09-17T21:29:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-a544f799664f",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Business Analyst intern - Vascular",
-      "location": "Italy - Rome",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Business analyst",
-        "FP&A",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "FP&A"
-      ],
-      "summary": "JOB DESCRIPTION: About the Role We are looking for a motivated and analytical intern to join our Vascular Division and support the development of the Long Range Plan (LRP) for the Endovascular business in Italy . This internship represents an excellent opportunity to gain…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Italy---Rome/Business-Analyst-intern---Vascular_31157752",
-      "external_id": "31157752",
-      "verified_at": "2026-09-17T21:29:23Z",
-      "match_score": 85
-    },
-    {
       "id": "zoetis-7e269d241e94",
       "source_key": "zoetis",
       "fortune_rank": 434,
@@ -24736,7 +24058,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-09-19T11:05:29Z",
+      "verified_at": "2026-09-19T14:28:10Z",
       "match_score": 85
     },
     {
@@ -24798,7 +24120,7 @@
       "deadline": null,
       "url": "https://careers.massmutual.com/job/springfield/business-operations-intern-summer-2027/724/100746307024",
       "external_id": null,
-      "verified_at": "2026-09-19T11:05:28Z",
+      "verified_at": "2026-09-19T14:28:09Z",
       "match_score": 90
     },
     {
@@ -25439,15 +24761,48 @@
       "match_score": 85
     },
     {
-      "id": "exxonmobil-holdings-0904a6de0dd3",
-      "source_key": "exxonmobil-holdings",
-      "fortune_rank": 9,
+      "id": "expand-energy-d7cf0822757e",
+      "source_key": "expand-energy",
+      "fortune_rank": 362,
       "fortune_500": true,
-      "company": "ExxonMobil Holdings",
-      "title": "Search results for \"Intern/co-op/apprentice AND United States\".",
-      "location": "Search by location",
+      "company": "Expand Energy",
+      "title": "Intern - Treasury",
+      "location": "Search by Location",
       "region": "Global",
-      "opportunity_type": "Co-op",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate treasury",
+        "Corporate finance",
+        "Business analyst"
+      ],
+      "tags": [
+        "Operations",
+        "Finance",
+        "Credit",
+        "Treasury",
+        "Accounting"
+      ],
+      "summary": "We use cookies to offer you the best possible website experience. Your cookie preferences will be stored in your browser’s local storage. This includes cookies necessary for the website's operation. Additionally, you can freely decide and change any time whether you accept…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "y Minimum: Other - Cumulative GPA of 3.0 or higher on a 4.0 scale Additional Qualifications Must be graduating on or after December 2027 Expand Energy takes necessary action…",
+      "freshman_friendly": true,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.expandenergy.com/job/Oklahoma-City-Intern-Treasury-OK-73118/1429763000/",
+      "external_id": null,
+      "verified_at": "2026-09-19T14:29:44Z",
+      "match_score": 90
+    },
+    {
+      "id": "expand-energy-13f9220dadda",
+      "source_key": "expand-energy",
+      "fortune_rank": 362,
+      "fortune_500": true,
+      "company": "Expand Energy",
+      "title": "Intern - Tax",
+      "location": "Search by Location",
+      "region": "Global",
+      "opportunity_type": "Internship",
       "categories": [
         "Asset-based lending"
       ],
@@ -25456,15 +24811,196 @@
         "Finance",
         "Accounting"
       ],
-      "summary": "By clicking “Accept all cookies”, you agree to the storing of optional cookies on your device to enhance site navigation, analyze site usage, and assist in our marketing efforts. By clicking “Reject all cookies” you reject the storing of the optional cookies on your device",
+      "summary": "We use cookies to offer you the best possible website experience. Your cookie preferences will be stored in your browser’s local storage. This includes cookies necessary for the website's operation. Additionally, you can freely decide and change any time whether you accept…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "sity Minimum: Other - Cumulative GPA of 3.0 or higher on a 4.0 scale Additional Qualifications Must graduate on or after December 2027 Expand Energy takes necessary action…",
+      "freshman_friendly": true,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.expandenergy.com/job/Oklahoma-City-Intern-Tax-OK-73118/1429763200/",
+      "external_id": null,
+      "verified_at": "2026-09-19T14:29:44Z",
+      "match_score": 90
+    },
+    {
+      "id": "expand-energy-ff8e5e9f1c9b",
+      "source_key": "expand-energy",
+      "fortune_rank": 362,
+      "fortune_500": true,
+      "company": "Expand Energy",
+      "title": "Intern - Supply Chain",
+      "location": "Search by Location",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Risk"
+      ],
+      "summary": "We use cookies to offer you the best possible website experience. Your cookie preferences will be stored in your browser’s local storage. This includes cookies necessary for the website's operation. Additionally, you can freely decide and change any time whether you accept…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "alifications Previous industry experience, preferred Previous internship experience, preferred Must graduate on or after December 2027 Expand Energy takes necessary action…",
+      "freshman_friendly": true,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.expandenergy.com/job/Oklahoma-City-Intern-Supply-Chain-OK-73118/1430442400/",
+      "external_id": null,
+      "verified_at": "2026-09-19T14:29:44Z",
+      "match_score": 90
+    },
+    {
+      "id": "expand-energy-8989e9885156",
+      "source_key": "expand-energy",
+      "fortune_rank": 362,
+      "fortune_500": true,
+      "company": "Expand Energy",
+      "title": "Intern - IT",
+      "location": "Search by Location",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "IT analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Operations"
+      ],
+      "summary": "We use cookies to offer you the best possible website experience. Your cookie preferences will be stored in your browser’s local storage. This includes cookies necessary for the website's operation. Additionally, you can freely decide and change any time whether you accept…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": true,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.expandenergy.com/job/Oklahoma-City-Intern-IT-OK-73118/1429773900/",
+      "external_id": null,
+      "verified_at": "2026-09-19T14:29:44Z",
+      "match_score": 85
+    },
+    {
+      "id": "expand-energy-a1c07a37b240",
+      "source_key": "expand-energy",
+      "fortune_rank": 362,
+      "fortune_500": true,
+      "company": "Expand Energy",
+      "title": "Intern - Corporate Development",
+      "location": "Search by Location",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "We use cookies to offer you the best possible website experience. Your cookie preferences will be stored in your browser’s local storage. This includes cookies necessary for the website's operation. Additionally, you can freely decide and change any time whether you accept…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "sity Minimum: Other - Cumulative GPA of 3.0 or higher on a 4.0 scale Additional Qualifications Must graduate on or after December 2027 Expand Energy takes necessary action…",
+      "freshman_friendly": true,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.expandenergy.com/job/Spring-Intern-Corporate-Development-TX-77389/1429774500/",
+      "external_id": null,
+      "verified_at": "2026-09-19T14:29:44Z",
+      "match_score": 90
+    },
+    {
+      "id": "expand-energy-153a519f86b3",
+      "source_key": "expand-energy",
+      "fortune_rank": 362,
+      "fortune_500": true,
+      "company": "Expand Energy",
+      "title": "Intern - Accounting",
+      "location": "Search by Location",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Power BI",
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "We use cookies to offer you the best possible website experience. Your cookie preferences will be stored in your browser’s local storage. This includes cookies necessary for the website's operation. Additionally, you can freely decide and change any time whether you accept…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": null,
       "deadline": null,
-      "url": "https://jobs.exxonmobil.com/search/",
+      "url": "https://jobs.expandenergy.com/job/Oklahoma-City-Intern-Accounting-OK-73118/1429773700/",
       "external_id": null,
-      "verified_at": "2026-09-17T21:26:58Z",
+      "verified_at": "2026-09-19T14:29:44Z",
+      "match_score": 85
+    },
+    {
+      "id": "equinix-26b20c29d201",
+      "source_key": "equinix",
+      "fortune_rank": 436,
+      "fortune_500": true,
+      "company": "Equinix",
+      "title": "Intern to impact – Haley Wynne",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Technical Solutions",
+        "Solutions Architect",
+        "Sales Engineer"
+      ],
+      "tags": [
+        "Strategy"
+      ],
+      "summary": "Kiosk mode Intern to impact – Haley Wynne Oct 14 2025 What if your internship could be the launchpad for your entire tech career? For Haley Wynne, it was exactly that. In 2023, Haley joined Equinix as an intern on our Global Technical Solutions Team (GTST) Public Sector team",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://careers.equinix.com/blogs/life-at-equinix-blogs/intern-to-impact-hayley-wynne",
+      "external_id": null,
+      "verified_at": "2026-09-19T14:28:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "enterprise-products-partners-2c9f6af1610b",
+      "source_key": "enterprise-products-partners",
+      "fortune_rank": 89,
+      "fortune_500": true,
+      "company": "Enterprise Products Partners",
+      "title": "Internship Program",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Risk management"
+      ],
+      "tags": [
+        "Operations",
+        "Risk",
+        "Accounting"
+      ],
+      "summary": "× Notice: The clicked link will open a new window to a different website. To continue, please click Continue; otherwise, please click Cancel. Interns have the opportunity to learn from leading energy professionals in a challenging environment designed to enhance their skills in…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://enterpriseproducts.com/careers/early-careers/",
+      "external_id": null,
+      "verified_at": "2026-09-19T14:30:01Z",
       "match_score": 85
     },
     {
