@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21T00:22:53Z",
+  "updated_at": "2026-09-21T05:06:30Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,10 +12,10 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-09-21T00:18:08Z",
+  "directory_refreshed_at": "2026-09-21T05:02:11Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 308,
-  "companies_failed_last_24h": 7,
+  "companies_failed_last_24h": 6,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "accendra-health",
@@ -42,32 +42,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs: 404 Client Error: Not Found for url: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs"
-    },
-    {
-      "key": "bank-of-america",
-      "rank": 20,
-      "company": "Bank of America",
-      "fortune_500": true,
-      "checked_at": "2026-09-20T01:18:05Z",
-      "status": "error",
-      "issue_type": "Scan error",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": "https://careers.bankofamerica.com/en-us/students/job-search?ref=search&search=getAllJobs&start=0&rows=10",
-      "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
-    },
-    {
-      "key": "ferguson-enterprises",
-      "rank": 147,
-      "company": "Ferguson Enterprises",
-      "fortune_500": true,
-      "checked_at": "2026-09-20T01:18:05Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
     },
     {
       "key": "franklin-templeton",
@@ -107,11 +81,24 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": null
+    },
+    {
+      "key": "united-services-automobile-assn",
+      "rank": 93,
+      "company": "United Services Automobile Assn.",
+      "fortune_500": true,
+      "checked_at": "2026-09-21T05:06:30Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
     }
   ],
   "companies_with_eligible_jobs": 93,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 975,
+  "opportunity_count": 974,
   "opportunities": [
     {
       "id": "xcel-energy-18806f9c9b14",
@@ -1187,6 +1174,33 @@
       "match_score": 85
     },
     {
+      "id": "biogen-0c6ce47367fe",
+      "source_key": "biogen",
+      "fortune_rank": 421,
+      "fortune_500": true,
+      "company": "Biogen",
+      "title": "Manufacturing Maintenance Technician Apprentice (24-Month Program)",
+      "location": "Research Triangle Park, NC",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "About This Role An Apprenticeship at Biogen is a pathway to a long-term career in the biopharmaceutical industry. This 24-month program combines hands-on experience within our operations with enrollment in a registered partner community college to further your education",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-18",
+      "deadline": null,
+      "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Research-Triangle-Park-NC/Manufacturing-Maintenance-Technician-Apprentice--24-Month-Program-_REQ23654",
+      "external_id": "REQ23654",
+      "verified_at": "2026-09-21T05:03:26Z",
+      "match_score": 85
+    },
+    {
       "id": "xcel-energy-fe256392bf6e",
       "source_key": "xcel-energy",
       "fortune_rank": 306,
@@ -1602,33 +1616,6 @@
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Corporate-Banking--Financial-Institutions-Group--FIG---Placement-Analyst-Internship--Paris---France-2027_26992453",
       "external_id": "26992453",
       "verified_at": "2026-09-20T01:16:38Z",
-      "match_score": 85
-    },
-    {
-      "id": "biogen-0c6ce47367fe",
-      "source_key": "biogen",
-      "fortune_rank": 421,
-      "fortune_500": true,
-      "company": "Biogen",
-      "title": "Manufacturing Maintenance Technician Apprentice (24-Month Program)",
-      "location": "Research Triangle Park, NC",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "About This Role An Apprenticeship at Biogen is a pathway to a long-term career in the biopharmaceutical industry. This 24-month program combines hands-on experience within our operations with enrollment in a registered partner community college to further your education",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-17",
-      "deadline": null,
-      "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Research-Triangle-Park-NC/Manufacturing-Maintenance-Technician-Apprentice--24-Month-Program-_REQ23654",
-      "external_id": "REQ23654",
-      "verified_at": "2026-09-19T11:06:45Z",
       "match_score": 85
     },
     {
@@ -3750,7 +3737,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Supply-Chain-Intern--Summer-2027_115694",
       "external_id": "115694",
-      "verified_at": "2026-09-21T00:18:48Z",
+      "verified_at": "2026-09-21T05:02:52Z",
       "match_score": 85
     },
     {
@@ -3950,6 +3937,34 @@
       "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249131-1",
       "external_id": "R0249131",
       "verified_at": "2026-09-19T20:47:17Z",
+      "match_score": 85
+    },
+    {
+      "id": "biogen-3d0b833fa48e",
+      "source_key": "biogen",
+      "fortune_rank": 421,
+      "fortune_500": true,
+      "company": "Biogen",
+      "title": "Contract support Internship (12-months program)",
+      "location": "Warsaw, Poland",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "About This Role: During this internship you support a large-scale contract metadata clean up project. The successful candidate will review contracts to validate, extract, and maintain critical contract metadata, ensuring accuracy, completeness, and consistency across enterprise…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-15",
+      "deadline": null,
+      "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Warsaw-Poland/Contract-support-Internship--12-months-program-_REQ24076",
+      "external_id": "REQ24076",
+      "verified_at": "2026-09-21T05:03:20Z",
       "match_score": 85
     },
     {
@@ -5343,34 +5358,6 @@
       "match_score": 85
     },
     {
-      "id": "biogen-3d0b833fa48e",
-      "source_key": "biogen",
-      "fortune_rank": 421,
-      "fortune_500": true,
-      "company": "Biogen",
-      "title": "Contract support Internship (12-months program)",
-      "location": "Warsaw, Poland",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Accounting"
-      ],
-      "summary": "About This Role: During this internship you support a large-scale contract metadata clean up project. The successful candidate will review contracts to validate, extract, and maintain critical contract metadata, ensuring accuracy, completeness, and consistency across enterprise…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-14",
-      "deadline": null,
-      "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Warsaw-Poland/Contract-support-Internship--12-months-program-_REQ24076",
-      "external_id": "REQ24076",
-      "verified_at": "2026-09-19T11:06:39Z",
-      "match_score": 85
-    },
-    {
       "id": "andersons-ae1b8edb5b91",
       "source_key": "andersons",
       "fortune_rank": 397,
@@ -5798,6 +5785,96 @@
       "match_score": 85
     },
     {
+      "id": "vf-18021cb08fe6",
+      "source_key": "vf",
+      "fortune_rank": 425,
+      "fortune_500": true,
+      "company": "VF",
+      "title": "Wholesale Marketing Intern",
+      "location": "EMEA > CHE > Stabio > VF Campus VF1",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Wholesale Marketing Intern for Napapijri. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-11",
+      "deadline": null,
+      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Wholesale-Marketing-Intern_R-20260903-0028-1",
+      "external_id": "R-20260903-0028",
+      "verified_at": "2026-09-21T05:03:40Z",
+      "match_score": 90
+    },
+    {
+      "id": "vf-ae92a029fb94",
+      "source_key": "vf",
+      "fortune_rank": 425,
+      "fortune_500": true,
+      "company": "VF",
+      "title": "Sales Operations Intern",
+      "location": "EMEA > CHE > Stabio > VF Campus VF1",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "FP&A",
+        "Data analyst"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Product",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Sales Operation Intern for the Smartwool & icebreaker (SWIB) Sales Operation Team. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-11",
+      "deadline": null,
+      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Sales-Operations-Intern_R-20260813-0009-1",
+      "external_id": "R-20260813-0009",
+      "verified_at": "2026-09-21T05:03:37Z",
+      "match_score": 90
+    },
+    {
+      "id": "vf-bcfb0a72d11c",
+      "source_key": "vf",
+      "fortune_rank": 425,
+      "fortune_500": true,
+      "company": "VF",
+      "title": "Media Intern",
+      "location": "EMEA > CHE > Stabio > VF Campus VF1",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland, as a Media Intern for Altra Running. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-11",
+      "deadline": null,
+      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Media-Intern_R-20260824-0010-1",
+      "external_id": "R-20260824-0010",
+      "verified_at": "2026-09-21T05:03:38Z",
+      "match_score": 90
+    },
+    {
       "id": "target-04d70090f27a",
       "source_key": "target",
       "fortune_rank": 42,
@@ -6003,7 +6080,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_115697",
       "external_id": "115697",
-      "verified_at": "2026-09-21T00:18:49Z",
+      "verified_at": "2026-09-21T05:02:53Z",
       "match_score": 85
     },
     {
@@ -6030,7 +6107,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Columbus-GA/Operations-QA-Intern--Summer-2027-Columbus--GA_115774",
       "external_id": "115774",
-      "verified_at": "2026-09-21T00:18:50Z",
+      "verified_at": "2026-09-21T05:02:53Z",
       "match_score": 85
     },
     {
@@ -6055,7 +6132,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Microbiology-Intern--Summer-2027_115676",
       "external_id": "115676",
-      "verified_at": "2026-09-21T00:18:48Z",
+      "verified_at": "2026-09-21T05:02:52Z",
       "match_score": 85
     },
     {
@@ -6629,93 +6706,33 @@
       "match_score": 85
     },
     {
-      "id": "vf-18021cb08fe6",
+      "id": "vf-09e11734b034",
       "source_key": "vf",
       "fortune_rank": 425,
       "fortune_500": true,
       "company": "VF",
-      "title": "Wholesale Marketing Intern",
+      "title": "Security, Health & Safety Intern",
       "location": "EMEA > CHE > Stabio > VF Campus VF1",
       "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
-        "Operations analyst",
+        "Risk management",
         "Asset-based lending"
       ],
       "tags": [
-        "Excel",
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Wholesale Marketing Intern for Napapijri. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-10",
-      "deadline": null,
-      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Wholesale-Marketing-Intern_R-20260903-0028-1",
-      "external_id": "R-20260903-0028",
-      "verified_at": "2026-09-19T11:06:47Z",
-      "match_score": 90
-    },
-    {
-      "id": "vf-ae92a029fb94",
-      "source_key": "vf",
-      "fortune_rank": 425,
-      "fortune_500": true,
-      "company": "VF",
-      "title": "Sales Operations Intern",
-      "location": "EMEA > CHE > Stabio > VF Campus VF1",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "FP&A",
-        "Data analyst"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Product",
         "Operations",
-        "Finance"
+        "Risk",
+        "Accounting"
       ],
-      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Sales Operation Intern for the Smartwool & icebreaker (SWIB) Sales Operation Team. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the…",
+      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Security, Health & Safety Intern for EMEA Asset Protection Team. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
       "grad_status": "2029 eligible",
       "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
       "freshman_friendly": true,
       "posted_date": "2026-09-10",
       "deadline": null,
-      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Sales-Operations-Intern_R-20260813-0009-1",
-      "external_id": "R-20260813-0009",
-      "verified_at": "2026-09-19T11:06:44Z",
-      "match_score": 90
-    },
-    {
-      "id": "vf-bcfb0a72d11c",
-      "source_key": "vf",
-      "fortune_rank": 425,
-      "fortune_500": true,
-      "company": "VF",
-      "title": "Media Intern",
-      "location": "EMEA > CHE > Stabio > VF Campus VF1",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland, as a Media Intern for Altra Running. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-10",
-      "deadline": null,
-      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Media-Intern_R-20260824-0010-1",
-      "external_id": "R-20260824-0010",
-      "verified_at": "2026-09-19T11:06:45Z",
+      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Security--Health---Safety-Intern_R-20260817-0021",
+      "external_id": "R-20260817-0021",
+      "verified_at": "2026-09-21T05:03:40Z",
       "match_score": 90
     },
     {
@@ -7164,7 +7181,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
       "external_id": "115677",
-      "verified_at": "2026-09-21T00:18:49Z",
+      "verified_at": "2026-09-21T05:02:52Z",
       "match_score": 85
     },
     {
@@ -7191,7 +7208,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sales-Intern--Summer-2027_115803",
       "external_id": "115803",
-      "verified_at": "2026-09-21T00:18:48Z",
+      "verified_at": "2026-09-21T05:02:52Z",
       "match_score": 85
     },
     {
@@ -7218,7 +7235,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
       "external_id": "115698",
-      "verified_at": "2026-09-21T00:18:49Z",
+      "verified_at": "2026-09-21T05:02:53Z",
       "match_score": 85
     },
     {
@@ -7245,7 +7262,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/R-D-Engineering-Intern--Co-Op-2027--8-months-_115696",
       "external_id": "115696",
-      "verified_at": "2026-09-21T00:18:49Z",
+      "verified_at": "2026-09-21T05:02:53Z",
       "match_score": 85
     },
     {
@@ -7276,7 +7293,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Spring-2027_115712",
       "external_id": "115712",
-      "verified_at": "2026-09-21T00:18:50Z",
+      "verified_at": "2026-09-21T05:02:54Z",
       "match_score": 85
     },
     {
@@ -7303,7 +7320,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/New-Orleans-LA/Operations-Engineering-Intern--Summer-2027--Multiple-Locations-_115721",
       "external_id": "115721",
-      "verified_at": "2026-09-21T00:18:49Z",
+      "verified_at": "2026-09-21T05:02:53Z",
       "match_score": 85
     },
     {
@@ -7330,7 +7347,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Scottsville-KY/Operations-Engineering-Intern--Spring-2027---Scottsville--KY_115475-1",
       "external_id": "115475",
-      "verified_at": "2026-09-21T00:18:49Z",
+      "verified_at": "2026-09-21T05:02:53Z",
       "match_score": 85
     },
     {
@@ -7357,7 +7374,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Memphis-TN/Operations-Engineering-Intern--Spring-2027---Memphis--TN_114845",
       "external_id": "114845",
-      "verified_at": "2026-09-21T00:18:50Z",
+      "verified_at": "2026-09-21T05:02:53Z",
       "match_score": 85
     },
     {
@@ -7384,7 +7401,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Lexington-KY/Operations-Engineering-Intern--Spring-2027---Lexington--KY_114841",
       "external_id": "114841",
-      "verified_at": "2026-09-21T00:18:49Z",
+      "verified_at": "2026-09-21T05:02:53Z",
       "match_score": 85
     },
     {
@@ -7412,7 +7429,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Marketing-Intern--Summer-2027_115771",
       "external_id": "115771",
-      "verified_at": "2026-09-21T00:18:48Z",
+      "verified_at": "2026-09-21T05:02:52Z",
       "match_score": 85
     },
     {
@@ -7441,7 +7458,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Information-Services-Intern--Summer-2027_115744",
       "external_id": "115744",
-      "verified_at": "2026-09-21T00:18:48Z",
+      "verified_at": "2026-09-21T05:02:52Z",
       "match_score": 85
     },
     {
@@ -7474,7 +7491,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Summer-2027_115743",
       "external_id": "115743",
-      "verified_at": "2026-09-21T00:18:49Z",
+      "verified_at": "2026-09-21T05:02:53Z",
       "match_score": 85
     },
     {
@@ -7507,7 +7524,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-09-21T00:18:48Z",
+      "verified_at": "2026-09-21T05:02:52Z",
       "match_score": 85
     },
     {
@@ -7533,7 +7550,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Category-Leadership-Intern--Summer-2027_115804",
       "external_id": "115804",
-      "verified_at": "2026-09-21T00:18:49Z",
+      "verified_at": "2026-09-21T05:02:52Z",
       "match_score": 85
     },
     {
@@ -7560,7 +7577,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Analytical-Lab-Intern--Summer-2027_115678",
       "external_id": "115678",
-      "verified_at": "2026-09-21T00:18:48Z",
+      "verified_at": "2026-09-21T05:02:52Z",
       "match_score": 85
     },
     {
@@ -8374,33 +8391,33 @@
       "match_score": 85
     },
     {
-      "id": "vf-09e11734b034",
+      "id": "vf-227281f40084",
       "source_key": "vf",
       "fortune_rank": 425,
       "fortune_500": true,
       "company": "VF",
-      "title": "Security, Health & Safety Intern",
+      "title": "Product Development Intern – Apparel",
       "location": "EMEA > CHE > Stabio > VF Campus VF1",
       "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
-        "Risk management",
+        "Product management",
         "Asset-based lending"
       ],
       "tags": [
-        "Operations",
-        "Risk",
-        "Accounting"
+        "Power BI",
+        "AI / ML",
+        "Product"
       ],
-      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Security, Health & Safety Intern for EMEA Asset Protection Team. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
+      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Product Development Intern for the Apparel Product Development Team. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
       "grad_status": "2029 eligible",
       "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
       "freshman_friendly": true,
       "posted_date": "2026-09-09",
       "deadline": null,
-      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Security--Health---Safety-Intern_R-20260817-0021",
-      "external_id": "R-20260817-0021",
-      "verified_at": "2026-09-19T11:06:47Z",
+      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Product-Development-Intern---Apparel_R-20260812-0013",
+      "external_id": "R-20260812-0013",
+      "verified_at": "2026-09-21T05:03:35Z",
       "match_score": 90
     },
     {
@@ -11986,36 +12003,6 @@
       "match_score": 85
     },
     {
-      "id": "vf-227281f40084",
-      "source_key": "vf",
-      "fortune_rank": 425,
-      "fortune_500": true,
-      "company": "VF",
-      "title": "Product Development Intern – Apparel",
-      "location": "EMEA > CHE > Stabio > VF Campus VF1",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Product management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Power BI",
-        "AI / ML",
-        "Product"
-      ],
-      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Product Development Intern for the Apparel Product Development Team. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-08",
-      "deadline": null,
-      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Product-Development-Intern---Apparel_R-20260812-0013",
-      "external_id": "R-20260812-0013",
-      "verified_at": "2026-09-19T11:06:42Z",
-      "match_score": 90
-    },
-    {
       "id": "travelers-9e480c4d4e56",
       "source_key": "travelers",
       "fortune_rank": 96,
@@ -13513,6 +13500,36 @@
       "match_score": 85
     },
     {
+      "id": "biogen-ddb16c7dd33f",
+      "source_key": "biogen",
+      "fortune_rank": 421,
+      "fortune_500": true,
+      "company": "Biogen",
+      "title": "P2P Intern – Travel & Expense",
+      "location": "Warsaw, Poland",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "About This Role: As a P2P Intern – Travel & Expense within the Procure to Pay department, you will be an integral member of the Travel & Expense team, supporting day-to-day activities related to employee expenses. This 12-month internship is designed to provide you with…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-08",
+      "deadline": null,
+      "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Warsaw-Poland/P2P-Intern---Travel---Expense_REQ24065",
+      "external_id": "REQ24065",
+      "verified_at": "2026-09-21T05:03:19Z",
+      "match_score": 85
+    },
+    {
       "id": "amgen-e443c8942f41",
       "source_key": "amgen",
       "fortune_rank": 129,
@@ -13765,36 +13782,6 @@
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Lagos/Customer-Support-Engineering-Intern---ECGIP_R5048156-2",
       "external_id": "R5048156",
       "verified_at": "2026-09-19T20:47:55Z",
-      "match_score": 85
-    },
-    {
-      "id": "biogen-ddb16c7dd33f",
-      "source_key": "biogen",
-      "fortune_rank": 421,
-      "fortune_500": true,
-      "company": "Biogen",
-      "title": "P2P Intern – Travel & Expense",
-      "location": "Warsaw, Poland",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "About This Role: As a P2P Intern – Travel & Expense within the Procure to Pay department, you will be an integral member of the Travel & Expense team, supporting day-to-day activities related to employee expenses. This 12-month internship is designed to provide you with…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-07",
-      "deadline": null,
-      "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Warsaw-Poland/P2P-Intern---Travel---Expense_REQ24065",
-      "external_id": "REQ24065",
-      "verified_at": "2026-09-19T11:06:38Z",
       "match_score": 85
     },
     {
@@ -14445,6 +14432,241 @@
       "match_score": 85
     },
     {
+      "id": "vf-523b7d5a1a77",
+      "source_key": "vf",
+      "fortune_rank": 425,
+      "fortune_500": true,
+      "company": "VF",
+      "title": "Service Delivery Technician Intern",
+      "location": "EMEA > CHE > Stabio > VF Campus VF1",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Service Delivery Technician Intern for our Digital Technology team. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-04",
+      "deadline": null,
+      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Service-Delivery-Technician-Intern_R-20260730-0011",
+      "external_id": "R-20260730-0011",
+      "verified_at": "2026-09-21T05:03:37Z",
+      "match_score": 90
+    },
+    {
+      "id": "vf-320d38dc4530",
+      "source_key": "vf",
+      "fortune_rank": 425,
+      "fortune_500": true,
+      "company": "VF",
+      "title": "Retail Digital Technology Product Intern",
+      "location": "EMEA > CHE > Stabio > VF Campus VF1",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Product management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud",
+        "AI / ML",
+        "Product"
+      ],
+      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Retail Digital Technology Product Intern for Digital Technology . At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-04",
+      "deadline": null,
+      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Retail-Digital-Technology-Product-Intern_R-20260824-0035",
+      "external_id": "R-20260824-0035",
+      "verified_at": "2026-09-21T05:03:35Z",
+      "match_score": 90
+    },
+    {
+      "id": "vf-85f2e5ae5a07",
+      "source_key": "vf",
+      "fortune_rank": 425,
+      "fortune_500": true,
+      "company": "VF",
+      "title": "Marketing Automation Intern",
+      "location": "EMEA > CHE > Stabio > VF Campus VF1",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Digital transformation",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "SQL",
+        "Cloud",
+        "Operations"
+      ],
+      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Marketing Automation Intern for EMEA Digital Activation Team . At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-04",
+      "deadline": null,
+      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Marketing-Automation-Intern_R-20260728-0011",
+      "external_id": "R-20260728-0011",
+      "verified_at": "2026-09-21T05:03:38Z",
+      "match_score": 90
+    },
+    {
+      "id": "vf-fd70c0752f86",
+      "source_key": "vf",
+      "fortune_rank": 425,
+      "fortune_500": true,
+      "company": "VF",
+      "title": "Graphic Design Intern",
+      "location": "EMEA > CHE > Stabio > VF Campus VF1",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Graphic Design Intern for the Graphics & Trend Apparel Team. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-04",
+      "deadline": null,
+      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Graphic-Design-Intern_R-20260812-0021",
+      "external_id": "R-20260812-0021",
+      "verified_at": "2026-09-21T05:03:38Z",
+      "match_score": 90
+    },
+    {
+      "id": "vf-90dbf982d72e",
+      "source_key": "vf",
+      "fortune_rank": 425,
+      "fortune_500": true,
+      "company": "VF",
+      "title": "Design & Material Intern",
+      "location": "EMEA > CHE > Stabio > VF Campus VF1",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Product"
+      ],
+      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as a Design & Material Intern for The North Face Team. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-04",
+      "deadline": null,
+      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Design---Material-Intern_R-20260818-0024-1",
+      "external_id": "R-20260818-0024",
+      "verified_at": "2026-09-21T05:03:35Z",
+      "match_score": 90
+    },
+    {
+      "id": "vf-c33602532ae0",
+      "source_key": "vf",
+      "fortune_rank": 425,
+      "fortune_500": true,
+      "company": "VF",
+      "title": "Allocator Intern",
+      "location": "EMEA > CHE > Stabio > VF Campus VF1",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "FP&A",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Product",
+        "Operations",
+        "FP&A"
+      ],
+      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Allocator Intern for The North Face. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-04",
+      "deadline": null,
+      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Allocator-Intern_R-20260818-0026-1",
+      "external_id": "R-20260818-0026",
+      "verified_at": "2026-09-21T05:03:40Z",
+      "match_score": 90
+    },
+    {
+      "id": "tyson-foods-25d5775ec921",
+      "source_key": "tyson-foods",
+      "fortune_rank": 87,
+      "fortune_500": true,
+      "company": "Tyson Foods",
+      "title": "Year-round Intern - Transportation Services",
+      "location": "Corporate 412 West - Springdale, Arkansas",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Power BI",
+        "Cloud"
+      ],
+      "summary": "Job Details: Position Summary The Analytics Intern supports the Warehousing Analytics team in developing modern data, automation, AI, and operational technology solutions for Logistics and warehouse operations. The internship is designed to provide hands-on experience solving…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-04",
+      "deadline": null,
+      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN/job/Corporate-412-West---Springdale-Arkansas/Year-round-Intern---Transportation-Services_R0483113-2",
+      "external_id": "R0483113",
+      "verified_at": "2026-09-21T05:04:36Z",
+      "match_score": 85
+    },
+    {
+      "id": "tyson-foods-25d5775ec921",
+      "source_key": "tyson-foods",
+      "fortune_rank": 87,
+      "fortune_500": true,
+      "company": "Tyson Foods",
+      "title": "Year-round Intern - Transportation Services",
+      "location": "Corporate 412 West - Springdale, Arkansas",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Power BI",
+        "Cloud"
+      ],
+      "summary": "Job Details: Position Summary The Analytics Intern supports the Warehousing Analytics team in developing modern data, automation, AI, and operational technology solutions for Logistics and warehouse operations. The internship is designed to provide hands-on experience solving…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-04",
+      "deadline": null,
+      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN1/job/Corporate-412-West---Springdale-Arkansas/Year-round-Intern---Transportation-Services_R0483113-1",
+      "external_id": "R0483113",
+      "verified_at": "2026-09-21T05:05:51Z",
+      "match_score": 85
+    },
+    {
       "id": "travelers-0dd645ed79b4",
       "source_key": "travelers",
       "fortune_rank": 96,
@@ -14494,7 +14716,7 @@
       "deadline": "2026-09-25",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Corporate-Communications-Internship_R-120884",
       "external_id": "R-120884",
-      "verified_at": "2026-09-21T00:20:44Z",
+      "verified_at": "2026-09-21T05:04:27Z",
       "match_score": 85
     },
     {
@@ -14605,7 +14827,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Decatur-AL/Operations-QA-Intern--Summer-2027--Decatur--AL_115757",
       "external_id": "115757",
-      "verified_at": "2026-09-21T00:18:49Z",
+      "verified_at": "2026-09-21T05:02:53Z",
       "match_score": 85
     },
     {
@@ -15625,241 +15847,6 @@
       "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Corporate-Customer-Focus-Internship---Summer-2027_R_14446",
       "external_id": "R_14446",
       "verified_at": "2026-09-19T18:04:33Z",
-      "match_score": 85
-    },
-    {
-      "id": "vf-523b7d5a1a77",
-      "source_key": "vf",
-      "fortune_rank": 425,
-      "fortune_500": true,
-      "company": "VF",
-      "title": "Service Delivery Technician Intern",
-      "location": "EMEA > CHE > Stabio > VF Campus VF1",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Service Delivery Technician Intern for our Digital Technology team. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-03",
-      "deadline": null,
-      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Service-Delivery-Technician-Intern_R-20260730-0011",
-      "external_id": "R-20260730-0011",
-      "verified_at": "2026-09-19T11:06:45Z",
-      "match_score": 90
-    },
-    {
-      "id": "vf-320d38dc4530",
-      "source_key": "vf",
-      "fortune_rank": 425,
-      "fortune_500": true,
-      "company": "VF",
-      "title": "Retail Digital Technology Product Intern",
-      "location": "EMEA > CHE > Stabio > VF Campus VF1",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Product management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "AI / ML",
-        "Product"
-      ],
-      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Retail Digital Technology Product Intern for Digital Technology . At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-03",
-      "deadline": null,
-      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Retail-Digital-Technology-Product-Intern_R-20260824-0035",
-      "external_id": "R-20260824-0035",
-      "verified_at": "2026-09-19T11:06:42Z",
-      "match_score": 90
-    },
-    {
-      "id": "vf-85f2e5ae5a07",
-      "source_key": "vf",
-      "fortune_rank": 425,
-      "fortune_500": true,
-      "company": "VF",
-      "title": "Marketing Automation Intern",
-      "location": "EMEA > CHE > Stabio > VF Campus VF1",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Digital transformation",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "SQL",
-        "Cloud",
-        "Operations"
-      ],
-      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Marketing Automation Intern for EMEA Digital Activation Team . At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-03",
-      "deadline": null,
-      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Marketing-Automation-Intern_R-20260728-0011",
-      "external_id": "R-20260728-0011",
-      "verified_at": "2026-09-19T11:06:45Z",
-      "match_score": 90
-    },
-    {
-      "id": "vf-fd70c0752f86",
-      "source_key": "vf",
-      "fortune_rank": 425,
-      "fortune_500": true,
-      "company": "VF",
-      "title": "Graphic Design Intern",
-      "location": "EMEA > CHE > Stabio > VF Campus VF1",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Wealth management"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Graphic Design Intern for the Graphics & Trend Apparel Team. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-03",
-      "deadline": null,
-      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Graphic-Design-Intern_R-20260812-0021",
-      "external_id": "R-20260812-0021",
-      "verified_at": "2026-09-19T11:06:45Z",
-      "match_score": 90
-    },
-    {
-      "id": "vf-90dbf982d72e",
-      "source_key": "vf",
-      "fortune_rank": 425,
-      "fortune_500": true,
-      "company": "VF",
-      "title": "Design & Material Intern",
-      "location": "EMEA > CHE > Stabio > VF Campus VF1",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product"
-      ],
-      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as a Design & Material Intern for The North Face Team. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-03",
-      "deadline": null,
-      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Design---Material-Intern_R-20260818-0024-1",
-      "external_id": "R-20260818-0024",
-      "verified_at": "2026-09-19T11:06:42Z",
-      "match_score": 90
-    },
-    {
-      "id": "vf-c33602532ae0",
-      "source_key": "vf",
-      "fortune_rank": 425,
-      "fortune_500": true,
-      "company": "VF",
-      "title": "Allocator Intern",
-      "location": "EMEA > CHE > Stabio > VF Campus VF1",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "FP&A",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product",
-        "Operations",
-        "FP&A"
-      ],
-      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Allocator Intern for The North Face. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-03",
-      "deadline": null,
-      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Allocator-Intern_R-20260818-0026-1",
-      "external_id": "R-20260818-0026",
-      "verified_at": "2026-09-19T11:06:48Z",
-      "match_score": 90
-    },
-    {
-      "id": "tyson-foods-25d5775ec921",
-      "source_key": "tyson-foods",
-      "fortune_rank": 87,
-      "fortune_500": true,
-      "company": "Tyson Foods",
-      "title": "Year-round Intern - Transportation Services",
-      "location": "Corporate 412 West - Springdale, Arkansas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Excel",
-        "Power BI",
-        "Cloud"
-      ],
-      "summary": "Job Details: Position Summary The Analytics Intern supports the Warehousing Analytics team in developing modern data, automation, AI, and operational technology solutions for Logistics and warehouse operations. The internship is designed to provide hands-on experience solving…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-03",
-      "deadline": null,
-      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN/job/Corporate-412-West---Springdale-Arkansas/Year-round-Intern---Transportation-Services_R0483113-2",
-      "external_id": "R0483113",
-      "verified_at": "2026-09-19T14:30:42Z",
-      "match_score": 85
-    },
-    {
-      "id": "tyson-foods-25d5775ec921",
-      "source_key": "tyson-foods",
-      "fortune_rank": 87,
-      "fortune_500": true,
-      "company": "Tyson Foods",
-      "title": "Year-round Intern - Transportation Services",
-      "location": "Corporate 412 West - Springdale, Arkansas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Excel",
-        "Power BI",
-        "Cloud"
-      ],
-      "summary": "Job Details: Position Summary The Analytics Intern supports the Warehousing Analytics team in developing modern data, automation, AI, and operational technology solutions for Logistics and warehouse operations. The internship is designed to provide hands-on experience solving…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-03",
-      "deadline": null,
-      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN1/job/Corporate-412-West---Springdale-Arkansas/Year-round-Intern---Transportation-Services_R0483113-1",
-      "external_id": "R0483113",
-      "verified_at": "2026-09-19T14:31:51Z",
       "match_score": 85
     },
     {
@@ -17868,6 +17855,36 @@
       "match_score": 85
     },
     {
+      "id": "biogen-3ed28a312445",
+      "source_key": "biogen",
+      "fortune_rank": 421,
+      "fortune_500": true,
+      "company": "Biogen",
+      "title": "Purchasing Intern – Operations and Project Support",
+      "location": "Warsaw, Poland",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "About This Role: As a Purchasing Intern within the P2P department, you will be an integral member of the Purchasing team, actively supporting operational activities related to the requisition-to-purchase-order process. This internship is designed to provide you with practical…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": null,
+      "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Warsaw-Poland/Purchasing-Intern---Operations-and-Project-Support_REQ24016",
+      "external_id": "REQ24016",
+      "verified_at": "2026-09-21T05:03:20Z",
+      "match_score": 85
+    },
+    {
       "id": "auto-owners-insurance-f19c71e1fd46",
       "source_key": "auto-owners-insurance",
       "fortune_rank": 241,
@@ -18432,36 +18449,6 @@
       "match_score": 90
     },
     {
-      "id": "biogen-3ed28a312445",
-      "source_key": "biogen",
-      "fortune_rank": 421,
-      "fortune_500": true,
-      "company": "Biogen",
-      "title": "Purchasing Intern – Operations and Project Support",
-      "location": "Warsaw, Poland",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "About This Role: As a Purchasing Intern within the P2P department, you will be an integral member of the Purchasing team, actively supporting operational activities related to the requisition-to-purchase-order process. This internship is designed to provide you with practical…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-31",
-      "deadline": null,
-      "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Warsaw-Poland/Purchasing-Intern---Operations-and-Project-Support_REQ24016",
-      "external_id": "REQ24016",
-      "verified_at": "2026-09-19T11:06:38Z",
-      "match_score": 85
-    },
-    {
       "id": "andersons-547617fc975c",
       "source_key": "andersons",
       "fortune_rank": 397,
@@ -18595,7 +18582,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
       "external_id": "115735",
-      "verified_at": "2026-09-21T00:18:50Z",
+      "verified_at": "2026-09-21T05:02:54Z",
       "match_score": 85
     },
     {
@@ -19028,7 +19015,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
       "external_id": "115736",
-      "verified_at": "2026-09-21T00:18:50Z",
+      "verified_at": "2026-09-21T05:02:54Z",
       "match_score": 85
     },
     {
@@ -19348,6 +19335,66 @@
       "match_score": 90
     },
     {
+      "id": "tyson-foods-88bdda1f6925",
+      "source_key": "tyson-foods",
+      "fortune_rank": 87,
+      "fortune_500": true,
+      "company": "Tyson Foods",
+      "title": "Tax Accounting Year-Round Intern",
+      "location": "Corporate - Springdale, Arkansas",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending",
+        "Accounting / financial analyst"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Job Details: Summary The Tax Accounting Intern Role is an entry-level position in the Tax organization that will be participating in various activities that can include: assisting with the preparation of sales and use tax returns; assisting with audits; assisting property or…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-27",
+      "deadline": null,
+      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN/job/Corporate---Springdale-Arkansas/Tax-Accounting-Year-Round-Intern_R0481422-2",
+      "external_id": "R0481422",
+      "verified_at": "2026-09-21T05:04:37Z",
+      "match_score": 85
+    },
+    {
+      "id": "tyson-foods-88bdda1f6925",
+      "source_key": "tyson-foods",
+      "fortune_rank": 87,
+      "fortune_500": true,
+      "company": "Tyson Foods",
+      "title": "Tax Accounting Year-Round Intern",
+      "location": "Corporate - Springdale, Arkansas",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending",
+        "Accounting / financial analyst"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Job Details: Summary The Tax Accounting Intern Role is an entry-level position in the Tax organization that will be participating in various activities that can include: assisting with the preparation of sales and use tax returns; assisting with audits; assisting property or…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-27",
+      "deadline": null,
+      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN1/job/Corporate---Springdale-Arkansas/Tax-Accounting-Year-Round-Intern_R0481422-1",
+      "external_id": "R0481422",
+      "verified_at": "2026-09-21T05:05:51Z",
+      "match_score": 85
+    },
+    {
       "id": "j-m-smucker-ca1dc4157d94",
       "source_key": "smucker",
       "fortune_rank": 456,
@@ -19372,7 +19419,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Quality-Assurance-Intern---Oxnard--CA_115727",
       "external_id": "115727",
-      "verified_at": "2026-09-21T00:18:50Z",
+      "verified_at": "2026-09-21T05:02:54Z",
       "match_score": 85
     },
     {
@@ -19397,7 +19444,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
       "external_id": "115725",
-      "verified_at": "2026-09-21T00:18:50Z",
+      "verified_at": "2026-09-21T05:02:54Z",
       "match_score": 85
     },
     {
@@ -19425,66 +19472,6 @@
       "url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Charlotte-NC-USA/Intern-Diesel-Mechanic--Paid-_100417",
       "external_id": "100417",
       "verified_at": "2026-09-20T01:14:03Z",
-      "match_score": 85
-    },
-    {
-      "id": "tyson-foods-88bdda1f6925",
-      "source_key": "tyson-foods",
-      "fortune_rank": 87,
-      "fortune_500": true,
-      "company": "Tyson Foods",
-      "title": "Tax Accounting Year-Round Intern",
-      "location": "Corporate - Springdale, Arkansas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending",
-        "Accounting / financial analyst"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Job Details: Summary The Tax Accounting Intern Role is an entry-level position in the Tax organization that will be participating in various activities that can include: assisting with the preparation of sales and use tax returns; assisting with audits; assisting property or…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-26",
-      "deadline": null,
-      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN/job/Corporate---Springdale-Arkansas/Tax-Accounting-Year-Round-Intern_R0481422-2",
-      "external_id": "R0481422",
-      "verified_at": "2026-09-19T14:30:43Z",
-      "match_score": 85
-    },
-    {
-      "id": "tyson-foods-88bdda1f6925",
-      "source_key": "tyson-foods",
-      "fortune_rank": 87,
-      "fortune_500": true,
-      "company": "Tyson Foods",
-      "title": "Tax Accounting Year-Round Intern",
-      "location": "Corporate - Springdale, Arkansas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending",
-        "Accounting / financial analyst"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Job Details: Summary The Tax Accounting Intern Role is an entry-level position in the Tax organization that will be participating in various activities that can include: assisting with the preparation of sales and use tax returns; assisting with audits; assisting property or…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-26",
-      "deadline": null,
-      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN1/job/Corporate---Springdale-Arkansas/Tax-Accounting-Year-Round-Intern_R0481422-1",
-      "external_id": "R0481422",
-      "verified_at": "2026-09-19T14:31:51Z",
       "match_score": 85
     },
     {
@@ -20611,7 +20598,7 @@
       "deadline": null,
       "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN/job/Tyson-Emma---Springdale-Arkansas/Year-round-Intern---UX-Design-and-Research_R0479275-2",
       "external_id": "R0479275",
-      "verified_at": "2026-09-19T14:30:43Z",
+      "verified_at": "2026-09-21T05:04:37Z",
       "match_score": 85
     },
     {
@@ -20639,7 +20626,7 @@
       "deadline": null,
       "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN1/job/Tyson-Emma---Springdale-Arkansas/Year-round-Intern---UX-Design-and-Research_R0479275-1",
       "external_id": "R0479275",
-      "verified_at": "2026-09-19T14:31:51Z",
+      "verified_at": "2026-09-21T05:05:51Z",
       "match_score": 85
     },
     {
@@ -20754,7 +20741,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-09-21T00:19:10Z",
+      "verified_at": "2026-09-21T05:03:05Z",
       "match_score": 85
     },
     {
@@ -22636,7 +22623,7 @@
       "deadline": null,
       "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Cincinnati-OH/Internship---Supply-Chain-Logistics-Associate_10128708",
       "external_id": "10128708",
-      "verified_at": "2026-09-19T11:06:35Z",
+      "verified_at": "2026-09-21T05:03:24Z",
       "match_score": 85
     },
     {
@@ -22665,7 +22652,7 @@
       "deadline": null,
       "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Minneapolis-MN/Internship---Sourcing-Analyst_10128706",
       "external_id": "10128706",
-      "verified_at": "2026-09-19T11:06:34Z",
+      "verified_at": "2026-09-21T05:03:24Z",
       "match_score": 85
     },
     {
@@ -22692,7 +22679,7 @@
       "deadline": null,
       "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Minneapolis-MN/Internship---Research---Development-Packaging-Engineer_10128711",
       "external_id": "10128711",
-      "verified_at": "2026-09-19T11:06:35Z",
+      "verified_at": "2026-09-21T05:03:24Z",
       "match_score": 85
     },
     {
@@ -22719,7 +22706,7 @@
       "deadline": null,
       "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Minneapolis-MN/Internship---Research---Development-Engineer_10128710",
       "external_id": "10128710",
-      "verified_at": "2026-09-19T11:06:35Z",
+      "verified_at": "2026-09-21T05:03:24Z",
       "match_score": 85
     },
     {
@@ -22750,7 +22737,7 @@
       "deadline": null,
       "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Belvidere-IL/Internship---Food-Safety---Quality-Associate_10128709",
       "external_id": "10128709",
-      "verified_at": "2026-09-19T11:06:35Z",
+      "verified_at": "2026-09-21T05:03:24Z",
       "match_score": 85
     },
     {
@@ -22778,7 +22765,7 @@
       "deadline": null,
       "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Minneapolis-MN/Internship---Digital---Technology-Associate_10128716",
       "external_id": "10128716",
-      "verified_at": "2026-09-19T11:06:34Z",
+      "verified_at": "2026-09-21T05:03:24Z",
       "match_score": 85
     },
     {
@@ -22808,7 +22795,7 @@
       "deadline": null,
       "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Minneapolis-MN/Internship---Business-Management-Associate--Retail-and-Pet-Sales_10128714",
       "external_id": "10128714",
-      "verified_at": "2026-09-19T11:06:35Z",
+      "verified_at": "2026-09-21T05:03:25Z",
       "match_score": 85
     },
     {
@@ -22836,7 +22823,7 @@
       "deadline": null,
       "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Minneapolis-MN/Internship---Business-Management-Associate--Foodservice-Sales_10128715",
       "external_id": "10128715",
-      "verified_at": "2026-09-19T11:06:35Z",
+      "verified_at": "2026-09-21T05:03:24Z",
       "match_score": 85
     },
     {
@@ -25166,7 +25153,7 @@
       "deadline": null,
       "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Madrid-Spain/Medical-Intern_REQ23749",
       "external_id": "REQ23749",
-      "verified_at": "2026-09-19T11:06:38Z",
+      "verified_at": "2026-09-21T05:03:19Z",
       "match_score": 85
     },
     {
@@ -25191,7 +25178,7 @@
       "deadline": null,
       "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Madrid-Spain/HR-Intern_REQ23755",
       "external_id": "REQ23755",
-      "verified_at": "2026-09-19T11:06:38Z",
+      "verified_at": "2026-09-21T05:03:19Z",
       "match_score": 85
     },
     {
@@ -25750,7 +25737,7 @@
       "deadline": null,
       "url": "https://www.zoetis.com/join-us/intern-at-zoetis",
       "external_id": null,
-      "verified_at": "2026-09-19T11:06:51Z",
+      "verified_at": "2026-09-21T05:03:39Z",
       "match_score": 85
     },
     {
@@ -25926,7 +25913,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-09-21T00:18:15Z",
+      "verified_at": "2026-09-21T05:02:17Z",
       "match_score": 85
     },
     {
@@ -25988,7 +25975,7 @@
       "deadline": null,
       "url": "https://careers.massmutual.com/job/springfield/business-operations-intern-summer-2027/724/100746307024",
       "external_id": null,
-      "verified_at": "2026-09-21T00:18:14Z",
+      "verified_at": "2026-09-21T05:02:16Z",
       "match_score": 90
     },
     {
@@ -26046,7 +26033,7 @@
       "deadline": null,
       "url": "https://careers.kimberly-clark.com/en/blog/navigating-to-create-new-career-experiences-from-intern-to-global-leader",
       "external_id": null,
-      "verified_at": "2026-09-19T11:05:41Z",
+      "verified_at": "2026-09-21T05:02:30Z",
       "match_score": 85
     },
     {
@@ -26659,7 +26646,7 @@
       "deadline": null,
       "url": "https://jobs.expandenergy.com/job/Oklahoma-City-Intern-Treasury-OK-73118/1429763000/",
       "external_id": null,
-      "verified_at": "2026-09-19T14:29:44Z",
+      "verified_at": "2026-09-21T05:03:56Z",
       "match_score": 90
     },
     {
@@ -26688,7 +26675,7 @@
       "deadline": null,
       "url": "https://jobs.expandenergy.com/job/Oklahoma-City-Intern-Tax-OK-73118/1429763200/",
       "external_id": null,
-      "verified_at": "2026-09-19T14:29:44Z",
+      "verified_at": "2026-09-21T05:03:56Z",
       "match_score": 90
     },
     {
@@ -26717,7 +26704,7 @@
       "deadline": null,
       "url": "https://jobs.expandenergy.com/job/Oklahoma-City-Intern-Supply-Chain-OK-73118/1430442400/",
       "external_id": null,
-      "verified_at": "2026-09-19T14:29:44Z",
+      "verified_at": "2026-09-21T05:03:56Z",
       "match_score": 90
     },
     {
@@ -26748,37 +26735,8 @@
       "deadline": null,
       "url": "https://jobs.expandenergy.com/job/Oklahoma-City-Intern-IT-OK-73118/1429773900/",
       "external_id": null,
-      "verified_at": "2026-09-19T14:29:44Z",
+      "verified_at": "2026-09-21T05:03:56Z",
       "match_score": 85
-    },
-    {
-      "id": "expand-energy-a1c07a37b240",
-      "source_key": "expand-energy",
-      "fortune_rank": 362,
-      "fortune_500": true,
-      "company": "Expand Energy",
-      "title": "Intern - Corporate Development",
-      "location": "Search by Location",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "We use cookies to offer you the best possible website experience. Your cookie preferences will be stored in your browser’s local storage. This includes cookies necessary for the website's operation. Additionally, you can freely decide and change any time whether you accept…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "sity Minimum: Other - Cumulative GPA of 3.0 or higher on a 4.0 scale Additional Qualifications Must graduate on or after December 2027 Expand Energy takes necessary action…",
-      "freshman_friendly": true,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://jobs.expandenergy.com/job/Spring-Intern-Corporate-Development-TX-77389/1429774500/",
-      "external_id": null,
-      "verified_at": "2026-09-19T14:29:44Z",
-      "match_score": 90
     },
     {
       "id": "expand-energy-153a519f86b3",
@@ -26810,7 +26768,7 @@
       "deadline": null,
       "url": "https://jobs.expandenergy.com/job/Oklahoma-City-Intern-Accounting-OK-73118/1429773700/",
       "external_id": null,
-      "verified_at": "2026-09-19T14:29:44Z",
+      "verified_at": "2026-09-21T05:03:56Z",
       "match_score": 85
     },
     {
@@ -26869,7 +26827,7 @@
       "deadline": null,
       "url": "https://enterpriseproducts.com/careers/early-careers/",
       "external_id": null,
-      "verified_at": "2026-09-19T14:30:01Z",
+      "verified_at": "2026-09-21T05:03:57Z",
       "match_score": 85
     },
     {
