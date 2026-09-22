@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T15:03:31Z",
+  "updated_at": "2026-09-22T19:00:55Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,11 +12,24 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-09-22T14:58:58Z",
+  "directory_refreshed_at": "2026-09-22T18:57:26Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 265,
-  "companies_failed_last_24h": 5,
+  "companies_failed_last_24h": 6,
   "failed_or_blocked_companies_last_24h": [
+    {
+      "key": "alcoa",
+      "rank": 344,
+      "company": "Alcoa",
+      "fortune_500": true,
+      "checked_at": "2026-09-22T19:00:55Z",
+      "status": "error",
+      "issue_type": "Scan error",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs: 404 Client Error: Not Found for url: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs"
+    },
     {
       "key": "bank-of-america",
       "rank": 20,
@@ -83,9 +96,9 @@
       "error": null
     }
   ],
-  "companies_with_eligible_jobs": 72,
+  "companies_with_eligible_jobs": 74,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 711,
+  "opportunity_count": 742,
   "opportunities": [
     {
       "id": "jabil-552dd37be353",
@@ -169,6 +182,64 @@
       "external_id": "1640816",
       "verified_at": "2026-09-22T05:06:23Z",
       "match_score": 85
+    },
+    {
+      "id": "boeing-31cd68fc97a0",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Manufacturing Engineering Internship",
+      "location": "GBR - Sheffield, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Manufacturing Engineering Internship Company: Boeing United Kingdom Limited This post is for a Manufacturing Engineering Intern to work within the engineering function in Boeing Fabrication based in Sheffield. Boeing Fabrication is the internal supply chain supporting Boeing…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-22",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Sheffield-UK/Manufacturing-Engineering-Internship_JR2026524411",
+      "external_id": "JR2026524411",
+      "verified_at": "2026-09-22T19:00:31Z",
+      "match_score": 85
+    },
+    {
+      "id": "assurant-72a0e9a6e6a4",
+      "source_key": "assurant",
+      "fortune_rank": 345,
+      "fortune_500": true,
+      "company": "Assurant",
+      "title": "Summer 2027 Intern: Global Finance Intern",
+      "location": "Atlanta, GA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate finance",
+        "Business analyst",
+        "Wealth management"
+      ],
+      "tags": [
+        "SQL",
+        "Excel",
+        "Power BI",
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "Overview The Global Finance Internship Program at Assurant is a 12-week immersive experience designed to provide hands-on exposure within Accounting, Business Finance, Tax, Investments, Internal Audit & Analytics, Vendor Management or Actuarial",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "related field and will have at least on semester remaining following the summer internship Expected graduation between December 2027 – June 2029 Basic Excel skills…",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-22",
+      "deadline": "2027-08-07",
+      "url": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Atlanta-GA/Summer-2027-Intern--Global-Finance-Intern_R-115643",
+      "external_id": "R-115643",
+      "verified_at": "2026-09-22T18:58:22Z",
+      "match_score": 90
     },
     {
       "id": "salesforce-a42debff868d",
@@ -462,6 +533,34 @@
       "match_score": 85
     },
     {
+      "id": "dxc-technology-abd080b11213",
+      "source_key": "dxc-technology",
+      "fortune_rank": 343,
+      "fortune_500": true,
+      "company": "DXC Technology",
+      "title": "IT Support Internship (2026 Intake)",
+      "location": "MYS - PETALING JAYA",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "Job Description: DXC Technology is a Fortune 500 global IT services leader. Our more than 130,000 people in 70- plus countries are entrusted by our customers to deliver what matters most. We use the power of technology to deliver mission-critical IT services across the…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-21",
+      "deadline": null,
+      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/IT-Support-Internship--2026-Intake-_51580567",
+      "external_id": "51580567",
+      "verified_at": "2026-09-22T18:58:54Z",
+      "match_score": 85
+    },
+    {
       "id": "abbott-laboratories-b4e86d80249d",
       "source_key": "abbott-laboratories",
       "fortune_rank": 107,
@@ -513,178 +612,6 @@
       "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Taiwan----Taipei----Mingsheng-Commercial-Building/Marketing-Intern_31162722",
       "external_id": "31162722",
       "verified_at": "2026-09-21T10:51:00Z",
-      "match_score": 85
-    },
-    {
-      "id": "pfizer-2152dfa43136",
-      "source_key": "pfizer",
-      "fortune_rank": 73,
-      "fortune_500": true,
-      "company": "Pfizer",
-      "title": "Internship – APAC RIO (Regulatory)",
-      "location": "Malaysia - Kuala Lumpur",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "To learn more about acceptable and prohibited uses of AI during the recruitment process, please review our candidate AI-use guidelines available on Pfizer Careers",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-19",
-      "deadline": null,
-      "url": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Malaysia---Kuala-Lumpur/Internship---APAC-RIO--Regulatory-_4964215",
-      "external_id": "4964215",
-      "verified_at": "2026-09-21T00:20:35Z",
-      "match_score": 85
-    },
-    {
-      "id": "live-nation-entertainment-dba3cb350cdc",
-      "source_key": "live-nation-entertainment",
-      "fortune_rank": 180,
-      "fortune_500": true,
-      "company": "Live Nation Entertainment",
-      "title": "C3 Presents - Travel Services Intern",
-      "location": "Austin, TX, USA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Accounting"
-      ],
-      "summary": "C3 Presents (which is owned by Live Nation Entertainment ) creates live experiences for millions of fans across the globe, setting the new standard each year for events that are as memorable as they are spectacular. One of the world’s largest music festival producers, C3 is the…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-19",
-      "deadline": null,
-      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Austin-TX-USA/C3-Presents---Travel-Services-Intern_JR-93226",
-      "external_id": "JR-93226",
-      "verified_at": "2026-09-21T00:18:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "live-nation-entertainment-2f96857e2d41",
-      "source_key": "live-nation-entertainment",
-      "fortune_rank": 180,
-      "fortune_500": true,
-      "company": "Live Nation Entertainment",
-      "title": "C3 Presents - Premium Client Services Intern",
-      "location": "Austin, TX, USA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "C3 Presents (which is owned by Live Nation Entertainment ) creates live experiences for millions of fans across the globe, setting the new standard each year for events that are as memorable as they are spectacular. One of the world’s largest music festival producers, C3 is the…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-19",
-      "deadline": null,
-      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Austin-TX-USA/C3-Presents---Premium-Client-Services-Intern_JR-93214",
-      "external_id": "JR-93214",
-      "verified_at": "2026-09-21T00:18:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "live-nation-entertainment-d351781ea1c0",
-      "source_key": "live-nation-entertainment",
-      "fortune_rank": 180,
-      "fortune_500": true,
-      "company": "Live Nation Entertainment",
-      "title": "C3 Presents - Festival Operations & Sustainability Intern",
-      "location": "Austin, TX, USA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "C3 Presents (which is owned by Live Nation Entertainment ) creates live experiences for millions of fans across the globe, setting the new standard each year for events that are as memorable as they are spectacular. One of the world’s largest music festival producers, C3 is the…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-19",
-      "deadline": null,
-      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Austin-TX-USA/C3-Presents---Festival-Operations---Sustainability-Intern_JR-93215-1",
-      "external_id": "JR-93215",
-      "verified_at": "2026-09-21T00:18:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "live-nation-entertainment-a05fc2969826",
-      "source_key": "live-nation-entertainment",
-      "fortune_rank": 180,
-      "fortune_500": true,
-      "company": "Live Nation Entertainment",
-      "title": "C3 Presents - Festival Marketing Intern",
-      "location": "Austin, TX, USA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "C3 Presents (which is owned by Live Nation Entertainment ) creates live experiences for millions of fans across the globe, setting the new standard each year for events that are as memorable as they are spectacular. One of the world’s largest music festival producers, C3 is the…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-19",
-      "deadline": null,
-      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Austin-TX-USA/C3-Presents---Festival-Marketing-Intern_JR-93213",
-      "external_id": "JR-93213",
-      "verified_at": "2026-09-21T00:18:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "live-nation-entertainment-1fc27758f1bb",
-      "source_key": "live-nation-entertainment",
-      "fortune_rank": 180,
-      "fortune_500": true,
-      "company": "Live Nation Entertainment",
-      "title": "C3 Presents - Culture & Office Operations Intern",
-      "location": "Austin, TX, USA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "C3 Presents (which is owned by Live Nation Entertainment ) creates live experiences for millions of fans across the globe, setting the new standard each year for events that are as memorable as they are spectacular. One of the world’s largest music festival producers, C3 is the…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-19",
-      "deadline": null,
-      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Austin-TX-USA/C3-Presents---Culture---Office-Operations-Intern_JR-93217",
-      "external_id": "JR-93217",
-      "verified_at": "2026-09-21T00:18:51Z",
       "match_score": 85
     },
     {
@@ -1680,6 +1607,34 @@
       "match_score": 85
     },
     {
+      "id": "ryder-system-ab47370c7361",
+      "source_key": "ryder-system",
+      "fortune_rank": 346,
+      "fortune_500": true,
+      "company": "Ryder System",
+      "title": "Diesel Apprentice - Technician II",
+      "location": "CAN - Dartmouth NS B3B 1V8",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations"
+      ],
+      "summary": "Job Seekers can review the Job Applicant Privacy Policy by clicking here . Job Description : About Ryder For almost 100 years, Ryder has provided customers around the world with integrated transportation, logistics, and supply chain management solutions that enhance the way…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-16",
+      "deadline": null,
+      "url": "https://ryder.wd5.myworkdayjobs.com/RyderCareers/job/CAN---Dartmouth-NS-B3B-1V8/Diesel-Apprentice---Technician-II_R181921",
+      "external_id": "R181921",
+      "verified_at": "2026-09-22T18:59:29Z",
+      "match_score": 85
+    },
+    {
       "id": "rockwell-automation-fa812a681c18",
       "source_key": "rockwell-automation",
       "fortune_rank": 467,
@@ -2136,31 +2091,6 @@
       "match_score": 85
     },
     {
-      "id": "campbell-s-b0e990ac7d1f",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Packaging Engineer Co-Op",
-      "location": "USA - NJ - Camden",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-16",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Packaging-Engineer-Co-Op_Req-68221",
-      "external_id": "Req-68221",
-      "verified_at": "2026-09-21T00:19:16Z",
-      "match_score": 85
-    },
-    {
       "id": "c-h-robinson-worldwide-9167a1c24d07",
       "source_key": "c-h-robinson-worldwide",
       "fortune_rank": 277,
@@ -2270,6 +2200,34 @@
       "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Annapolis-Junction-MD/Systems-Administrator-Intern_R0249566",
       "external_id": "R0249566",
       "verified_at": "2026-09-21T17:08:32Z",
+      "match_score": 85
+    },
+    {
+      "id": "baker-hughes-987b12325cd9",
+      "source_key": "baker-hughes",
+      "fortune_rank": 164,
+      "fortune_500": true,
+      "company": "Baker Hughes",
+      "title": "Intern - Data Analytics - 2026 (M/F/D)",
+      "location": "IT-FI-FLORENCE-VIA FELICE MATTEUCCI 2",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "Would you like the opportunity to work in a global energy company? Do you enjoy taking on challenging projects? Join our innovating Internship Program We are looking for a highly motivated intern to support data analysis, planning, and monitoring of key indicators, contributing…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-16",
+      "deadline": null,
+      "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/IT-FI-FLORENCE-VIA-FELICE-MATTEUCCI-2/Emerging-Talent---Data-Analytics-Intern-2026-Opportunities--Florence-_R164944",
+      "external_id": "R164944",
+      "verified_at": "2026-09-22T18:58:51Z",
       "match_score": 85
     },
     {
@@ -3981,7 +3939,684 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Supply-Chain-Intern--Summer-2027_115694",
       "external_id": "115694",
-      "verified_at": "2026-09-22T14:59:45Z",
+      "verified_at": "2026-09-22T18:58:08Z",
+      "match_score": 85
+    },
+    {
+      "id": "guardian-life-ins-co-of-america-c793176fbb1a",
+      "source_key": "guardian-life-ins-co-of-america",
+      "fortune_rank": 232,
+      "fortune_500": true,
+      "company": "Guardian Life Ins. Co. of America",
+      "title": "2027 Guardian Summer Intern, Digital & Technology, Cybersecurity",
+      "location": "New York",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Risk",
+        "Accounting"
+      ],
+      "summary": "2027 Guardian Summer Intern, Digital & Technology - Cybersecurity Our 2027 Summer Internship Program is a paid 10-week learning experience where you will be immersed in the daily environment of a thriving global financial services company",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "at 11:59PM ET or when role(s) have been filled, whichever comes first. You are: A current junior (graduation date of December 2027 or May 2028) or current sophomore…",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-11-14",
+      "url": "https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology--Cybersecurity_R000110211",
+      "external_id": "R000110211",
+      "verified_at": "2026-09-22T19:00:04Z",
+      "match_score": 90
+    },
+    {
+      "id": "guardian-life-ins-co-of-america-41618fe6485a",
+      "source_key": "guardian-life-ins-co-of-america",
+      "fortune_rank": 232,
+      "fortune_500": true,
+      "company": "Guardian Life Ins. Co. of America",
+      "title": "2027 Guardian Summer Intern, Digital & Technology, Cloud & DevOps",
+      "location": "Bethlehem",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Cloud",
+        "AI / ML",
+        "Product",
+        "Accounting"
+      ],
+      "summary": "2027 Guardian Summer Intern, Digital & Technology – Cloud & DevOps Our 2027 Summer Internship Program is a paid 10-week learning experience where you will be immersed in the daily environment of a thriving global financial services company",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "at 11:59PM ET or when role(s) have been filled, whichever comes first. You are: A current junior (graduation date of December 2027 or May 2028) or current sophomore…",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-11-14",
+      "url": "https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers/job/Bethlehem/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology--Cloud---DevOps_R000110210",
+      "external_id": "R000110210",
+      "verified_at": "2026-09-22T19:00:04Z",
+      "match_score": 90
+    },
+    {
+      "id": "guardian-life-ins-co-of-america-b23b82f2e280",
+      "source_key": "guardian-life-ins-co-of-america",
+      "fortune_rank": 232,
+      "fortune_500": true,
+      "company": "Guardian Life Ins. Co. of America",
+      "title": "2027 Guardian Summer Intern, Digital & Technology – Data Engineering",
+      "location": "New York",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Technical Solutions",
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Cloud",
+        "AI / ML",
+        "Product"
+      ],
+      "summary": "2027 Guardian Summer Intern, Digital & Technology – Data Engineering Our 2027 Summer Internship Program is a paid 10-week learning experience where you will be immersed in the daily environment of a thriving global financial services company",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "at 11:59PM ET or when role(s) have been filled, whichever comes first. You are: A current junior (graduation date of December 2027 or May 2028) or current sophomore…",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-11-14",
+      "url": "https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology---Data-Engineering_R000110202",
+      "external_id": "R000110202",
+      "verified_at": "2026-09-22T19:00:06Z",
+      "match_score": 90
+    },
+    {
+      "id": "guardian-life-ins-co-of-america-e20a7c9ef525",
+      "source_key": "guardian-life-ins-co-of-america",
+      "fortune_rank": 232,
+      "fortune_500": true,
+      "company": "Guardian Life Ins. Co. of America",
+      "title": "2027 Guardian Summer Intern, Digital & Technology – AI & Machine Learning",
+      "location": "New York",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "AI / ML",
+        "Product",
+        "Accounting"
+      ],
+      "summary": "2027 Guardian Summer Intern, Digital & Technology – AI & Machine Learning Our 2027 Summer Internship Program is a paid 10-week learning experience where you will be immersed in the daily environment of a thriving global financial services company",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "at 11:59PM ET or when role(s) have been filled, whichever comes first. You are: A current junior (graduation date of December 2027 or May 2028) or current sophomore…",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-11-14",
+      "url": "https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology---AI---Machine-Learning_R000110205",
+      "external_id": "R000110205",
+      "verified_at": "2026-09-22T19:00:04Z",
+      "match_score": 90
+    },
+    {
+      "id": "guardian-life-ins-co-of-america-e7fdc4df9c2d",
+      "source_key": "guardian-life-ins-co-of-america",
+      "fortune_rank": 232,
+      "fortune_500": true,
+      "company": "Guardian Life Ins. Co. of America",
+      "title": "2027 Guardian Summer Intern, Digital & Technology - Application Development",
+      "location": "New York",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud",
+        "AI / ML",
+        "Product",
+        "Accounting"
+      ],
+      "summary": "2027 Guardian Summer Intern, Digital & Technology - Application Development Our 2027 Summer Internship Program is a paid 10-week learning experience where you will be immersed in the daily environment of a thriving global financial services company",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "at 11:59PM ET or when role(s) have been filled, whichever comes first. You are: A current junior (graduation date of December 2027 or May 2028) or current sophomore…",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-11-14",
+      "url": "https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology---Application-Development_R000110209",
+      "external_id": "R000110209",
+      "verified_at": "2026-09-22T19:00:04Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-aa89abd7fa70",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Talent Acquisition Intern - 12 Month Placement",
+      "location": "GBR - Bristol, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Talent Acquisition Intern - 12 Month Placement Company: Boeing United Kingdom Limited We are looking to hire an experienced Talent Acquisition Intern to support our growing portfolio across the UK & Ireland. You will be a key member of the TA team, supporting hiring the best…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Bristol-UK/Talent-Acquisition-Intern---12-Month-Placement_JR2026524412",
+      "external_id": "JR2026524412",
+      "verified_at": "2026-09-22T19:00:29Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-a2ba90f2f57e",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Support Engineering Data Intern- Summer 2027",
+      "location": "GBR - Welwyn Garden City, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Support Engineering Data Intern- Summer 2027 Company: Boeing Commercial Aviation Services Europe Limited Our products support the maintenance, modification and repair of the Boeing commercial fleet and the users of our products require concise, accurate technical documentation",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Welwyn-Garden-City-UK/Support-Engineering-Data-Intern--Summer-2027_JR2026524227",
+      "external_id": "JR2026524227",
+      "verified_at": "2026-09-22T19:00:29Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-5da491752475",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Support Engineering Data Intern- 12 Month Placement",
+      "location": "GBR - Welwyn Garden City, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Support Engineering Data Intern- 12 Month Placement Company: Boeing Commercial Aviation Services Europe Limited Our products support the maintenance, modification and repair of the Boeing commercial fleet and the users of our products require concise, accurate technical…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Welwyn-Garden-City-UK/Support-Engineering-Data-Intern--12-Month-Placement_JR2026520888",
+      "external_id": "JR2026520888",
+      "verified_at": "2026-09-22T19:00:30Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-fcc8e94ed0c4",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Supply Chain Management Intern (Vertical Lift) - 12 Month Placement",
+      "location": "GBR - Gosport, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "FP&A",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy",
+        "Finance",
+        "FP&A",
+        "Risk"
+      ],
+      "summary": "Supply Chain Management Intern (Vertical Lift) - 12 Month Placement Company: Boeing Defence United Kingdom Limited Position overview : This post is for a Supply Chain Intern (Vertical Lift) to work within the Supply Chain function in Boeing Defence UK (BDUK) in Gosport",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Gosport-UK/Supply-Chain-Management-Intern--Vertical-Lift----12-Month-Placement_JR2026522118",
+      "external_id": "JR2026522118",
+      "verified_at": "2026-09-22T19:00:30Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-1f9eddea8b81",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Supply Chain Management Intern (Fixed Wing) - 12 Month Placement",
+      "location": "GBR - Bristol, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "FP&A",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy",
+        "Finance",
+        "FP&A",
+        "Risk"
+      ],
+      "summary": "Supply Chain Management Intern (Fixed Wing) - 12 Month Placement Company: Boeing Defence United Kingdom Limited Boeing Defence UK is seeking an enthusiastic and high-performing Supply Chain Intern (Fixed Wing) to work within the Supply Chain function in Bristol",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Bristol-UK/Supply-Chain-Management-Intern--Fixed-Wing----12-Month-Placement_JR2026522131",
+      "external_id": "JR2026522131",
+      "verified_at": "2026-09-22T19:00:30Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-2ea60434988c",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Simulator Engineering Intern - 12 Month Placement",
+      "location": "GBR - Crawley, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Simulator Engineering Intern - 12 Month Placement Company: The Boeing Company Boeing Training Solutions is a passionate aviation inspired team that enables world class flight crew training products for global customers. This engineering internship will be embedded at Boeing’s…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Crawley-UK/Simulator-Engineering-Intern---12-Month-Placement_JR2026521374",
+      "external_id": "JR2026521374",
+      "verified_at": "2026-09-22T19:00:29Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-60e33815af49",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Project Management Intern- Summer 2027",
+      "location": "GBR - Prestwick, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "Project Management Intern- Summer 2027 Company: Boeing United Kingdom Limited This 3-month Project Management Internship is based within Boeing’s Aerospace Innovation Centre (AIC) and supports an Aerospace Engineering Research and Technology Development Programme delivered in…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Prestwick-UK/Project-Management-Intern--Summer-2027_JR2026520348",
+      "external_id": "JR2026520348",
+      "verified_at": "2026-09-22T19:00:28Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-e8d08d461d7e",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "PMO Analyst Intern - 12 Month Placement",
+      "location": "GBR - Frimley, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "PMO Analyst Intern - 12 Month Placement Company: Boeing Commercial Aviation Services Europe Limited We are seeking a full-time, organized and self-motivated undergraduate intern for a PMO Analyst role to join the Boeing Global Services, Commercial Modifications Europe Programme…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Frimley-UK/PMO-Analyst-Intern---12-Month-Placement_JR2026523028",
+      "external_id": "JR2026523028",
+      "verified_at": "2026-09-22T19:00:29Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-3ce4df592812",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Human Resources Services Specialist Intern - 12 Months Placement",
+      "location": "GBR - Bristol, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Human Resources Services Specialist Intern - 12 Months Placement Company: Boeing United Kingdom Limited At Boeing, we are all innovators on a mission to connect, protect, explore and inspire. From the seabed to outer space, you’ll learn and grow, contributing to work that…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Bristol-UK/Human-Resources-Services-Specialist-Intern---12-Months-Placement_JR2026523025",
+      "external_id": "JR2026523025",
+      "verified_at": "2026-09-22T19:00:29Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-587ba0cad0f4",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Government Affairs Intern- 12 Months Placement",
+      "location": "GBR - London, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy"
+      ],
+      "summary": "Government Affairs Intern- 12 Months Placement Company: Boeing United Kingdom Limited Boeing is looking for a Government Affairs Intern to be based in Westminster, London . Boeing’s UK & Ireland Government Affairs team’s function is to understand and shape public policy and the…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-16",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---London-UK/Government-Affairs-Intern--12-Months-Placement_JR2026520528",
+      "external_id": "JR2026520528",
+      "verified_at": "2026-09-22T19:00:29Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-83297d83ebd1",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Finance Intern - 12 Months Placement",
+      "location": "GBR - Bristol, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate finance",
+        "Business analyst",
+        "FP&A"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Finance",
+        "FP&A"
+      ],
+      "summary": "Finance Intern - 12 Months Placement Company: Boeing Defence United Kingdom Limited This post is for a Finance Intern to work within the engineering function in Boeing Defence UK (BDUK) in Bristol . BDUK is a subsidiary of the Boeing Company and currently employs over 1,200…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Bristol-UK/Finance-Intern---12-Months-Placement_JR2026519348",
+      "external_id": "JR2026519348",
+      "verified_at": "2026-09-22T19:00:28Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-80b4a48ce245",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Finance Intern (Accounting) - 12 Month Placement",
+      "location": "GBR - Bristol, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate finance",
+        "Business analyst",
+        "Technical Account Management"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Finance Intern (Accounting) - 12 Month Placement Company: Boeing United Kingdom Limited This post is for a Finance Intern to work within the Core Accounting function of the International Controllership Accounting Team in Boeing UK Ltd (BUKL) in Bristol",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Bristol-UK/Finance-Intern--Accounting----12-Month-Placement_JR2026520252",
+      "external_id": "JR2026520252",
+      "verified_at": "2026-09-22T19:00:29Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-b5811778e219",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Engineering Intern - Summer 2027",
+      "location": "GBR - Prestwick, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "Engineering Intern - Summer 2027 Company: Boeing United Kingdom Limited This 3-month Engineering internship is based within Boeing’s Aerospace Innovation Centre (AIC) and supports an Aerospace Engineering Research and Technology Development Programme delivered in collaboration…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Prestwick-UK/Engineering-Intern---Summer-2027_JR2026520518",
+      "external_id": "JR2026520518",
+      "verified_at": "2026-09-22T19:00:27Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-6d68a5be3df5",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Engineering Intern - January 2027",
+      "location": "IRL - Dublin, Ireland",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Engineering Intern - January 2027 Company: Boeing Ireland Limited Boeing Global Services are looking for Engineering Interns to join our team in Dublin and gain exposure through supporting the certification of aircraft modifications",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-16",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/IRL---Dublin-Ireland/Engineering-Intern---January-2027_JR2026524284",
+      "external_id": "JR2026524284",
+      "verified_at": "2026-09-22T19:00:28Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-bbc15762c757",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Data Analytics Intern - 6 Months",
+      "location": "GBR - Bristol, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Data Analytics Intern - 6 Months Company: Boeing Defence United Kingdom Limited Boeing Defence UK Data Analytics team is seeking a highly motivated intern for a period of 6-8 weeks over the summer months to work in their Bristol office",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Bristol-UK/Data-Analytics-Intern---6-Months_JR2026523727-1",
+      "external_id": "JR2026523727",
+      "verified_at": "2026-09-22T19:00:28Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-d3d72b5a8dc4",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Data Analytics Intern - 12 Month Placement",
+      "location": "GBR - Bristol, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Data Analytics Intern - 12 Month Placement Company: Boeing Defence United Kingdom Limited Boeing Defence UK Data Analytics team is seeking a highly motivated intern for a period of 12 months to work in their Bristol office. The Data Analytics team provides analytics capability…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Bristol-UK/Data-Analytics-Intern---12-Month-Placement_JR2026523726",
+      "external_id": "JR2026523726",
+      "verified_at": "2026-09-22T19:00:28Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-31181af2a4ed",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Commercial Intern- 12 Months Placement",
+      "location": "GBR - Bristol, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Commercial Intern- 12 Months Placement Company: Boeing Defence United Kingdom Limited We are looking for a Commercial Intern to start in July 2027 within the Boeing Defence United Kingdom Bristol-based Commercial Team. The position is based in Bristol reporting to the Head of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Bristol-UK/Commercial-Intern--12-Months-Placement_JR2026518684-1",
+      "external_id": "JR2026518684",
+      "verified_at": "2026-09-22T19:00:28Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-73ecf3201207",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Commercial Intern",
+      "location": "GBR - Gosport, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Commercial Intern Company: Boeing Defence United Kingdom Limited We are looking for a Commercial Intern to start in July 2027 within the Boeing Defence United Kingdom Commercial Team. The position is based in Gosport reporting to the Head of Commercial",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Gosport-UK/Commercial-Intern_JR2026522032-1",
+      "external_id": "JR2026522032",
+      "verified_at": "2026-09-22T19:00:27Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-5cd4ab13e3eb",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Aerodynamics Engineering Intern- Summer 2027",
+      "location": "GBR - Farnborough, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python"
+      ],
+      "summary": "Aerodynamics Engineering Intern- Summer 2027 Company: Boeing United Kingdom Limited An internship opportunity has arisen at Boeing’s UK High-Lift Aerodynamics Collaboration Centre ( HiLACC ), based at the 5 Metre wind tunnel at the Cody Technology Park, Farnborough, UK",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Farnborough-UK/Aerodynamics-Engineering-Intern--Summer-2027_JR2026519329",
+      "external_id": "JR2026519329",
+      "verified_at": "2026-09-22T19:00:28Z",
       "match_score": 85
     },
     {
@@ -4184,34 +4819,6 @@
       "url": "https://otis.wd504.myworkdayjobs.com/REC_Ext_Gateway/job/8-Kallang-Avenue-07-0109-Aperia-Tower-1-Singapore/Sales-Intern_20168441",
       "external_id": "20168441",
       "verified_at": "2026-09-22T10:04:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "medline-490d90d557ba",
-      "source_key": "medline",
-      "fortune_rank": 159,
-      "fortune_500": true,
-      "company": "Medline",
-      "title": "Human Resources Intern - Summer 2027",
-      "location": "Northfield, Illinois",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Strategy"
-      ],
-      "summary": "Job Summary With more than 50 years of consecutive growth, we’ve built a dynamic workplace where over 45,000 employees worldwide are empowered to grow and contribute to our entrepreneurial culture. As we continue to grow, we’re looking for talented individuals, like you, to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-12",
-      "deadline": null,
-      "url": "https://medline.wd5.myworkdayjobs.com/Medline/job/Northfield-Illinois/Human-Resources-Intern---Summer-2027_R2617165",
-      "external_id": "R2617165",
-      "verified_at": "2026-09-21T00:19:48Z",
       "match_score": 85
     },
     {
@@ -4991,6 +5598,34 @@
       "match_score": 90
     },
     {
+      "id": "assurant-a2b7aaae0083",
+      "source_key": "assurant",
+      "fortune_rank": 345,
+      "fortune_500": true,
+      "company": "Assurant",
+      "title": "Behavioral Science Intern",
+      "location": "Buenos Aires (Butty)",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product"
+      ],
+      "summary": "Job Purpose The People Organization is seeking an intern to help explore how principles from Behavioral Science can be applied to improve employee experiences, product adoption, change adoption, and self-service utilization of People Org",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-11",
+      "deadline": null,
+      "url": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Buenos-Aires-Butty/Behavioral-Science-Intern_R-115435-1",
+      "external_id": "R-115435",
+      "verified_at": "2026-09-22T18:58:24Z",
+      "match_score": 85
+    },
+    {
       "id": "xcel-energy-da6684a125d0",
       "source_key": "xcel-energy",
       "fortune_rank": 306,
@@ -5192,35 +5827,6 @@
       "match_score": 85
     },
     {
-      "id": "prudential-financial-7803c90cc485",
-      "source_key": "prudential-financial",
-      "fortune_rank": 78,
-      "fortune_500": true,
-      "company": "Prudential Financial",
-      "title": "PGIM | Real Estate Private Equity Analyst Intern (all genders)",
-      "location": "Paris, France",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Wealth management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "WHAT YOU WILL DO The Intern Analyst will work on a wide range of deals, including direct and operational real estate. The Intern will be involved in the full investment process and will assist with acquisition, asset management, portfolio management and disposition duties",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-10",
-      "deadline": null,
-      "url": "https://pru.wd5.myworkdayjobs.com/Careers/job/Paris-France/PGIM---Real-Estate-Private-Equity-Analyst-Intern--all-genders-_R-124980-2",
-      "external_id": "R-124980",
-      "verified_at": "2026-09-21T00:22:46Z",
-      "match_score": 85
-    },
-    {
       "id": "ovintiv-667b96c0cbed",
       "source_key": "ovintiv",
       "fortune_rank": 447,
@@ -5245,35 +5851,6 @@
       "url": "https://ovintiv.wd3.myworkdayjobs.com/ovintivcareers/job/Denver-CO-US/Intern-Supply-Management-Sourcing-Analyst-Engineer_R2590",
       "external_id": "R2590",
       "verified_at": "2026-09-21T10:48:21Z",
-      "match_score": 85
-    },
-    {
-      "id": "medline-57c396b1b147",
-      "source_key": "medline",
-      "fortune_rank": 159,
-      "fortune_500": true,
-      "company": "Medline",
-      "title": "RPA & Agentic AI Software Technologies Intern - Summer 2027",
-      "location": "Northbrook, Illinois",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Solutions Architect",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "AI / ML"
-      ],
-      "summary": "Job Summary With more than 50 years of consecutive growth, we’ve built a dynamic workplace where over 45,000 employees worldwide are empowered to grow and contribute to our entrepreneurial culture. As we continue to grow, we’re looking for talented individuals, like you, to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-10",
-      "deadline": null,
-      "url": "https://medline.wd5.myworkdayjobs.com/Medline/job/Northbrook-Illinois/RPA---Agentic-AI-Software-Technologies-Intern---Summer-2027_R2617378",
-      "external_id": "R2617378",
-      "verified_at": "2026-09-21T00:19:48Z",
       "match_score": 85
     },
     {
@@ -5380,7 +5957,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_115697",
       "external_id": "115697",
-      "verified_at": "2026-09-22T14:59:47Z",
+      "verified_at": "2026-09-22T18:58:10Z",
       "match_score": 85
     },
     {
@@ -5407,7 +5984,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Columbus-GA/Operations-QA-Intern--Summer-2027-Columbus--GA_115774",
       "external_id": "115774",
-      "verified_at": "2026-09-22T14:59:47Z",
+      "verified_at": "2026-09-22T18:58:10Z",
       "match_score": 85
     },
     {
@@ -5432,7 +6009,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Microbiology-Intern--Summer-2027_115676",
       "external_id": "115676",
-      "verified_at": "2026-09-22T14:59:45Z",
+      "verified_at": "2026-09-22T18:58:08Z",
       "match_score": 85
     },
     {
@@ -5545,6 +6122,36 @@
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Greenville/GE-Vernova-Gas-Power-Engineering-Internship---Summer-2027_R5051434-2",
       "external_id": "R5051434",
       "verified_at": "2026-09-21T17:09:36Z",
+      "match_score": 85
+    },
+    {
+      "id": "dxc-technology-8d50bd6cea91",
+      "source_key": "dxc-technology",
+      "fortune_rank": 343,
+      "fortune_500": true,
+      "company": "DXC Technology",
+      "title": "Business Process Outsourcing Intern",
+      "location": "ITA - MI - CERNUSCO SUL NAVIGLIO",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Job Description: Xchanging Italy (DXC Technology) active in the business processing and technology services market for the finance sector, is looking for a intern to be included in the Business Process Outsourcing (BPO) area Asset Management, Wealth Manament, Private Banking",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/ITA---MI---CERNUSCO-SUL-NAVIGLIO/Business-Process-Outsourcing-Intern_51588852",
+      "external_id": "51588852",
+      "verified_at": "2026-09-22T18:58:53Z",
       "match_score": 85
     },
     {
@@ -6150,7 +6757,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
       "external_id": "115677",
-      "verified_at": "2026-09-22T14:59:46Z",
+      "verified_at": "2026-09-22T18:58:09Z",
       "match_score": 85
     },
     {
@@ -6177,7 +6784,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sales-Intern--Summer-2027_115803",
       "external_id": "115803",
-      "verified_at": "2026-09-22T14:59:45Z",
+      "verified_at": "2026-09-22T18:58:08Z",
       "match_score": 85
     },
     {
@@ -6204,7 +6811,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
       "external_id": "115698",
-      "verified_at": "2026-09-22T14:59:46Z",
+      "verified_at": "2026-09-22T18:58:09Z",
       "match_score": 85
     },
     {
@@ -6231,7 +6838,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/R-D-Engineering-Intern--Co-Op-2027--8-months-_115696",
       "external_id": "115696",
-      "verified_at": "2026-09-22T14:59:46Z",
+      "verified_at": "2026-09-22T18:58:09Z",
       "match_score": 85
     },
     {
@@ -6262,7 +6869,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Spring-2027_115712",
       "external_id": "115712",
-      "verified_at": "2026-09-22T14:59:47Z",
+      "verified_at": "2026-09-22T18:58:10Z",
       "match_score": 85
     },
     {
@@ -6289,7 +6896,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/New-Orleans-LA/Operations-Engineering-Intern--Summer-2027--Multiple-Locations-_115721",
       "external_id": "115721",
-      "verified_at": "2026-09-22T14:59:47Z",
+      "verified_at": "2026-09-22T18:58:10Z",
       "match_score": 85
     },
     {
@@ -6316,7 +6923,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Scottsville-KY/Operations-Engineering-Intern--Spring-2027---Scottsville--KY_115475-1",
       "external_id": "115475",
-      "verified_at": "2026-09-22T14:59:47Z",
+      "verified_at": "2026-09-22T18:58:09Z",
       "match_score": 85
     },
     {
@@ -6343,7 +6950,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Memphis-TN/Operations-Engineering-Intern--Spring-2027---Memphis--TN_114845",
       "external_id": "114845",
-      "verified_at": "2026-09-22T14:59:47Z",
+      "verified_at": "2026-09-22T18:58:09Z",
       "match_score": 85
     },
     {
@@ -6370,7 +6977,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Lexington-KY/Operations-Engineering-Intern--Spring-2027---Lexington--KY_114841",
       "external_id": "114841",
-      "verified_at": "2026-09-22T14:59:46Z",
+      "verified_at": "2026-09-22T18:58:09Z",
       "match_score": 85
     },
     {
@@ -6398,7 +7005,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Marketing-Intern--Summer-2027_115771",
       "external_id": "115771",
-      "verified_at": "2026-09-22T14:59:45Z",
+      "verified_at": "2026-09-22T18:58:09Z",
       "match_score": 85
     },
     {
@@ -6427,7 +7034,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Information-Services-Intern--Summer-2027_115744",
       "external_id": "115744",
-      "verified_at": "2026-09-22T14:59:46Z",
+      "verified_at": "2026-09-22T18:58:09Z",
       "match_score": 85
     },
     {
@@ -6460,7 +7067,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Summer-2027_115743",
       "external_id": "115743",
-      "verified_at": "2026-09-22T14:59:46Z",
+      "verified_at": "2026-09-22T18:58:08Z",
       "match_score": 85
     },
     {
@@ -6493,7 +7100,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-09-22T14:59:45Z",
+      "verified_at": "2026-09-22T18:58:08Z",
       "match_score": 85
     },
     {
@@ -6519,7 +7126,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Category-Leadership-Intern--Summer-2027_115804",
       "external_id": "115804",
-      "verified_at": "2026-09-22T14:59:46Z",
+      "verified_at": "2026-09-22T18:58:09Z",
       "match_score": 85
     },
     {
@@ -6546,7 +7153,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Analytical-Lab-Intern--Summer-2027_115678",
       "external_id": "115678",
-      "verified_at": "2026-09-22T14:59:46Z",
+      "verified_at": "2026-09-22T18:58:08Z",
       "match_score": 85
     },
     {
@@ -6719,35 +7326,6 @@
       "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Morris-Plains-NJ/Pharmacy-Underwriting-Summer-Internship-Program_26009219",
       "external_id": "26009219",
       "verified_at": "2026-09-22T05:06:04Z",
-      "match_score": 85
-    },
-    {
-      "id": "campbell-s-0537c6124318",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Robotics Apprentice Operator - 3rd Shift",
-      "location": "USA - UT - Richmond",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---UT---Richmond/Robotics-Apprentice-Operator--3rd-Shift---2265-hr_Req-67317",
-      "external_id": "Req-67317",
-      "verified_at": "2026-09-21T00:19:26Z",
       "match_score": 85
     },
     {
@@ -6975,6 +7553,58 @@
       "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Washington-DC/University---Summer-2027-Quantum-Computing-Research-Intern_R0249046",
       "external_id": "R0249046",
       "verified_at": "2026-09-21T17:08:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "baker-hughes-f10bd22f04db",
+      "source_key": "baker-hughes",
+      "fortune_rank": 164,
+      "fortune_500": true,
+      "company": "Baker Hughes",
+      "title": "Intern - Logistics & Supply Chain Management - 2026 Opportunities",
+      "location": "MY-KUL-KUALA LUMPUR-19th FLOOR MENARA TAN & TAN",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Would you like the opportunity to work in a global energy company? ​Do you enjoy taking on challenging projects? ​Join our innovating Internship Program ​The Baker Hughes Internship is designed to enable undergraduates pursing a Bachelors degree to gain hands-on work experience…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": null,
+      "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/MY-KUL-KUALA-LUMPUR-19th-FLOOR-MENARA-TAN--TAN/Intern-Logistics---Supply-Chain-Management---Malaysia--2026-Opportunities_R167658",
+      "external_id": "R167658",
+      "verified_at": "2026-09-22T18:58:52Z",
+      "match_score": 85
+    },
+    {
+      "id": "baker-hughes-37a5131c9426",
+      "source_key": "baker-hughes",
+      "fortune_rank": 164,
+      "fortune_500": true,
+      "company": "Baker Hughes",
+      "title": "Apprentice – Alternant(e) SQE (H/F) - 2026 Opportunities",
+      "location": "FR-BFC-FOUGEROLLES-2-4 RUE DE FONTAINE",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Vous êtes à la recherche d'une opportunité intéressante et inspirante ? Vous avez envie de faire partie d’une équipe performante ? Chez Baker Hughes, notre objectif est clair. Nous faisons progresser l'énergie en la rendant plus sûre, plus propre et plus efficace pour les…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": null,
+      "url": "https://bakerhughes.wd5.myworkdayjobs.com/BakerHughes/job/FR-BFC-FOUGEROLLES-2-4-RUE-DE-FONTAINE/Alternant-e--SQE--H-F-_R165075",
+      "external_id": "R165075",
+      "verified_at": "2026-09-22T18:58:55Z",
       "match_score": 85
     },
     {
@@ -11306,62 +11936,6 @@
       "match_score": 85
     },
     {
-      "id": "medline-bd597d0b5081",
-      "source_key": "medline",
-      "fortune_rank": 159,
-      "fortune_500": true,
-      "company": "Medline",
-      "title": "R&D Design Intern - Summer 2027",
-      "location": "Northfield, Illinois",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Job Summary With more than 50 years of consecutive growth, we’ve built a dynamic workplace where over 45,000 employees worldwide are empowered to grow and contribute to our entrepreneurial culture. As we continue to grow, we’re looking for talented individuals, like you, to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-04",
-      "deadline": null,
-      "url": "https://medline.wd5.myworkdayjobs.com/Medline/job/Northfield-Illinois/R-D-Design-Intern---Summer-2027_R2616934",
-      "external_id": "R2616934",
-      "verified_at": "2026-09-21T00:19:48Z",
-      "match_score": 85
-    },
-    {
-      "id": "medline-698e3d3415c2",
-      "source_key": "medline",
-      "fortune_rank": 159,
-      "fortune_500": true,
-      "company": "Medline",
-      "title": "Healthcare Customer Service Intern - Summer 2027",
-      "location": "Dubuque, Iowa",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product",
-        "Operations"
-      ],
-      "summary": "Job Summary With more than 50 years of consecutive growth, we’ve built a dynamic workplace where over 45,000 employees worldwide are empowered to grow and contribute to our entrepreneurial culture. As we continue to grow, we’re looking for talented individuals, like you, to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-04",
-      "deadline": null,
-      "url": "https://medline.wd5.myworkdayjobs.com/Medline/job/Dubuque-Iowa/Healthcare-Customer-Service-Internship---Summer-2027_R2616839",
-      "external_id": "R2616839",
-      "verified_at": "2026-09-21T00:19:48Z",
-      "match_score": 85
-    },
-    {
       "id": "land-o-lakes-d45074918cf7",
       "source_key": "land-o-lakes",
       "fortune_rank": 273,
@@ -11530,93 +12104,6 @@
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Atlanta/GE-Vernova-Digital-Technology-Internship---Summer-2027_R5049176-3",
       "external_id": "R5049176",
       "verified_at": "2026-09-21T17:09:40Z",
-      "match_score": 85
-    },
-    {
-      "id": "constellation-brands-4c603ada6281",
-      "source_key": "constellation-brands",
-      "fortune_rank": 416,
-      "fortune_500": true,
-      "company": "Constellation Brands",
-      "title": "Intern, Technical Accounting",
-      "location": "Rochester, New York",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Technical Account Management",
-        "Accounting / financial analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Job Description Support Technical Accounting & Controls and External Reporting departments on various projects and daily tasks. Responsibilities include a wide range of duties, including analyzing data, preparing financial reports, accounting research, and maintenance of…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-04",
-      "deadline": "2026-10-30",
-      "url": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--Technical-Accounting_R-41137",
-      "external_id": "R-41137",
-      "verified_at": "2026-09-21T00:19:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "constellation-brands-2a4643fce03e",
-      "source_key": "constellation-brands",
-      "fortune_rank": 416,
-      "fortune_500": true,
-      "company": "Constellation Brands",
-      "title": "Intern, Tax",
-      "location": "Rochester, New York",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Job Description This Position is intended to provide assistance with tax compliance matters while gaining general experience and exposure in the Corporate Tax Department. Reconcile data to the financial statements and other general ledger data",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-04",
-      "deadline": "2026-10-30",
-      "url": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Tax--Intern_R-41133",
-      "external_id": "R-41133",
-      "verified_at": "2026-09-21T00:19:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "conocophillips-859a8200c186",
-      "source_key": "conocophillips",
-      "fortune_rank": 75,
-      "fortune_500": true,
-      "company": "ConocoPhillips",
-      "title": "North Slope Operator Apprentice",
-      "location": "Kuparuk, AK",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Welcome to ConocoPhillips, where innovation and excellence create a platform for opportunity and growth. Come realize your full potential here. Who We Are We are one of the world’s largest independent exploration and production companies, based on proved reserves and production…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-04",
-      "deadline": "2026-09-25",
-      "url": "https://conocophillips.wd1.myworkdayjobs.com/External/job/Kuparuk-AK/North-Slope-Operator-Apprentice_REQ-006540",
-      "external_id": "REQ-006540",
-      "verified_at": "2026-09-21T00:19:56Z",
       "match_score": 85
     },
     {
@@ -12410,7 +12897,7 @@
       "deadline": "2026-09-25",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Corporate-Communications-Internship_R-120884",
       "external_id": "R-120884",
-      "verified_at": "2026-09-22T15:02:22Z",
+      "verified_at": "2026-09-22T19:00:36Z",
       "match_score": 85
     },
     {
@@ -12582,7 +13069,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Decatur-AL/Operations-QA-Intern--Summer-2027--Decatur--AL_115757",
       "external_id": "115757",
-      "verified_at": "2026-09-22T14:59:47Z",
+      "verified_at": "2026-09-22T18:58:10Z",
       "match_score": 85
     },
     {
@@ -13562,99 +14049,6 @@
       "match_score": 85
     },
     {
-      "id": "prudential-financial-e4d7ee52c891",
-      "source_key": "prudential-financial",
-      "fortune_rank": 78,
-      "fortune_500": true,
-      "company": "Prudential Financial",
-      "title": "Prudential: 2027 Corporate, Actuarial Internship Program (AIP)",
-      "location": "Newark, NJ, USA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Wealth management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Strategy",
-        "Finance",
-        "Credit"
-      ],
-      "summary": "Job Classification: Actuarial - Actuarial Prudential: 2027 Corporate, Actuarial Internship Program Location(s): Newark, NJ (Hybrid) Are you looking for a career where you can apply your love of math, data, and science to inform business strategy and work with diverse teams on…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "ections Valuation What you’ll need: Candidates must be enrolled in an accredited bachelor’s program graduating between December 2027 and May 2029 Prudential does not provide…",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-01",
-      "deadline": "2026-09-28",
-      "url": "https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/Prudential--2027-Corporate--Actuarial-Internship-Program--AIP--_R-124791",
-      "external_id": "R-124791",
-      "verified_at": "2026-09-21T00:22:46Z",
-      "match_score": 90
-    },
-    {
-      "id": "prudential-financial-be6aaba30e60",
-      "source_key": "prudential-financial",
-      "fortune_rank": 78,
-      "fortune_500": true,
-      "company": "Prudential Financial",
-      "title": "PGIM: 2027 Real Estate, Sophomore Externship Program",
-      "location": "Newark, NJ, USA",
-      "region": "United States",
-      "opportunity_type": "Pre-internship",
-      "categories": [
-        "Wealth management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Credit",
-        "Risk"
-      ],
-      "summary": "Job Classification: Investment Management - Investments PGIM: 2027 Real Estate, Sophomore Externship Program Location: Newark, NJ Your Opportunity: Are you a sophomore interested in learning about careers in commercial real estate?",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "th through 7th, 2027 at Prudential’s Newark, NJ headquarters. This program is intended for students graduating between December 2028-May 2029. Transportation and lodging…",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/PGIM--2027-Real-Estate--Sophomore-Externship-Program_R-124904-2",
-      "external_id": "R-124904",
-      "verified_at": "2026-09-21T00:22:46Z",
-      "match_score": 90
-    },
-    {
-      "id": "prudential-financial-6b5a8d84c31e",
-      "source_key": "prudential-financial",
-      "fortune_rank": 78,
-      "fortune_500": true,
-      "company": "Prudential Financial",
-      "title": "PGIM: 2027 Public and Private Credit, Sophomore Externship Program",
-      "location": "Newark, NJ, USA",
-      "region": "United States",
-      "opportunity_type": "Pre-internship",
-      "categories": [
-        "Wealth management",
-        "Middle-market banking",
-        "FP&A"
-      ],
-      "tags": [
-        "Strategy",
-        "Finance",
-        "Banking",
-        "Credit",
-        "FP&A"
-      ],
-      "summary": "Job Classification: Investment Management - Investments PGIM: 202 7 Public and Private Credit, Sophomore Externship Program Location: Newark, NJ Your Opportunity: Are you a sophomore interested in learning about careers in public or private credit?",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "y: Newark. What you’ll need: Candidates must be enrolled in an accredited bachelor’s degree program graduating between December 2028 and May 2029 All majors welcome!…",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/PGIM--2027-Public-and-Private-Credit--Sophomore-Externship-Program_R-124932-2",
-      "external_id": "R-124932",
-      "verified_at": "2026-09-21T00:22:46Z",
-      "match_score": 90
-    },
-    {
       "id": "northern-trust-b02376350391",
       "source_key": "northern-trust",
       "fortune_rank": 317,
@@ -13683,213 +14077,6 @@
       "url": "https://ntrs.wd1.myworkdayjobs.com/northerntrust/job/Chicago-IL/Asset-Management-Intern---Enablement_R160753-2",
       "external_id": "R160753",
       "verified_at": "2026-09-22T10:05:14Z",
-      "match_score": 85
-    },
-    {
-      "id": "medline-c496aec09bff",
-      "source_key": "medline",
-      "fortune_rank": 159,
-      "fortune_500": true,
-      "company": "Medline",
-      "title": "Supply Chain/Inventory Management Intern - Summer 2027",
-      "location": "CORP - Northbrook, IL",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "SQL",
-        "Tableau",
-        "Product"
-      ],
-      "summary": "Job Summary With more than 50 years of consecutive growth, we’ve built a dynamic workplace where over 45,000 employees worldwide are empowered to grow and contribute to our entrepreneurial culture. As we continue to grow, we’re looking for talented individuals, like you, to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://medline.wd5.myworkdayjobs.com/Medline/job/CORP---Northbrook-IL/Supply-Chain-Inventory-Management-Intern---Summer-2027_R2616985",
-      "external_id": "R2616985",
-      "verified_at": "2026-09-21T00:19:49Z",
-      "match_score": 85
-    },
-    {
-      "id": "medline-88e944f514f9",
-      "source_key": "medline",
-      "fortune_rank": 159,
-      "fortune_500": true,
-      "company": "Medline",
-      "title": "Sales Intern - Summer 2027",
-      "location": "Northfield, Illinois",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product",
-        "Operations"
-      ],
-      "summary": "Job Summary Job Description With more than 50 years of consecutive growth, we’ve built a dynamic workplace where over 45,000 employees worldwide are empowered to grow and contribute to our entrepreneurial culture. As we continue to grow, we’re looking for talented individuals,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://medline.wd5.myworkdayjobs.com/Medline/job/Northfield-Illinois/Sales-Intern---Summer-2027_R2615878",
-      "external_id": "R2615878",
-      "verified_at": "2026-09-21T00:19:48Z",
-      "match_score": 85
-    },
-    {
-      "id": "medline-6a66ba710c51",
-      "source_key": "medline",
-      "fortune_rank": 159,
-      "fortune_500": true,
-      "company": "Medline",
-      "title": "Product Management Intern - Summer 2027",
-      "location": "Northfield, Illinois",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Product management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product",
-        "Operations"
-      ],
-      "summary": "Job Summary With more than 50 years of consecutive growth, we’ve built a dynamic workplace where over 45,000 employees worldwide are empowered to grow and contribute to our entrepreneurial culture. As we continue to grow, we’re looking for talented individuals, like you, to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://medline.wd5.myworkdayjobs.com/Medline/job/Northfield-Illinois/Product-Management-Intern---Summer-2027_R2616983",
-      "external_id": "R2616983",
-      "verified_at": "2026-09-21T00:19:49Z",
-      "match_score": 85
-    },
-    {
-      "id": "medline-45566e1e21f0",
-      "source_key": "medline",
-      "fortune_rank": 159,
-      "fortune_500": true,
-      "company": "Medline",
-      "title": "Operations Engineering Intern - Summer 2027",
-      "location": "Northbrook, Illinois",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Summary With more than 50 years of consecutive growth, we’ve built a dynamic workplace where over 45,000 employees worldwide are empowered to grow and contribute to our entrepreneurial culture. As we continue to grow, we’re looking for talented individuals, like you, to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://medline.wd5.myworkdayjobs.com/Medline/job/Northbrook-Illinois/Operations-Engineering-Intern---Summer-2027_R2616932",
-      "external_id": "R2616932",
-      "verified_at": "2026-09-21T00:19:48Z",
-      "match_score": 85
-    },
-    {
-      "id": "medline-baa3553e2d79",
-      "source_key": "medline",
-      "fortune_rank": 159,
-      "fortune_500": true,
-      "company": "Medline",
-      "title": "IT Business Intelligence Development/Analytics Intern - Summer 2027",
-      "location": "Northbrook, Illinois",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "SQL",
-        "Tableau",
-        "Power BI"
-      ],
-      "summary": "Job Summary With more than 50 years of consecutive growth, we’ve built a dynamic workplace where over 45,000 employees worldwide are empowered to grow and contribute to our entrepreneurial culture. As we continue to grow, we’re looking for talented individuals, like you, to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://medline.wd5.myworkdayjobs.com/Medline/job/Northbrook-Illinois/IT-Business-Intelligence-Development-Analytics-Intern---Summer-2027_R2617383",
-      "external_id": "R2617383",
-      "verified_at": "2026-09-21T00:19:48Z",
-      "match_score": 85
-    },
-    {
-      "id": "medline-bd9bcd203dd2",
-      "source_key": "medline",
-      "fortune_rank": 159,
-      "fortune_500": true,
-      "company": "Medline",
-      "title": "Finance/Accounting Intern - Summer 2027",
-      "location": "Northfield, Illinois",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Accounting / financial analyst",
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Finance",
-        "Treasury",
-        "Risk",
-        "Accounting"
-      ],
-      "summary": "Job Summary With more than 50 years of consecutive growth, we’ve built a dynamic workplace where over 45,000 employees worldwide are empowered to grow and contribute to our entrepreneurial culture. As we continue to grow, we’re looking for talented individuals, like you, to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://medline.wd5.myworkdayjobs.com/Medline/job/Northfield-Illinois/Finance-Accounting-Intern---Summer-2027_R2616741",
-      "external_id": "R2616741",
-      "verified_at": "2026-09-21T00:19:49Z",
-      "match_score": 85
-    },
-    {
-      "id": "medline-44075d5b57b6",
-      "source_key": "medline",
-      "fortune_rank": 159,
-      "fortune_500": true,
-      "company": "Medline",
-      "title": "Engineering Co-Op (January-May 2027)",
-      "location": "Glens Falls, New York",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "Job Summary With more than 50 years of consecutive growth, we’ve built a dynamic workplace where over 45,000 employees worldwide are empowered to grow and contribute to our entrepreneurial culture. As we continue to grow, we’re looking for talented individuals, like you, to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-01",
-      "deadline": null,
-      "url": "https://medline.wd5.myworkdayjobs.com/Medline/job/Glens-Falls-New-York/Engineering-Co-Op--January-May-2027-_R2616936",
-      "external_id": "R2616936",
-      "verified_at": "2026-09-21T00:19:48Z",
       "match_score": 85
     },
     {
@@ -14029,6 +14216,64 @@
       "external_id": "R41173",
       "verified_at": "2026-09-22T00:10:31Z",
       "match_score": 90
+    },
+    {
+      "id": "crown-holdings-b93f53ab08ae",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Tax Treasury Accounting Intern",
+      "location": "Nuevo León",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Accounting / financial analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Finance",
+        "Treasury",
+        "Accounting"
+      ],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Tax-Treasury-Accounting-Intern_JR104117",
+      "external_id": "JR104117",
+      "verified_at": "2026-09-22T18:59:17Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-60ac7bf1ca67",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Controlling Intern",
+      "location": "Nuevo León",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Accounting"
+      ],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-01",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Controlling-Intern_JR104029",
+      "external_id": "JR104029",
+      "verified_at": "2026-09-22T18:59:16Z",
+      "match_score": 85
     },
     {
       "id": "biogen-3ed28a312445",
@@ -14917,33 +15162,6 @@
       "match_score": 85
     },
     {
-      "id": "live-nation-entertainment-299ec9ef3ef0",
-      "source_key": "live-nation-entertainment",
-      "fortune_rank": 180,
-      "fortune_500": true,
-      "company": "Live Nation Entertainment",
-      "title": "Emo Nite - Production Intern",
-      "location": "Calabasas, CA, USA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Do you have a deep-rooted love for emo, pop-punk, and alternative music? Are you a creative thinker with a passion for fostering community and delivering unforgettable experiences? If so, you might be just the person we're looking for!",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-08-28",
-      "deadline": null,
-      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Calabasas-CA-USA/Emo-Nite---Production-Intern_JR-92849-2",
-      "external_id": "JR-92849",
-      "verified_at": "2026-09-21T00:18:51Z",
-      "match_score": 85
-    },
-    {
       "id": "j-m-smucker-a612a0474adf",
       "source_key": "smucker",
       "fortune_rank": 456,
@@ -14968,7 +15186,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
       "external_id": "115735",
-      "verified_at": "2026-09-22T14:59:47Z",
+      "verified_at": "2026-09-22T18:58:10Z",
       "match_score": 85
     },
     {
@@ -15055,6 +15273,38 @@
       "external_id": "R0248214",
       "verified_at": "2026-09-21T17:08:33Z",
       "match_score": 85
+    },
+    {
+      "id": "boeing-6d129d0ac6be",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (PAID) – Finance (Evergreen)",
+      "location": "USA - Hazelwood, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Corporate finance",
+        "Business analyst"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (PAID) – Finance (Evergreen) Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027 intern program",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ng, Mathematics, Statistics, Operations Research, Aerospace Engineering, or Mechanical Engineering) Graduation date on or after August 2027 Ability to work full-time, in…",
+      "freshman_friendly": true,
+      "posted_date": "2026-08-28",
+      "deadline": "2026-10-30",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Hazelwood-MO/Boeing-Summer-2027-Internship-Program--PAID----Finance--Evergreen-_JR2026519225-1",
+      "external_id": "JR2026519225",
+      "verified_at": "2026-09-22T19:00:31Z",
+      "match_score": 90
     },
     {
       "id": "amgen-b101e49905e3",
@@ -15236,7 +15486,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
       "external_id": "115736",
-      "verified_at": "2026-09-22T14:59:47Z",
+      "verified_at": "2026-09-22T18:58:10Z",
       "match_score": 85
     },
     {
@@ -15291,7 +15541,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Quality-Assurance-Intern---Oxnard--CA_115727",
       "external_id": "115727",
-      "verified_at": "2026-09-22T14:59:47Z",
+      "verified_at": "2026-09-22T18:58:10Z",
       "match_score": 85
     },
     {
@@ -15316,7 +15566,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
       "external_id": "115725",
-      "verified_at": "2026-09-22T14:59:47Z",
+      "verified_at": "2026-09-22T18:58:10Z",
       "match_score": 85
     },
     {
@@ -15862,6 +16112,60 @@
       "match_score": 85
     },
     {
+      "id": "dxc-technology-fb7a2ac93a0c",
+      "source_key": "dxc-technology",
+      "fortune_rank": 343,
+      "fortune_500": true,
+      "company": "DXC Technology",
+      "title": "ServiceDesk Intern",
+      "location": "SGP - SINGAPORE",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud",
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "Job Description: DXC Technology (NYSE: DXC) is a leading enterprise technology and innovation partner delivering software, services, and solutions to global enterprises and public sector organizations — helping them harness AI to drive outcomes at a time of exponential change…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-24",
+      "deadline": null,
+      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/SGP---SINGAPORE/ServiceDesk-Intern_51587333",
+      "external_id": "51587333",
+      "verified_at": "2026-09-22T18:58:53Z",
+      "match_score": 85
+    },
+    {
+      "id": "dxc-technology-0a4c468ba4f2",
+      "source_key": "dxc-technology",
+      "fortune_rank": 343,
+      "fortune_500": true,
+      "company": "DXC Technology",
+      "title": "RR-0393497 Service Desk Intern-19",
+      "location": "SGP - SINGAPORE",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Job Description: Profile: The ideal candidate has previous experience in effectively coping with a fast-paced, high-pressure role in a constantly changing business environment. He/she will be strongly team-focused and have proven communication skills",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-08-24",
+      "deadline": null,
+      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/SGP---SINGAPORE/RR-0393497-Service-Desk-Intern-19_51583322",
+      "external_id": "51583322",
+      "verified_at": "2026-09-22T18:58:53Z",
+      "match_score": 85
+    },
+    {
       "id": "xylem-353e13428592",
       "source_key": "xylem",
       "fortune_rank": 443,
@@ -16279,7 +16583,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-09-22T15:00:10Z",
+      "verified_at": "2026-09-22T18:58:34Z",
       "match_score": 85
     },
     {
@@ -16310,36 +16614,6 @@
       "url": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/Denmark---Copenhagen/Internship--Sales-or-Solution-Engineering-Paths-Copenhagen_JR335115",
       "external_id": "JR335115",
       "verified_at": "2026-09-21T21:08:39Z",
-      "match_score": 85
-    },
-    {
-      "id": "prudential-financial-8155a012523a",
-      "source_key": "prudential-financial",
-      "fortune_rank": 78,
-      "fortune_500": true,
-      "company": "Prudential Financial",
-      "title": "PGIM | Investment Intern, Transactions (all genders) Q4 2026 Based in Frankfurt",
-      "location": "Frankfurt, Germany",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Wealth management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "A GLOBAL LEADING ASSET MANAGER WITH A DIVERSE & INCLUSIVE CULTURE As the Global Asset Management business of Prudential, we’re always looking for ways to improve financial services. We’re passionate about making a meaningful impact - touching the lives of millions and solving…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://pru.wd5.myworkdayjobs.com/Careers/job/Frankfurt-Germany/PGIM---Investment-Intern--Transactions--all-genders--Q4-2026-Based-in-Frankfurt_R-124407-2",
-      "external_id": "R-124407",
-      "verified_at": "2026-09-21T00:22:47Z",
       "match_score": 85
     },
     {
@@ -16771,6 +17045,88 @@
       "match_score": 85
     },
     {
+      "id": "occidental-petroleum-a8380f3f056f",
+      "source_key": "occidental-petroleum",
+      "fortune_rank": 173,
+      "fortune_500": true,
+      "company": "Occidental Petroleum",
+      "title": "Supply Chain Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Oxy produces , markets and transports oil and natural gas to maximize value and provide resources fundamental to life. The company leverages its global leadership in carbon management to advance lower-carbon technologies and products",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "application at https://www.oxy.com/careers/explore-careers/students/ in order to be considered Undergraduate pursuing a bachelor’s degree in Supply Chain Management,…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://oxy.wd5.myworkdayjobs.com/UniversityRelations/job/Supply-Chain-Intern_JR110272",
+      "external_id": "JR110272",
+      "verified_at": "2026-09-22T18:58:43Z",
+      "match_score": 90
+    },
+    {
+      "id": "occidental-petroleum-2572ab9b905a",
+      "source_key": "occidental-petroleum",
+      "fortune_rank": 173,
+      "fortune_500": true,
+      "company": "Occidental Petroleum",
+      "title": "Reservoir Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Oxy produces , markets and transports oil and natural gas to maximize value and provide resources fundamental to life. The company leverages its global leadership in carbon management to advance lower-carbon technologies and products",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "at www.oxy.com/student s in order to be considered Pursuing a degree in Engineering (Petroleum and graduate degrees are preferred) Maintain minimum cumulative 2.85 GPA on a…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://oxy.wd5.myworkdayjobs.com/UniversityRelations/job/Reservoir-Intern_JR110284",
+      "external_id": "JR110284",
+      "verified_at": "2026-09-22T18:58:43Z",
+      "match_score": 90
+    },
+    {
+      "id": "occidental-petroleum-c7734406938b",
+      "source_key": "occidental-petroleum",
+      "fortune_rank": 173,
+      "fortune_500": true,
+      "company": "Occidental Petroleum",
+      "title": "Engineering Intern (Oil & Gas Business)",
+      "location": "Midland, Texas",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Oxy produces , markets and transports oil and natural gas to maximize value and provide resources fundamental to life. The company leverages its global leadership in carbon management to advance lower-carbon technologies and products",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ed Pursuing a degree in Engineering Maintain minimum cumulative 2.85 GPA on a 4.0 scale Must have a graduation date of December 2027 – May 2029 Desire to pursue career in…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://oxy.wd5.myworkdayjobs.com/UniversityRelations/job/Midland-Texas/Engineering-Intern--Oil---Gas-Business-_JR110204",
+      "external_id": "JR110204",
+      "verified_at": "2026-09-22T18:58:43Z",
+      "match_score": 90
+    },
+    {
       "id": "marvell-technology-c6ab28fe2603",
       "source_key": "marvell-technology",
       "fortune_rank": 476,
@@ -16796,31 +17152,6 @@
       "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Cordoba-Argentina/Program-Management-Intern_2502670",
       "external_id": "2502670",
       "verified_at": "2026-09-22T10:05:06Z",
-      "match_score": 85
-    },
-    {
-      "id": "live-nation-entertainment-5f48dd360589",
-      "source_key": "live-nation-entertainment",
-      "fortune_rank": 180,
-      "fortune_500": true,
-      "company": "Live Nation Entertainment",
-      "title": "Insomniac - Paid Fall Street Marketing Internship",
-      "location": "Calabasas, CA, USA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Driven, with an entrepreneurial spirit. Resourceful, innovative, forward thinking and committed. At Insomniac, our people embrace these qualities, so if this sounds like you then please read on! Insomniac produces some of the most innovative, immersive music festivals and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Calabasas-CA-USA/Insomniac---Paid-Fall-Street-Marketing-Internship_JR-92052-1",
-      "external_id": "JR-92052",
-      "verified_at": "2026-09-21T00:18:51Z",
       "match_score": 85
     },
     {
@@ -18343,62 +18674,220 @@
       "match_score": 85
     },
     {
-      "id": "conocophillips-acbc7a4dfdee",
-      "source_key": "conocophillips",
-      "fortune_rank": 75,
+      "id": "dxc-technology-3c9c2349d6f3",
+      "source_key": "dxc-technology",
+      "fortune_rank": 343,
       "fortune_500": true,
-      "company": "ConocoPhillips",
-      "title": "Intern, Information Technology 2027",
-      "location": "Bartlesville, OK",
-      "region": "United States",
+      "company": "DXC Technology",
+      "title": "JAVA intern",
+      "location": "TWN - TPE - TAIPEI",
+      "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
         "Asset-based lending"
       ],
       "tags": [
-        "Cloud",
-        "Operations"
+        "SQL"
       ],
-      "summary": "Welcome to ConocoPhillips, where innovation and excellence create a platform for opportunity and growth. Come realize your full potential here. Who We Are We are one of the world’s largest independent exploration and production companies, based on proved reserves and production…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "her related field, or foreign equivalent Current level in college: Freshman through Senior Expected graduation date: Fall 2027 through Spring/Fall 2030 Available for…",
-      "freshman_friendly": true,
+      "summary": "進行 Java Web 應用程式開發，並應用 Struts Framework 建立穩定與高效能之系統功能。 3. 撰寫與優化 SQL Script，協助資料查詢、批次處理與效能調校。 4. 開發與維護 Shell Script，自動化批次作業流程與系統操作。 5. 撰寫技術文件，並提供後續維運支援。 熟悉 Java Programming，具備物件導向設計與程式開發能力。 熟悉 SQL 語法，能獨立撰寫、調校複雜查詢與 Stored Procedure。 At DXC Technology, we believe strong…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
       "posted_date": "2026-01-30",
-      "deadline": "2026-11-01",
-      "url": "https://conocophillips.wd1.myworkdayjobs.com/External/job/Bartlesville-OK/Intern--Information-Technology-2027_REQ-006200",
-      "external_id": "REQ-006200",
-      "verified_at": "2026-09-21T00:19:55Z",
-      "match_score": 90
+      "deadline": null,
+      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/TWN---TPE---TAIPEI/JAVA-intern_51586641",
+      "external_id": "51586641",
+      "verified_at": "2026-09-22T18:58:53Z",
+      "match_score": 85
     },
     {
-      "id": "conocophillips-23e1bd8beec3",
-      "source_key": "conocophillips",
-      "fortune_rank": 75,
+      "id": "dxc-technology-ed9b246e3f87",
+      "source_key": "dxc-technology",
+      "fortune_rank": 343,
       "fortune_500": true,
-      "company": "ConocoPhillips",
-      "title": "Intern, Corporate Land 2027",
-      "location": "Bartlesville, OK",
-      "region": "United States",
+      "company": "DXC Technology",
+      "title": "IT Intern",
+      "location": "MYS - PETALING JAYA",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "IT analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Power BI",
+        "AI / ML"
+      ],
+      "summary": "Job Description: Job Description for IT Intern DXC Technology is a Fortune 500 global IT services leader. Our more than 130,000 people in 70- plus countries are entrusted by our customers to deliver what matters most. We use the power of technology to deliver mission-critical…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/IT-Intern_51580573",
+      "external_id": "51580573",
+      "verified_at": "2026-09-22T18:58:53Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-c7ee7eaa5c92",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Talent Intern",
+      "location": "Nuevo León",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Talent-Intern_JR103258-1",
+      "external_id": "JR103258",
+      "verified_at": "2026-09-22T18:59:17Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-be0c31721ba1",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Production Line Operator Intern",
+      "location": "Nuevo León",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Production-Line-Operator-Intern_JR101884",
+      "external_id": "JR101884",
+      "verified_at": "2026-09-22T18:59:17Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-756154fbc9f5",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Plant Administration Intern",
+      "location": "Meoqui",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Meoqui/Plant-Administration-Intern_JR103867",
+      "external_id": "JR103867",
+      "verified_at": "2026-09-22T18:59:16Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-da501655176b",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Plant Administration Intern",
+      "location": "Meoqui",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Meoqui/Plant-Administration-Intern_JR103865",
+      "external_id": "JR103865",
+      "verified_at": "2026-09-22T18:59:16Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-953c10bbda88",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Finance Procurement Intern",
+      "location": "Nuevo León",
+      "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
         "Asset-based lending"
       ],
       "tags": [
         "Excel",
-        "Operations",
+        "Power BI",
         "Finance",
         "Accounting"
       ],
-      "summary": "Welcome to ConocoPhillips, where innovation and excellence create a platform for opportunity and growth. Come realize your full potential here. Who We Are We are one of the world’s largest independent exploration and production companies, based on proved reserves and production…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "her related field, or foreign equivalent Current level in college: Freshman through Senior Expected graduation date: Fall 2027 through Spring/Fall 2030 Available for…",
-      "freshman_friendly": true,
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
       "posted_date": "2026-01-30",
-      "deadline": "2026-11-01",
-      "url": "https://conocophillips.wd1.myworkdayjobs.com/External/job/Bartlesville-OK/Intern--Corporate-Land-2027_REQ-006205",
-      "external_id": "REQ-006205",
-      "verified_at": "2026-09-21T00:19:55Z",
-      "match_score": 90
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Finance-Procurement-Intern_JR103801",
+      "external_id": "JR103801",
+      "verified_at": "2026-09-22T18:59:17Z",
+      "match_score": 85
+    },
+    {
+      "id": "crown-holdings-f8ccb9e8b595",
+      "source_key": "crown-holdings",
+      "fortune_rank": 356,
+      "fortune_500": true,
+      "company": "Crown Holdings",
+      "title": "Commercial Intern",
+      "location": "Nuevo León",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Commercial-Intern_JR102918",
+      "external_id": "JR102918",
+      "verified_at": "2026-09-22T18:59:16Z",
+      "match_score": 85
     },
     {
       "id": "comfort-systems-usa-21d1eae5cc5b",
@@ -18634,176 +19123,277 @@
       "match_score": 85
     },
     {
-      "id": "campbell-s-85c9705dabae",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
+      "id": "boeing-255fed2f795f",
+      "source_key": "boeing",
+      "fortune_rank": 47,
       "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Data Science Intern",
-      "location": "USA - NJ - Camden",
-      "region": "United States",
+      "company": "Boeing",
+      "title": "Intern - Systems Safety Engineering",
+      "location": "ESP - Madrid, Spain",
+      "region": "Global",
       "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst"
-      ],
-      "tags": [],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Science-Intern_Req-65844",
-      "external_id": "Req-65844",
-      "verified_at": "2026-09-21T00:19:22Z",
-      "match_score": 85
-    },
-    {
-      "id": "campbell-s-d8a7e916c5bf",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Data Science Intern",
-      "location": "USA - NJ - Camden",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst"
-      ],
-      "tags": [],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Science-Intern_Req-65845",
-      "external_id": "Req-65845",
-      "verified_at": "2026-09-21T00:19:22Z",
-      "match_score": 85
-    },
-    {
-      "id": "campbell-s-d1380e83e80c",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Data Engineer – Agentic AI & ML Ops (Co-op)",
-      "location": "USA - NJ - Camden",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "FP&A"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Power BI",
-        "Cloud",
-        "AI / ML"
-      ],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Engineer---Agentic-AI---ML-Ops--Co-op-_Req-65843",
-      "external_id": "Req-65843",
-      "verified_at": "2026-09-21T00:19:22Z",
-      "match_score": 85
-    },
-    {
-      "id": "campbell-s-0f89dac90b5d",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Data Engineer - Operational Support (Co-op)",
-      "location": "USA - NJ - Camden",
-      "region": "United States",
-      "opportunity_type": "Co-op",
       "categories": [
         "Asset-based lending"
       ],
       "tags": [
         "Python",
-        "SQL",
-        "Power BI",
-        "Cloud",
-        "AI / ML"
+        "Product"
       ],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
+      "summary": "Intern - Systems Safety Engineering Company: Boeing Aerospace Spain, SL Boeing Global Technology - Europe is seeking a Systems Safety Engineering Intern to support our team in Madrid, Spain . This internship offers the opportunity to work alongside experienced engineers…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Engineer---Operational-Support--Co-op-_Req-65842",
-      "external_id": "Req-65842",
-      "verified_at": "2026-09-21T00:19:22Z",
+      "deadline": "2026-09-30",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/ESP---Madrid-Spain/Intern---Systems-Safety-Engineering_JR2026522575-1",
+      "external_id": "JR2026522575",
+      "verified_at": "2026-09-22T19:00:28Z",
       "match_score": 85
     },
     {
-      "id": "campbell-s-09b63e50056d",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
+      "id": "boeing-766f6eda899f",
+      "source_key": "boeing",
+      "fortune_rank": 47,
       "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Agentic AI Engineer Co-Op",
-      "location": "USA - Remote",
-      "region": "Remote",
-      "opportunity_type": "Co-op",
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) – Security & Fire Operation (S&FO)",
+      "location": "USA - Everett, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
       "categories": [
         "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations",
+        "Risk",
+        "Accounting"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) – Security & Fire Operation (S&FO) Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "during Summer 2027 Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Security---Fire-Operation--S-FO-_JR2026521717-1",
+      "external_id": "JR2026521717",
+      "verified_at": "2026-09-22T19:00:30Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-b53ee07a9d54",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) – Quality Specialist",
+      "location": "USA - Seattle, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "SQL",
+        "Excel",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) – Quality Specialist Company: The Boeing Company Job Description Launch your career with Boeing, celebrated by Yello/WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "nt Visa status. Basic Qualifications Be currently enrolled in a college or university with expected graduation on or after August 2027. Availability to work full-time for 10…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Boeing-Summer-2027-Internship-Program--Paid----Quality-Specialist_JR2026520392-1",
+      "external_id": "JR2026520392",
+      "verified_at": "2026-09-22T19:00:30Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-d80ddcfb0951",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) – Information Digital Technology & Security (IDT&S)",
+      "location": "USA - Everett, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Product management",
+        "Data analyst",
+        "Business analyst"
       ],
       "tags": [
         "Python",
         "Cloud",
         "AI / ML",
-        "Product"
+        "Product",
+        "Strategy"
       ],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
+      "summary": "Boeing Summer 2027 Internship Program (Paid) – Information Digital Technology & Security (IDT&S) Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "during Summer 2027 Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
       "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---Remote/Agentic-AI-Engineer-Co-Op_Req-66014",
-      "external_id": "Req-66014",
-      "verified_at": "2026-09-21T00:19:21Z",
-      "match_score": 85
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Information-Digital-Technology---Security--IDT-S-_JR2026520791-1",
+      "external_id": "JR2026520791",
+      "verified_at": "2026-09-22T19:00:30Z",
+      "match_score": 90
     },
     {
-      "id": "campbell-s-44a7c5bf7ee6",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
+      "id": "boeing-4d90329fc42e",
+      "source_key": "boeing",
+      "fortune_rank": 47,
       "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Agentic AI Engineer Co-Op",
-      "location": "USA - Remote",
-      "region": "Remote",
-      "opportunity_type": "Co-op",
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) – Environment, Health, and Safety (EHS)",
+      "location": "USA - Auburn, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) – Environment, Health, and Safety (EHS) Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "on school schedule Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Auburn-WA/Boeing-Summer-2027-Internship-Program--Paid----Environment--Health--and-Safety--EHS-_JR2026519561-1",
+      "external_id": "JR2026519561",
+      "verified_at": "2026-09-22T19:00:30Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-5458f418a977",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) – Data Analytics Intern",
+      "location": "USA - Everett, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) – Data Analytics Intern Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027 intern program",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "during Summer 2027 Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976-1",
+      "external_id": "JR2026520976",
+      "verified_at": "2026-09-22T19:00:29Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-7cd1564bb593",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) - Quality Engineering Intern",
+      "location": "USA - Seattle, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
       "categories": [
         "Asset-based lending"
       ],
       "tags": [
         "Python",
-        "Cloud",
-        "AI / ML",
+        "SQL",
+        "Tableau",
+        "Power BI",
         "Product"
       ],
-      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
+      "summary": "Boeing Summer 2027 Internship Program (Paid) - Quality Engineering Intern Company: Job Description Launch your career with Boeing, celebrated by Yello/WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "tus. Basic Qualifications (Required) Be currently enrolled in a college or university with expected graduation on or after August 2027. Availability to work full-time for…",
+      "freshman_friendly": true,
       "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---Remote/Agentic-AI-Engineer-Co-Op_Req-66015",
-      "external_id": "Req-66015",
-      "verified_at": "2026-09-21T00:19:22Z",
-      "match_score": 85
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Boeing-Summer-2027-Internship-Program--Paid----Quality-Engineering-Intern_JR2026520439-1",
+      "external_id": "JR2026520439",
+      "verified_at": "2026-09-22T19:00:30Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-8a85760425dd",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) - Methods Process Analyst",
+      "location": "USA - Seattle, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "SQL",
+        "Product",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) - Methods Process Analyst Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027 intern program",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "during Summer 2027 Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Boeing-Summer-2027-Internship-Program--Paid----Methods-Process-Analyst_JR2026519532-1",
+      "external_id": "JR2026519532",
+      "verified_at": "2026-09-22T19:00:31Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-8e97908a64de",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) - Facilities Engineering",
+      "location": "USA - Everett, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) - Facilities Engineering Company: Job Description Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ics, Physics, or Cybersecurity) Enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Facilities-Engineering_JR2026521015-1",
+      "external_id": "JR2026521015",
+      "verified_at": "2026-09-22T19:00:31Z",
+      "match_score": 90
     },
     {
       "id": "blackstone-4e21046c333c",
@@ -19476,7 +20066,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-09-22T14:59:05Z",
+      "verified_at": "2026-09-22T18:57:31Z",
       "match_score": 85
     },
     {
@@ -19538,7 +20128,7 @@
       "deadline": null,
       "url": "https://careers.massmutual.com/job/springfield/business-operations-intern-summer-2027/724/100746307024",
       "external_id": null,
-      "verified_at": "2026-09-22T14:59:05Z",
+      "verified_at": "2026-09-22T18:57:32Z",
       "match_score": 90
     },
     {
@@ -19685,6 +20275,34 @@
       "url": "https://careers.jabil.com/student-apprenticeship-program.html",
       "external_id": null,
       "verified_at": "2026-09-22T10:04:08Z",
+      "match_score": 85
+    },
+    {
+      "id": "huntington-ingalls-industries-70decc5f8728",
+      "source_key": "huntington-ingalls-industries",
+      "fortune_rank": 352,
+      "fortune_500": true,
+      "company": "Huntington Ingalls Industries",
+      "title": "Ingalls Apprentice School",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Credit"
+      ],
+      "summary": "Ingalls Apprentice School Since 1952, the Ingalls Apprentice School has produced more than 4,000 graduates in support of Ingalls Shipbuilding's operational needs About the Program The apprentice school program involves comprehensive three- to four-year curriculum for students…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://hii.com/careers/ingalls-apprentice-school",
+      "external_id": null,
+      "verified_at": "2026-09-22T18:58:34Z",
       "match_score": 85
     },
     {
@@ -20137,31 +20755,6 @@
       "match_score": 85
     },
     {
-      "id": "campbell-s-77ebb0dd2573",
-      "source_key": "campbell-s",
-      "fortune_rank": 413,
-      "fortune_500": true,
-      "company": "Campbell's",
-      "title": "Packaging Engineer Co-Op",
-      "location": "Camden New Jersey 08103",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Back to Search Packaging Engineer Co-Op Apply Now Job Details Career area Intern Position Type Intern Location Camden New Jersey 08103 Job ID Req-68221 Share Facebook X LinkedIn Email Apply Now Since 1869 we've connected people through food they love",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://careers.thecampbellscompany.com/packaging-engineer-co-op/job/34CC248F52D1B0F2EA60DABB85DF20A3",
-      "external_id": null,
-      "verified_at": "2026-09-21T00:19:31Z",
-      "match_score": 85
-    },
-    {
       "id": "csx-3c33b469389c",
       "source_key": "csx",
       "fortune_rank": 324,
@@ -20360,6 +20953,319 @@
       "url": "https://careers.boozallen.com/jobs/JobDetail/Annapolis-Junction-Systems-Administrator-Intern-R0249566/130500",
       "external_id": null,
       "verified_at": "2026-09-21T17:10:00Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-bba324d8f147",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Đoàn Sĩ Anh | Retrofit Engineering Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Đoàn Sĩ Anh | Retrofit Engineering Intern Published Sept. 26, 2024 Business Unit: Engineering Location: Ho Chi Minh, Vietnam University: TU Delft Degree Program: Aerospace Engineering What is your role…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/meet-Doan",
+      "external_id": null,
+      "verified_at": "2026-09-22T19:00:54Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-1f189a7c918c",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Niyathi Gorantla | Sustainability Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Niyathi Gorantla | Sustainability Intern Published Aug. 20, 2024 Business Unit: Corporate Location: Chicago University: Duke University Degree Program: B.S. in Computer Science What is your role at Boeing?",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/NiyathiGorantla",
+      "external_id": null,
+      "verified_at": "2026-09-22T19:00:53Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-fb5e2f819966",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Mya Beathley | Engineering Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Mya Beathley | Engineering Intern Published Aug. 20, 2024 Business Unit: Boeing Defense, Space & Security Location: Oklahoma City University: University of Southern California Degree Program: B.S",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/MyaBeathley",
+      "external_id": null,
+      "verified_at": "2026-09-22T19:00:53Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-aa00c3ee8d66",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Meet Abbey Carlson: Former Intern Turned Space and Launch Engineer",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Meet Abbey Carlson: Former Intern Turned Space and Launch Engineer Published April 16, 2021 While 2020 was an unusual year for everyone, with many life events put on pause or canceled, Abbey Carlson was…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/Meet-Abbey-Carlson",
+      "external_id": null,
+      "verified_at": "2026-09-22T19:00:52Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-3bbefc4598f8",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Eva Strang | Strategy Analyst Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Eva Strang | Strategy Analyst Intern Published Aug. 20, 2024 Business Unit: Boeing Global, Ventures and Innovation Location: London University: University of Strathclyde Degree Program: B.A",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/EvaStrang",
+      "external_id": null,
+      "verified_at": "2026-09-22T19:00:53Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-eb83478639e0",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Elisa Rwagasana Ishimwe | Information Technology and Data Analytics Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Elisa Rwagasana Ishimwe | Information Technology and Data Analytics Intern Published Aug. 20, 2024 Business Unit: Corporate Location: Kent, Wash. University: College of Wooster Degree Program: B.A",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/ElisaRwagasanaIshimwe",
+      "external_id": null,
+      "verified_at": "2026-09-22T19:00:53Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-22e159d099e9",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Technical Apprenticeship Program (BTAP)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Boeing Technical Apprenticeship Program (BTAP) Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Boeing Technical Apprenticeship Program (BTAP) The digital revolution has introduced new demands for technical skills across the aerospace industry, and the…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/BTAP",
+      "external_id": null,
+      "verified_at": "2026-09-22T19:00:51Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-fe9864b7a9cf",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Atira Sarat | Sustainability Innovation Research Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Atira Sarat | Sustainability Innovation Research Intern Published Sept. 26, 2024 Business Unit: Commercial Airplanes Digital Product Development Location: Singapore University: National University of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/meet-Atira",
+      "external_id": null,
+      "verified_at": "2026-09-22T19:00:54Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-d3fc1e29e260",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Adrian Sosa | Structures Design Engineer Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Adrian Sosa | Structures Design Engineer Intern Published Aug. 20, 2024 Business Unit: Boeing Commercial Airplanes Location: Everett, Wash. University: University of Puerto Rico at Mayagüez Degree…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/AdrianSosa",
+      "external_id": null,
+      "verified_at": "2026-09-22T19:00:52Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-1a2b13c2711c",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Adrian Loekman | Airplane Maintenance Engineering Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Adrian Loekman | Airplane Maintenance Engineering Intern Published Sept. 26, 2024 Business Unit: Airplane Maintenance Engineering Location: Jakarta, Indonesia & Seal Beach, California University: UCLA…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/meet-AdrianL",
+      "external_id": null,
+      "verified_at": "2026-09-22T19:00:54Z",
       "match_score": 85
     }
   ]
