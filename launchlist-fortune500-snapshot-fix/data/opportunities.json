@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03T23:56:47Z",
+  "updated_at": "2026-10-04T06:02:12Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,7 +12,7 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-10-03T23:53:56Z",
+  "directory_refreshed_at": "2026-10-04T05:59:02Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 265,
   "companies_failed_last_24h": 4,
@@ -23,19 +23,6 @@
       "company": "Accendra Health",
       "fortune_500": true,
       "checked_at": "2026-10-03T08:16:28Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
-    },
-    {
-      "key": "alphabet",
-      "rank": 5,
-      "company": "Alphabet",
-      "fortune_500": true,
-      "checked_at": "2026-10-03T02:06:33Z",
       "status": "no-career-source",
       "issue_type": "No careers source found",
       "eligible_jobs": 0,
@@ -57,11 +44,24 @@
       "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
     },
     {
-      "key": "ups",
-      "rank": 48,
-      "company": "UPS",
+      "key": "coterra-energy",
+      "rank": 496,
+      "company": "Coterra Energy",
       "fortune_500": true,
-      "checked_at": "2026-10-03T02:06:33Z",
+      "checked_at": "2026-10-04T06:02:12Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "roper-technologies",
+      "rank": 487,
+      "company": "Roper Technologies",
+      "fortune_500": true,
+      "checked_at": "2026-10-04T06:02:12Z",
       "status": "no-career-source",
       "issue_type": "No careers source found",
       "eligible_jobs": 0,
@@ -70,9 +70,9 @@
       "error": null
     }
   ],
-  "companies_with_eligible_jobs": 78,
+  "companies_with_eligible_jobs": 76,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 716,
+  "opportunity_count": 769,
   "opportunities": [
     {
       "id": "salesforce-a42debff868d",
@@ -134,6 +134,67 @@
       "url": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/Ireland---Dublin/Recruiting-Coordination-Apprentice---French-Speaker_JR358086",
       "external_id": "JR358086",
       "verified_at": "2026-10-03T02:05:09Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-bed0b38bb28c",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "Engineering Department Intern",
+      "location": "IRL - Tipperary - Ballydine",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Power BI",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "Job Description Engineering Intern Role at Ballydine Our company start your journey on the career path within the Pharmaceutical industry. Not only will you learn skills both technical and professional but work on projects that will contribute towards enhancing and enhancing…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-03",
+      "deadline": "2026-10-05",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/IRL---Tipperary---Ballydine/Engineering-Department-Intern_R411420",
+      "external_id": "R411420",
+      "verified_at": "2026-10-04T06:01:03Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-381bbb188b75",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "WinField United Summer Research Technician Intern - River Falls, WI",
+      "location": "River Falls, WI (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "WinField United Summer Research Technician Intern - River Falls, WI WinField United Summer Research Technician Internship - River Falls, WI The WinField Answer Plot® Program hosts agronomic research plots across the country. Plots provide area farmers to see firsthand how seed…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-03",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/River-Falls-WI-USA/WinField-United-Summer-Research-Technician-Intern---River-Falls--WI_R-40734",
+      "external_id": "R-40734",
+      "verified_at": "2026-10-04T06:00:23Z",
       "match_score": 85
     },
     {
@@ -227,6 +288,31 @@
       "match_score": 85
     },
     {
+      "id": "j-m-smucker-fc673d357b61",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Human Resources Intern, Summer 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Your Opportunity as a Human Resources Intern As an intern within our Human Resources department, you will serve as a resource for current and former Smucker employees, their families, and, occasionally, non-employees such as applicants or contractors for questions regarding all…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-03",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Human-Resources-Intern--Summer-2027_115918",
+      "external_id": "115918",
+      "verified_at": "2026-10-04T05:59:43Z",
+      "match_score": 85
+    },
+    {
       "id": "target-ca27c3cf3776",
       "source_key": "target",
       "fortune_rank": 42,
@@ -253,6 +339,145 @@
       "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/4601-2nd-St-DavisCA-95618-9446/Store-Executive-Intern--Store-Leadership-Intern----North---West-Sacramento--CA--Starting-Summer-2027-_R0000450285",
       "external_id": "R0000450285",
       "verified_at": "2026-10-03T21:24:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "oneok-93f5e09a43f7",
+      "source_key": "oneok",
+      "fortune_rank": 138,
+      "fortune_500": true,
+      "company": "Oneok",
+      "title": "Instrumentation and Electrical Technician Intern (Tulsa or Oklahoma City, OK)",
+      "location": "Oklahoma City, OK",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-02",
+      "deadline": null,
+      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Oklahoma-City-OK/Instrumentation-and-Electrical-Technician-Intern--Tulsa-or-Oklahoma-City--OK-_R8441-1",
+      "external_id": "R8441",
+      "verified_at": "2026-10-04T05:59:39Z",
+      "match_score": 85
+    },
+    {
+      "id": "oneok-1d2832824248",
+      "source_key": "oneok",
+      "fortune_rank": 138,
+      "fortune_500": true,
+      "company": "Oneok",
+      "title": "Instrumentation and Electrical Technician Intern",
+      "location": "Lubbock, TX",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-02",
+      "deadline": null,
+      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Lubbock-TX/Instrumentation-and-Electrical-Technician-Intern_R8440-1",
+      "external_id": "R8440",
+      "verified_at": "2026-10-04T05:59:39Z",
+      "match_score": 85
+    },
+    {
+      "id": "oneok-4e1e90ab0d4e",
+      "source_key": "oneok",
+      "fortune_rank": 138,
+      "fortune_500": true,
+      "company": "Oneok",
+      "title": "Instrumentation & Electrical Technician Intern",
+      "location": "Midland, TX",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-02",
+      "deadline": null,
+      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Midland-TX/Instrumentation---Electrical-Technician-Intern_R8354",
+      "external_id": "R8354",
+      "verified_at": "2026-10-04T05:59:39Z",
+      "match_score": 85
+    },
+    {
+      "id": "oneok-d6895e7705fc",
+      "source_key": "oneok",
+      "fortune_rank": 138,
+      "fortune_500": true,
+      "company": "Oneok",
+      "title": "Field Mechanic Intern",
+      "location": "Eufaula, OK",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Leading midstream service provider. JOB SUMMARY Exciting internship opportunity as a Field Mechanic Intern at ONEOK, Inc. You will gain hands-on experience in mechanical work on equipment at our natural gas gathering and processing facilities",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-02",
+      "deadline": null,
+      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Eufaula-OK/Field-Mechanic-Intern_R8442-1",
+      "external_id": "R8442",
+      "verified_at": "2026-10-04T05:59:39Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-04fab1c44552",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "Intern- Quality Associate Lab and Data Analyst",
+      "location": "SGP - Singapore - Singapore (50 Tuas West Dr)",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Power BI",
+        "Product",
+        "Operations"
+      ],
+      "summary": "Job Description Job responsibility Develop, implement and maintain digital tools to improve efficiency of equipment calibration/maintenance and inventory management process within Singapore laboratory operations. Using data analytics concept/tools to analyse and recommend…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-02",
+      "deadline": "2026-12-31",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/SGP---Singapore---Singapore-50-Tuas-West-Dr/Intern--Quality-Associate-Lab-and-Data-Analyst_R418775",
+      "external_id": "R418775",
+      "verified_at": "2026-10-04T06:01:08Z",
       "match_score": 85
     },
     {
@@ -283,6 +508,34 @@
       "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Ottawa-Canada/Firmware-Engineer-Intern---Winter-2027_2604738",
       "external_id": "2604738",
       "verified_at": "2026-10-03T18:01:08Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-e54a4d303723",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "Purina Farm & Ranch Sales Intern",
+      "location": "Virtual (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Purina Farm & Ranch Sales Intern As a Purina Farm & Ranch Feed Sales Intern, you will be working alongside Purina Animal Nutrition Retail Operations Managers with national retailers, such as Tractor Supply Co and Regional Farm and Ranch accounts",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-02",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Purina-Farm---Ranch-Sales-Intern_R-40708",
+      "external_id": "R-40708",
+      "verified_at": "2026-10-04T06:00:23Z",
       "match_score": 85
     },
     {
@@ -490,12 +743,68 @@
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-fc673d357b61",
+      "id": "j-m-smucker-3c9b68498186",
       "source_key": "smucker",
       "fortune_rank": 456,
       "fortune_500": true,
       "company": "J.M. Smucker",
-      "title": "Human Resources Intern, Summer 2027",
+      "title": "Human Resources Intern- McCalla, AL, Summer 2027",
+      "location": "McCalla, AL",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Your Opportunity as a Humane Resources intern As an intern within our Human Resources department at one of our manufacturing facilities, you will work with the Human Resources teams to assist in manufacturing hiring, onboarding, talent management, talent development, workforce…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-02",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/McCalla-AL/Human-Resources-Intern--McCalla--AL--Summer-2027_115887",
+      "external_id": "115887",
+      "verified_at": "2026-10-04T05:59:44Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-f0f3b5aa25e8",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Human Resources Intern- Emporia, KS, Summer 2027",
+      "location": "Emporia, KS",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Your Opportunity as a Humane Resources intern As an intern within our Human Resources department at one of our manufacturing facilities, you will work with the Human Resources teams to assist in manufacturing hiring, onboarding, talent management, talent development, workforce…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-02",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Emporia-KS/Human-Resources-Intern--Emporia--KS--Summer-2027_115888",
+      "external_id": "115888",
+      "verified_at": "2026-10-04T05:59:44Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-47744eb4e650",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Corporate Communications Intern, Summer 2027",
       "location": "Orrville, OH",
       "region": "United States",
       "opportunity_type": "Internship",
@@ -503,15 +812,15 @@
         "Asset-based lending"
       ],
       "tags": [],
-      "summary": "Your Opportunity as a Human Resources Intern As an intern within our Human Resources department, you will serve as a resource for current and former Smucker employees, their families, and, occasionally, non-employees such as applicants or contractors for questions regarding all…",
+      "summary": "Your Opportunity as a Corporate Communications Intern As an intern in our communications organization, your responsibilities may include copywriting and editing, communications planning and execution, social media content development, media relations, multi-media content…",
       "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-10-02",
       "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Human-Resources-Intern--Summer-2027_115918",
-      "external_id": "115918",
-      "verified_at": "2026-10-03T23:54:30Z",
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Corporate-Communications-Intern--Summer-2027_115919",
+      "external_id": "115919",
+      "verified_at": "2026-10-04T05:59:43Z",
       "match_score": 85
     },
     {
@@ -682,134 +991,6 @@
       "match_score": 85
     },
     {
-      "id": "tyson-foods-27b80ac9bafe",
-      "source_key": "tyson-foods",
-      "fortune_rank": 87,
-      "fortune_500": true,
-      "company": "Tyson Foods",
-      "title": "Corporate Finance Year-Round Intern",
-      "location": "Corporate - Springdale, Arkansas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Corporate finance",
-        "Data analyst",
-        "FP&A"
-      ],
-      "tags": [
-        "Excel",
-        "Power BI",
-        "AI / ML",
-        "Strategy",
-        "Finance"
-      ],
-      "summary": "Job Details: SUMMARY: The Corporate Finance Intern role is an entry level position that will be participating in various activities with FP&A, Accounting, Investor Relations, Executive leadership, Segment Finance leaders, Strategy, Business Intelligence, and Data Analytics",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-01",
-      "deadline": null,
-      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN/job/Corporate---Springdale-Arkansas/Corporate-Finance-Year-Round-Intern_R0485360-3",
-      "external_id": "R0485360",
-      "verified_at": "2026-10-02T12:45:48Z",
-      "match_score": 85
-    },
-    {
-      "id": "tyson-foods-27b80ac9bafe",
-      "source_key": "tyson-foods",
-      "fortune_rank": 87,
-      "fortune_500": true,
-      "company": "Tyson Foods",
-      "title": "Corporate Finance Year-Round Intern",
-      "location": "Corporate - Springdale, Arkansas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Corporate finance",
-        "Data analyst",
-        "FP&A"
-      ],
-      "tags": [
-        "Excel",
-        "Power BI",
-        "AI / ML",
-        "Strategy",
-        "Finance"
-      ],
-      "summary": "Job Details: SUMMARY: The Corporate Finance Intern role is an entry level position that will be participating in various activities with FP&A, Accounting, Investor Relations, Executive leadership, Segment Finance leaders, Strategy, Business Intelligence, and Data Analytics",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-01",
-      "deadline": null,
-      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN1/job/Corporate---Springdale-Arkansas/Corporate-Finance-Year-Round-Intern_R0485360-2",
-      "external_id": "R0485360",
-      "verified_at": "2026-10-02T12:47:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "tyson-foods-a86b05f9ab27",
-      "source_key": "tyson-foods",
-      "fortune_rank": 87,
-      "fortune_500": true,
-      "company": "Tyson Foods",
-      "title": "Accounting Year-Round Intern - Poultry",
-      "location": "Corporate - Springdale, Arkansas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending",
-        "Accounting / financial analyst"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Job Details: SUMMARY: This Poultry Accounting Intern role is designed to provide a foundational experience in operations finance and accounting, this internship offers a unique opportunity to explore the inner workings of a a complex, data-driven manufacturing environment",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-01",
-      "deadline": null,
-      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN/job/Corporate---Springdale-Arkansas/Accounting-Year-Round-Intern---Poultry_R0485695-2",
-      "external_id": "R0485695",
-      "verified_at": "2026-10-02T12:45:48Z",
-      "match_score": 85
-    },
-    {
-      "id": "tyson-foods-a86b05f9ab27",
-      "source_key": "tyson-foods",
-      "fortune_rank": 87,
-      "fortune_500": true,
-      "company": "Tyson Foods",
-      "title": "Accounting Year-Round Intern - Poultry",
-      "location": "Corporate - Springdale, Arkansas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending",
-        "Accounting / financial analyst"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Job Details: SUMMARY: This Poultry Accounting Intern role is designed to provide a foundational experience in operations finance and accounting, this internship offers a unique opportunity to explore the inner workings of a a complex, data-driven manufacturing environment",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-01",
-      "deadline": null,
-      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN1/job/Corporate---Springdale-Arkansas/Accounting-Year-Round-Intern---Poultry_R0485695-1",
-      "external_id": "R0485695",
-      "verified_at": "2026-10-02T12:47:25Z",
-      "match_score": 85
-    },
-    {
       "id": "target-58b1b5773d2b",
       "source_key": "target",
       "fortune_rank": 42,
@@ -920,6 +1101,33 @@
       "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Santa-Clara-CA/Analog-Design-Intern_2604085",
       "external_id": "2604085",
       "verified_at": "2026-10-03T18:01:08Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-ee7621e98dba",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "WinField United Summer Research Technician Internship - Central",
+      "location": "Virtual (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "WinField United Summer Research Technician Internship - Central WinField United Summer Research Technician Internship - Central The WinField Answer Plot® Program hosts agronomic research plots across the country. Plots provide area farmers to see firsthand how seed and crop…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-01",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/WinField-United-Summer-Research-Technician-Internship---Central_R-40719",
+      "external_id": "R-40719",
+      "verified_at": "2026-10-04T06:00:23Z",
       "match_score": 85
     },
     {
@@ -1039,87 +1247,6 @@
       "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Jacksonville-Florida-United-States-of-America/XMLNAME-2027-Jax-R-D-Internship--STEM--Eng-Chem-_R-099052",
       "external_id": "R-099052",
       "verified_at": "2026-10-03T02:05:19Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-3c9b68498186",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Human Resources Intern- McCalla, AL, Summer 2027",
-      "location": "McCalla, AL",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Your Opportunity as a Humane Resources intern As an intern within our Human Resources department at one of our manufacturing facilities, you will work with the Human Resources teams to assist in manufacturing hiring, onboarding, talent management, talent development, workforce…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-01",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/McCalla-AL/Human-Resources-Intern--McCalla--AL--Summer-2027_115887",
-      "external_id": "115887",
-      "verified_at": "2026-10-03T23:54:31Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-f0f3b5aa25e8",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Human Resources Intern- Emporia, KS, Summer 2027",
-      "location": "Emporia, KS",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Your Opportunity as a Humane Resources intern As an intern within our Human Resources department at one of our manufacturing facilities, you will work with the Human Resources teams to assist in manufacturing hiring, onboarding, talent management, talent development, workforce…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-01",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Emporia-KS/Human-Resources-Intern--Emporia--KS--Summer-2027_115888",
-      "external_id": "115888",
-      "verified_at": "2026-10-03T23:54:31Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-47744eb4e650",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Corporate Communications Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Your Opportunity as a Corporate Communications Intern As an intern in our communications organization, your responsibilities may include copywriting and editing, communications planning and execution, social media content development, media relations, multi-media content…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-01",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Corporate-Communications-Intern--Summer-2027_115919",
-      "external_id": "115919",
-      "verified_at": "2026-10-03T23:54:30Z",
       "match_score": 85
     },
     {
@@ -1531,62 +1658,6 @@
       "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Fayetteville-NC/Business---Office-Management-Intern_R0250786",
       "external_id": "R0250786",
       "verified_at": "2026-10-02T23:02:46Z",
-      "match_score": 85
-    },
-    {
-      "id": "tyson-foods-9448a32cc847",
-      "source_key": "tyson-foods",
-      "fortune_rank": 87,
-      "fortune_500": true,
-      "company": "Tyson Foods",
-      "title": "Year Round Intern - Procurement",
-      "location": "Tyson on Thompson - Springdale, Arkansas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML"
-      ],
-      "summary": "Job Details: SUMMARY: The Procurement Year-Round Intern at Tyson will gain hands-on experience within the Global Procurement organization at our Springdale corporate office on Thompson St. This role provides an introduction to the broader procurement space in the first few…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-30",
-      "deadline": null,
-      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN/job/Tyson-on-Thompson---Springdale-Arkansas/Year-Round-Intern---Procurement_R0487094-2",
-      "external_id": "R0487094",
-      "verified_at": "2026-10-02T12:45:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "tyson-foods-9448a32cc847",
-      "source_key": "tyson-foods",
-      "fortune_rank": 87,
-      "fortune_500": true,
-      "company": "Tyson Foods",
-      "title": "Year Round Intern - Procurement",
-      "location": "Tyson on Thompson - Springdale, Arkansas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML"
-      ],
-      "summary": "Job Details: SUMMARY: The Procurement Year-Round Intern at Tyson will gain hands-on experience within the Global Procurement organization at our Springdale corporate office on Thompson St. This role provides an introduction to the broader procurement space in the first few…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-30",
-      "deadline": null,
-      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN1/job/Tyson-on-Thompson---Springdale-Arkansas/Year-Round-Intern---Procurement_R0487094-1",
-      "external_id": "R0487094",
-      "verified_at": "2026-10-02T12:47:26Z",
       "match_score": 85
     },
     {
@@ -2664,6 +2735,33 @@
       "external_id": "2604214",
       "verified_at": "2026-10-03T18:01:09Z",
       "match_score": 90
+    },
+    {
+      "id": "land-o-lakes-f0310aff8b07",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "WinField United Sales Internship, Summer 2027",
+      "location": "Virtual (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "WinField United Sales Internship, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative. With business units spanning crop insight and…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-29",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/WinField-United-Sales-Internship--Summer-2027_R-40236",
+      "external_id": "R-40236",
+      "verified_at": "2026-10-04T06:00:22Z",
+      "match_score": 85
     },
     {
       "id": "jones-lang-lasalle-9903a57efcbd",
@@ -3916,6 +4014,33 @@
       "match_score": 85
     },
     {
+      "id": "land-o-lakes-f9b8a4a9b0e7",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "Feed Sales Intern - Great Lakes Region",
+      "location": "Virtual (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Feed Sales Intern - Great Lakes Region Position Summary: As a Purina Feed Sales Intern, you will be employed by Land O'Lakes, Inc. and placed in a market with participating dealers and cooperatives. This is a field-based sales internship built for students who want to turn…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-25",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Feed-Sales-Intern---Great-Lakes-Region_R-40359",
+      "external_id": "R-40359",
+      "verified_at": "2026-10-04T06:00:22Z",
+      "match_score": 85
+    },
+    {
       "id": "jones-lang-lasalle-bd8d6b1dc0c6",
       "source_key": "jones-lang-lasalle",
       "fortune_rank": 175,
@@ -4212,6 +4337,37 @@
       "match_score": 90
     },
     {
+      "id": "merck-bab8041b6c2e",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Manufacturing Strategy, Business Development and Alliances (MSBDA) Intern",
+      "location": "USA - Pennsylvania - West Point",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Digital transformation",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Strategy"
+      ],
+      "summary": "Job Description Our ability to excel depends on the integrity, knowledge, imagination, skill, diversity, and teamwork of people like you. To this end, we strive to create an environment of mutual respect, encouragement, and teamwork",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-24",
+      "deadline": "2026-11-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Manufacturing-Strategy--Business-Development-and-Alliances--MSBDA--Intern_R418677",
+      "external_id": "R418677",
+      "verified_at": "2026-10-04T06:01:11Z",
+      "match_score": 85
+    },
+    {
       "id": "marvell-technology-49df3f2c8153",
       "source_key": "marvell-technology",
       "fortune_rank": 476,
@@ -4356,6 +4512,34 @@
       "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Danvers-Massachusetts-United-States-of-America/AIC-Systems-Test-Engineering-Co-Op_R-099094",
       "external_id": "R-099094",
       "verified_at": "2026-10-03T02:06:00Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-578c197945d9",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Human Resources Intern- Buffalo, NY, Summer 2027",
+      "location": "Buffalo, NY",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Your Opportunity as a Humane Resources intern As an intern within our Human Resources department at one of our manufacturing facilities, you will work with the Human Resources teams to assist in manufacturing hiring, onboarding, talent management, talent development, workforce…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-24",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Buffalo-NY/Human-Resources-Intern--Buffalo--NY--Summer-2027_115886",
+      "external_id": "115886",
+      "verified_at": "2026-10-04T05:59:44Z",
       "match_score": 85
     },
     {
@@ -4759,6 +4943,34 @@
       "match_score": 85
     },
     {
+      "id": "merck-7120f129ae82",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Bioprocess Technology Solutions (BTS) - Intern",
+      "location": "USA - Delaware - Millsboro (Intervet)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Animal Health Division can provide you with great development and a chance to see if we are the right company for your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-23",
+      "deadline": "2026-10-16",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Delaware---Millsboro-Intervet/XMLNAME-2027-Future-Talent-Program----Bioprocess-Technology-Solutions--BTS----Intern_R412781",
+      "external_id": "R412781",
+      "verified_at": "2026-10-04T06:01:11Z",
+      "match_score": 85
+    },
+    {
       "id": "marvell-technology-fdaadb873d3c",
       "source_key": "marvell-technology",
       "fortune_rank": 476,
@@ -4927,34 +5139,6 @@
       "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/San-Lorenzo-Puerto-Rico-United-States-of-America/Business-Excellence-Eng-Co-Op_R-099046",
       "external_id": "R-099046",
       "verified_at": "2026-10-03T02:05:22Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-578c197945d9",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Human Resources Intern- Buffalo, NY, Summer 2027",
-      "location": "Buffalo, NY",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Your Opportunity as a Humane Resources intern As an intern within our Human Resources department at one of our manufacturing facilities, you will work with the Human Resources teams to assist in manufacturing hiring, onboarding, talent management, talent development, workforce…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-23",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Buffalo-NY/Human-Resources-Intern--Buffalo--NY--Summer-2027_115886",
-      "external_id": "115886",
-      "verified_at": "2026-10-03T23:54:31Z",
       "match_score": 85
     },
     {
@@ -5775,62 +5959,6 @@
       "match_score": 85
     },
     {
-      "id": "tyson-foods-8e74898a8c97",
-      "source_key": "tyson-foods",
-      "fortune_rank": 87,
-      "fortune_500": true,
-      "company": "Tyson Foods",
-      "title": "Sensory Science Summer Intern",
-      "location": "Corporate - Springdale, Arkansas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product"
-      ],
-      "summary": "Job Details: Job Description Summary: Are you ready to jumpstart your career with a summer internship at Tyson Foods? The Sensory Science Intern will support Tyson Foods' sensory team in evaluating product quality, consumer acceptance, and product innovation initiatives",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-21",
-      "deadline": null,
-      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN/job/Corporate---Springdale-Arkansas/Sensory-Science-Summer-Intern_R0481312-2",
-      "external_id": "R0481312",
-      "verified_at": "2026-10-02T12:45:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "tyson-foods-8e74898a8c97",
-      "source_key": "tyson-foods",
-      "fortune_rank": 87,
-      "fortune_500": true,
-      "company": "Tyson Foods",
-      "title": "Sensory Science Summer Intern",
-      "location": "Corporate - Springdale, Arkansas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product"
-      ],
-      "summary": "Job Details: Job Description Summary: Are you ready to jumpstart your career with a summer internship at Tyson Foods? The Sensory Science Intern will support Tyson Foods' sensory team in evaluating product quality, consumer acceptance, and product innovation initiatives",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-21",
-      "deadline": null,
-      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN1/job/Corporate---Springdale-Arkansas/Sensory-Science-Summer-Intern_R0481312-1",
-      "external_id": "R0481312",
-      "verified_at": "2026-10-02T12:47:41Z",
-      "match_score": 85
-    },
-    {
       "id": "jones-lang-lasalle-a289b62611af",
       "source_key": "jones-lang-lasalle",
       "fortune_rank": 175,
@@ -5970,6 +6098,66 @@
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Getzville-New-York-United-States/Market-Operations-Junior-Analyst-Program-Hybrid_26991391-1",
       "external_id": "26991391",
       "verified_at": "2026-10-03T08:15:36Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-c359f17bdafc",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Animal Health Sales - Intern",
+      "location": "USA - Kansas - Lenexa",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Product",
+        "Strategy"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Animal Health Division can provide you with great development and a chance to see if we are the right company for your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-19",
+      "deadline": "2026-10-23",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Kansas---Lenexa/XMLNAME-2027-Future-Talent-Program---Animal-Health-Sales---Intern_R416026",
+      "external_id": "R416026",
+      "verified_at": "2026-10-04T06:01:12Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-32fc3dc9531e",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "Credit Management Analyst Intern",
+      "location": "Arden Hills, MN (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Credit risk",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Finance",
+        "Credit",
+        "Risk",
+        "Accounting"
+      ],
+      "summary": "Credit Management Analyst Intern Pay: $2 7 / hr Position Duration: May 2027 – early August 2027 Position Location: Arden Hills, MN Land O’Lakes is looking for talented Finance, Accounting , and Business candidates with strong leadership skills for our Summer Internship Program",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-19",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/Credit-Management-Analyst-Intern_R-40383",
+      "external_id": "R-40383",
+      "verified_at": "2026-10-04T06:00:22Z",
       "match_score": 85
     },
     {
@@ -6136,6 +6324,35 @@
       "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Cambridge-Ontario-Canada/Co-op--Manufacturing-Engineering_R26-6978-1",
       "external_id": "R26-6978",
       "verified_at": "2026-10-03T21:23:00Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-778894cebed6",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - US Controllers - Intern",
+      "location": "USA - New Jersey - Rahway",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Finance",
+        "Treasury",
+        "Accounting"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Global Support Functions Division can provide you with great development and a chance to see if we are the right company for…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-18",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---US-Controllers---Intern_R412263",
+      "external_id": "R412263",
+      "verified_at": "2026-10-04T06:01:12Z",
       "match_score": 85
     },
     {
@@ -7032,6 +7249,148 @@
       "match_score": 85
     },
     {
+      "id": "merck-a5f119c19655",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Clinical Trial Data Management - Intern",
+      "location": "USA - New Jersey - Rahway",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Risk",
+        "Accounting"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Research Lab Division can provide you with great development and a chance to see if we are the right company for your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-16",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Clinical-Trial-Data-Management---Intern_R411691",
+      "external_id": "R411691",
+      "verified_at": "2026-10-04T06:01:13Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-2a7d7b5f33ac",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "WinField United Research & Development Lab Intern, Summer 2027",
+      "location": "River Falls, WI (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "WinField United Research & Development Lab Intern, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-16",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/River-Falls-WI-USA/WinField-United-Research---Development-Lab-Intern--Summer-2027_R-40232",
+      "external_id": "R-40232",
+      "verified_at": "2026-10-04T06:00:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-406bfc023829",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "WinField United Market Development Agronomist Intern, Summer 2027",
+      "location": "Virtual (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "WinField United Market Development Agronomist Intern, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-16",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/WinField-United-Market-Development-Agronomist-Intern--Summer-2027_R-40235",
+      "external_id": "R-40235",
+      "verified_at": "2026-10-04T06:00:24Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-eac200fa8638",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "WinField United Forage Nutrition Insights Intern, Summer 2027",
+      "location": "Indianapolis, IN (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "WinField United Forage Nutrition Insights Intern, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-16",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Indianapolis-IN-USA/WinField-United-Forage-Nutrition-Insights-Intern--Summer-2027_R-40234",
+      "external_id": "R-40234",
+      "verified_at": "2026-10-04T06:00:22Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-d92d42fd7841",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "WinField United FGI Marketing Intern, Summer 2027",
+      "location": "Arden Hills, MN (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations"
+      ],
+      "summary": "WinField United FGI Marketing Intern, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-16",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/WinField-United-FGI-Marketing-Intern--Summer-2027_R-40233",
+      "external_id": "R-40233",
+      "verified_at": "2026-10-04T06:00:23Z",
+      "match_score": 85
+    },
+    {
       "id": "johnson-johnson-1d670849e60e",
       "source_key": "johnson-johnson",
       "fortune_rank": 45,
@@ -7300,6 +7659,114 @@
       "match_score": 85
     },
     {
+      "id": "land-o-lakes-36428f8efd02",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "Feed Sales Intern - West Region",
+      "location": "Virtual (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Feed Sales Intern - West Region Position Summary: As a Purina Feed Sales Intern, you will be employed by Land O'Lakes, Inc. and placed in a market with participating dealers and cooperatives. This is a field-based sales internship built for students who want to turn animal…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-15",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Feed-Sales-Intern---West-Region_R-40354",
+      "external_id": "R-40354",
+      "verified_at": "2026-10-04T06:00:22Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-188b9b1ebd9c",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "Feed Sales Intern - Southwest Region",
+      "location": "Virtual (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Feed Sales Intern - Southwest Region Position Summary: As a Purina Feed Sales Intern, you will be employed by Land O'Lakes, Inc. and placed in a market with participating dealers and cooperatives. This is a field-based sales internship built for students who want to turn animal…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-15",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Feed-Sales-Intern---Southwest-Region_R-40363",
+      "external_id": "R-40363",
+      "verified_at": "2026-10-04T06:00:22Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-212d899f0f8b",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "Feed Sales Intern - Midwest Region",
+      "location": "Virtual (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Feed Sales Intern - Midwest Region Position Summary: As a Purina Feed Sales Intern, you will be employed by Land O'Lakes, Inc. and placed in a market with participating dealers and cooperatives. This is a field-based sales internship built for students who want to turn animal…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-15",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Feed-Sales-Intern---Midwest-Region_R-40357",
+      "external_id": "R-40357",
+      "verified_at": "2026-10-04T06:00:22Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-1be4e96743e2",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "Feed Sales Intern - East Region",
+      "location": "Virtual (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Feed Sales Intern - East Region Position Summary: As a Purina Feed Sales Intern, you will be employed by Land O'Lakes, Inc. and placed in a market with participating dealers and cooperatives. This is a field-based sales internship built for students who want to turn animal…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-15",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Feed-Sales-Intern---East-Region_R-40361",
+      "external_id": "R-40361",
+      "verified_at": "2026-10-04T06:00:22Z",
+      "match_score": 85
+    },
+    {
       "id": "jones-lang-lasalle-93f0d2d3e562",
       "source_key": "jones-lang-lasalle",
       "fortune_rank": 175,
@@ -7355,6 +7822,36 @@
       "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Raritan-New-Jersey-United-States-of-America/Supply-Chain-2027-Co-op-Intern_R-099521-1",
       "external_id": "R-099521",
       "verified_at": "2026-10-03T02:05:25Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-3700e742f4f3",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Supply Chain Intern, Summer 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "Your Opportunity as a Supply Chain/Procurement Intern As an intern within our Supply Chain and Procurement organizations, responsibilities will vary based on your position. You will have the opportunity to assist in one of the following areas: Corporate Transportation,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-15",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Supply-Chain-Intern--Summer-2027_115694",
+      "external_id": "115694",
+      "verified_at": "2026-10-04T05:59:42Z",
       "match_score": 85
     },
     {
@@ -7795,36 +8292,6 @@
       "external_id": "R68426",
       "verified_at": "2026-10-02T23:02:33Z",
       "match_score": 90
-    },
-    {
-      "id": "j-m-smucker-3700e742f4f3",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Supply Chain Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Your Opportunity as a Supply Chain/Procurement Intern As an intern within our Supply Chain and Procurement organizations, responsibilities will vary based on your position. You will have the opportunity to assist in one of the following areas: Corporate Transportation,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-14",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Supply-Chain-Intern--Summer-2027_115694",
-      "external_id": "115694",
-      "verified_at": "2026-10-03T23:54:30Z",
-      "match_score": 85
     },
     {
       "id": "guardian-life-ins-co-of-america-c793176fbb1a",
@@ -8648,6 +9115,38 @@
       "match_score": 85
     },
     {
+      "id": "merck-570468b7ed9c",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Data Analytics and Insights - Intern",
+      "location": "USA - New Jersey - Rahway",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Power BI",
+        "Product"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Animal Health Division can provide you with great development and a chance to see if we are the right company for your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-12",
+      "deadline": "2026-10-16",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Data-Analytics-and-Insights---Intern_R413657",
+      "external_id": "R413657",
+      "verified_at": "2026-10-04T06:01:13Z",
+      "match_score": 85
+    },
+    {
       "id": "carrier-global-277a613e45b6",
       "source_key": "carrier-global",
       "fortune_rank": 212,
@@ -8837,6 +9336,140 @@
       "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Sao-Paulo-Brazil/Intern--Project-Administrator_R26-6342",
       "external_id": "R26-6342",
       "verified_at": "2026-10-03T21:22:58Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-5183597665a9",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Global Workplace and Enterprise Services - Intern",
+      "location": "USA - New Jersey - Rahway",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Job Description Our Future Talent Program features internship assignments that will last 10-12 weeks and will include one or more projects. These opportunities in our Global Services division can provide you with great development and a chance to see if we are the right company…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-11",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Global-Workplace-and-Enterprise-Services---Intern_R417074",
+      "external_id": "R417074",
+      "verified_at": "2026-10-04T06:01:13Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-eba09fc6bb3f",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "IT Intern",
+      "location": "Arden Hills, MN (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "IT analyst",
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "IT Intern Pay: $2 8 / hr Position Duration: May 2027 – July 2027 Position Location: Arden Hills, MN The Land O'Lakes Technology Internship brings your education to life by providing hands-on experience applying technology and data solutions to real business challenges",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-11",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/IT-Intern_R-40138",
+      "external_id": "R-40138",
+      "verified_at": "2026-10-04T06:00:22Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-bd97493931e1",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Packaging Engineering Intern- 2027, 6-8 month Co-Op",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Your Opportunity as a Packaging Intern As an intern within our Packaging department, you will leverage the state-of-the-art packaging lab to enable data-based decision making through the use of a variety of test methods. You will contribute to packaging sustainability goals by…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-11",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_115697",
+      "external_id": "115697",
+      "verified_at": "2026-10-04T05:59:44Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-ed68f51b9631",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Operations QA Intern, Summer 2027-Columbus, GA",
+      "location": "Columbus, GA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Your Opportunity as an Operations QA Intern As an intern within Operations, you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to better understand process capabilities for meeting specifications and support…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-11",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Columbus-GA/Operations-QA-Intern--Summer-2027-Columbus--GA_115774",
+      "external_id": "115774",
+      "verified_at": "2026-10-04T05:59:44Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-0fe924084904",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Microbiology Intern, Summer 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Your Opportunity as a Microbiology Intern As an intern within our Microbiology Lab, you will complete routine microbiological testing on finished goods and environmental samples. You will provide laboratory support and complete microbiological reporting within company databases",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-11",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Microbiology-Intern--Summer-2027_115676",
+      "external_id": "115676",
+      "verified_at": "2026-10-04T05:59:42Z",
       "match_score": 85
     },
     {
@@ -9329,6 +9962,31 @@
       "match_score": 85
     },
     {
+      "id": "land-o-lakes-fb833cbffdc5",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "Communications Intern",
+      "location": "Arden Hills, MN (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Communications Intern Pay : $22/ hr Position Duration: May 2027 – July 2027 Position Location: Arden Hills, MN Land O'Lakes is looking for talented, driven communications candidates for our summer internship program. As an intern, you will be assigned specific responsibilities…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/Communications-Intern_R-40461",
+      "external_id": "R-40461",
+      "verified_at": "2026-10-04T06:00:22Z",
+      "match_score": 85
+    },
+    {
       "id": "johnson-johnson-474afffa4786",
       "source_key": "johnson-johnson",
       "fortune_rank": 45,
@@ -9385,12 +10043,66 @@
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-bd97493931e1",
+      "id": "j-m-smucker-bac848157501",
       "source_key": "smucker",
       "fortune_rank": 456,
       "fortune_500": true,
       "company": "J.M. Smucker",
-      "title": "Packaging Engineering Intern- 2027, 6-8 month Co-Op",
+      "title": "Sensory and Products Research Intern, Summer 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Your Opportunity as an Intern This posting represents two internship opportunities: Sensory and R&D Products Research. Both roles are looking for students interested in sensory and consumer research. While both apply scientific rigor to understand our products and serve as a…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
+      "external_id": "115677",
+      "verified_at": "2026-10-04T05:59:43Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-e671522fa6be",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Sales Intern, Summer 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy"
+      ],
+      "summary": "Your Opportunity as a Sales Intern As a Sales Intern, you will have an exciting opportunity to work for one of the oldest and established American food company building relationships with some of the largest retailers in the nation and world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sales-Intern--Summer-2027_115803",
+      "external_id": "115803",
+      "verified_at": "2026-10-04T05:59:42Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-ea5ec0d5abdb",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Research & Development Intern/Co-Op, 2027",
       "location": "Orrville, OH",
       "region": "United States",
       "opportunity_type": "Co-op",
@@ -9398,27 +10110,85 @@
         "Asset-based lending"
       ],
       "tags": [
-        "Operations"
+        "Product"
       ],
-      "summary": "Your Opportunity as a Packaging Intern As an intern within our Packaging department, you will leverage the state-of-the-art packaging lab to enable data-based decision making through the use of a variety of test methods. You will contribute to packaging sustainability goals by…",
+      "summary": "Your Opportunity as a Research & Development Intern As an intern within our Research and Development organization you will have the opportunity to independently manage and conduct all technical functions of a small research project, as well as analyze data and report on key…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": true,
       "posted_date": "2026-09-10",
       "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_115697",
-      "external_id": "115697",
-      "verified_at": "2026-10-03T23:54:31Z",
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
+      "external_id": "115698",
+      "verified_at": "2026-10-04T05:59:43Z",
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-ed68f51b9631",
+      "id": "j-m-smucker-4941041a5947",
       "source_key": "smucker",
       "fortune_rank": 456,
       "fortune_500": true,
       "company": "J.M. Smucker",
-      "title": "Operations QA Intern, Summer 2027-Columbus, GA",
-      "location": "Columbus, GA",
+      "title": "R&D Engineering Intern, Co-Op 2027 (8 months)",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Your Opportunity as a n Engineering Intern As an intern with in our Corporate Engineering Organization, you will work on a Process Engineering Team s upporting Research and Development . Y ou will work on research projects that involve designing and executing experiments in the…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/R-D-Engineering-Intern--Co-Op-2027--8-months-_115696",
+      "external_id": "115696",
+      "verified_at": "2026-10-04T05:59:43Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-9ba37021fd44",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Plant Systems Engineering Intern, Orrville, OH Spring 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Technical Solutions",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Cloud",
+        "Operations"
+      ],
+      "summary": "Your Opportunity as the Plant Systems Engineering Intern: As a Plant Systems Engineering intern you will gain hands‑on experience supporting manufacturing operations through IT, automation, and network infrastructure, including MES/SCADA systems and plant networking environments",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Spring-2027_115712",
+      "external_id": "115712",
+      "verified_at": "2026-10-04T05:59:43Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-c6eeca22fea8",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Operations Engineering Intern, Summer 2027 (Multiple Locations)",
+      "location": "New Orleans, LA",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
@@ -9427,40 +10197,272 @@
       "tags": [
         "Operations"
       ],
-      "summary": "Your Opportunity as an Operations QA Intern As an intern within Operations, you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to better understand process capabilities for meeting specifications and support…",
+      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in Operations Engineering , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/New-Orleans-LA/Operations-Engineering-Intern--Summer-2027--Multiple-Locations-_115721",
+      "external_id": "115721",
+      "verified_at": "2026-10-04T05:59:44Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-7c81dce2d0cb",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Operations Engineering Intern, Spring 2027 - Scottsville, KY",
+      "location": "Scottsville, KY",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in O perations , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and manage projects,…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-09-10",
       "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Columbus-GA/Operations-QA-Intern--Summer-2027-Columbus--GA_115774",
-      "external_id": "115774",
-      "verified_at": "2026-10-03T23:54:30Z",
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Scottsville-KY/Operations-Engineering-Intern--Spring-2027---Scottsville--KY_115475-1",
+      "external_id": "115475",
+      "verified_at": "2026-10-04T05:59:44Z",
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-0fe924084904",
+      "id": "j-m-smucker-fc36c2ec7452",
       "source_key": "smucker",
       "fortune_rank": 456,
       "fortune_500": true,
       "company": "J.M. Smucker",
-      "title": "Microbiology Intern, Summer 2027",
+      "title": "Operations Engineering Intern, Spring 2027 - Memphis, TN",
+      "location": "Memphis, TN",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in O perations , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and manage projects,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Memphis-TN/Operations-Engineering-Intern--Spring-2027---Memphis--TN_114845",
+      "external_id": "114845",
+      "verified_at": "2026-10-04T05:59:44Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-c79b6d31f2dc",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Operations Engineering Intern, Spring 2027 - Lexington, KY",
+      "location": "Lexington, KY",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in O perations , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and manage projects,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Lexington-KY/Operations-Engineering-Intern--Spring-2027---Lexington--KY_114841",
+      "external_id": "114841",
+      "verified_at": "2026-10-04T05:59:51Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-7ef1c6e966cd",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Marketing Intern, Summer 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy"
+      ],
+      "summary": "Your Opportunity as a Marketing Intern As an intern within our Marketing department, you will evaluate data and business trend s and communicate those insights to the core business team. You will execute specifically requested analyses via syndicated data ( Circana & Internal…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Marketing-Intern--Summer-2027_115771",
+      "external_id": "115771",
+      "verified_at": "2026-10-04T05:59:42Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-5ac63b3bb2a7",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Information Services Intern, Summer 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Risk"
+      ],
+      "summary": "Infrastructure & Support Services – In this role, you will collaborate with ITP team members and employees from across the company to procure , receive, store, install, test, and ship peripheral computer equipment, software, and supplies",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Information-Services-Intern--Summer-2027_115744",
+      "external_id": "115744",
+      "verified_at": "2026-10-04T05:59:43Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-9069e430e814",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Finance & Accounting Intern, Summer 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Accounting / financial analyst",
+        "FP&A",
+        "Corporate finance"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Treasury",
+        "FP&A",
+        "Accounting"
+      ],
+      "summary": "Your Opportunity as a Finance Intern As an intern within our Accounting and Finance organization, responsibilities will vary based on the department and role within Finance. We have internship opportunities in Financial Reporting, Plant Finance, Supply Chain Finance, Finance…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Summer-2027_115743",
+      "external_id": "115743",
+      "verified_at": "2026-10-04T05:59:43Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-ca48df236875",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Finance & Accounting Intern, Spring 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Accounting / financial analyst",
+        "FP&A",
+        "Corporate finance"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Treasury",
+        "FP&A",
+        "Accounting"
+      ],
+      "summary": "Your Opportunity as a Finance Intern As an intern within our Finance and Accounting organization, responsibilities will vary based on the department and role within Finance. We have internship opportunities in Financial Planning & Analysis, Supply Chain Finance, Supply Chain…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
+      "external_id": "114929",
+      "verified_at": "2026-10-04T05:59:43Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-e1de1074c0c1",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Category Leadership Intern, Summer 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Your Opportunity as a Category Leadership Intern As an intern within our Category Leadership department, you will have an e xciting opportunity to analy ze and gro w top bran ds and categorie s in the consumer-packaged food industr y",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-10",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Category-Leadership-Intern--Summer-2027_115804",
+      "external_id": "115804",
+      "verified_at": "2026-10-04T05:59:43Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-0d79f821ca33",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Analytical Lab Intern, Summer 2027",
       "location": "Orrville, OH",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
         "Asset-based lending"
       ],
-      "tags": [],
-      "summary": "Your Opportunity as a Microbiology Intern As an intern within our Microbiology Lab, you will complete routine microbiological testing on finished goods and environmental samples. You will provide laboratory support and complete microbiological reporting within company databases",
+      "tags": [
+        "Product"
+      ],
+      "summary": "Your Opportunity as a Analytical Lab Intern As an intern within our Analytical Lab you will gain experience in our corporate analytical laboratory . You will enhance your food product analytical attributes knowledge base . You will operate analytical equipment ( i.e",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": true,
       "posted_date": "2026-09-10",
       "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Microbiology-Intern--Summer-2027_115676",
-      "external_id": "115676",
-      "verified_at": "2026-10-03T23:54:29Z",
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Analytical-Lab-Intern--Summer-2027_115678",
+      "external_id": "115678",
+      "verified_at": "2026-10-04T05:59:43Z",
       "match_score": 85
     },
     {
@@ -10032,6 +11034,971 @@
       "match_score": 90
     },
     {
+      "id": "merck-98faa82cdd3e",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program –Global Clinical Trial Operations (GCTO) Project Management Office (PMO) - Intern",
+      "location": "USA - Pennsylvania - North Wales (Upper Gwynedd)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that lasts up to 12 weeks and will include one or more projects. These opportunities can provide you with great development and a chance to see if we are the right company for your long-term goals",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---North-Wales-Upper-Gwynedd/XMLNAME-2027-Future-Talent-Program--Global-Clinical-Trial-Operations--GCTO--Project-Management-Office--PMO----Intern-PMO-Intern_R416468",
+      "external_id": "R416468",
+      "verified_at": "2026-10-04T06:01:14Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-12eb3e647ab0",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program – Discovery Oncology – Intern (South San Francisco, CA)",
+      "location": "USA - California - South San Francisco (Grand Ave)",
+      "region": "United States",
+      "opportunity_type": "Pre-internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Research and Development Division can provide you with great development and a chance to see if we are the right company for…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-11-20",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---California---South-San-Francisco-Grand-Ave/XMLNAME-2027-Future-Talent-Program---Discovery-Oncology---Intern--South-San-Francisco--CA-_R415703",
+      "external_id": "R415703",
+      "verified_at": "2026-10-04T06:01:14Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-868247798cda",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program – Digital Transformation Conversion – Intern",
+      "location": "USA - Pennsylvania - Lower Gwynedd Township (Spring House)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Digital transformation",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Operations"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Research and Develpoment Division can provide you with great development and a chance to see if we are the right company for…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---Lower-Gwynedd-Township-Spring-House/XMLNAME-2027-Future-Talent-Program---Digital-Transformation-Conversion---Intern_R412942",
+      "external_id": "R412942",
+      "verified_at": "2026-10-04T06:01:18Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-740ba490a28a",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program – Business Development Execution – Intern",
+      "location": "USA - Pennsylvania - North Wales (Upper Gwynedd)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Power BI",
+        "AI / ML"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Research and Development Division can provide you with great development and a chance to see if we are the right company for…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---North-Wales-Upper-Gwynedd/XMLNAME-2027-Future-Talent-Program---Business-Development-Execution---Intern_R413070",
+      "external_id": "R413070",
+      "verified_at": "2026-10-04T06:01:17Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-4423f3a1c34e",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Standardizing Automation Scripting Practices Through AI-Enabled Knowledge Repository - Intern",
+      "location": "USA - Pennsylvania - West Point",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending",
+        "Data analyst"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "AI / ML"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Research and Development Division can provide you with great development and a chance to see if we are the right company for…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Standardizing-Automation-Scripting-Practices-Through-AI-Enabled-Knowledge-Repository---Intern_R412939",
+      "external_id": "R412939",
+      "verified_at": "2026-10-04T06:01:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-75793c008530",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Process & Quality Management - Intern",
+      "location": "USA - Pennsylvania - North Wales (Upper Gwynedd)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Research Lab Division can provide you with great development and a chance to see if we are the right company for your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---North-Wales-Upper-Gwynedd/XMLNAME-2027-Future-Talent-Program---Process---Quality-Management---Intern_R413124",
+      "external_id": "R413124",
+      "verified_at": "2026-10-04T06:01:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-b26536318f0b",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Nonclinical Drug Safety, Developmental And Reproductive Toxicology - Intern",
+      "location": "USA - Pennsylvania - West Point",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Research and Development Division can provide you with great development and a chance to see if we are the right company for…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Nonclinical-Drug-Safety--Developmental-And-Reproductive-Toxicology---Intern_R412848",
+      "external_id": "R412848",
+      "verified_at": "2026-10-04T06:01:28Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-002a8ffc644b",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Good Laboratory Practice - Intern",
+      "location": "USA - Pennsylvania - West Point",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Accounting"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Research and Development Division can provide you with great development and a chance to see if we are the right company for…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Good-Laboratory-Practice---Intern_R413289",
+      "external_id": "R413289",
+      "verified_at": "2026-10-04T06:01:50Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-7aa69635f0e3",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Global Supplier Management Group Supplier Development & Performance Management - Intern",
+      "location": "USA - Pennsylvania - West Point",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Risk"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Global Support Functions Division can provide you with great development and a chance to see if we are the right company for…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Global-Supplier-Management-Group-Supplier-Development---Performance-Management---Intern_R413506",
+      "external_id": "R413506",
+      "verified_at": "2026-10-04T06:01:21Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-c7bf8777bd85",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Global Supplier Management Group Indirect Procurement Marketing - Intern",
+      "location": "USA - New Jersey - Rahway",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Product",
+        "Operations",
+        "Finance",
+        "Risk"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Global Support Division can provide you with great development and a chance to see if we are the right company for your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Global-Supplier-Management-Group-Indirect-Procurement-Marketing---Intern_R415035",
+      "external_id": "R415035",
+      "verified_at": "2026-10-04T06:01:21Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-15d7ae15a3c6",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Global Supplier Management Group Business Ops - Co-op",
+      "location": "USA - Pennsylvania - West Point",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "Job Description The Future Talent Program features Cooperative (Co-op) education that lasts up to 6 months and will include one or more projects. These opportunities in our Global Support Division can provide you with great development and a chance to see if we are the right…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Global-Supplier-Management-Group-Business-Ops---Co-op_R415029",
+      "external_id": "R415029",
+      "verified_at": "2026-10-04T06:01:28Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-c1b86345d54c",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Global Strategic Sourcing - Intern",
+      "location": "USA - New Jersey - Rahway",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Risk management",
+        "Digital transformation"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Strategy",
+        "Finance",
+        "Risk"
+      ],
+      "summary": "Job Description As a Global Strategic Sourcing Intern at our company's Animal Health Division, you will gain hands-on experience working alongside industry experts to develop and execute sourcing strategies that drive value, efficiency, and innovation across our global supply…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-30",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Global-Strategic-Sourcing---Intern_R413301",
+      "external_id": "R413301",
+      "verified_at": "2026-10-04T06:01:21Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-9d85bd451289",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Global Site Budgets & Payments (Regions) Intern",
+      "location": "USA - New Jersey - Rahway",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Research Labs can provide you with great development and a chance to see if we are the right company for your long-term goals",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Global-Site-Budgets---Payments--Regions--Intern_R407976",
+      "external_id": "R407976",
+      "verified_at": "2026-10-04T06:01:21Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-dd68a713a329",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Global SQM Intern",
+      "location": "USA - Pennsylvania - West Point",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Product management",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Power BI",
+        "AI / ML",
+        "Product",
+        "Strategy"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Manufacturing Division can provide you with great development and a chance to see if we are the right company for your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-30",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program----Global-SQM-Intern_R413659",
+      "external_id": "R413659",
+      "verified_at": "2026-10-04T06:01:14Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-f806392a180a",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Global Medical Information - Intern",
+      "location": "USA - Pennsylvania - North Wales (Upper Gwynedd)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Product"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Research Division can provide you with great development and a chance to see if we are the right company for your long-term…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---North-Wales-Upper-Gwynedd/XMLNAME-2027-Future-Talent-Program---Global-Medical-Information---Intern_R412638",
+      "external_id": "R412638",
+      "verified_at": "2026-10-04T06:01:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-d0e4797d5d34",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Global Clinical Trial Operations Intern",
+      "location": "USA - Pennsylvania - North Wales (Upper Gwynedd)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Research Labs Division can provide you with great development and a chance to see if we are the right company for your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-16",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---North-Wales-Upper-Gwynedd/XMLNAME-2027-Future-Talent-Program---Global-Clinical-Trial-Operations-Intern_R415137",
+      "external_id": "R415137",
+      "verified_at": "2026-10-04T06:01:19Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-35c30ed7a3aa",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Global Clinical Development Standards & Training - Intern",
+      "location": "USA - Pennsylvania - North Wales (Upper Gwynedd)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Research Labs Division can provide you with great development and a chance to see if we are the right company for your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---North-Wales-Upper-Gwynedd/XMLNAME-2027-Future-Talent-Program---Global-Clinical-Development-Standards---Training---Intern_R413559",
+      "external_id": "R413559",
+      "verified_at": "2026-10-04T06:01:19Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-81c7897c90f2",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Global Clinical Data Standards - Intern",
+      "location": "USA - New Jersey - Rahway",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Operations"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Research Labs Division can provide you with great development and a chance to see if we are the right company for your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Global-Clinical-Data-Standards---Intern_R413909",
+      "external_id": "R413909",
+      "verified_at": "2026-10-04T06:01:19Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-01bb990e81cd",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Finance - Intern",
+      "location": "USA - New Jersey - Rahway",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "FP&A",
+        "Data analyst"
+      ],
+      "tags": [
+        "Operations",
+        "Finance",
+        "FP&A",
+        "Risk",
+        "Accounting"
+      ],
+      "summary": "Job Description Job Description The Future Talent Program features internships lasting up to 12 weeks and includes one or more project assignments. These opportunities within our Global Support Functions provide valuable professional development and a chance to determine…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-11-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Finance---Intern_R416510",
+      "external_id": "R416510",
+      "verified_at": "2026-10-04T06:01:14Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-349e7ad0178d",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Elkton Manufacturing Intern",
+      "location": "USA - Virginia - Elkton",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Technical Solutions",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last 10-12 weeks and will include one or more projects. These opportunities in our Manufacturing Division can provide you with great development and a chance to see if we are the right company for your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-30",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Virginia---Elkton/XMLNAME-2027-Future-Talent-Program---Elkton-Manufacturing-Intern_R412907",
+      "external_id": "R412907",
+      "verified_at": "2026-10-04T06:01:15Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-1472b688f87f",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Discovery Sample Management Automation - Intern",
+      "location": "USA - New Jersey - Rahway",
+      "region": "United States",
+      "opportunity_type": "Pre-internship",
+      "categories": [
+        "Digital transformation",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Cloud"
+      ],
+      "summary": "Job Description 2027 Future Talent Program - Discovery Sample Management Automation Intern The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Research & Development Division can provide you…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Discovery-Sample-Management-Automation---Intern_R411918",
+      "external_id": "R411918",
+      "verified_at": "2026-10-04T06:01:18Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-2c81095d60d1",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Discovery Oncology (Boston, MA) - Intern",
+      "location": "USA - Massachusetts - Boston (MA Parcel B Laboratory)",
+      "region": "United States",
+      "opportunity_type": "Pre-internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and include one or more projects. These opportunities in our Research and Development Division can provide you with great development experience and a chance to see if we are the right…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Massachusetts---Boston-MA-Parcel-B-Laboratory/XMLNAME-2027-Future-Talent-Program---Discovery-Oncology--Boston--MA----Intern_R413353",
+      "external_id": "R413353",
+      "verified_at": "2026-10-04T06:01:18Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-55c632d7b7db",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Country Clinical Quality Manager US - Intern",
+      "location": "USA - New Jersey - Rahway",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "Job Description 2027 Future Talent Program - Country Clinical Quality Manager US Intern The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities can provide you with great development and a chance to see…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Country-Clinical-Quality-Manager-US---Intern_R413115",
+      "external_id": "R413115",
+      "verified_at": "2026-10-04T06:01:18Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-17723bb03c42",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Clinical and Regulatory Strategic Communications - Intern",
+      "location": "USA - New Jersey - Rahway",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Research Labs Division can provide you with great development and a chance to see if we are the right company for your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Clinical-and-Regulatory-Strategic-Communications---Intern_R412536",
+      "external_id": "R412536",
+      "verified_at": "2026-10-04T06:01:18Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-ee0442815193",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Clinical Quality Operations Intern",
+      "location": "USA - New Jersey - Rahway",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities can provide you with great development and a chance to see if we are the right company for your long-term goals",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Clinical-Quality-Operations-Intern_R412736",
+      "external_id": "R412736",
+      "verified_at": "2026-10-04T06:01:18Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-a180fbe92ed8",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Business Intelligence - Intern",
+      "location": "USA - Pennsylvania - North Wales (Upper Gwynedd)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "Cloud"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Research Lab Division can provide you with great development and a chance to see if we are the right company for your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---North-Wales-Upper-Gwynedd/XMLNAME-2027-Future-Talent-Program---Business-Intelligence---Intern_R412411",
+      "external_id": "R412411",
+      "verified_at": "2026-10-04T06:01:17Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-cb9b15fc6206",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Business Enablement - Intern",
+      "location": "USA - Pennsylvania - North Wales (Upper Gwynedd)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending",
+        "Business analyst"
+      ],
+      "tags": [
+        "Python",
+        "Excel",
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Research Labs Division can provide you with great development and a chance to see if we are the right company for your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---North-Wales-Upper-Gwynedd/XMLNAME-2027-Future-Talent-Program---Business-Enablement---Intern_R410960",
+      "external_id": "R410960",
+      "verified_at": "2026-10-04T06:01:17Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-8a489e0052ff",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Audit - Intern",
+      "location": "USA - New Jersey - Rahway",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Data analyst",
+        "Corporate finance"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy",
+        "Operations",
+        "Finance",
+        "Risk"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include several projects. These opportunities will provide you with a variety of experiences and a chance to see if we are the right company for your long-term goals",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Audit---Intern_R413251",
+      "external_id": "R413251",
+      "verified_at": "2026-10-04T06:01:17Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-d12a675ffaa5",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Audit - Co-op",
+      "location": "USA - New Jersey - Rahway",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Risk management",
+        "Data analyst",
+        "Business analyst"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy",
+        "Operations",
+        "Finance",
+        "Risk"
+      ],
+      "summary": "Job Description The Future Talent Program features Cooperative (Co-op) education that lasts up to 6 months and will include one or more projects. These opportunities in our Global Support Functions Division can provide you with great development and a chance to see if we are…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Audit---Co-op_R413254",
+      "external_id": "R413254",
+      "verified_at": "2026-10-04T06:01:17Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-d56c1397d8f4",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Animal Health R&D Quality Assurance - Intern",
+      "location": "USA - New Jersey - Rahway",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Power BI",
+        "Product"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Animal Health Division can provide you with great development and a chance to see if we are the right company for your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Animal-Health-R-D-Quality-Assurance---Intern_R413084",
+      "external_id": "R413084",
+      "verified_at": "2026-10-04T06:01:17Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-f61dae0b7faa",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Animal Health Formulation and Analytical Sciences - Intern",
+      "location": "USA - New Jersey - Rahway",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that lasts up to 12 weeks and will include one or more projects. These opportunities in our Animal Heath Formulation and Analytical Sciences Division can provide you with great development and a chance to see if we…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-30",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Animal-Health-Formulation-and-Analytical-Sciences---Intern_R414069",
+      "external_id": "R414069",
+      "verified_at": "2026-10-04T06:01:16Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-e63a2d0add04",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2027 Future Talent Program - Aircraft Technician - Intern",
+      "location": "USA - New Jersey - West Trenton",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Global Support Division can provide you with great development and a chance to see if we are the right company for your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-11-09",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---West-Trenton/XMLNAME-2027-Future-Talent-Program---Aircraft-Technician---Intern_R413363",
+      "external_id": "R413363",
+      "verified_at": "2026-10-04T06:01:16Z",
+      "match_score": 85
+    },
+    {
+      "id": "merck-f3008ae8b070",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "2026 Future Talent Program - Clinical Safety Risk Management - Intern",
+      "location": "USA - Pennsylvania - North Wales (Upper Gwynedd)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Product",
+        "Risk"
+      ],
+      "summary": "Job Description The Future Talent Program features internships that last up to 12 weeks and will include one or more projects. These opportunities in our Research and Development Division can provide you with great development and a chance to see if we are the right company for…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-09",
+      "deadline": "2026-10-30",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---North-Wales-Upper-Gwynedd/XMLNAME-2026-Future-Talent-Program---Clinical-Safety-Risk-Management---Intern_R413340",
+      "external_id": "R413340",
+      "verified_at": "2026-10-04T06:01:16Z",
+      "match_score": 85
+    },
+    {
       "id": "mastercard-fb5f46dfb565",
       "source_key": "mastercard",
       "fortune_rank": 141,
@@ -10061,429 +12028,6 @@
       "external_id": "R-284875",
       "verified_at": "2026-10-03T02:05:29Z",
       "match_score": 90
-    },
-    {
-      "id": "j-m-smucker-bac848157501",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Sensory and Products Research Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Your Opportunity as an Intern This posting represents two internship opportunities: Sensory and R&D Products Research. Both roles are looking for students interested in sensory and consumer research. While both apply scientific rigor to understand our products and serve as a…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
-      "external_id": "115677",
-      "verified_at": "2026-10-03T23:54:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-e671522fa6be",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Sales Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy"
-      ],
-      "summary": "Your Opportunity as a Sales Intern As a Sales Intern, you will have an exciting opportunity to work for one of the oldest and established American food company building relationships with some of the largest retailers in the nation and world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sales-Intern--Summer-2027_115803",
-      "external_id": "115803",
-      "verified_at": "2026-10-03T23:54:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-ea5ec0d5abdb",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Research & Development Intern/Co-Op, 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Your Opportunity as a Research & Development Intern As an intern within our Research and Development organization you will have the opportunity to independently manage and conduct all technical functions of a small research project, as well as analyze data and report on key…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
-      "external_id": "115698",
-      "verified_at": "2026-10-03T23:54:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-4941041a5947",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "R&D Engineering Intern, Co-Op 2027 (8 months)",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Your Opportunity as a n Engineering Intern As an intern with in our Corporate Engineering Organization, you will work on a Process Engineering Team s upporting Research and Development . Y ou will work on research projects that involve designing and executing experiments in the…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/R-D-Engineering-Intern--Co-Op-2027--8-months-_115696",
-      "external_id": "115696",
-      "verified_at": "2026-10-03T23:54:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-9ba37021fd44",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Plant Systems Engineering Intern, Orrville, OH Spring 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Technical Solutions",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Cloud",
-        "Operations"
-      ],
-      "summary": "Your Opportunity as the Plant Systems Engineering Intern: As a Plant Systems Engineering intern you will gain hands‑on experience supporting manufacturing operations through IT, automation, and network infrastructure, including MES/SCADA systems and plant networking environments",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Spring-2027_115712",
-      "external_id": "115712",
-      "verified_at": "2026-10-03T23:54:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-c6eeca22fea8",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Operations Engineering Intern, Summer 2027 (Multiple Locations)",
-      "location": "New Orleans, LA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in Operations Engineering , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/New-Orleans-LA/Operations-Engineering-Intern--Summer-2027--Multiple-Locations-_115721",
-      "external_id": "115721",
-      "verified_at": "2026-10-03T23:54:31Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-7c81dce2d0cb",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Operations Engineering Intern, Spring 2027 - Scottsville, KY",
-      "location": "Scottsville, KY",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in O perations , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and manage projects,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Scottsville-KY/Operations-Engineering-Intern--Spring-2027---Scottsville--KY_115475-1",
-      "external_id": "115475",
-      "verified_at": "2026-10-03T23:54:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-fc36c2ec7452",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Operations Engineering Intern, Spring 2027 - Memphis, TN",
-      "location": "Memphis, TN",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in O perations , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and manage projects,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Memphis-TN/Operations-Engineering-Intern--Spring-2027---Memphis--TN_114845",
-      "external_id": "114845",
-      "verified_at": "2026-10-03T23:54:31Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-c79b6d31f2dc",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Operations Engineering Intern, Spring 2027 - Lexington, KY",
-      "location": "Lexington, KY",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Your Opportunity as an Operations Engineering Intern As an intern with in O perations , you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to create process improvement opportunities, complete and manage projects,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Lexington-KY/Operations-Engineering-Intern--Spring-2027---Lexington--KY_114841",
-      "external_id": "114841",
-      "verified_at": "2026-10-03T23:54:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-7ef1c6e966cd",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Marketing Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy"
-      ],
-      "summary": "Your Opportunity as a Marketing Intern As an intern within our Marketing department, you will evaluate data and business trend s and communicate those insights to the core business team. You will execute specifically requested analyses via syndicated data ( Circana & Internal…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Marketing-Intern--Summer-2027_115771",
-      "external_id": "115771",
-      "verified_at": "2026-10-03T23:54:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-5ac63b3bb2a7",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Information Services Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Risk"
-      ],
-      "summary": "Infrastructure & Support Services – In this role, you will collaborate with ITP team members and employees from across the company to procure , receive, store, install, test, and ship peripheral computer equipment, software, and supplies",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Information-Services-Intern--Summer-2027_115744",
-      "external_id": "115744",
-      "verified_at": "2026-10-03T23:54:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-9069e430e814",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Finance & Accounting Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Accounting / financial analyst",
-        "FP&A",
-        "Corporate finance"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Treasury",
-        "FP&A",
-        "Accounting"
-      ],
-      "summary": "Your Opportunity as a Finance Intern As an intern within our Accounting and Finance organization, responsibilities will vary based on the department and role within Finance. We have internship opportunities in Financial Reporting, Plant Finance, Supply Chain Finance, Finance…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Summer-2027_115743",
-      "external_id": "115743",
-      "verified_at": "2026-10-03T23:54:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-ca48df236875",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Finance & Accounting Intern, Spring 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Accounting / financial analyst",
-        "FP&A",
-        "Corporate finance"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Treasury",
-        "FP&A",
-        "Accounting"
-      ],
-      "summary": "Your Opportunity as a Finance Intern As an intern within our Finance and Accounting organization, responsibilities will vary based on the department and role within Finance. We have internship opportunities in Financial Planning & Analysis, Supply Chain Finance, Supply Chain…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
-      "external_id": "114929",
-      "verified_at": "2026-10-03T23:54:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-e1de1074c0c1",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Category Leadership Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Your Opportunity as a Category Leadership Intern As an intern within our Category Leadership department, you will have an e xciting opportunity to analy ze and gro w top bran ds and categorie s in the consumer-packaged food industr y",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Category-Leadership-Intern--Summer-2027_115804",
-      "external_id": "115804",
-      "verified_at": "2026-10-03T23:54:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-0d79f821ca33",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Analytical Lab Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Your Opportunity as a Analytical Lab Intern As an intern within our Analytical Lab you will gain experience in our corporate analytical laboratory . You will enhance your food product analytical attributes knowledge base . You will operate analytical equipment ( i.e",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-09",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Analytical-Lab-Intern--Summer-2027_115678",
-      "external_id": "115678",
-      "verified_at": "2026-10-03T23:54:30Z",
-      "match_score": 85
     },
     {
       "id": "citigroup-ec5e9d5f808d",
@@ -11437,6 +12981,119 @@
       "external_id": "R68059",
       "verified_at": "2026-10-02T23:02:33Z",
       "match_score": 90
+    },
+    {
+      "id": "land-o-lakes-d45074918cf7",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "Dairy Member Services Intern",
+      "location": "Arden Hills, MN (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Dairy Member Services Intern Pay: $23/ hr Position Duration: May 2027 - July 2027 Position Location: Arden Hills, MN Team The Dairy Member Services team is responsible for providing value-added products and services to our Dairy Members as part of their cooperative membership…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-04",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/Dairy-Member-Services-Intern_R-40412",
+      "external_id": "R-40412",
+      "verified_at": "2026-10-04T06:00:22Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-f0a3c00decd6",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "Culinary Center Intern",
+      "location": "Arden Hills, MN (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "Culinary Center Intern P ay: $24/ h r Position Duration: May 2027 – July 2027 Position Location: Arden Hills, MN Position Summary The Culinary Center Intern will engage in a structured 1 1 -week program designed to build foundational culinary skills and contribute to strategic…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-04",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/Culinary-Center-Intern_R-40365",
+      "external_id": "R-40365",
+      "verified_at": "2026-10-04T06:00:21Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-4ed29ff2510f",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "Business Insights & Analytics Intern - Animal Nutrition",
+      "location": "Arden Hills, MN (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "SQL",
+        "Excel",
+        "Tableau",
+        "Power BI",
+        "Strategy"
+      ],
+      "summary": "Business Insights & Analytics Intern - Animal Nutrition Pay : $25/ hr Position Duration: May 2027 – July 2027 Position Location: Arden Hills, MN As a Business Insights & Analytics Intern , you'll work alongside business leaders to help optimize pricing decisions and drive…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-04",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/Business-Insights---Analytics-Intern---Animal-Nutrition_R-40421",
+      "external_id": "R-40421",
+      "verified_at": "2026-10-04T06:00:22Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-d6ff7a6cb30e",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Operations QA Intern, Summer 2027- Decatur, AL",
+      "location": "Decatur, AL",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Your Opportunity as an Operations QA Intern As an intern within Operations, you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to better understand process capabilities for meeting specifications and support…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-04",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Decatur-AL/Operations-QA-Intern--Summer-2027--Decatur--AL_115757",
+      "external_id": "115757",
+      "verified_at": "2026-10-04T05:59:44Z",
+      "match_score": 85
     },
     {
       "id": "ge-vernova-0eb2ce69e83d",
@@ -12606,70 +14263,6 @@
       "match_score": 90
     },
     {
-      "id": "tyson-foods-25d5775ec921",
-      "source_key": "tyson-foods",
-      "fortune_rank": 87,
-      "fortune_500": true,
-      "company": "Tyson Foods",
-      "title": "Year-round Intern - Transportation Services",
-      "location": "Corporate 412 West - Springdale, Arkansas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Excel",
-        "Power BI",
-        "Cloud"
-      ],
-      "summary": "Job Details: Position Summary The Analytics Intern supports the Warehousing Analytics team in developing modern data, automation, AI, and operational technology solutions for Logistics and warehouse operations. The internship is designed to provide hands-on experience solving…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-03",
-      "deadline": null,
-      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN/job/Corporate-412-West---Springdale-Arkansas/Year-round-Intern---Transportation-Services_R0483113-2",
-      "external_id": "R0483113",
-      "verified_at": "2026-10-02T12:45:52Z",
-      "match_score": 85
-    },
-    {
-      "id": "tyson-foods-25d5775ec921",
-      "source_key": "tyson-foods",
-      "fortune_rank": 87,
-      "fortune_500": true,
-      "company": "Tyson Foods",
-      "title": "Year-round Intern - Transportation Services",
-      "location": "Corporate 412 West - Springdale, Arkansas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Excel",
-        "Power BI",
-        "Cloud"
-      ],
-      "summary": "Job Details: Position Summary The Analytics Intern supports the Warehousing Analytics team in developing modern data, automation, AI, and operational technology solutions for Logistics and warehouse operations. The internship is designed to provide hands-on experience solving…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-03",
-      "deadline": null,
-      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN1/job/Corporate-412-West---Springdale-Arkansas/Year-round-Intern---Transportation-Services_R0483113-1",
-      "external_id": "R0483113",
-      "verified_at": "2026-10-02T12:47:27Z",
-      "match_score": 85
-    },
-    {
       "id": "rockwell-automation-157e89c43e44",
       "source_key": "rockwell-automation",
       "fortune_rank": 467,
@@ -12694,33 +14287,6 @@
       "url": "https://rockwellautomation.wd1.myworkdayjobs.com/External_Rockwell_Automation/job/Medellin-Antioquia-Colombia/Intern-Developer_R26-7072",
       "external_id": "R26-7072",
       "verified_at": "2026-10-03T21:22:58Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-d6ff7a6cb30e",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Operations QA Intern, Summer 2027- Decatur, AL",
-      "location": "Decatur, AL",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Your Opportunity as an Operations QA Intern As an intern within Operations, you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to better understand process capabilities for meeting specifications and support…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-03",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Decatur-AL/Operations-QA-Intern--Summer-2027--Decatur--AL_115757",
-      "external_id": "115757",
-      "verified_at": "2026-10-03T23:54:30Z",
       "match_score": 85
     },
     {
@@ -13043,66 +14609,6 @@
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Markham/Finance-Coop---Grid-Automation_R5025772-2",
       "external_id": "R5025772",
       "verified_at": "2026-10-02T23:04:59Z",
-      "match_score": 85
-    },
-    {
-      "id": "tyson-foods-88bdda1f6925",
-      "source_key": "tyson-foods",
-      "fortune_rank": 87,
-      "fortune_500": true,
-      "company": "Tyson Foods",
-      "title": "Tax Accounting Year-Round Intern",
-      "location": "Corporate - Springdale, Arkansas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending",
-        "Accounting / financial analyst"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Job Details: Summary The Tax Accounting Intern Role is an entry-level position in the Tax organization that will be participating in various activities that can include: assisting with the preparation of sales and use tax returns; assisting with audits; assisting property or…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN/job/Corporate---Springdale-Arkansas/Tax-Accounting-Year-Round-Intern_R0481422-2",
-      "external_id": "R0481422",
-      "verified_at": "2026-10-02T12:45:52Z",
-      "match_score": 85
-    },
-    {
-      "id": "tyson-foods-88bdda1f6925",
-      "source_key": "tyson-foods",
-      "fortune_rank": 87,
-      "fortune_500": true,
-      "company": "Tyson Foods",
-      "title": "Tax Accounting Year-Round Intern",
-      "location": "Corporate - Springdale, Arkansas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending",
-        "Accounting / financial analyst"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Job Details: Summary The Tax Accounting Intern Role is an entry-level position in the Tax organization that will be participating in various activities that can include: assisting with the preparation of sales and use tax returns; assisting with audits; assisting property or…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN1/job/Corporate---Springdale-Arkansas/Tax-Accounting-Year-Round-Intern_R0481422-1",
-      "external_id": "R0481422",
-      "verified_at": "2026-10-02T12:47:27Z",
       "match_score": 85
     },
     {
@@ -14007,7 +15513,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-10-03T23:55:11Z",
+      "verified_at": "2026-10-04T06:00:03Z",
       "match_score": 85
     },
     {
@@ -15283,6 +16789,36 @@
       "match_score": 85
     },
     {
+      "id": "merck-09c897477cae",
+      "source_key": "merck",
+      "fortune_rank": 68,
+      "fortune_500": true,
+      "company": "Merck",
+      "title": "Operations Intern",
+      "location": "SGP - Singapore - Singapore (50 Tuas West Dr)",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "Job Description This position plays a key role in sustaining our primary areas of focus, that are of greatest relevance to our business and society; access to heath, employees, environmental sustainability, and ethics and values. -Upholds safety and quality excellence when…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-11-27",
+      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/SGP---Singapore---Singapore-50-Tuas-West-Dr/Operations-Intern_R402174",
+      "external_id": "R402174",
+      "verified_at": "2026-10-04T06:02:03Z",
+      "match_score": 85
+    },
+    {
       "id": "marvell-technology-c6ab28fe2603",
       "source_key": "marvell-technology",
       "fortune_rank": 476,
@@ -15363,6 +16899,91 @@
       "match_score": 85
     },
     {
+      "id": "land-o-lakes-6d48031c8b80",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "Supply Chain Intern Summer 2027",
+      "location": "Arden Hills, MN (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "Supply Chain Intern Summer 2027 As a Supply Chain intern, you will: Get broad exposure to our Supply Chain organization and leadership team. Gain invaluable job experience, career development, and leadership opportunities. Receive both technical and leadership training to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/Supply-Chain-Intern-Summer-2027_R-36773",
+      "external_id": "R-36773",
+      "verified_at": "2026-10-04T06:00:22Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-01a169baf82f",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "Member Relations Communications Intern",
+      "location": "Arden Hills, MN (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "Member Relations Communications Intern Compensation: $2 3/ho ur Position Duration: May 2027 - July 2027 Position Location: Arden Hills, MN The Member Relations Communications Intern will partner with teams across Land O'Lakes to support communications and engagement initiatives…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/Member-Relations-Communications-Intern_R-40403",
+      "external_id": "R-40403",
+      "verified_at": "2026-10-04T06:00:22Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-d469f66ad013",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "Government Relations Intern",
+      "location": "Virtual (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy"
+      ],
+      "summary": "Government Relations Intern Pay: $23/ hr Position Duration: January 2027 – July 2027 Position Location: Virtual & Washington, D.C. The Land O’Lakes Government Relations team works on behalf of our business and member-owners to develop policy, advocate for the cooperative, and…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Government-Relations-Intern_R-40406",
+      "external_id": "R-40406",
+      "verified_at": "2026-10-04T06:00:21Z",
+      "match_score": 85
+    },
+    {
       "id": "johnson-johnson-5495ae6ac4df",
       "source_key": "johnson-johnson",
       "fortune_rank": 45,
@@ -15413,7 +17034,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
       "external_id": "115736",
-      "verified_at": "2026-10-03T23:54:31Z",
+      "verified_at": "2026-10-04T05:59:45Z",
       "match_score": 85
     },
     {
@@ -15441,7 +17062,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Quality-Assurance-Intern---Oxnard--CA_115727",
       "external_id": "115727",
-      "verified_at": "2026-10-03T23:54:31Z",
+      "verified_at": "2026-10-04T05:59:45Z",
       "match_score": 85
     },
     {
@@ -15466,7 +17087,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
       "external_id": "115725",
-      "verified_at": "2026-10-03T23:54:31Z",
+      "verified_at": "2026-10-04T05:59:44Z",
       "match_score": 85
     },
     {
@@ -15494,7 +17115,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
       "external_id": "115735",
-      "verified_at": "2026-10-03T23:54:31Z",
+      "verified_at": "2026-10-04T05:59:45Z",
       "match_score": 85
     },
     {
@@ -15827,31 +17448,6 @@
       "url": "https://homedepot.wd5.myworkdayjobs.com/CareerDepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/XMLNAME-2027-Summer-Internship---Business-Operations---Management_Req191941",
       "external_id": "Req191941",
       "verified_at": "2026-10-03T18:03:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "henry-schein-43d19914c4a8",
-      "source_key": "henry-schein",
-      "fortune_rank": 335,
-      "fortune_500": true,
-      "company": "Henry Schein",
-      "title": "Field Sales Internship Opportunities",
-      "location": "West Allis - Wisconsin",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Summary Henry Schein’s 10-week Summer Sales Internship Program offers students real life experience in dental and medical sales. Depending on location and availability, interns will be assigned to either medical or dental sales. In either role, interns are actively involved in…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://henryschein.wd1.myworkdayjobs.com/External_Careers/job/West-Allis---Wisconsin/Field-Sales-Internship-Opportunities_R122614-1",
-      "external_id": "R122614",
-      "verified_at": "2026-10-02T12:43:57Z",
       "match_score": 85
     },
     {
@@ -19404,6 +21000,35 @@
       "match_score": 85
     },
     {
+      "id": "lockheed-martin-def5b11b3961",
+      "source_key": "lockheed-martin",
+      "fortune_rank": 61,
+      "fortune_500": true,
+      "company": "Lockheed Martin",
+      "title": "Apprenticeship Week 2024: The Next Generation of Defense Tech Practitioners",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations",
+        "Credit"
+      ],
+      "summary": "___ Back to Life at LM | LM Apprentices: The Next Wave of #DefenseTech Practitioners LM Apprentices: The Next Wave of #DefenseTech Practitioners As a U.S. Department of Labor Apprenticeship Ambassador, we’re expanding opportunities and building pathways to impactful careers",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.lockheedmartin.com/en-us/careers/life-at-lm/2024/apprenticeship-week-2024.html",
+      "external_id": null,
+      "verified_at": "2026-10-04T06:00:06Z",
+      "match_score": 85
+    },
+    {
       "id": "kimberly-clark-7d6d8f55817c",
       "source_key": "kimberly-clark",
       "fortune_rank": 225,
@@ -19905,35 +21530,6 @@
       "match_score": 85
     },
     {
-      "id": "expand-energy-ff8e5e9f1c9b",
-      "source_key": "expand-energy",
-      "fortune_rank": 362,
-      "fortune_500": true,
-      "company": "Expand Energy",
-      "title": "Intern - Supply Chain",
-      "location": "Search by Location",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Risk"
-      ],
-      "summary": "We use cookies to offer you the best possible website experience. Your cookie preferences will be stored in your browser’s local storage. This includes cookies necessary for the website's operation. Additionally, you can freely decide and change any time whether you accept…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "alifications Previous industry experience, preferred Previous internship experience, preferred Must graduate on or after December 2027 Expand Energy takes necessary action…",
-      "freshman_friendly": true,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://jobs.expandenergy.com/job/Oklahoma-City-Intern-Supply-Chain-OK-73118/1430442400/",
-      "external_id": null,
-      "verified_at": "2026-10-02T12:44:42Z",
-      "match_score": 90
-    },
-    {
       "id": "equinix-26b20c29d201",
       "source_key": "equinix",
       "fortune_rank": 436,
@@ -19960,36 +21556,6 @@
       "url": "https://careers.equinix.com/blogs/life-at-equinix-blogs/intern-to-impact-hayley-wynne",
       "external_id": null,
       "verified_at": "2026-10-03T17:59:42Z",
-      "match_score": 85
-    },
-    {
-      "id": "enterprise-products-partners-2c9f6af1610b",
-      "source_key": "enterprise-products-partners",
-      "fortune_rank": 89,
-      "fortune_500": true,
-      "company": "Enterprise Products Partners",
-      "title": "Internship Program",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Wealth management",
-        "Risk management"
-      ],
-      "tags": [
-        "Operations",
-        "Risk",
-        "Accounting"
-      ],
-      "summary": "Hands-on internship work related to wealth management, risk management",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://enterpriseproducts.com/careers/early-careers/",
-      "external_id": null,
-      "verified_at": "2026-10-02T12:45:04Z",
       "match_score": 85
     },
     {
@@ -20148,34 +21714,6 @@
       "match_score": 85
     },
     {
-      "id": "csx-3c33b469389c",
-      "source_key": "csx",
-      "fortune_rank": 324,
-      "fortune_500": true,
-      "company": "CSX",
-      "title": "Internship Programs",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Finance"
-      ],
-      "summary": "CSX $ / ShipCSX / REPORT AN EMERGENCY: 1-800-232-0144 / About Us Community Customers Suppliers Investors Working at CSX Media At CSX, we strive to effectively communicate our vision to our customers, partners, and communities. Read our press releases and view our ads and videos",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.csx.com/index.cfm/working-at-csx/job-overviews/internship-programs/",
-      "external_id": null,
-      "verified_at": "2026-10-02T12:43:07Z",
-      "match_score": 85
-    },
-    {
       "id": "chs-dc7aa3be24e3",
       "source_key": "chs",
       "fortune_rank": 130,
@@ -20202,31 +21740,6 @@
       "url": "https://jobs.chsinc.com/category/internship-jobs/34006/8429904/1",
       "external_id": null,
       "verified_at": "2026-10-03T08:13:54Z",
-      "match_score": 85
-    },
-    {
-      "id": "brightspring-health-services-8ab26e506f03",
-      "source_key": "brightspring-health-services",
-      "fortune_rank": 323,
-      "fortune_500": true,
-      "company": "BrightSpring Health Services",
-      "title": "Internship Opportunities - BrightSpring Health Services",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "CAMPUS OPPORTUNITIES Internship Opportunities Home / Campus Opportunities / Internship Opportunities Build Your Future with Our Internship Program Our internship program offers the opportunity to engage in meaningful work that makes a positive impact on both your community and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.brightspringhealth.com/campus-opportunities/internship-opportunities/",
-      "external_id": null,
-      "verified_at": "2026-10-02T12:42:54Z",
       "match_score": 85
     },
     {
