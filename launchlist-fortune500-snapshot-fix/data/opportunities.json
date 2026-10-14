@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14T07:47:01Z",
+  "updated_at": "2026-10-14T13:49:27Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,11 +12,24 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-10-14T07:41:56Z",
+  "directory_refreshed_at": "2026-10-14T13:45:54Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 222,
   "companies_failed_last_24h": 5,
   "failed_or_blocked_companies_last_24h": [
+    {
+      "key": "accendra-health",
+      "rank": 407,
+      "company": "Accendra Health",
+      "fortune_500": true,
+      "checked_at": "2026-10-14T13:49:27Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
     {
       "key": "alcoa",
       "rank": 344,
@@ -29,19 +42,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs: 404 Client Error: Not Found for url: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs"
-    },
-    {
-      "key": "alphabet",
-      "rank": 5,
-      "company": "Alphabet",
-      "fortune_500": true,
-      "checked_at": "2026-10-13T11:58:18Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
     },
     {
       "key": "bank-of-america",
@@ -83,9 +83,9 @@
       "error": null
     }
   ],
-  "companies_with_eligible_jobs": 62,
+  "companies_with_eligible_jobs": 69,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 839,
+  "opportunity_count": 942,
   "opportunities": [
     {
       "id": "motorola-solutions-10b94e71fb08",
@@ -1404,7 +1404,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Talent-Acquisition-Intern--Summer-2027_115992",
       "external_id": "115992",
-      "verified_at": "2026-10-14T07:42:42Z",
+      "verified_at": "2026-10-14T13:46:39Z",
       "match_score": 85
     },
     {
@@ -1432,7 +1432,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Marketing-Intern--Summer-2027_115771",
       "external_id": "115771",
-      "verified_at": "2026-10-14T07:42:41Z",
+      "verified_at": "2026-10-14T13:46:38Z",
       "match_score": 85
     },
     {
@@ -1549,6 +1549,103 @@
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Brisbane/GE-Aerospace-Apprentice--Stage-1-_R5041550-1",
       "external_id": "R5041550",
       "verified_at": "2026-10-13T11:54:30Z",
+      "match_score": 85
+    },
+    {
+      "id": "constellation-brands-42e0e4206e7b",
+      "source_key": "constellation-brands",
+      "fortune_rank": 416,
+      "fortune_500": true,
+      "company": "Constellation Brands",
+      "title": "Intern, Treasury",
+      "location": "Rochester, New York",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Corporate treasury",
+        "Business analyst"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Strategy",
+        "Finance",
+        "Treasury"
+      ],
+      "summary": "Job Description This position will support market risk and capital structure functions within Treasury. The responsibilities, noted below, will be a mix of strategic project-based work and supporting day-to-day activities. This individual will have the opportunity to learn…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-13",
+      "deadline": null,
+      "url": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--Treasury_R-41499",
+      "external_id": "R-41499",
+      "verified_at": "2026-10-14T13:47:11Z",
+      "match_score": 85
+    },
+    {
+      "id": "constellation-brands-87602a9a0404",
+      "source_key": "constellation-brands",
+      "fortune_rank": 416,
+      "fortune_500": true,
+      "company": "Constellation Brands",
+      "title": "Intern, Payroll",
+      "location": "Canandaigua, New York",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending",
+        "Accounting / financial analyst"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Finance",
+        "Credit",
+        "Accounting"
+      ],
+      "summary": "Job Description We offer a dynamic internship opportunity in the field of accounting and finance, designed to provide hands-on experience across two critical functions: Payroll and Accounts Receivable. This role supports both teams on a variety of projects and daily operations,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-13",
+      "deadline": null,
+      "url": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Canandaigua-New-York/Intern--Payroll_R-41495",
+      "external_id": "R-41495",
+      "verified_at": "2026-10-14T13:47:11Z",
+      "match_score": 85
+    },
+    {
+      "id": "constellation-brands-5304aef25c81",
+      "source_key": "constellation-brands",
+      "fortune_rank": 416,
+      "fortune_500": true,
+      "company": "Constellation Brands",
+      "title": "Intern, Finance Analytics",
+      "location": "Rochester, New York",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "Finance"
+      ],
+      "summary": "Job Description The Intern, Finance Analytics position requires a creative problem solver to develop automated solutions for a global organization. Responsibilities include analysis, development, support, implementation, and scaling of dashboard development in a high paced…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-13",
+      "deadline": null,
+      "url": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--Finance-Analytics_R-41494",
+      "external_id": "R-41494",
+      "verified_at": "2026-10-14T13:47:11Z",
       "match_score": 85
     },
     {
@@ -3317,7 +3414,7 @@
       "deadline": "2026-10-16",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Corporate-Communications-Internship_R-120884",
       "external_id": "R-120884",
-      "verified_at": "2026-10-14T07:44:39Z",
+      "verified_at": "2026-10-14T13:49:04Z",
       "match_score": 85
     },
     {
@@ -4094,6 +4191,62 @@
       "match_score": 85
     },
     {
+      "id": "boeing-00c6f4b18b5c",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Aircraft Maintenance Apprentice (Lakenheath/Wattisham)",
+      "location": "GBR - Wattisham Airfield, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy"
+      ],
+      "summary": "Aircraft Maintenance Apprentice (Lakenheath/Wattisham) Company: Boeing Defence United Kingdom Limited Join Boeing Defence UK: Aircraft Maintenance Apprenticeship Programme Are you ready to launch your career in aerospace engineering?",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-09",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Wattisham-Airfield-UK/Aircraft-Maintenance-Apprentice--Lakenheath-Wattisham-_JR2026522412",
+      "external_id": "JR2026522412",
+      "verified_at": "2026-10-14T13:48:42Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-5b58aa0ed8b6",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Aerospace Engineering Internship",
+      "location": "ESP - Madrid, Spain",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Operations"
+      ],
+      "summary": "Aerospace Engineering Internship Company: Boeing Aerospace Spain, SL Boeing Global Technology - Europe is seeking an Aerospace Engineering Intern to support our team in Madrid, Spain . This internship offers the opportunity to work alongside experienced engineers supporting…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-09",
+      "deadline": "2026-10-24",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/ESP---Madrid-Spain/Aerospace-Engineering-Internship_JR2026525215-1",
+      "external_id": "JR2026525215",
+      "verified_at": "2026-10-14T13:48:42Z",
+      "match_score": 85
+    },
+    {
       "id": "amgen-de16fffd42e5",
       "source_key": "amgen",
       "fortune_rank": 129,
@@ -4816,6 +4969,38 @@
       "match_score": 85
     },
     {
+      "id": "constellation-brands-6d78d7909a02",
+      "source_key": "constellation-brands",
+      "fortune_rank": 416,
+      "fortune_500": true,
+      "company": "Constellation Brands",
+      "title": "Intern, Quality",
+      "location": "Chicago, Illinois",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Power BI",
+        "Product",
+        "Operations"
+      ],
+      "summary": "Job Description Paid internship with the Constellation Brands Beer Division Quality team based in Chicago, IL. Estimated timeframe – late May through early August (12 weeks). Internship will consist of training and impactful project work across consumer intelligence and quality…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-08",
+      "deadline": null,
+      "url": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Chicago-Illinois/Intern--Quality_R-41413",
+      "external_id": "R-41413",
+      "verified_at": "2026-10-14T13:47:12Z",
+      "match_score": 85
+    },
+    {
       "id": "bristol-myers-squibb-c9ed4c218628",
       "source_key": "bristol-myers-squibb",
       "fortune_rank": 97,
@@ -5343,6 +5528,36 @@
       "match_score": 85
     },
     {
+      "id": "boeing-766f6eda899f",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) – Security & Fire Operation (S&FO)",
+      "location": "USA - Everett, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations",
+        "Risk",
+        "Accounting"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) – Security & Fire Operation (S&FO) Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "during Summer 2027 Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-07",
+      "deadline": "2026-11-15",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Security---Fire-Operation--S-FO-_JR2026521717-1",
+      "external_id": "JR2026521717",
+      "verified_at": "2026-10-14T13:48:41Z",
+      "match_score": 90
+    },
+    {
       "id": "american-electric-power-69ebf38a830f",
       "source_key": "american-electric-power",
       "fortune_rank": 209,
@@ -5842,7 +6057,7 @@
       "deadline": "2026-11-14",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Sales-Development-Program---Internship_R-120996",
       "external_id": "R-120996",
-      "verified_at": "2026-10-14T07:44:39Z",
+      "verified_at": "2026-10-14T13:49:04Z",
       "match_score": 85
     },
     {
@@ -6305,6 +6520,67 @@
       "external_id": "R1607261",
       "verified_at": "2026-10-12T23:03:45Z",
       "match_score": 90
+    },
+    {
+      "id": "boeing-ef2f2594f521",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Sustainability Intern – Global Real Estate & Facilities - 12 Month Placement",
+      "location": "GBR - Hounslow, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy",
+        "Operations",
+        "Risk",
+        "Accounting"
+      ],
+      "summary": "Sustainability Intern – Global Real Estate & Facilities - 12 Month Placement Company: Boeing United Kingdom Limited The Sustainability Intern (12 months) will support the Global Real Estate & Facilities (GREF) team in advancing Boeing’s environmental, social, and operational…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-06",
+      "deadline": "2026-11-06",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Hounslow-UK/Sustainability-Intern---Global-Real-Estate---Facilities---12-Month-Placement_JR2026525481",
+      "external_id": "JR2026525481",
+      "verified_at": "2026-10-14T13:48:41Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-51768aca0567",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Facilities Management Intern - Summer 2027",
+      "location": "GBR - Hounslow, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations"
+      ],
+      "summary": "Facilities Management Intern - Summer 2027 Company: Boeing United Kingdom Limited Role Overview Join our Integrated Facilities Management (IFM) team for a summer internship, where you’ll gain hands-on experience supporting operational excellence, contract alignment, and…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-06",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Hounslow-UK/Facilities-Management-Intern---Summer-2027_JR2026525476",
+      "external_id": "JR2026525476",
+      "verified_at": "2026-10-14T13:48:40Z",
+      "match_score": 85
     },
     {
       "id": "amgen-1cdd9454e00e",
@@ -7330,6 +7606,35 @@
       "match_score": 85
     },
     {
+      "id": "target-ca27c3cf3776",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) – North/West of Sacramento, CA (Starting Summer 2027)",
+      "location": "4601 2nd St, Davis,CA 95618-9446",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $28.00- $28.75. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-02",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/4601-2nd-St-DavisCA-95618-9446/Store-Executive-Intern--Store-Leadership-Intern----North---West-Sacramento--CA--Starting-Summer-2027-_R0000450285",
+      "external_id": "R0000450285",
+      "verified_at": "2026-10-14T13:48:44Z",
+      "match_score": 85
+    },
+    {
       "id": "salesforce-0fa33fe67b13",
       "source_key": "salesforce",
       "fortune_rank": 114,
@@ -7499,7 +7804,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Human-Resources-Intern--Summer-2027_115918",
       "external_id": "115918",
-      "verified_at": "2026-10-14T07:42:43Z",
+      "verified_at": "2026-10-14T13:46:39Z",
       "match_score": 85
     },
     {
@@ -7718,6 +8023,35 @@
       "url": "https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/Residential-Energy-Product-Strategy-Intern--CO_JR115817-1",
       "external_id": "JR115817",
       "verified_at": "2026-10-13T11:53:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-58b1b5773d2b",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Miami- Starting Summer 2027)​",
+      "location": "249 NW 6th St, Ste 120, Miami,FL 33136-4248",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $25.50- $25.75. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-01",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/249-NW-6th-St-Ste-120-MiamiFL-33136-4248/Store-Executive-Intern--Store-Leadership-Intern----South-FL--Miami-to-West-Palm---Starting-Summer-2027--_R0000448573",
+      "external_id": "R0000448573",
+      "verified_at": "2026-10-14T13:48:44Z",
       "match_score": 85
     },
     {
@@ -8039,7 +8373,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/McCalla-AL/Human-Resources-Intern--McCalla--AL--Summer-2027_115887",
       "external_id": "115887",
-      "verified_at": "2026-10-14T07:42:44Z",
+      "verified_at": "2026-10-14T13:46:41Z",
       "match_score": 85
     },
     {
@@ -8067,7 +8401,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Emporia-KS/Human-Resources-Intern--Emporia--KS--Summer-2027_115888",
       "external_id": "115888",
-      "verified_at": "2026-10-14T07:42:44Z",
+      "verified_at": "2026-10-14T13:46:41Z",
       "match_score": 85
     },
     {
@@ -8092,7 +8426,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Corporate-Communications-Intern--Summer-2027_115919",
       "external_id": "115919",
-      "verified_at": "2026-10-14T07:42:44Z",
+      "verified_at": "2026-10-14T13:46:39Z",
       "match_score": 85
     },
     {
@@ -8181,6 +8515,35 @@
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Subang/IT-Support-Intern_R5038715-1",
       "external_id": "R5038715",
       "verified_at": "2026-10-13T11:54:25Z",
+      "match_score": 85
+    },
+    {
+      "id": "constellation-brands-ddbad03bae82",
+      "source_key": "constellation-brands",
+      "fortune_rank": 416,
+      "fortune_500": true,
+      "company": "Constellation Brands",
+      "title": "Intern, Procurement",
+      "location": "Chicago, Illinois",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Power BI",
+        "Operations"
+      ],
+      "summary": "Job Description Paid internship in the Constellation Brands Beer Division (CBBD) based in the Chicago, IL office. Estimated timeframe – late May through early August (12 weeks). Internship will consist of training and impactful project work supporting the various functions…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-01",
+      "deadline": "2026-10-30",
+      "url": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Chicago-Illinois/Intern--Procurement_R-41389",
+      "external_id": "R-41389",
+      "verified_at": "2026-10-14T13:47:12Z",
       "match_score": 85
     },
     {
@@ -8356,6 +8719,31 @@
       "url": "https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Bond---Specialty-Insurance-Underwriting-Professional-Development-Program--BSI-UPDP--Internship_R-52882",
       "external_id": "R-52882",
       "verified_at": "2026-10-12T23:03:29Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-a3e6f08b052b",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Inventory Analyst Intern - Minneapolis, MN (Starting Summer, 2027)",
+      "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "This is an entry level intern position that starts in Summer 2027. Starting Hourly Rate $29.00 per hour. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Inventory-Analyst-Intern---Minneapolis--MN--Starting-Summer--2027-_R0000450965",
+      "external_id": "R0000450965",
+      "verified_at": "2026-10-14T13:48:52Z",
       "match_score": 85
     },
     {
@@ -8638,6 +9026,36 @@
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Pittsburgh/Military-DoD-SkillBridge-Internship---Maintenance-Technician_R5040995-1",
       "external_id": "R5040995",
       "verified_at": "2026-10-13T11:54:25Z",
+      "match_score": 85
+    },
+    {
+      "id": "constellation-brands-cf91567ef905",
+      "source_key": "constellation-brands",
+      "fortune_rank": 416,
+      "fortune_500": true,
+      "company": "Constellation Brands",
+      "title": "Intern, Logistics & Fulfillment",
+      "location": "Chicago, Illinois",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Job Description The Operations Intern, Logistics will support Global Logistics operations by helping coordinate operating routines, analyze execution performance, maintain documentation, and support cross-functional follow-up across replenishment, warehousing, fulfillment,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-30",
+      "deadline": "2026-10-30",
+      "url": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Chicago-Illinois/Intern--Logistics---Fulfillment_R-41385",
+      "external_id": "R-41385",
+      "verified_at": "2026-10-14T13:47:13Z",
       "match_score": 85
     },
     {
@@ -9622,6 +10040,38 @@
       "match_score": 85
     },
     {
+      "id": "boeing-6d129d0ac6be",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (PAID) – Finance (Evergreen)",
+      "location": "USA - Hazelwood, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Corporate finance",
+        "Business analyst"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (PAID) – Finance (Evergreen) Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027 intern program",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ng, Mathematics, Statistics, Operations Research, Aerospace Engineering, or Mechanical Engineering) Graduation date on or after August 2027 Ability to work full-time, in…",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-25",
+      "deadline": "2026-10-30",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Hazelwood-MO/Boeing-Summer-2027-Internship-Program--PAID----Finance--Evergreen-_JR2026519225-1",
+      "external_id": "JR2026519225",
+      "verified_at": "2026-10-14T13:48:42Z",
+      "match_score": 90
+    },
+    {
       "id": "xcel-energy-a7041465339c",
       "source_key": "xcel-energy",
       "fortune_rank": 306,
@@ -9674,6 +10124,35 @@
       "url": "https://travelers.wd5.myworkdayjobs.com/External/job/FL---Orlando/Claim-Professional-Development-Program-Internship--CPDP-Intern-_R-52734",
       "external_id": "R-52734",
       "verified_at": "2026-10-12T23:03:28Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-ec1aa81ff196",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) – Cookeville, TN (Starting Summer 2027)",
+      "location": "1100 S Willow Ave, Cookeville,TN 38501-4139",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $23.25- $24.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-24",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1100-S-Willow-Ave-CookevilleTN-38501-4139/Store-Executive-Intern--Store-Leadership-Intern----Knoxville--TN--Starting-Summer-2027-_R0000449839",
+      "external_id": "R0000449839",
+      "verified_at": "2026-10-14T13:48:44Z",
       "match_score": 85
     },
     {
@@ -10203,7 +10682,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Buffalo-NY/Human-Resources-Intern--Buffalo--NY--Summer-2027_115886",
       "external_id": "115886",
-      "verified_at": "2026-10-14T07:42:44Z",
+      "verified_at": "2026-10-14T13:46:44Z",
       "match_score": 85
     },
     {
@@ -10492,6 +10971,180 @@
       "match_score": 85
     },
     {
+      "id": "target-2a344772b3dc",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Virginia (Starting Summer 2027) ​",
+      "location": "4521 S Laburnum Ave, Richmond,VA 23231-2421",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $24.00- $29.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-22",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/4521-S-Laburnum-Ave-RichmondVA-23231-2421/Store-Executive-Intern--Store-Leadership-Intern----Virginia--Starting-Summer-2027---_R0000447451",
+      "external_id": "R0000447451",
+      "verified_at": "2026-10-14T13:48:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-38a56c321436",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - New York City, NY (Starting Summer 2027) ​",
+      "location": "400 Grand St, New York,NY 10002-3949",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $30.75- $31.75. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-22",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/400-Grand-St-New-YorkNY-10002-3949/Store-Executive-Intern--Store-Leadership-Intern----New-York-City--NY--Starting-Summer-2027---_R0000447441",
+      "external_id": "R0000447441",
+      "verified_at": "2026-10-14T13:48:44Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-0a285d651a1d",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - New Jersey (Starting Summer 2027) ​",
+      "location": "400 Ryders Ln, Milltown,NJ 08850-1700",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $28.00- $28.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-22",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/400-Ryders-Ln-MilltownNJ-08850-1700/Store-Executive-Intern--Store-Leadership-Intern----New-Jersey--Starting-Summer-2027---_R0000447448",
+      "external_id": "R0000447448",
+      "verified_at": "2026-10-14T13:48:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-e5b03c63a289",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Long Island, NY (Starting Summer 2027) ​",
+      "location": "3850 Hempstead Tpke, Levittown,NY 11756-1303",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $30.00- $31.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-22",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/3850-Hempstead-Tpke-LevittownNY-11756-1303/Store-Executive-Intern--Store-Leadership-Intern----Long-Island--NY--Starting-Summer-2027---_R0000447446",
+      "external_id": "R0000447446",
+      "verified_at": "2026-10-14T13:48:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-fb63ba08723e",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - D.C & Maryland (Starting Summer 2027) ​",
+      "location": "3500 East West Hwy Ste 1200, Hyattsville,MD 20782-5003",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $28.00- $29.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-22",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/3500-East-West-Hwy-Ste-1200-HyattsvilleMD-20782-5003/Store-Executive-Intern--Store-Leadership-Intern----DC---Maryland--Starting-Summer-2027---_R0000447453",
+      "external_id": "R0000447453",
+      "verified_at": "2026-10-14T13:48:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-1fc8eded259a",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Central Pennsylvania (Starting Summer 2027) ​",
+      "location": "4599 Perkiomen Ave, Reading, PA 19606-3201",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $25.00- $25.50. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-22",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/4599-Perkiomen-Ave-Reading-PA-19606-3201/Store-Executive-Intern--Store-Leadership-Intern----Central-Pennsylvania--Starting-Summer-2027---_R0000447455",
+      "external_id": "R0000447455",
+      "verified_at": "2026-10-14T13:48:45Z",
+      "match_score": 85
+    },
+    {
       "id": "jones-lang-lasalle-a289b62611af",
       "source_key": "jones-lang-lasalle",
       "fortune_rank": 175,
@@ -10633,6 +11286,31 @@
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Zurich--Switzerland/Banking--Corporate-Banking--Summer-Analyst--Zurich---Switzerland--2027_26994896",
       "external_id": "26994896",
       "verified_at": "2026-10-13T19:24:38Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-31cd68fc97a0",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Manufacturing Engineering Internship",
+      "location": "GBR - Sheffield, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Manufacturing Engineering Internship Company: Boeing United Kingdom Limited This post is for a Manufacturing Engineering Intern to work within the engineering function in Boeing Fabrication based in Sheffield. Boeing Fabrication is the internal supply chain supporting Boeing…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-22",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Sheffield-UK/Manufacturing-Engineering-Internship_JR2026524411",
+      "external_id": "JR2026524411",
+      "verified_at": "2026-10-14T13:48:42Z",
       "match_score": 85
     },
     {
@@ -12261,6 +12939,31 @@
       "match_score": 85
     },
     {
+      "id": "campbell-s-b0e990ac7d1f",
+      "source_key": "campbell-s",
+      "fortune_rank": 413,
+      "fortune_500": true,
+      "company": "Campbell's",
+      "title": "Packaging Engineer Co-Op",
+      "location": "USA - NJ - Camden",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-15",
+      "deadline": null,
+      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Packaging-Engineer-Co-Op_Req-68221",
+      "external_id": "Req-68221",
+      "verified_at": "2026-10-14T13:47:09Z",
+      "match_score": 85
+    },
+    {
       "id": "amgen-01cbb18c22d0",
       "source_key": "amgen",
       "fortune_rank": 129,
@@ -12932,7 +13635,632 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Supply-Chain-Intern--Summer-2027_115694",
       "external_id": "115694",
-      "verified_at": "2026-10-14T07:42:41Z",
+      "verified_at": "2026-10-14T13:46:38Z",
+      "match_score": 85
+    },
+    {
+      "id": "guardian-life-ins-co-of-america-c793176fbb1a",
+      "source_key": "guardian-life-ins-co-of-america",
+      "fortune_rank": 232,
+      "fortune_500": true,
+      "company": "Guardian Life Ins. Co. of America",
+      "title": "2027 Guardian Summer Intern, Digital & Technology, Cybersecurity",
+      "location": "New York",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Risk",
+        "Accounting"
+      ],
+      "summary": "2027 Guardian Summer Intern, Digital & Technology - Cybersecurity Our 2027 Summer Internship Program is a paid 10-week learning experience where you will be immersed in the daily environment of a thriving global financial services company",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "at 11:59PM ET or when role(s) have been filled, whichever comes first. You are: A current junior (graduation date of December 2027 or May 2028) or current sophomore…",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-11-14",
+      "url": "https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology--Cybersecurity_R000110211",
+      "external_id": "R000110211",
+      "verified_at": "2026-10-14T13:47:49Z",
+      "match_score": 90
+    },
+    {
+      "id": "guardian-life-ins-co-of-america-41618fe6485a",
+      "source_key": "guardian-life-ins-co-of-america",
+      "fortune_rank": 232,
+      "fortune_500": true,
+      "company": "Guardian Life Ins. Co. of America",
+      "title": "2027 Guardian Summer Intern, Digital & Technology, Cloud & DevOps",
+      "location": "Bethlehem",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Cloud",
+        "AI / ML",
+        "Product",
+        "Accounting"
+      ],
+      "summary": "2027 Guardian Summer Intern, Digital & Technology – Cloud & DevOps Our 2027 Summer Internship Program is a paid 10-week learning experience where you will be immersed in the daily environment of a thriving global financial services company",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "at 11:59PM ET or when role(s) have been filled, whichever comes first. You are: A current junior (graduation date of December 2027 or May 2028) or current sophomore…",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-11-14",
+      "url": "https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers/job/Bethlehem/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology--Cloud---DevOps_R000110210",
+      "external_id": "R000110210",
+      "verified_at": "2026-10-14T13:47:49Z",
+      "match_score": 90
+    },
+    {
+      "id": "guardian-life-ins-co-of-america-b23b82f2e280",
+      "source_key": "guardian-life-ins-co-of-america",
+      "fortune_rank": 232,
+      "fortune_500": true,
+      "company": "Guardian Life Ins. Co. of America",
+      "title": "2027 Guardian Summer Intern, Digital & Technology – Data Engineering",
+      "location": "New York",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Technical Solutions",
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Cloud",
+        "AI / ML",
+        "Product"
+      ],
+      "summary": "2027 Guardian Summer Intern, Digital & Technology – Data Engineering Our 2027 Summer Internship Program is a paid 10-week learning experience where you will be immersed in the daily environment of a thriving global financial services company",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "at 11:59PM ET or when role(s) have been filled, whichever comes first. You are: A current junior (graduation date of December 2027 or May 2028) or current sophomore…",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-11-14",
+      "url": "https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology---Data-Engineering_R000110202",
+      "external_id": "R000110202",
+      "verified_at": "2026-10-14T13:47:49Z",
+      "match_score": 90
+    },
+    {
+      "id": "guardian-life-ins-co-of-america-e20a7c9ef525",
+      "source_key": "guardian-life-ins-co-of-america",
+      "fortune_rank": 232,
+      "fortune_500": true,
+      "company": "Guardian Life Ins. Co. of America",
+      "title": "2027 Guardian Summer Intern, Digital & Technology – AI & Machine Learning",
+      "location": "New York",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "AI / ML",
+        "Product",
+        "Accounting"
+      ],
+      "summary": "2027 Guardian Summer Intern, Digital & Technology – AI & Machine Learning Our 2027 Summer Internship Program is a paid 10-week learning experience where you will be immersed in the daily environment of a thriving global financial services company",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "at 11:59PM ET or when role(s) have been filled, whichever comes first. You are: A current junior (graduation date of December 2027 or May 2028) or current sophomore…",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-11-14",
+      "url": "https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology---AI---Machine-Learning_R000110205",
+      "external_id": "R000110205",
+      "verified_at": "2026-10-14T13:47:50Z",
+      "match_score": 90
+    },
+    {
+      "id": "guardian-life-ins-co-of-america-e7fdc4df9c2d",
+      "source_key": "guardian-life-ins-co-of-america",
+      "fortune_rank": 232,
+      "fortune_500": true,
+      "company": "Guardian Life Ins. Co. of America",
+      "title": "2027 Guardian Summer Intern, Digital & Technology - Application Development",
+      "location": "New York",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud",
+        "AI / ML",
+        "Product",
+        "Accounting"
+      ],
+      "summary": "2027 Guardian Summer Intern, Digital & Technology - Application Development Our 2027 Summer Internship Program is a paid 10-week learning experience where you will be immersed in the daily environment of a thriving global financial services company",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "at 11:59PM ET or when role(s) have been filled, whichever comes first. You are: A current junior (graduation date of December 2027 or May 2028) or current sophomore…",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-11-14",
+      "url": "https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers/job/New-York/XMLNAME-2027-Guardian-Summer-Intern--Digital---Technology---Application-Development_R000110209",
+      "external_id": "R000110209",
+      "verified_at": "2026-10-14T13:47:49Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-aa89abd7fa70",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Talent Acquisition Intern - 12 Month Placement",
+      "location": "GBR - Bristol, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Talent Acquisition Intern - 12 Month Placement Company: Boeing United Kingdom Limited We are looking to hire an experienced Talent Acquisition Intern to support our growing portfolio across the UK & Ireland. You will be a key member of the TA team, supporting hiring the best…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Bristol-UK/Talent-Acquisition-Intern---12-Month-Placement_JR2026524412",
+      "external_id": "JR2026524412",
+      "verified_at": "2026-10-14T13:48:40Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-a2ba90f2f57e",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Support Engineering Data Intern- Summer 2027",
+      "location": "GBR - Welwyn Garden City, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Support Engineering Data Intern- Summer 2027 Company: Boeing Commercial Aviation Services Europe Limited Our products support the maintenance, modification and repair of the Boeing commercial fleet and the users of our products require concise, accurate technical documentation",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Welwyn-Garden-City-UK/Support-Engineering-Data-Intern--Summer-2027_JR2026524227",
+      "external_id": "JR2026524227",
+      "verified_at": "2026-10-14T13:48:40Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-5da491752475",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Support Engineering Data Intern- 12 Month Placement",
+      "location": "GBR - Welwyn Garden City, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Support Engineering Data Intern- 12 Month Placement Company: Boeing Commercial Aviation Services Europe Limited Our products support the maintenance, modification and repair of the Boeing commercial fleet and the users of our products require concise, accurate technical…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Welwyn-Garden-City-UK/Support-Engineering-Data-Intern--12-Month-Placement_JR2026520888",
+      "external_id": "JR2026520888",
+      "verified_at": "2026-10-14T13:48:40Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-fcc8e94ed0c4",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Supply Chain Management Intern (Vertical Lift) - 12 Month Placement",
+      "location": "GBR - Gosport, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "FP&A",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy",
+        "Finance",
+        "FP&A",
+        "Risk"
+      ],
+      "summary": "Supply Chain Management Intern (Vertical Lift) - 12 Month Placement Company: Boeing Defence United Kingdom Limited Position overview : This post is for a Supply Chain Intern (Vertical Lift) to work within the Supply Chain function in Boeing Defence UK (BDUK) in Gosport",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Gosport-UK/Supply-Chain-Management-Intern--Vertical-Lift----12-Month-Placement_JR2026522118",
+      "external_id": "JR2026522118",
+      "verified_at": "2026-10-14T13:48:41Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-1f9eddea8b81",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Supply Chain Management Intern (Fixed Wing) - 12 Month Placement",
+      "location": "GBR - Bristol, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "FP&A",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy",
+        "Finance",
+        "FP&A",
+        "Risk"
+      ],
+      "summary": "Supply Chain Management Intern (Fixed Wing) - 12 Month Placement Company: Boeing Defence United Kingdom Limited Boeing Defence UK is seeking an enthusiastic and high-performing Supply Chain Intern (Fixed Wing) to work within the Supply Chain function in Bristol",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Bristol-UK/Supply-Chain-Management-Intern--Fixed-Wing----12-Month-Placement_JR2026522131",
+      "external_id": "JR2026522131",
+      "verified_at": "2026-10-14T13:48:41Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-2ea60434988c",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Simulator Engineering Intern - 12 Month Placement",
+      "location": "GBR - Crawley, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Simulator Engineering Intern - 12 Month Placement Company: The Boeing Company Boeing Training Solutions is a passionate aviation inspired team that enables world class flight crew training products for global customers. This engineering internship will be embedded at Boeing’s…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Crawley-UK/Simulator-Engineering-Intern---12-Month-Placement_JR2026521374",
+      "external_id": "JR2026521374",
+      "verified_at": "2026-10-14T13:48:40Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-60e33815af49",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Project Management Intern- Summer 2027",
+      "location": "GBR - Prestwick, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "Project Management Intern- Summer 2027 Company: Boeing United Kingdom Limited This 3-month Project Management Internship is based within Boeing’s Aerospace Innovation Centre (AIC) and supports an Aerospace Engineering Research and Technology Development Programme delivered in…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Prestwick-UK/Project-Management-Intern--Summer-2027_JR2026520348",
+      "external_id": "JR2026520348",
+      "verified_at": "2026-10-14T13:48:39Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-e8d08d461d7e",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "PMO Analyst Intern - 12 Month Placement",
+      "location": "GBR - Frimley, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "PMO Analyst Intern - 12 Month Placement Company: Boeing Commercial Aviation Services Europe Limited We are seeking a full-time, organized and self-motivated undergraduate intern for a PMO Analyst role to join the Boeing Global Services, Commercial Modifications Europe Programme…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Frimley-UK/PMO-Analyst-Intern---12-Month-Placement_JR2026523028",
+      "external_id": "JR2026523028",
+      "verified_at": "2026-10-14T13:48:40Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-3ce4df592812",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Human Resources Services Specialist Intern - 12 Months Placement",
+      "location": "GBR - Bristol, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Human Resources Services Specialist Intern - 12 Months Placement Company: Boeing United Kingdom Limited At Boeing, we are all innovators on a mission to connect, protect, explore and inspire. From the seabed to outer space, you’ll learn and grow, contributing to work that…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Bristol-UK/Human-Resources-Services-Specialist-Intern---12-Months-Placement_JR2026523025",
+      "external_id": "JR2026523025",
+      "verified_at": "2026-10-14T13:48:40Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-587ba0cad0f4",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Government Affairs Intern- 12 Months Placement",
+      "location": "GBR - London, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy"
+      ],
+      "summary": "Government Affairs Intern- 12 Months Placement Company: Boeing United Kingdom Limited Boeing is looking for a Government Affairs Intern to be based in Westminster, London . Boeing’s UK & Ireland Government Affairs team’s function is to understand and shape public policy and the…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-16",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---London-UK/Government-Affairs-Intern--12-Months-Placement_JR2026520528",
+      "external_id": "JR2026520528",
+      "verified_at": "2026-10-14T13:48:40Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-83297d83ebd1",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Finance Intern - 12 Months Placement",
+      "location": "GBR - Bristol, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate finance",
+        "Business analyst",
+        "FP&A"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Finance",
+        "FP&A"
+      ],
+      "summary": "Finance Intern - 12 Months Placement Company: Boeing Defence United Kingdom Limited This post is for a Finance Intern to work within the engineering function in Boeing Defence UK (BDUK) in Bristol . BDUK is a subsidiary of the Boeing Company and currently employs over 1,200…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Bristol-UK/Finance-Intern---12-Months-Placement_JR2026519348",
+      "external_id": "JR2026519348",
+      "verified_at": "2026-10-14T13:48:39Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-80b4a48ce245",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Finance Intern (Accounting) - 12 Month Placement",
+      "location": "GBR - Bristol, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate finance",
+        "Business analyst",
+        "Technical Account Management"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Finance Intern (Accounting) - 12 Month Placement Company: Boeing United Kingdom Limited This post is for a Finance Intern to work within the Core Accounting function of the International Controllership Accounting Team in Boeing UK Ltd (BUKL) in Bristol",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Bristol-UK/Finance-Intern--Accounting----12-Month-Placement_JR2026520252",
+      "external_id": "JR2026520252",
+      "verified_at": "2026-10-14T13:48:40Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-b5811778e219",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Engineering Intern - Summer 2027",
+      "location": "GBR - Prestwick, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "Engineering Intern - Summer 2027 Company: Boeing United Kingdom Limited This 3-month Engineering internship is based within Boeing’s Aerospace Innovation Centre (AIC) and supports an Aerospace Engineering Research and Technology Development Programme delivered in collaboration…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Prestwick-UK/Engineering-Intern---Summer-2027_JR2026520518",
+      "external_id": "JR2026520518",
+      "verified_at": "2026-10-14T13:48:39Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-6d68a5be3df5",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Engineering Intern - January 2027",
+      "location": "IRL - Dublin, Ireland",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Engineering Intern - January 2027 Company: Boeing Ireland Limited Boeing Global Services are looking for Engineering Interns to join our team in Dublin and gain exposure through supporting the certification of aircraft modifications",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-16",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/IRL---Dublin-Ireland/Engineering-Intern---January-2027_JR2026524284",
+      "external_id": "JR2026524284",
+      "verified_at": "2026-10-14T13:48:39Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-31181af2a4ed",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Commercial Intern- 12 Months Placement",
+      "location": "GBR - Bristol, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Commercial Intern- 12 Months Placement Company: Boeing Defence United Kingdom Limited We are looking for a Commercial Intern to start in July 2027 within the Boeing Defence United Kingdom Bristol-based Commercial Team. The position is based in Bristol reporting to the Head of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Bristol-UK/Commercial-Intern--12-Months-Placement_JR2026518684-1",
+      "external_id": "JR2026518684",
+      "verified_at": "2026-10-14T13:48:40Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-73ecf3201207",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Commercial Intern",
+      "location": "GBR - Gosport, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Commercial Intern Company: Boeing Defence United Kingdom Limited We are looking for a Commercial Intern to start in July 2027 within the Boeing Defence United Kingdom Commercial Team. The position is based in Gosport reporting to the Head of Commercial",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Gosport-UK/Commercial-Intern_JR2026522032-1",
+      "external_id": "JR2026522032",
+      "verified_at": "2026-10-14T13:48:39Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-5cd4ab13e3eb",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Aerodynamics Engineering Intern- Summer 2027",
+      "location": "GBR - Farnborough, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python"
+      ],
+      "summary": "Aerodynamics Engineering Intern- Summer 2027 Company: Boeing United Kingdom Limited An internship opportunity has arisen at Boeing’s UK High-Lift Aerodynamics Collaboration Centre ( HiLACC ), based at the 5 Metre wind tunnel at the Cody Technology Park, Farnborough, UK",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-14",
+      "deadline": "2026-10-31",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Farnborough-UK/Aerodynamics-Engineering-Intern--Summer-2027_JR2026519329",
+      "external_id": "JR2026519329",
+      "verified_at": "2026-10-14T13:48:39Z",
       "match_score": 85
     },
     {
@@ -16092,6 +17420,933 @@
       "match_score": 85
     },
     {
+      "id": "target-cde033401256",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "UX Design Internship - Minneapolis, MN (Starting Summer, 2027)",
+      "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "This position is entry-level position that starts in Summer 2027. Starting Hourly Rate $34.00 per hour. Our UX Design Summer Internship opportunity is a 10-week program centered around supporting new UX talent. The UX Internship Program provides a structured, supportive…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/UX-Design-Internship---Minneapolis--MN--Starting-Summer--2027-_R0000451077",
+      "external_id": "R0000451077",
+      "verified_at": "2026-10-14T13:48:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-4be2acaa97c8",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Stores Executive Internship (Store Leadership Intern) - Omaha, NE (Starting Summer 2027)",
+      "location": "7200 Dodge St, Omaha,NE 68114-3673",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $21.25- $33.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/7200-Dodge-St-OmahaNE-68114-3673/Stores-Executive-Internship--Store-Leadership-Intern----Omaha--NE--Starting-Summer-2027-_R0000448954",
+      "external_id": "R0000448954",
+      "verified_at": "2026-10-14T13:48:49Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-cf017de6b175",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Stores Executive Internship (Store Leadership Intern) - Grand Forks, ND (Starting Summer 2027)",
+      "location": "3601 32nd Ave S, Grand Forks,ND 58201-5911",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $21.25- $33.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/3601-32nd-Ave-S-Grand-ForksND-58201-5911/Stores-Executive-Internship--Store-Leadership-Intern----Grand-Forks--ND--Starting-Summer-2027-_R0000448959",
+      "external_id": "R0000448959",
+      "verified_at": "2026-10-14T13:48:48Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-1a6296980c29",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) – San Diego North County, CA (Starting Summer 2027)",
+      "location": "2255 S El Camino Real, Oceanside,CA 92054-6318",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $28.50- $28.50. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/2255-S-El-Camino-Real-OceansideCA-92054-6318/Store-Executive-Intern--Store-Leadership-Intern----San-Diego-North-County--CA--Starting-Summer-2027-_R0000450297",
+      "external_id": "R0000450297",
+      "verified_at": "2026-10-14T13:48:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-9ff583f45072",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) Des Moines, IA (Starting Summer 2027) ​",
+      "location": "5901 Douglas Ave, Des Moines,IA 50322-3303",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $24.00- $28.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/5901-Douglas-Ave-Des-MoinesIA-50322-3303/Store-Executive-Intern--Store-Leadership-Intern--Des-Moines--IA--Starting-Summer-2027---_R0000449088",
+      "external_id": "R0000449088",
+      "verified_at": "2026-10-14T13:48:48Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-7cdb82780d58",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - W Dallas, TX (Starting Summer 2027)",
+      "location": "2755 W University Dr. Ste 1101, Denton,TX 76201-1618",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $25.75- $26.75. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/2755-W-University-Dr-Ste-1101-DentonTX-76201-1618/Store-Executive-Intern--Store-Leadership-Intern----W-Dallas--TX--Starting-Summer-2027-_R0000448516",
+      "external_id": "R0000448516",
+      "verified_at": "2026-10-14T13:48:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-cd107c791cd1",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Tampa + St. Pete + Sarasota, FL (Starting Summer 2027) ​ ​",
+      "location": "1544 N Dale Mabry Hwy, Tampa,FL 33607-2551",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $24.50- $25.50. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1544-N-Dale-Mabry-Hwy-TampaFL-33607-2551/Store-Executive-Intern--Store-Leadership-Intern----Tampa---St-Pete---Sarasota--FL--Starting-Summer-2027------_R0000448578",
+      "external_id": "R0000448578",
+      "verified_at": "2026-10-14T13:48:47Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-090d4116541a",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - St. Cloud, MN (Starting Summer 2027) ​ ​",
+      "location": "4201 W Division St, Saint Cloud,MN 56301-6601",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Cloud",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $27.25- $28.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/4201-W-Division-St-Saint-CloudMN-56301-6601/Store-Executive-Intern--Store-Leadership-Intern----St-Cloud--MN--Starting-Summer-2027------_R0000449255",
+      "external_id": "R0000449255",
+      "verified_at": "2026-10-14T13:48:47Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-a0df10096a90",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Schaumburg, IL (Starting Summer 2027) ​",
+      "location": "2621 W Schaumburg Rd, Schaumburg,IL 60194-3894",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $28.00- $29.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/2621-W-Schaumburg-Rd-SchaumburgIL-60194-3894/Store-Executive-Intern--Store-Leadership-Intern----Schaumburg--IL--Starting-Summer-2027---_R0000449085",
+      "external_id": "R0000449085",
+      "verified_at": "2026-10-14T13:48:47Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-3ad10035b93e",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - San Antonio, TX (Starting Summer 2027) ​ ​",
+      "location": "746 NW Loop 410, San Antonio, TX 78216-5609",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $24.00- $25.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/746-NW-Loop-410-San-Antonio-TX-78216-5609/Store-Executive-Intern--Store-Leadership-Intern-----San-Antonio--TX--Starting-Summer-2027------_R0000449303",
+      "external_id": "R0000449303",
+      "verified_at": "2026-10-14T13:48:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-ad364e892189",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Raleigh, NC (Starting Summer 2027)",
+      "location": "2021 Walnut St, Cary,NC 27518-9205",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $25.00- $26.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/2021-Walnut-St-CaryNC-27518-9205/Store-Executive-Intern--Store-Leadership-Intern----Raleigh--NC--Starting-Summer-2027-_R0000449293",
+      "external_id": "R0000449293",
+      "verified_at": "2026-10-14T13:48:47Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-651e90c54360",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Orlando, FL (Starting Summer 2027)",
+      "location": "325 N Alafaya Trl, Orlando,FL 32828-7012",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $24.50- $25.50. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/325-N-Alafaya-Trl-OrlandoFL-32828-7012/Store-Executive-Intern--Store-Leadership-Intern----Orlando--FL--Starting-Summer-2027-_R0000448580",
+      "external_id": "R0000448580",
+      "verified_at": "2026-10-14T13:48:47Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-99c9754a0907",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Norridge, IL (Starting Summer 2027) ​",
+      "location": "4050 N Harlem Ave, Norridge,IL 60706-1202",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $28.00- $28.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/4050-N-Harlem-Ave-NorridgeIL-60706-1202/Store-Executive-Intern--Store-Leadership-Intern----Norridge--IL--Starting-Summer-2027---_R0000449086",
+      "external_id": "R0000449086",
+      "verified_at": "2026-10-14T13:48:47Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-352d67012e42",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - NE Dallas, TX (Starting Summer 2027)",
+      "location": "3440 W FM 544, Wylie,TX 75098-9408",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $25.50- $26.50. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/3440-W-FM-544-WylieTX-75098-9408/Store-Executive-Intern--Store-Leadership-Intern----NE-Dallas--TX--Starting-Summer-2027-_R0000448513",
+      "external_id": "R0000448513",
+      "verified_at": "2026-10-14T13:48:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-ea291a73c39c",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Milwaukee, WI (Starting Summer 2027) ​ ​",
+      "location": "2950 S Chase Ave, Milwaukee,WI 53207-6407",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $24.00- $28.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/2950-S-Chase-Ave-MilwaukeeWI-53207-6407/Store-Executive-Intern--Store-Leadership-Intern----Milwaukee--WI--Starting-Summer-2027------_R0000449239",
+      "external_id": "R0000449239",
+      "verified_at": "2026-10-14T13:48:48Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-3c25c9f05fa0",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Melrose Park, IL (Starting Summer 2027) ​",
+      "location": "850 W North Ave, Melrose Park,IL 60160-1611",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $28.00- $29.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/850-W-North-Ave-Melrose-ParkIL-60160-1611/Store-Executive-Intern--Store-Leadership-Intern----Melrose-Park--IL--Starting-Summer-2027---_R0000449083",
+      "external_id": "R0000449083",
+      "verified_at": "2026-10-14T13:48:49Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-47490f46a1f6",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Madison, WI (Starting Summer 2027) ​ ​",
+      "location": "201 Junction Rd, Madison,WI 53717-2615",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $24.00- $28.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/201-Junction-Rd-MadisonWI-53717-2615/Store-Executive-Intern--Store-Leadership-Intern----Madison--WI--Starting-Summer-2027------_R0000449243",
+      "external_id": "R0000449243",
+      "verified_at": "2026-10-14T13:48:48Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-b45387342e99",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Houston, TX (Starting Summer 2027)",
+      "location": "2580 Shearn St, Houston,TX 77007-3967",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $25.25- $25.75. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/2580-Shearn-St-HoustonTX-77007-3967/Store-Executive-Intern--Store-Leadership-Intern----Houston--TX--Starting-Summer-2027-_R0000449299",
+      "external_id": "R0000449299",
+      "verified_at": "2026-10-14T13:48:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-bddda20ff01b",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Greater Salt Lake City, UT (Starting Summer 2027) ​",
+      "location": "1110 S 300 W, Salt Lake City, UT 84101-3053",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $21.25- $33.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1110-S-300-W-Salt-Lake-City-UT-84101-3053/Store-Executive-Intern--Store-Leadership-Intern----Greater-Salt-Lake-City--UT--Starting-Summer-2027---_R0000448965",
+      "external_id": "R0000448965",
+      "verified_at": "2026-10-14T13:48:48Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-8c9b244ef1b8",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Greater Minneapolis, MN (Starting Summer 2027) ​ ​",
+      "location": "900 Nicollet Mall, Minneapolis,MN 55403-2530",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $27.25- $28.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/900-Nicollet-Mall-MinneapolisMN-55403-2530/Store-Executive-Intern--Store-Leadership-Intern----Greater-Minneapolis--MN--Starting-Summer-2027------_R0000449251",
+      "external_id": "R0000449251",
+      "verified_at": "2026-10-14T13:48:48Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-e934021596e7",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Fort Worth, TX (Starting Summer 2027)",
+      "location": "301 Carroll St, Fort Worth,TX 76107-1956",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $25.75- $26.75. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/301-Carroll-St-Fort-WorthTX-76107-1956/Store-Executive-Intern--Store-Leadership-Intern----Fort-Worth--TX--Starting-Summer-2027-_R0000448526",
+      "external_id": "R0000448526",
+      "verified_at": "2026-10-14T13:48:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-acfc7289e2dd",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Duluth, MN (Starting Summer 2027) ​ ​",
+      "location": "1902 Miller Trunk Hwy, Duluth,MN 55811-1810",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $27.25- $28.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1902-Miller-Trunk-Hwy-DuluthMN-55811-1810/Store-Executive-Intern--Store-Leadership-Intern----Duluth--MN--Starting-Summer-2027------_R0000449254",
+      "external_id": "R0000449254",
+      "verified_at": "2026-10-14T13:48:47Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-0d54b3941c6f",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Charlotte, NC (Starting Summer 2027) ​",
+      "location": "900 Metropolitan Ave, Ste 2Charlotte, NC 28204-3262",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $24.75- $25.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/900-Metropolitan-Ave-Ste-2Charlotte-NC-28204-3262/Store-Executive-Intern--Store-Leadership-Intern----Charlotte--NC--Starting-Summer-2027---_R0000448581",
+      "external_id": "R0000448581",
+      "verified_at": "2026-10-14T13:48:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-3fa725695890",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Charleston, SC + Savannah, GA (Starting Summer 2027) ​",
+      "location": "450 Azalea Square Blvd, Summerville,SC 29483-7321",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $24.00- $25.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/450-Azalea-Square-Blvd-SummervilleSC-29483-7321/Store-Executive-Intern--Store-Leadership-Intern----Charleston--SC---Savannah--GA--Starting-Summer-2027---_R0000448584",
+      "external_id": "R0000448584",
+      "verified_at": "2026-10-14T13:48:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-4f90a18a91dd",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Central Dallas, TX (Starting Summer 2027)",
+      "location": "6419 Skillman St, Dallas,TX 75231-7109",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $25.50- $26.50. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/6419-Skillman-St-DallasTX-75231-7109/Store-Executive-Intern--Store-Leadership-Intern----Central-Dallas--TX--Starting-Summer-2027-_R0000448531",
+      "external_id": "R0000448531",
+      "verified_at": "2026-10-14T13:48:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-8c36c3960b9d",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Cedar Rapids, IA (Starting Summer 2027) ​ ​",
+      "location": "3400 Edgewood Rd SW, Cedar Rapids,IA 52404-7214",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $24.00- $28.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/3400-Edgewood-Rd-SW-Cedar-RapidsIA-52404-7214/Store-Executive-Intern--Store-Leadership-Intern----Cedar-Rapids--IA--Starting-Summer-2027------_R0000449242",
+      "external_id": "R0000449242",
+      "verified_at": "2026-10-14T13:48:48Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-e4b63e047d88",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Arlington Heights, IL (Starting Summer 2027) ​",
+      "location": "1700 E Rand Rd, Arlington Heights,IL 60004-4379",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $21.25- $33.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1700-E-Rand-Rd-Arlington-HeightsIL-60004-4379/Store-Executive-Intern--Store-Leadership-Intern----Arlington-Heights--IL--Starting-Summer-2027---_R0000448963",
+      "external_id": "R0000448963",
+      "verified_at": "2026-10-14T13:48:47Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-f001af95b2bd",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Store Executive Intern (Store Leadership Intern) - Algonquin, IL (Starting Summer 2027) ​ ​",
+      "location": "750 S Randall Rd, Algonquin,IL 60102-5915",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "The pay range per hour is $24.00- $28.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/750-S-Randall-Rd-AlgonquinIL-60102-5915/Store-Executive-Intern--Store-Leadership-Intern----Algonquin--Starting-Summer-2027------_R0000449248",
+      "external_id": "R0000449248",
+      "verified_at": "2026-10-14T13:48:48Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-f19c9aa5afe6",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Roundel Advertising Internship - Minneapolis, MN (Starting Summer, 2027)",
+      "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "This position is entry-level position that starts in Summer 2027. Starting Hourly Rate $27.00 per hour. An internship role within Roundel is an opportunity to be part of a strategic priority business for Target. Roundel is Target’s entry into the media business, a sell-side…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Roundel-Advertising-Internship---Minneapolis--MN--Starting-Summer--2027-_R0000449104",
+      "external_id": "R0000449104",
+      "verified_at": "2026-10-14T13:48:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-7981f0e34887",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Operations Manager Intern (Starting Summer 2027) IR3 Distribution Center, Upper Marlboro, MD",
+      "location": "16070 Leeland Rd, Upper Marlboro,MD 20774-8528",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Risk",
+        "Accounting"
+      ],
+      "summary": "The pay range per hour is $28.25-$29.25. You may also earn additional compensation in the form of a shift differential, ranging from $2.00 to $3.50 per hour, based on eligibility. Pay is based on several factors which vary based on position",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/16070-Leeland-Rd-Upper-MarlboroMD-20774-8528/Operations-Manager-Intern--Starting-Summer-2027--IR3-Distribution-Center--Upper-Marlboro--MD_R0000450155",
+      "external_id": "R0000450155",
+      "verified_at": "2026-10-14T13:48:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-b450703ee234",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Financial Analyst Intern - Minneapolis, MN (Starting Summer, 2027)",
+      "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Accounting / financial analyst",
+        "Business analyst",
+        "FP&A"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "FP&A",
+        "Accounting"
+      ],
+      "summary": "This position is an internship that starts in Summer 2027. Starting Hourly Rate $28.00 per hour. The Financial Analyst Development Program (FADP) , is a 3-year initiative thoughtfully designed to lay a strong foundation for a successful career in financial analysis",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Financial-Analyst-Intern----Minneapolis--MN--Starting-Summer--2027-_R0000450574",
+      "external_id": "R0000450574",
+      "verified_at": "2026-10-14T13:48:52Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-04d70090f27a",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Associate Buyer Internship - Minneapolis, MN (Starting Summer, 2027)",
+      "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "This position is entry-level position that starts in Summer 2027. Starting Hourly Rate $29.00 per hour. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Associate-Buyer-Internship---Minneapolis--MN--Starting-Summer--2027-_R0000450961",
+      "external_id": "R0000450961",
+      "verified_at": "2026-10-14T13:48:45Z",
+      "match_score": 85
+    },
+    {
       "id": "somnigroup-international-08dd22ac2137",
       "source_key": "somnigroup-international",
       "fortune_rank": 35,
@@ -16113,7 +18368,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-10-14T07:43:09Z",
+      "verified_at": "2026-10-14T13:47:11Z",
       "match_score": 85
     },
     {
@@ -17339,7 +19594,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
       "external_id": "115736",
-      "verified_at": "2026-10-14T07:42:45Z",
+      "verified_at": "2026-10-14T13:46:41Z",
       "match_score": 85
     },
     {
@@ -17367,7 +19622,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Quality-Assurance-Intern---Oxnard--CA_115727",
       "external_id": "115727",
-      "verified_at": "2026-10-14T07:42:44Z",
+      "verified_at": "2026-10-14T13:46:42Z",
       "match_score": 85
     },
     {
@@ -17392,7 +19647,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
       "external_id": "115725",
-      "verified_at": "2026-10-14T07:42:44Z",
+      "verified_at": "2026-10-14T13:46:41Z",
       "match_score": 85
     },
     {
@@ -17420,7 +19675,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
       "external_id": "115735",
-      "verified_at": "2026-10-14T07:42:45Z",
+      "verified_at": "2026-10-14T13:46:42Z",
       "match_score": 85
     },
     {
@@ -17447,7 +19702,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
       "external_id": "115677",
-      "verified_at": "2026-10-14T07:42:42Z",
+      "verified_at": "2026-10-14T13:46:39Z",
       "match_score": 85
     },
     {
@@ -17474,7 +19729,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sales-Intern--Summer-2027_115803",
       "external_id": "115803",
-      "verified_at": "2026-10-14T07:42:41Z",
+      "verified_at": "2026-10-14T13:46:38Z",
       "match_score": 85
     },
     {
@@ -17501,7 +19756,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
       "external_id": "115698",
-      "verified_at": "2026-10-14T07:42:43Z",
+      "verified_at": "2026-10-14T13:46:40Z",
       "match_score": 85
     },
     {
@@ -17528,7 +19783,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/R-D-Engineering-Intern--Co-Op-2027--8-months-_115696",
       "external_id": "115696",
-      "verified_at": "2026-10-14T07:42:43Z",
+      "verified_at": "2026-10-14T13:46:40Z",
       "match_score": 85
     },
     {
@@ -17559,7 +19814,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Spring-2027_115712",
       "external_id": "115712",
-      "verified_at": "2026-10-14T07:42:43Z",
+      "verified_at": "2026-10-14T13:46:40Z",
       "match_score": 85
     },
     {
@@ -17586,7 +19841,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_115697",
       "external_id": "115697",
-      "verified_at": "2026-10-14T07:42:44Z",
+      "verified_at": "2026-10-14T13:46:41Z",
       "match_score": 85
     },
     {
@@ -17613,7 +19868,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Columbus-GA/Operations-QA-Intern--Summer-2027-Columbus--GA_115774",
       "external_id": "115774",
-      "verified_at": "2026-10-14T07:42:43Z",
+      "verified_at": "2026-10-14T13:46:40Z",
       "match_score": 85
     },
     {
@@ -17640,7 +19895,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Decatur-AL/Operations-QA-Intern--Summer-2027--Decatur--AL_115757",
       "external_id": "115757",
-      "verified_at": "2026-10-14T07:42:43Z",
+      "verified_at": "2026-10-14T13:46:40Z",
       "match_score": 85
     },
     {
@@ -17667,7 +19922,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/New-Orleans-LA/Operations-Engineering-Intern--Summer-2027--Multiple-Locations-_115721",
       "external_id": "115721",
-      "verified_at": "2026-10-14T07:42:44Z",
+      "verified_at": "2026-10-14T13:46:40Z",
       "match_score": 85
     },
     {
@@ -17694,7 +19949,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Scottsville-KY/Operations-Engineering-Intern--Spring-2027---Scottsville--KY_115475-1",
       "external_id": "115475",
-      "verified_at": "2026-10-14T07:42:43Z",
+      "verified_at": "2026-10-14T13:46:40Z",
       "match_score": 85
     },
     {
@@ -17721,7 +19976,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Memphis-TN/Operations-Engineering-Intern--Spring-2027---Memphis--TN_114845",
       "external_id": "114845",
-      "verified_at": "2026-10-14T07:42:44Z",
+      "verified_at": "2026-10-14T13:46:41Z",
       "match_score": 85
     },
     {
@@ -17748,7 +20003,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Lexington-KY/Operations-Engineering-Intern--Spring-2027---Lexington--KY_114841",
       "external_id": "114841",
-      "verified_at": "2026-10-14T07:42:43Z",
+      "verified_at": "2026-10-14T13:46:40Z",
       "match_score": 85
     },
     {
@@ -17773,7 +20028,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Microbiology-Intern--Summer-2027_115676",
       "external_id": "115676",
-      "verified_at": "2026-10-14T07:42:41Z",
+      "verified_at": "2026-10-14T13:46:38Z",
       "match_score": 85
     },
     {
@@ -17802,7 +20057,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Information-Services-Intern--Summer-2027_115744",
       "external_id": "115744",
-      "verified_at": "2026-10-14T07:42:42Z",
+      "verified_at": "2026-10-14T13:46:39Z",
       "match_score": 85
     },
     {
@@ -17835,7 +20090,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Summer-2027_115743",
       "external_id": "115743",
-      "verified_at": "2026-10-14T07:42:42Z",
+      "verified_at": "2026-10-14T13:46:39Z",
       "match_score": 85
     },
     {
@@ -17868,7 +20123,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-10-14T07:42:41Z",
+      "verified_at": "2026-10-14T13:46:38Z",
       "match_score": 85
     },
     {
@@ -17894,7 +20149,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Category-Leadership-Intern--Summer-2027_115804",
       "external_id": "115804",
-      "verified_at": "2026-10-14T07:42:42Z",
+      "verified_at": "2026-10-14T13:46:39Z",
       "match_score": 85
     },
     {
@@ -17921,7 +20176,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Analytical-Lab-Intern--Summer-2027_115678",
       "external_id": "115678",
-      "verified_at": "2026-10-14T07:42:42Z",
+      "verified_at": "2026-10-14T13:46:39Z",
       "match_score": 85
     },
     {
@@ -20500,6 +22755,178 @@
       "match_score": 85
     },
     {
+      "id": "campbell-s-d8a7e916c5bf",
+      "source_key": "campbell-s",
+      "fortune_rank": 413,
+      "fortune_500": true,
+      "company": "Campbell's",
+      "title": "Data Science Intern",
+      "location": "USA - NJ - Camden",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst"
+      ],
+      "tags": [],
+      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Science-Intern_Req-65845",
+      "external_id": "Req-65845",
+      "verified_at": "2026-10-14T13:47:13Z",
+      "match_score": 85
+    },
+    {
+      "id": "campbell-s-85c9705dabae",
+      "source_key": "campbell-s",
+      "fortune_rank": 413,
+      "fortune_500": true,
+      "company": "Campbell's",
+      "title": "Data Science Intern",
+      "location": "USA - NJ - Camden",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst"
+      ],
+      "tags": [],
+      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Science-Intern_Req-65844",
+      "external_id": "Req-65844",
+      "verified_at": "2026-10-14T13:47:13Z",
+      "match_score": 85
+    },
+    {
+      "id": "campbell-s-d1380e83e80c",
+      "source_key": "campbell-s",
+      "fortune_rank": 413,
+      "fortune_500": true,
+      "company": "Campbell's",
+      "title": "Data Engineer – Agentic AI & ML Ops (Co-op)",
+      "location": "USA - NJ - Camden",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "FP&A"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Power BI",
+        "Cloud",
+        "AI / ML"
+      ],
+      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Engineer---Agentic-AI---ML-Ops--Co-op-_Req-65843",
+      "external_id": "Req-65843",
+      "verified_at": "2026-10-14T13:47:15Z",
+      "match_score": 85
+    },
+    {
+      "id": "campbell-s-0f89dac90b5d",
+      "source_key": "campbell-s",
+      "fortune_rank": 413,
+      "fortune_500": true,
+      "company": "Campbell's",
+      "title": "Data Engineer - Operational Support (Co-op)",
+      "location": "USA - NJ - Camden",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Power BI",
+        "Cloud",
+        "AI / ML"
+      ],
+      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Engineer---Operational-Support--Co-op-_Req-65842",
+      "external_id": "Req-65842",
+      "verified_at": "2026-10-14T13:47:13Z",
+      "match_score": 85
+    },
+    {
+      "id": "campbell-s-44a7c5bf7ee6",
+      "source_key": "campbell-s",
+      "fortune_rank": 413,
+      "fortune_500": true,
+      "company": "Campbell's",
+      "title": "Agentic AI Engineer Co-Op",
+      "location": "USA - Remote",
+      "region": "Remote",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Cloud",
+        "AI / ML",
+        "Product"
+      ],
+      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---Remote/Agentic-AI-Engineer-Co-Op_Req-66015",
+      "external_id": "Req-66015",
+      "verified_at": "2026-10-14T13:47:12Z",
+      "match_score": 85
+    },
+    {
+      "id": "campbell-s-09b63e50056d",
+      "source_key": "campbell-s",
+      "fortune_rank": 413,
+      "fortune_500": true,
+      "company": "Campbell's",
+      "title": "Agentic AI Engineer Co-Op",
+      "location": "USA - Remote",
+      "region": "Remote",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Cloud",
+        "AI / ML",
+        "Product"
+      ],
+      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---Remote/Agentic-AI-Engineer-Co-Op_Req-66014",
+      "external_id": "Req-66014",
+      "verified_at": "2026-10-14T13:47:12Z",
+      "match_score": 85
+    },
+    {
       "id": "c-h-robinson-worldwide-e6be24c2e552",
       "source_key": "c-h-robinson-worldwide",
       "fortune_rank": 277,
@@ -21669,6 +24096,190 @@
       "external_id": "R0248414",
       "verified_at": "2026-10-13T03:38:33Z",
       "match_score": 85
+    },
+    {
+      "id": "boeing-b53ee07a9d54",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) – Quality Specialist",
+      "location": "USA - Seattle, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "SQL",
+        "Excel",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) – Quality Specialist Company: The Boeing Company Job Description Launch your career with Boeing, celebrated by Yello/WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "nt Visa status. Basic Qualifications Be currently enrolled in a college or university with expected graduation on or after August 2027. Availability to work full-time for 10…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Boeing-Summer-2027-Internship-Program--Paid----Quality-Specialist_JR2026520392-1",
+      "external_id": "JR2026520392",
+      "verified_at": "2026-10-14T13:48:41Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-d80ddcfb0951",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) – Information Digital Technology & Security (IDT&S)",
+      "location": "USA - Everett, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Product management",
+        "Data analyst",
+        "Business analyst"
+      ],
+      "tags": [
+        "Python",
+        "Cloud",
+        "AI / ML",
+        "Product",
+        "Strategy"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) – Information Digital Technology & Security (IDT&S) Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "during Summer 2027 Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Information-Digital-Technology---Security--IDT-S-_JR2026520791-1",
+      "external_id": "JR2026520791",
+      "verified_at": "2026-10-14T13:48:41Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-5458f418a977",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) – Data Analytics Intern",
+      "location": "USA - Everett, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) – Data Analytics Intern Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027 intern program",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "during Summer 2027 Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Data-Analytics-Intern_JR2026520976-1",
+      "external_id": "JR2026520976",
+      "verified_at": "2026-10-14T13:48:41Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-7cd1564bb593",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) - Quality Engineering Intern",
+      "location": "USA - Seattle, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "Product"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) - Quality Engineering Intern Company: Job Description Launch your career with Boeing, celebrated by Yello/WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "tus. Basic Qualifications (Required) Be currently enrolled in a college or university with expected graduation on or after August 2027. Availability to work full-time for…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Boeing-Summer-2027-Internship-Program--Paid----Quality-Engineering-Intern_JR2026520439-1",
+      "external_id": "JR2026520439",
+      "verified_at": "2026-10-14T13:48:41Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-8a85760425dd",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) - Methods Process Analyst",
+      "location": "USA - Seattle, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "SQL",
+        "Product",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) - Methods Process Analyst Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027 intern program",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "during Summer 2027 Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Seattle-WA/Boeing-Summer-2027-Internship-Program--Paid----Methods-Process-Analyst_JR2026519532-1",
+      "external_id": "JR2026519532",
+      "verified_at": "2026-10-14T13:48:41Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-8e97908a64de",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) - Facilities Engineering",
+      "location": "USA - Everett, WA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Boeing Summer 2027 Internship Program (Paid) - Facilities Engineering Company: Job Description Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ics, Physics, or Cybersecurity) Enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-10-23",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Facilities-Engineering_JR2026521015-1",
+      "external_id": "JR2026521015",
+      "verified_at": "2026-10-14T13:48:42Z",
+      "match_score": 90
     },
     {
       "id": "blackstone-3173755c0cfb",
@@ -22865,6 +25476,64 @@
       "match_score": 85
     },
     {
+      "id": "valero-energy-ac21abc6c4fd",
+      "source_key": "valero-energy",
+      "fortune_rank": 40,
+      "fortune_500": true,
+      "company": "Valero Energy",
+      "title": "Intern Programs",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "SQL",
+        "Excel",
+        "Product",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Turn what you’re learning in the classroom into meaningful, real-world experience at Valero. Contribute to important projects, learn from industry professionals and build skills that can help launch your career. Interns receive competitive pay, professional development,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.valero.com/careers/university-recruiting/intern-programs",
+      "external_id": null,
+      "verified_at": "2026-10-14T13:47:06Z",
+      "match_score": 85
+    },
+    {
+      "id": "target-74cfe5e85296",
+      "source_key": "target",
+      "fortune_rank": 42,
+      "fortune_500": true,
+      "company": "Target",
+      "title": "Explore Intern & Entry-Level Careers",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Pre-internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Explore career areas and jobs for you Saved jobs Create a job alert Search jobs Saved jobs Create a job alert Home Careers Career Areas Explore Intern & Entry-Level Careers Accelerate your professional growth through one of our internships or entry-level programs and level up…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://corporate.target.com/careers/career-areas/intern-entry-level",
+      "external_id": null,
+      "verified_at": "2026-10-14T13:49:19Z",
+      "match_score": 85
+    },
+    {
       "id": "mosaic-769accf74e1e",
       "source_key": "mosaic",
       "fortune_rank": 366,
@@ -23652,6 +26321,33 @@
       "match_score": 85
     },
     {
+      "id": "delek-us-holdings-fb7f1b2d7238",
+      "source_key": "delek-us-holdings",
+      "fortune_rank": 405,
+      "fortune_500": true,
+      "company": "Delek US Holdings",
+      "title": "Search results for \"internship\".",
+      "location": "Location",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Skip to main content LIFE AT DELEK Who We Are What We Value Why Delek? CAREERS Corporate Services Logistics / Transportation Refining Operations Early Career-Seekers View All Jobs FAQs LOCATIONS Search by Keyword LIFE AT DELEK Who We Are What We Value Why Delek?",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.delekus.com/search/",
+      "external_id": null,
+      "verified_at": "2026-10-14T13:46:24Z",
+      "match_score": 85
+    },
+    {
       "id": "capital-one-financial-42c9917ee8c3",
       "source_key": "capital-one-financial",
       "fortune_rank": 63,
@@ -23860,6 +26556,320 @@
       "url": "https://www.borgwarner.com/careers/job-search?id=R2026-3712",
       "external_id": null,
       "verified_at": "2026-10-13T11:53:16Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-bba324d8f147",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Đoàn Sĩ Anh | Retrofit Engineering Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Đoàn Sĩ Anh | Retrofit Engineering Intern Published Sept. 26, 2024 Business Unit: Engineering Location: Ho Chi Minh, Vietnam University: TU Delft Degree Program: Aerospace Engineering What is your role…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/meet-Doan",
+      "external_id": null,
+      "verified_at": "2026-10-14T13:49:26Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-1f189a7c918c",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Niyathi Gorantla | Sustainability Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Niyathi Gorantla | Sustainability Intern Published Aug. 20, 2024 Business Unit: Corporate Location: Chicago University: Duke University Degree Program: B.S. in Computer Science What is your role at Boeing?",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/NiyathiGorantla",
+      "external_id": null,
+      "verified_at": "2026-10-14T13:49:26Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-fb5e2f819966",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Mya Beathley | Engineering Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Mya Beathley | Engineering Intern Published Aug. 20, 2024 Business Unit: Boeing Defense, Space & Security Location: Oklahoma City University: University of Southern California Degree Program: B.S",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/MyaBeathley",
+      "external_id": null,
+      "verified_at": "2026-10-14T13:49:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-aa00c3ee8d66",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Meet Abbey Carlson: Former Intern Turned Space and Launch Engineer",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Meet Abbey Carlson: Former Intern Turned Space and Launch Engineer Published April 16, 2021 While 2020 was an unusual year for everyone, with many life events put on pause or canceled, Abbey Carlson was…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/Meet-Abbey-Carlson",
+      "external_id": null,
+      "verified_at": "2026-10-14T13:49:22Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-3bbefc4598f8",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Eva Strang | Strategy Analyst Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Eva Strang | Strategy Analyst Intern Published Aug. 20, 2024 Business Unit: Boeing Global, Ventures and Innovation Location: London University: University of Strathclyde Degree Program: B.A",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/EvaStrang",
+      "external_id": null,
+      "verified_at": "2026-10-14T13:49:24Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-eb83478639e0",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Elisa Rwagasana Ishimwe | Information Technology and Data Analytics Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Elisa Rwagasana Ishimwe | Information Technology and Data Analytics Intern Published Aug. 20, 2024 Business Unit: Corporate Location: Kent, Wash. University: College of Wooster Degree Program: B.A",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/ElisaRwagasanaIshimwe",
+      "external_id": null,
+      "verified_at": "2026-10-14T13:49:25Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-22e159d099e9",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Technical Apprenticeship Program (BTAP)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Boeing Technical Apprenticeship Program (BTAP) Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Boeing Technical Apprenticeship Program (BTAP) The digital revolution has introduced new demands for technical skills across the aerospace industry, and the…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/BTAP",
+      "external_id": null,
+      "verified_at": "2026-10-14T13:49:24Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-fe9864b7a9cf",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Atira Sarat | Sustainability Innovation Research Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Atira Sarat | Sustainability Innovation Research Intern Published Sept. 26, 2024 Business Unit: Commercial Airplanes Digital Product Development Location: Singapore University: National University of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/meet-Atira",
+      "external_id": null,
+      "verified_at": "2026-10-14T13:49:26Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-d3fc1e29e260",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Adrian Sosa | Structures Design Engineer Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Adrian Sosa | Structures Design Engineer Intern Published Aug. 20, 2024 Business Unit: Boeing Commercial Airplanes Location: Everett, Wash. University: University of Puerto Rico at Mayagüez Degree…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/AdrianSosa",
+      "external_id": null,
+      "verified_at": "2026-10-14T13:49:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-1a2b13c2711c",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Adrian Loekman | Airplane Maintenance Engineering Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Adrian Loekman | Airplane Maintenance Engineering Intern Published Sept. 26, 2024 Business Unit: Airplane Maintenance Engineering Location: Jakarta, Indonesia & Seal Beach, California University: UCLA…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/meet-AdrianL",
+      "external_id": null,
+      "verified_at": "2026-10-14T13:49:26Z",
       "match_score": 85
     },
     {
