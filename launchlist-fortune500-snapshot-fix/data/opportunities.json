@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T09:43:41Z",
+  "updated_at": "2026-10-18T14:07:29Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,11 +12,24 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-10-18T09:40:07Z",
+  "directory_refreshed_at": "2026-10-18T14:02:37Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 308,
-  "companies_failed_last_24h": 9,
+  "companies_failed_last_24h": 8,
   "failed_or_blocked_companies_last_24h": [
+    {
+      "key": "accendra-health",
+      "rank": 407,
+      "company": "Accendra Health",
+      "fortune_500": true,
+      "checked_at": "2026-10-18T14:07:29Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
     {
       "key": "alcoa",
       "rank": 344,
@@ -31,19 +44,6 @@
       "error": "Failed request: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs: 404 Client Error: Not Found for url: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs"
     },
     {
-      "key": "alphabet",
-      "rank": 5,
-      "company": "Alphabet",
-      "fortune_500": true,
-      "checked_at": "2026-10-17T13:49:40Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
-    },
-    {
       "key": "bank-of-america",
       "rank": 20,
       "company": "Bank of America",
@@ -55,19 +55,6 @@
       "adapter": "discovery",
       "careers_url": "https://careers.bankofamerica.com/en-us/students/job-search?ref=search&search=getAllJobs&start=0&rows=10",
       "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
-    },
-    {
-      "key": "coterra-energy",
-      "rank": 496,
-      "company": "Coterra Energy",
-      "fortune_500": true,
-      "checked_at": "2026-10-17T13:49:40Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
     },
     {
       "key": "ferguson-enterprises",
@@ -96,6 +83,19 @@
       "error": null
     },
     {
+      "key": "international-business-machines",
+      "rank": 66,
+      "company": "International Business Machines",
+      "fortune_500": true,
+      "checked_at": "2026-10-18T14:07:29Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
       "key": "kla",
       "rank": 361,
       "company": "KLA",
@@ -107,19 +107,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://kla.wd1.myworkdayjobs.com/wday/cxs/kla/AnnArbor/jobs: 429 Client Error: Too Many Requests for url: https://kla.wd1.myworkdayjobs.com/wday/cxs/kla/AnnArbor/jobs"
-    },
-    {
-      "key": "roper-technologies",
-      "rank": 487,
-      "company": "Roper Technologies",
-      "fortune_500": true,
-      "checked_at": "2026-10-17T13:49:40Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
     },
     {
       "key": "ups",
@@ -135,9 +122,9 @@
       "error": null
     }
   ],
-  "companies_with_eligible_jobs": 89,
+  "companies_with_eligible_jobs": 86,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 922,
+  "opportunity_count": 916,
   "opportunities": [
     {
       "id": "travelers-4f9641bfde1e",
@@ -573,7 +560,7 @@
       "deadline": "2026-11-07",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/NLD---North-Brabant---Boxmeer/Intern---BSc--HLO--or-MSc-Biology--Life-sciences---Poultry-R-D_R422847-1",
       "external_id": "R422847",
-      "verified_at": "2026-10-16T21:17:53Z",
+      "verified_at": "2026-10-18T14:04:20Z",
       "match_score": 85
     },
     {
@@ -602,7 +589,7 @@
       "deadline": "2026-10-27",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/ARE---Dubai---Falak-Building/Data-Science---AI-Intern_R422804",
       "external_id": "R422804",
-      "verified_at": "2026-10-16T21:17:52Z",
+      "verified_at": "2026-10-18T14:04:19Z",
       "match_score": 90
     },
     {
@@ -632,7 +619,7 @@
       "deadline": "2026-10-27",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/ARE---Dubai---Falak-Building/Data-Analytics-Intern_R422803",
       "external_id": "R422803",
-      "verified_at": "2026-10-16T21:17:52Z",
+      "verified_at": "2026-10-18T14:04:19Z",
       "match_score": 90
     },
     {
@@ -936,7 +923,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance-Technology-Intern--Spring-2027_116016",
       "external_id": "116016",
-      "verified_at": "2026-10-18T09:40:44Z",
+      "verified_at": "2026-10-18T14:03:17Z",
       "match_score": 85
     },
     {
@@ -1136,6 +1123,36 @@
       "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/Business-Intelligence--BI--Intern_51591002",
       "external_id": "51591002",
       "verified_at": "2026-10-18T00:07:56Z",
+      "match_score": 85
+    },
+    {
+      "id": "constellation-brands-fbaf65ef5310",
+      "source_key": "constellation-brands",
+      "fortune_rank": 416,
+      "fortune_500": true,
+      "company": "Constellation Brands",
+      "title": "Intern, Financial Compliance & P2P",
+      "location": "Rochester, New York",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending",
+        "Accounting / financial analyst"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Job Description We have a dynamic position in the fields of accounting and finance, and this internship will support the Financial Compliance & Procure-to-Pay teams on various projects and daily tasks. The Intern will be exposed to tasks associated with each function as…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-16",
+      "deadline": null,
+      "url": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--Financial-Compliance---P2P_R-41509",
+      "external_id": "R-41509",
+      "verified_at": "2026-10-18T14:03:56Z",
       "match_score": 85
     },
     {
@@ -1635,7 +1652,7 @@
       "deadline": "2026-10-31",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/PAN---Panam---Panama-City-MMG-Tower/Pharmacovigilance-Intern---Pasanta-Panam_R422762",
       "external_id": "R422762",
-      "verified_at": "2026-10-16T21:17:53Z",
+      "verified_at": "2026-10-18T14:04:21Z",
       "match_score": 85
     },
     {
@@ -1663,7 +1680,7 @@
       "deadline": "2026-10-31",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/PAN---Panam---Panama-City-MMG-Tower/Pharmacovigilance-Intern---Panama_R422754-1",
       "external_id": "R422754",
-      "verified_at": "2026-10-16T21:17:53Z",
+      "verified_at": "2026-10-18T14:04:20Z",
       "match_score": 85
     },
     {
@@ -1696,7 +1713,7 @@
       "deadline": "2026-10-20",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/IRL---Tipperary---Ballydine/Engineering-Department-Intern_R411420",
       "external_id": "R411420",
-      "verified_at": "2026-10-16T21:17:55Z",
+      "verified_at": "2026-10-18T14:04:22Z",
       "match_score": 85
     },
     {
@@ -1723,7 +1740,7 @@
       "deadline": "2026-12-17",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Vaccine-Manufacturing-Automation-Co-op_R422480",
       "external_id": "R422480",
-      "verified_at": "2026-10-16T21:17:55Z",
+      "verified_at": "2026-10-18T14:04:22Z",
       "match_score": 85
     },
     {
@@ -1752,7 +1769,7 @@
       "deadline": null,
       "url": "https://medline.wd5.myworkdayjobs.com/Medline/job/Dubuque-Iowa/Healthcare-Customer-Service-Internship---Summer-2027_R2616839",
       "external_id": "R2616839",
-      "verified_at": "2026-10-16T21:17:30Z",
+      "verified_at": "2026-10-18T14:04:13Z",
       "match_score": 85
     },
     {
@@ -1956,7 +1973,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Revenue-Growth-Management-Intern--Summer-2027_116012",
       "external_id": "116012",
-      "verified_at": "2026-10-18T09:40:44Z",
+      "verified_at": "2026-10-18T14:03:17Z",
       "match_score": 85
     },
     {
@@ -2615,7 +2632,7 @@
       "deadline": "2026-11-14",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Global-Communications-Intern--AI-focus----Intern_R422423",
       "external_id": "R422423",
-      "verified_at": "2026-10-16T21:17:59Z",
+      "verified_at": "2026-10-18T14:04:25Z",
       "match_score": 85
     },
     {
@@ -2890,7 +2907,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Net-Revenue-Optimization-Intern--Summer-2027_116006",
       "external_id": "116006",
-      "verified_at": "2026-10-18T09:40:44Z",
+      "verified_at": "2026-10-18T14:03:17Z",
       "match_score": 85
     },
     {
@@ -3096,36 +3113,6 @@
       "match_score": 85
     },
     {
-      "id": "biogen-17f7a25d5cbe",
-      "source_key": "biogen",
-      "fortune_rank": 421,
-      "fortune_500": true,
-      "company": "Biogen",
-      "title": "Supplier Risk and Onboarding Intern",
-      "location": "Warsaw, Poland",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "About This Role: As the Supplier Risk and Onboarding Intern, you will be an integral part of the Supplier Risk and Onboarding department, supporting global business partners with the suppliers' onboarding and risk assessment process",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-14",
-      "deadline": null,
-      "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Warsaw-Poland/Supplier-Risk-and-Onboarding-Intern_REQ24351",
-      "external_id": "REQ24351",
-      "verified_at": "2026-10-16T21:16:46Z",
-      "match_score": 85
-    },
-    {
       "id": "amgen-1cdd9454e00e",
       "source_key": "amgen",
       "fortune_rank": 129,
@@ -3288,7 +3275,7 @@
       "deadline": "2026-10-27",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/ARE---Dubai---Falak-Building/Medical-Affairs-Data---Digital-Projects-Intern_R421700",
       "external_id": "R421700",
-      "verified_at": "2026-10-16T21:17:59Z",
+      "verified_at": "2026-10-18T14:04:25Z",
       "match_score": 85
     },
     {
@@ -4225,7 +4212,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Talent-Acquisition-Intern--Summer-2027_115992",
       "external_id": "115992",
-      "verified_at": "2026-10-18T09:40:43Z",
+      "verified_at": "2026-10-18T14:03:17Z",
       "match_score": 85
     },
     {
@@ -4253,7 +4240,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Marketing-Intern--Summer-2027_115771",
       "external_id": "115771",
-      "verified_at": "2026-10-18T09:40:43Z",
+      "verified_at": "2026-10-18T14:03:16Z",
       "match_score": 85
     },
     {
@@ -4424,6 +4411,103 @@
       "match_score": 85
     },
     {
+      "id": "constellation-brands-42e0e4206e7b",
+      "source_key": "constellation-brands",
+      "fortune_rank": 416,
+      "fortune_500": true,
+      "company": "Constellation Brands",
+      "title": "Intern, Treasury",
+      "location": "Rochester, New York",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Corporate treasury",
+        "Business analyst"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Strategy",
+        "Finance",
+        "Treasury"
+      ],
+      "summary": "Job Description This position will support market risk and capital structure functions within Treasury. The responsibilities, noted below, will be a mix of strategic project-based work and supporting day-to-day activities. This individual will have the opportunity to learn…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-13",
+      "deadline": null,
+      "url": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--Treasury_R-41499",
+      "external_id": "R-41499",
+      "verified_at": "2026-10-18T14:03:56Z",
+      "match_score": 85
+    },
+    {
+      "id": "constellation-brands-87602a9a0404",
+      "source_key": "constellation-brands",
+      "fortune_rank": 416,
+      "fortune_500": true,
+      "company": "Constellation Brands",
+      "title": "Intern, Payroll",
+      "location": "Canandaigua, New York",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending",
+        "Accounting / financial analyst"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Finance",
+        "Credit",
+        "Accounting"
+      ],
+      "summary": "Job Description We offer a dynamic internship opportunity in the field of accounting and finance, designed to provide hands-on experience across two critical functions: Payroll and Accounts Receivable. This role supports both teams on a variety of projects and daily operations,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-13",
+      "deadline": null,
+      "url": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Canandaigua-New-York/Intern--Payroll_R-41495",
+      "external_id": "R-41495",
+      "verified_at": "2026-10-18T14:03:56Z",
+      "match_score": 85
+    },
+    {
+      "id": "constellation-brands-5304aef25c81",
+      "source_key": "constellation-brands",
+      "fortune_rank": 416,
+      "fortune_500": true,
+      "company": "Constellation Brands",
+      "title": "Intern, Finance Analytics",
+      "location": "Rochester, New York",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "Finance"
+      ],
+      "summary": "Job Description The Intern, Finance Analytics position requires a creative problem solver to develop automated solutions for a global organization. Responsibilities include analysis, development, support, implementation, and scaling of dashboard development in a high paced…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-13",
+      "deadline": null,
+      "url": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--Finance-Analytics_R-41494",
+      "external_id": "R-41494",
+      "verified_at": "2026-10-18T14:03:57Z",
+      "match_score": 85
+    },
+    {
       "id": "carrier-global-8360ad79a21a",
       "source_key": "carrier-global",
       "fortune_rank": 212,
@@ -4588,7 +4672,7 @@
       "deadline": "2027-01-29",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/SGP---Singapore---Singapore-Boulevard-Towers/Intern--Distribution--Logistics---Warehousing-Quality-Data-Analyst_R421490",
       "external_id": "R421490",
-      "verified_at": "2026-10-16T21:17:59Z",
+      "verified_at": "2026-10-18T14:04:25Z",
       "match_score": 85
     },
     {
@@ -6066,7 +6150,7 @@
       "deadline": "2026-12-31",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/SGP---Singapore---Singapore-50-Tuas-West-Dr/Sustainability--Intern_R401742",
       "external_id": "R401742",
-      "verified_at": "2026-10-16T21:18:39Z",
+      "verified_at": "2026-10-18T14:04:52Z",
       "match_score": 85
     },
     {
@@ -7242,7 +7326,7 @@
       "deadline": "2026-10-22",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/TUR---Istanbul---Istanbul-Levent/Medical-Affairs-Intern_R420251-1",
       "external_id": "R420251",
-      "verified_at": "2026-10-16T21:18:00Z",
+      "verified_at": "2026-10-18T14:04:25Z",
       "match_score": 85
     },
     {
@@ -7326,6 +7410,38 @@
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Singapore/Quality-Intern_R5036384-1",
       "external_id": "R5036384",
       "verified_at": "2026-10-17T13:47:27Z",
+      "match_score": 85
+    },
+    {
+      "id": "constellation-brands-6d78d7909a02",
+      "source_key": "constellation-brands",
+      "fortune_rank": 416,
+      "fortune_500": true,
+      "company": "Constellation Brands",
+      "title": "Intern, Quality",
+      "location": "Chicago, Illinois",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Power BI",
+        "Product",
+        "Operations"
+      ],
+      "summary": "Job Description Paid internship with the Constellation Brands Beer Division Quality team based in Chicago, IL. Estimated timeframe – late May through early August (12 weeks). Internship will consist of training and impactful project work across consumer intelligence and quality…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-08",
+      "deadline": null,
+      "url": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Chicago-Illinois/Intern--Quality_R-41413",
+      "external_id": "R-41413",
+      "verified_at": "2026-10-18T14:03:57Z",
       "match_score": 85
     },
     {
@@ -7888,7 +8004,7 @@
       "deadline": "2026-11-13",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Global-Communications---Intern_R419876",
       "external_id": "R419876",
-      "verified_at": "2026-10-16T21:18:00Z",
+      "verified_at": "2026-10-18T14:04:25Z",
       "match_score": 85
     },
     {
@@ -8808,7 +8924,7 @@
       "deadline": "2026-11-14",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Sales-Development-Program---Internship_R-120996",
       "external_id": "R-120996",
-      "verified_at": "2026-10-18T09:42:31Z",
+      "verified_at": "2026-10-18T14:05:29Z",
       "match_score": 85
     },
     {
@@ -9998,7 +10114,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Human-Resources-Intern--Summer-2027_115918",
       "external_id": "115918",
-      "verified_at": "2026-10-18T09:40:43Z",
+      "verified_at": "2026-10-18T14:03:17Z",
       "match_score": 85
     },
     {
@@ -10458,7 +10574,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/McCalla-AL/Human-Resources-Intern--McCalla--AL--Summer-2027_115887",
       "external_id": "115887",
-      "verified_at": "2026-10-18T09:40:44Z",
+      "verified_at": "2026-10-18T14:03:18Z",
       "match_score": 85
     },
     {
@@ -10486,7 +10602,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Emporia-KS/Human-Resources-Intern--Emporia--KS--Summer-2027_115888",
       "external_id": "115888",
-      "verified_at": "2026-10-18T09:40:44Z",
+      "verified_at": "2026-10-18T14:03:18Z",
       "match_score": 85
     },
     {
@@ -10511,7 +10627,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Corporate-Communications-Intern--Summer-2027_115919",
       "external_id": "115919",
-      "verified_at": "2026-10-18T09:40:43Z",
+      "verified_at": "2026-10-18T14:03:16Z",
       "match_score": 85
     },
     {
@@ -10592,6 +10708,35 @@
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Subang/IT-Support-Intern_R5038715-1",
       "external_id": "R5038715",
       "verified_at": "2026-10-17T13:47:27Z",
+      "match_score": 85
+    },
+    {
+      "id": "constellation-brands-ddbad03bae82",
+      "source_key": "constellation-brands",
+      "fortune_rank": 416,
+      "fortune_500": true,
+      "company": "Constellation Brands",
+      "title": "Intern, Procurement",
+      "location": "Chicago, Illinois",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Power BI",
+        "Operations"
+      ],
+      "summary": "Job Description Paid internship in the Constellation Brands Beer Division (CBBD) based in the Chicago, IL office. Estimated timeframe – late May through early August (12 weeks). Internship will consist of training and impactful project work supporting the various functions…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-01",
+      "deadline": "2026-10-30",
+      "url": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Chicago-Illinois/Intern--Procurement_R-41389",
+      "external_id": "R-41389",
+      "verified_at": "2026-10-18T14:03:57Z",
       "match_score": 85
     },
     {
@@ -11055,6 +11200,36 @@
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Pittsburgh/Military-DoD-SkillBridge-Internship---Maintenance-Technician_R5040995-1",
       "external_id": "R5040995",
       "verified_at": "2026-10-17T13:47:28Z",
+      "match_score": 85
+    },
+    {
+      "id": "constellation-brands-cf91567ef905",
+      "source_key": "constellation-brands",
+      "fortune_rank": 416,
+      "fortune_500": true,
+      "company": "Constellation Brands",
+      "title": "Intern, Logistics & Fulfillment",
+      "location": "Chicago, Illinois",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Job Description The Operations Intern, Logistics will support Global Logistics operations by helping coordinate operating routines, analyze execution performance, maintain documentation, and support cross-functional follow-up across replenishment, warehousing, fulfillment,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-30",
+      "deadline": "2026-10-30",
+      "url": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Chicago-Illinois/Intern--Logistics---Fulfillment_R-41385",
+      "external_id": "R-41385",
+      "verified_at": "2026-10-18T14:03:58Z",
       "match_score": 85
     },
     {
@@ -12269,36 +12444,6 @@
       "match_score": 85
     },
     {
-      "id": "vf-09e11734b034",
-      "source_key": "vf",
-      "fortune_rank": 425,
-      "fortune_500": true,
-      "company": "VF",
-      "title": "Security, Health & Safety Intern",
-      "location": "EMEA > CHE > Stabio > VF Campus VF1",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Risk",
-        "Accounting"
-      ],
-      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Security, Health & Safety Intern for EMEA Asset Protection Team. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-23",
-      "deadline": null,
-      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Security--Health---Safety-Intern_R-20260817-0021",
-      "external_id": "R-20260817-0021",
-      "verified_at": "2026-10-16T21:17:07Z",
-      "match_score": 90
-    },
-    {
       "id": "target-2a344772b3dc",
       "source_key": "target",
       "fortune_rank": 42,
@@ -12557,7 +12702,7 @@
       "deadline": "2026-11-09",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Manufacturing-Strategy--Business-Development-and-Alliances--MSBDA--Intern_R418677",
       "external_id": "R418677",
-      "verified_at": "2026-10-16T21:18:00Z",
+      "verified_at": "2026-10-18T14:04:26Z",
       "match_score": 85
     },
     {
@@ -12585,7 +12730,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Buffalo-NY/Human-Resources-Intern--Buffalo--NY--Summer-2027_115886",
       "external_id": "115886",
-      "verified_at": "2026-10-18T09:40:45Z",
+      "verified_at": "2026-10-18T14:03:18Z",
       "match_score": 85
     },
     {
@@ -13202,7 +13347,7 @@
       "deadline": "2026-10-21",
       "url": "https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/PGIM--2027-Public-and-Private-Credit--Sophomore-Externship-Program_R-124932-2",
       "external_id": "R-124932",
-      "verified_at": "2026-10-16T21:20:51Z",
+      "verified_at": "2026-10-18T14:07:22Z",
       "match_score": 90
     },
     {
@@ -14009,185 +14154,6 @@
       "external_id": "40015781",
       "verified_at": "2026-10-17T09:27:32Z",
       "match_score": 85
-    },
-    {
-      "id": "vf-ae92a029fb94",
-      "source_key": "vf",
-      "fortune_rank": 425,
-      "fortune_500": true,
-      "company": "VF",
-      "title": "Sales Operations Intern",
-      "location": "EMEA > CHE > Stabio > VF Campus VF1",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "FP&A",
-        "Data analyst"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Product",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Sales Operation Intern for the Smartwool & icebreaker (SWIB) Sales Operation Team. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Sales-Operations-Intern_R-20260813-0009-1",
-      "external_id": "R-20260813-0009",
-      "verified_at": "2026-10-16T21:17:04Z",
-      "match_score": 90
-    },
-    {
-      "id": "vf-320d38dc4530",
-      "source_key": "vf",
-      "fortune_rank": 425,
-      "fortune_500": true,
-      "company": "VF",
-      "title": "Retail Digital Technology Product Intern",
-      "location": "EMEA > CHE > Stabio > VF Campus VF1",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Product management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "AI / ML",
-        "Product"
-      ],
-      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Retail Digital Technology Product Intern for Digital Technology . At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Retail-Digital-Technology-Product-Intern_R-20260824-0035",
-      "external_id": "R-20260824-0035",
-      "verified_at": "2026-10-16T21:17:02Z",
-      "match_score": 90
-    },
-    {
-      "id": "vf-227281f40084",
-      "source_key": "vf",
-      "fortune_rank": 425,
-      "fortune_500": true,
-      "company": "VF",
-      "title": "Product Development Intern – Apparel",
-      "location": "EMEA > CHE > Stabio > VF Campus VF1",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Product management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Power BI",
-        "AI / ML",
-        "Product"
-      ],
-      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Product Development Intern for the Apparel Product Development Team. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Product-Development-Intern---Apparel_R-20260812-0013",
-      "external_id": "R-20260812-0013",
-      "verified_at": "2026-10-16T21:17:05Z",
-      "match_score": 90
-    },
-    {
-      "id": "vf-fd70c0752f86",
-      "source_key": "vf",
-      "fortune_rank": 425,
-      "fortune_500": true,
-      "company": "VF",
-      "title": "Graphic Design Intern",
-      "location": "EMEA > CHE > Stabio > VF Campus VF1",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Wealth management"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Graphic Design Intern for the Graphics & Trend Apparel Team. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Graphic-Design-Intern_R-20260812-0021",
-      "external_id": "R-20260812-0021",
-      "verified_at": "2026-10-16T21:17:05Z",
-      "match_score": 90
-    },
-    {
-      "id": "vf-90dbf982d72e",
-      "source_key": "vf",
-      "fortune_rank": 425,
-      "fortune_500": true,
-      "company": "VF",
-      "title": "Design & Material Intern",
-      "location": "EMEA > CHE > Stabio > VF Campus VF1",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product"
-      ],
-      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as a Design & Material Intern for The North Face Team. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Design---Material-Intern_R-20260818-0024-1",
-      "external_id": "R-20260818-0024",
-      "verified_at": "2026-10-16T21:17:02Z",
-      "match_score": 90
-    },
-    {
-      "id": "vf-c33602532ae0",
-      "source_key": "vf",
-      "fortune_rank": 425,
-      "fortune_500": true,
-      "company": "VF",
-      "title": "Allocator Intern",
-      "location": "EMEA > CHE > Stabio > VF Campus VF1",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "FP&A",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product",
-        "Operations",
-        "FP&A"
-      ],
-      "summary": "Make it with the #VFInternshipProgram at our EMEA HQ in Stabio, Switzerland as Allocator Intern for The North Face. At VF, shaping futures that move you means learning by doing, contributing to real projects and discovering the impact you can make",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "nterviews (Recruiter, Hiring Manager, potential Business Case) Eligibility requirements You must be graduating after November 1st, 2026 OR you must have a student status as…",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://vfc.wd5.myworkdayjobs.com/vfc_careers/job/EMEA--CHE--Stabio--VF-Campus-VF1/Allocator-Intern_R-20260818-0026-1",
-      "external_id": "R-20260818-0026",
-      "verified_at": "2026-10-16T21:17:08Z",
-      "match_score": 90
     },
     {
       "id": "united-rentals-9e1331cba6f8",
@@ -15475,7 +15441,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-10-18T09:41:02Z",
+      "verified_at": "2026-10-18T14:03:44Z",
       "match_score": 85
     },
     {
@@ -15722,7 +15688,7 @@
       "deadline": null,
       "url": "https://pru.wd5.myworkdayjobs.com/Careers/job/Newark-NJ-USA/PGIM--2027-Real-Estate--Sophomore-Externship-Program_R-124904-2",
       "external_id": "R-124904",
-      "verified_at": "2026-10-16T21:20:51Z",
+      "verified_at": "2026-10-18T14:07:22Z",
       "match_score": 90
     },
     {
@@ -15751,7 +15717,7 @@
       "deadline": null,
       "url": "https://pru.wd5.myworkdayjobs.com/Careers/job/Paris-France/PGIM---Real-Estate-Private-Equity-Analyst-Intern--all-genders-_R-124980-2",
       "external_id": "R-124980",
-      "verified_at": "2026-10-16T21:20:53Z",
+      "verified_at": "2026-10-18T14:07:24Z",
       "match_score": 85
     },
     {
@@ -15781,7 +15747,7 @@
       "deadline": null,
       "url": "https://pru.wd5.myworkdayjobs.com/Careers/job/Frankfurt-Germany/PGIM---Investment-Intern--Transactions--all-genders--Q4-2026-Based-in-Frankfurt_R-124407-2",
       "external_id": "R-124407",
-      "verified_at": "2026-10-16T21:20:51Z",
+      "verified_at": "2026-10-18T14:07:22Z",
       "match_score": 85
     },
     {
@@ -16662,7 +16628,7 @@
       "deadline": "2026-11-30",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/SGP---Singapore---Singapore-70-Tuas-West-Dr/Reliability-Engineer-Intern_R415054",
       "external_id": "R415054",
-      "verified_at": "2026-10-16T21:18:19Z",
+      "verified_at": "2026-10-18T14:04:38Z",
       "match_score": 85
     },
     {
@@ -16691,37 +16657,7 @@
       "deadline": "2026-10-30",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/HKG---Hong-Kong-Island---Hong-Kong-Lee-Garden-Two/Assoc-Spclst--Regulatory-Affairs_R409756",
       "external_id": "R409756",
-      "verified_at": "2026-10-16T21:18:05Z",
-      "match_score": 85
-    },
-    {
-      "id": "merck-09c897477cae",
-      "source_key": "merck",
-      "fortune_rank": 68,
-      "fortune_500": true,
-      "company": "Merck",
-      "title": "Operations Intern",
-      "location": "SGP - Singapore - Singapore (50 Tuas West Dr)",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations",
-        "Accounting"
-      ],
-      "summary": "Job Description This position plays a key role in sustaining our primary areas of focus, that are of greatest relevance to our business and society; access to heath, employees, environmental sustainability, and ethics and values. -Upholds safety and quality excellence when…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-27",
-      "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/SGP---Singapore---Singapore-50-Tuas-West-Dr/Operations-Intern_R402174",
-      "external_id": "R402174",
-      "verified_at": "2026-10-16T21:18:35Z",
+      "verified_at": "2026-10-18T14:04:29Z",
       "match_score": 85
     },
     {
@@ -16748,7 +16684,7 @@
       "deadline": "2026-11-30",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/SGP---Singapore---Singapore-50-Tuas-West-Dr/Maintenance-Engineer-Intern_R402180",
       "external_id": "R402180",
-      "verified_at": "2026-10-16T21:18:05Z",
+      "verified_at": "2026-10-18T14:04:29Z",
       "match_score": 85
     },
     {
@@ -16777,7 +16713,7 @@
       "deadline": "2026-11-30",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/SGP---Singapore---Singapore-Boulevard-Towers/Intern--Regulatory-Affairs--CMC_R413709",
       "external_id": "R413709",
-      "verified_at": "2026-10-16T21:18:05Z",
+      "verified_at": "2026-10-18T14:04:29Z",
       "match_score": 85
     },
     {
@@ -16806,7 +16742,7 @@
       "deadline": "2026-12-30",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/SGP---Singapore---Singapore-Boulevard-Towers/Global-Clinical-Trial-Operations-Intern_R412179",
       "external_id": "R412179",
-      "verified_at": "2026-10-16T21:18:27Z",
+      "verified_at": "2026-10-18T14:04:45Z",
       "match_score": 85
     },
     {
@@ -16831,7 +16767,7 @@
       "deadline": "2026-11-20",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---California---South-San-Francisco-Grand-Ave/XMLNAME-2027-Future-Talent-Program---Discovery-Oncology---Intern--South-San-Francisco--CA-_R415703",
       "external_id": "R415703",
-      "verified_at": "2026-10-16T21:18:02Z",
+      "verified_at": "2026-10-18T14:04:27Z",
       "match_score": 85
     },
     {
@@ -16858,7 +16794,7 @@
       "deadline": "2026-10-31",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---North-Wales-Upper-Gwynedd/XMLNAME-2027-Future-Talent-Program---Video-Marketing---Intern_R413050",
       "external_id": "R413050",
-      "verified_at": "2026-10-16T21:18:04Z",
+      "verified_at": "2026-10-18T14:04:28Z",
       "match_score": 85
     },
     {
@@ -16883,7 +16819,7 @@
       "deadline": "2026-10-19",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Vaccines-Process-R-D-Upstream---Intern_R413250",
       "external_id": "R413250",
-      "verified_at": "2026-10-16T21:18:04Z",
+      "verified_at": "2026-10-18T14:04:28Z",
       "match_score": 85
     },
     {
@@ -16910,7 +16846,7 @@
       "deadline": "2026-10-19",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Vaccines-Process-R-D-Downstream----Intern_R413259",
       "external_id": "R413259",
-      "verified_at": "2026-10-16T21:18:04Z",
+      "verified_at": "2026-10-18T14:04:28Z",
       "match_score": 85
     },
     {
@@ -16938,7 +16874,7 @@
       "deadline": "2026-10-31",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Information-Science---Intern_R413651",
       "external_id": "R413651",
-      "verified_at": "2026-10-16T21:18:04Z",
+      "verified_at": "2026-10-18T14:04:28Z",
       "match_score": 85
     },
     {
@@ -16971,7 +16907,7 @@
       "deadline": "2026-10-30",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Global-Strategic-Sourcing---Intern_R413301",
       "external_id": "R413301",
-      "verified_at": "2026-10-16T21:18:04Z",
+      "verified_at": "2026-10-18T14:04:28Z",
       "match_score": 85
     },
     {
@@ -17004,7 +16940,7 @@
       "deadline": "2026-10-30",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program----Global-SQM-Intern_R413659",
       "external_id": "R413659",
-      "verified_at": "2026-10-16T21:18:02Z",
+      "verified_at": "2026-10-18T14:04:27Z",
       "match_score": 85
     },
     {
@@ -17037,7 +16973,7 @@
       "deadline": "2026-11-09",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Finance---Intern_R416510",
       "external_id": "R416510",
-      "verified_at": "2026-10-16T21:18:02Z",
+      "verified_at": "2026-10-18T14:04:26Z",
       "match_score": 85
     },
     {
@@ -17064,7 +17000,7 @@
       "deadline": "2026-10-30",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Animal-Health-Formulation-and-Analytical-Sciences---Intern_R414069",
       "external_id": "R414069",
-      "verified_at": "2026-10-16T21:18:03Z",
+      "verified_at": "2026-10-18T14:04:27Z",
       "match_score": 85
     },
     {
@@ -17091,7 +17027,7 @@
       "deadline": "2026-11-09",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---West-Trenton/XMLNAME-2027-Future-Talent-Program---Aircraft-Technician---Intern_R413363",
       "external_id": "R413363",
-      "verified_at": "2026-10-16T21:18:03Z",
+      "verified_at": "2026-10-18T14:04:27Z",
       "match_score": 85
     },
     {
@@ -17122,7 +17058,7 @@
       "deadline": "2026-10-30",
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---North-Wales-Upper-Gwynedd/XMLNAME-2026-Future-Talent-Program---Clinical-Safety-Risk-Management---Intern_R413340",
       "external_id": "R413340",
-      "verified_at": "2026-10-16T21:18:03Z",
+      "verified_at": "2026-10-18T14:04:27Z",
       "match_score": 85
     },
     {
@@ -17834,7 +17770,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Supply-Chain-Intern--Summer-2027_115694",
       "external_id": "115694",
-      "verified_at": "2026-10-18T09:40:43Z",
+      "verified_at": "2026-10-18T14:03:16Z",
       "match_score": 85
     },
     {
@@ -17863,7 +17799,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
       "external_id": "115736",
-      "verified_at": "2026-10-18T09:40:45Z",
+      "verified_at": "2026-10-18T14:03:18Z",
       "match_score": 85
     },
     {
@@ -17891,7 +17827,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Quality-Assurance-Intern---Oxnard--CA_115727",
       "external_id": "115727",
-      "verified_at": "2026-10-18T09:40:45Z",
+      "verified_at": "2026-10-18T14:03:18Z",
       "match_score": 85
     },
     {
@@ -17916,7 +17852,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
       "external_id": "115725",
-      "verified_at": "2026-10-18T09:40:44Z",
+      "verified_at": "2026-10-18T14:03:18Z",
       "match_score": 85
     },
     {
@@ -17944,7 +17880,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
       "external_id": "115735",
-      "verified_at": "2026-10-18T09:40:45Z",
+      "verified_at": "2026-10-18T14:03:18Z",
       "match_score": 85
     },
     {
@@ -17971,7 +17907,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
       "external_id": "115677",
-      "verified_at": "2026-10-18T09:40:44Z",
+      "verified_at": "2026-10-18T14:03:17Z",
       "match_score": 85
     },
     {
@@ -17998,7 +17934,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sales-Intern--Summer-2027_115803",
       "external_id": "115803",
-      "verified_at": "2026-10-18T09:40:43Z",
+      "verified_at": "2026-10-18T14:03:16Z",
       "match_score": 85
     },
     {
@@ -18025,7 +17961,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
       "external_id": "115698",
-      "verified_at": "2026-10-18T09:40:44Z",
+      "verified_at": "2026-10-18T14:03:17Z",
       "match_score": 85
     },
     {
@@ -18052,7 +17988,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/R-D-Engineering-Intern--Co-Op-2027--8-months-_115696",
       "external_id": "115696",
-      "verified_at": "2026-10-18T09:40:44Z",
+      "verified_at": "2026-10-18T14:03:18Z",
       "match_score": 85
     },
     {
@@ -18083,7 +18019,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Spring-2027_115712",
       "external_id": "115712",
-      "verified_at": "2026-10-18T09:40:44Z",
+      "verified_at": "2026-10-18T14:03:17Z",
       "match_score": 85
     },
     {
@@ -18110,7 +18046,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_115697",
       "external_id": "115697",
-      "verified_at": "2026-10-18T09:40:45Z",
+      "verified_at": "2026-10-18T14:03:18Z",
       "match_score": 85
     },
     {
@@ -18137,7 +18073,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Columbus-GA/Operations-QA-Intern--Summer-2027-Columbus--GA_115774",
       "external_id": "115774",
-      "verified_at": "2026-10-18T09:40:44Z",
+      "verified_at": "2026-10-18T14:03:17Z",
       "match_score": 85
     },
     {
@@ -18164,7 +18100,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Decatur-AL/Operations-QA-Intern--Summer-2027--Decatur--AL_115757",
       "external_id": "115757",
-      "verified_at": "2026-10-18T09:40:44Z",
+      "verified_at": "2026-10-18T14:03:17Z",
       "match_score": 85
     },
     {
@@ -18191,7 +18127,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/New-Orleans-LA/Operations-Engineering-Intern--Summer-2027--Multiple-Locations-_115721",
       "external_id": "115721",
-      "verified_at": "2026-10-18T09:40:44Z",
+      "verified_at": "2026-10-18T14:03:18Z",
       "match_score": 85
     },
     {
@@ -18218,7 +18154,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Scottsville-KY/Operations-Engineering-Intern--Spring-2027---Scottsville--KY_115475-1",
       "external_id": "115475",
-      "verified_at": "2026-10-18T09:40:44Z",
+      "verified_at": "2026-10-18T14:03:17Z",
       "match_score": 85
     },
     {
@@ -18245,7 +18181,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Memphis-TN/Operations-Engineering-Intern--Spring-2027---Memphis--TN_114845",
       "external_id": "114845",
-      "verified_at": "2026-10-18T09:40:44Z",
+      "verified_at": "2026-10-18T14:03:18Z",
       "match_score": 85
     },
     {
@@ -18272,7 +18208,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Lexington-KY/Operations-Engineering-Intern--Spring-2027---Lexington--KY_114841",
       "external_id": "114841",
-      "verified_at": "2026-10-18T09:40:44Z",
+      "verified_at": "2026-10-18T14:03:17Z",
       "match_score": 85
     },
     {
@@ -18297,7 +18233,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Microbiology-Intern--Summer-2027_115676",
       "external_id": "115676",
-      "verified_at": "2026-10-18T09:40:43Z",
+      "verified_at": "2026-10-18T14:03:16Z",
       "match_score": 85
     },
     {
@@ -18326,7 +18262,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Information-Services-Intern--Summer-2027_115744",
       "external_id": "115744",
-      "verified_at": "2026-10-18T09:40:43Z",
+      "verified_at": "2026-10-18T14:03:16Z",
       "match_score": 85
     },
     {
@@ -18359,7 +18295,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Summer-2027_115743",
       "external_id": "115743",
-      "verified_at": "2026-10-18T09:40:43Z",
+      "verified_at": "2026-10-18T14:03:17Z",
       "match_score": 85
     },
     {
@@ -18392,7 +18328,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-10-18T09:40:43Z",
+      "verified_at": "2026-10-18T14:03:16Z",
       "match_score": 85
     },
     {
@@ -18418,7 +18354,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Category-Leadership-Intern--Summer-2027_115804",
       "external_id": "115804",
-      "verified_at": "2026-10-18T09:40:43Z",
+      "verified_at": "2026-10-18T14:03:17Z",
       "match_score": 85
     },
     {
@@ -18445,7 +18381,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Analytical-Lab-Intern--Summer-2027_115678",
       "external_id": "115678",
-      "verified_at": "2026-10-18T09:40:43Z",
+      "verified_at": "2026-10-18T14:03:16Z",
       "match_score": 85
     },
     {
@@ -19014,234 +18950,6 @@
       "external_id": "R000110209",
       "verified_at": "2026-10-18T04:42:00Z",
       "match_score": 90
-    },
-    {
-      "id": "general-mills-1c40707df057",
-      "source_key": "general-mills",
-      "fortune_rank": 227,
-      "fortune_500": true,
-      "company": "General Mills",
-      "title": "Internship - Supply Chain Logistics Associate",
-      "location": "Cincinnati, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "COMPANY OVERVIEW We exist to make food the world loves. Our company is a place that prioritizes being a force for good, a place to expand learning, explore new perspectives and reimagine new possibilities, every day. We look for people who want to bring their best — bold…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Cincinnati-OH/Internship---Supply-Chain-Logistics-Associate_10128708",
-      "external_id": "10128708",
-      "verified_at": "2026-10-16T21:16:40Z",
-      "match_score": 85
-    },
-    {
-      "id": "general-mills-24b2a08ea453",
-      "source_key": "general-mills",
-      "fortune_rank": 227,
-      "fortune_500": true,
-      "company": "General Mills",
-      "title": "Internship - Sourcing Analyst",
-      "location": "Minneapolis, MN",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Finance",
-        "Risk"
-      ],
-      "summary": "COMPANY OVERVIEW We exist to make food the world loves. Our company is a place that prioritizes being a force for good, a place to expand learning, explore new perspectives and reimagine new possibilities, every day. We look for people who want to bring their best — bold…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Minneapolis-MN/Internship---Sourcing-Analyst_10128706",
-      "external_id": "10128706",
-      "verified_at": "2026-10-16T21:16:39Z",
-      "match_score": 85
-    },
-    {
-      "id": "general-mills-c09abb650acb",
-      "source_key": "general-mills",
-      "fortune_rank": 227,
-      "fortune_500": true,
-      "company": "General Mills",
-      "title": "Internship - Research & Development Packaging Engineer",
-      "location": "Minneapolis, MN",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy"
-      ],
-      "summary": "COMPANY OVERVIEW We exist to make food the world loves. Our company is a place that prioritizes being a force for good, a place to expand learning, explore new perspectives and reimagine new possibilities, every day. We look for people who want to bring their best — bold…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Minneapolis-MN/Internship---Research---Development-Packaging-Engineer_10128711",
-      "external_id": "10128711",
-      "verified_at": "2026-10-16T21:16:41Z",
-      "match_score": 85
-    },
-    {
-      "id": "general-mills-99ef470db70d",
-      "source_key": "general-mills",
-      "fortune_rank": 227,
-      "fortune_500": true,
-      "company": "General Mills",
-      "title": "Internship - Research & Development Engineer",
-      "location": "Minneapolis, MN",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy"
-      ],
-      "summary": "COMPANY OVERVIEW We exist to make food the world loves. Our company is a place that prioritizes being a force for good, a place to expand learning, explore new perspectives and reimagine new possibilities, every day. We look for people who want to bring their best — bold…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Minneapolis-MN/Internship---Research---Development-Engineer_10128710",
-      "external_id": "10128710",
-      "verified_at": "2026-10-16T21:16:40Z",
-      "match_score": 85
-    },
-    {
-      "id": "general-mills-963472a973bc",
-      "source_key": "general-mills",
-      "fortune_rank": 227,
-      "fortune_500": true,
-      "company": "General Mills",
-      "title": "Internship - Food Safety & Quality Associate",
-      "location": "Belvidere, IL",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Strategy",
-        "Operations",
-        "Risk",
-        "Accounting"
-      ],
-      "summary": "COMPANY OVERVIEW We exist to make food the world loves. Our company is a place that prioritizes being a force for good, a place to expand learning, explore new perspectives and reimagine new possibilities, every day. We look for people who want to bring their best — bold…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Belvidere-IL/Internship---Food-Safety---Quality-Associate_10128709",
-      "external_id": "10128709",
-      "verified_at": "2026-10-16T21:16:41Z",
-      "match_score": 85
-    },
-    {
-      "id": "general-mills-9e308f39c09b",
-      "source_key": "general-mills",
-      "fortune_rank": 227,
-      "fortune_500": true,
-      "company": "General Mills",
-      "title": "Internship - Digital & Technology Associate",
-      "location": "Minneapolis, MN",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Strategy"
-      ],
-      "summary": "COMPANY OVERVIEW We exist to make food the world loves. Our company is a place that prioritizes being a force for good, a place to expand learning, explore new perspectives and reimagine new possibilities, every day. We look for people who want to bring their best — bold…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Minneapolis-MN/Internship---Digital---Technology-Associate_10128716",
-      "external_id": "10128716",
-      "verified_at": "2026-10-16T21:16:40Z",
-      "match_score": 85
-    },
-    {
-      "id": "general-mills-ea4b8caad472",
-      "source_key": "general-mills",
-      "fortune_rank": 227,
-      "fortune_500": true,
-      "company": "General Mills",
-      "title": "Internship - Business Management Associate, Retail and Pet Sales",
-      "location": "Minneapolis, MN",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "Product",
-        "Strategy",
-        "Finance"
-      ],
-      "summary": "COMPANY OVERVIEW We exist to make food the world loves. Our company is a place that prioritizes being a force for good, a place to expand learning, explore new perspectives and reimagine new possibilities, every day. We look for people who want to bring their best — bold…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Minneapolis-MN/Internship---Business-Management-Associate--Retail-and-Pet-Sales_10128714",
-      "external_id": "10128714",
-      "verified_at": "2026-10-16T21:16:41Z",
-      "match_score": 85
-    },
-    {
-      "id": "general-mills-34bb246ee94e",
-      "source_key": "general-mills",
-      "fortune_rank": 227,
-      "fortune_500": true,
-      "company": "General Mills",
-      "title": "Internship - Business Management Associate, Foodservice Sales",
-      "location": "Minneapolis, MN",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Strategy"
-      ],
-      "summary": "COMPANY OVERVIEW We exist to make food the world loves. Our company is a place that prioritizes being a force for good, a place to expand learning, explore new perspectives and reimagine new possibilities, every day. We look for people who want to bring their best — bold…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Minneapolis-MN/Internship---Business-Management-Associate--Foodservice-Sales_10128715",
-      "external_id": "10128715",
-      "verified_at": "2026-10-16T21:16:41Z",
-      "match_score": 85
     },
     {
       "id": "ge-vernova-bcd6b41c4879",
@@ -20536,7 +20244,7 @@
       "deadline": "2026-11-01",
       "url": "https://conocophillips.wd1.myworkdayjobs.com/External/job/Bartlesville-OK/Intern--Information-Technology-2027_REQ-006200",
       "external_id": "REQ-006200",
-      "verified_at": "2026-10-16T21:17:56Z",
+      "verified_at": "2026-10-18T14:04:38Z",
       "match_score": 90
     },
     {
@@ -20566,7 +20274,7 @@
       "deadline": "2026-11-01",
       "url": "https://conocophillips.wd1.myworkdayjobs.com/External/job/Bartlesville-OK/Intern--Corporate-Land-2027_REQ-006205",
       "external_id": "REQ-006205",
-      "verified_at": "2026-10-16T21:17:56Z",
+      "verified_at": "2026-10-18T14:04:38Z",
       "match_score": 90
     },
     {
@@ -21097,6 +20805,203 @@
       "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Fall-Intern--Financial-Analyst---January-2027--4-Month-_R247476",
       "external_id": "R247476",
       "verified_at": "2026-10-17T22:25:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "campbell-s-b0e990ac7d1f",
+      "source_key": "campbell-s",
+      "fortune_rank": 413,
+      "fortune_500": true,
+      "company": "Campbell's",
+      "title": "Packaging Engineer Co-Op",
+      "location": "USA - NJ - Camden",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Packaging-Engineer-Co-Op_Req-68221",
+      "external_id": "Req-68221",
+      "verified_at": "2026-10-18T14:03:44Z",
+      "match_score": 85
+    },
+    {
+      "id": "campbell-s-d8a7e916c5bf",
+      "source_key": "campbell-s",
+      "fortune_rank": 413,
+      "fortune_500": true,
+      "company": "Campbell's",
+      "title": "Data Science Intern",
+      "location": "USA - NJ - Camden",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst"
+      ],
+      "tags": [],
+      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Science-Intern_Req-65845",
+      "external_id": "Req-65845",
+      "verified_at": "2026-10-18T14:03:47Z",
+      "match_score": 85
+    },
+    {
+      "id": "campbell-s-85c9705dabae",
+      "source_key": "campbell-s",
+      "fortune_rank": 413,
+      "fortune_500": true,
+      "company": "Campbell's",
+      "title": "Data Science Intern",
+      "location": "USA - NJ - Camden",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst"
+      ],
+      "tags": [],
+      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Science-Intern_Req-65844",
+      "external_id": "Req-65844",
+      "verified_at": "2026-10-18T14:03:47Z",
+      "match_score": 85
+    },
+    {
+      "id": "campbell-s-d1380e83e80c",
+      "source_key": "campbell-s",
+      "fortune_rank": 413,
+      "fortune_500": true,
+      "company": "Campbell's",
+      "title": "Data Engineer – Agentic AI & ML Ops (Co-op)",
+      "location": "USA - NJ - Camden",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "FP&A"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Power BI",
+        "Cloud",
+        "AI / ML"
+      ],
+      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Engineer---Agentic-AI---ML-Ops--Co-op-_Req-65843",
+      "external_id": "Req-65843",
+      "verified_at": "2026-10-18T14:03:47Z",
+      "match_score": 85
+    },
+    {
+      "id": "campbell-s-0f89dac90b5d",
+      "source_key": "campbell-s",
+      "fortune_rank": 413,
+      "fortune_500": true,
+      "company": "Campbell's",
+      "title": "Data Engineer - Operational Support (Co-op)",
+      "location": "USA - NJ - Camden",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Power BI",
+        "Cloud",
+        "AI / ML"
+      ],
+      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---NJ---Camden/Data-Engineer---Operational-Support--Co-op-_Req-65842",
+      "external_id": "Req-65842",
+      "verified_at": "2026-10-18T14:03:47Z",
+      "match_score": 85
+    },
+    {
+      "id": "campbell-s-44a7c5bf7ee6",
+      "source_key": "campbell-s",
+      "fortune_rank": 413,
+      "fortune_500": true,
+      "company": "Campbell's",
+      "title": "Agentic AI Engineer Co-Op",
+      "location": "USA - Remote",
+      "region": "Remote",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Cloud",
+        "AI / ML",
+        "Product"
+      ],
+      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---Remote/Agentic-AI-Engineer-Co-Op_Req-66015",
+      "external_id": "Req-66015",
+      "verified_at": "2026-10-18T14:03:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "campbell-s-09b63e50056d",
+      "source_key": "campbell-s",
+      "fortune_rank": 413,
+      "fortune_500": true,
+      "company": "Campbell's",
+      "title": "Agentic AI Engineer Co-Op",
+      "location": "USA - Remote",
+      "region": "Remote",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Cloud",
+        "AI / ML",
+        "Product"
+      ],
+      "summary": "Since 1869, we've connected people through food they love. We’re proud to be stewards of amazing brands that people trust. Our portfolio includes the iconic Campbell’s brand, as well as Cape Cod, Chunky, Goldfish, Kettle Brand, Lance, Late July, Pacific Foods, Pepperidge Farm,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://campbellsoup.wd5.myworkdayjobs.com/ExternalCareers_GlobalSite/job/USA---Remote/Agentic-AI-Engineer-Co-Op_Req-66014",
+      "external_id": "Req-66014",
+      "verified_at": "2026-10-18T14:03:46Z",
       "match_score": 85
     },
     {
@@ -23078,31 +22983,6 @@
       "match_score": 85
     },
     {
-      "id": "biogen-75b07750763f",
-      "source_key": "biogen",
-      "fortune_rank": 421,
-      "fortune_500": true,
-      "company": "Biogen",
-      "title": "HR Intern",
-      "location": "Madrid, Spain",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Biogen y el programa de Biorace Biogen es una compañía líder en biotecnología dedicada al desarrollo de tratamientos para enfermedades raras, inmunológicas y neurológicas. Con el objetivo de atraer y formar al mejor talento, Biogen cuenta con un programa anual de becas: BioRace",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Madrid-Spain/HR-Intern_REQ23755",
-      "external_id": "REQ23755",
-      "verified_at": "2026-10-16T21:16:46Z",
-      "match_score": 85
-    },
-    {
       "id": "auto-owners-insurance-68b68d3f64c6",
       "source_key": "auto-owners-insurance",
       "fortune_rank": 241,
@@ -24633,33 +24513,6 @@
       "match_score": 85
     },
     {
-      "id": "zoetis-7e269d241e94",
-      "source_key": "zoetis",
-      "fortune_rank": 434,
-      "fortune_500": true,
-      "company": "Zoetis",
-      "title": "Intern at Zoetis",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Home → Join Us → Internships Gain Hands-On Experience in Our Supportive and Collaborative Environment The Zoetis Summer Intern Program offers students the opportunity to gain real-world experience in our award-winning culture, grounded in our Core Beliefs",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.zoetis.com/join-us/intern-at-zoetis",
-      "external_id": null,
-      "verified_at": "2026-10-16T21:17:10Z",
-      "match_score": 85
-    },
-    {
       "id": "westinghouse-air-brake-fc743310f8ce",
       "source_key": "westinghouse-air-brake",
       "fortune_rank": 389,
@@ -24743,34 +24596,6 @@
       "url": "https://corporate.target.com/careers/career-areas/intern-entry-level",
       "external_id": null,
       "verified_at": "2026-10-18T04:43:02Z",
-      "match_score": 85
-    },
-    {
-      "id": "paramount-skydance-a9a3ddadb202",
-      "source_key": "paramount-skydance",
-      "fortune_rank": 155,
-      "fortune_500": true,
-      "company": "Paramount Skydance",
-      "title": "Broadcast Engineer Placement / Intern",
-      "location": "Search by Location",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Wealth management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Function All Brand All Job Type All Select how often (in days) to receive an alert: Create Alert × Select how often (in days) to receive an alert: Apply now » Broadcast Engineer Placement / Intern 46604 London, GB, W4 5XS Production London Internship On-Site Is this the…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://careers.paramount.com/job/London-Broadcast-Engineer-Placement-Intern-W4-5XS/1440763600/",
-      "external_id": null,
-      "verified_at": "2026-10-16T21:16:47Z",
       "match_score": 85
     },
     {
@@ -24860,7 +24685,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-10-18T09:40:10Z",
+      "verified_at": "2026-10-18T14:02:44Z",
       "match_score": 85
     },
     {
@@ -24919,34 +24744,6 @@
       "url": "https://www.lockheedmartin.com/en-us/careers/life-at-lm/2024/apprenticeship-week-2024.html",
       "external_id": null,
       "verified_at": "2026-10-18T09:41:54Z",
-      "match_score": 85
-    },
-    {
-      "id": "kimberly-clark-7d6d8f55817c",
-      "source_key": "kimberly-clark",
-      "fortune_rank": 225,
-      "fortune_500": true,
-      "company": "Kimberly-Clark",
-      "title": "Navigating to Create New Career Experiences – From Intern to Global Leader",
-      "location": "Beech Island, SC, USA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Strategy"
-      ],
-      "summary": "View all jobs Home Blog Section Navigating to Create New Career Experiences From Intern to Global Leader Navigating to Create New Career Experiences – From Intern to Global Leader Link Copied Link Copied A link has been copied to your clipboard!",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://careers.kimberly-clark.com/en/blog/navigating-to-create-new-career-experiences-from-intern-to-global-leader",
-      "external_id": null,
-      "verified_at": "2026-10-16T21:15:54Z",
       "match_score": 85
     },
     {
@@ -25681,6 +25478,33 @@
       "url": "https://eyglobal.yello.co/jobs/UWIN8wtQJW2D0_iLw2wAlw?job_board_id=c1riT--B2O-KySgYWsZO1Q",
       "external_id": null,
       "verified_at": "2026-10-17T17:17:04Z",
+      "match_score": 85
+    },
+    {
+      "id": "delek-us-holdings-fb7f1b2d7238",
+      "source_key": "delek-us-holdings",
+      "fortune_rank": 405,
+      "fortune_500": true,
+      "company": "Delek US Holdings",
+      "title": "Search results for \"internship\".",
+      "location": "Location",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Skip to main content LIFE AT DELEK Who We Are What We Value Why Delek? CAREERS Corporate Services Logistics / Transportation Refining Operations Early Career-Seekers View All Jobs FAQs LOCATIONS Search by Keyword LIFE AT DELEK Who We Are What We Value Why Delek?",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.delekus.com/search/",
+      "external_id": null,
+      "verified_at": "2026-10-18T14:03:08Z",
       "match_score": 85
     },
     {
