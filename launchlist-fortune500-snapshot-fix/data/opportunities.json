@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T06:22:14Z",
+  "updated_at": "2026-10-19T13:29:54Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,10 +12,10 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-10-19T06:17:17Z",
+  "directory_refreshed_at": "2026-10-19T13:25:43Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 308,
-  "companies_failed_last_24h": 9,
+  "companies_failed_last_24h": 10,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "accendra-health",
@@ -62,6 +62,19 @@
       "company": "Coterra Energy",
       "fortune_500": true,
       "checked_at": "2026-10-19T06:22:14Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "ferguson-enterprises",
+      "rank": 147,
+      "company": "Ferguson Enterprises",
+      "fortune_500": true,
+      "checked_at": "2026-10-19T13:29:54Z",
       "status": "no-career-source",
       "issue_type": "No careers source found",
       "eligible_jobs": 0,
@@ -135,9 +148,9 @@
       "error": null
     }
   ],
-  "companies_with_eligible_jobs": 91,
+  "companies_with_eligible_jobs": 87,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 939,
+  "opportunity_count": 910,
   "opportunities": [
     {
       "id": "ge-aerospace-7d7695b18f98",
@@ -367,39 +380,6 @@
       "url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Somerset-New-Jersey-United-States-of-America/CSCO-Spring-Co-op_R-105709",
       "external_id": "R-105709",
       "verified_at": "2026-10-19T01:21:43Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-62a1713549ee",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Finance Technology Intern, Spring 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Tableau",
-        "Power BI",
-        "AI / ML"
-      ],
-      "summary": "Your Opportunity as a Finance Technology Intern As an intern on our Finance Technology team, you will gain hands-on experience supporting the data, analytics, automation, and technology solutions used across Finance. You will work alongside experienced developers and business…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-17",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance-Technology-Intern--Spring-2027_116016",
-      "external_id": "116016",
-      "verified_at": "2026-10-19T06:17:54Z",
       "match_score": 85
     },
     {
@@ -900,155 +880,36 @@
       "match_score": 85
     },
     {
-      "id": "jabil-ad70ccaf7523",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Технік з якості (стажер) / Quality technician (Intern)",
-      "location": "Uzhhorod",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-16",
-      "deadline": null,
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Uzhhorod/Quality-technician--Intern-_J2467506",
-      "external_id": "J2467506",
-      "verified_at": "2026-10-17T19:27:47Z",
-      "match_score": 85
-    },
-    {
-      "id": "jabil-6c895e3e65a9",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Intern - Treasury | Finance",
-      "location": "Penang",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "FP&A",
-        "Corporate treasury",
-        "Corporate finance"
-      ],
-      "tags": [
-        "Excel",
-        "Power BI",
-        "Operations",
-        "Finance",
-        "Treasury"
-      ],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-16",
-      "deadline": null,
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---Treasury---Finance_J2468622",
-      "external_id": "J2468622",
-      "verified_at": "2026-10-17T19:27:47Z",
-      "match_score": 85
-    },
-    {
-      "id": "jabil-314aac3f1c61",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Intern - General Ledger (GL) | Finance",
-      "location": "Penang",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Corporate finance",
-        "Business analyst"
-      ],
-      "tags": [
-        "Excel",
-        "Power BI",
-        "Operations",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-16",
-      "deadline": null,
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---General-Ledger--GL----Finance_J2468619",
-      "external_id": "J2468619",
-      "verified_at": "2026-10-17T19:27:47Z",
-      "match_score": 85
-    },
-    {
-      "id": "jabil-bdbda9b62e34",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Intern - Data Services Squad (DSS)",
-      "location": "Penang",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Implementation Consulting",
-        "Digital transformation",
-        "Data analyst"
-      ],
-      "tags": [
-        "Python",
-        "Cloud",
-        "AI / ML"
-      ],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-16",
-      "deadline": null,
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---Data-Services-Squad--DSS-_J2468608",
-      "external_id": "J2468608",
-      "verified_at": "2026-10-17T19:27:47Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-3c0622beadb2",
+      "id": "j-m-smucker-62a1713549ee",
       "source_key": "smucker",
       "fortune_rank": 456,
       "fortune_500": true,
       "company": "J.M. Smucker",
-      "title": "Revenue Growth Management Intern, Summer 2027",
+      "title": "Finance Technology Intern, Spring 2027",
       "location": "Orrville, OH",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
         "Data analyst",
+        "Business analyst",
         "Asset-based lending"
       ],
       "tags": [
-        "Product",
-        "Strategy",
-        "Finance"
+        "Python",
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "AI / ML"
       ],
-      "summary": "Your Opportunity as a Revenue Growth Management Intern Revenue Growth Management (RGM) uses data and analytics to help drive profitable growth for our brands and retail partners. As an RGM intern, you’ll gain hands-on experience analyzing pricing, promotions, product mix, and…",
+      "summary": "Your Opportunity as a Finance Technology Intern As an intern on our Finance Technology team, you will gain hands-on experience supporting the data, analytics, automation, and technology solutions used across Finance. You will work alongside experienced developers and business…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-10-16",
       "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Revenue-Growth-Management-Intern--Summer-2027_116012",
-      "external_id": "116012",
-      "verified_at": "2026-10-19T06:17:55Z",
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance-Technology-Intern--Spring-2027_116016",
+      "external_id": "116016",
+      "verified_at": "2026-10-19T13:26:26Z",
       "match_score": 85
     },
     {
@@ -2019,63 +1880,33 @@
       "match_score": 85
     },
     {
-      "id": "jabil-2f9eef6f33bf",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Compliance Intern",
-      "location": "Monterrey",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Risk",
-        "Accounting"
-      ],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-15",
-      "deadline": "2026-10-22",
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Monterrey/Compliance-Intern_J2467393",
-      "external_id": "J2467393",
-      "verified_at": "2026-10-17T19:28:17Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-ec21fd80851a",
+      "id": "j-m-smucker-3c0622beadb2",
       "source_key": "smucker",
       "fortune_rank": 456,
       "fortune_500": true,
       "company": "J.M. Smucker",
-      "title": "Net Revenue Optimization Intern, Summer 2027",
+      "title": "Revenue Growth Management Intern, Summer 2027",
       "location": "Orrville, OH",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
-        "Business analyst",
+        "Data analyst",
         "Asset-based lending"
       ],
       "tags": [
+        "Product",
         "Strategy",
         "Finance"
       ],
-      "summary": "Your Opportunity as a Net Revenue Optimization Intern Our commitment to leveraging strategic analysis to drive the right strategy and executions has taken on greater importance in today’s competitive and shifting market environment",
+      "summary": "Your Opportunity as a Revenue Growth Management Intern Revenue Growth Management (RGM) uses data and analytics to help drive profitable growth for our brands and retail partners. As an RGM intern, you’ll gain hands-on experience analyzing pricing, promotions, product mix, and…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
+      "freshman_friendly": false,
       "posted_date": "2026-10-15",
       "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Net-Revenue-Optimization-Intern--Summer-2027_116006",
-      "external_id": "116006",
-      "verified_at": "2026-10-19T06:17:54Z",
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Revenue-Growth-Management-Intern--Summer-2027_116012",
+      "external_id": "116012",
+      "verified_at": "2026-10-19T13:26:27Z",
       "match_score": 85
     },
     {
@@ -2192,7 +2023,7 @@
       "deadline": null,
       "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Morris-Plains-NJ/Healthcare-Analytics-Summer-Intern---Morris-Plains--NJ---Start-Date--May-24--2027_26009483",
       "external_id": "26009483",
-      "verified_at": "2026-10-17T19:30:18Z",
+      "verified_at": "2026-10-19T13:29:02Z",
       "match_score": 85
     },
     {
@@ -2219,7 +2050,7 @@
       "deadline": null,
       "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Chicago-IL-United-States-of-America/Customer-Success-Intern_R49866",
       "external_id": "R49866",
-      "verified_at": "2026-10-17T17:16:16Z",
+      "verified_at": "2026-10-19T13:26:50Z",
       "match_score": 85
     },
     {
@@ -2496,33 +2327,6 @@
       "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Pakistan---Karachi/Project-Intern_31164735",
       "external_id": "31164735",
       "verified_at": "2026-10-18T20:52:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "xcel-energy-2a31f23c041a",
-      "source_key": "xcel-energy",
-      "fortune_rank": 306,
-      "fortune_500": true,
-      "company": "Xcel Energy",
-      "title": "Mass Market Energy Efficiency Business Fall Intern (CO or MN)",
-      "location": "Denver, CO, 80205",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy"
-      ],
-      "summary": "Xcel Energy (NASDAQ: XEL) is a leading energy provider and Fortune 500 company, dedicated to serving millions of electricity and natural gas customers across eight states: Minnesota, Colorado, Wisconsin, Michigan, North Dakota, South Dakota, New Mexico and Texas",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-14",
-      "deadline": "2026-10-23",
-      "url": "https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80205/Mass-Market-Energy-Efficiency-Business-Intern--CO-or-MN-_JR115702-1",
-      "external_id": "JR115702",
-      "verified_at": "2026-10-17T19:28:17Z",
       "match_score": 85
     },
     {
@@ -2812,7 +2616,7 @@
       "deadline": null,
       "url": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site/job/USA---New-York-City---New-York/Intelligent-Automation-Intern---2027-Summer-Internship_R0027113",
       "external_id": "R0027113",
-      "verified_at": "2026-10-17T19:29:12Z",
+      "verified_at": "2026-10-19T13:27:49Z",
       "match_score": 85
     },
     {
@@ -3215,37 +3019,12 @@
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-1710b1d8b4ce",
+      "id": "j-m-smucker-ec21fd80851a",
       "source_key": "smucker",
       "fortune_rank": 456,
       "fortune_500": true,
       "company": "J.M. Smucker",
-      "title": "Talent Acquisition Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Your Opportunity as a Talent Intern As an intern within our Talent Acquisition function, you will work closely with our team on key strategies and initiatives that span across Talent Acquisition, Emerging Talent programming (which includes our Internship Program), and Candidate…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-14",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Talent-Acquisition-Intern--Summer-2027_115992",
-      "external_id": "115992",
-      "verified_at": "2026-10-19T06:17:54Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-7ef1c6e966cd",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Marketing Intern, Summer 2027",
+      "title": "Net Revenue Optimization Intern, Summer 2027",
       "location": "Orrville, OH",
       "region": "United States",
       "opportunity_type": "Internship",
@@ -3254,17 +3033,18 @@
         "Asset-based lending"
       ],
       "tags": [
-        "Strategy"
+        "Strategy",
+        "Finance"
       ],
-      "summary": "Your Opportunity as a Marketing Intern As an intern within our Marketing department, you will evaluate data and business trends and communicate those insights to the core business team. You will execute specifically requested analyses via syndicated data (Circana & Internal…",
+      "summary": "Your Opportunity as a Net Revenue Optimization Intern Our commitment to leveraging strategic analysis to drive the right strategy and executions has taken on greater importance in today’s competitive and shifting market environment",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": true,
       "posted_date": "2026-10-14",
       "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Marketing-Intern--Summer-2027_115771",
-      "external_id": "115771",
-      "verified_at": "2026-10-19T06:17:53Z",
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Net-Revenue-Optimization-Intern--Summer-2027_116006",
+      "external_id": "116006",
+      "verified_at": "2026-10-19T13:26:27Z",
       "match_score": 85
     },
     {
@@ -3490,7 +3270,7 @@
       "deadline": null,
       "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Finance-Operations-Intern_R49852",
       "external_id": "R49852",
-      "verified_at": "2026-10-17T17:16:16Z",
+      "verified_at": "2026-10-19T13:26:50Z",
       "match_score": 85
     },
     {
@@ -3523,7 +3303,7 @@
       "deadline": null,
       "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Finance-Intern--FP-A-_R49853",
       "external_id": "R49853",
-      "verified_at": "2026-10-17T17:16:16Z",
+      "verified_at": "2026-10-19T13:26:50Z",
       "match_score": 85
     },
     {
@@ -3758,37 +3538,6 @@
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/ARE---Dubai---Falak-Building/Medical-Affairs-Data---Digital-Projects-Intern_R421700",
       "external_id": "R421700",
       "verified_at": "2026-10-18T14:04:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "kyndryl-holdings-5132b474c39f",
-      "source_key": "kyndryl-holdings",
-      "fortune_rank": 300,
-      "fortune_500": true,
-      "company": "Kyndryl Holdings",
-      "title": "Marketing Internship, Marketing Analytics",
-      "location": "New York, NY, USA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "SQL",
-        "Excel",
-        "Power BI",
-        "AI / ML"
-      ],
-      "summary": "Who We Are At Kyndryl, we run and reimagine the mission-critical technology systems that drive advantage for the world’s leading businesses. We are at the heart of progress; with proven expertise and a continuous flow of AI-powered insight, enabling smarter decisions, faster…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-13",
-      "deadline": null,
-      "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/New-York-NY-USA/Marketing-Internship--Marketing-Analysis_R-70007-1",
-      "external_id": "R-70007",
-      "verified_at": "2026-10-17T19:28:00Z",
       "match_score": 85
     },
     {
@@ -4537,6 +4286,59 @@
       "match_score": 85
     },
     {
+      "id": "j-m-smucker-1710b1d8b4ce",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Talent Acquisition Intern, Summer 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Your Opportunity as a Talent Intern As an intern within our Talent Acquisition function, you will work closely with our team on key strategies and initiatives that span across Talent Acquisition, Emerging Talent programming (which includes our Internship Program), and Candidate…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-13",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Talent-Acquisition-Intern--Summer-2027_115992",
+      "external_id": "115992",
+      "verified_at": "2026-10-19T13:26:25Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-7ef1c6e966cd",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Marketing Intern, Summer 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy"
+      ],
+      "summary": "Your Opportunity as a Marketing Intern As an intern within our Marketing department, you will evaluate data and business trends and communicate those insights to the core business team. You will execute specifically requested analyses via syndicated data (Circana & Internal…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-13",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Marketing-Intern--Summer-2027_115771",
+      "external_id": "115771",
+      "verified_at": "2026-10-19T13:26:25Z",
+      "match_score": 85
+    },
+    {
       "id": "ge-vernova-8fbf3c39b549",
       "source_key": "ge-vernova",
       "fortune_rank": 124,
@@ -5267,7 +5069,7 @@
       "deadline": null,
       "url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Harrisonburg-VA-USA/Intern-Diesel-Mechanic--Paid-_102649",
       "external_id": "102649",
-      "verified_at": "2026-10-17T17:15:57Z",
+      "verified_at": "2026-10-19T13:26:30Z",
       "match_score": 85
     },
     {
@@ -6497,34 +6299,6 @@
       "match_score": 85
     },
     {
-      "id": "kyndryl-holdings-dd5e8731326e",
-      "source_key": "kyndryl-holdings",
-      "fortune_rank": 300,
-      "fortune_500": true,
-      "company": "Kyndryl Holdings",
-      "title": "Marketing Internship, Generalist",
-      "location": "New York, NY, USA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML"
-      ],
-      "summary": "Who We Are At Kyndryl, we run and reimagine the mission-critical technology systems that drive advantage for the world’s leading businesses. We are at the heart of progress; with proven expertise and a continuous flow of AI-powered insight, enabling smarter decisions, faster…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-09",
-      "deadline": null,
-      "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/New-York-NY-USA/Marketing-Internship--Generalist_R-70009",
-      "external_id": "R-70009",
-      "verified_at": "2026-10-17T19:27:59Z",
-      "match_score": 85
-    },
-    {
       "id": "jones-lang-lasalle-bd8d6b1dc0c6",
       "source_key": "jones-lang-lasalle",
       "fortune_rank": 175,
@@ -6708,64 +6482,6 @@
       "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/New-York-NY/Communications-Internship---New-York--NY_REQ534207",
       "external_id": "REQ534207",
       "verified_at": "2026-10-18T04:41:21Z",
-      "match_score": 85
-    },
-    {
-      "id": "jabil-e2d5bbe1b2b4",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Metrology & Quality Technician - Internship / Co-op",
-      "location": "Clinton, MA",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-09",
-      "deadline": null,
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Clinton-MA/Metrology---Quality-Technician---Internship---Co-op_J2467577",
-      "external_id": "J2467577",
-      "verified_at": "2026-10-17T19:27:49Z",
-      "match_score": 85
-    },
-    {
-      "id": "jabil-8bbe6217cae6",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Marketing & Communications Intern",
-      "location": "Austin, TX",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Cloud",
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-09",
-      "deadline": null,
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Austin-TX/Marketing---Communications-Intern_J2467203",
-      "external_id": "J2467203",
-      "verified_at": "2026-10-17T19:27:49Z",
       "match_score": 85
     },
     {
@@ -6989,33 +6705,6 @@
       "match_score": 85
     },
     {
-      "id": "c-h-robinson-worldwide-ff72fa1d2363",
-      "source_key": "c-h-robinson-worldwide",
-      "fortune_rank": 277,
-      "fortune_500": true,
-      "company": "C.H. Robinson Worldwide",
-      "title": "Intern - Capacity Portfolio Representative Starting Summer 2027",
-      "location": "Plano, TX United States of America",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Intern - Capacity Portfolio Representative Starting Summer 2027 Are you ready to launch your career in business development and account management? Join us as a Capacity Portfolio Representative intern at C.H. Robinson, where you'll play a crucial role in helping some of the…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-09",
-      "deadline": null,
-      "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Plano-TX-United-States-of-America/Intern---Capacity-Portfolio-Representative-Starting-Summer-2027_R49435-1",
-      "external_id": "R49435",
-      "verified_at": "2026-10-17T17:16:18Z",
-      "match_score": 85
-    },
-    {
       "id": "c-h-robinson-worldwide-e59ff8487772",
       "source_key": "c-h-robinson-worldwide",
       "fortune_rank": 277,
@@ -7039,7 +6728,34 @@
       "deadline": null,
       "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Phoenix-AZ-United-States-of-America/Intern---Capacity-Portfolio-Representative-Starting-Summer-2027_R49438-1",
       "external_id": "R49438",
-      "verified_at": "2026-10-17T17:16:18Z",
+      "verified_at": "2026-10-19T13:26:52Z",
+      "match_score": 85
+    },
+    {
+      "id": "c-h-robinson-worldwide-ff72fa1d2363",
+      "source_key": "c-h-robinson-worldwide",
+      "fortune_rank": 277,
+      "fortune_500": true,
+      "company": "C.H. Robinson Worldwide",
+      "title": "Intern - Capacity Portfolio Representative Starting Summer 2027",
+      "location": "Plano, TX United States of America",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Intern - Capacity Portfolio Representative Starting Summer 2027 Are you ready to launch your career in business development and account management? Join us as a Capacity Portfolio Representative intern at C.H. Robinson, where you'll play a crucial role in helping some of the…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-09",
+      "deadline": null,
+      "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Plano-TX-United-States-of-America/Intern---Capacity-Portfolio-Representative-Starting-Summer-2027_R49435-1",
+      "external_id": "R49435",
+      "verified_at": "2026-10-19T13:26:52Z",
       "match_score": 85
     },
     {
@@ -7066,7 +6782,7 @@
       "deadline": null,
       "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Orange-CA-United-States-of-America/Intern---Capacity-Portfolio-Representative-Starting-Summer-2027_R49436-1",
       "external_id": "R49436",
-      "verified_at": "2026-10-17T17:16:18Z",
+      "verified_at": "2026-10-19T13:26:52Z",
       "match_score": 85
     },
     {
@@ -7093,7 +6809,7 @@
       "deadline": null,
       "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Phoenix-AZ-United-States-of-America/Intern---Associate-Portfolio-Executive-Starting-Summer-2027_R49432",
       "external_id": "R49432",
-      "verified_at": "2026-10-17T17:16:18Z",
+      "verified_at": "2026-10-19T13:26:52Z",
       "match_score": 85
     },
     {
@@ -7534,33 +7250,6 @@
       "match_score": 85
     },
     {
-      "id": "jabil-dbeec3771f15",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Automation Engineering Intern",
-      "location": "Clinton, MA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-08",
-      "deadline": null,
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Clinton-MA/Automation-Engineering-Intern_J2466618",
-      "external_id": "J2466618",
-      "verified_at": "2026-10-17T19:27:49Z",
-      "match_score": 85
-    },
-    {
       "id": "ge-aerospace-5e601d1a7135",
       "source_key": "ge-aerospace",
       "fortune_rank": 101,
@@ -7820,34 +7509,6 @@
       "url": "https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Business-Insurance-Underwriting-Professional-Development-Program--BI-UPDP--Internship_R-52993",
       "external_id": "R-52993",
       "verified_at": "2026-10-18T20:51:28Z",
-      "match_score": 85
-    },
-    {
-      "id": "somnigroup-international-16b1469ceabb",
-      "source_key": "somnigroup-international",
-      "fortune_rank": 35,
-      "fortune_500": true,
-      "company": "Somnigroup International",
-      "title": "Sales Development Program - Internship",
-      "location": "Dallas, Texas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Tech consulting",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy"
-      ],
-      "summary": "This is a full-time onsite role based in the location(s) posted and is performed from the designated work location five days per week. At AT&T, you'll be empowered to create real change in an ever-expanding, connected world. As part of our team, your impact will be felt no…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-07",
-      "deadline": "2026-11-14",
-      "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Sales-Development-Program---Internship_R-120996",
-      "external_id": "R-120996",
-      "verified_at": "2026-10-19T06:19:49Z",
       "match_score": 85
     },
     {
@@ -8394,34 +8055,6 @@
       "match_score": 85
     },
     {
-      "id": "xcel-energy-364f71cb9def",
-      "source_key": "xcel-energy",
-      "fortune_rank": 306,
-      "fortune_500": true,
-      "company": "Xcel Energy",
-      "title": "Substation Field Engineering Intern - CO",
-      "location": "Denver, CO, 80223",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "Xcel Energy (NASDAQ: XEL) is a leading energy provider and Fortune 500 company, dedicated to serving millions of electricity and natural gas customers across eight states: Minnesota, Colorado, Wisconsin, Michigan, North Dakota, South Dakota, New Mexico and Texas",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-06",
-      "deadline": "2026-10-20",
-      "url": "https://xcelenergy.wd1.myworkdayjobs.com/External/job/Denver-CO-80223/Substation-Field-Engineering-Intern---CO_JR116609-1",
-      "external_id": "JR116609",
-      "verified_at": "2026-10-17T19:28:17Z",
-      "match_score": 85
-    },
-    {
       "id": "travelers-2e70d43b7568",
       "source_key": "travelers",
       "fortune_rank": 96,
@@ -8732,6 +8365,34 @@
       "match_score": 85
     },
     {
+      "id": "somnigroup-international-16b1469ceabb",
+      "source_key": "somnigroup-international",
+      "fortune_rank": 35,
+      "fortune_500": true,
+      "company": "Somnigroup International",
+      "title": "Sales Development Program - Internship",
+      "location": "Dallas, Texas",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Tech consulting",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy"
+      ],
+      "summary": "This is a full-time onsite role based in the location(s) posted and is performed from the designated work location five days per week. At AT&T, you'll be empowered to create real change in an ever-expanding, connected world. As part of our team, your impact will be felt no…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-06",
+      "deadline": "2026-11-14",
+      "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Sales-Development-Program---Internship_R-120996",
+      "external_id": "R-120996",
+      "verified_at": "2026-10-19T13:29:20Z",
+      "match_score": 85
+    },
+    {
       "id": "rockwell-automation-84d6704bad69",
       "source_key": "rockwell-automation",
       "fortune_rank": 467,
@@ -8787,7 +8448,7 @@
       "deadline": null,
       "url": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site/job/USA---New-York-City---New-York/Project-Management-Intern---2027-Summer-Internship_R0027033",
       "external_id": "R0027033",
-      "verified_at": "2026-10-17T19:29:11Z",
+      "verified_at": "2026-10-19T13:27:49Z",
       "match_score": 85
     },
     {
@@ -8954,7 +8615,7 @@
       "deadline": null,
       "url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Des-Moines-IA-USA/Sales-Intern--Paid-_102361",
       "external_id": "102361",
-      "verified_at": "2026-10-17T17:16:00Z",
+      "verified_at": "2026-10-19T13:26:32Z",
       "match_score": 85
     },
     {
@@ -9647,87 +9308,6 @@
       "match_score": 85
     },
     {
-      "id": "jabil-c1d0d563e6b4",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Talent Acquisition Intern",
-      "location": "Nhon Trach",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-05",
-      "deadline": "2026-10-30",
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Nhon-Trach/Talent-Acquisition-Intern_J2466952",
-      "external_id": "J2466952",
-      "verified_at": "2026-10-17T19:27:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "jabil-158c6025829c",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Mold Maker Co-op/Internship",
-      "location": "Clinton, MA",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-05",
-      "deadline": null,
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Clinton-MA/Mold-Maker-Co-op-Internship_J2466736",
-      "external_id": "J2466736",
-      "verified_at": "2026-10-17T19:27:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "jabil-d7a6e5109311",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Industrial Engineer Intern",
-      "location": "San Jose, CA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-05",
-      "deadline": null,
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/San-Jose-CA/Industrial-Engineer-Intern_J2460247",
-      "external_id": "J2460247",
-      "verified_at": "2026-10-17T19:27:50Z",
-      "match_score": 85
-    },
-    {
       "id": "ge-vernova-81870463e245",
       "source_key": "ge-vernova",
       "fortune_rank": 124,
@@ -9802,7 +9382,7 @@
       "deadline": null,
       "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Monterrey-Nuevo-Leon-Mexico/Intern_R49584",
       "external_id": "R49584",
-      "verified_at": "2026-10-17T17:16:16Z",
+      "verified_at": "2026-10-19T13:26:49Z",
       "match_score": 85
     },
     {
@@ -9887,31 +9467,6 @@
       "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/4601-2nd-St-DavisCA-95618-9446/Store-Executive-Intern--Store-Leadership-Intern----North---West-Sacramento--CA--Starting-Summer-2027-_R0000450285",
       "external_id": "R0000450285",
       "verified_at": "2026-10-18T04:42:40Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-fc673d357b61",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Human Resources Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Your Opportunity as a Human Resources Intern As an intern within our Human Resources department, you will serve as a resource for current and former Smucker employees, their families, and, occasionally, non-employees such as applicants or contractors for questions regarding all…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-03",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Human-Resources-Intern--Summer-2027_115918",
-      "external_id": "115918",
-      "verified_at": "2026-10-19T06:17:54Z",
       "match_score": 85
     },
     {
@@ -10344,68 +9899,12 @@
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-3c9b68498186",
+      "id": "j-m-smucker-fc673d357b61",
       "source_key": "smucker",
       "fortune_rank": 456,
       "fortune_500": true,
       "company": "J.M. Smucker",
-      "title": "Human Resources Intern- McCalla, AL, Summer 2027",
-      "location": "McCalla, AL",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Your Opportunity as a Humane Resources intern As an intern within our Human Resources department at one of our manufacturing facilities, you will work with the Human Resources teams to assist in manufacturing hiring, onboarding, talent management, talent development, workforce…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-02",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/McCalla-AL/Human-Resources-Intern--McCalla--AL--Summer-2027_115887",
-      "external_id": "115887",
-      "verified_at": "2026-10-19T06:17:55Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-f0f3b5aa25e8",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Human Resources Intern- Emporia, KS, Summer 2027",
-      "location": "Emporia, KS",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Your Opportunity as a Humane Resources intern As an intern within our Human Resources department at one of our manufacturing facilities, you will work with the Human Resources teams to assist in manufacturing hiring, onboarding, talent management, talent development, workforce…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-02",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Emporia-KS/Human-Resources-Intern--Emporia--KS--Summer-2027_115888",
-      "external_id": "115888",
-      "verified_at": "2026-10-19T06:17:55Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-47744eb4e650",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Corporate Communications Intern, Summer 2027",
+      "title": "Human Resources Intern, Summer 2027",
       "location": "Orrville, OH",
       "region": "United States",
       "opportunity_type": "Internship",
@@ -10413,15 +9912,15 @@
         "Asset-based lending"
       ],
       "tags": [],
-      "summary": "Your Opportunity as a Corporate Communications Intern As an intern in our communications organization, your responsibilities may include copywriting and editing, communications planning and execution, social media content development, media relations, multi-media content…",
+      "summary": "Your Opportunity as a Human Resources Intern As an intern within our Human Resources department, you will serve as a resource for current and former Smucker employees, their families, and, occasionally, non-employees such as applicants or contractors for questions regarding all…",
       "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
       "freshman_friendly": false,
       "posted_date": "2026-10-02",
       "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Corporate-Communications-Intern--Summer-2027_115919",
-      "external_id": "115919",
-      "verified_at": "2026-10-19T06:17:54Z",
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Human-Resources-Intern--Summer-2027_115918",
+      "external_id": "115918",
+      "verified_at": "2026-10-19T13:26:25Z",
       "match_score": 85
     },
     {
@@ -10718,33 +10217,84 @@
       "match_score": 85
     },
     {
-      "id": "jabil-f4915db60523",
-      "source_key": "jabil",
-      "fortune_rank": 151,
+      "id": "j-m-smucker-3c9b68498186",
+      "source_key": "smucker",
+      "fortune_rank": 456,
       "fortune_500": true,
-      "company": "Jabil",
-      "title": "IT SCM Intern",
-      "location": "St. Petersburg/Tampa, FL",
+      "company": "J.M. Smucker",
+      "title": "Human Resources Intern- McCalla, AL, Summer 2027",
+      "location": "McCalla, AL",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
-        "Digital transformation",
-        "Data analyst",
         "Asset-based lending"
       ],
       "tags": [
-        "AI / ML",
-        "Finance"
+        "Strategy",
+        "Operations"
       ],
-      "summary": "At Jabil (NYSE: JBL), we are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, supply chain, and manufacturing solutions. With 60 years of experience across industries and a vast network of over 100 sites worldwide, Jabil combines…",
+      "summary": "Your Opportunity as a Humane Resources intern As an intern within our Human Resources department at one of our manufacturing facilities, you will work with the Human Resources teams to assist in manufacturing hiring, onboarding, talent management, talent development, workforce…",
       "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-01",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/McCalla-AL/Human-Resources-Intern--McCalla--AL--Summer-2027_115887",
+      "external_id": "115887",
+      "verified_at": "2026-10-19T13:26:28Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-f0f3b5aa25e8",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Human Resources Intern- Emporia, KS, Summer 2027",
+      "location": "Emporia, KS",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Your Opportunity as a Humane Resources intern As an intern within our Human Resources department at one of our manufacturing facilities, you will work with the Human Resources teams to assist in manufacturing hiring, onboarding, talent management, talent development, workforce…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-01",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Emporia-KS/Human-Resources-Intern--Emporia--KS--Summer-2027_115888",
+      "external_id": "115888",
+      "verified_at": "2026-10-19T13:26:27Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-47744eb4e650",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Corporate Communications Intern, Summer 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Your Opportunity as a Corporate Communications Intern As an intern in our communications organization, your responsibilities may include copywriting and editing, communications planning and execution, social media content development, media relations, multi-media content…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-10-01",
       "deadline": null,
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/St-PetersburgTampa-FL/IT-SCM-Intern_J2465768",
-      "external_id": "J2465768",
-      "verified_at": "2026-10-17T19:27:50Z",
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Corporate-Communications-Intern--Summer-2027_115919",
+      "external_id": "115919",
+      "verified_at": "2026-10-19T13:26:25Z",
       "match_score": 85
     },
     {
@@ -10937,7 +10487,7 @@
       "deadline": null,
       "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Morris-Plains-NJ/Product-Analytics-Summer-Intern---Start-Date--May-24--2027_26010180",
       "external_id": "26010180",
-      "verified_at": "2026-10-17T19:30:18Z",
+      "verified_at": "2026-10-19T13:29:01Z",
       "match_score": 85
     },
     {
@@ -11320,7 +10870,7 @@
       "deadline": null,
       "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Grandview-Heights-OH-United-States-of-America/Intern---Capacity-Portfolio-Representative_R49465-1",
       "external_id": "R49465",
-      "verified_at": "2026-10-17T17:16:16Z",
+      "verified_at": "2026-10-19T13:26:51Z",
       "match_score": 85
     },
     {
@@ -11347,7 +10897,7 @@
       "deadline": null,
       "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Minneapolis-MN-United-States-of-America/Intern---Associate-Portfolio-Executive-Summer-2027_R49739-1",
       "external_id": "R49739",
-      "verified_at": "2026-10-17T17:16:18Z",
+      "verified_at": "2026-10-19T13:26:52Z",
       "match_score": 85
     },
     {
@@ -11683,34 +11233,6 @@
       "match_score": 85
     },
     {
-      "id": "kyndryl-holdings-3bb7d818d7b8",
-      "source_key": "kyndryl-holdings",
-      "fortune_rank": 300,
-      "fortune_500": true,
-      "company": "Kyndryl Holdings",
-      "title": "Apprenticeship - Technical Support",
-      "location": "Bangalore, Karnataka, India",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Who We Are At Kyndryl, we run and reimagine the mission-critical technology systems that drive advantage for the world’s leading businesses. We are at the heart of progress; with proven expertise and a continuous flow of AI-powered insight, enabling smarter decisions, faster…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-28",
-      "deadline": null,
-      "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Bangalore-Karnataka-India/Apprenticeship---Technical-Support_R-69346",
-      "external_id": "R-69346",
-      "verified_at": "2026-10-17T19:28:00Z",
-      "match_score": 85
-    },
-    {
       "id": "booz-allen-hamilton-holding-be7f74143a23",
       "source_key": "booz-allen-hamilton-holding",
       "fortune_rank": 372,
@@ -11904,7 +11426,7 @@
       "deadline": null,
       "url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Indianapolis-IN-USA/Service-Technician-Intern---Flooring-Solutions_102059",
       "external_id": "102059",
-      "verified_at": "2026-10-17T17:15:59Z",
+      "verified_at": "2026-10-19T13:26:33Z",
       "match_score": 85
     },
     {
@@ -12426,34 +11948,6 @@
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-578c197945d9",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Human Resources Intern- Buffalo, NY, Summer 2027",
-      "location": "Buffalo, NY",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Your Opportunity as a Humane Resources intern As an intern within our Human Resources department at one of our manufacturing facilities, you will work with the Human Resources teams to assist in manufacturing hiring, onboarding, talent management, talent development, workforce…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-09-24",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Buffalo-NY/Human-Resources-Intern--Buffalo--NY--Summer-2027_115886",
-      "external_id": "115886",
-      "verified_at": "2026-10-19T06:17:55Z",
-      "match_score": 85
-    },
-    {
       "id": "ge-vernova-fdd62b45bdc1",
       "source_key": "ge-vernova",
       "fortune_rank": 124,
@@ -12530,7 +12024,7 @@
       "deadline": null,
       "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Conshohocken-PA-United-States-of-America/Intern---Capacity-Portfolio-Representative-Summer-2027_R49654-1",
       "external_id": "R49654",
-      "verified_at": "2026-10-17T17:16:17Z",
+      "verified_at": "2026-10-19T13:26:52Z",
       "match_score": 85
     },
     {
@@ -12557,7 +12051,7 @@
       "deadline": null,
       "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Conshohocken-PA-United-States-of-America/Intern---Associate-Portfolio-Executive-Summer-2027_R49655-1",
       "external_id": "R49655",
-      "verified_at": "2026-10-17T17:16:17Z",
+      "verified_at": "2026-10-19T13:26:52Z",
       "match_score": 85
     },
     {
@@ -12907,6 +12401,34 @@
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---Pennsylvania---West-Point/XMLNAME-2027-Future-Talent-Program---Manufacturing-Strategy--Business-Development-and-Alliances--MSBDA--Intern_R418677",
       "external_id": "R418677",
       "verified_at": "2026-10-18T14:04:26Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-578c197945d9",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Human Resources Intern- Buffalo, NY, Summer 2027",
+      "location": "Buffalo, NY",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Your Opportunity as a Humane Resources intern As an intern within our Human Resources department at one of our manufacturing facilities, you will work with the Human Resources teams to assist in manufacturing hiring, onboarding, talent management, talent development, workforce…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-09-23",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Buffalo-NY/Human-Resources-Intern--Buffalo--NY--Summer-2027_115886",
+      "external_id": "115886",
+      "verified_at": "2026-10-19T13:26:27Z",
       "match_score": 85
     },
     {
@@ -13262,33 +12784,6 @@
       "match_score": 85
     },
     {
-      "id": "c-h-robinson-worldwide-8645ab20a909",
-      "source_key": "c-h-robinson-worldwide",
-      "fortune_rank": 277,
-      "fortune_500": true,
-      "company": "C.H. Robinson Worldwide",
-      "title": "Intern - Capacity Portfolio Representative Starting Summer 2027",
-      "location": "Memphis, TN United States of America",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Intern - Capacity Portfolio Representative Starting Summer 2027 Are you ready to launch your career in business development and account management? Join us as a Capacity Portfolio Representative intern at C.H. Robinson, where you'll play a crucial role in helping some of the…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-22",
-      "deadline": null,
-      "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Memphis-TN-United-States-of-America/Intern---Capacity-Portfolio-Representative-Starting-Summer-2027_R49437-1",
-      "external_id": "R49437",
-      "verified_at": "2026-10-17T17:16:18Z",
-      "match_score": 85
-    },
-    {
       "id": "c-h-robinson-worldwide-d32c6236e4df",
       "source_key": "c-h-robinson-worldwide",
       "fortune_rank": 277,
@@ -13312,7 +12807,34 @@
       "deadline": null,
       "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Charlotte-NC-United-States-of-America/Intern---Capacity-Portfolio-Representative-Starting-Summer-2027_R49434-1",
       "external_id": "R49434",
-      "verified_at": "2026-10-17T17:16:18Z",
+      "verified_at": "2026-10-19T13:26:52Z",
+      "match_score": 85
+    },
+    {
+      "id": "c-h-robinson-worldwide-8645ab20a909",
+      "source_key": "c-h-robinson-worldwide",
+      "fortune_rank": 277,
+      "fortune_500": true,
+      "company": "C.H. Robinson Worldwide",
+      "title": "Intern - Capacity Portfolio Representative Starting Summer 2027",
+      "location": "Memphis, TN United States of America",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Intern - Capacity Portfolio Representative Starting Summer 2027 Are you ready to launch your career in business development and account management? Join us as a Capacity Portfolio Representative intern at C.H. Robinson, where you'll play a crucial role in helping some of the…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-22",
+      "deadline": null,
+      "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Memphis-TN-United-States-of-America/Intern---Capacity-Portfolio-Representative-Starting-Summer-2027_R49437-1",
+      "external_id": "R49437",
+      "verified_at": "2026-10-19T13:26:52Z",
       "match_score": 85
     },
     {
@@ -14281,7 +13803,7 @@
       "deadline": null,
       "url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Indianapolis-IN-USA/Service-Technician-Intern--Flooring-Solutions_97241",
       "external_id": "97241",
-      "verified_at": "2026-10-17T17:16:01Z",
+      "verified_at": "2026-10-19T13:26:34Z",
       "match_score": 85
     },
     {
@@ -14308,7 +13830,7 @@
       "deadline": null,
       "url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Deforest-WI-USA/Service-Technician-Intern_100235",
       "external_id": "100235",
-      "verified_at": "2026-10-17T17:16:02Z",
+      "verified_at": "2026-10-19T13:26:36Z",
       "match_score": 85
     },
     {
@@ -14335,7 +13857,7 @@
       "deadline": null,
       "url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Humble-TX-USA/Sales-Internship--Paid----North-West-Area_101085",
       "external_id": "101085",
-      "verified_at": "2026-10-17T17:16:01Z",
+      "verified_at": "2026-10-19T13:26:35Z",
       "match_score": 85
     },
     {
@@ -14362,7 +13884,7 @@
       "deadline": null,
       "url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Houston-TX-USA/Sales-Intern--Paid----South-East-Houston_101090",
       "external_id": "101090",
-      "verified_at": "2026-10-17T17:16:01Z",
+      "verified_at": "2026-10-19T13:26:34Z",
       "match_score": 85
     },
     {
@@ -14389,7 +13911,7 @@
       "deadline": null,
       "url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Broussard-LA-USA/Sales-Intern--Paid-_99561",
       "external_id": "99561",
-      "verified_at": "2026-10-17T17:16:03Z",
+      "verified_at": "2026-10-19T13:26:36Z",
       "match_score": 85
     },
     {
@@ -14416,7 +13938,7 @@
       "deadline": null,
       "url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Waco-TX-USA/Intern-Diesel-Mechanic--Paid-_100955-1",
       "external_id": "100955",
-      "verified_at": "2026-10-17T17:16:02Z",
+      "verified_at": "2026-10-19T13:26:35Z",
       "match_score": 85
     },
     {
@@ -14443,7 +13965,7 @@
       "deadline": null,
       "url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Charlotte-NC-USA/Intern-Diesel-Mechanic--Paid-_100417",
       "external_id": "100417",
-      "verified_at": "2026-10-17T17:16:02Z",
+      "verified_at": "2026-10-19T13:26:36Z",
       "match_score": 85
     },
     {
@@ -14470,7 +13992,7 @@
       "deadline": null,
       "url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Branch-71M-Cedar-Park-TX/Intern-Diesel-Mechanic--Paid-_99031-1",
       "external_id": "99031",
-      "verified_at": "2026-10-17T17:16:03Z",
+      "verified_at": "2026-10-19T13:26:37Z",
       "match_score": 85
     },
     {
@@ -15599,7 +15121,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-10-19T06:18:17Z",
+      "verified_at": "2026-10-19T13:27:03Z",
       "match_score": 85
     },
     {
@@ -17684,147 +17206,6 @@
       "match_score": 85
     },
     {
-      "id": "kyndryl-holdings-10dfb36cb443",
-      "source_key": "kyndryl-holdings",
-      "fortune_rank": 300,
-      "fortune_500": true,
-      "company": "Kyndryl Holdings",
-      "title": "Network services Intern",
-      "location": "Athens, Attiki, Greece",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Who We Are At Kyndryl, we run and reimagine the mission-critical technology systems that drive advantage for the world’s leading businesses. We are at the heart of progress; with proven expertise and a continuous flow of AI-powered insight, enabling smarter decisions, faster…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Athens-Attiki-Greece/Network-services-Intern_R-65082-1",
-      "external_id": "R-65082",
-      "verified_at": "2026-10-17T19:29:18Z",
-      "match_score": 85
-    },
-    {
-      "id": "kyndryl-holdings-8a3bbe579060",
-      "source_key": "kyndryl-holdings",
-      "fortune_rank": 300,
-      "fortune_500": true,
-      "company": "Kyndryl Holdings",
-      "title": "Middleware Software Intern",
-      "location": "Athens, Attiki, Greece",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Who We Are At Kyndryl, we run and reimagine the mission-critical technology systems that drive advantage for the world’s leading businesses. We are at the heart of progress; with proven expertise and a continuous flow of AI-powered insight, enabling smarter decisions, faster…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Athens-Attiki-Greece/Middleware-Software-Intern_R-65081-1",
-      "external_id": "R-65081",
-      "verified_at": "2026-10-17T19:29:18Z",
-      "match_score": 85
-    },
-    {
-      "id": "kyndryl-holdings-b6b9871e316b",
-      "source_key": "kyndryl-holdings",
-      "fortune_rank": 300,
-      "fortune_500": true,
-      "company": "Kyndryl Holdings",
-      "title": "Devops Intern",
-      "location": "Athens, Attiki, Greece",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Who We Are At Kyndryl, we run and reimagine the mission-critical technology systems that drive advantage for the world’s leading businesses. We are at the heart of progress; with proven expertise and a continuous flow of AI-powered insight, enabling smarter decisions, faster…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Athens-Attiki-Greece/Devops-Intern_R-65079-1",
-      "external_id": "R-65079",
-      "verified_at": "2026-10-17T19:29:18Z",
-      "match_score": 85
-    },
-    {
-      "id": "kyndryl-holdings-0961b3813051",
-      "source_key": "kyndryl-holdings",
-      "fortune_rank": 300,
-      "fortune_500": true,
-      "company": "Kyndryl Holdings",
-      "title": "Cloud Technologies Intern",
-      "location": "Athens, Attiki, Greece",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Who We Are At Kyndryl, we run and reimagine the mission-critical technology systems that drive advantage for the world’s leading businesses. We are at the heart of progress; with proven expertise and a continuous flow of AI-powered insight, enabling smarter decisions, faster…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylProfessionalCareers/job/Athens-Attiki-Greece/Cloud-Technologies-Intern_R-65083-1",
-      "external_id": "R-65083",
-      "verified_at": "2026-10-17T19:29:18Z",
-      "match_score": 85
-    },
-    {
-      "id": "kyndryl-holdings-80659abefc37",
-      "source_key": "kyndryl-holdings",
-      "fortune_rank": 300,
-      "fortune_500": true,
-      "company": "Kyndryl Holdings",
-      "title": "Apprenticeship – Technical Support",
-      "location": "Mumbai, Maharashtra, India",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Who We Are At Kyndryl, we run and reimagine the mission-critical technology systems that drive advantage for the world’s leading businesses. We are at the heart of progress; with proven expertise and a continuous flow of AI-powered insight, enabling smarter decisions, faster…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://kyndryl.wd5.myworkdayjobs.com/KyndrylEarlyCareers/job/Mumbai-Maharashtra-India/Apprenticeship---Technical-Support_R-64180",
-      "external_id": "R-64180",
-      "verified_at": "2026-10-17T19:28:00Z",
-      "match_score": 85
-    },
-    {
       "id": "jones-lang-lasalle-93f0d2d3e562",
       "source_key": "jones-lang-lasalle",
       "fortune_rank": 175,
@@ -17935,59 +17316,6 @@
       "match_score": 85
     },
     {
-      "id": "jabil-0c6ff1128f5e",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Intern - SAP Functional",
-      "location": "Penang",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "At Jabil we strive to make ANYTHING POSSIBLE and EVERYTHING BETTER. We are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, manufacturing, and supply chain solutions. With over 50 years of experience across industries and a vast…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---SAP-Functional_J2422199",
-      "external_id": "J2422199",
-      "verified_at": "2026-10-17T19:28:02Z",
-      "match_score": 85
-    },
-    {
-      "id": "jabil-046a26656a99",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Intern - IoT",
-      "location": "Penang",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python"
-      ],
-      "summary": "At Jabil we strive to make ANYTHING POSSIBLE and EVERYTHING BETTER. We are proud to be a trusted partner for the world's top brands, offering comprehensive engineering, manufacturing, and supply chain solutions. With over 50 years of experience across industries and a vast…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Penang/Intern---IoT_J2417208",
-      "external_id": "J2417208",
-      "verified_at": "2026-10-17T19:27:58Z",
-      "match_score": 85
-    },
-    {
       "id": "j-m-smucker-3700e742f4f3",
       "source_key": "smucker",
       "fortune_rank": 456,
@@ -18014,7 +17342,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Supply-Chain-Intern--Summer-2027_115694",
       "external_id": "115694",
-      "verified_at": "2026-10-19T06:17:53Z",
+      "verified_at": "2026-10-19T13:26:25Z",
       "match_score": 85
     },
     {
@@ -18043,7 +17371,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
       "external_id": "115736",
-      "verified_at": "2026-10-19T06:17:56Z",
+      "verified_at": "2026-10-19T13:26:28Z",
       "match_score": 85
     },
     {
@@ -18071,7 +17399,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Quality-Assurance-Intern---Oxnard--CA_115727",
       "external_id": "115727",
-      "verified_at": "2026-10-19T06:17:56Z",
+      "verified_at": "2026-10-19T13:26:27Z",
       "match_score": 85
     },
     {
@@ -18096,7 +17424,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
       "external_id": "115725",
-      "verified_at": "2026-10-19T06:17:55Z",
+      "verified_at": "2026-10-19T13:26:27Z",
       "match_score": 85
     },
     {
@@ -18124,7 +17452,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
       "external_id": "115735",
-      "verified_at": "2026-10-19T06:17:56Z",
+      "verified_at": "2026-10-19T13:26:28Z",
       "match_score": 85
     },
     {
@@ -18151,7 +17479,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
       "external_id": "115677",
-      "verified_at": "2026-10-19T06:17:54Z",
+      "verified_at": "2026-10-19T13:26:26Z",
       "match_score": 85
     },
     {
@@ -18178,7 +17506,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sales-Intern--Summer-2027_115803",
       "external_id": "115803",
-      "verified_at": "2026-10-19T06:17:53Z",
+      "verified_at": "2026-10-19T13:26:25Z",
       "match_score": 85
     },
     {
@@ -18205,7 +17533,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
       "external_id": "115698",
-      "verified_at": "2026-10-19T06:17:54Z",
+      "verified_at": "2026-10-19T13:26:26Z",
       "match_score": 85
     },
     {
@@ -18232,7 +17560,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/R-D-Engineering-Intern--Co-Op-2027--8-months-_115696",
       "external_id": "115696",
-      "verified_at": "2026-10-19T06:17:55Z",
+      "verified_at": "2026-10-19T13:26:27Z",
       "match_score": 85
     },
     {
@@ -18263,7 +17591,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Spring-2027_115712",
       "external_id": "115712",
-      "verified_at": "2026-10-19T06:17:54Z",
+      "verified_at": "2026-10-19T13:26:26Z",
       "match_score": 85
     },
     {
@@ -18290,7 +17618,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_115697",
       "external_id": "115697",
-      "verified_at": "2026-10-19T06:17:55Z",
+      "verified_at": "2026-10-19T13:26:27Z",
       "match_score": 85
     },
     {
@@ -18317,7 +17645,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Columbus-GA/Operations-QA-Intern--Summer-2027-Columbus--GA_115774",
       "external_id": "115774",
-      "verified_at": "2026-10-19T06:17:54Z",
+      "verified_at": "2026-10-19T13:26:26Z",
       "match_score": 85
     },
     {
@@ -18344,7 +17672,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Decatur-AL/Operations-QA-Intern--Summer-2027--Decatur--AL_115757",
       "external_id": "115757",
-      "verified_at": "2026-10-19T06:17:54Z",
+      "verified_at": "2026-10-19T13:26:26Z",
       "match_score": 85
     },
     {
@@ -18371,7 +17699,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/New-Orleans-LA/Operations-Engineering-Intern--Summer-2027--Multiple-Locations-_115721",
       "external_id": "115721",
-      "verified_at": "2026-10-19T06:17:55Z",
+      "verified_at": "2026-10-19T13:26:27Z",
       "match_score": 85
     },
     {
@@ -18398,7 +17726,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Scottsville-KY/Operations-Engineering-Intern--Spring-2027---Scottsville--KY_115475-1",
       "external_id": "115475",
-      "verified_at": "2026-10-19T06:17:55Z",
+      "verified_at": "2026-10-19T13:26:27Z",
       "match_score": 85
     },
     {
@@ -18425,7 +17753,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Memphis-TN/Operations-Engineering-Intern--Spring-2027---Memphis--TN_114845",
       "external_id": "114845",
-      "verified_at": "2026-10-19T06:17:55Z",
+      "verified_at": "2026-10-19T13:26:27Z",
       "match_score": 85
     },
     {
@@ -18452,7 +17780,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Lexington-KY/Operations-Engineering-Intern--Spring-2027---Lexington--KY_114841",
       "external_id": "114841",
-      "verified_at": "2026-10-19T06:17:55Z",
+      "verified_at": "2026-10-19T13:26:27Z",
       "match_score": 85
     },
     {
@@ -18477,7 +17805,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Microbiology-Intern--Summer-2027_115676",
       "external_id": "115676",
-      "verified_at": "2026-10-19T06:17:53Z",
+      "verified_at": "2026-10-19T13:26:25Z",
       "match_score": 85
     },
     {
@@ -18506,7 +17834,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Information-Services-Intern--Summer-2027_115744",
       "external_id": "115744",
-      "verified_at": "2026-10-19T06:17:54Z",
+      "verified_at": "2026-10-19T13:26:25Z",
       "match_score": 85
     },
     {
@@ -18539,7 +17867,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Summer-2027_115743",
       "external_id": "115743",
-      "verified_at": "2026-10-19T06:17:54Z",
+      "verified_at": "2026-10-19T13:26:25Z",
       "match_score": 85
     },
     {
@@ -18572,7 +17900,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-10-19T06:17:53Z",
+      "verified_at": "2026-10-19T13:26:25Z",
       "match_score": 85
     },
     {
@@ -18598,7 +17926,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Category-Leadership-Intern--Summer-2027_115804",
       "external_id": "115804",
-      "verified_at": "2026-10-19T06:17:54Z",
+      "verified_at": "2026-10-19T13:26:25Z",
       "match_score": 85
     },
     {
@@ -18625,7 +17953,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Analytical-Lab-Intern--Summer-2027_115678",
       "external_id": "115678",
-      "verified_at": "2026-10-19T06:17:53Z",
+      "verified_at": "2026-10-19T13:26:25Z",
       "match_score": 85
     },
     {
@@ -21583,7 +20911,7 @@
       "deadline": null,
       "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Intern---Capacity-Portfolio-Representative-Summer-2027_R49514-1",
       "external_id": "R49514",
-      "verified_at": "2026-10-17T17:16:17Z",
+      "verified_at": "2026-10-19T13:26:51Z",
       "match_score": 85
     },
     {
@@ -21610,7 +20938,7 @@
       "deadline": null,
       "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Atlanta-GA-United-States-of-America/Intern---Capacity-Portfolio-Representative-Starting-Summer-2027_R49433-1",
       "external_id": "R49433",
-      "verified_at": "2026-10-17T17:16:18Z",
+      "verified_at": "2026-10-19T13:26:52Z",
       "match_score": 85
     },
     {
@@ -21637,7 +20965,7 @@
       "deadline": null,
       "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Grand-Rapids-MI-United-States-of-America/Intern---Capacity-Portfolio-Representative_R49467-1",
       "external_id": "R49467",
-      "verified_at": "2026-10-17T17:16:16Z",
+      "verified_at": "2026-10-19T13:26:50Z",
       "match_score": 85
     },
     {
@@ -21664,7 +20992,7 @@
       "deadline": null,
       "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Eden-Prairie-MN-United-States-of-America/Intern---Associate-Portfolio-Executive-Summer-2027_R49515-1",
       "external_id": "R49515",
-      "verified_at": "2026-10-17T17:16:17Z",
+      "verified_at": "2026-10-19T13:26:51Z",
       "match_score": 85
     },
     {
@@ -21691,7 +21019,7 @@
       "deadline": null,
       "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Grandview-Heights-OH-United-States-of-America/Intern---Associate-Portfolio-Executive_R49466-1",
       "external_id": "R49466",
-      "verified_at": "2026-10-17T17:16:16Z",
+      "verified_at": "2026-10-19T13:26:50Z",
       "match_score": 85
     },
     {
@@ -24604,7 +23932,7 @@
       "deadline": "2026-12-21",
       "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/Supply-Chain-Internship_033958-2",
       "external_id": "033958",
-      "verified_at": "2026-10-17T19:28:50Z",
+      "verified_at": "2026-10-19T13:27:24Z",
       "match_score": 85
     },
     {
@@ -24635,7 +23963,7 @@
       "deadline": "2026-12-21",
       "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Supply-Chain-Internship_033958",
       "external_id": "033958",
-      "verified_at": "2026-10-17T19:29:09Z",
+      "verified_at": "2026-10-19T13:27:47Z",
       "match_score": 85
     },
     {
@@ -24665,7 +23993,7 @@
       "deadline": "2026-12-22",
       "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/Strategic-Sourcing-Intern-1_033838",
       "external_id": "033838",
-      "verified_at": "2026-10-17T19:28:49Z",
+      "verified_at": "2026-10-19T13:27:23Z",
       "match_score": 85
     },
     {
@@ -24695,7 +24023,7 @@
       "deadline": "2026-12-22",
       "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Strategic-Sourcing-Intern-1_033838-1",
       "external_id": "033838",
-      "verified_at": "2026-10-17T19:29:08Z",
+      "verified_at": "2026-10-19T13:27:46Z",
       "match_score": 85
     },
     {
@@ -24720,7 +24048,7 @@
       "deadline": "2026-12-24",
       "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/GIS-Co-op--Real-Estate-_033670",
       "external_id": "033670",
-      "verified_at": "2026-10-17T19:28:50Z",
+      "verified_at": "2026-10-19T13:27:24Z",
       "match_score": 85
     },
     {
@@ -24745,7 +24073,7 @@
       "deadline": "2026-12-24",
       "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/GIS-Co-op--Real-Estate-_033670-1",
       "external_id": "033670",
-      "verified_at": "2026-10-17T19:29:10Z",
+      "verified_at": "2026-10-19T13:27:47Z",
       "match_score": 85
     },
     {
@@ -24770,7 +24098,7 @@
       "deadline": "2027-04-05",
       "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/CAD-Technician-Co-op_033920",
       "external_id": "033920",
-      "verified_at": "2026-10-17T19:28:49Z",
+      "verified_at": "2026-10-19T13:27:23Z",
       "match_score": 85
     },
     {
@@ -24795,7 +24123,7 @@
       "deadline": "2027-04-05",
       "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/CAD-Technician-Co-op_033920-1",
       "external_id": "033920",
-      "verified_at": "2026-10-17T19:29:09Z",
+      "verified_at": "2026-10-19T13:27:46Z",
       "match_score": 85
     },
     {
@@ -25320,7 +24648,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-10-19T06:17:20Z",
+      "verified_at": "2026-10-19T13:25:51Z",
       "match_score": 85
     },
     {
@@ -25407,92 +24735,6 @@
       "url": "https://careers.kimberly-clark.com/en/blog/navigating-to-create-new-career-experiences-from-intern-to-global-leader",
       "external_id": null,
       "verified_at": "2026-10-18T17:24:58Z",
-      "match_score": 85
-    },
-    {
-      "id": "jabil-5f7b223e6383",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Students, Internships, and Apprenticeship Programs",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Students, Internships, and Apprenticeship Programs Search Jobs Learn from the best and make an impact We drive innovation for the world’s top brands. At Jabil, we’re committed to connecting people, advancing technology, and making a positive impact on the world we share",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://careers.jabil.com/students-internship-apprenticeship-programs.html",
-      "external_id": null,
-      "verified_at": "2026-10-17T19:28:19Z",
-      "match_score": 85
-    },
-    {
-      "id": "jabil-dc3103284b10",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Students, Internships, and Apprenticeship Programs",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Students, Internships, and Apprenticeship Programs Search Jobs Learn from the best and make an impact We drive innovation for the world’s top brands. At Jabil, we’re committed to connecting people, advancing technology, and making a positive impact on the world we share",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://careers.jabil.com/students-internship-apprenticeship-programs.html?utm_source=main_menu&utm_medium=referral&utm_campaign=jabil_com_referrals&_gl=1*76lc07*_gcl_aw*R0NMLjE3NTM5NzU5MzAuRUFJYUlRb2JDaE1JNTl2czM3RG1qZ01WN1ItdEJoMjJqZ0Q0RUFBWUFTQUFFZ0xrRVBEX0J3RQ..*_gcl_au*MTEwOTcwNDk0OC4xNzU2MjI4NTIy",
-      "external_id": null,
-      "verified_at": "2026-10-17T19:28:19Z",
-      "match_score": 85
-    },
-    {
-      "id": "jabil-cbab788d354a",
-      "source_key": "jabil",
-      "fortune_rank": 151,
-      "fortune_500": true,
-      "company": "Jabil",
-      "title": "Apprenticeship Programs in Switzerland",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "IT analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML"
-      ],
-      "summary": "Apprenticeship Programs in Switzerland \"Shape your future - mit einer Berufslehre bei Jabil!\" An unseren Standorten in der Schweiz und in Deutschland bilden wir über 80 junge Menschen zu Fachkräften aus. Werde auch du Teil unserer Erfolgsgeschichte!",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://careers.jabil.com/student-apprenticeship-program.html",
-      "external_id": null,
-      "verified_at": "2026-10-17T19:28:20Z",
       "match_score": 85
     },
     {
@@ -25939,56 +25181,6 @@
       "url": "https://www.hormelfoods.com/ask-and-answer/food-safety-quality-internship/",
       "external_id": null,
       "verified_at": "2026-10-18T04:40:14Z",
-      "match_score": 85
-    },
-    {
-      "id": "firstenergy-8d1179ffac5f",
-      "source_key": "firstenergy",
-      "fortune_rank": 307,
-      "fortune_500": true,
-      "company": "FirstEnergy",
-      "title": "Co-op & Intern Program",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "close It is taking longer than expected for this page to load. Also, please review our guide to the application process . All Rights Reserved FirstEnergyCorp.com Contact Us Careers Investors Newsroom Empower Retirees & Alumni Cookie Preferences Privacy Notice Legal Statement…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.firstenergycorp.com/careers/student_opportunities/co-op_intern.html",
-      "external_id": null,
-      "verified_at": "2026-10-17T19:27:46Z",
-      "match_score": 85
-    },
-    {
-      "id": "firstenergy-d8a28fc767d6",
-      "source_key": "firstenergy",
-      "fortune_rank": 307,
-      "fortune_500": true,
-      "company": "FirstEnergy",
-      "title": "Apprenticeship Program",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "close It is taking longer than expected for this page to load. During their apprenticeships, new hires learn foundational skills from veteran instructors taught in both a classroom and hands-on settings. The program also will offer opportunities for apprentices to develop…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.firstenergycorp.com/careers/apprenticeship-program.html",
-      "external_id": null,
-      "verified_at": "2026-10-17T19:27:46Z",
       "match_score": 85
     },
     {
