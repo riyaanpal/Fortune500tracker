@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T01:23:32Z",
+  "updated_at": "2026-10-19T06:22:14Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -12,10 +12,10 @@
     "domain directory: Failed request: https://www.50pros.com/fortune500: 429 Client Error: Too Many Requests for url: https://www.50pros.com/fortune500",
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-10-19T01:19:39Z",
+  "directory_refreshed_at": "2026-10-19T06:17:17Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 308,
-  "companies_failed_last_24h": 6,
+  "companies_failed_last_24h": 9,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "accendra-health",
@@ -36,6 +36,32 @@
       "company": "Alphabet",
       "fortune_500": true,
       "checked_at": "2026-10-19T01:23:32Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "bank-of-america",
+      "rank": 20,
+      "company": "Bank of America",
+      "fortune_500": true,
+      "checked_at": "2026-10-19T06:22:14Z",
+      "status": "error",
+      "issue_type": "Scan error",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.bankofamerica.com/en-us/students/job-search?ref=search&search=getAllJobs&start=0&rows=10",
+      "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
+    },
+    {
+      "key": "coterra-energy",
+      "rank": 496,
+      "company": "Coterra Energy",
+      "fortune_500": true,
+      "checked_at": "2026-10-19T06:22:14Z",
       "status": "no-career-source",
       "issue_type": "No careers source found",
       "eligible_jobs": 0,
@@ -70,17 +96,17 @@
       "error": null
     },
     {
-      "key": "kla",
-      "rank": 361,
-      "company": "KLA",
+      "key": "roper-technologies",
+      "rank": 487,
+      "company": "Roper Technologies",
       "fortune_500": true,
-      "checked_at": "2026-10-18T04:43:20Z",
-      "status": "error",
-      "issue_type": "Rate limited",
+      "checked_at": "2026-10-19T06:22:14Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": "Failed request: https://kla.wd1.myworkdayjobs.com/wday/cxs/kla/AnnArbor/jobs: 429 Client Error: Too Many Requests for url: https://kla.wd1.myworkdayjobs.com/wday/cxs/kla/AnnArbor/jobs"
+      "error": null
     },
     {
       "key": "united-services-automobile-assn",
@@ -94,11 +120,24 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": null
+    },
+    {
+      "key": "ups",
+      "rank": 48,
+      "company": "UPS",
+      "fortune_500": true,
+      "checked_at": "2026-10-19T06:22:14Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
     }
   ],
   "companies_with_eligible_jobs": 91,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 940,
+  "opportunity_count": 939,
   "opportunities": [
     {
       "id": "ge-aerospace-7d7695b18f98",
@@ -210,6 +249,34 @@
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Cheltenham/Advanced-Manufacturing-Apprenticeship--Cheltenham-2027-intake_R5041750-1",
       "external_id": "R5041750",
       "verified_at": "2026-10-19T01:21:25Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-823cd663a016",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "2027 Australia Coop Placement",
+      "location": "Sydney New South Wales Australia",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Credit",
+        "Risk"
+      ],
+      "summary": "The Intern Analyst is an intermediate level position responsible for assisting clients in raising funds in the capital markets, as well as in providing strategic advisory services for mergers, acquisitions and other types of financial transactions in coordination with the…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-19",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Sydney-New-South-Wales-Australia/XMLNAME-2027-Australia-Coop-Placement_261000751",
+      "external_id": "261000751",
+      "verified_at": "2026-10-19T06:20:48Z",
       "match_score": 85
     },
     {
@@ -332,7 +399,32 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance-Technology-Intern--Spring-2027_116016",
       "external_id": "116016",
-      "verified_at": "2026-10-19T01:20:21Z",
+      "verified_at": "2026-10-19T06:17:54Z",
+      "match_score": 85
+    },
+    {
+      "id": "comfort-systems-usa-776b83999a50",
+      "source_key": "comfort-systems-usa",
+      "fortune_rank": 440,
+      "fortune_500": true,
+      "company": "Comfort Systems USA",
+      "title": "Apprentice Plumber",
+      "location": "Arden, NC (CSUSA-SHO)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Comfort Systems USA Shoffner is the region's leader in HVACR and Plumbing services. We have a well-established reputation for quality work done by quality people and are one of the top 3 largest mechanical contractors in the nation and the value leader in the market",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-17",
+      "deadline": null,
+      "url": "https://comfortsystemsusa.wd1.myworkdayjobs.com/Corpcareers/job/Arden-NC-CSUSA-SHO/Apprentice-Plumber_JR101916-1",
+      "external_id": "JR101916",
+      "verified_at": "2026-10-19T06:18:52Z",
       "match_score": 85
     },
     {
@@ -956,7 +1048,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Revenue-Growth-Management-Intern--Summer-2027_116012",
       "external_id": "116012",
-      "verified_at": "2026-10-19T01:20:22Z",
+      "verified_at": "2026-10-19T06:17:55Z",
       "match_score": 85
     },
     {
@@ -1187,31 +1279,6 @@
       "url": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Rochester-New-York/Intern--Financial-Compliance---P2P_R-41509",
       "external_id": "R-41509",
       "verified_at": "2026-10-18T14:03:56Z",
-      "match_score": 85
-    },
-    {
-      "id": "comfort-systems-usa-776b83999a50",
-      "source_key": "comfort-systems-usa",
-      "fortune_rank": 440,
-      "fortune_500": true,
-      "company": "Comfort Systems USA",
-      "title": "Apprentice Plumber",
-      "location": "Arden, NC (CSUSA-SHO)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Comfort Systems USA Shoffner is the region's leader in HVACR and Plumbing services. We have a well-established reputation for quality work done by quality people and are one of the top 3 largest mechanical contractors in the nation and the value leader in the market",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-16",
-      "deadline": null,
-      "url": "https://comfortsystemsusa.wd1.myworkdayjobs.com/Corpcareers/job/Arden-NC-CSUSA-SHO/Apprentice-Plumber_JR101916-1",
-      "external_id": "JR101916",
-      "verified_at": "2026-10-17T17:17:10Z",
       "match_score": 85
     },
     {
@@ -2008,7 +2075,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Net-Revenue-Optimization-Intern--Summer-2027_116006",
       "external_id": "116006",
-      "verified_at": "2026-10-19T01:20:22Z",
+      "verified_at": "2026-10-19T06:17:54Z",
       "match_score": 85
     },
     {
@@ -2351,6 +2418,33 @@
       "match_score": 85
     },
     {
+      "id": "amgen-1cdd9454e00e",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "Undergrad Co-op – Interactive Developer / Immersive Course Programmer for Manufacturing",
+      "location": "US - Puerto Rico - Juncos",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Career Category Operations Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-15",
+      "deadline": "2026-10-21",
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---Puerto-Rico---Juncos/Undergrad-Co-op---Interactive-Developer---Immersive-Course-Programmer-for-Manufacturing_R-256886",
+      "external_id": "R-256886",
+      "verified_at": "2026-10-19T06:20:23Z",
+      "match_score": 85
+    },
+    {
       "id": "american-electric-power-65bc8c3e41a9",
       "source_key": "american-electric-power",
       "fortune_rank": 209,
@@ -2636,6 +2730,60 @@
       "match_score": 85
     },
     {
+      "id": "oneok-f20e1fc9a0dc",
+      "source_key": "oneok",
+      "fortune_rank": 138,
+      "fortune_500": true,
+      "company": "Oneok",
+      "title": "Instrumentation and Electrical Technician Intern",
+      "location": "Watford City, ND",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-14",
+      "deadline": null,
+      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Watford-City-ND/Instrumentation-and-Electrical-Technician-Intern_R8357-1",
+      "external_id": "R8357",
+      "verified_at": "2026-10-19T06:17:54Z",
+      "match_score": 85
+    },
+    {
+      "id": "oneok-fd1b08392330",
+      "source_key": "oneok",
+      "fortune_rank": 138,
+      "fortune_500": true,
+      "company": "Oneok",
+      "title": "Instrumentation and Electrical Technician Intern",
+      "location": "Medford, OK",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-14",
+      "deadline": null,
+      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Medford-OK/Instrumentation-and-Electrical-Technician-Intern_R8426-1",
+      "external_id": "R8426",
+      "verified_at": "2026-10-19T06:17:54Z",
+      "match_score": 85
+    },
+    {
       "id": "nasdaq-01b2d8c66ed3",
       "source_key": "nasdaq",
       "fortune_rank": 470,
@@ -2692,6 +2840,200 @@
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/USA---New-Jersey---Rahway/XMLNAME-2027-Future-Talent-Program---Global-Communications-Intern--AI-focus----Intern_R422423",
       "external_id": "R422423",
       "verified_at": "2026-10-18T14:04:25Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-ee7621e98dba",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "WinField United Summer Research Technician Internship - Central",
+      "location": "Virtual (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "WinField United Summer Research Technician Internship - Central WinField United Summer Research Technician Internship - Central The WinField Answer Plot® Program hosts agronomic research plots across the country. Plots provide area farmers to see firsthand how seed and crop…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-14",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/WinField-United-Summer-Research-Technician-Internship---Central_R-40719",
+      "external_id": "R-40719",
+      "verified_at": "2026-10-19T06:18:38Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-381bbb188b75",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "WinField United Summer Research Technician Intern - River Falls, WI",
+      "location": "River Falls, WI (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "WinField United Summer Research Technician Intern - River Falls, WI WinField United Summer Research Technician Internship - River Falls, WI The WinField Answer Plot® Program hosts agronomic research plots across the country. Plots provide area farmers to see firsthand how seed…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-14",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/River-Falls-WI-USA/WinField-United-Summer-Research-Technician-Intern---River-Falls--WI_R-40734",
+      "external_id": "R-40734",
+      "verified_at": "2026-10-19T06:18:38Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-f0310aff8b07",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "WinField United Sales Internship, Summer 2027",
+      "location": "Virtual (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "WinField United Sales Internship, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative. With business units spanning crop insight and…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-14",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/WinField-United-Sales-Internship--Summer-2027_R-40236",
+      "external_id": "R-40236",
+      "verified_at": "2026-10-19T06:18:38Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-2a7d7b5f33ac",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "WinField United Research & Development Lab Intern, Summer 2027",
+      "location": "River Falls, WI (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "WinField United Research & Development Lab Intern, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-14",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/River-Falls-WI-USA/WinField-United-Research---Development-Lab-Intern--Summer-2027_R-40232",
+      "external_id": "R-40232",
+      "verified_at": "2026-10-19T06:18:37Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-406bfc023829",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "WinField United Market Development Agronomist Intern, Summer 2027",
+      "location": "Virtual (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "WinField United Market Development Agronomist Intern, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-14",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/WinField-United-Market-Development-Agronomist-Intern--Summer-2027_R-40235",
+      "external_id": "R-40235",
+      "verified_at": "2026-10-19T06:18:38Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-eac200fa8638",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "WinField United Forage Nutrition Insights Intern, Summer 2027",
+      "location": "Indianapolis, IN (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "WinField United Forage Nutrition Insights Intern, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-14",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Indianapolis-IN-USA/WinField-United-Forage-Nutrition-Insights-Intern--Summer-2027_R-40234",
+      "external_id": "R-40234",
+      "verified_at": "2026-10-19T06:18:38Z",
+      "match_score": 85
+    },
+    {
+      "id": "land-o-lakes-d92d42fd7841",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "WinField United FGI Marketing Intern, Summer 2027",
+      "location": "Arden Hills, MN (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations"
+      ],
+      "summary": "WinField United FGI Marketing Intern, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-14",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/WinField-United-FGI-Marketing-Intern--Summer-2027_R-40233",
+      "external_id": "R-40233",
+      "verified_at": "2026-10-19T06:18:38Z",
       "match_score": 85
     },
     {
@@ -2894,7 +3236,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Talent-Acquisition-Intern--Summer-2027_115992",
       "external_id": "115992",
-      "verified_at": "2026-10-19T01:20:21Z",
+      "verified_at": "2026-10-19T06:17:54Z",
       "match_score": 85
     },
     {
@@ -2922,7 +3264,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Marketing-Intern--Summer-2027_115771",
       "external_id": "115771",
-      "verified_at": "2026-10-19T01:20:21Z",
+      "verified_at": "2026-10-19T06:17:53Z",
       "match_score": 85
     },
     {
@@ -3272,62 +3614,6 @@
       "match_score": 85
     },
     {
-      "id": "amgen-1cdd9454e00e",
-      "source_key": "amgen",
-      "fortune_rank": 129,
-      "fortune_500": true,
-      "company": "Amgen",
-      "title": "Undergrad Co-op – Interactive Developer / Immersive Course Programmer for Manufacturing",
-      "location": "US - Puerto Rico - Juncos",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Career Category Operations Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-14",
-      "deadline": "2026-10-21",
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---Puerto-Rico---Juncos/Undergrad-Co-op---Interactive-Developer---Immersive-Course-Programmer-for-Manufacturing_R-256886",
-      "external_id": "R-256886",
-      "verified_at": "2026-10-17T17:18:41Z",
-      "match_score": 85
-    },
-    {
-      "id": "amgen-290a4e88e452",
-      "source_key": "amgen",
-      "fortune_rank": 129,
-      "fortune_500": true,
-      "company": "Amgen",
-      "title": "Undergrad Co-op - Quality, Manufacturing, Operations and/or Engineering",
-      "location": "US - Puerto Rico - Juncos",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Career Category Operations Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-14",
-      "deadline": "2026-10-19",
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---Puerto-Rico---Juncos/Undergrad-Co-op---Quality--Manufacturing--Operations-and-or-Engineering_R-256495",
-      "external_id": "R-256495",
-      "verified_at": "2026-10-17T17:18:41Z",
-      "match_score": 85
-    },
-    {
       "id": "abbott-laboratories-1af84bbb4527",
       "source_key": "abbott-laboratories",
       "fortune_rank": 107,
@@ -3447,60 +3733,6 @@
       "match_score": 85
     },
     {
-      "id": "oneok-f20e1fc9a0dc",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Instrumentation and Electrical Technician Intern",
-      "location": "Watford City, ND",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-13",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Watford-City-ND/Instrumentation-and-Electrical-Technician-Intern_R8357-1",
-      "external_id": "R8357",
-      "verified_at": "2026-10-17T13:46:35Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-fd1b08392330",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Instrumentation and Electrical Technician Intern",
-      "location": "Medford, OK",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-13",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Medford-OK/Instrumentation-and-Electrical-Technician-Intern_R8426-1",
-      "external_id": "R8426",
-      "verified_at": "2026-10-17T13:46:35Z",
-      "match_score": 85
-    },
-    {
       "id": "merck-afe128ea06ed",
       "source_key": "merck",
       "fortune_rank": 68,
@@ -3526,200 +3758,6 @@
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/ARE---Dubai---Falak-Building/Medical-Affairs-Data---Digital-Projects-Intern_R421700",
       "external_id": "R421700",
       "verified_at": "2026-10-18T14:04:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-ee7621e98dba",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "WinField United Summer Research Technician Internship - Central",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "WinField United Summer Research Technician Internship - Central WinField United Summer Research Technician Internship - Central The WinField Answer Plot® Program hosts agronomic research plots across the country. Plots provide area farmers to see firsthand how seed and crop…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-13",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/WinField-United-Summer-Research-Technician-Internship---Central_R-40719",
-      "external_id": "R-40719",
-      "verified_at": "2026-10-17T13:47:17Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-381bbb188b75",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "WinField United Summer Research Technician Intern - River Falls, WI",
-      "location": "River Falls, WI (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "WinField United Summer Research Technician Intern - River Falls, WI WinField United Summer Research Technician Internship - River Falls, WI The WinField Answer Plot® Program hosts agronomic research plots across the country. Plots provide area farmers to see firsthand how seed…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-13",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/River-Falls-WI-USA/WinField-United-Summer-Research-Technician-Intern---River-Falls--WI_R-40734",
-      "external_id": "R-40734",
-      "verified_at": "2026-10-17T13:47:17Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-f0310aff8b07",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "WinField United Sales Internship, Summer 2027",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "WinField United Sales Internship, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative. With business units spanning crop insight and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-13",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/WinField-United-Sales-Internship--Summer-2027_R-40236",
-      "external_id": "R-40236",
-      "verified_at": "2026-10-17T13:47:16Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-2a7d7b5f33ac",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "WinField United Research & Development Lab Intern, Summer 2027",
-      "location": "River Falls, WI (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "WinField United Research & Development Lab Intern, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-13",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/River-Falls-WI-USA/WinField-United-Research---Development-Lab-Intern--Summer-2027_R-40232",
-      "external_id": "R-40232",
-      "verified_at": "2026-10-17T13:47:16Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-406bfc023829",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "WinField United Market Development Agronomist Intern, Summer 2027",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "WinField United Market Development Agronomist Intern, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-13",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/WinField-United-Market-Development-Agronomist-Intern--Summer-2027_R-40235",
-      "external_id": "R-40235",
-      "verified_at": "2026-10-17T13:47:16Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-eac200fa8638",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "WinField United Forage Nutrition Insights Intern, Summer 2027",
-      "location": "Indianapolis, IN (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "WinField United Forage Nutrition Insights Intern, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-13",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Indianapolis-IN-USA/WinField-United-Forage-Nutrition-Insights-Intern--Summer-2027_R-40234",
-      "external_id": "R-40234",
-      "verified_at": "2026-10-17T13:47:16Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-d92d42fd7841",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "WinField United FGI Marketing Intern, Summer 2027",
-      "location": "Arden Hills, MN (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "WinField United FGI Marketing Intern, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-13",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/WinField-United-FGI-Marketing-Intern--Summer-2027_R-40233",
-      "external_id": "R-40233",
-      "verified_at": "2026-10-17T13:47:16Z",
       "match_score": 85
     },
     {
@@ -5055,6 +5093,33 @@
       "match_score": 90
     },
     {
+      "id": "duke-energy-890d7bbd7905",
+      "source_key": "duke-energy",
+      "fortune_rank": 145,
+      "fortune_500": true,
+      "company": "Duke Energy",
+      "title": "Substation / Line Tech Internship (Carolinas) - Summer 2027",
+      "location": "Leland, NC",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Important Application Submission Information In order to ensure your application is successfully received before the job posting expires, please submit your application by 11:59 PM on Thursday, October 29, 2026 More than a career - a chance to make a difference in people's lives",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "lifications Currently enrolled and pursuing a two degree in Engineering Technology or related field Graduation date must be after August 2027 Must have a valid State…",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-13",
+      "deadline": "2026-10-30",
+      "url": "https://dukeenergy.wd1.myworkdayjobs.com/Search/job/Leland-NC/Substation---Line-Tech-Internship--Carolinas----Summer-2027_R41173",
+      "external_id": "R41173",
+      "verified_at": "2026-10-19T06:17:57Z",
+      "match_score": 90
+    },
+    {
       "id": "constellation-brands-42e0e4206e7b",
       "source_key": "constellation-brands",
       "fortune_rank": 416,
@@ -5457,33 +5522,6 @@
       "match_score": 85
     },
     {
-      "id": "duke-energy-890d7bbd7905",
-      "source_key": "duke-energy",
-      "fortune_rank": 145,
-      "fortune_500": true,
-      "company": "Duke Energy",
-      "title": "Substation / Line Tech Internship (Carolinas) - Summer 2027",
-      "location": "Leland, NC",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Important Application Submission Information In order to ensure your application is successfully received before the job posting expires, please submit your application by 11:59 PM on Thursday, October 29, 2026 More than a career - a chance to make a difference in people's lives",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "lifications Currently enrolled and pursuing a two degree in Engineering Technology or related field Graduation date must be after August 2027 Must have a valid State…",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-12",
-      "deadline": "2026-10-30",
-      "url": "https://dukeenergy.wd1.myworkdayjobs.com/Search/job/Leland-NC/Substation---Line-Tech-Internship--Carolinas----Summer-2027_R41173",
-      "external_id": "R41173",
-      "verified_at": "2026-10-17T13:46:39Z",
-      "match_score": 90
-    },
-    {
       "id": "bristol-myers-squibb-4909c44f6f9c",
       "source_key": "bristol-myers-squibb",
       "fortune_rank": 97,
@@ -5878,6 +5916,36 @@
       "match_score": 85
     },
     {
+      "id": "citigroup-3044865a49c6",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Long Term Internship – Investment Banking, Turkey – Istanbul, 2027",
+      "location": "Istanbul Turkey",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Risk"
+      ],
+      "summary": "Job Description You're the brains behind our work. You're ready to bring your knowledge from the classroom to the boardroom and Citi wants to help you get there. Whether it's honing your skills or building your network, we know that success can't come without growth",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-10",
+      "deadline": "2026-10-23",
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Istanbul--Turkey/Long-Term-Internship---Investment-Banking--Turkey---Istanbul--2027_26999998",
+      "external_id": "26999998",
+      "verified_at": "2026-10-19T06:20:46Z",
+      "match_score": 85
+    },
+    {
       "id": "boeing-00c6f4b18b5c",
       "source_key": "boeing",
       "fortune_rank": 47,
@@ -5931,6 +5999,35 @@
       "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/ESP---Madrid-Spain/Aerospace-Engineering-Internship_JR2026525215-1",
       "external_id": "JR2026525215",
       "verified_at": "2026-10-18T04:42:58Z",
+      "match_score": 85
+    },
+    {
+      "id": "amgen-de16fffd42e5",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "Undergrad Co-op - Accelerating Attribute Sciences’ Data Compilation Capabilities & Agility",
+      "location": "US - Massachusetts - Cambridge",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "AI / ML",
+        "Product"
+      ],
+      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-10",
+      "deadline": null,
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---Massachusetts---Cambridge/Undergrad-Co-op---Accelerating-Attribute-Sciences--Data-Compilation-Capabilities---Agility_R-258090",
+      "external_id": "R-258090",
+      "verified_at": "2026-10-19T06:20:23Z",
       "match_score": 85
     },
     {
@@ -6230,6 +6327,60 @@
       "url": "https://travelers.wd5.myworkdayjobs.com/External/job/IL---Chicago/Bond-and-Specialty-Insurance-Intern--Underwriting-Professional-Development-Program_R-53090",
       "external_id": "R-53090",
       "verified_at": "2026-10-18T20:51:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "oneok-1eb16fdc316a",
+      "source_key": "oneok",
+      "fortune_rank": 138,
+      "fortune_500": true,
+      "company": "Oneok",
+      "title": "Instrumentation and Electrical Technician Intern",
+      "location": "Williston, ND",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-09",
+      "deadline": null,
+      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Williston-ND/Instrumentation-and-Electrical-Technician-Intern_R8360",
+      "external_id": "R8360",
+      "verified_at": "2026-10-19T06:17:54Z",
+      "match_score": 85
+    },
+    {
+      "id": "oneok-80a1c3b49c49",
+      "source_key": "oneok",
+      "fortune_rank": 138,
+      "fortune_500": true,
+      "company": "Oneok",
+      "title": "Field Mechanic Intern",
+      "location": "Williston, ND",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Leading midstream service provider. JOB SUMMARY Exciting internship opportunity as a Field Mechanic Intern at ONEOK, Inc. You will gain hands-on experience in mechanical work on equipment at our natural gas gathering and processing facilities",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-09",
+      "deadline": null,
+      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Williston-ND/Intern---Field--DOT---Unfilled-_R8359-1",
+      "external_id": "R8359",
+      "verified_at": "2026-10-19T06:17:54Z",
       "match_score": 85
     },
     {
@@ -6783,36 +6934,6 @@
       "match_score": 85
     },
     {
-      "id": "citigroup-3044865a49c6",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Long Term Internship – Investment Banking, Turkey – Istanbul, 2027",
-      "location": "Istanbul Turkey",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Risk"
-      ],
-      "summary": "Job Description You're the brains behind our work. You're ready to bring your knowledge from the classroom to the boardroom and Citi wants to help you get there. Whether it's honing your skills or building your network, we know that success can't come without growth",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-09",
-      "deadline": "2026-10-23",
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Istanbul--Turkey/Long-Term-Internship---Investment-Banking--Turkey---Istanbul--2027_26999998",
-      "external_id": "26999998",
-      "verified_at": "2026-10-17T17:18:42Z",
-      "match_score": 85
-    },
-    {
       "id": "carrier-global-c760a52d3a38",
       "source_key": "carrier-global",
       "fortune_rank": 212,
@@ -6973,35 +7094,6 @@
       "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Phoenix-AZ-United-States-of-America/Intern---Associate-Portfolio-Executive-Starting-Summer-2027_R49432",
       "external_id": "R49432",
       "verified_at": "2026-10-17T17:16:18Z",
-      "match_score": 85
-    },
-    {
-      "id": "amgen-de16fffd42e5",
-      "source_key": "amgen",
-      "fortune_rank": 129,
-      "fortune_500": true,
-      "company": "Amgen",
-      "title": "Undergrad Co-op - Accelerating Attribute Sciences’ Data Compilation Capabilities & Agility",
-      "location": "US - Massachusetts - Cambridge",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "AI / ML",
-        "Product"
-      ],
-      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-09",
-      "deadline": null,
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---Massachusetts---Cambridge/Undergrad-Co-op---Accelerating-Attribute-Sciences--Data-Compilation-Capabilities---Agility_R-258090",
-      "external_id": "R-258090",
-      "verified_at": "2026-10-17T17:18:41Z",
       "match_score": 85
     },
     {
@@ -7325,57 +7417,31 @@
       "match_score": 90
     },
     {
-      "id": "oneok-1eb16fdc316a",
+      "id": "oneok-917357e9ad13",
       "source_key": "oneok",
       "fortune_rank": 138,
       "fortune_500": true,
       "company": "Oneok",
-      "title": "Instrumentation and Electrical Technician Intern",
-      "location": "Williston, ND",
+      "title": "Plant Operator Intern",
+      "location": "Watford City, ND",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
+        "Operations analyst",
         "Asset-based lending"
       ],
       "tags": [
         "Operations"
       ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
+      "summary": "Leading midstream service provider. JOB SUMMARY About ONEOK: ONEOK, Inc. is a leading midstream service provider in the energy sector, committed to delivering energy products and services vital to an advancing world. We create exceptional value for our stakeholders by providing…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-10-08",
       "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Williston-ND/Instrumentation-and-Electrical-Technician-Intern_R8360",
-      "external_id": "R8360",
-      "verified_at": "2026-10-17T13:46:35Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-80a1c3b49c49",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Field Mechanic Intern",
-      "location": "Williston, ND",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Exciting internship opportunity as a Field Mechanic Intern at ONEOK, Inc. You will gain hands-on experience in mechanical work on equipment at our natural gas gathering and processing facilities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-08",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Williston-ND/Intern---Field--DOT---Unfilled-_R8359-1",
-      "external_id": "R8359",
-      "verified_at": "2026-10-17T13:46:35Z",
+      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Watford-City-ND/Plant-Operator-Intern_R8361-1",
+      "external_id": "R8361",
+      "verified_at": "2026-10-19T06:17:54Z",
       "match_score": 85
     },
     {
@@ -7781,7 +7847,7 @@
       "deadline": "2026-11-14",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Sales-Development-Program---Internship_R-120996",
       "external_id": "R-120996",
-      "verified_at": "2026-10-19T01:21:59Z",
+      "verified_at": "2026-10-19T06:19:49Z",
       "match_score": 85
     },
     {
@@ -7812,31 +7878,85 @@
       "match_score": 85
     },
     {
-      "id": "oneok-917357e9ad13",
+      "id": "oneok-d6895e7705fc",
       "source_key": "oneok",
       "fortune_rank": 138,
       "fortune_500": true,
       "company": "Oneok",
-      "title": "Plant Operator Intern",
-      "location": "Watford City, ND",
+      "title": "Field Mechanic Intern",
+      "location": "Eufaula, OK",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
-        "Operations analyst",
         "Asset-based lending"
       ],
       "tags": [
         "Operations"
       ],
-      "summary": "Leading midstream service provider. JOB SUMMARY About ONEOK: ONEOK, Inc. is a leading midstream service provider in the energy sector, committed to delivering energy products and services vital to an advancing world. We create exceptional value for our stakeholders by providing…",
+      "summary": "Leading midstream service provider. JOB SUMMARY Exciting internship opportunity as a Field Mechanic Intern at ONEOK, Inc. You will gain hands-on experience in mechanical work on equipment at our natural gas gathering and processing facilities",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-10-07",
       "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Watford-City-ND/Plant-Operator-Intern_R8361-1",
-      "external_id": "R8361",
-      "verified_at": "2026-10-17T13:46:35Z",
+      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Eufaula-OK/Field-Mechanic-Intern_R8442-1",
+      "external_id": "R8442",
+      "verified_at": "2026-10-19T06:17:54Z",
+      "match_score": 85
+    },
+    {
+      "id": "oneok-e4d5495cb736",
+      "source_key": "oneok",
+      "fortune_rank": 138,
+      "fortune_500": true,
+      "company": "Oneok",
+      "title": "Field Mechanic Intern",
+      "location": "Midland, TX",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Leading midstream service provider. JOB SUMMARY Exciting internship opportunity as a Field Mechanic Intern at ONEOK, Inc. You will gain hands-on experience in mechanical work on equipment at our natural gas gathering and processing facilities",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-07",
+      "deadline": null,
+      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Midland-TX/Field-Mechanic-Intern_R8366-1",
+      "external_id": "R8366",
+      "verified_at": "2026-10-19T06:17:54Z",
+      "match_score": 85
+    },
+    {
+      "id": "oneok-63ee7d6c2ed8",
+      "source_key": "oneok",
+      "fortune_rank": 138,
+      "fortune_500": true,
+      "company": "Oneok",
+      "title": "Blending Coordinator Intern",
+      "location": "Houston, TX",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as a Blending Coordinator Intern in Houston, TX. This hands-on internship is ideal for students in vocational or technical programs such as Pipeline, Plant or Terminal Operations, Process Technology, or similar fields",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-07",
+      "deadline": null,
+      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Houston-TX/Blending-Coordinator-Intern_R8582-1",
+      "external_id": "R8582",
+      "verified_at": "2026-10-19T06:17:54Z",
       "match_score": 85
     },
     {
@@ -8195,6 +8315,33 @@
       "external_id": "R_14662",
       "verified_at": "2026-10-18T23:18:11Z",
       "match_score": 90
+    },
+    {
+      "id": "amgen-fa9649a4bd81",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "Undergrad Co-op - Electrical Engineering (Jan - Mar 2027)",
+      "location": "US - Rhode Island - West Greenwich",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-07",
+      "deadline": null,
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---Rhode-Island---West-Greenwich/Undergrad-Co-op---Electrical-Engineering--Jan---Mar-2027-_R-257526",
+      "external_id": "R-257526",
+      "verified_at": "2026-10-19T06:20:23Z",
+      "match_score": 85
     },
     {
       "id": "american-electric-power-69ebf38a830f",
@@ -8616,88 +8763,6 @@
       "match_score": 85
     },
     {
-      "id": "oneok-d6895e7705fc",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Field Mechanic Intern",
-      "location": "Eufaula, OK",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Exciting internship opportunity as a Field Mechanic Intern at ONEOK, Inc. You will gain hands-on experience in mechanical work on equipment at our natural gas gathering and processing facilities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-06",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Eufaula-OK/Field-Mechanic-Intern_R8442-1",
-      "external_id": "R8442",
-      "verified_at": "2026-10-17T13:46:35Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-e4d5495cb736",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Field Mechanic Intern",
-      "location": "Midland, TX",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Exciting internship opportunity as a Field Mechanic Intern at ONEOK, Inc. You will gain hands-on experience in mechanical work on equipment at our natural gas gathering and processing facilities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-06",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Midland-TX/Field-Mechanic-Intern_R8366-1",
-      "external_id": "R8366",
-      "verified_at": "2026-10-17T13:46:35Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-63ee7d6c2ed8",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Blending Coordinator Intern",
-      "location": "Houston, TX",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as a Blending Coordinator Intern in Houston, TX. This hands-on internship is ideal for students in vocational or technical programs such as Pipeline, Plant or Terminal Operations, Process Technology, or similar fields",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-06",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Houston-TX/Blending-Coordinator-Intern_R8582-1",
-      "external_id": "R8582",
-      "verified_at": "2026-10-17T13:46:35Z",
-      "match_score": 85
-    },
-    {
       "id": "nasdaq-5461064a613b",
       "source_key": "nasdaq",
       "fortune_rank": 470,
@@ -8834,33 +8899,6 @@
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Birr/Design-Liaison-Engineering-Intern_R5054667-2",
       "external_id": "R5054667",
       "verified_at": "2026-10-18T23:20:26Z",
-      "match_score": 85
-    },
-    {
-      "id": "amgen-fa9649a4bd81",
-      "source_key": "amgen",
-      "fortune_rank": 129,
-      "fortune_500": true,
-      "company": "Amgen",
-      "title": "Undergrad Co-op - Electrical Engineering (Jan - Mar 2027)",
-      "location": "US - Rhode Island - West Greenwich",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-06",
-      "deadline": null,
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---Rhode-Island---West-Greenwich/Undergrad-Co-op---Electrical-Engineering--Jan---Mar-2027-_R-257526",
-      "external_id": "R-257526",
-      "verified_at": "2026-10-17T17:18:41Z",
       "match_score": 85
     },
     {
@@ -9873,7 +9911,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Human-Resources-Intern--Summer-2027_115918",
       "external_id": "115918",
-      "verified_at": "2026-10-19T01:20:21Z",
+      "verified_at": "2026-10-19T06:17:54Z",
       "match_score": 85
     },
     {
@@ -9902,6 +9940,33 @@
       "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Toluca/Human-Resources-Intern_JR104694",
       "external_id": "JR104694",
       "verified_at": "2026-10-18T00:08:17Z",
+      "match_score": 85
+    },
+    {
+      "id": "amgen-874640167c92",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "Undergrad Co-op – Drug Substance Technologies Synthetics",
+      "location": "US - Massachusetts - Cambridge",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-03",
+      "deadline": null,
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---Massachusetts---Cambridge/Undergrad-Co-op---Drug-Substance-Technologies-Synthetics_R-255701",
+      "external_id": "R-255701",
+      "verified_at": "2026-10-19T06:20:22Z",
       "match_score": 85
     },
     {
@@ -10112,6 +10177,87 @@
       "match_score": 85
     },
     {
+      "id": "oneok-93f5e09a43f7",
+      "source_key": "oneok",
+      "fortune_rank": 138,
+      "fortune_500": true,
+      "company": "Oneok",
+      "title": "Instrumentation and Electrical Technician Intern (Tulsa or Oklahoma City, OK)",
+      "location": "Oklahoma City, OK",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-02",
+      "deadline": null,
+      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Oklahoma-City-OK/Instrumentation-and-Electrical-Technician-Intern--Tulsa-or-Oklahoma-City--OK-_R8441-1",
+      "external_id": "R8441",
+      "verified_at": "2026-10-19T06:17:54Z",
+      "match_score": 85
+    },
+    {
+      "id": "oneok-1d2832824248",
+      "source_key": "oneok",
+      "fortune_rank": 138,
+      "fortune_500": true,
+      "company": "Oneok",
+      "title": "Instrumentation and Electrical Technician Intern",
+      "location": "Lubbock, TX",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-02",
+      "deadline": null,
+      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Lubbock-TX/Instrumentation-and-Electrical-Technician-Intern_R8440-1",
+      "external_id": "R8440",
+      "verified_at": "2026-10-19T06:17:54Z",
+      "match_score": 85
+    },
+    {
+      "id": "oneok-4e1e90ab0d4e",
+      "source_key": "oneok",
+      "fortune_rank": 138,
+      "fortune_500": true,
+      "company": "Oneok",
+      "title": "Instrumentation & Electrical Technician Intern",
+      "location": "Midland, TX",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-02",
+      "deadline": null,
+      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Midland-TX/Instrumentation---Electrical-Technician-Intern_R8354",
+      "external_id": "R8354",
+      "verified_at": "2026-10-19T06:17:54Z",
+      "match_score": 85
+    },
+    {
       "id": "mosaic-3cb61e3473ea",
       "source_key": "mosaic",
       "fortune_rank": 366,
@@ -10170,6 +10316,34 @@
       "match_score": 85
     },
     {
+      "id": "land-o-lakes-e54a4d303723",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "Purina Farm & Ranch Sales Intern",
+      "location": "Virtual (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Purina Farm & Ranch Sales Intern As a Purina Farm & Ranch Feed Sales Intern, you will be working alongside Purina Animal Nutrition Retail Operations Managers with national retailers, such as Tractor Supply Co and Regional Farm and Ranch accounts",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-02",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Purina-Farm---Ranch-Sales-Intern_R-40708",
+      "external_id": "R-40708",
+      "verified_at": "2026-10-19T06:18:37Z",
+      "match_score": 85
+    },
+    {
       "id": "j-m-smucker-3c9b68498186",
       "source_key": "smucker",
       "fortune_rank": 456,
@@ -10194,7 +10368,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/McCalla-AL/Human-Resources-Intern--McCalla--AL--Summer-2027_115887",
       "external_id": "115887",
-      "verified_at": "2026-10-19T01:20:22Z",
+      "verified_at": "2026-10-19T06:17:55Z",
       "match_score": 85
     },
     {
@@ -10222,7 +10396,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Emporia-KS/Human-Resources-Intern--Emporia--KS--Summer-2027_115888",
       "external_id": "115888",
-      "verified_at": "2026-10-19T01:20:22Z",
+      "verified_at": "2026-10-19T06:17:55Z",
       "match_score": 85
     },
     {
@@ -10247,7 +10421,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Corporate-Communications-Intern--Summer-2027_115919",
       "external_id": "115919",
-      "verified_at": "2026-10-19T01:20:21Z",
+      "verified_at": "2026-10-19T06:17:54Z",
       "match_score": 85
     },
     {
@@ -10335,30 +10509,31 @@
       "match_score": 85
     },
     {
-      "id": "amgen-874640167c92",
-      "source_key": "amgen",
-      "fortune_rank": 129,
+      "id": "citigroup-6c704430d199",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
       "fortune_500": true,
-      "company": "Amgen",
-      "title": "Undergrad Co-op – Drug Substance Technologies Synthetics",
-      "location": "US - Massachusetts - Cambridge",
+      "company": "Citigroup",
+      "title": "Banking, Investment Banking, Real Estate, Summer Analyst, London, United Kingdom 2027",
+      "location": "London United Kingdom",
       "region": "Global",
-      "opportunity_type": "Co-op",
+      "opportunity_type": "Internship",
       "categories": [
         "Asset-based lending"
       ],
       "tags": [
-        "Product"
+        "Excel",
+        "Credit"
       ],
-      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
+      "summary": "You're the brains behind our work: You’re ready to bring your knowledge from the classroom to the boardroom and Citi wants to help you get there. Whether it’s honing your skills or building your network, we know that success can’t come without growth",
       "grad_status": "No graduation year listed",
       "grad_evidence": "School enrollment is required, but no graduation year is stated.",
       "freshman_friendly": false,
       "posted_date": "2026-10-02",
       "deadline": null,
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---Massachusetts---Cambridge/Undergrad-Co-op---Drug-Substance-Technologies-Synthetics_R-255701",
-      "external_id": "R-255701",
-      "verified_at": "2026-10-17T17:18:40Z",
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/London--United-Kingdom/Banking--Investment-Banking--Real-Estate--Summer-Analyst--London--United-Kingdom-2027_26998422",
+      "external_id": "26998422",
+      "verified_at": "2026-10-19T06:20:47Z",
       "match_score": 85
     },
     {
@@ -10512,115 +10687,6 @@
       "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Inventory-Analyst-Intern---Minneapolis--MN--Starting-Summer--2027-_R0000450965",
       "external_id": "R0000450965",
       "verified_at": "2026-10-18T04:42:48Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-93f5e09a43f7",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Instrumentation and Electrical Technician Intern (Tulsa or Oklahoma City, OK)",
-      "location": "Oklahoma City, OK",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-01",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Oklahoma-City-OK/Instrumentation-and-Electrical-Technician-Intern--Tulsa-or-Oklahoma-City--OK-_R8441-1",
-      "external_id": "R8441",
-      "verified_at": "2026-10-17T13:46:35Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-1d2832824248",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Instrumentation and Electrical Technician Intern",
-      "location": "Lubbock, TX",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-01",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Lubbock-TX/Instrumentation-and-Electrical-Technician-Intern_R8440-1",
-      "external_id": "R8440",
-      "verified_at": "2026-10-17T13:46:35Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-4e1e90ab0d4e",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Instrumentation & Electrical Technician Intern",
-      "location": "Midland, TX",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-01",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Midland-TX/Instrumentation---Electrical-Technician-Intern_R8354",
-      "external_id": "R8354",
-      "verified_at": "2026-10-17T13:46:35Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-e54a4d303723",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Purina Farm & Ranch Sales Intern",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Purina Farm & Ranch Sales Intern As a Purina Farm & Ranch Feed Sales Intern, you will be working alongside Purina Animal Nutrition Retail Operations Managers with national retailers, such as Tractor Supply Co and Regional Farm and Ranch accounts",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-01",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Purina-Farm---Ranch-Sales-Intern_R-40708",
-      "external_id": "R-40708",
-      "verified_at": "2026-10-17T13:47:17Z",
       "match_score": 85
     },
     {
@@ -10841,62 +10907,6 @@
       "url": "https://cbrands.wd5.myworkdayjobs.com/CBI_External_Careers/job/Chicago-Illinois/Intern--Procurement_R-41389",
       "external_id": "R-41389",
       "verified_at": "2026-10-18T14:03:57Z",
-      "match_score": 85
-    },
-    {
-      "id": "citigroup-6c704430d199",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Banking, Investment Banking, Real Estate, Summer Analyst, London, United Kingdom 2027",
-      "location": "London United Kingdom",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Credit"
-      ],
-      "summary": "You're the brains behind our work: You’re ready to bring your knowledge from the classroom to the boardroom and Citi wants to help you get there. Whether it’s honing your skills or building your network, we know that success can’t come without growth",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-01",
-      "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/London--United-Kingdom/Banking--Investment-Banking--Real-Estate--Summer-Analyst--London--United-Kingdom-2027_26998422",
-      "external_id": "26998422",
-      "verified_at": "2026-10-17T17:18:43Z",
-      "match_score": 85
-    },
-    {
-      "id": "citigroup-e722020e2e2e",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Banking, Investment Banking - Financial Institution Group (FIG), Summer Analyst, London, United Kingdom 2027",
-      "location": "London United Kingdom",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Credit"
-      ],
-      "summary": "You're the brains behind our work: You’re ready to bring your knowledge from the classroom to the boardroom and Citi wants to help you get there. Whether it’s honing your skills or building your network, we know that success can’t come without growth",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-01",
-      "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/London--United-Kingdom/Banking--Investment-Banking---Financial-Institution-Group--FIG---Summer-Analyst--London--United-Kingdom-2027_26998415",
-      "external_id": "26998415",
-      "verified_at": "2026-10-17T17:19:30Z",
       "match_score": 85
     },
     {
@@ -11254,6 +11264,39 @@
       "match_score": 85
     },
     {
+      "id": "citigroup-d9bc33bccaf1",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Banking, Corporate Banking, Relationship Analyst, Placement Analyst Internship, Paris - France 2027",
+      "location": "Paris France",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Commercial banking",
+        "Risk management",
+        "Corporate treasury"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Finance",
+        "Banking",
+        "Credit"
+      ],
+      "summary": "You’re ready to bring your knowledge from the classroom to the boardroom, and Citi wants to help you get there. Whether it’s honing your skills or building your network, we know that success can’t come without growth. Our programs equip you with the knowledge and training you…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-30",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Corporate-Banking--Relationship-Analyst--Placement-Analyst-Internship--Paris---France-2027_26992471",
+      "external_id": "26992471",
+      "verified_at": "2026-10-19T06:20:47Z",
+      "match_score": 85
+    },
+    {
       "id": "c-h-robinson-worldwide-1acbffd23baa",
       "source_key": "c-h-robinson-worldwide",
       "fortune_rank": 277,
@@ -11520,39 +11563,6 @@
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Erlanger/GE-Vernova-Manufacturing-Engineering-Intern---Spring-2027_R5053611-2",
       "external_id": "R5053611",
       "verified_at": "2026-10-18T23:20:27Z",
-      "match_score": 85
-    },
-    {
-      "id": "citigroup-d9bc33bccaf1",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Banking, Corporate Banking, Relationship Analyst, Placement Analyst Internship, Paris - France 2027",
-      "location": "Paris France",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Commercial banking",
-        "Risk management",
-        "Corporate treasury"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Finance",
-        "Banking",
-        "Credit"
-      ],
-      "summary": "You’re ready to bring your knowledge from the classroom to the boardroom, and Citi wants to help you get there. Whether it’s honing your skills or building your network, we know that success can’t come without growth. Our programs equip you with the knowledge and training you…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-29",
-      "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Corporate-Banking--Relationship-Analyst--Placement-Analyst-Internship--Paris---France-2027_26992471",
-      "external_id": "26992471",
-      "verified_at": "2026-10-17T17:18:43Z",
       "match_score": 85
     },
     {
@@ -12039,6 +12049,33 @@
       "match_score": 90
     },
     {
+      "id": "land-o-lakes-f9b8a4a9b0e7",
+      "source_key": "land-o-lakes",
+      "fortune_rank": 273,
+      "fortune_500": true,
+      "company": "Land O'Lakes",
+      "title": "Feed Sales Intern - Great Lakes Region",
+      "location": "Virtual (USA)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Feed Sales Intern - Great Lakes Region Position Summary: As a Purina Feed Sales Intern, you will be employed by Land O'Lakes, Inc. and placed in a market with participating dealers and cooperatives. This is a field-based sales internship built for students who want to turn…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-25",
+      "deadline": null,
+      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Feed-Sales-Intern---Great-Lakes-Region_R-40359",
+      "external_id": "R-40359",
+      "verified_at": "2026-10-19T06:18:37Z",
+      "match_score": 85
+    },
+    {
       "id": "ge-vernova-89682d3e6572",
       "source_key": "ge-vernova",
       "fortune_rank": 124,
@@ -12153,6 +12190,97 @@
       "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/CHN---DALIAN/Technical-Intern_51589634",
       "external_id": "51589634",
       "verified_at": "2026-10-18T00:07:56Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-cc08bc720881",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Citi Global Wealth, Summer Analyst, Geneva - Switzerland, 2027",
+      "location": "Geneva Switzerland",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Credit"
+      ],
+      "summary": "Citi's Global Wealth is looking for Summer Analysts to join the Global Wealth team in Geneva. Citi's Global Wealth works with individuals to help them manage their wealth and plan for their families' futures. Citi's Global Wealth services are built upon three core capabilities:…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-25",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Geneva--Switzerland/Citi-Global-Wealth--Summer-Analyst--Geneva---Switzerland--2027_26994853",
+      "external_id": "26994853",
+      "verified_at": "2026-10-19T06:20:52Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-dd1d96235c42",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Citi Global Wealth, Summer Analyst, Bertrange - Luxembourg 2027",
+      "location": "Bertrange Luxembourg",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Credit"
+      ],
+      "summary": "Citi's Global Wealth is looking for Summer Analysts to join the Global Wealth team in Luxembourg. Citi's Global Wealth works with individuals to help them manage their wealth and plan for their families' futures. Citi's Global Wealth services are built upon three core…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-25",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Bertrange--Luxembourg/Citi-Global-Wealth--Summer-Analyst--Bertrange---Luxembourg-2027_26994961",
+      "external_id": "26994961",
+      "verified_at": "2026-10-19T06:20:52Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-c872b8000a0a",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Banking, Corporate Banking, Summer Analyst, Amsterdam - The Netherlands, 2027",
+      "location": "Amsterdam Netherlands",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Commercial banking",
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Product",
+        "Finance",
+        "Banking",
+        "Credit"
+      ],
+      "summary": "You're ready to bring your knowledge from the classroom to the boardroom and Citi wants to help you get there. Whether it's honing your skills or building your network, we know that success can't come without growth. Our programs equip you with the knowledge and training you…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-25",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Amsterdam--Netherlands/Banking--Corporate-Banking--Summer-Analyst--Amsterdam---The-Netherlands--2027_26994567",
+      "external_id": "26994567",
+      "verified_at": "2026-10-19T06:21:37Z",
       "match_score": 85
     },
     {
@@ -12271,33 +12399,6 @@
       "match_score": 85
     },
     {
-      "id": "land-o-lakes-f9b8a4a9b0e7",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Feed Sales Intern - Great Lakes Region",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Feed Sales Intern - Great Lakes Region Position Summary: As a Purina Feed Sales Intern, you will be employed by Land O'Lakes, Inc. and placed in a market with participating dealers and cooperatives. This is a field-based sales internship built for students who want to turn…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-24",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Feed-Sales-Intern---Great-Lakes-Region_R-40359",
-      "external_id": "R-40359",
-      "verified_at": "2026-10-17T13:47:16Z",
-      "match_score": 85
-    },
-    {
       "id": "johnson-johnson-1cc8436faa1e",
       "source_key": "johnson-johnson",
       "fortune_rank": 45,
@@ -12349,7 +12450,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Buffalo-NY/Human-Resources-Intern--Buffalo--NY--Summer-2027_115886",
       "external_id": "115886",
-      "verified_at": "2026-10-19T01:20:23Z",
+      "verified_at": "2026-10-19T06:17:55Z",
       "match_score": 85
     },
     {
@@ -12406,97 +12507,6 @@
       "match_score": 85
     },
     {
-      "id": "citigroup-cc08bc720881",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Citi Global Wealth, Summer Analyst, Geneva - Switzerland, 2027",
-      "location": "Geneva Switzerland",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Wealth management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Credit"
-      ],
-      "summary": "Citi's Global Wealth is looking for Summer Analysts to join the Global Wealth team in Geneva. Citi's Global Wealth works with individuals to help them manage their wealth and plan for their families' futures. Citi's Global Wealth services are built upon three core capabilities:…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-24",
-      "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Geneva--Switzerland/Citi-Global-Wealth--Summer-Analyst--Geneva---Switzerland--2027_26994853",
-      "external_id": "26994853",
-      "verified_at": "2026-10-17T17:18:48Z",
-      "match_score": 85
-    },
-    {
-      "id": "citigroup-dd1d96235c42",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Citi Global Wealth, Summer Analyst, Bertrange - Luxembourg 2027",
-      "location": "Bertrange Luxembourg",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Wealth management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Credit"
-      ],
-      "summary": "Citi's Global Wealth is looking for Summer Analysts to join the Global Wealth team in Luxembourg. Citi's Global Wealth works with individuals to help them manage their wealth and plan for their families' futures. Citi's Global Wealth services are built upon three core…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-24",
-      "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Bertrange--Luxembourg/Citi-Global-Wealth--Summer-Analyst--Bertrange---Luxembourg-2027_26994961",
-      "external_id": "26994961",
-      "verified_at": "2026-10-17T17:18:48Z",
-      "match_score": 85
-    },
-    {
-      "id": "citigroup-c872b8000a0a",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Banking, Corporate Banking, Summer Analyst, Amsterdam - The Netherlands, 2027",
-      "location": "Amsterdam Netherlands",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Commercial banking",
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product",
-        "Finance",
-        "Banking",
-        "Credit"
-      ],
-      "summary": "You're ready to bring your knowledge from the classroom to the boardroom and Citi wants to help you get there. Whether it's honing your skills or building your network, we know that success can't come without growth. Our programs equip you with the knowledge and training you…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-24",
-      "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Amsterdam--Netherlands/Banking--Corporate-Banking--Summer-Analyst--Amsterdam---The-Netherlands--2027_26994567",
-      "external_id": "26994567",
-      "verified_at": "2026-10-17T17:19:17Z",
-      "match_score": 85
-    },
-    {
       "id": "c-h-robinson-worldwide-7b35d094ee8b",
       "source_key": "c-h-robinson-worldwide",
       "fortune_rank": 277,
@@ -12548,6 +12558,35 @@
       "url": "https://chrobinson.wd5.myworkdayjobs.com/CHRobinson/job/Conshohocken-PA-United-States-of-America/Intern---Associate-Portfolio-Executive-Summer-2027_R49655-1",
       "external_id": "R49655",
       "verified_at": "2026-10-17T17:16:17Z",
+      "match_score": 85
+    },
+    {
+      "id": "amgen-4f94e2d8a199",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "Undergrad Co-op – MCS Manufacturing Associate",
+      "location": "US - California - Thousand Oaks",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Tableau",
+        "Product",
+        "Operations"
+      ],
+      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-24",
+      "deadline": null,
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---California---Thousand-Oaks/Undergrad-Co-op---MCS-Manufacturing-Associate_R-256774",
+      "external_id": "R-256774",
+      "verified_at": "2026-10-19T06:20:22Z",
       "match_score": 85
     },
     {
@@ -12968,6 +13007,67 @@
       "match_score": 85
     },
     {
+      "id": "citigroup-dbb39b439a64",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Teller Part-Time (20 Hours) - Co-Op City Branch",
+      "location": "Bronx New York United States",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Risk"
+      ],
+      "summary": "The Teller is an entry-level position responsible for assisting with the execution of branch activities, including day-to-day delivery of client-facing services and processing transactions, in coordination with the Customer Service function",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-23",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Bronx-New-York-United-States/Teller-Part-Time--20-Hours----Co-Op-City-Branch_26996134",
+      "external_id": "26996134",
+      "verified_at": "2026-10-19T06:20:47Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-eb4a2459cca3",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Banking, Corporate Banking, Summer Analyst, Zurich - Switzerland, 2027",
+      "location": "Zurich Switzerland",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Commercial banking",
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Product",
+        "Finance",
+        "Banking",
+        "Credit"
+      ],
+      "summary": "You're ready to bring your knowledge from the classroom to the boardroom, and Citi wants to help you get there. Whether it's honing your skills or building your network, we know that success can't come without growth. Our programs equip you with the knowledge and training you…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-09-23",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Zurich--Switzerland/Banking--Corporate-Banking--Summer-Analyst--Zurich---Switzerland--2027_26994896",
+      "external_id": "26994896",
+      "verified_at": "2026-10-19T06:20:52Z",
+      "match_score": 85
+    },
+    {
       "id": "booz-allen-hamilton-holding-b267955724ac",
       "source_key": "booz-allen-hamilton-holding",
       "fortune_rank": 372,
@@ -13018,35 +13118,6 @@
       "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Sheffield-UK/Manufacturing-Engineering-Internship_JR2026524411",
       "external_id": "JR2026524411",
       "verified_at": "2026-10-18T04:42:57Z",
-      "match_score": 85
-    },
-    {
-      "id": "amgen-4f94e2d8a199",
-      "source_key": "amgen",
-      "fortune_rank": 129,
-      "fortune_500": true,
-      "company": "Amgen",
-      "title": "Undergrad Co-op – MCS Manufacturing Associate",
-      "location": "US - California - Thousand Oaks",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Tableau",
-        "Product",
-        "Operations"
-      ],
-      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-23",
-      "deadline": null,
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---California---Thousand-Oaks/Undergrad-Co-op---MCS-Manufacturing-Associate_R-256774",
-      "external_id": "R-256774",
-      "verified_at": "2026-10-17T17:18:40Z",
       "match_score": 85
     },
     {
@@ -13160,64 +13231,34 @@
       "match_score": 85
     },
     {
-      "id": "citigroup-dbb39b439a64",
+      "id": "citigroup-e82c6b5427fe",
       "source_key": "citigroup",
       "fortune_rank": 24,
       "fortune_500": true,
       "company": "Citigroup",
-      "title": "Teller Part-Time (20 Hours) - Co-Op City Branch",
-      "location": "Bronx New York United States",
+      "title": "Market Operations Junior Analyst Program Hybrid",
+      "location": "Getzville New York United States",
       "region": "United States",
-      "opportunity_type": "Co-op",
+      "opportunity_type": "Internship",
       "categories": [
         "Asset-based lending"
       ],
       "tags": [
+        "Excel",
         "AI / ML",
-        "Risk"
+        "Product",
+        "Operations",
+        "Finance"
       ],
-      "summary": "The Teller is an entry-level position responsible for assisting with the execution of branch activities, including day-to-day delivery of client-facing services and processing transactions, in coordination with the Customer Service function",
+      "summary": "Team/ Role Overview Join Citi’s Markets Operations team and start your professional journey at the heart of global financial markets. This is your opportunity to step directly into a critical role where you’ll gain hands on experience supporting the processes that keep Citi’s…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-09-22",
       "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Bronx-New-York-United-States/Teller-Part-Time--20-Hours----Co-Op-City-Branch_26996134",
-      "external_id": "26996134",
-      "verified_at": "2026-10-17T17:18:43Z",
-      "match_score": 85
-    },
-    {
-      "id": "citigroup-eb4a2459cca3",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Banking, Corporate Banking, Summer Analyst, Zurich - Switzerland, 2027",
-      "location": "Zurich Switzerland",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Commercial banking",
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product",
-        "Finance",
-        "Banking",
-        "Credit"
-      ],
-      "summary": "You're ready to bring your knowledge from the classroom to the boardroom, and Citi wants to help you get there. Whether it's honing your skills or building your network, we know that success can't come without growth. Our programs equip you with the knowledge and training you…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-22",
-      "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Zurich--Switzerland/Banking--Corporate-Banking--Summer-Analyst--Zurich---Switzerland--2027_26994896",
-      "external_id": "26994896",
-      "verified_at": "2026-10-17T17:18:48Z",
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Getzville-New-York-United-States/Market-Operations-Junior-Analyst-Program-Hybrid_26991391-1",
+      "external_id": "26991391",
+      "verified_at": "2026-10-19T06:20:53Z",
       "match_score": 85
     },
     {
@@ -13458,37 +13499,6 @@
       "external_id": "R-124932",
       "verified_at": "2026-10-18T14:07:22Z",
       "match_score": 90
-    },
-    {
-      "id": "citigroup-e82c6b5427fe",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Market Operations Junior Analyst Program Hybrid",
-      "location": "Getzville New York United States",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Product",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Team/ Role Overview Join Citi’s Markets Operations team and start your professional journey at the heart of global financial markets. This is your opportunity to step directly into a critical role where you’ll gain hands on experience supporting the processes that keep Citi’s…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-21",
-      "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/Getzville-New-York-United-States/Market-Operations-Junior-Analyst-Program-Hybrid_26991391-1",
-      "external_id": "26991391",
-      "verified_at": "2026-10-17T17:18:49Z",
-      "match_score": 85
     },
     {
       "id": "carrier-global-2054db0a6b62",
@@ -14012,33 +14022,6 @@
       "external_id": "R19383",
       "verified_at": "2026-10-18T04:40:48Z",
       "match_score": 90
-    },
-    {
-      "id": "citigroup-274a95767313",
-      "source_key": "citigroup",
-      "fortune_rank": 24,
-      "fortune_500": true,
-      "company": "Citigroup",
-      "title": "Ukraine Internship Program - 2026",
-      "location": "KYIV Ukraine",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Finance"
-      ],
-      "summary": "Empowering Ukraine's Future Leaders in Finance At Citi, we believe in unlocking potential and fostering growth. We are excited to introduce the Citi Ukraine Internship Program, a unique one-year opportunity designed to empower talented, ambitious individuals in Ukraine",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-17",
-      "deadline": null,
-      "url": "https://citi.wd5.myworkdayjobs.com/2/job/KYIV-Ukraine/Ukraine-Internship-Program---2026_25929484",
-      "external_id": "25929484",
-      "verified_at": "2026-10-17T17:18:41Z",
-      "match_score": 85
     },
     {
       "id": "xylem-0f2a0f9e3a17",
@@ -15616,7 +15599,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-10-19T01:20:40Z",
+      "verified_at": "2026-10-19T06:18:17Z",
       "match_score": 85
     },
     {
@@ -17430,7 +17413,7 @@
       "deadline": null,
       "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/Supply-Chain-Intern-Summer-2027_R-36773",
       "external_id": "R-36773",
-      "verified_at": "2026-10-17T13:47:16Z",
+      "verified_at": "2026-10-19T06:18:37Z",
       "match_score": 85
     },
     {
@@ -17457,7 +17440,7 @@
       "deadline": null,
       "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/Member-Relations-Communications-Intern_R-40403",
       "external_id": "R-40403",
-      "verified_at": "2026-10-17T13:47:16Z",
+      "verified_at": "2026-10-19T06:18:37Z",
       "match_score": 85
     },
     {
@@ -17484,7 +17467,7 @@
       "deadline": null,
       "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/IT-Intern_R-40138",
       "external_id": "R-40138",
-      "verified_at": "2026-10-17T13:47:15Z",
+      "verified_at": "2026-10-19T06:18:37Z",
       "match_score": 85
     },
     {
@@ -17511,7 +17494,7 @@
       "deadline": null,
       "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Government-Relations-Intern_R-40406",
       "external_id": "R-40406",
-      "verified_at": "2026-10-17T13:47:15Z",
+      "verified_at": "2026-10-19T06:18:37Z",
       "match_score": 85
     },
     {
@@ -17538,7 +17521,7 @@
       "deadline": null,
       "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Feed-Sales-Intern---West-Region_R-40354",
       "external_id": "R-40354",
-      "verified_at": "2026-10-17T13:47:16Z",
+      "verified_at": "2026-10-19T06:18:37Z",
       "match_score": 85
     },
     {
@@ -17565,7 +17548,7 @@
       "deadline": null,
       "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Feed-Sales-Intern---Southwest-Region_R-40363",
       "external_id": "R-40363",
-      "verified_at": "2026-10-17T13:47:16Z",
+      "verified_at": "2026-10-19T06:18:37Z",
       "match_score": 85
     },
     {
@@ -17592,7 +17575,7 @@
       "deadline": null,
       "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Feed-Sales-Intern---Midwest-Region_R-40357",
       "external_id": "R-40357",
-      "verified_at": "2026-10-17T13:47:16Z",
+      "verified_at": "2026-10-19T06:18:37Z",
       "match_score": 85
     },
     {
@@ -17619,7 +17602,7 @@
       "deadline": null,
       "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Feed-Sales-Intern---East-Region_R-40361",
       "external_id": "R-40361",
-      "verified_at": "2026-10-17T13:47:16Z",
+      "verified_at": "2026-10-19T06:18:37Z",
       "match_score": 85
     },
     {
@@ -17644,7 +17627,7 @@
       "deadline": null,
       "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/Dairy-Member-Services-Intern_R-40412",
       "external_id": "R-40412",
-      "verified_at": "2026-10-17T13:47:15Z",
+      "verified_at": "2026-10-19T06:18:37Z",
       "match_score": 85
     },
     {
@@ -17672,7 +17655,7 @@
       "deadline": null,
       "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/Culinary-Center-Intern_R-40365",
       "external_id": "R-40365",
-      "verified_at": "2026-10-17T13:47:15Z",
+      "verified_at": "2026-10-19T06:18:37Z",
       "match_score": 85
     },
     {
@@ -17697,7 +17680,7 @@
       "deadline": null,
       "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/Communications-Intern_R-40461",
       "external_id": "R-40461",
-      "verified_at": "2026-10-17T13:47:15Z",
+      "verified_at": "2026-10-19T06:18:37Z",
       "match_score": 85
     },
     {
@@ -18031,7 +18014,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Supply-Chain-Intern--Summer-2027_115694",
       "external_id": "115694",
-      "verified_at": "2026-10-19T01:20:20Z",
+      "verified_at": "2026-10-19T06:17:53Z",
       "match_score": 85
     },
     {
@@ -18060,7 +18043,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
       "external_id": "115736",
-      "verified_at": "2026-10-19T01:20:23Z",
+      "verified_at": "2026-10-19T06:17:56Z",
       "match_score": 85
     },
     {
@@ -18088,7 +18071,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Quality-Assurance-Intern---Oxnard--CA_115727",
       "external_id": "115727",
-      "verified_at": "2026-10-19T01:20:23Z",
+      "verified_at": "2026-10-19T06:17:56Z",
       "match_score": 85
     },
     {
@@ -18113,7 +18096,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
       "external_id": "115725",
-      "verified_at": "2026-10-19T01:20:22Z",
+      "verified_at": "2026-10-19T06:17:55Z",
       "match_score": 85
     },
     {
@@ -18141,7 +18124,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
       "external_id": "115735",
-      "verified_at": "2026-10-19T01:20:23Z",
+      "verified_at": "2026-10-19T06:17:56Z",
       "match_score": 85
     },
     {
@@ -18168,7 +18151,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
       "external_id": "115677",
-      "verified_at": "2026-10-19T01:20:21Z",
+      "verified_at": "2026-10-19T06:17:54Z",
       "match_score": 85
     },
     {
@@ -18195,7 +18178,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sales-Intern--Summer-2027_115803",
       "external_id": "115803",
-      "verified_at": "2026-10-19T01:20:20Z",
+      "verified_at": "2026-10-19T06:17:53Z",
       "match_score": 85
     },
     {
@@ -18222,7 +18205,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
       "external_id": "115698",
-      "verified_at": "2026-10-19T01:20:22Z",
+      "verified_at": "2026-10-19T06:17:54Z",
       "match_score": 85
     },
     {
@@ -18249,7 +18232,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/R-D-Engineering-Intern--Co-Op-2027--8-months-_115696",
       "external_id": "115696",
-      "verified_at": "2026-10-19T01:20:22Z",
+      "verified_at": "2026-10-19T06:17:55Z",
       "match_score": 85
     },
     {
@@ -18280,7 +18263,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Spring-2027_115712",
       "external_id": "115712",
-      "verified_at": "2026-10-19T01:20:21Z",
+      "verified_at": "2026-10-19T06:17:54Z",
       "match_score": 85
     },
     {
@@ -18307,7 +18290,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_115697",
       "external_id": "115697",
-      "verified_at": "2026-10-19T01:20:22Z",
+      "verified_at": "2026-10-19T06:17:55Z",
       "match_score": 85
     },
     {
@@ -18334,7 +18317,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Columbus-GA/Operations-QA-Intern--Summer-2027-Columbus--GA_115774",
       "external_id": "115774",
-      "verified_at": "2026-10-19T01:20:22Z",
+      "verified_at": "2026-10-19T06:17:54Z",
       "match_score": 85
     },
     {
@@ -18361,7 +18344,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Decatur-AL/Operations-QA-Intern--Summer-2027--Decatur--AL_115757",
       "external_id": "115757",
-      "verified_at": "2026-10-19T01:20:22Z",
+      "verified_at": "2026-10-19T06:17:54Z",
       "match_score": 85
     },
     {
@@ -18388,7 +18371,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/New-Orleans-LA/Operations-Engineering-Intern--Summer-2027--Multiple-Locations-_115721",
       "external_id": "115721",
-      "verified_at": "2026-10-19T01:20:22Z",
+      "verified_at": "2026-10-19T06:17:55Z",
       "match_score": 85
     },
     {
@@ -18415,7 +18398,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Scottsville-KY/Operations-Engineering-Intern--Spring-2027---Scottsville--KY_115475-1",
       "external_id": "115475",
-      "verified_at": "2026-10-19T01:20:22Z",
+      "verified_at": "2026-10-19T06:17:55Z",
       "match_score": 85
     },
     {
@@ -18442,7 +18425,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Memphis-TN/Operations-Engineering-Intern--Spring-2027---Memphis--TN_114845",
       "external_id": "114845",
-      "verified_at": "2026-10-19T01:20:22Z",
+      "verified_at": "2026-10-19T06:17:55Z",
       "match_score": 85
     },
     {
@@ -18469,7 +18452,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Lexington-KY/Operations-Engineering-Intern--Spring-2027---Lexington--KY_114841",
       "external_id": "114841",
-      "verified_at": "2026-10-19T01:20:22Z",
+      "verified_at": "2026-10-19T06:17:55Z",
       "match_score": 85
     },
     {
@@ -18494,7 +18477,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Microbiology-Intern--Summer-2027_115676",
       "external_id": "115676",
-      "verified_at": "2026-10-19T01:20:20Z",
+      "verified_at": "2026-10-19T06:17:53Z",
       "match_score": 85
     },
     {
@@ -18523,7 +18506,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Information-Services-Intern--Summer-2027_115744",
       "external_id": "115744",
-      "verified_at": "2026-10-19T01:20:21Z",
+      "verified_at": "2026-10-19T06:17:54Z",
       "match_score": 85
     },
     {
@@ -18556,7 +18539,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Summer-2027_115743",
       "external_id": "115743",
-      "verified_at": "2026-10-19T01:20:21Z",
+      "verified_at": "2026-10-19T06:17:54Z",
       "match_score": 85
     },
     {
@@ -18589,7 +18572,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-10-19T01:20:21Z",
+      "verified_at": "2026-10-19T06:17:53Z",
       "match_score": 85
     },
     {
@@ -18615,7 +18598,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Category-Leadership-Intern--Summer-2027_115804",
       "external_id": "115804",
-      "verified_at": "2026-10-19T01:20:21Z",
+      "verified_at": "2026-10-19T06:17:54Z",
       "match_score": 85
     },
     {
@@ -18642,7 +18625,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Analytical-Lab-Intern--Summer-2027_115678",
       "external_id": "115678",
-      "verified_at": "2026-10-19T01:20:21Z",
+      "verified_at": "2026-10-19T06:17:53Z",
       "match_score": 85
     },
     {
@@ -20823,35 +20806,6 @@
       "match_score": 90
     },
     {
-      "id": "comfort-systems-usa-21d1eae5cc5b",
-      "source_key": "comfort-systems-usa",
-      "fortune_rank": 440,
-      "fortune_500": true,
-      "company": "Comfort Systems USA",
-      "title": "Summer Intern",
-      "location": "Houston, TX (Corp HQ)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Comfort Systems USA is currently searching for multiple interns to participate in their Early Careers Program for the Summer of 2026. The Early Careers Program an 8 week summer program designed to provide real-world work experience to students currently pursuing a degree in a…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://comfortsystemsusa.wd1.myworkdayjobs.com/Corpcareers/job/Houston-TX-Corp-HQ/Summer-Intern_JR106444",
-      "external_id": "JR106444",
-      "verified_at": "2026-10-17T17:17:04Z",
-      "match_score": 85
-    },
-    {
       "id": "comfort-systems-usa-fcff58c975d2",
       "source_key": "comfort-systems-usa",
       "fortune_rank": 440,
@@ -20877,7 +20831,63 @@
       "deadline": null,
       "url": "https://comfortsystemsusa.wd1.myworkdayjobs.com/Corpcareers/job/Houston-TX-Corp-HQ/Summer-Intern_JR108000",
       "external_id": "JR108000",
-      "verified_at": "2026-10-17T17:17:04Z",
+      "verified_at": "2026-10-19T06:18:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "comfort-systems-usa-21d1eae5cc5b",
+      "source_key": "comfort-systems-usa",
+      "fortune_rank": 440,
+      "fortune_500": true,
+      "company": "Comfort Systems USA",
+      "title": "Summer Intern",
+      "location": "Houston, TX (Corp HQ)",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Comfort Systems USA is currently searching for multiple interns to participate in their Early Careers Program for the Summer of 2026. The Early Careers Program an 8 week summer program designed to provide real-world work experience to students currently pursuing a degree in a…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://comfortsystemsusa.wd1.myworkdayjobs.com/Corpcareers/job/Houston-TX-Corp-HQ/Summer-Intern_JR106444",
+      "external_id": "JR106444",
+      "verified_at": "2026-10-19T06:18:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "citigroup-274a95767313",
+      "source_key": "citigroup",
+      "fortune_rank": 24,
+      "fortune_500": true,
+      "company": "Citigroup",
+      "title": "Ukraine Internship Program - 2026",
+      "location": "KYIV Ukraine",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Finance"
+      ],
+      "summary": "Empowering Ukraine's Future Leaders in Finance At Citi, we believe in unlocking potential and fostering growth. We are excited to introduce the Citi Ukraine Internship Program, a unique one-year opportunity designed to empower talented, ambitious individuals in Ukraine",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://citi.wd5.myworkdayjobs.com/2/job/KYIV-Ukraine/Ukraine-Internship-Program---2026_25929484",
+      "external_id": "25929484",
+      "verified_at": "2026-10-19T06:20:45Z",
       "match_score": 85
     },
     {
@@ -20907,7 +20917,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Bronx-New-York-United-States/Teller-Part-Time--20-Hours----Co-Op-City-Branch_26992283-1",
       "external_id": "26992283",
-      "verified_at": "2026-10-17T17:18:43Z",
+      "verified_at": "2026-10-19T06:20:47Z",
       "match_score": 85
     },
     {
@@ -20932,7 +20942,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Sao-Paulo-Sao-Paulo-Brazil/Estgio-Exclusivo-PCD---Markets--Internship--So-Paulo---Brazil--2026_26977986",
       "external_id": "26977986",
-      "verified_at": "2026-10-17T17:18:42Z",
+      "verified_at": "2026-10-19T06:20:46Z",
       "match_score": 85
     },
     {
@@ -20961,7 +20971,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Milan-Milano-Italy/Banking--Investment-Banking--Placement-Analyst-Internship--Milan---Italy-2027_26993202",
       "external_id": "26993202",
-      "verified_at": "2026-10-17T17:18:42Z",
+      "verified_at": "2026-10-19T06:20:46Z",
       "match_score": 85
     },
     {
@@ -20991,7 +21001,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Investment-Banking--Financial-Institution-Group--Placement-Analyst-Internship--Paris---France-2027_26992470",
       "external_id": "26992470",
-      "verified_at": "2026-10-17T17:18:43Z",
+      "verified_at": "2026-10-19T06:20:47Z",
       "match_score": 85
     },
     {
@@ -21020,7 +21030,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/London--United-Kingdom/Banking--Financing--Summer-Analyst--London---United-Kingdom-2027_26993182",
       "external_id": "26993182",
-      "verified_at": "2026-10-17T17:18:48Z",
+      "verified_at": "2026-10-19T06:20:52Z",
       "match_score": 85
     },
     {
@@ -21047,7 +21057,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Financing--Equity-Capital-Markets--Placement-Analyst-Internship--Paris---France-2027_26992452",
       "external_id": "26992452",
-      "verified_at": "2026-10-17T17:18:41Z",
+      "verified_at": "2026-10-19T06:20:45Z",
       "match_score": 85
     },
     {
@@ -21075,7 +21085,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/TAURUS/Banking--Financing--Equity-Capital-Markets-Placement-Analyst-Internship--Frankfurt---Germany-2027_26992449",
       "external_id": "26992449",
-      "verified_at": "2026-10-17T17:18:43Z",
+      "verified_at": "2026-10-19T06:20:47Z",
       "match_score": 85
     },
     {
@@ -21103,7 +21113,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Financing--Debt-Capital-Markets--Placement-Analyst-Internship--Paris---France-2027_26992465",
       "external_id": "26992465",
-      "verified_at": "2026-10-17T17:18:41Z",
+      "verified_at": "2026-10-19T06:20:45Z",
       "match_score": 85
     },
     {
@@ -21136,7 +21146,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Corporate-Banking--Placement-Analyst-Internship--Paris--France-2026_25908794",
       "external_id": "25908794",
-      "verified_at": "2026-10-17T17:18:42Z",
+      "verified_at": "2026-10-19T06:20:46Z",
       "match_score": 85
     },
     {
@@ -21169,7 +21179,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Corporate-Banking--Placement-Analyst-Internship--Paris---France-2027_26992458",
       "external_id": "26992458",
-      "verified_at": "2026-10-17T17:18:42Z",
+      "verified_at": "2026-10-19T06:20:46Z",
       "match_score": 85
     },
     {
@@ -21202,7 +21212,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/TAURUS/Banking--Corporate-Banking--Placement-Analyst-Internship--Frankfurt---Germany-2027_26992089",
       "external_id": "26992089",
-      "verified_at": "2026-10-17T17:18:42Z",
+      "verified_at": "2026-10-19T06:20:46Z",
       "match_score": 85
     },
     {
@@ -21235,7 +21245,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Paris--France/Banking--Corporate-Banking--Financial-Institutions-Group--FIG---Placement-Analyst-Internship--Paris---France-2027_26992453",
       "external_id": "26992453",
-      "verified_at": "2026-10-17T17:18:43Z",
+      "verified_at": "2026-10-19T06:20:47Z",
       "match_score": 85
     },
     {
@@ -21264,7 +21274,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Dubai-United-Arab-Emirates/XMLNAME-2025-Wealth-Management-Summer-Internship--Dubai--UAE--UAE-Nationals-preferred-_25820546",
       "external_id": "25820546",
-      "verified_at": "2026-10-17T17:18:43Z",
+      "verified_at": "2026-10-19T06:20:47Z",
       "match_score": 90
     },
     {
@@ -21291,7 +21301,7 @@
       "deadline": null,
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Bogota--Colombia/XMLNAME-2025-Markets-Internship-Colombia_25836348",
       "external_id": "25836348",
-      "verified_at": "2026-10-17T17:18:39Z",
+      "verified_at": "2026-10-19T06:20:42Z",
       "match_score": 85
     },
     {
@@ -24057,7 +24067,7 @@
       "deadline": null,
       "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Undergrad-intern---US-Value---Access--Summer-2027-_R-253424",
       "external_id": "R-253424",
-      "verified_at": "2026-10-17T17:18:38Z",
+      "verified_at": "2026-10-19T06:20:20Z",
       "match_score": 85
     },
     {
@@ -24088,7 +24098,7 @@
       "deadline": "2026-11-07",
       "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Undergrad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255709",
       "external_id": "R-255709",
-      "verified_at": "2026-10-17T17:18:39Z",
+      "verified_at": "2026-10-19T06:20:21Z",
       "match_score": 85
     },
     {
@@ -24121,7 +24131,7 @@
       "deadline": null,
       "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Undergrad-Intern---Finance--Summer-2027-_R-254668",
       "external_id": "R-254668",
-      "verified_at": "2026-10-17T17:18:38Z",
+      "verified_at": "2026-10-19T06:20:20Z",
       "match_score": 85
     },
     {
@@ -24153,7 +24163,7 @@
       "deadline": "2026-11-07",
       "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Undergrad-Intern---Digital-Product---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255711",
       "external_id": "R-255711",
-      "verified_at": "2026-10-17T17:18:40Z",
+      "verified_at": "2026-10-19T06:20:21Z",
       "match_score": 85
     },
     {
@@ -24184,7 +24194,7 @@
       "deadline": "2026-11-07",
       "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Undergrad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255704",
       "external_id": "R-255704",
-      "verified_at": "2026-10-17T17:18:39Z",
+      "verified_at": "2026-10-19T06:20:21Z",
       "match_score": 85
     },
     {
@@ -24215,7 +24225,7 @@
       "deadline": null,
       "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---California---Thousand-Oaks/Undergrad-Intern---Operations---Process-Development--Summer-2027-_R-254516",
       "external_id": "R-254516",
-      "verified_at": "2026-10-17T17:18:38Z",
+      "verified_at": "2026-10-19T06:20:20Z",
       "match_score": 85
     },
     {
@@ -24248,7 +24258,7 @@
       "deadline": null,
       "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---California---Thousand-Oaks/Undergrad-Intern---Operations---Engineering--Summer-2027-_R-255335",
       "external_id": "R-255335",
-      "verified_at": "2026-10-17T17:18:38Z",
+      "verified_at": "2026-10-19T06:20:20Z",
       "match_score": 85
     },
     {
@@ -24278,7 +24288,7 @@
       "deadline": "2026-11-02",
       "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---California---Thousand-Oaks/Undergrad-Intern---Business-Development---Thousand-Oaks--CA--Summer-2027-_R-254845",
       "external_id": "R-254845",
-      "verified_at": "2026-10-17T17:18:39Z",
+      "verified_at": "2026-10-19T06:20:21Z",
       "match_score": 85
     },
     {
@@ -24306,7 +24316,7 @@
       "deadline": null,
       "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---Massachusetts---Cambridge/Undergrad-Co-op---DSTS---Chemical-Engineering----January---June-2027-_R-255684",
       "external_id": "R-255684",
-      "verified_at": "2026-10-17T17:18:40Z",
+      "verified_at": "2026-10-19T06:20:22Z",
       "match_score": 85
     },
     {
@@ -24335,7 +24345,7 @@
       "deadline": null,
       "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/Singapore-Affiliate---Duo-Tower/SEA-Medical-Affairs-Intern_R-253798",
       "external_id": "R-253798",
-      "verified_at": "2026-10-17T17:18:37Z",
+      "verified_at": "2026-10-19T06:20:19Z",
       "match_score": 85
     },
     {
@@ -24368,7 +24378,7 @@
       "deadline": "2026-12-31",
       "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/Singapore-Affiliate---Duo-Tower/Finance-Intern_R-253789",
       "external_id": "R-253789",
-      "verified_at": "2026-10-17T17:18:37Z",
+      "verified_at": "2026-10-19T06:20:18Z",
       "match_score": 85
     },
     {
@@ -25310,7 +25320,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-10-19T01:19:46Z",
+      "verified_at": "2026-10-19T06:17:20Z",
       "match_score": 85
     },
     {
@@ -26097,7 +26107,7 @@
       "deadline": null,
       "url": "https://eyglobal.yello.co/jobs/iF1fQO9afUibGbhXqBuZyw?job_board_id=c1riT--B2O-KySgYWsZO1Q",
       "external_id": null,
-      "verified_at": "2026-10-17T17:17:04Z",
+      "verified_at": "2026-10-19T06:18:46Z",
       "match_score": 85
     },
     {
@@ -26130,7 +26140,7 @@
       "deadline": null,
       "url": "https://eyglobal.yello.co/jobs/UWIN8wtQJW2D0_iLw2wAlw?job_board_id=c1riT--B2O-KySgYWsZO1Q",
       "external_id": null,
-      "verified_at": "2026-10-17T17:17:04Z",
+      "verified_at": "2026-10-19T06:18:46Z",
       "match_score": 85
     },
     {
@@ -26583,7 +26593,7 @@
       "deadline": null,
       "url": "https://careers.bcg.com/global/en/internship-opportunities",
       "external_id": null,
-      "verified_at": "2026-10-17T17:17:39Z",
+      "verified_at": "2026-10-19T06:19:23Z",
       "match_score": 85
     },
     {
