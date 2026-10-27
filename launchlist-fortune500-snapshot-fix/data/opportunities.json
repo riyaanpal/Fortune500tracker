@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-27T08:01:04Z",
+  "updated_at": "2026-10-27T14:38:54Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -11,10 +11,10 @@
   "directory_warnings": [
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-10-27T07:56:07Z",
+  "directory_refreshed_at": "2026-10-27T14:34:28Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 222,
-  "companies_failed_last_24h": 8,
+  "companies_failed_last_24h": 6,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "accendra-health",
@@ -28,19 +28,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": null
-    },
-    {
-      "key": "alcoa",
-      "rank": 344,
-      "company": "Alcoa",
-      "fortune_500": true,
-      "checked_at": "2026-10-26T13:21:09Z",
-      "status": "error",
-      "issue_type": "Scan error",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs: 404 Client Error: Not Found for url: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/es/jobs"
     },
     {
       "key": "alphabet",
@@ -82,19 +69,6 @@
       "error": null
     },
     {
-      "key": "occidental-petroleum",
-      "rank": 173,
-      "company": "Occidental Petroleum",
-      "fortune_500": true,
-      "checked_at": "2026-10-26T13:21:09Z",
-      "status": "error",
-      "issue_type": "Timed out",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://oxy.wd5.myworkdayjobs.com/wday/cxs/oxy/UniversityRelations/jobs: HTTPSConnectionPool(host='oxy.wd5.myworkdayjobs.com', port=443): Read timed out. (read timeout=18)"
-    },
-    {
       "key": "united-services-automobile-assn",
       "rank": 93,
       "company": "United Services Automobile Assn.",
@@ -121,10 +95,38 @@
       "error": null
     }
   ],
-  "companies_with_eligible_jobs": 84,
+  "companies_with_eligible_jobs": 77,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 857,
+  "opportunity_count": 788,
   "opportunities": [
+    {
+      "id": "somnigroup-international-16b1469ceabb",
+      "source_key": "somnigroup-international",
+      "fortune_rank": 35,
+      "fortune_500": true,
+      "company": "Somnigroup International",
+      "title": "Sales Development Program - Internship",
+      "location": "Dallas, Texas",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Tech consulting",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy"
+      ],
+      "summary": "This is a full-time onsite role based in the location(s) posted and is performed from the designated work location five days per week. At AT&T, you'll be empowered to create real change in an ever-expanding, connected world. As part of our team, your impact will be felt no…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-27",
+      "deadline": "2026-11-30",
+      "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Sales-Development-Program---Internship_R-120996",
+      "external_id": "R-120996",
+      "verified_at": "2026-10-27T14:37:36Z",
+      "match_score": 85
+    },
     {
       "id": "johnson-johnson-1da7500f1ada",
       "source_key": "johnson-johnson",
@@ -218,6 +220,35 @@
       "external_id": "R5030148",
       "verified_at": "2026-10-27T02:08:44Z",
       "match_score": 90
+    },
+    {
+      "id": "xylem-0f2a0f9e3a17",
+      "source_key": "xylem",
+      "fortune_rank": 443,
+      "fortune_500": true,
+      "company": "Xylem",
+      "title": "Sales Support Intern",
+      "location": "Lainate",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy"
+      ],
+      "summary": "Xylem is a Fortune 500 global water solutions company dedicated to advancing sustainable impact and empowering the people who make water work every day. As a leading water technology company with 23,000 employees operating in over 150 countries, Xylem is at the forefront of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-26",
+      "deadline": null,
+      "url": "https://xylem.wd5.myworkdayjobs.com/xylem-careers/job/Lainate/Sales-Support-Intern_R50693",
+      "external_id": "R50693",
+      "verified_at": "2026-10-27T14:35:56Z",
+      "match_score": 85
     },
     {
       "id": "travelers-09a20758d01a",
@@ -2001,7 +2032,35 @@
       "deadline": "2026-11-04",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Corporate-Communications-Internship_R-120884",
       "external_id": "R-120884",
-      "verified_at": "2026-10-27T07:59:01Z",
+      "verified_at": "2026-10-27T14:37:36Z",
+      "match_score": 85
+    },
+    {
+      "id": "nasdaq-e07577e00c87",
+      "source_key": "nasdaq",
+      "fortune_rank": 470,
+      "fortune_500": true,
+      "company": "Nasdaq",
+      "title": "MarketSite Events Intern - 2027 Summer Internship",
+      "location": "USA - New York City - New York",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations"
+      ],
+      "summary": "About Our Internship Program Nasdaq’s Internship Program is a 10-week summer experience designed to give students real exposure to how global markets and technology come together. Our interns work on meaningful projects alongside Nasdaq teams, gaining hands-on skills that make…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-26",
+      "deadline": null,
+      "url": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site/job/USA---New-York-City---New-York/MarketSite-Events-Intern---2027-Summer-Internship_R0027147",
+      "external_id": "R0027147",
+      "verified_at": "2026-10-27T14:36:31Z",
       "match_score": 85
     },
     {
@@ -2403,6 +2462,37 @@
       "match_score": 85
     },
     {
+      "id": "palo-alto-networks-423fab906d1a",
+      "source_key": "palo-alto-networks",
+      "fortune_rank": 437,
+      "fortune_500": true,
+      "company": "Palo Alto Networks",
+      "title": "Legal Intern, Intellectual Property",
+      "location": "Office - Israel - Petach Tikva",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "Our Mission At Palo Alto Networks®, we’re united by a shared mission—to protect our digital way of life. We thrive at the intersection of innovation and impact, solving real-world problems with cutting-edge technology and bold thinking",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-25",
+      "deadline": null,
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---Petach-Tikva/Legal-Intern--Intellectual-Property_JR-022705",
+      "external_id": "JR-022705",
+      "verified_at": "2026-10-27T14:36:00Z",
+      "match_score": 85
+    },
+    {
       "id": "merck-126e632583bf",
       "source_key": "merck",
       "fortune_rank": 68,
@@ -2516,6 +2606,34 @@
       "match_score": 85
     },
     {
+      "id": "nasdaq-382ef368a480",
+      "source_key": "nasdaq",
+      "fortune_rank": 470,
+      "fortune_500": true,
+      "company": "Nasdaq",
+      "title": "Business Development Intern - 2027 Summer Internship",
+      "location": "USA - Boston - Massachusetts",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Product"
+      ],
+      "summary": "About Our Internship Program Nasdaq’s Internship Program is a 10-week summer experience designed to give students real exposure to how global markets and technology come together. Our interns work on meaningful projects alongside Nasdaq teams, gaining hands-on skills that make…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-23",
+      "deadline": null,
+      "url": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site/job/USA---Boston---Massachusetts/Business-Development-Intern---2027-Summer-Internship_R0027154",
+      "external_id": "R0027154",
+      "verified_at": "2026-10-27T14:36:31Z",
+      "match_score": 85
+    },
+    {
       "id": "motorola-solutions-6adab7af34fa",
       "source_key": "motorola-solutions",
       "fortune_rank": 378,
@@ -2579,34 +2697,6 @@
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/POL---Mazowieckie-Wojewodztwo---Warsaw-Trade-Center/Intern-Finance_R412484-1",
       "external_id": "R412484",
       "verified_at": "2026-10-26T06:21:22Z",
-      "match_score": 85
-    },
-    {
-      "id": "marvell-technology-474d14c884f1",
-      "source_key": "marvell-technology",
-      "fortune_rank": 476,
-      "fortune_500": true,
-      "company": "Marvell Technology",
-      "title": "OSAT Procurement Intern - Bachelor's Degree",
-      "location": "Singapore",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "AI / ML"
-      ],
-      "summary": "About Marvell Marvell’s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-23",
-      "deadline": null,
-      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Singapore/OSAT-Procurement-Intern----Bachelor-s-Degree_2604911",
-      "external_id": "2604911",
-      "verified_at": "2026-10-25T16:30:13Z",
       "match_score": 85
     },
     {
@@ -2872,38 +2962,6 @@
       "match_score": 85
     },
     {
-      "id": "centene-01982b48181c",
-      "source_key": "centene",
-      "fortune_rank": 19,
-      "fortune_500": true,
-      "company": "Centene",
-      "title": "Network Operations Process Improvement Undergraduate Summer Intern",
-      "location": "Remote-NC",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "SQL",
-        "Excel",
-        "Power BI",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "Position Purpose: Learn about various processes and functions within the Managed Care industry and develop professionally by contributing to projects that support the business. Key outcomes include streamlined workflows, improved data-driven decision-making, increased…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-23",
-      "deadline": "2026-10-30",
-      "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-NC/Network-Operations-Process-Improvement-Undergraduate-Summer-Intern_1667787",
-      "external_id": "1667787",
-      "verified_at": "2026-10-25T16:31:53Z",
-      "match_score": 85
-    },
-    {
       "id": "carrier-global-8c55719d3301",
       "source_key": "carrier-global",
       "fortune_rank": 212,
@@ -2954,6 +3012,60 @@
       "external_id": "R19754",
       "verified_at": "2026-10-26T19:22:52Z",
       "match_score": 90
+    },
+    {
+      "id": "ameren-d5281858e047",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "Gas Apprentice 1st Step",
+      "location": "Hillsboro, IL",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "About Ameren Illinois Ameren Illinois provides electric transmission and distribution service and natural gas distribution service. Every day, we deliver electricity to 1.2 million electric and 816,000 natural gas customers in central and southern Illinois",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-23",
+      "deadline": "2026-10-30",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/Hillsboro-IL/Gas-Apprentice-1st-Step_034430",
+      "external_id": "034430",
+      "verified_at": "2026-10-27T14:36:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-15c9560f5de5",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "Gas Apprentice 1st Step",
+      "location": "Gillespie, IL",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "About Ameren Illinois Ameren Illinois provides electric transmission and distribution service and natural gas distribution service. Every day, we deliver electricity to 1.2 million electric and 816,000 natural gas customers in central and southern Illinois",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-23",
+      "deadline": "2026-10-30",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/Gillespie-IL/Gas-Apprentice-1st-Step_034428",
+      "external_id": "034428",
+      "verified_at": "2026-10-27T14:36:45Z",
+      "match_score": 85
     },
     {
       "id": "abbott-laboratories-951f74d84eed",
@@ -3038,60 +3150,6 @@
       "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Designer-Intern--Owned-Brands--Minneapolis--MN--Starting-Summer--2027-_R0000478536-1",
       "external_id": "R0000478536",
       "verified_at": "2026-10-25T22:39:01Z",
-      "match_score": 85
-    },
-    {
-      "id": "primoris-services-60410a63511c",
-      "source_key": "primoris-services",
-      "fortune_rank": 497,
-      "fortune_500": true,
-      "company": "Primoris Services",
-      "title": "All Level Lineman, Apprentice, & Foreman - Michael Roberson",
-      "location": "Texas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Overview: With over 70 years of operating experience, Primoris Power Delivery services include engineering and design, installation and maintenance, material and equipment procurement, repair of electrical transmission, distribution, substation, wireless communication, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-22",
-      "deadline": null,
-      "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Lineman--Apprentice----Foreman---Michael-Roberson_JR100853-1",
-      "external_id": "JR100853",
-      "verified_at": "2026-10-25T16:30:54Z",
-      "match_score": 85
-    },
-    {
-      "id": "primoris-services-62f2363594bf",
-      "source_key": "primoris-services",
-      "fortune_rank": 497,
-      "fortune_500": true,
-      "company": "Primoris Services",
-      "title": "All Level Lineman, Apprentice, & Foreman - Chris Pavlicek",
-      "location": "Texas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Overview: With over 70 years of operating experience, Primoris Power Delivery services include engineering and design, installation and maintenance, material and equipment procurement, repair of electrical transmission, distribution, substation, wireless communication, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-22",
-      "deadline": null,
-      "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Lineman--Apprentice----Foreman---Chris-Pavlicek_JR100942",
-      "external_id": "JR100942",
-      "verified_at": "2026-10-25T16:30:54Z",
       "match_score": 85
     },
     {
@@ -3259,7 +3317,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Revenue-Growth-Management-Intern--Summer-2027_116012",
       "external_id": "116012",
-      "verified_at": "2026-10-27T07:56:48Z",
+      "verified_at": "2026-10-27T14:35:16Z",
       "match_score": 85
     },
     {
@@ -3288,7 +3346,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Net-Revenue-Optimization-Intern--Summer-2027_116006",
       "external_id": "116006",
-      "verified_at": "2026-10-27T07:56:48Z",
+      "verified_at": "2026-10-27T14:35:16Z",
       "match_score": 85
     },
     {
@@ -3442,31 +3500,6 @@
       "match_score": 85
     },
     {
-      "id": "centene-b8cda4544c68",
-      "source_key": "centene",
-      "fortune_rank": 19,
-      "fortune_500": true,
-      "company": "Centene",
-      "title": "Communications Intern (Undergraduate - Summer)",
-      "location": "Remote-FL",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Position Purpose: Learn about various processes and functions within the Managed Care industry and develop professionally by contributing to projects that support the business. without the need for employment-based visa sponsorship now or in the future",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-22",
-      "deadline": "2026-10-26",
-      "url": "https://centene.wd5.myworkdayjobs.com/Centene_External/job/Remote-FL/Communications-Intern--Undergraduate---Summer-_1656374",
-      "external_id": "1656374",
-      "verified_at": "2026-10-25T16:31:52Z",
-      "match_score": 85
-    },
-    {
       "id": "carrier-global-b659f9623f3a",
       "source_key": "carrier-global",
       "fortune_rank": 212,
@@ -3611,34 +3644,6 @@
       "url": "https://andersonsinc.wd1.myworkdayjobs.com/TheAndersonsCareers/job/Maumee-OH/eCommerce-Content-Creator-Intern--Spring-2027-_R12452",
       "external_id": "R12452",
       "verified_at": "2026-10-26T23:12:02Z",
-      "match_score": 85
-    },
-    {
-      "id": "amgen-fc95e66b9add",
-      "source_key": "amgen",
-      "fortune_rank": 129,
-      "fortune_500": true,
-      "company": "Amgen",
-      "title": "Undergrad Intern - Manufacturing and Clinical Supply - Process Development (Summer 2027)",
-      "location": "US - California - Thousand Oaks",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-22",
-      "deadline": null,
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---California---Thousand-Oaks/Undergrad-Intern---Manufacturing-and-Clinical-Supply---Process-Development--Summer-2027-_R-259434",
-      "external_id": "R-259434",
-      "verified_at": "2026-10-25T16:30:04Z",
       "match_score": 85
     },
     {
@@ -4044,33 +4049,6 @@
       "match_score": 85
     },
     {
-      "id": "vistra-64ac6931d6b6",
-      "source_key": "vistra",
-      "fortune_rank": 251,
-      "fortune_500": true,
-      "company": "Vistra",
-      "title": "Plant Intern - Winter",
-      "location": "Lake Road Plant",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "If you have what it takes to become part of the Vistra family and would like to start a promising career with a global leader, take a look at the exciting employment opportunities that are currently available and apply online. Job Summary The Winter Intern will collaborate with…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-21",
-      "deadline": null,
-      "url": "https://vst.wd5.myworkdayjobs.com/vistra_careers/job/Lake-Road-Plant/Plant-Intern---Winter_40016809-1",
-      "external_id": "40016809",
-      "verified_at": "2026-10-25T16:29:43Z",
-      "match_score": 85
-    },
-    {
       "id": "target-bd0eb5d96079",
       "source_key": "target",
       "fortune_rank": 42,
@@ -4102,6 +4080,38 @@
       "match_score": 85
     },
     {
+      "id": "nasdaq-5dc946c6f36b",
+      "source_key": "nasdaq",
+      "fortune_rank": 470,
+      "fortune_500": true,
+      "company": "Nasdaq",
+      "title": "Business Analyst Intern - 2027 Summer Internship",
+      "location": "USA - New York City - New York",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Business analyst",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Product",
+        "Finance"
+      ],
+      "summary": "Internship Overview: Nasdaq's Internship Program provides outstanding opportunities for students to gain hands-on experience during a 10-week internship. As part of the program, you will partner with a mentor, network with senior colleagues, and take on a real-world project…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-21",
+      "deadline": null,
+      "url": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site/job/USA---New-York-City---New-York/Business-Analyst-Intern---2027-Summer-Internship_R0027136",
+      "external_id": "R0027136",
+      "verified_at": "2026-10-27T14:36:31Z",
+      "match_score": 85
+    },
+    {
       "id": "merck-23d997ad98d0",
       "source_key": "merck",
       "fortune_rank": 68,
@@ -4128,35 +4138,6 @@
       "external_id": "R423034",
       "verified_at": "2026-10-26T06:21:37Z",
       "match_score": 90
-    },
-    {
-      "id": "marvell-technology-8e3c1baa9123",
-      "source_key": "marvell-technology",
-      "fortune_rank": 476,
-      "fortune_500": true,
-      "company": "Marvell Technology",
-      "title": "Customer Quality Intern",
-      "location": "Shanghai",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "AI / ML",
-        "Product"
-      ],
-      "summary": "About Marvell Marvell’s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-21",
-      "deadline": null,
-      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Shanghai/Customer-Quality-Intern_2604617",
-      "external_id": "2604617",
-      "verified_at": "2026-10-25T16:30:14Z",
-      "match_score": 85
     },
     {
       "id": "jones-lang-lasalle-a20261c42292",
@@ -5106,6 +5087,69 @@
       "match_score": 85
     },
     {
+      "id": "cigna-group-67132023169c",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "Tax Accounting Intern - Bloomfield",
+      "location": "Bloomfield, CT",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Accounting / financial analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Looking for an internship program where you'll make a real difference – rather than just completing busy work? Then you've come to the right place. Cigna's Internship Program is designed to assign you projects that have a lasting impact on our business – which touches millions…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-20",
+      "deadline": "2026-11-06",
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Tax-Accounting-Intern---Bloomfield_26012483",
+      "external_id": "26012483",
+      "verified_at": "2026-10-27T14:37:47Z",
+      "match_score": 85
+    },
+    {
+      "id": "cigna-group-0b32328d7f44",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "Business Analytics Intern",
+      "location": "Bloomfield, CT",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Business analyst",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Tableau",
+        "Strategy"
+      ],
+      "summary": "The Client & Customer Experience (C&CE) team is responsible for the servicing of Cigna customers across multiple lines of business, including US Medical, Pharmacy Benefits, and more. C&CE owns the delivery of exceptional client and customer experience while operating Cigna’s…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-20",
+      "deadline": "2026-11-13",
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Bloomfield-CT/Business-Analytics-Intern_26012472",
+      "external_id": "26012472",
+      "verified_at": "2026-10-27T14:37:47Z",
+      "match_score": 85
+    },
+    {
       "id": "carrier-global-d24af877ed2b",
       "source_key": "carrier-global",
       "fortune_rank": 212,
@@ -5273,142 +5317,6 @@
       "match_score": 85
     },
     {
-      "id": "sonoco-products-0a2a5c5c9736",
-      "source_key": "sonoco-products",
-      "fortune_rank": 489,
-      "fortune_500": true,
-      "company": "Sonoco Products",
-      "title": "Intern",
-      "location": "Dalton, GA, USA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "From a small family business to a multi-billion-dollar global company, Sonoco has been changing the face of products and packaging since 1899 — all while keeping the heart of “People Build Businesses” alive. Our talented people are at the core of our growth, constantly…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-19",
-      "deadline": null,
-      "url": "https://sonoco.wd1.myworkdayjobs.com/CorporateCareers/job/Dalton-GA-USA/Intern_JR-160142",
-      "external_id": "JR-160142",
-      "verified_at": "2026-10-25T16:30:45Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-9355c9d46ac5",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Instrumentation and Electrical Technician Intern",
-      "location": "Mont Belvieu, TX",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-19",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Mont-Belvieu-TX/Instrumentation-and-Electrical-Technician-Intern_R8439-1",
-      "external_id": "R8439",
-      "verified_at": "2026-10-25T19:42:17Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-e4d5495cb736",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Field Mechanic Intern",
-      "location": "Mentone, TX",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Exciting internship opportunity as a Field Mechanic Intern at ONEOK, Inc. You will gain hands-on experience in mechanical work on equipment at our natural gas gathering and processing facilities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-19",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Mentone-TX/Field-Mechanic-Intern_R8366-1",
-      "external_id": "R8366",
-      "verified_at": "2026-10-25T19:42:16Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-21dec5649187",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Field Mechanic Intern",
-      "location": "Midland, TX",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Exciting internship opportunity as a Field Mechanic Intern at ONEOK, Inc. You will gain hands-on experience in mechanical work on equipment at our natural gas gathering and processing facilities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-19",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Midland-TX/Field-Mechanic-Intern_R8367-1",
-      "external_id": "R8367",
-      "verified_at": "2026-10-25T19:42:17Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-2c9789904cae",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Field Mechanic Intern",
-      "location": "Watford City, ND",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Exciting internship opportunity as a Field Mechanic Intern at ONEOK, Inc. You will gain hands-on experience in mechanical work on equipment at our natural gas gathering and processing facilities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-19",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Watford-City-ND/Field-Mechanic-Intern_R8358-1",
-      "external_id": "R8358",
-      "verified_at": "2026-10-25T19:42:17Z",
-      "match_score": 85
-    },
-    {
       "id": "kla-7eb1bf0fdc53",
       "source_key": "kla",
       "fortune_rank": 361,
@@ -5551,38 +5459,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
       "external_id": "115677",
-      "verified_at": "2026-10-27T07:56:48Z",
-      "match_score": 85
-    },
-    {
-      "id": "ingram-micro-holding-c809d2e3c974",
-      "source_key": "ingram-micro-holding",
-      "fortune_rank": 90,
-      "fortune_500": true,
-      "company": "Ingram Micro Holding",
-      "title": "Prácticas - Credit & Collections Assistant with EU Languages + English (Intern)",
-      "location": "Barcelona, Spain",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Credit risk"
-      ],
-      "tags": [
-        "Excel",
-        "Cloud",
-        "Operations",
-        "Credit",
-        "Risk"
-      ],
-      "summary": "It's fun to work in a company where people truly BELIEVE in what they're doing! Job Description: Ingram Micro touches 80% of the technology you use every day with our focus on Technology Solutions, Cloud, and Commerce and Lifecycle Solutions",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-19",
-      "deadline": null,
-      "url": "https://ingrammicro.wd5.myworkdayjobs.com/IngramMicro/job/Barcelona-Spain/Credit---Collections-Assistant-with-EU-Languages---English--Intern-_R-117904",
-      "external_id": "R-117904",
-      "verified_at": "2026-10-25T19:43:16Z",
+      "verified_at": "2026-10-27T14:35:16Z",
       "match_score": 85
     },
     {
@@ -5784,6 +5661,35 @@
       "match_score": 85
     },
     {
+      "id": "cigna-group-925223662ac6",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "Pharmacy Intern, Managed Care Formulary Strategy (PharmD student)",
+      "location": "MO, St. Louis, One Express Way",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Build Better Pharmacy Solutions Help shape the clinical and strategic work that supports formulary decision-making. As a Pharmacy Intern, you’ll work alongside experienced professionals while gaining exposure to pharmacy benefit management, drug evaluation, and healthcare…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-19",
+      "deadline": null,
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/MO-St-Louis-One-Express-Way/Pharmacy-Intern--Managed-Care-Formulary-Strategy--PharmD-student-_26009927",
+      "external_id": "26009927",
+      "verified_at": "2026-10-27T14:37:48Z",
+      "match_score": 85
+    },
+    {
       "id": "carrier-global-df5152e8f420",
       "source_key": "carrier-global",
       "fortune_rank": 212,
@@ -5888,39 +5794,6 @@
       "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Toronto-Canada/Commercial-Associate--Intern_REQ22528",
       "external_id": "REQ22528",
       "verified_at": "2026-10-27T07:57:17Z",
-      "match_score": 85
-    },
-    {
-      "id": "amgen-0cebdc7bc4de",
-      "source_key": "amgen",
-      "fortune_rank": 129,
-      "fortune_500": true,
-      "company": "Amgen",
-      "title": "Undergrad Co-op – Finance/Accounting",
-      "location": "United States - Remote",
-      "region": "Remote",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "FP&A",
-        "Corporate finance",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Finance",
-        "FP&A",
-        "Accounting"
-      ],
-      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-19",
-      "deadline": null,
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Undergrad-Co-op---Finance-Accounting_R-258006",
-      "external_id": "R-258006",
-      "verified_at": "2026-10-25T16:30:04Z",
       "match_score": 85
     },
     {
@@ -6260,6 +6133,36 @@
       "match_score": 85
     },
     {
+      "id": "prologis-6ed3530d9384",
+      "source_key": "prologis",
+      "fortune_rank": 451,
+      "fortune_500": true,
+      "company": "Prologis",
+      "title": "Customer Experience Data Intern",
+      "location": "Atlanta, Georgia",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Product"
+      ],
+      "summary": "At Prologis, we don’t just lead the industry—we define it with a 1.3 billion square foot portfolio and an annual throughput of approximately $3.2 trillion. We create the intelligent infrastructure that powers global commerce, seamlessly connecting the digital and physical worlds",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-16",
+      "deadline": null,
+      "url": "https://prologis.wd5.myworkdayjobs.com/Prologis_External_Careers/job/Atlanta-Georgia/Customer-Experience-Data-Intern_R6856",
+      "external_id": "R6856",
+      "verified_at": "2026-10-27T14:36:18Z",
+      "match_score": 85
+    },
+    {
       "id": "medline-698e3d3415c2",
       "source_key": "medline",
       "fortune_rank": 159,
@@ -6432,7 +6335,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance-Technology-Intern--Spring-2027_116016",
       "external_id": "116016",
-      "verified_at": "2026-10-27T07:56:48Z",
+      "verified_at": "2026-10-27T14:35:16Z",
       "match_score": 85
     },
     {
@@ -6544,34 +6447,6 @@
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Bandung/Lean-Manufacturing-Intern-1_R5055972-2",
       "external_id": "R5055972",
       "verified_at": "2026-10-26T23:14:16Z",
-      "match_score": 85
-    },
-    {
-      "id": "elevance-health-6ceb96f5f354",
-      "source_key": "elevance-health",
-      "fortune_rank": 18,
-      "fortune_500": true,
-      "company": "Elevance Health",
-      "title": "Pharmacy Intern",
-      "location": "VA-RICHMOND, 2015 STAPLES MILL RD,",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Strategy"
-      ],
-      "summary": "Anticipated End Date: 2026-10-30 Position Title: Pharmacy Intern Job Description: Pharmacy Intern Location: This role enables associates to work virtually full-time, with the exception of required in-person training sessions, providing maximum flexibility and autonomy",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-16",
-      "deadline": "2026-10-30",
-      "url": "https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/VA-RICHMOND-2015-STAPLES-MILL-RD/Pharmacy-Intern_JR206389",
-      "external_id": "JR206389",
-      "verified_at": "2026-10-25T16:31:16Z",
       "match_score": 85
     },
     {
@@ -6711,6 +6586,34 @@
       "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN1/job/Corporate---Springdale-Arkansas/Retail-Value-Added-Poultry--RVAP--Year-round-Intern_R0491759-1",
       "external_id": "R0491759",
       "verified_at": "2026-10-26T13:19:51Z",
+      "match_score": 85
+    },
+    {
+      "id": "prologis-8c188ce255d0",
+      "source_key": "prologis",
+      "fortune_rank": 451,
+      "fortune_500": true,
+      "company": "Prologis",
+      "title": "Real Estate Operations Intern",
+      "location": "Houston, Texas",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "At Prologis, we don’t just lead the industry—we define it with a 1.3 billion square foot portfolio and an annual throughput of approximately $3.2 trillion. We create the intelligent infrastructure that powers global commerce, seamlessly connecting the digital and physical worlds",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-15",
+      "deadline": null,
+      "url": "https://prologis.wd5.myworkdayjobs.com/Prologis_External_Careers/job/Houston-Texas/Real-Estate-Operations-Intern_R6848",
+      "external_id": "R6848",
+      "verified_at": "2026-10-27T14:36:19Z",
       "match_score": 85
     },
     {
@@ -6978,6 +6881,38 @@
       "match_score": 85
     },
     {
+      "id": "cigna-group-a48601a92035",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "Healthcare Analytics Summer Intern - Morris Plains, NJ - Start Date: May 24, 2027",
+      "location": "Morris Plains, NJ",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Finance"
+      ],
+      "summary": "Looking for an internship program where you'll make a real difference – rather than just completing busy work? Then you've come to the right place. The Cigna Group’s Summer Internship Program is designed to assign you projects that have a lasting impact on our business – which…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-15",
+      "deadline": null,
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Morris-Plains-NJ/Healthcare-Analytics-Summer-Intern---Morris-Plains--NJ---Start-Date--May-24--2027_26009483",
+      "external_id": "26009483",
+      "verified_at": "2026-10-27T14:37:48Z",
+      "match_score": 85
+    },
+    {
       "id": "booz-allen-hamilton-holding-574dbbd5d169",
       "source_key": "booz-allen-hamilton-holding",
       "fortune_rank": 372,
@@ -7039,6 +6974,38 @@
       "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Arlington-VA/University--Digital-Transformation-Analyst-Intern_R0251721",
       "external_id": "R0251721",
       "verified_at": "2026-10-26T23:13:17Z",
+      "match_score": 85
+    },
+    {
+      "id": "nasdaq-01b2d8c66ed3",
+      "source_key": "nasdaq",
+      "fortune_rank": 470,
+      "fortune_500": true,
+      "company": "Nasdaq",
+      "title": "Intelligent Automation Intern - 2027 Summer Internship",
+      "location": "USA - New York City - New York",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Digital transformation",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Excel",
+        "AI / ML",
+        "Finance"
+      ],
+      "summary": "Nasdaq’s Internship Program is a 10-week summer experience designed to give students real exposure to how global markets and technology come together. Our interns work on meaningful projects alongside Nasdaq teams, gaining hands-on skills that make an impact on the business",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-14",
+      "deadline": null,
+      "url": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site/job/USA---New-York-City---New-York/Intelligent-Automation-Intern---2027-Summer-Internship_R0027113",
+      "external_id": "R0027113",
+      "verified_at": "2026-10-27T14:36:31Z",
       "match_score": 85
     },
     {
@@ -7672,60 +7639,6 @@
       "match_score": 85
     },
     {
-      "id": "oneok-f20e1fc9a0dc",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Instrumentation and Electrical Technician Intern",
-      "location": "Watford City, ND",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-13",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Watford-City-ND/Instrumentation-and-Electrical-Technician-Intern_R8357-1",
-      "external_id": "R8357",
-      "verified_at": "2026-10-25T19:42:17Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-fd1b08392330",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Instrumentation and Electrical Technician Intern",
-      "location": "Medford, OK",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-13",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Medford-OK/Instrumentation-and-Electrical-Technician-Intern_R8426-1",
-      "external_id": "R8426",
-      "verified_at": "2026-10-25T19:42:17Z",
-      "match_score": 85
-    },
-    {
       "id": "merck-9d3af5fd7a45",
       "source_key": "merck",
       "fortune_rank": 68,
@@ -7754,200 +7667,6 @@
       "url": "https://msd.wd5.myworkdayjobs.com/SearchJobs/job/SGP---Singapore---Singapore-Boulevard-Towers/Intern--Distribution--Logistics---Warehousing-Quality-Data-Analyst_R421490",
       "external_id": "R421490",
       "verified_at": "2026-10-26T06:21:27Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-ee7621e98dba",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "WinField United Summer Research Technician Internship - Central",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "WinField United Summer Research Technician Internship - Central WinField United Summer Research Technician Internship - Central The WinField Answer Plot® Program hosts agronomic research plots across the country. Plots provide area farmers to see firsthand how seed and crop…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-13",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/WinField-United-Summer-Research-Technician-Internship---Central_R-40719",
-      "external_id": "R-40719",
-      "verified_at": "2026-10-25T19:42:59Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-381bbb188b75",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "WinField United Summer Research Technician Intern - River Falls, WI",
-      "location": "River Falls, WI (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "WinField United Summer Research Technician Intern - River Falls, WI WinField United Summer Research Technician Internship - River Falls, WI The WinField Answer Plot® Program hosts agronomic research plots across the country. Plots provide area farmers to see firsthand how seed…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-13",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/River-Falls-WI-USA/WinField-United-Summer-Research-Technician-Intern---River-Falls--WI_R-40734",
-      "external_id": "R-40734",
-      "verified_at": "2026-10-25T19:43:00Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-f0310aff8b07",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "WinField United Sales Internship, Summer 2027",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "WinField United Sales Internship, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative. With business units spanning crop insight and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-13",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/WinField-United-Sales-Internship--Summer-2027_R-40236",
-      "external_id": "R-40236",
-      "verified_at": "2026-10-25T19:42:59Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-2a7d7b5f33ac",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "WinField United Research & Development Lab Intern, Summer 2027",
-      "location": "River Falls, WI (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "WinField United Research & Development Lab Intern, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-13",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/River-Falls-WI-USA/WinField-United-Research---Development-Lab-Intern--Summer-2027_R-40232",
-      "external_id": "R-40232",
-      "verified_at": "2026-10-25T19:42:59Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-406bfc023829",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "WinField United Market Development Agronomist Intern, Summer 2027",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "WinField United Market Development Agronomist Intern, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-13",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/WinField-United-Market-Development-Agronomist-Intern--Summer-2027_R-40235",
-      "external_id": "R-40235",
-      "verified_at": "2026-10-25T19:42:59Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-eac200fa8638",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "WinField United Forage Nutrition Insights Intern, Summer 2027",
-      "location": "Indianapolis, IN (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "WinField United Forage Nutrition Insights Intern, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-13",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Indianapolis-IN-USA/WinField-United-Forage-Nutrition-Insights-Intern--Summer-2027_R-40234",
-      "external_id": "R-40234",
-      "verified_at": "2026-10-25T19:42:59Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-d92d42fd7841",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "WinField United FGI Marketing Intern, Summer 2027",
-      "location": "Arden Hills, MN (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "WinField United FGI Marketing Intern, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-13",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/WinField-United-FGI-Marketing-Intern--Summer-2027_R-40233",
-      "external_id": "R-40233",
-      "verified_at": "2026-10-25T19:42:59Z",
       "match_score": 85
     },
     {
@@ -8231,7 +7950,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Talent-Acquisition-Intern--Summer-2027_115992",
       "external_id": "115992",
-      "verified_at": "2026-10-27T07:56:48Z",
+      "verified_at": "2026-10-27T14:35:16Z",
       "match_score": 85
     },
     {
@@ -8259,7 +7978,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Marketing-Intern--Summer-2027_115771",
       "external_id": "115771",
-      "verified_at": "2026-10-27T07:56:47Z",
+      "verified_at": "2026-10-27T14:35:15Z",
       "match_score": 85
     },
     {
@@ -9408,33 +9127,6 @@
       "match_score": 85
     },
     {
-      "id": "duke-energy-890d7bbd7905",
-      "source_key": "duke-energy",
-      "fortune_rank": 145,
-      "fortune_500": true,
-      "company": "Duke Energy",
-      "title": "Substation / Line Tech Internship (Carolinas) - Summer 2027",
-      "location": "Leland, NC",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Important Application Submission Information In order to ensure your application is successfully received before the job posting expires, please submit your application by 11:59 PM on Thursday, October 29, 2026 More than a career - a chance to make a difference in people's lives",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "lifications Currently enrolled and pursuing a two degree in Engineering Technology or related field Graduation date must be after August 2027 Must have a valid State…",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-12",
-      "deadline": "2026-10-30",
-      "url": "https://dukeenergy.wd1.myworkdayjobs.com/Search/job/Leland-NC/Substation---Line-Tech-Internship--Carolinas----Summer-2027_R41173",
-      "external_id": "R41173",
-      "verified_at": "2026-10-25T19:42:22Z",
-      "match_score": 90
-    },
-    {
       "id": "bristol-myers-squibb-4909c44f6f9c",
       "source_key": "bristol-myers-squibb",
       "fortune_rank": 97,
@@ -10162,89 +9854,6 @@
       "match_score": 85
     },
     {
-      "id": "amgen-de16fffd42e5",
-      "source_key": "amgen",
-      "fortune_rank": 129,
-      "fortune_500": true,
-      "company": "Amgen",
-      "title": "Undergrad Co-op - Accelerating Attribute Sciences’ Data Compilation Capabilities & Agility",
-      "location": "US - Massachusetts - Cambridge",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "AI / ML",
-        "Product"
-      ],
-      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-09",
-      "deadline": null,
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---Massachusetts---Cambridge/Undergrad-Co-op---Accelerating-Attribute-Sciences--Data-Compilation-Capabilities---Agility_R-258090",
-      "external_id": "R-258090",
-      "verified_at": "2026-10-25T16:30:04Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-1eb16fdc316a",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Instrumentation and Electrical Technician Intern",
-      "location": "Williston, ND",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-08",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Williston-ND/Instrumentation-and-Electrical-Technician-Intern_R8360",
-      "external_id": "R8360",
-      "verified_at": "2026-10-25T19:42:17Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-80a1c3b49c49",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Field Mechanic Intern",
-      "location": "Williston, ND",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Exciting internship opportunity as a Field Mechanic Intern at ONEOK, Inc. You will gain hands-on experience in mechanical work on equipment at our natural gas gathering and processing facilities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-08",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Williston-ND/Intern---Field--DOT---Unfilled-_R8359-1",
-      "external_id": "R8359",
-      "verified_at": "2026-10-25T19:42:16Z",
-      "match_score": 85
-    },
-    {
       "id": "motorola-solutions-f7cbadc2ba80",
       "source_key": "motorola-solutions",
       "fortune_rank": 378,
@@ -10660,34 +10269,6 @@
       "match_score": 85
     },
     {
-      "id": "oneok-917357e9ad13",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Plant Operator Intern",
-      "location": "Watford City, ND",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY About ONEOK: ONEOK, Inc. is a leading midstream service provider in the energy sector, committed to delivering energy products and services vital to an advancing world. We create exceptional value for our stakeholders by providing…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-07",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Watford-City-ND/Plant-Operator-Intern_R8361-1",
-      "external_id": "R8361",
-      "verified_at": "2026-10-25T19:42:16Z",
-      "match_score": 85
-    },
-    {
       "id": "mastercard-4d9a9cfb66fb",
       "source_key": "mastercard",
       "fortune_rank": 141,
@@ -10777,89 +10358,6 @@
       "external_id": "JR2026521717",
       "verified_at": "2026-10-25T22:38:41Z",
       "match_score": 90
-    },
-    {
-      "id": "somnigroup-international-16b1469ceabb",
-      "source_key": "somnigroup-international",
-      "fortune_rank": 35,
-      "fortune_500": true,
-      "company": "Somnigroup International",
-      "title": "Sales Development Program - Internship",
-      "location": "Dallas, Texas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Tech consulting",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy"
-      ],
-      "summary": "This is a full-time onsite role based in the location(s) posted and is performed from the designated work location five days per week. At AT&T, you'll be empowered to create real change in an ever-expanding, connected world. As part of our team, your impact will be felt no…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-06",
-      "deadline": "2026-11-14",
-      "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Sales-Development-Program---Internship_R-120996",
-      "external_id": "R-120996",
-      "verified_at": "2026-10-27T07:59:01Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-d6895e7705fc",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Field Mechanic Intern",
-      "location": "Eufaula, OK",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Exciting internship opportunity as a Field Mechanic Intern at ONEOK, Inc. You will gain hands-on experience in mechanical work on equipment at our natural gas gathering and processing facilities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-06",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Eufaula-OK/Field-Mechanic-Intern_R8442-1",
-      "external_id": "R8442",
-      "verified_at": "2026-10-25T19:42:16Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-63ee7d6c2ed8",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Blending Coordinator Intern",
-      "location": "Houston, TX",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as a Blending Coordinator Intern in Houston, TX. This hands-on internship is ideal for students in vocational or technical programs such as Pipeline, Plant or Terminal Operations, Process Technology, or similar fields",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-06",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Houston-TX/Blending-Coordinator-Intern_R8582-1",
-      "external_id": "R8582",
-      "verified_at": "2026-10-25T19:42:16Z",
-      "match_score": 85
     },
     {
       "id": "live-nation-entertainment-59623deaff2f",
@@ -11181,33 +10679,6 @@
       "match_score": 85
     },
     {
-      "id": "amgen-fa9649a4bd81",
-      "source_key": "amgen",
-      "fortune_rank": 129,
-      "fortune_500": true,
-      "company": "Amgen",
-      "title": "Undergrad Co-op - Electrical Engineering (Jan - Mar 2027)",
-      "location": "US - Rhode Island - West Greenwich",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-06",
-      "deadline": null,
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---Rhode-Island---West-Greenwich/Undergrad-Co-op---Electrical-Engineering--Jan---Mar-2027-_R-257526",
-      "external_id": "R-257526",
-      "verified_at": "2026-10-25T16:30:04Z",
-      "match_score": 85
-    },
-    {
       "id": "american-electric-power-765b31a370c3",
       "source_key": "american-electric-power",
       "fortune_rank": 209,
@@ -11339,71 +10810,6 @@
       "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Krakow-Poland/System-Test-Engineer--Intern-_R68864",
       "external_id": "R68864",
       "verified_at": "2026-10-26T19:24:14Z",
-      "match_score": 85
-    },
-    {
-      "id": "marvell-technology-b38e52c986e8",
-      "source_key": "marvell-technology",
-      "fortune_rank": 476,
-      "fortune_500": true,
-      "company": "Marvell Technology",
-      "title": "Test Solutions Engineering Intern - Bachelor's Degree",
-      "location": "Singapore",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Solutions Engineer",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "Cloud",
-        "AI / ML",
-        "Product",
-        "Strategy"
-      ],
-      "summary": "About Marvell Marvell’s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-05",
-      "deadline": null,
-      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Singapore/Test-Solutions-Engineering-Intern---Bachelor-s-Degree_2604801",
-      "external_id": "2604801",
-      "verified_at": "2026-10-25T16:30:17Z",
-      "match_score": 85
-    },
-    {
-      "id": "marvell-technology-b8b70d5d54aa",
-      "source_key": "marvell-technology",
-      "fortune_rank": 476,
-      "fortune_500": true,
-      "company": "Marvell Technology",
-      "title": "Supply Chain Technology & Analytics Intern - Bachelor's Degree",
-      "location": "Singapore",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Risk management",
-        "FP&A"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Excel",
-        "Power BI",
-        "Cloud"
-      ],
-      "summary": "About Marvell Marvell’s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-05",
-      "deadline": null,
-      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Singapore/Supply-Chain-Technology---Analytics-Intern---Bachelor-s-Degree_2603845",
-      "external_id": "2603845",
-      "verified_at": "2026-10-25T16:30:18Z",
       "match_score": 85
     },
     {
@@ -11594,7 +11000,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Human-Resources-Intern--Summer-2027_115918",
       "external_id": "115918",
-      "verified_at": "2026-10-27T07:56:48Z",
+      "verified_at": "2026-10-27T14:35:16Z",
       "match_score": 85
     },
     {
@@ -11809,115 +11215,6 @@
       "match_score": 85
     },
     {
-      "id": "oneok-93f5e09a43f7",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Instrumentation and Electrical Technician Intern (Tulsa or Oklahoma City, OK)",
-      "location": "Oklahoma City, OK",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-01",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Oklahoma-City-OK/Instrumentation-and-Electrical-Technician-Intern--Tulsa-or-Oklahoma-City--OK-_R8441-1",
-      "external_id": "R8441",
-      "verified_at": "2026-10-25T19:42:17Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-1d2832824248",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Instrumentation and Electrical Technician Intern",
-      "location": "Lubbock, TX",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-01",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Lubbock-TX/Instrumentation-and-Electrical-Technician-Intern_R8440-1",
-      "external_id": "R8440",
-      "verified_at": "2026-10-25T19:42:17Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-4e1e90ab0d4e",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Instrumentation & Electrical Technician Intern",
-      "location": "Midland, TX",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-01",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Midland-TX/Instrumentation---Electrical-Technician-Intern_R8354",
-      "external_id": "R8354",
-      "verified_at": "2026-10-25T19:42:17Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-e54a4d303723",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Purina Farm & Ranch Sales Intern",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Purina Farm & Ranch Sales Intern As a Purina Farm & Ranch Feed Sales Intern, you will be working alongside Purina Animal Nutrition Retail Operations Managers with national retailers, such as Tractor Supply Co and Regional Farm and Ranch accounts",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-01",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Purina-Farm---Ranch-Sales-Intern_R-40708",
-      "external_id": "R-40708",
-      "verified_at": "2026-10-25T19:43:00Z",
-      "match_score": 85
-    },
-    {
       "id": "johnson-johnson-d2ce8ce84abb",
       "source_key": "johnson-johnson",
       "fortune_rank": 45,
@@ -11970,7 +11267,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/McCalla-AL/Human-Resources-Intern--McCalla--AL--Summer-2027_115887",
       "external_id": "115887",
-      "verified_at": "2026-10-27T07:56:49Z",
+      "verified_at": "2026-10-27T14:35:17Z",
       "match_score": 85
     },
     {
@@ -11998,7 +11295,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Emporia-KS/Human-Resources-Intern--Emporia--KS--Summer-2027_115888",
       "external_id": "115888",
-      "verified_at": "2026-10-27T07:56:49Z",
+      "verified_at": "2026-10-27T14:35:17Z",
       "match_score": 85
     },
     {
@@ -12023,7 +11320,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Corporate-Communications-Intern--Summer-2027_115919",
       "external_id": "115919",
-      "verified_at": "2026-10-27T07:56:48Z",
+      "verified_at": "2026-10-27T14:35:15Z",
       "match_score": 85
     },
     {
@@ -12160,6 +11457,37 @@
       "match_score": 85
     },
     {
+      "id": "cigna-group-f3de2319c2ce",
+      "source_key": "cigna-group",
+      "fortune_rank": 14,
+      "fortune_500": true,
+      "company": "Cigna Group",
+      "title": "Product Analytics Summer Intern - Start Date: May 24, 2027",
+      "location": "Morris Plains, NJ",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "SQL",
+        "Excel",
+        "Product",
+        "Strategy"
+      ],
+      "summary": "Looking for an internship where you'll contribute to meaningful work instead of just observing from the sidelines? At The Cigna Group, our Summer Internship Program is designed to give you hands-on experience solving real business challenges that help improve the health and…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-01",
+      "deadline": null,
+      "url": "https://cigna.wd5.myworkdayjobs.com/cignacareers/job/Morris-Plains-NJ/Product-Analytics-Summer-Intern---Start-Date--May-24--2027_26010180",
+      "external_id": "26010180",
+      "verified_at": "2026-10-27T14:37:48Z",
+      "match_score": 85
+    },
+    {
       "id": "target-a3e6f08b052b",
       "source_key": "target",
       "fortune_rank": 42,
@@ -12182,71 +11510,6 @@
       "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Inventory-Analyst-Intern---Minneapolis--MN--Starting-Summer--2027-_R0000450965",
       "external_id": "R0000450965",
       "verified_at": "2026-10-25T22:39:11Z",
-      "match_score": 85
-    },
-    {
-      "id": "marvell-technology-8f5e92dce373",
-      "source_key": "marvell-technology",
-      "fortune_rank": 476,
-      "fortune_500": true,
-      "company": "Marvell Technology",
-      "title": "Supplier Quality Intern - Bachelor's Degree",
-      "location": "Singapore",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "AI / ML",
-        "Product",
-        "Risk",
-        "Accounting"
-      ],
-      "summary": "About Marvell Marvell’s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-30",
-      "deadline": null,
-      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Singapore/Supplier-Quality-Intern---Bachelor-s-Degree_2603823",
-      "external_id": "2603823",
-      "verified_at": "2026-10-25T16:30:22Z",
-      "match_score": 85
-    },
-    {
-      "id": "marvell-technology-3ea8db7b36f5",
-      "source_key": "marvell-technology",
-      "fortune_rank": 476,
-      "fortune_500": true,
-      "company": "Marvell Technology",
-      "title": "Business Planning System Analyst Intern - Bachelor's Degree",
-      "location": "Singapore",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Power BI",
-        "Cloud",
-        "AI / ML"
-      ],
-      "summary": "About Marvell Marvell’s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-30",
-      "deadline": null,
-      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Singapore/Business-Planning-System-Analyst-Intern---Bachelor-s-Degree_2603816",
-      "external_id": "2603816",
-      "verified_at": "2026-10-25T16:30:16Z",
       "match_score": 85
     },
     {
@@ -12451,35 +11714,6 @@
       "match_score": 85
     },
     {
-      "id": "ingram-micro-holding-8c58421594a8",
-      "source_key": "ingram-micro-holding",
-      "fortune_rank": 90,
-      "fortune_500": true,
-      "company": "Ingram Micro Holding",
-      "title": "Marketing Intern",
-      "location": "Dubai, United Arab Emirates",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "It's fun to work in a company where people truly BELIEVE in what they're doing! Job Description: Marketing Intern Who We Are Ingram Micro is a leading technology company for the global information technology ecosystem. With the ability to reach nearly 90% of the global…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-29",
-      "deadline": null,
-      "url": "https://ingrammicro.wd5.myworkdayjobs.com/IngramMicro/job/Dubai-United-Arab-Emirates/Marketing-Intern_R-117629",
-      "external_id": "R-117629",
-      "verified_at": "2026-10-25T19:43:16Z",
-      "match_score": 85
-    },
-    {
       "id": "ge-vernova-8cbb36257568",
       "source_key": "ge-vernova",
       "fortune_rank": 124,
@@ -12595,33 +11829,6 @@
       "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/AI-RAN-Telecommunications-Engineer-Intern_R0246869",
       "external_id": "R0246869",
       "verified_at": "2026-10-26T23:13:16Z",
-      "match_score": 85
-    },
-    {
-      "id": "primoris-services-6e1d9f771275",
-      "source_key": "primoris-services",
-      "fortune_rank": 497,
-      "fortune_500": true,
-      "company": "Primoris Services",
-      "title": "All-Level Apprentice/Journeyman, Foreman, Groundman, & Operator Opportunities-Brad J",
-      "location": "Texas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Overview: With over 70 years of operating experience, Primoris Power Delivery services include engineering and design, installation and maintenance, material and equipment procurement, repair of electrical transmission, distribution, substation, wireless communication, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-09-28",
-      "deadline": null,
-      "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Apprentice-Journeyman--Foreman--Groundman----Operator-Opportunities-Brad-J_JR102587",
-      "external_id": "JR102587",
-      "verified_at": "2026-10-25T16:30:55Z",
       "match_score": 85
     },
     {
@@ -12769,33 +11976,6 @@
       "external_id": "JR2026519225",
       "verified_at": "2026-10-25T22:38:42Z",
       "match_score": 90
-    },
-    {
-      "id": "vistra-828bc94324df",
-      "source_key": "vistra",
-      "fortune_rank": 251,
-      "fortune_500": true,
-      "company": "Vistra",
-      "title": "Nuclear Instrument & Control Tech Apprentice-Shift",
-      "location": "Shippingport, Pennsylvania",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "If you have what it takes to become part of the Vistra family and would like to start a promising career with a global leader, take a look at the exciting employment opportunities that are currently available and apply online. Job Summary Job Description DUTIES: Under direct…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://vst.wd5.myworkdayjobs.com/vistra_careers/job/Shippingport-Pennsylvania/Nuclear-Instrument---Control-Tech-Apprentice-Shift_40015781-1",
-      "external_id": "40015781",
-      "verified_at": "2026-10-25T16:29:50Z",
-      "match_score": 85
     },
     {
       "id": "vf-09e11734b034",
@@ -14140,7 +13320,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-10-27T07:57:19Z",
+      "verified_at": "2026-10-27T14:35:44Z",
       "match_score": 85
     },
     {
@@ -14260,412 +13440,92 @@
       "match_score": 85
     },
     {
-      "id": "primoris-services-e7af3cd47962",
-      "source_key": "primoris-services",
-      "fortune_rank": 497,
+      "id": "prologis-09936f439caf",
+      "source_key": "prologis",
+      "fortune_rank": 451,
       "fortune_500": true,
-      "company": "Primoris Services",
-      "title": "Field Engineer Intern",
-      "location": "Nationwide",
+      "company": "Prologis",
+      "title": "Investment Analyst Program (IAP) 2027",
+      "location": "San Francisco, California",
       "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
-        "Risk management",
         "Asset-based lending"
       ],
       "tags": [
         "Excel",
-        "Operations",
-        "Risk",
+        "AI / ML",
+        "Finance"
+      ],
+      "summary": "At Prologis, we don’t just lead the industry—we define it with a 1.3 billion square foot portfolio and an annual throughput of approximately $3.2 trillion. We create the intelligent infrastructure that powers global commerce, seamlessly connecting the digital and physical worlds",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-10-30",
+      "url": "https://prologis.wd5.myworkdayjobs.com/Prologis_External_Careers/job/San-Francisco-California/Investment-Analyst-Program--IAP--2027_R6785",
+      "external_id": "R6785",
+      "verified_at": "2026-10-27T14:36:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "palo-alto-networks-9a8fc0c71c33",
+      "source_key": "palo-alto-networks",
+      "fortune_rank": 437,
+      "fortune_500": true,
+      "company": "Palo Alto Networks",
+      "title": "Senior Program Specialist - Intern & Keep Warm Programs",
+      "location": "Office - USA - CA - Headquarters",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy",
         "Accounting"
       ],
-      "summary": "Job Overview: JOB OVERVIEW: Primoris Renewable Energy is currently seeking Field Engineer Interns to join our team. This position will be a site-based role. Administers daily operations of project site under supervision of Trade Superintendent, Project Engineer, Project Manager…",
+      "summary": "Our Mission At Palo Alto Networks®, we’re united by a shared mission—to protect our digital way of life. We thrive at the intersection of innovation and impact, solving real-world problems with cutting-edge technology and bold thinking",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-01-30",
       "deadline": null,
-      "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Nationwide/Field-Engineer-Intern_JR102285",
-      "external_id": "JR102285",
-      "verified_at": "2026-10-25T16:30:53Z",
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Senior-Program-Specialist---Intern---Keep-Warm-Programs_JR-022876",
+      "external_id": "JR-022876",
+      "verified_at": "2026-10-27T14:36:09Z",
       "match_score": 85
     },
     {
-      "id": "primoris-services-90e5b871604a",
-      "source_key": "primoris-services",
-      "fortune_rank": 497,
+      "id": "palo-alto-networks-3cc54198818d",
+      "source_key": "palo-alto-networks",
+      "fortune_rank": 437,
       "fortune_500": true,
-      "company": "Primoris Services",
-      "title": "All-Level Apprentice/Journeyman, Foreman-Shannon H",
-      "location": "Texas",
-      "region": "Global",
+      "company": "Palo Alto Networks",
+      "title": "Intern - GRC Engineer",
+      "location": "Office - USA - CA - Headquarters",
+      "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
+        "Implementation Consulting",
         "Asset-based lending"
       ],
       "tags": [
-        "Operations"
+        "Python",
+        "Cloud",
+        "AI / ML",
+        "Risk"
       ],
-      "summary": "Job Overview: With over 70 years of operating experience, Primoris Power Delivery services include engineering and design, installation and maintenance, material and equipment procurement, repair of electrical transmission, distribution, substation, wireless communication, and…",
+      "summary": "Our Mission At Palo Alto Networks®, we’re united by a shared mission—to protect our digital way of life. We thrive at the intersection of innovation and impact, solving real-world problems with cutting-edge technology and bold thinking",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-01-30",
       "deadline": null,
-      "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Apprentice-Journeyman--Foreman-Shannon-H_JR101398",
-      "external_id": "JR101398",
-      "verified_at": "2026-10-25T16:30:55Z",
-      "match_score": 85
-    },
-    {
-      "id": "primoris-services-5b96d55b75a7",
-      "source_key": "primoris-services",
-      "fortune_rank": 497,
-      "fortune_500": true,
-      "company": "Primoris Services",
-      "title": "All-Level Apprentice/Journeyman, Foreman-Royce Mccrary",
-      "location": "Texas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Overview: With over 70 years of operating experience, Primoris Power Delivery services include engineering and design, installation and maintenance, material and equipment procurement, repair of electrical transmission, distribution, substation, wireless communication, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Apprentice-Journeyman--Foreman-Royce-Mccrary_JR100538",
-      "external_id": "JR100538",
-      "verified_at": "2026-10-25T16:30:56Z",
-      "match_score": 85
-    },
-    {
-      "id": "primoris-services-817e1513ed42",
-      "source_key": "primoris-services",
-      "fortune_rank": 497,
-      "fortune_500": true,
-      "company": "Primoris Services",
-      "title": "All-Level Apprentice/Journeyman, Foreman-Marcus M",
-      "location": "Texas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Overview: With over 70 years of operating experience, Primoris Power Delivery services include engineering and design, installation and maintenance, material and equipment procurement, repair of electrical transmission, distribution, substation, wireless communication, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Apprentice-Journeyman--Foreman-Marcus-M_JR101454",
-      "external_id": "JR101454",
-      "verified_at": "2026-10-25T16:30:55Z",
-      "match_score": 85
-    },
-    {
-      "id": "primoris-services-d8de10c32719",
-      "source_key": "primoris-services",
-      "fortune_rank": 497,
-      "fortune_500": true,
-      "company": "Primoris Services",
-      "title": "All-Level Apprentice/Journeyman, Foreman-Jeff Jarrell",
-      "location": "Texas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Overview: With over 70 years of operating experience, Primoris Power Delivery services include engineering and design, installation and maintenance, material and equipment procurement, repair of electrical transmission, distribution, substation, wireless communication, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Apprentice-Journeyman--Foreman-Jeff-Jarrell_JR100805",
-      "external_id": "JR100805",
-      "verified_at": "2026-10-25T16:30:54Z",
-      "match_score": 85
-    },
-    {
-      "id": "primoris-services-262f1e709681",
-      "source_key": "primoris-services",
-      "fortune_rank": 497,
-      "fortune_500": true,
-      "company": "Primoris Services",
-      "title": "All-Level Apprentice/Journeyman, Foreman-Danny M",
-      "location": "Texas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Overview: With over 70 years of operating experience, Primoris Power Delivery services include engineering and design, installation and maintenance, material and equipment procurement, repair of electrical transmission, distribution, substation, wireless communication, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Apprentice-Journeyman--Foreman-Danny-M_JR101685",
-      "external_id": "JR101685",
-      "verified_at": "2026-10-25T16:30:55Z",
-      "match_score": 85
-    },
-    {
-      "id": "primoris-services-b6c76d1798ac",
-      "source_key": "primoris-services",
-      "fortune_rank": 497,
-      "fortune_500": true,
-      "company": "Primoris Services",
-      "title": "All-Level Apprentice/Journeyman, Foreman-Billy Pratt",
-      "location": "Texas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Overview: With over 70 years of operating experience, Primoris Power Delivery services include engineering and design, installation and maintenance, material and equipment procurement, repair of electrical transmission, distribution, substation, wireless communication, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Apprentice-Journeyman--Foreman-Billy-Pratt_JR101169",
-      "external_id": "JR101169",
-      "verified_at": "2026-10-25T16:30:55Z",
-      "match_score": 85
-    },
-    {
-      "id": "primoris-services-6a02c253aaa2",
-      "source_key": "primoris-services",
-      "fortune_rank": 497,
-      "fortune_500": true,
-      "company": "Primoris Services",
-      "title": "All-Level Apprentice/Journeyman, Foreman-Angel",
-      "location": "Texas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Overview: With over 70 years of operating experience, Primoris Power Delivery services include engineering and design, installation and maintenance, material and equipment procurement, repair of electrical transmission, distribution, substation, wireless communication, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Apprentice-Journeyman--Foreman-Angel_JR101612",
-      "external_id": "JR101612",
-      "verified_at": "2026-10-25T16:30:55Z",
-      "match_score": 85
-    },
-    {
-      "id": "primoris-services-eb46f3493541",
-      "source_key": "primoris-services",
-      "fortune_rank": 497,
-      "fortune_500": true,
-      "company": "Primoris Services",
-      "title": "All-Level Apprentice/Journeyman, Foreman, Groundman, & Operator Opportunities-Brad J",
-      "location": "Texas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Overview: With over 70 years of operating experience, Primoris Power Delivery services include engineering and design, installation and maintenance, material and equipment procurement, repair of electrical transmission, distribution, substation, wireless communication, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Apprentice-Journeyman--Foreman--Groundman----Operator-Opportunities-Brad-J_JR100835",
-      "external_id": "JR100835",
-      "verified_at": "2026-10-25T16:30:55Z",
-      "match_score": 85
-    },
-    {
-      "id": "primoris-services-46890c28a5d9",
-      "source_key": "primoris-services",
-      "fortune_rank": 497,
-      "fortune_500": true,
-      "company": "Primoris Services",
-      "title": "All-Level Apprentice/Journeyman, Foreman, Groundman, & Operator Opportunities-Alex G",
-      "location": "Texas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Overview: With over 70 years of operating experience, Primoris Power Delivery services include engineering and design, installation and maintenance, material and equipment procurement, repair of electrical transmission, distribution, substation, wireless communication, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Apprentice-Journeyman--Foreman--Groundman----Operator-Opportunities-Alex-G_JR100834",
-      "external_id": "JR100834",
-      "verified_at": "2026-10-25T16:30:54Z",
-      "match_score": 85
-    },
-    {
-      "id": "primoris-services-6803167d6526",
-      "source_key": "primoris-services",
-      "fortune_rank": 497,
-      "fortune_500": true,
-      "company": "Primoris Services",
-      "title": "All-Level Apprentice/Journeyman, Foreman, Groundman, & Operator Opportunities [Drivers] 6151/6152/6250/5550 TX-Power Delivery",
-      "location": "Texas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Overview: With over 70 years of operating experience, Primoris Power Delivery services include engineering and design, installation and maintenance, material and equipment procurement, repair of electrical transmission, distribution, substation, wireless communication, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Apprentice-Journeyman--Foreman--Groundman----Operator-Opportunities--Drivers--6151-6152-6250-5550-TX-Power-Delivery_",
-      "external_id": "JR100468",
-      "verified_at": "2026-10-25T16:30:56Z",
-      "match_score": 85
-    },
-    {
-      "id": "primoris-services-f3c9ea93bb91",
-      "source_key": "primoris-services",
-      "fortune_rank": 497,
-      "fortune_500": true,
-      "company": "Primoris Services",
-      "title": "All-Level Apprentice/Journeyman, Foreman, Groundman, & Operator Opportunities Transmission/Substation [Drivers] 8055/8056/8057/8155 TX-Power Delivery",
-      "location": "Texas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Overview: With over 70 years of operating experience, Primoris Power Delivery services include engineering and design, installation and maintenance, material and equipment procurement, repair of electrical transmission, distribution, substation, wireless communication, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Apprentice-Journeyman--Foreman--Groundman----Operator-Opportunities-Transmission-Substation--Drivers--8055-8056-8057-8155-TX-Power-Delivery_JR100256",
-      "external_id": "JR100256",
-      "verified_at": "2026-10-25T16:30:56Z",
-      "match_score": 85
-    },
-    {
-      "id": "primoris-services-2e9a03c8be56",
-      "source_key": "primoris-services",
-      "fortune_rank": 497,
-      "fortune_500": true,
-      "company": "Primoris Services",
-      "title": "All Level Lineman, Apprentice, & Foreman-Chris Cullars",
-      "location": "Texas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Overview: With over 70 years of operating experience, Primoris Power Delivery services include engineering and design, installation and maintenance, material and equipment procurement, repair of electrical transmission, distribution, substation, wireless communication, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Lineman--Apprentice----Foreman_-1",
-      "external_id": "JR100322",
-      "verified_at": "2026-10-25T16:30:56Z",
-      "match_score": 85
-    },
-    {
-      "id": "primoris-services-d896f8768478",
-      "source_key": "primoris-services",
-      "fortune_rank": 497,
-      "fortune_500": true,
-      "company": "Primoris Services",
-      "title": "All Level Apprentice/Journeyman,Foreman, Groundman & Operator Opportunities-Transmission/Substation [Non-Driver] 8055/8056/8057/8155-TX-Power Delivery",
-      "location": "Texas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Overview: With over 70 years of operating experience, Primoris Power Delivery services include engineering and design, installation and maintenance, material and equipment procurement, repair of electrical transmission, distribution, substation, wireless communication, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Apprentice-Journeyman-Foreman--Groundman---Operator-Opportunities-Transmission-Substation--Non-Driver--8055-8056-8057-8155-TX-Power-Delivery_JR100257-1",
-      "external_id": "JR100257",
-      "verified_at": "2026-10-25T16:30:56Z",
-      "match_score": 85
-    },
-    {
-      "id": "primoris-services-170740105f35",
-      "source_key": "primoris-services",
-      "fortune_rank": 497,
-      "fortune_500": true,
-      "company": "Primoris Services",
-      "title": "All Level Apprentice, Journeyman, Foreman-Mike Erwin",
-      "location": "Texas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Overview: With over 70 years of operating experience, Primoris Power Delivery services include engineering and design, installation and maintenance, material and equipment procurement, repair of electrical transmission, distribution, substation, wireless communication, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Apprentice--Journeyman--Foreman-Mike-Erwin_JR100536-1",
-      "external_id": "JR100536",
-      "verified_at": "2026-10-25T16:30:56Z",
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---GRC-Engineer_JR-013678",
+      "external_id": "JR-013678",
+      "verified_at": "2026-10-27T14:36:12Z",
       "match_score": 85
     },
     {
@@ -15519,34 +14379,6 @@
       "match_score": 85
     },
     {
-      "id": "marvell-technology-c6ab28fe2603",
-      "source_key": "marvell-technology",
-      "fortune_rank": 476,
-      "fortune_500": true,
-      "company": "Marvell Technology",
-      "title": "Program Management Intern",
-      "location": "Cordoba, Argentina",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "AI / ML"
-      ],
-      "summary": "About Marvell Marvell’s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Cordoba-Argentina/Program-Management-Intern_2502670",
-      "external_id": "2502670",
-      "verified_at": "2026-10-25T16:30:23Z",
-      "match_score": 85
-    },
-    {
       "id": "live-nation-entertainment-5f48dd360589",
       "source_key": "live-nation-entertainment",
       "fortune_rank": 180,
@@ -15596,304 +14428,6 @@
       "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Calabasas-CA-USA/Emo-Nite---Production-Intern_JR-92849-2",
       "external_id": "JR-92849",
       "verified_at": "2026-10-26T23:11:09Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-6d48031c8b80",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Supply Chain Intern Summer 2027",
-      "location": "Arden Hills, MN (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "Supply Chain Intern Summer 2027 As a Supply Chain intern, you will: Get broad exposure to our Supply Chain organization and leadership team. Gain invaluable job experience, career development, and leadership opportunities. Receive both technical and leadership training to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/Supply-Chain-Intern-Summer-2027_R-36773",
-      "external_id": "R-36773",
-      "verified_at": "2026-10-25T19:42:58Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-eba09fc6bb3f",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "IT Intern",
-      "location": "Arden Hills, MN (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "IT analyst",
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "IT Intern Pay: $2 8 / hr Position Duration: May 2027 – July 2027 Position Location: Arden Hills, MN The Land O'Lakes Technology Internship brings your education to life by providing hands-on experience applying technology and data solutions to real business challenges",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/IT-Intern_R-40138",
-      "external_id": "R-40138",
-      "verified_at": "2026-10-25T19:42:58Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-d469f66ad013",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Government Relations Intern",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy"
-      ],
-      "summary": "Government Relations Intern Pay: $23/ hr Position Duration: January 2027 – July 2027 Position Location: Virtual & Washington, D.C. The Land O’Lakes Government Relations team works on behalf of our business and member-owners to develop policy, advocate for the cooperative, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Government-Relations-Intern_R-40406",
-      "external_id": "R-40406",
-      "verified_at": "2026-10-25T19:42:58Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-36428f8efd02",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Feed Sales Intern - West Region",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Feed Sales Intern - West Region Position Summary: As a Purina Feed Sales Intern, you will be employed by Land O'Lakes, Inc. and placed in a market with participating dealers and cooperatives. This is a field-based sales internship built for students who want to turn animal…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Feed-Sales-Intern---West-Region_R-40354",
-      "external_id": "R-40354",
-      "verified_at": "2026-10-25T19:42:58Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-188b9b1ebd9c",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Feed Sales Intern - Southwest Region",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Feed Sales Intern - Southwest Region Position Summary: As a Purina Feed Sales Intern, you will be employed by Land O'Lakes, Inc. and placed in a market with participating dealers and cooperatives. This is a field-based sales internship built for students who want to turn animal…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Feed-Sales-Intern---Southwest-Region_R-40363",
-      "external_id": "R-40363",
-      "verified_at": "2026-10-25T19:42:58Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-212d899f0f8b",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Feed Sales Intern - Midwest Region",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Feed Sales Intern - Midwest Region Position Summary: As a Purina Feed Sales Intern, you will be employed by Land O'Lakes, Inc. and placed in a market with participating dealers and cooperatives. This is a field-based sales internship built for students who want to turn animal…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Feed-Sales-Intern---Midwest-Region_R-40357",
-      "external_id": "R-40357",
-      "verified_at": "2026-10-25T19:42:59Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-f9b8a4a9b0e7",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Feed Sales Intern - Great Lakes Region",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Feed Sales Intern - Great Lakes Region Position Summary: As a Purina Feed Sales Intern, you will be employed by Land O'Lakes, Inc. and placed in a market with participating dealers and cooperatives. This is a field-based sales internship built for students who want to turn…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Feed-Sales-Intern---Great-Lakes-Region_R-40359",
-      "external_id": "R-40359",
-      "verified_at": "2026-10-25T19:42:58Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-1be4e96743e2",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Feed Sales Intern - East Region",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Feed Sales Intern - East Region Position Summary: As a Purina Feed Sales Intern, you will be employed by Land O'Lakes, Inc. and placed in a market with participating dealers and cooperatives. This is a field-based sales internship built for students who want to turn animal…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Feed-Sales-Intern---East-Region_R-40361",
-      "external_id": "R-40361",
-      "verified_at": "2026-10-25T19:42:59Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-d45074918cf7",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Dairy Member Services Intern",
-      "location": "Arden Hills, MN (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Dairy Member Services Intern Pay: $23/ hr Position Duration: May 2027 - July 2027 Position Location: Arden Hills, MN Team The Dairy Member Services team is responsible for providing value-added products and services to our Dairy Members as part of their cooperative membership…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/Dairy-Member-Services-Intern_R-40412",
-      "external_id": "R-40412",
-      "verified_at": "2026-10-25T19:42:58Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-f0a3c00decd6",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Culinary Center Intern",
-      "location": "Arden Hills, MN (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "Culinary Center Intern P ay: $24/ h r Position Duration: May 2027 – July 2027 Position Location: Arden Hills, MN Position Summary The Culinary Center Intern will engage in a structured 1 1 -week program designed to build foundational culinary skills and contribute to strategic…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/Culinary-Center-Intern_R-40365",
-      "external_id": "R-40365",
-      "verified_at": "2026-10-25T19:42:58Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-fb833cbffdc5",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Communications Intern",
-      "location": "Arden Hills, MN (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Communications Intern Pay : $22/ hr Position Duration: May 2027 – July 2027 Position Location: Arden Hills, MN Land O'Lakes is looking for talented, driven communications candidates for our summer internship program. As an intern, you will be assigned specific responsibilities…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/Communications-Intern_R-40461",
-      "external_id": "R-40461",
-      "verified_at": "2026-10-25T19:42:58Z",
       "match_score": 85
     },
     {
@@ -16256,7 +14790,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Supply-Chain-Intern--Summer-2027_115694",
       "external_id": "115694",
-      "verified_at": "2026-10-27T07:56:47Z",
+      "verified_at": "2026-10-27T14:35:15Z",
       "match_score": 85
     },
     {
@@ -16285,7 +14819,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
       "external_id": "115736",
-      "verified_at": "2026-10-27T07:56:49Z",
+      "verified_at": "2026-10-27T14:35:17Z",
       "match_score": 85
     },
     {
@@ -16313,7 +14847,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Quality-Assurance-Intern---Oxnard--CA_115727",
       "external_id": "115727",
-      "verified_at": "2026-10-27T07:56:49Z",
+      "verified_at": "2026-10-27T14:35:17Z",
       "match_score": 85
     },
     {
@@ -16338,7 +14872,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
       "external_id": "115725",
-      "verified_at": "2026-10-27T07:56:49Z",
+      "verified_at": "2026-10-27T14:35:17Z",
       "match_score": 85
     },
     {
@@ -16366,7 +14900,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
       "external_id": "115735",
-      "verified_at": "2026-10-27T07:56:49Z",
+      "verified_at": "2026-10-27T14:35:18Z",
       "match_score": 85
     },
     {
@@ -16393,7 +14927,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sales-Intern--Summer-2027_115803",
       "external_id": "115803",
-      "verified_at": "2026-10-27T07:56:47Z",
+      "verified_at": "2026-10-27T14:35:15Z",
       "match_score": 85
     },
     {
@@ -16420,7 +14954,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
       "external_id": "115698",
-      "verified_at": "2026-10-27T07:56:48Z",
+      "verified_at": "2026-10-27T14:35:16Z",
       "match_score": 85
     },
     {
@@ -16447,7 +14981,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/R-D-Engineering-Intern--Co-Op-2027--8-months-_115696",
       "external_id": "115696",
-      "verified_at": "2026-10-27T07:56:48Z",
+      "verified_at": "2026-10-27T14:35:16Z",
       "match_score": 85
     },
     {
@@ -16478,7 +15012,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Plant-Systems-Engineering-Intern--Orrville--OH-Spring-2027_115712",
       "external_id": "115712",
-      "verified_at": "2026-10-27T07:56:48Z",
+      "verified_at": "2026-10-27T14:35:16Z",
       "match_score": 85
     },
     {
@@ -16505,7 +15039,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Packaging-Engineering-Intern--2027--6-8-month-Co-Op_115697",
       "external_id": "115697",
-      "verified_at": "2026-10-27T07:56:49Z",
+      "verified_at": "2026-10-27T14:35:17Z",
       "match_score": 85
     },
     {
@@ -16532,7 +15066,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Columbus-GA/Operations-QA-Intern--Summer-2027-Columbus--GA_115774",
       "external_id": "115774",
-      "verified_at": "2026-10-27T07:56:48Z",
+      "verified_at": "2026-10-27T14:35:16Z",
       "match_score": 85
     },
     {
@@ -16559,7 +15093,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Decatur-AL/Operations-QA-Intern--Summer-2027--Decatur--AL_115757",
       "external_id": "115757",
-      "verified_at": "2026-10-27T07:56:48Z",
+      "verified_at": "2026-10-27T14:35:16Z",
       "match_score": 85
     },
     {
@@ -16586,7 +15120,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/New-Orleans-LA/Operations-Engineering-Intern--Summer-2027--Multiple-Locations-_115721",
       "external_id": "115721",
-      "verified_at": "2026-10-27T07:56:48Z",
+      "verified_at": "2026-10-27T14:35:16Z",
       "match_score": 85
     },
     {
@@ -16611,7 +15145,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Microbiology-Intern--Summer-2027_115676",
       "external_id": "115676",
-      "verified_at": "2026-10-27T07:56:47Z",
+      "verified_at": "2026-10-27T14:35:15Z",
       "match_score": 85
     },
     {
@@ -16640,7 +15174,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Information-Services-Intern--Summer-2027_115744",
       "external_id": "115744",
-      "verified_at": "2026-10-27T07:56:48Z",
+      "verified_at": "2026-10-27T14:35:15Z",
       "match_score": 85
     },
     {
@@ -16668,7 +15202,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Buffalo-NY/Human-Resources-Intern--Buffalo--NY--Summer-2027_115886",
       "external_id": "115886",
-      "verified_at": "2026-10-27T07:56:49Z",
+      "verified_at": "2026-10-27T14:35:17Z",
       "match_score": 85
     },
     {
@@ -16701,7 +15235,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Summer-2027_115743",
       "external_id": "115743",
-      "verified_at": "2026-10-27T07:56:48Z",
+      "verified_at": "2026-10-27T14:35:15Z",
       "match_score": 85
     },
     {
@@ -16734,7 +15268,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-10-27T07:56:47Z",
+      "verified_at": "2026-10-27T14:35:15Z",
       "match_score": 85
     },
     {
@@ -16760,7 +15294,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Category-Leadership-Intern--Summer-2027_115804",
       "external_id": "115804",
-      "verified_at": "2026-10-27T07:56:48Z",
+      "verified_at": "2026-10-27T14:35:15Z",
       "match_score": 85
     },
     {
@@ -16787,7 +15321,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Analytical-Lab-Intern--Summer-2027_115678",
       "external_id": "115678",
-      "verified_at": "2026-10-27T07:56:48Z",
+      "verified_at": "2026-10-27T14:35:15Z",
       "match_score": 85
     },
     {
@@ -16903,283 +15437,6 @@
       "url": "https://dssmith.wd3.myworkdayjobs.com/careers/job/Brussels/Design-Intern_R-8606",
       "external_id": "R-8606",
       "verified_at": "2026-10-26T23:11:12Z",
-      "match_score": 85
-    },
-    {
-      "id": "home-depot-e920c94597b2",
-      "source_key": "home-depot",
-      "fortune_rank": 25,
-      "fortune_500": true,
-      "company": "Home Depot",
-      "title": "2027 Summer Internship - User Experience",
-      "location": "STORE SUPPORT CENTER, ATLANTA - 9090",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Product management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "With a career at The Home Depot, you can be yourself and also be part of something bigger. Internship Overview The Home Depot’s Summer Internship program offers college students an opportunity to develop leadership skills and gain hands on experience in a corporate environment",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://homedepot.wd5.myworkdayjobs.com/CareerDepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/XMLNAME-2027-Summer-Internship---User-Experience_Req192109",
-      "external_id": "Req192109",
-      "verified_at": "2026-10-25T19:44:03Z",
-      "match_score": 85
-    },
-    {
-      "id": "home-depot-2f5423b3a14a",
-      "source_key": "home-depot",
-      "fortune_rank": 25,
-      "fortune_500": true,
-      "company": "Home Depot",
-      "title": "2027 Summer Internship - Supply Chain and Logistics",
-      "location": "STORE SUPPORT CENTER, ATLANTA - 9090",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "With a career at The Home Depot, you can be yourself and also be part of something bigger. Internship Overview: The Home Depot’s Summer Internship program offers college students an opportunity to develop leadership skills and gain hands on experience in a corporate environment",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://homedepot.wd5.myworkdayjobs.com/CareerDepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/XMLNAME-2027-Summer-Internship---Supply-Chain-and-Logistics_Req191966",
-      "external_id": "Req191966",
-      "verified_at": "2026-10-25T19:44:03Z",
-      "match_score": 85
-    },
-    {
-      "id": "home-depot-9df3dba962f2",
-      "source_key": "home-depot",
-      "fortune_rank": 25,
-      "fortune_500": true,
-      "company": "Home Depot",
-      "title": "2027 Summer Internship - Product Management",
-      "location": "STORE SUPPORT CENTER, ATLANTA - 9090",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Product management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Strategy",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "With a career at The Home Depot, you can be yourself and also be part of something bigger. Internship Overview The Home Depot’s Summer Internship program offers college students an opportunity to develop leadership skills and gain hands on experience in a corporate environment",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://homedepot.wd5.myworkdayjobs.com/CareerDepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/XMLNAME-2027-Summer-Internship---Product-Management_Req191931",
-      "external_id": "Req191931",
-      "verified_at": "2026-10-25T19:44:03Z",
-      "match_score": 85
-    },
-    {
-      "id": "home-depot-f519b3bca4b4",
-      "source_key": "home-depot",
-      "fortune_rank": 25,
-      "fortune_500": true,
-      "company": "Home Depot",
-      "title": "2027 Summer Internship - Marketing",
-      "location": "STORE SUPPORT CENTER, ATLANTA - 9090",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Finance"
-      ],
-      "summary": "With a career at The Home Depot, you can be yourself and also be part of something bigger. Internship Overview The Home Depot’s Summer Internship program offers college students an opportunity to develop leadership skills and gain hands on experience in a corporate environment",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://homedepot.wd5.myworkdayjobs.com/CareerDepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/XMLNAME-2027-Summer-Internship---Marketing_Req191965",
-      "external_id": "Req191965",
-      "verified_at": "2026-10-25T19:44:03Z",
-      "match_score": 85
-    },
-    {
-      "id": "home-depot-4e131c4d0f76",
-      "source_key": "home-depot",
-      "fortune_rank": 25,
-      "fortune_500": true,
-      "company": "Home Depot",
-      "title": "2027 Summer Internship - Human Resources",
-      "location": "STORE SUPPORT CENTER, ATLANTA - 9090",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "With a career at The Home Depot, you can be yourself and also be part of something bigger. Internship Overview The Home Depot’s Summer Internship program offers college students an opportunity to develop leadership skills and gain hands on experience in a corporate environment",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://homedepot.wd5.myworkdayjobs.com/CareerDepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/XMLNAME-2027-Summer-Internship---Human-Resources_Req192106",
-      "external_id": "Req192106",
-      "verified_at": "2026-10-25T19:44:03Z",
-      "match_score": 85
-    },
-    {
-      "id": "home-depot-c85f440c78d3",
-      "source_key": "home-depot",
-      "fortune_rank": 25,
-      "fortune_500": true,
-      "company": "Home Depot",
-      "title": "2027 Summer Internship - Finance & Accounting",
-      "location": "STORE SUPPORT CENTER, ATLANTA - 9090",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Accounting / financial analyst",
-        "Corporate finance",
-        "Business analyst"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "With a career at The Home Depot, you can be yourself and also be part of something bigger. Internship Overview The Home Depot’s Summer Internship program offers college students an opportunity to develop leadership skills and gain hands on experience in a corporate environment",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://homedepot.wd5.myworkdayjobs.com/CareerDepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/XMLNAME-2027-Summer-Internship---Finance---Accounting_Req191935",
-      "external_id": "Req191935",
-      "verified_at": "2026-10-25T19:44:03Z",
-      "match_score": 85
-    },
-    {
-      "id": "home-depot-08ac03b02ab7",
-      "source_key": "home-depot",
-      "fortune_rank": 25,
-      "fortune_500": true,
-      "company": "Home Depot",
-      "title": "2027 Summer Internship - Data Science & Analytics",
-      "location": "STORE SUPPORT CENTER, ATLANTA - 9090",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Tableau",
-        "Cloud",
-        "Operations"
-      ],
-      "summary": "With a career at The Home Depot, you can be yourself and also be part of something bigger. Internship Overview The Home Depot’s Summer Internship program offers college students an opportunity to develop leadership skills and gain hands on experience in a corporate environment",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://homedepot.wd5.myworkdayjobs.com/CareerDepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/XMLNAME-2027-Summer-Internship---Data-Science---Analytics_Req191968",
-      "external_id": "Req191968",
-      "verified_at": "2026-10-25T19:44:03Z",
-      "match_score": 85
-    },
-    {
-      "id": "home-depot-d4fa435126d6",
-      "source_key": "home-depot",
-      "fortune_rank": 25,
-      "fortune_500": true,
-      "company": "Home Depot",
-      "title": "2027 Summer Internship - Cybersecurity",
-      "location": "STORE SUPPORT CENTER, ATLANTA - 9090",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Finance",
-        "Risk"
-      ],
-      "summary": "With a career at The Home Depot, you can be yourself and also be part of something bigger. Internship Overview The Home Depot’s Summer Internship program offers college students an opportunity to develop leadership skills and gain hands on experience in a corporate environment",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://homedepot.wd5.myworkdayjobs.com/CareerDepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/XMLNAME-2027-Summer-Internship---Cybersecurity_Req191938",
-      "external_id": "Req191938",
-      "verified_at": "2026-10-25T19:44:03Z",
-      "match_score": 85
-    },
-    {
-      "id": "home-depot-fc4729c39cc4",
-      "source_key": "home-depot",
-      "fortune_rank": 25,
-      "fortune_500": true,
-      "company": "Home Depot",
-      "title": "2027 Summer Internship - Business Operations & Management",
-      "location": "STORE SUPPORT CENTER, ATLANTA - 9090",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Business analyst",
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "SQL",
-        "Excel",
-        "Tableau",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "With a career at The Home Depot, you can be yourself and also be part of something bigger. Internship Overview The Home Depot’s Summer Internship program offers college students an opportunity to develop leadership skills and gain hands on experience in a corporate environment",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://homedepot.wd5.myworkdayjobs.com/CareerDepot/job/STORE-SUPPORT-CENTER-ATLANTA---9090/XMLNAME-2027-Summer-Internship---Business-Operations---Management_Req191941",
-      "external_id": "Req191941",
-      "verified_at": "2026-10-25T19:44:03Z",
       "match_score": 85
     },
     {
@@ -18886,66 +17143,6 @@
       "match_score": 85
     },
     {
-      "id": "elevance-health-38bf1bac479c",
-      "source_key": "elevance-health",
-      "fortune_rank": 18,
-      "fortune_500": true,
-      "company": "Elevance Health",
-      "title": "Tax Intern - Summer 2027",
-      "location": "IN-INDIANAPOLIS, 220 VIRGINIA AVE",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Strategy",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Anticipated End Date: 2026-11-07 Position Title: Tax Intern - Summer 2027 Job Description: Tax Intern – Summer 2027 Location: Indianapolis, IN This role requires associates to be in-office 1 - 2 days per week, fostering collaboration and connectivity, while providing…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-07",
-      "url": "https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Tax-Intern---Summer-2027_JR202207",
-      "external_id": "JR202207",
-      "verified_at": "2026-10-25T16:31:20Z",
-      "match_score": 85
-    },
-    {
-      "id": "elevance-health-902f898410b2",
-      "source_key": "elevance-health",
-      "fortune_rank": 18,
-      "fortune_500": true,
-      "company": "Elevance Health",
-      "title": "Information Security Co-Op Internship – 2027",
-      "location": "IN-INDIANAPOLIS, 220 VIRGINIA AVE",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "IT analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Anticipated End Date: 2026-11-07 Position Title: Information Security Co-Op Internship – 2027 Job Description: Information Security Co-Op Internship – 2027 Location: Indianapolis, IN; Atlanta, GA This role requires associates to be in-office 1 - 2 days per week, fostering…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-07",
-      "url": "https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Information-Security-Co-Op-Internship---2027_JR205939",
-      "external_id": "JR205939",
-      "verified_at": "2026-10-25T16:31:20Z",
-      "match_score": 85
-    },
-    {
       "id": "dxc-technology-aff2ed093301",
       "source_key": "dxc-technology",
       "fortune_rank": 343,
@@ -19981,38 +18178,6 @@
       "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/UK-Field-Based-Field-Based-United-Kingdom/Engineering-Apprenticeship_30190431",
       "external_id": "30190431",
       "verified_at": "2026-10-26T23:12:03Z",
-      "match_score": 85
-    },
-    {
-      "id": "capital-one-financial-81d6b37740a9",
-      "source_key": "capital-one-financial",
-      "fortune_rank": 63,
-      "fortune_500": true,
-      "company": "Capital One Financial",
-      "title": "Intern, Financial Analyst - January 2027 (4 Month)",
-      "location": "Toronto, ON",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Accounting / financial analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "AI / ML",
-        "Product",
-        "Strategy",
-        "Finance"
-      ],
-      "summary": "161 Bay Street (93021), Canada, Toronto,Toronto, Ontario, Intern, Financial Analyst - January 2027 (4 Month) MUST INCLUDE YOUR RESUME AND UNOFFICIAL TRANSCRIPT IN ONE PDF DOCUMENT IN THE ATTACHMENT SECTION WHEN YOU CREATE YOUR PROFILE TO APPLY",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Toronto-ON/Fall-Intern--Financial-Analyst---January-2027--4-Month-_R247476",
-      "external_id": "R247476",
-      "verified_at": "2026-10-25T16:30:46Z",
       "match_score": 85
     },
     {
@@ -22275,313 +20440,6 @@
       "match_score": 85
     },
     {
-      "id": "amgen-b9c6ae480d0f",
-      "source_key": "amgen",
-      "fortune_rank": 129,
-      "fortune_500": true,
-      "company": "Amgen",
-      "title": "Undergrad Intern – Machine Learning Engineer – Technology, AI & Data (Summer 2027)",
-      "location": "United States - Remote",
-      "region": "Remote",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Excel",
-        "Cloud",
-        "AI / ML"
-      ],
-      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-07",
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Undergrad-Intern---Machine-Learning-Engineer---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255709",
-      "external_id": "R-255709",
-      "verified_at": "2026-10-25T16:30:03Z",
-      "match_score": 85
-    },
-    {
-      "id": "amgen-53d247933396",
-      "source_key": "amgen",
-      "fortune_rank": 129,
-      "fortune_500": true,
-      "company": "Amgen",
-      "title": "Undergrad Intern – Finance (Summer 2027)",
-      "location": "United States - Remote",
-      "region": "Remote",
-      "opportunity_type": "Internship",
-      "categories": [
-        "FP&A",
-        "Corporate finance",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Finance",
-        "Treasury",
-        "FP&A"
-      ],
-      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Undergrad-Intern---Finance--Summer-2027-_R-254668",
-      "external_id": "R-254668",
-      "verified_at": "2026-10-25T16:30:02Z",
-      "match_score": 85
-    },
-    {
-      "id": "amgen-dad29ab24a19",
-      "source_key": "amgen",
-      "fortune_rank": 129,
-      "fortune_500": true,
-      "company": "Amgen",
-      "title": "Undergrad Intern – Digital Product – Technology, AI & Data (Summer 2027)",
-      "location": "United States - Remote",
-      "region": "Remote",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Product management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Excel",
-        "Cloud",
-        "AI / ML"
-      ],
-      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-07",
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Undergrad-Intern---Digital-Product---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255711",
-      "external_id": "R-255711",
-      "verified_at": "2026-10-25T16:30:03Z",
-      "match_score": 85
-    },
-    {
-      "id": "amgen-c9387e3153a1",
-      "source_key": "amgen",
-      "fortune_rank": 129,
-      "fortune_500": true,
-      "company": "Amgen",
-      "title": "Undergrad Intern – Data Scientist – Technology, AI & Data (Summer 2027)",
-      "location": "United States - Remote",
-      "region": "Remote",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Excel",
-        "Cloud",
-        "AI / ML"
-      ],
-      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-07",
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Undergrad-Intern---Data-Scientist---Amgen-s-Technology---Medical-Organizations--Summer-2027-_R-255704",
-      "external_id": "R-255704",
-      "verified_at": "2026-10-25T16:30:02Z",
-      "match_score": 85
-    },
-    {
-      "id": "amgen-985947aff2e4",
-      "source_key": "amgen",
-      "fortune_rank": 129,
-      "fortune_500": true,
-      "company": "Amgen",
-      "title": "Undergrad Intern - Operations – Process Development (Summer 2027)",
-      "location": "US - California - Thousand Oaks",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Product operations",
-        "Digital transformation",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---California---Thousand-Oaks/Undergrad-Intern---Operations---Process-Development--Summer-2027-_R-254516",
-      "external_id": "R-254516",
-      "verified_at": "2026-10-25T16:30:02Z",
-      "match_score": 85
-    },
-    {
-      "id": "amgen-0d888900ae3b",
-      "source_key": "amgen",
-      "fortune_rank": 129,
-      "fortune_500": true,
-      "company": "Amgen",
-      "title": "Undergrad Intern - Business Development – Thousand Oaks, CA (Summer 2027)",
-      "location": "US - California - Thousand Oaks",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-02",
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---California---Thousand-Oaks/Undergrad-Intern---Business-Development---Thousand-Oaks--CA--Summer-2027-_R-254845",
-      "external_id": "R-254845",
-      "verified_at": "2026-10-25T16:30:02Z",
-      "match_score": 85
-    },
-    {
-      "id": "amgen-4f94e2d8a199",
-      "source_key": "amgen",
-      "fortune_rank": 129,
-      "fortune_500": true,
-      "company": "Amgen",
-      "title": "Undergrad Co-op – MCS Manufacturing Associate",
-      "location": "US - California - Thousand Oaks",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Tableau",
-        "Product",
-        "Operations"
-      ],
-      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---California---Thousand-Oaks/Undergrad-Co-op---MCS-Manufacturing-Associate_R-256774",
-      "external_id": "R-256774",
-      "verified_at": "2026-10-25T16:30:03Z",
-      "match_score": 85
-    },
-    {
-      "id": "amgen-01cbb18c22d0",
-      "source_key": "amgen",
-      "fortune_rank": 129,
-      "fortune_500": true,
-      "company": "Amgen",
-      "title": "Undergrad Co-op – DSTS – Chemical Engineering - (January – June 2027)",
-      "location": "US - Massachusetts - Cambridge",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "Product"
-      ],
-      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---Massachusetts---Cambridge/Undergrad-Co-op---DSTS---Chemical-Engineering----January---June-2027-_R-255684",
-      "external_id": "R-255684",
-      "verified_at": "2026-10-25T16:30:03Z",
-      "match_score": 85
-    },
-    {
-      "id": "amgen-542d7e4f4754",
-      "source_key": "amgen",
-      "fortune_rank": 129,
-      "fortune_500": true,
-      "company": "Amgen",
-      "title": "SEA Medical Affairs Intern",
-      "location": "Singapore Affiliate - Duo Tower",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst"
-      ],
-      "tags": [
-        "Excel",
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Career Category Training Job Description About Amgen: Amgen is one of the world’s leading biotechnology companies. Amgen is a values-based company, deeply rooted in science and innovation to transform new ideas and discoveries into medicines for patients with serious illnesses",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/Singapore-Affiliate---Duo-Tower/SEA-Medical-Affairs-Intern_R-253798",
-      "external_id": "R-253798",
-      "verified_at": "2026-10-25T16:30:01Z",
-      "match_score": 85
-    },
-    {
-      "id": "amgen-634938e2fe6a",
-      "source_key": "amgen",
-      "fortune_rank": 129,
-      "fortune_500": true,
-      "company": "Amgen",
-      "title": "Finance Intern",
-      "location": "Singapore Affiliate - Duo Tower",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Corporate finance",
-        "Business analyst",
-        "FP&A"
-      ],
-      "tags": [
-        "Excel",
-        "Power BI",
-        "Finance",
-        "FP&A",
-        "Accounting"
-      ],
-      "summary": "Career Category Training Job Description Amgen is one of the world’s leading biotechnology companies. Amgen is a values-based company, deeply rooted in science and innovation to transform new ideas and discoveries into medicines for patients with serious illnesses",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-12-31",
-      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/Singapore-Affiliate---Duo-Tower/Finance-Intern_R-253789",
-      "external_id": "R-253789",
-      "verified_at": "2026-10-25T16:30:01Z",
-      "match_score": 85
-    },
-    {
       "id": "american-electric-power-bec8b80256d2",
       "source_key": "american-electric-power",
       "fortune_rank": 209,
@@ -22716,6 +20574,228 @@
       "external_id": "R18719",
       "verified_at": "2026-10-26T19:22:53Z",
       "match_score": 90
+    },
+    {
+      "id": "ameren-24504618a196",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "Supply Chain Internship",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-21",
+      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/Supply-Chain-Internship_033958-2",
+      "external_id": "033958",
+      "verified_at": "2026-10-27T14:36:05Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-24504618a196",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "Supply Chain Internship",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-21",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Supply-Chain-Internship_033958",
+      "external_id": "033958",
+      "verified_at": "2026-10-27T14:36:43Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-16c417418d9a",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "Strategic Sourcing Intern-1",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-22",
+      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/Strategic-Sourcing-Intern-1_033838",
+      "external_id": "033838",
+      "verified_at": "2026-10-27T14:36:04Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-16c417418d9a",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "Strategic Sourcing Intern-1",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-22",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Strategic-Sourcing-Intern-1_033838-1",
+      "external_id": "033838",
+      "verified_at": "2026-10-27T14:36:41Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-744210ecb41b",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "GIS Co-op (Real Estate)",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-24",
+      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/GIS-Co-op--Real-Estate-_033670",
+      "external_id": "033670",
+      "verified_at": "2026-10-27T14:36:06Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-744210ecb41b",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "GIS Co-op (Real Estate)",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-24",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/GIS-Co-op--Real-Estate-_033670-1",
+      "external_id": "033670",
+      "verified_at": "2026-10-27T14:36:43Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-5ed297248032",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "CAD Technician Co-op",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2027-04-05",
+      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/CAD-Technician-Co-op_033920",
+      "external_id": "033920",
+      "verified_at": "2026-10-27T14:36:04Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-5ed297248032",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "CAD Technician Co-op",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2027-04-05",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/CAD-Technician-Co-op_033920-1",
+      "external_id": "033920",
+      "verified_at": "2026-10-27T14:36:41Z",
+      "match_score": 85
     },
     {
       "id": "abbott-laboratories-9cc9f7b56256",
@@ -23162,39 +21242,6 @@
       "match_score": 85
     },
     {
-      "id": "moody-s-cc83b56c45ed",
-      "source_key": "moody-s",
-      "fortune_rank": 492,
-      "fortune_500": true,
-      "company": "Moody’s",
-      "title": "Sales Intern",
-      "location": "Location",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Product management",
-        "FP&A"
-      ],
-      "tags": [
-        "AI / ML",
-        "Product",
-        "Strategy",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Sales Intern Tokyo, Japan Apply now Save job Posted 10/23/2026 Job reference 15006 Experience level Early Career Job category Early Career Opportunities & Programs Job sub category Early Career Opportunities & Programs Line of business SALES At Moody's, we unite the brightest…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://careers.moodys.com/en/job/tokyo/sales-intern/49841/100663661488",
-      "external_id": null,
-      "verified_at": "2026-10-25T16:30:16Z",
-      "match_score": 85
-    },
-    {
       "id": "mondelez-international-2ce83e181602",
       "source_key": "mondelez-international",
       "fortune_rank": 122,
@@ -23219,7 +21266,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-10-27T07:56:15Z",
+      "verified_at": "2026-10-27T14:34:31Z",
       "match_score": 85
     },
     {
@@ -23979,6 +22026,35 @@
       "match_score": 90
     },
     {
+      "id": "equinix-26b20c29d201",
+      "source_key": "equinix",
+      "fortune_rank": 436,
+      "fortune_500": true,
+      "company": "Equinix",
+      "title": "Intern to impact – Haley Wynne",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Technical Solutions",
+        "Solutions Architect",
+        "Sales Engineer"
+      ],
+      "tags": [
+        "Strategy"
+      ],
+      "summary": "Kiosk mode Intern to impact – Haley Wynne Oct 14 2025 What if your internship could be the launchpad for your entire tech career? For Haley Wynne, it was exactly that. In 2023, Haley joined Equinix as an intern on our Global Technical Solutions Team (GTST) Public Sector team",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://careers.equinix.com/blogs/life-at-equinix-blogs/intern-to-impact-hayley-wynne",
+      "external_id": null,
+      "verified_at": "2026-10-27T14:34:51Z",
+      "match_score": 85
+    },
+    {
       "id": "enterprise-products-partners-2c9f6af1610b",
       "source_key": "enterprise-products-partners",
       "fortune_rank": 89,
@@ -24096,72 +22172,6 @@
       "match_score": 85
     },
     {
-      "id": "capital-one-financial-42c9917ee8c3",
-      "source_key": "capital-one-financial",
-      "fortune_rank": 63,
-      "fortune_500": true,
-      "company": "Capital One Financial",
-      "title": "Internship Programs",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Commercial banking",
-        "Business analyst",
-        "Risk management"
-      ],
-      "tags": [
-        "AI / ML",
-        "Product",
-        "Strategy",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "You’re located near You’re interested in Find Jobs Internship Programs This is the start of something great. Marlina External Affairs Manager How will you shape the future? In our 10-week internship programs, you’re paid to dig into challenging projects with real business impact",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.capitalonecareers.com/internship-programs",
-      "external_id": null,
-      "verified_at": "2026-10-25T16:31:14Z",
-      "match_score": 85
-    },
-    {
-      "id": "capital-one-financial-5cb1bacbbd24",
-      "source_key": "capital-one-financial",
-      "fortune_rank": 63,
-      "fortune_500": true,
-      "company": "Capital One Financial",
-      "title": "Early Internship Program",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Commercial banking",
-        "Risk management",
-        "Business analyst"
-      ],
-      "tags": [
-        "SQL",
-        "AI / ML",
-        "Product",
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "You’re located near You’re interested in Find Jobs Early Internship Program Give your career a head start. Facebook LinkedIn Instagram YouTube Glassdoor Kickstart your career with the Early Internship Program Capital One’s Early Internship Program gives current college students…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.capitalonecareers.com/early-internships-program",
-      "external_id": null,
-      "verified_at": "2026-10-25T16:31:14Z",
-      "match_score": 85
-    },
-    {
       "id": "campbell-s-668275959150",
       "source_key": "campbell-s",
       "fortune_rank": 413,
@@ -24220,37 +22230,6 @@
       "url": "https://www.csx.com/index.cfm/working-at-csx/job-overviews/internship-programs/",
       "external_id": null,
       "verified_at": "2026-10-26T06:19:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "chs-dc7aa3be24e3",
-      "source_key": "chs",
-      "fortune_rank": 130,
-      "fortune_500": true,
-      "company": "CHS",
-      "title": "113 Results for Internship Jobs",
-      "location": "Location",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Wealth management",
-        "Operations analyst",
-        "IT analyst"
-      ],
-      "tags": [
-        "Operations",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Page of 8 Go Commitment to sustainability CHS knows that investing in a foundation of sustainability provides access to the global marketplace while growing a responsible and resilient business that creates value for our owners. Read our 2025 sustainability report to learn more",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://jobs.chsinc.com/category/internship-jobs/34006/8429904/1",
-      "external_id": null,
-      "verified_at": "2026-10-25T16:31:08Z",
       "match_score": 85
     },
     {
@@ -24623,6 +22602,33 @@
       "url": "https://jobs.boeing.com/meet-AdrianL",
       "external_id": null,
       "verified_at": "2026-10-25T22:39:02Z",
+      "match_score": 85
+    },
+    {
+      "id": "avery-dennison-4c9323a46392",
+      "source_key": "avery-dennison",
+      "fortune_rank": 448,
+      "fortune_500": true,
+      "company": "Avery Dennison",
+      "title": "Join the Avery Dennison Internship Community",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML"
+      ],
+      "summary": "Profile Background Are you looking for an Internship opportunity where you can bring your unique skills and talents to work every day? Do you thrive on ideas and making a visible impact? Do you want to work with colleagues who are as excited about what they do as you are, and…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://join.smartrecruiters.com/AveryDennison/eed4fbc6-ff4b-4f23-8d4b-0ff5fd2e0a1f-internship-community",
+      "external_id": null,
+      "verified_at": "2026-10-27T14:35:07Z",
       "match_score": 85
     },
     {
