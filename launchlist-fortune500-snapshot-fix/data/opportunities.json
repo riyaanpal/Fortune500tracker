@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T11:04:17Z",
+  "updated_at": "2026-11-05T18:50:50Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -11,10 +11,10 @@
   "directory_warnings": [
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-11-05T11:01:15Z",
+  "directory_refreshed_at": "2026-11-05T18:46:44Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 176,
-  "companies_failed_last_24h": 11,
+  "companies_failed_last_24h": 12,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "accendra-health",
@@ -28,32 +28,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": null
-    },
-    {
-      "key": "alphabet",
-      "rank": 5,
-      "company": "Alphabet",
-      "fortune_500": true,
-      "checked_at": "2026-11-04T15:33:34Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
-    },
-    {
-      "key": "bank-of-america",
-      "rank": 20,
-      "company": "Bank of America",
-      "fortune_500": true,
-      "checked_at": "2026-11-04T15:33:34Z",
-      "status": "error",
-      "issue_type": "Scan error",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": "https://careers.bankofamerica.com/en-us/students/job-search?ref=search&search=getAllJobs&start=0&rows=10",
-      "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 404 Client Error: Not Found for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
     },
     {
       "key": "baxter-international",
@@ -95,6 +69,19 @@
       "error": null
     },
     {
+      "key": "guardian-life-ins-co-of-america",
+      "rank": 232,
+      "company": "Guardian Life Ins. Co. of America",
+      "fortune_500": true,
+      "checked_at": "2026-11-05T18:50:50Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers",
+      "error": "Failed request: https://guardianlife.wd5.myworkdayjobs.com/wday/cxs/guardianlife/Guardian-Life-Careers/jobs: 429 Client Error: Too Many Requests for url: https://guardianlife.wd5.myworkdayjobs.com/wday/cxs/guardianlife/Guardian-Life-Careers/jobs"
+    },
+    {
       "key": "home-depot",
       "rank": 25,
       "company": "Home Depot",
@@ -121,6 +108,19 @@
       "error": "Failed request: https://ingrammicro.wd5.myworkdayjobs.com/wday/cxs/ingrammicro/IngramMicro/jobs: 429 Client Error: Too Many Requests for url: https://ingrammicro.wd5.myworkdayjobs.com/wday/cxs/ingrammicro/IngramMicro/jobs"
     },
     {
+      "key": "prologis",
+      "rank": 451,
+      "company": "Prologis",
+      "fortune_500": true,
+      "checked_at": "2026-11-05T18:50:50Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://prologis.wd5.myworkdayjobs.com/wday/cxs/prologis/Prologis_External_Careers/jobs: 429 Client Error: Too Many Requests for url: https://prologis.wd5.myworkdayjobs.com/wday/cxs/prologis/Prologis_External_Careers/jobs"
+    },
+    {
       "key": "qvc-group",
       "rank": 433,
       "company": "QVC Group",
@@ -134,17 +134,17 @@
       "error": "Failed request: https://qvc.wd5.myworkdayjobs.com/wday/cxs/qvc/QRG/jobs: 429 Client Error: Too Many Requests for url: https://qvc.wd5.myworkdayjobs.com/wday/cxs/qvc/QRG/jobs"
     },
     {
-      "key": "somnigroup-international",
-      "rank": 35,
-      "company": "Somnigroup International",
+      "key": "target",
+      "rank": 42,
+      "company": "Target",
       "fortune_500": true,
-      "checked_at": "2026-11-05T11:04:17Z",
+      "checked_at": "2026-11-05T18:50:50Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
-      "careers_url": "https://mattressfirm.wd1.myworkdayjobs.com/MattressFirmCareers",
-      "error": "Failed request: https://att.wd1.myworkdayjobs.com/wday/cxs/att/ATTGeneral/jobs: 429 Client Error: Too Many Requests for url: https://att.wd1.myworkdayjobs.com/wday/cxs/att/ATTGeneral/jobs"
+      "careers_url": null,
+      "error": "Failed request: https://target.wd5.myworkdayjobs.com/wday/cxs/target/targetcareers/jobs: 429 Client Error: Too Many Requests for url: https://target.wd5.myworkdayjobs.com/wday/cxs/target/targetcareers/jobs"
     },
     {
       "key": "ups",
@@ -158,11 +158,24 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": null
+    },
+    {
+      "key": "xylem",
+      "rank": 443,
+      "company": "Xylem",
+      "fortune_500": true,
+      "checked_at": "2026-11-05T18:50:50Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://xylem.wd5.myworkdayjobs.com/wday/cxs/xylem/xylem-careers/jobs: 429 Client Error: Too Many Requests for url: https://xylem.wd5.myworkdayjobs.com/wday/cxs/xylem/xylem-careers/jobs"
     }
   ],
-  "companies_with_eligible_jobs": 54,
+  "companies_with_eligible_jobs": 49,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 474,
+  "opportunity_count": 393,
   "opportunities": [
     {
       "id": "jones-lang-lasalle-9ceb586e2f9c",
@@ -701,152 +714,6 @@
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Getzville-New-York-United-States/Market-Operations-Junior-Analyst-Program-Hybrid_26991391-1",
       "external_id": "26991391",
       "verified_at": "2026-11-04T15:32:36Z",
-      "match_score": 85
-    },
-    {
-      "id": "carmax-0706151d8318",
-      "source_key": "carmax",
-      "fortune_rank": 162,
-      "fortune_500": true,
-      "company": "CarMax",
-      "title": "Apprentice Technician",
-      "location": "VA - Dulles",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "7132 - Dulles - 45210 Towlern Pl, Sterling, Virginia, 20166 CarMax, the way your career should be! Position Overview As an Automotive Tech-Apprentice, you’ll kickstart your career in automotive repair while working in a state-of-the-art, climate-controlled facility",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-03",
-      "deadline": null,
-      "url": "https://carmax.wd1.myworkdayjobs.com/External/job/VA---Dulles/Apprentice-Technician_JR-162575",
-      "external_id": "JT-162575",
-      "verified_at": "2026-11-03T23:27:55Z",
-      "match_score": 85
-    },
-    {
-      "id": "carmax-20df9bd84611",
-      "source_key": "carmax",
-      "fortune_rank": 162,
-      "fortune_500": true,
-      "company": "CarMax",
-      "title": "Accounting Intern",
-      "location": "Corporate - Richmond",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Accounting / financial analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Accounting"
-      ],
-      "summary": "8901 - Corp Office West Crk - 12800 Tuckahoe Creek Parkway, Richmond, Virginia, 23238 CarMax, the way your career should be! ABOUT THIS JOB : CarMax Accounting is seeking curious, motivated students who are passionate about business and eager to develop their leadership and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-03",
-      "deadline": null,
-      "url": "https://carmax.wd1.myworkdayjobs.com/External/job/Corporate---Richmond/Accounting-Intern_JR-189109",
-      "external_id": "JR-189109",
-      "verified_at": "2026-11-03T23:27:55Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-ce8cb8f197a3",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University, Digital Transformation Analyst - Summer Intern",
-      "location": "Arlington, VA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Digital transformation",
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Power BI",
-        "AI / ML",
-        "Finance"
-      ],
-      "summary": "University, Digital Transformation Analyst - Summer Intern The Opportunity: Whether it’s data analysis, process automation, UI and UX, or artificial intelligence, digital transformation involves learning how an organization works and making it better through dynamic solutions",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-03",
-      "deadline": "2027-01-31",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Arlington-VA/University--Digital-Transformation-Analyst---Summer-Intern_R0252403",
-      "external_id": "R0252403",
-      "verified_at": "2026-11-03T23:29:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-bb7712fa480c",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University, Digital Transformation Analyst - Spring Intern",
-      "location": "Arlington, VA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Digital transformation",
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Power BI",
-        "AI / ML",
-        "Finance"
-      ],
-      "summary": "University, Digital Transformation Analyst - Spring Intern The Opportunity: Whether it’s data analysis, process automation, UI and UX, or artificial intelligence, digital transformation involves learning how an organization works and making it better through dynamic solutions",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-03",
-      "deadline": "2027-01-31",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Arlington-VA/R0251716-University--Digital-Transformation-Analyst---Spring-Intern_R0252398",
-      "external_id": "R0252398",
-      "verified_at": "2026-11-03T23:29:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-8e018785bfbd",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "Systems Administrator - Summer Intern",
-      "location": "Annapolis Junction, MD",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Systems Administrator - Summer Intern The Opportunity: Organize and direct the configuration and operation of information management systems. Provide day-to-day system administration, including system and resource optimization, and user assistance",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-03",
-      "deadline": "2027-01-31",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Annapolis-Junction-MD/Systems-Administrator---Summer-Intern_R0252406",
-      "external_id": "R0252406",
-      "verified_at": "2026-11-03T23:29:49Z",
       "match_score": 85
     },
     {
@@ -1629,33 +1496,6 @@
       "match_score": 85
     },
     {
-      "id": "carmax-c6fbd072237b",
-      "source_key": "carmax",
-      "fortune_rank": 162,
-      "fortune_500": true,
-      "company": "CarMax",
-      "title": "Process Engineer Intern",
-      "location": "Corporate - Richmond",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "8901 - Corp Office West Crk - 12800 Tuckahoe Creek Parkway, Richmond, Virginia, 23238 CarMax, the way your career should be! CarMax is an innovative FORTUNE 500 company on a mission to bring honesty and integrity to car buying. Disrupting the marketplace for more than 20 years,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-30",
-      "deadline": null,
-      "url": "https://carmax.wd1.myworkdayjobs.com/External/job/Corporate---Richmond/Process-Engineer-Intern_JR-189094-1",
-      "external_id": "JR-189094",
-      "verified_at": "2026-11-03T23:27:56Z",
-      "match_score": 85
-    },
-    {
       "id": "amgen-d51207483241",
       "source_key": "amgen",
       "fortune_rank": 129,
@@ -1735,151 +1575,6 @@
       "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Roanoke-VA/Communications---Marketing-Intern_R20502",
       "external_id": "R20502",
       "verified_at": "2026-11-04T15:29:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-8f4e52013ad5",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship Supply Chain",
-      "location": "Ireland - Galway",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Finance"
-      ],
-      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-30",
-      "deadline": "2026-11-22",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Galway/Internship-Supply-Chain_31155783",
-      "external_id": "31155783",
-      "verified_at": "2026-11-03T23:29:07Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-b95f10157dae",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship IT",
-      "location": "Ireland - Longford",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "IT analyst",
-        "Digital transformation",
-        "Data analyst"
-      ],
-      "tags": [
-        "Operations",
-        "Finance"
-      ],
-      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-30",
-      "deadline": "2026-11-22",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Longford/Internship-IT_31166440",
-      "external_id": "31166440",
-      "verified_at": "2026-11-03T23:29:07Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-7d7c992c75e6",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship - Engineering",
-      "location": "Ireland - Clonmel",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "JOB DESCRIPTION: Abbott Undergraduate Engineering Internship Programme 4 Remaining Engineering Internship Opportunities Available Unlock Your Potential at Abbott Are you looking to apply your engineering knowledge, gain hands-on industry experience, and work on projects that…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-30",
-      "deadline": "2026-11-21",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Clonmel/Internship---Engineering_31155780",
-      "external_id": "31155780",
-      "verified_at": "2026-11-03T23:29:07Z",
-      "match_score": 85
-    },
-    {
-      "id": "m-t-bank-bc475f34f49d",
-      "source_key": "m-t-bank",
-      "fortune_rank": 334,
-      "fortune_500": true,
-      "company": "M&T Bank",
-      "title": "GCM Intern - UK",
-      "location": "London, United Kingdom",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Finance",
-        "Risk",
-        "Accounting"
-      ],
-      "summary": "Overview: Wilmington Trust is looking to recruit an intern for a 12-month placement. The placement will provide exposure to two key areas of the business, with 6 months spent in the Structured Finance team followed by 6 months in the Loan Agency team",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-29",
-      "deadline": null,
-      "url": "https://mtb.wd5.myworkdayjobs.com/MTB/job/London-United-Kingdom/GCM-Intern---UK_R91262-1",
-      "external_id": "R91262",
-      "verified_at": "2026-11-03T23:29:08Z",
-      "match_score": 85
-    },
-    {
-      "id": "m-t-bank-4f1669cf3c4f",
-      "source_key": "m-t-bank",
-      "fortune_rank": 334,
-      "fortune_500": true,
-      "company": "M&T Bank",
-      "title": "GCM Intern - UK",
-      "location": "London, United Kingdom",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Finance",
-        "Risk",
-        "Accounting"
-      ],
-      "summary": "Overview: Wilmington Trust is looking to recruit an intern for a 12-month placement. The placement will provide exposure to two key areas of the business, with 6 months spent in the Loan Agency team followed by 6 months in the Structured Finance team",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-29",
-      "deadline": null,
-      "url": "https://mtb.wd5.myworkdayjobs.com/MTB/job/London-United-Kingdom/GCM-Intern---UK_R91261-1",
-      "external_id": "R91261",
-      "verified_at": "2026-11-03T23:29:08Z",
       "match_score": 85
     },
     {
@@ -1998,33 +1693,6 @@
       "match_score": 85
     },
     {
-      "id": "booz-allen-hamilton-holding-377b1641eff4",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games Cyber Security Intern - Lexington, MA",
-      "location": "Lexington, MA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games Cyber Security Intern - Lexington, MA The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-29",
-      "deadline": "2027-01-26",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Lexington-MA/University---2027-Summer-Games-Cyber-Security-Intern---Lexington--MA_R0252278",
-      "external_id": "R0252278",
-      "verified_at": "2026-11-03T23:29:57Z",
-      "match_score": 85
-    },
-    {
       "id": "biogen-c4b7d6452565",
       "source_key": "biogen",
       "fortune_rank": 421,
@@ -2081,35 +1749,6 @@
       "external_id": "R-116065",
       "verified_at": "2026-11-04T06:33:01Z",
       "match_score": 90
-    },
-    {
-      "id": "somnigroup-international-16b1469ceabb",
-      "source_key": "somnigroup-international",
-      "fortune_rank": 35,
-      "fortune_500": true,
-      "company": "Somnigroup International",
-      "title": "Sales Development Program - Internship",
-      "location": "Dallas, Texas",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Tech consulting",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy"
-      ],
-      "summary": "This is a full-time onsite role based in the location(s) posted and is performed from the designated work location five days per week. At AT&T, you'll be empowered to create real change in an ever-expanding, connected world. As part of our team, your impact will be felt no…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-28",
-      "deadline": "2026-11-30",
-      "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Sales-Development-Program---Internship_R-120996",
-      "external_id": "R-120996",
-      "verified_at": "2026-11-05T02:33:28Z",
-      "match_score": 85,
-      "source_stale": true
     },
     {
       "id": "marvell-technology-706035249fd3",
@@ -2261,721 +1900,6 @@
       "match_score": 85
     },
     {
-      "id": "booz-allen-hamilton-holding-a68d27ac3db7",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University, 2027 Summer Games Data Scientist Intern - Rome, NY",
-      "location": "Rome, NY",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML"
-      ],
-      "summary": "University, 2027 Summer Games Data Scientist Intern - Rome, NY The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our customer's…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-26",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Rome-NY/University--2027-Summer-Games-Data-Scientist-Intern_R0248143",
-      "external_id": "R0248143",
-      "verified_at": "2026-11-03T23:29:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-c7fb9b69d206",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University, 2027 Summer Games Data Scientist Intern - Colorado Springs, CO",
-      "location": "Colorado Springs, CO",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML"
-      ],
-      "summary": "University, 2027 Summer Games Data Scientist Intern - Colorado Springs, CO The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-25",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Colorado-Springs-CO/University--2027-Summer-Games-Data-Scientist-Intern_R0248132",
-      "external_id": "R0248132",
-      "verified_at": "2026-11-03T23:29:53Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-971bec3ebaa2",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University, 2027 Summer Games Data Scientist Intern - Atlanta, GA",
-      "location": "Atlanta, GA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML"
-      ],
-      "summary": "University, 2027 Summer Games Data Scientist Intern - Atlanta, GA The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-26",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Atlanta-GA/University--2027-Summer-Games-Data-Scientist-Intern_R0248140",
-      "external_id": "R0248140",
-      "verified_at": "2026-11-03T23:29:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-6a5e0e138c6d",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University, 2027 Summer Games Cyber Security Intern - Colorado Springs, CO",
-      "location": "Colorado Springs, CO",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML"
-      ],
-      "summary": "University, 2027 Summer Games Cyber Security Intern - Colorado Springs, CO The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-25",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Colorado-Springs-CO/University--2027-Summer-Games-Cybersecurity-Intern_R0248131",
-      "external_id": "R0248131",
-      "verified_at": "2026-11-03T23:29:53Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-a12752c9a834",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games, Systems Engineer Intern - Royal Oaks, MI",
-      "location": "Detroit, MI",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games, Systems Engineer Intern - Royal Oaks, MI The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-26",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Detroit-MI/University---2027-Summer-Games--Systems-Engineer-Intern---Royal-Oaks--MI_R0252341",
-      "external_id": "R0252341",
-      "verified_at": "2026-11-03T23:29:52Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-b10c294962cd",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games, Systems Engineer Intern - Dayton, OH",
-      "location": "Dayton, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games, Systems Engineer Intern - Dayton, OH The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-26",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Dayton-OH/University---2027-Summer-Games--Systems-Engineer-Intern---Dayton--OH_R0252342",
-      "external_id": "R0252342",
-      "verified_at": "2026-11-03T23:29:52Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-bec3f19d3cb6",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games, Systems Engineer Intern - Atlanta, GA",
-      "location": "Atlanta, GA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games, Systems Engineer Intern - Atlanta, GA The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-26",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Atlanta-GA/University---2027-Summer-Games--Systems-Engineer-Intern---Atlanta--GA_R0248381",
-      "external_id": "R0248381",
-      "verified_at": "2026-11-03T23:29:52Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-63846e756f63",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games, Systems Engineer Intern - Albuquerque, NM",
-      "location": "Albuquerque, NM",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games, Systems Engineer Intern - Albuquerque, NM The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-26",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Albuquerque-NM/University---2027-Summer-Games--Systems-Engineer-Intern---Albuquerque--NM_R0252337",
-      "external_id": "R0252337",
-      "verified_at": "2026-11-03T23:29:53Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-9748998900cf",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games, Data Scientist Intern - Honolulu, HI",
-      "location": "Honolulu, HI",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games, Data Scientist Intern - Honolulu, HI The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-25",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Honolulu-HI/University---2027-Summer-Games--Data-Scientist-Intern---Honolulu--HI_R0248406",
-      "external_id": "R0248406",
-      "verified_at": "2026-11-03T23:29:53Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-d432ba905d1e",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games Systems Engineer Intern - San Diego, CA",
-      "location": "San Diego, CA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games Systems Engineer Intern - San Diego, CA The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-26",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/San-Diego-CA/University---2027-Summer-Games-Systems-Engineer-Intern---San-Diego--CA_R0248365",
-      "external_id": "R0248365",
-      "verified_at": "2026-11-03T23:29:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-0a59a363d122",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games Systems Engineer Intern - McLean, VA",
-      "location": "McLean, VA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games Systems Engineer Intern - McLean, VA The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-26",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/University---2027-Summer-Games-Systems-Engineer-Intern---McLean--VA_R0248361",
-      "external_id": "R0248361",
-      "verified_at": "2026-11-03T23:29:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-2baa33a6c3c3",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games Systems Engineer Intern - Lexington, MA",
-      "location": "Lexington, MA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games Systems Engineer Intern - Lexington, MA The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-26",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Lexington-MA/University---2027-Summer-Games-Systems-Engineer-Intern---Lexington--MA_R0252273",
-      "external_id": "R0252273",
-      "verified_at": "2026-11-03T23:29:52Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-a3a82fe42b94",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games Systems Engineer Intern - Huntsville, AL",
-      "location": "Huntsville, AL",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games Systems Engineer Intern - Huntsville, AL The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-26",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Huntsville-AL/University---2027-Summer-Games-Systems-Engineer-Intern---Huntsville--AL_R0249188",
-      "external_id": "R0249188",
-      "verified_at": "2026-11-03T23:29:52Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-20461c1550ed",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games Systems Engineer Intern - Honolulu, HI",
-      "location": "Honolulu, HI",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games Systems Engineer Intern - Honolulu, HI The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-26",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Honolulu-HI/University---2027-Summer-Games-Systems-Engineer-Intern---Honolulu--HI_R0248370",
-      "external_id": "R0248370",
-      "verified_at": "2026-11-03T23:29:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-46c5b956eb82",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games Systems Engineer Intern - Ft. Walton Beach, FL",
-      "location": "Fort Walton Beach, FL",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games Systems Engineer Intern - Ft. Walton Beach, FL The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-26",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Fort-Walton-Beach-FL/University---2027-Summer-Games-Systems-Engineer-Intern---Ft-Walton-Beach--FL_R0248388",
-      "external_id": "R0248388",
-      "verified_at": "2026-11-03T23:29:52Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-bc4f60d0de19",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games Systems Engineer Intern - Colorado Springs, CO",
-      "location": "Colorado Springs, CO",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games Systems Engineer Intern - Colorado Springs, CO The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-26",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Colorado-Springs-CO/University---2027-Summer-Games-Systems-Engineer-Intern---Colorado-Springs--CO_R0248368",
-      "external_id": "R0248368",
-      "verified_at": "2026-11-03T23:29:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-48546eab80ef",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games Systems Engineer Intern - Charleston, SC",
-      "location": "Charleston, SC",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games Systems Engineer Intern - Charleston, SC The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-26",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Charleston-SC/University---2027-Summer-Games-Systems-Engineer-Intern---Charleston--SC_R0248369",
-      "external_id": "R0248369",
-      "verified_at": "2026-11-03T23:29:52Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-9a9920cecbbc",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games Data Scientist Intern - San Diego, CA",
-      "location": "San Diego, CA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games Data Scientist Intern - San Diego, CA The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-26",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/San-Diego-CA/University---2027-Summer-Games-Data-Scientist-Intern---San-Diego--CA_R0248045",
-      "external_id": "R0248045",
-      "verified_at": "2026-11-03T23:29:53Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-5e4cf367d30e",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games Data Scientist Intern - Lexington, MA",
-      "location": "Lexington, MA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games Data Scientist Intern - Lexington, MA The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-26",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Lexington-MA/University---2027-Summer-Games-Data-Scientist-Intern---Lexington--MA_R0252275",
-      "external_id": "R0252275",
-      "verified_at": "2026-11-03T23:29:57Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-a2a0c65bc323",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games Data Scientist Intern - Huntsville, AL",
-      "location": "Huntsville, AL",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games Data Scientist Intern - Huntsville, AL The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-25",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Huntsville-AL/University---2027-Summer-Games-Data-Scientist-Intern---Huntsville--AL_R0248407",
-      "external_id": "R0248407",
-      "verified_at": "2026-11-03T23:29:57Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-e69ac3c938d5",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games Data Scientist Intern - Charleston, SC",
-      "location": "Charleston, SC",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games Data Scientist Intern - Charleston, SC The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-25",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Charleston-SC/University---2027-Summer-Games-Data-Scientist-Intern_R0248137",
-      "external_id": "R0248137",
-      "verified_at": "2026-11-03T23:29:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-3f24cec97cae",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games Data Scientist Intern - Annapolis Junction, MD",
-      "location": "Annapolis Junction, MD",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games Data Scientist Intern - Annapolis Junction, MD The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-25",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Annapolis-Junction-MD/University---2027-Summer-Games-Data-Scientist-Intern---Annapolis-Junction--MD_R0248408",
-      "external_id": "R0248408",
-      "verified_at": "2026-11-03T23:29:53Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-62b393bf7b09",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games Cyber Security Intern - Huntsville, AL",
-      "location": "Huntsville, AL",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games Cyber Security Intern - Huntsville, AL The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-25",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Huntsville-AL/University---2027-Summer-Games-Cyber-Security-Intern---Huntsville--AL_R0248412",
-      "external_id": "R0248412",
-      "verified_at": "2026-11-03T23:29:57Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-2b595897b206",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games Cyber Security Intern - Honolulu, HI",
-      "location": "Honolulu, HI",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games Cyber Security Intern - Honolulu, HI The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-25",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Honolulu-HI/University---2027-Summer-Games-Cyber-Security-Intern---Honolulu--HI_R0248411",
-      "external_id": "R0248411",
-      "verified_at": "2026-11-03T23:29:57Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-5f1004c56b12",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - 2027 Summer Games Cyber Security Intern - Atlanta, GA",
-      "location": "Atlanta, GA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML"
-      ],
-      "summary": "University - 2027 Summer Games Cyber Security Intern - Atlanta, GA The Opportunity: The Summer Games is an innovative internship program that attracts some of the nation’s best and brightest students. The goal is to develop a breakthrough idea or solution for one of our…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-26",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Atlanta-GA/University---2027-Summer-Games-Cyber-Security-Intern---Atlanta--GA_R0248139",
-      "external_id": "R0248139",
-      "verified_at": "2026-11-03T23:29:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-a669d4749109",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "Design and Verification Engineer Intern",
-      "location": "Beavercreek, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "AI / ML"
-      ],
-      "summary": "Design and Verification Engineer Intern The Opportunity: As an electrical engineer, you understand the workings behind complex systems. That knowledge is key when it comes to designing, simulating, and verifying digital circuits for advanced microelectronic systems",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-28",
-      "deadline": "2027-01-26",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Beavercreek-OH/Design-and-Verification-Engineer-Intern_R0252482",
-      "external_id": "R0252482",
-      "verified_at": "2026-11-03T23:29:49Z",
-      "match_score": 85
-    },
-    {
       "id": "andersons-3a1f3377a9ac",
       "source_key": "andersons",
       "fortune_rank": 397,
@@ -3000,6 +1924,34 @@
       "url": "https://andersonsinc.wd1.myworkdayjobs.com/TheAndersonsCareers/job/Maumee-OH/Legal-Intern--Summer-2027-_R12494",
       "external_id": "R12494",
       "verified_at": "2026-11-04T21:56:52Z",
+      "match_score": 85
+    },
+    {
+      "id": "somnigroup-international-16b1469ceabb",
+      "source_key": "somnigroup-international",
+      "fortune_rank": 35,
+      "fortune_500": true,
+      "company": "Somnigroup International",
+      "title": "Sales Development Program - Internship",
+      "location": "Dallas, Texas",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Tech consulting",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy"
+      ],
+      "summary": "This is a full-time onsite role based in the location(s) posted and is performed from the designated work location five days per week. At AT&T, you'll be empowered to create real change in an ever-expanding, connected world. As part of our team, your impact will be felt no…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-27",
+      "deadline": "2026-11-30",
+      "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Sales-Development-Program---Internship_R-120996",
+      "external_id": "R-120996",
+      "verified_at": "2026-11-05T18:50:49Z",
       "match_score": 85
     },
     {
@@ -3208,7 +2160,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/McCalla-AL/Human-Resources-Intern--McCalla--AL--Fall-2026--Part-time-_115933",
       "external_id": "115933",
-      "verified_at": "2026-11-05T11:02:00Z",
+      "verified_at": "2026-11-05T18:47:31Z",
       "match_score": 85
     },
     {
@@ -3327,34 +2279,6 @@
       "match_score": 85
     },
     {
-      "id": "booz-allen-hamilton-holding-b84b9d6bcbc5",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "Test Engineer Intern",
-      "location": "Lexington Park, MD",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "AI / ML"
-      ],
-      "summary": "Test Engineer Intern The Opportunity: Are you looking for an opportunity to combine your technical skills with big-picture thinking to make an impact on national security and warfighter operational readiness? You understand how to apply critical thinking to your customer's…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-27",
-      "deadline": "2027-01-25",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Lexington-Park-MD/Test-Engineer-Intern_R0252409",
-      "external_id": "R0252409",
-      "verified_at": "2026-11-03T23:29:48Z",
-      "match_score": 85
-    },
-    {
       "id": "amgen-c5c114ea3e85",
       "source_key": "amgen",
       "fortune_rank": 129,
@@ -3412,65 +2336,6 @@
       "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Singapore-Singapore/Intern---Business-Management----Finance_R67673",
       "external_id": "R67673",
       "verified_at": "2026-11-04T15:30:41Z",
-      "match_score": 85
-    },
-    {
-      "id": "hartford-insurance-group-2384d5ffb64c",
-      "source_key": "hartford-insurance-group",
-      "fortune_rank": 160,
-      "fortune_500": true,
-      "company": "Hartford Insurance Group",
-      "title": "2027 Summer Intern - Internal Sales Desk",
-      "location": "Wayne, PA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "Student Intern - HHSIAN We’re determined to make a difference and are proud to be an insurance company that goes well beyond coverages and policies. Working here means having every opportunity to achieve your goals – and to help others accomplish theirs, too",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-26",
-      "deadline": null,
-      "url": "https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Wayne-PA/XMLNAME-2027-Summer-Intern---Internal-Sales-Desk_R2627499",
-      "external_id": "R2627499",
-      "verified_at": "2026-11-03T23:27:57Z",
-      "match_score": 85
-    },
-    {
-      "id": "hartford-insurance-group-d9254d164da1",
-      "source_key": "hartford-insurance-group",
-      "fortune_rank": 160,
-      "fortune_500": true,
-      "company": "Hartford Insurance Group",
-      "title": "2027 Summer Intern - Finance",
-      "location": "Wayne, PA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Wealth management",
-        "Corporate finance",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Student Intern - HHSIAN We’re determined to make a difference and are proud to be an insurance company that goes well beyond coverages and policies. Working here means having every opportunity to achieve your goals – and to help others accomplish theirs, too",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-26",
-      "deadline": null,
-      "url": "https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Wayne-PA/XMLNAME-2027-Summer-Intern---Finance_R2627497",
-      "external_id": "R2627497",
-      "verified_at": "2026-11-03T23:27:56Z",
       "match_score": 85
     },
     {
@@ -3612,6 +2477,37 @@
       "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Pulaski-VA/Customer-Design-Technician-Intern_R20594",
       "external_id": "R20594",
       "verified_at": "2026-11-04T15:29:31Z",
+      "match_score": 85
+    },
+    {
+      "id": "palo-alto-networks-423fab906d1a",
+      "source_key": "palo-alto-networks",
+      "fortune_rank": 437,
+      "fortune_500": true,
+      "company": "Palo Alto Networks",
+      "title": "Legal Intern, Intellectual Property",
+      "location": "Office - Israel - Petach Tikva",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "Our Mission At Palo Alto Networks®, we’re united by a shared mission—to protect our digital way of life. We thrive at the intersection of innovation and impact, solving real-world problems with cutting-edge technology and bold thinking",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-25",
+      "deadline": null,
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---Petach-Tikva/Legal-Intern--Intellectual-Property_JR-022705",
+      "external_id": "JR-022705",
+      "verified_at": "2026-11-05T18:48:24Z",
       "match_score": 85
     },
     {
@@ -3962,60 +2858,6 @@
       "match_score": 90
     },
     {
-      "id": "abbott-laboratories-951f74d84eed",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship Operator Customs & Trade Compliance",
-      "location": "Netherlands - Zwolle",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Finance"
-      ],
-      "summary": "JOB DESCRIPTION: We are looking for a Intern for Operator Customs and Trade Compliance at Abbott Zwolle! Help transform the Customs Community of Practice into a scalable, digitally supported service network. During this graduation internship, you will investigate how TOPdesk…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-23",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Internship-Operator-Customs---Trade-Compliance_31164514",
-      "external_id": "31164514",
-      "verified_at": "2026-11-03T23:29:07Z",
-      "match_score": 85
-    },
-    {
-      "id": "unum-group-3a7c8cd37d33",
-      "source_key": "unum-group",
-      "fortune_rank": 338,
-      "fortune_500": true,
-      "company": "Unum Group",
-      "title": "Apprentice Operations Support Analyst",
-      "location": "Dorking, Surrey, UK",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Posting End Date: November 11 Who are we? We’re a specialist employee benefits provider, striving to create healthy, happy workplaces. As part of the international Unum Group, we’re on a collective mission to help the working world thrive",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-22",
-      "deadline": "2026-11-12",
-      "url": "https://unum.wd1.myworkdayjobs.com/External/job/Dorking-Surrey-UK/Apprentice-Operations-Support-Analyst_836387",
-      "external_id": "836387",
-      "verified_at": "2026-11-03T23:29:06Z",
-      "match_score": 85
-    },
-    {
       "id": "marvell-technology-8e3c1baa9123",
       "source_key": "marvell-technology",
       "fortune_rank": 476,
@@ -4071,7 +2913,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Revenue-Growth-Management-Intern--Summer-2027_116012",
       "external_id": "116012",
-      "verified_at": "2026-11-05T11:01:59Z",
+      "verified_at": "2026-11-05T18:47:31Z",
       "match_score": 85
     },
     {
@@ -4100,7 +2942,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Net-Revenue-Optimization-Intern--Summer-2027_116006",
       "external_id": "116006",
-      "verified_at": "2026-11-05T11:01:59Z",
+      "verified_at": "2026-11-05T18:47:30Z",
       "match_score": 85
     },
     {
@@ -4570,65 +3412,6 @@
       "match_score": 90
     },
     {
-      "id": "abbott-laboratories-489bf11721c7",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship - IT",
-      "location": "Ireland - Dublin",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "IT analyst",
-        "Digital transformation",
-        "Data analyst"
-      ],
-      "tags": [
-        "Operations",
-        "Finance"
-      ],
-      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-22",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Dublin/Internship---IT_31155903",
-      "external_id": "31155903",
-      "verified_at": "2026-11-03T23:29:07Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-137ff138cc4f",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Business Intelligence Intern",
-      "location": "Mexico - Cuidad de Mexico - Cuidad de Mexico",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python"
-      ],
-      "summary": "JOB DESCRIPTION: Becario de Business Intelligence Acerca de Abbott Abbott es líder mundial en cuidado de la salud, que crea ciencia innovadora para mejorar la salud de las personas. Siempre estamos mirando hacia el futuro, anticipando cambios en la ciencia y la tecnología médica",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-22",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Mexico---Cuidad-de-Mexico---Cuidad-de-Mexico/Business-Intelligence-Intern_31165640",
-      "external_id": "31165640",
-      "verified_at": "2026-11-03T23:29:04Z",
-      "match_score": 85
-    },
-    {
       "id": "jones-lang-lasalle-a20261c42292",
       "source_key": "jones-lang-lasalle",
       "fortune_rank": 175,
@@ -4658,35 +3441,6 @@
       "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Colombo-Sri-Lanka/Intern---Administration---Business-Support_REQ543355",
       "external_id": "REQ543355",
       "verified_at": "2026-11-04T15:30:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "hartford-insurance-group-656bf9758900",
-      "source_key": "hartford-insurance-group",
-      "fortune_rank": 160,
-      "fortune_500": true,
-      "company": "Hartford Insurance Group",
-      "title": "2027 Summer Intern - Accounting",
-      "location": "Wayne, PA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Accounting / financial analyst"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Student Intern - HHSIAN We’re determined to make a difference and are proud to be an insurance company that goes well beyond coverages and policies. Working here means having every opportunity to achieve your goals – and to help others accomplish theirs, too",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-21",
-      "deadline": null,
-      "url": "https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Wayne-PA/XMLNAME-2027-Summer-Intern---Accounting_R2627540",
-      "external_id": "R2627540",
-      "verified_at": "2026-11-03T23:27:56Z",
       "match_score": 85
     },
     {
@@ -4840,33 +3594,6 @@
       "match_score": 85
     },
     {
-      "id": "abbott-laboratories-3df202ab82cc",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship Operator Customs & Trade Compliance at Abbott Zwolle",
-      "location": "Netherlands - Zwolle",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Finance"
-      ],
-      "summary": "JOB DESCRIPTION: We are looking for a Intern for Operator Customs and Trade Compliance at Abbott Zwolle! Help transform the Customs Community of Practice into a scalable, digitally supported service network. During this graduation internship, you will investigate how TOPdesk…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-21",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Internship-Operator-Customs---Trade-Compliance-at-Abbott-Zwolle_31164513",
-      "external_id": "31164513",
-      "verified_at": "2026-11-03T23:29:08Z",
-      "match_score": 85
-    },
-    {
       "id": "sonoco-products-0a2a5c5c9736",
       "source_key": "sonoco-products",
       "fortune_rank": 489,
@@ -4983,68 +3710,6 @@
       "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Cambridge-MA/Operations-Summer-2027-Internship---Cambridge--MA_REQ541934",
       "external_id": "REQ541934",
       "verified_at": "2026-11-04T15:30:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "hartford-insurance-group-76360f49b506",
-      "source_key": "hartford-insurance-group",
-      "fortune_rank": 160,
-      "fortune_500": true,
-      "company": "Hartford Insurance Group",
-      "title": "2027 Summer Intern - Rotational (IT, Operations, Risk, and Fund Treasury)",
-      "location": "Wayne, PA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Wealth management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Power BI",
-        "Operations",
-        "Finance",
-        "Treasury"
-      ],
-      "summary": "Student Intern - HHSIAN We’re determined to make a difference and are proud to be an insurance company that goes well beyond coverages and policies. Working here means having every opportunity to achieve your goals – and to help others accomplish theirs, too",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-20",
-      "deadline": null,
-      "url": "https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Wayne-PA/XMLNAME-2027-Summer-Intern---Rotational--IT--Operations--Risk--and-Fund-Treasury-_R2627500",
-      "external_id": "R2627500",
-      "verified_at": "2026-11-03T23:27:58Z",
-      "match_score": 85
-    },
-    {
-      "id": "hartford-insurance-group-236eb4fa0b7d",
-      "source_key": "hartford-insurance-group",
-      "fortune_rank": 160,
-      "fortune_500": true,
-      "company": "Hartford Insurance Group",
-      "title": "2027 Summer Intern - Investment Consulting Group",
-      "location": "Wayne, PA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst"
-      ],
-      "tags": [
-        "Excel",
-        "Product",
-        "Finance",
-        "Risk"
-      ],
-      "summary": "Student Intern - HHSIAN We’re determined to make a difference and are proud to be an insurance company that goes well beyond coverages and policies. Working here means having every opportunity to achieve your goals – and to help others accomplish theirs, too",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-20",
-      "deadline": null,
-      "url": "https://thehartford.wd5.myworkdayjobs.com/Careers_External/job/Wayne-PA/XMLNAME-2027-Summer-Intern---Investment-Consulting-Group_R2627498",
-      "external_id": "R2627498",
-      "verified_at": "2026-11-03T23:27:58Z",
       "match_score": 85
     },
     {
@@ -5273,7 +3938,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
       "external_id": "115677",
-      "verified_at": "2026-11-05T11:01:59Z",
+      "verified_at": "2026-11-05T18:47:30Z",
       "match_score": 85
     },
     {
@@ -5502,36 +4167,6 @@
       "match_score": 85
     },
     {
-      "id": "abbott-laboratories-c3fc71ab37d2",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Associate, HR Service Center (Intern)",
-      "location": "Malaysia > Selangor : Imazium, No. 8, Jalan SS 21/37",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Accounting"
-      ],
-      "summary": "JOB DESCRIPTION: Abbott is a global healthcare leader, creating breakthrough science to improve people’s health. We’re always looking towards the future, anticipating changes in medical science and technology. Working at Abbott At Abbott, you can do work that matters, grow, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-19",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Malaysia--Selangor--Imazium-No-8-Jalan-SS-2137/Associate--HR-Service-Center--Intern-_31164478",
-      "external_id": "31164478",
-      "verified_at": "2026-11-03T23:29:05Z",
-      "match_score": 85
-    },
-    {
       "id": "j-m-smucker-62a1713549ee",
       "source_key": "smucker",
       "fortune_rank": 456,
@@ -5561,7 +4196,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance-Technology-Intern--Spring-2027_116016",
       "external_id": "116016",
-      "verified_at": "2026-11-05T11:01:59Z",
+      "verified_at": "2026-11-05T18:47:30Z",
       "match_score": 85
     },
     {
@@ -5618,62 +4253,6 @@
       "url": "https://comfortsystemsusa.wd1.myworkdayjobs.com/Corpcareers/job/Arden-NC-CSUSA-SHO/Apprentice-Plumber_JR101916-1",
       "external_id": "JR101916",
       "verified_at": "2026-11-04T15:30:43Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-ec862b99485e",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Qualification and Validation Internship: Simplifying Packaging Materials",
-      "location": "Netherlands - Zwolle",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Finance"
-      ],
-      "summary": "JOB DESCRIPTION: Over Abbott Bij Abbott willen we mensen helpen om zo veel mogelijk uit het leven te halen dankzij een goede gezondheid. Dit doen we met een breed scala van op wetenschap gebaseerde voedingsproducten, diagnostische apparatuur en medische hulpmiddelen",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-16",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Zwolle/Qualification-and-Validation-Internship--Simplifying-Packaging-Materials_31164501",
-      "external_id": "31164501",
-      "verified_at": "2026-11-03T23:29:08Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-174b9ffc09e6",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship Statistician",
-      "location": "Ireland - Donegal Town",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "JOB DESCRIPTION: Abbott Undergraduate Internship Programme Unlock Your Potential at Abbott Looking for an opportunity to apply your academic knowledge, gain hands-on experience, and make a real impact? Abbott's Undergraduate Internship Programme offers students the chance to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-16",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Ireland---Donegal-Town/Internship-Statistician_31155788",
-      "external_id": "31155788",
-      "verified_at": "2026-11-03T23:29:07Z",
       "match_score": 85
     },
     {
@@ -5977,33 +4556,6 @@
       "match_score": 85
     },
     {
-      "id": "booz-allen-hamilton-holding-bd6d622831f3",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - Spring 2027 Electronic Warfare FPGA Engineering Intern",
-      "location": "Beavercreek, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML"
-      ],
-      "summary": "University - Spring 2027 Electronic Warfare FPGA Engineering Intern The Opportunity: Join a team developing advanced capabilities in electronic warfare and software defined radio systems. As an FPGA Engineering Intern, you will support the design, implementation, integration,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-14",
-      "deadline": "2027-01-12",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Beavercreek-OH/University---Summer-2027-Electronic-Warfare-FPGA-Engineering-Intern_R0248465-1",
-      "external_id": "R0248465",
-      "verified_at": "2026-11-03T23:29:50Z",
-      "match_score": 85
-    },
-    {
       "id": "biogen-17f7a25d5cbe",
       "source_key": "biogen",
       "fortune_rank": 421,
@@ -6031,35 +4583,6 @@
       "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Warsaw-Poland/Supplier-Risk-and-Onboarding-Intern_REQ24351",
       "external_id": "REQ24351",
       "verified_at": "2026-11-05T11:03:18Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-1af84bbb4527",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Commercial Excellence Intern",
-      "location": "Mexico - Cuidad de Mexico - Cuidad de Mexico",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Power BI",
-        "Accounting"
-      ],
-      "summary": "JOB DESCRIPTION: Becario de Commercial Excellence Acerca de Abbott Abbott es líder mundial en cuidado de la salud, que crea ciencia innovadora para mejorar la salud de las personas. Siempre estamos mirando hacia el futuro, anticipando cambios en la ciencia y la tecnología médica",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-14",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Mexico---Cuidad-de-Mexico---Cuidad-de-Mexico/Commercial-Excellence-Intern_31165075",
-      "external_id": "31165075",
-      "verified_at": "2026-11-03T23:29:04Z",
       "match_score": 85
     },
     {
@@ -6144,7 +4667,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Talent-Acquisition-Intern--Summer-2027_115992",
       "external_id": "115992",
-      "verified_at": "2026-11-05T11:01:59Z",
+      "verified_at": "2026-11-05T18:47:30Z",
       "match_score": 85
     },
     {
@@ -6172,7 +4695,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Marketing-Intern--Summer-2027_115771",
       "external_id": "115771",
-      "verified_at": "2026-11-05T11:01:58Z",
+      "verified_at": "2026-11-05T18:47:29Z",
       "match_score": 85
     },
     {
@@ -7415,9 +5938,8 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-11-05T02:31:14Z",
-      "match_score": 85,
-      "source_stale": true
+      "verified_at": "2026-11-05T18:47:56Z",
+      "match_score": 85
     },
     {
       "id": "salesforce-68087b8a9a6c",
@@ -7883,6 +6405,66 @@
       "url": "https://prim.wd108.myworkdayjobs.com/Primoris/job/Texas/All-Level-Apprentice--Journeyman--Foreman-Mike-Erwin_JR100536-1",
       "external_id": "JR100536",
       "verified_at": "2026-11-05T02:32:30Z",
+      "match_score": 85
+    },
+    {
+      "id": "palo-alto-networks-9a8fc0c71c33",
+      "source_key": "palo-alto-networks",
+      "fortune_rank": 437,
+      "fortune_500": true,
+      "company": "Palo Alto Networks",
+      "title": "Senior Program Specialist - Intern & Keep Warm Programs",
+      "location": "Office - USA - CA - Headquarters",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy",
+        "Accounting"
+      ],
+      "summary": "Our Mission At Palo Alto Networks®, we’re united by a shared mission—to protect our digital way of life. We thrive at the intersection of innovation and impact, solving real-world problems with cutting-edge technology and bold thinking",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Senior-Program-Specialist---Intern---Keep-Warm-Programs_JR-022876",
+      "external_id": "JR-022876",
+      "verified_at": "2026-11-05T18:48:24Z",
+      "match_score": 85
+    },
+    {
+      "id": "palo-alto-networks-3cc54198818d",
+      "source_key": "palo-alto-networks",
+      "fortune_rank": 437,
+      "fortune_500": true,
+      "company": "Palo Alto Networks",
+      "title": "Intern - GRC Engineer",
+      "location": "Office - USA - CA - Headquarters",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Implementation Consulting",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Cloud",
+        "AI / ML",
+        "Risk"
+      ],
+      "summary": "Our Mission At Palo Alto Networks®, we’re united by a shared mission—to protect our digital way of life. We thrive at the intersection of innovation and impact, solving real-world problems with cutting-edge technology and bold thinking",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---GRC-Engineer_JR-013678",
+      "external_id": "JR-013678",
+      "verified_at": "2026-11-05T18:48:28Z",
       "match_score": 85
     },
     {
@@ -8412,7 +6994,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Supply-Chain-Intern--Summer-2027_115694",
       "external_id": "115694",
-      "verified_at": "2026-11-05T11:01:58Z",
+      "verified_at": "2026-11-05T18:47:29Z",
       "match_score": 85
     },
     {
@@ -8441,7 +7023,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
       "external_id": "115736",
-      "verified_at": "2026-11-05T11:02:00Z",
+      "verified_at": "2026-11-05T18:47:31Z",
       "match_score": 85
     },
     {
@@ -8469,7 +7051,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Quality-Assurance-Intern---Oxnard--CA_115727",
       "external_id": "115727",
-      "verified_at": "2026-11-05T11:02:00Z",
+      "verified_at": "2026-11-05T18:47:32Z",
       "match_score": 85
     },
     {
@@ -8494,7 +7076,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
       "external_id": "115725",
-      "verified_at": "2026-11-05T11:02:00Z",
+      "verified_at": "2026-11-05T18:47:31Z",
       "match_score": 85
     },
     {
@@ -8522,7 +7104,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
       "external_id": "115735",
-      "verified_at": "2026-11-05T11:02:00Z",
+      "verified_at": "2026-11-05T18:47:32Z",
       "match_score": 85
     },
     {
@@ -8549,7 +7131,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sales-Intern--Summer-2027_115803",
       "external_id": "115803",
-      "verified_at": "2026-11-05T11:01:58Z",
+      "verified_at": "2026-11-05T18:47:29Z",
       "match_score": 85
     },
     {
@@ -8576,7 +7158,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
       "external_id": "115698",
-      "verified_at": "2026-11-05T11:01:59Z",
+      "verified_at": "2026-11-05T18:47:30Z",
       "match_score": 85
     },
     {
@@ -8603,7 +7185,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Columbus-GA/Operations-QA-Intern--Summer-2027-Columbus--GA_115774",
       "external_id": "115774",
-      "verified_at": "2026-11-05T11:02:00Z",
+      "verified_at": "2026-11-05T18:47:31Z",
       "match_score": 85
     },
     {
@@ -8630,7 +7212,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Decatur-AL/Operations-QA-Intern--Summer-2027--Decatur--AL_115757",
       "external_id": "115757",
-      "verified_at": "2026-11-05T11:01:59Z",
+      "verified_at": "2026-11-05T18:47:31Z",
       "match_score": 85
     },
     {
@@ -8657,7 +7239,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/New-Orleans-LA/Operations-Engineering-Intern--Summer-2027--Multiple-Locations-_115721",
       "external_id": "115721",
-      "verified_at": "2026-11-05T11:02:00Z",
+      "verified_at": "2026-11-05T18:47:31Z",
       "match_score": 85
     },
     {
@@ -8682,7 +7264,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Microbiology-Intern--Summer-2027_115676",
       "external_id": "115676",
-      "verified_at": "2026-11-05T11:01:58Z",
+      "verified_at": "2026-11-05T18:47:29Z",
       "match_score": 85
     },
     {
@@ -8711,7 +7293,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Information-Services-Intern--Summer-2027_115744",
       "external_id": "115744",
-      "verified_at": "2026-11-05T11:01:59Z",
+      "verified_at": "2026-11-05T18:47:30Z",
       "match_score": 85
     },
     {
@@ -8739,7 +7321,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/McCalla-AL/Human-Resources-Intern--McCalla--AL--Summer-2027_115887",
       "external_id": "115887",
-      "verified_at": "2026-11-05T11:02:00Z",
+      "verified_at": "2026-11-05T18:47:31Z",
       "match_score": 85
     },
     {
@@ -8767,7 +7349,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Emporia-KS/Human-Resources-Intern--Emporia--KS--Summer-2027_115888",
       "external_id": "115888",
-      "verified_at": "2026-11-05T11:02:00Z",
+      "verified_at": "2026-11-05T18:47:31Z",
       "match_score": 85
     },
     {
@@ -8795,7 +7377,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Buffalo-NY/Human-Resources-Intern--Buffalo--NY--Summer-2027_115886",
       "external_id": "115886",
-      "verified_at": "2026-11-05T11:02:00Z",
+      "verified_at": "2026-11-05T18:47:31Z",
       "match_score": 85
     },
     {
@@ -8820,7 +7402,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Human-Resources-Intern--Summer-2027_115918",
       "external_id": "115918",
-      "verified_at": "2026-11-05T11:01:59Z",
+      "verified_at": "2026-11-05T18:47:30Z",
       "match_score": 85
     },
     {
@@ -8853,7 +7435,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Summer-2027_115743",
       "external_id": "115743",
-      "verified_at": "2026-11-05T11:01:59Z",
+      "verified_at": "2026-11-05T18:47:30Z",
       "match_score": 85
     },
     {
@@ -8886,7 +7468,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-11-05T11:01:58Z",
+      "verified_at": "2026-11-05T18:47:29Z",
       "match_score": 85
     },
     {
@@ -8911,7 +7493,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Corporate-Communications-Intern--Summer-2027_115919",
       "external_id": "115919",
-      "verified_at": "2026-11-05T11:01:58Z",
+      "verified_at": "2026-11-05T18:47:30Z",
       "match_score": 85
     },
     {
@@ -8937,7 +7519,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Category-Leadership-Intern--Summer-2027_115804",
       "external_id": "115804",
-      "verified_at": "2026-11-05T11:01:58Z",
+      "verified_at": "2026-11-05T18:47:30Z",
       "match_score": 85
     },
     {
@@ -8964,7 +7546,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Analytical-Lab-Intern--Summer-2027_115678",
       "external_id": "115678",
-      "verified_at": "2026-11-05T11:01:58Z",
+      "verified_at": "2026-11-05T18:47:30Z",
       "match_score": 85
     },
     {
@@ -9080,31 +7662,6 @@
       "url": "https://dssmith.wd3.myworkdayjobs.com/careers/job/Brussels/Design-Intern_R-8606",
       "external_id": "R-8606",
       "verified_at": "2026-11-04T21:55:53Z",
-      "match_score": 85
-    },
-    {
-      "id": "henry-schein-43d19914c4a8",
-      "source_key": "henry-schein",
-      "fortune_rank": 335,
-      "fortune_500": true,
-      "company": "Henry Schein",
-      "title": "Field Sales Internship Opportunities",
-      "location": "West Allis - Wisconsin",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Summary Henry Schein’s 10-week Summer Sales Internship Program offers students real life experience in dental and medical sales. Depending on location and availability, interns will be assigned to either medical or dental sales. In either role, interns are actively involved in…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://henryschein.wd1.myworkdayjobs.com/External_Careers/job/West-Allis---Wisconsin/Field-Sales-Internship-Opportunities_R122614-1",
-      "external_id": "R122614",
-      "verified_at": "2026-11-03T23:28:32Z",
       "match_score": 85
     },
     {
@@ -11179,548 +9736,6 @@
       "match_score": 85
     },
     {
-      "id": "booz-allen-hamilton-holding-d310b6d0cc41",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University, Summer 2027 - Corporate Development Intern",
-      "location": "McLean, VA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Corporate finance",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Strategy",
-        "Finance"
-      ],
-      "summary": "University, Summer 2027 - Corporate Development Intern The Opportunity: Evaluate, analyze, and invest in strategic initiatives such as mergers, acquisitions, equity investments, licensing opportunities, and divestitures to support the company's overall long-term strategy",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-12-20",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/University--Summer-2027---Corporate-Development-Intern_R0250270",
-      "external_id": "R0250270",
-      "verified_at": "2026-11-03T23:29:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-e451235a0d67",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University, Summer 2027 - Accounting Intern",
-      "location": "McLean, VA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Accounting / financial analyst",
-        "Technical Account Management",
-        "Risk management"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Operations",
-        "Finance",
-        "Risk"
-      ],
-      "summary": "University, Summer 2027 - Accounting Intern The Opportunity: The Corporate Controller and Government Compliance teams play critical roles in supporting Booz Allen Hamilton’s accounting, financial reporting, risk management, and compliance functions",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-12-20",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/University--Summer-2027---Accounting-Intern_R0250271",
-      "external_id": "R0250271",
-      "verified_at": "2026-11-03T23:29:49Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-b267955724ac",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University, 2026 Fall Technologist Intern",
-      "location": "Honolulu, HI",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "AI / ML"
-      ],
-      "summary": "University, 2026 Fall Technologist Intern The Opportunity: The Fall Advanced Technology Internship program is a part-time opportunity that is seeking the very best and brightest highly technical STEM students. The goal is to develop a breakthrough solution in the fields of AI,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-12-21",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Honolulu-HI/University--2026-Fall-Technologist-Intern_R0249246",
-      "external_id": "R0249246",
-      "verified_at": "2026-11-03T23:29:49Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-dbefc87a7f2b",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University – Summer 27, Enterprise Cybersecurity Vulnerability Intern",
-      "location": "McLean, VA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Tableau",
-        "Power BI",
-        "Cloud"
-      ],
-      "summary": "University – Summer 27, Enterprise Cybersecurity Vulnerability Intern The Opportunity: As an Enterprise Cybersecurity Vulnerability Intern, you will gain hands-on experience supporting Booz Allen Hamilton's internal vulnerability management operations",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-12-07",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Vulnerability-Intern_R0249085",
-      "external_id": "R0249085",
-      "verified_at": "2026-11-03T23:29:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-cf7faf287488",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University – Summer 27, Enterprise Cybersecurity IT Policy Intern",
-      "location": "McLean, VA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Strategy",
-        "Risk"
-      ],
-      "summary": "University – Summer 27, Enterprise Cybersecurity IT Policy Intern The Opportunity: As an Enterprise Cybersecurity Information Technology (IT) Policy Intern, you will gain hands-on experience supporting the development of Booz Allen’s cyber policy",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-12-07",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-IT-Policy-Intern_R0249077",
-      "external_id": "R0249077",
-      "verified_at": "2026-11-03T23:29:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-fce628fb79e2",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University – Summer 27, Enterprise Cybersecurity Data Loss Prevention Intern",
-      "location": "McLean, VA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "University – Summer 27, Enterprise Cybersecurity Data Loss Prevention Intern The Opportunity: As an Enterprise Cybersecurity Data Loss Prevention (DLP) Intern, you will gain hands-on experience supporting Booz Allen’s internal data protection operations in a Cyber Fusion Center…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-12-07",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/University---Summer-27--Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249083",
-      "external_id": "R0249083",
-      "verified_at": "2026-11-03T23:29:57Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-c0ac67bbcb7a",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - Summer 27, Procurement and Global Supply Chain Intern",
-      "location": "McLean, VA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "University - Summer 27, Procurement and Global Supply Chain Intern The Opportunity: As a Procurement and Global Supply Chain Intern, you will support supply chain operations across sourcing, purchasing, subcontract management, and supplier coordination",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-12-10",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/University---Summer-27--Procurement-and-Global-Supply-Chain-Intern_R0249251",
-      "external_id": "R0249251",
-      "verified_at": "2026-11-03T23:30:20Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-0959e39eaf31",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - Summer 27, Procurement and Global Supply Chain Intern",
-      "location": "McLean, VA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "University - Summer 27, Procurement and Global Supply Chain Intern The Opportunity: As a Procurement and Global Supply Chain Intern, you will support supply chain operations across sourcing, purchasing, subcontract management, and supplier coordination",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-12-10",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/University---Summer-27--Procurement-and-Global-Supply-Chain-Intern_R0249250",
-      "external_id": "R0249250",
-      "verified_at": "2026-11-03T23:30:21Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-53b597ebabf7",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - Summer 27, Pricing Intern",
-      "location": "McLean, VA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Finance"
-      ],
-      "summary": "University - Summer 27, Pricing Intern The Opportunity: As a Pricing Intern, you will assist with preparing, reviewing, and organizing pricing documentation such as cost estimates, pricing packages, and leadership briefings or presentations",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-12-15",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/University---Summer-27--Pricing-Intern_R0249254",
-      "external_id": "R0249254",
-      "verified_at": "2026-11-03T23:29:49Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-be7f74143a23",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - Summer 27, Pricing Intern",
-      "location": "McLean, VA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Finance"
-      ],
-      "summary": "University - Summer 27, Pricing Intern The Opportunity: As a Pricing Intern, you will assist with preparing, reviewing, and organizing pricing documentation such as cost estimates, pricing packages, and leadership briefings or presentations",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-12-27",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/University---Summer-27--Pricing-Intern_R0250410",
-      "external_id": "R0250410",
-      "verified_at": "2026-11-03T23:29:49Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-3765b7788430",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - Summer 27, Contracts Intern",
-      "location": "McLean, VA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Finance"
-      ],
-      "summary": "University - Summer 27, Contracts Intern The Opportunity : Assist with preparing, reviewing, and organizing contract documentation such as NDAs, subcontract agreements, modifications, and task orders. Support contract data entry, tracking, and archival activities within…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-12-10",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/University---Summer-27--Contracts-Intern_R0249252",
-      "external_id": "R0249252",
-      "verified_at": "2026-11-03T23:29:49Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-2171a494ef70",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - Summer 27, Contracts Intern",
-      "location": "McLean, VA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Finance"
-      ],
-      "summary": "University - Summer 27, Contracts Intern The Opportunity : Assist with preparing, reviewing, and organizing contract documentation such as NDAs, subcontract agreements, modifications, and task orders. Support contract data entry, tracking, and archival activities within…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-12-10",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/University---Summer-27--Contracts-Intern_R0249253",
-      "external_id": "R0249253",
-      "verified_at": "2026-11-03T23:29:49Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-fe107d6c4049",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "University - Corporate Finance Intern",
-      "location": "McLean, VA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Corporate finance",
-        "Business analyst",
-        "Accounting / financial analyst"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Strategy",
-        "Finance"
-      ],
-      "summary": "University - Corporate Finance Intern The Opportunity : The right mixture of great ideas and funding can create powerful change. In a complex organization, allocating funding to where it can be most effective can be a challenge. That’s why we need you, a financial analyst…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-12-31",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/University---Corporate-Finance-Intern_R0246500",
-      "external_id": "R0246500",
-      "verified_at": "2026-11-03T23:29:48Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-220a5070756d",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "Systems Administrator Intern",
-      "location": "Annapolis Junction, MD",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Systems Administrator Intern The Opportunity: Organize and direct the configuration and operation of information management systems. Provide day-to-day system administration, including system and resource optimization, and user assistance",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-12-14",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/Annapolis-Junction-MD/Systems-Administrator-Intern_R0249565",
-      "external_id": "R0249565",
-      "verified_at": "2026-11-03T23:29:49Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-3d6c62ba646b",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "Product Engineering Intern",
-      "location": "McLean, VA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "Cloud",
-        "AI / ML",
-        "Product",
-        "Operations"
-      ],
-      "summary": "Product Engineering Intern The Opportunity: Are you looking for an opportunity to not just develop software, but to build cutting-edge AI-powered security systems that protect organizations from cyber threats? As a Product Engineer Intern on our team, you'll implement a minimal…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-12-29",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/Product-Engineering-Intern_R0250655",
-      "external_id": "R0250655",
-      "verified_at": "2026-11-03T23:29:48Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-7af33a949347",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "Enterprise Cybersecurity Education and Execution Intern",
-      "location": "McLean, VA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Power BI",
-        "AI / ML",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "Enterprise Cybersecurity Education and Execution Intern The Opportunity: As a Cyber Education and Execution Intern, you will gain hands-on experience in helping to elevate the cybersecurity posture of the Booz Allen’s workforce. In this role, you will advance the cybersecurity…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-12-14",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/Enterprise-Cybersecurity-Education-and-Execution-Intern_R0249071",
-      "external_id": "R0249071",
-      "verified_at": "2026-11-03T23:29:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-89a46715f203",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "Enterprise Cybersecurity Data Loss Prevention Intern",
-      "location": "McLean, VA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "AI / ML",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "Enterprise Cybersecurity Data Loss Prevention Intern The Opportunity: As a n Enterprise Cybersecurity Data Loss Prevention (DLP) Analyst Intern, you will support cybersecurity and information protection programs by monitoring data transfers, investigating potential data loss…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-12-14",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/Enterprise-Cybersecurity-Data-Loss-Prevention-Intern_R0249131-1",
-      "external_id": "R0249131",
-      "verified_at": "2026-11-03T23:29:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "booz-allen-hamilton-holding-f5fe535f0b41",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
-      "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "AI RAN Telecommunications Engineer Intern",
-      "location": "McLean, VA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "AI / ML"
-      ],
-      "summary": "AI RAN Telecommunications Engineer Intern The Opportunity: Support the development of architectural blueprints for new networks and enhancements to production networks. Apply basic principles, theories, and concepts, and limited industry knowledge",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-12-28",
-      "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/AI-RAN-Telecommunications-Engineer-Intern_R0246869",
-      "external_id": "R0246869",
-      "verified_at": "2026-11-03T23:29:49Z",
-      "match_score": 85
-    },
-    {
       "id": "biogen-75b07750763f",
       "source_key": "biogen",
       "fortune_rank": 421,
@@ -12312,276 +10327,6 @@
       "match_score": 85
     },
     {
-      "id": "abbott-laboratories-9cc9f7b56256",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Sales Force Effectiveness Intern at Abbott Hoofddorp",
-      "location": "Netherlands - Hoofddorp",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "JOB DESCRIPTION: About the Role We are looking for a motivated Sales Force Effectiveness (SFE) Intern to join our Commercial Excellence team. This internship offers a unique opportunity to contribute to initiatives that improve sales performance and commercial execution while…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Netherlands---Hoofddorp/Sales-Force-Effectiveness-Intern-at-Abbott-Hoofddorp_31162746",
-      "external_id": "31162746",
-      "verified_at": "2026-11-03T23:29:07Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-9f26b7baf15a",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Nutrition Brand Management Intern - Infant and Adult - Summer 2027",
-      "location": "United States - Ohio - Columbus",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Abbott is a global healthcare leader that helps people live more fully at all stages of life. Our portfolio of life-changing technologies spans the spectrum of healthcare, with leading businesses and products in diagnostics, medical devices, nutritionals and branded generic…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-12-04",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---Ohio---Columbus/Nutrition-Brand-Management-Intern---Infant-and-Adult---Summer-2027_31160729",
-      "external_id": "31160729",
-      "verified_at": "2026-11-03T23:29:08Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-c78721330f1d",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Internship",
-      "location": "Portugal - Remote",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "JOB DESCRIPTION: Trainee - Clinical Sales Representative CRM Location – Lisbon / Portugal Primary objective of the position For this position we are looking for a candidate with educational background on Cardiac Pacing . Support the team in sales and technical support to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Portugal---Remote/Internship_31157132",
-      "external_id": "31157132",
-      "verified_at": "2026-11-03T23:29:06Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-45efb8ac2ce5",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "IT Intern",
-      "location": "Malaysia > Selangor : Imazium, No. 8, Jalan SS 21/37",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "IT analyst",
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "JOB DESCRIPTION: MAIN PURPOSE OF ROLE Performs entry-level professional business support/administrative work, gradually increasing in level of difficulty and responsibility as on-the-job/formal training is received. Follow established IT standards, methodologies, and change…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/Malaysia--Selangor--Imazium-No-8-Jalan-SS-2137/IT-Intern_31149049-1",
-      "external_id": "31149049",
-      "verified_at": "2026-11-03T23:29:04Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-509b77e6cca7",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Corporate Internship - Global Marketing and External Affairs - Summer 2027",
-      "location": "United States - Illinois - Abbott Park",
-      "region": "United States",
-      "opportunity_type": "Pre-internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Abbott is a global healthcare leader that helps people live more fully at all stages of life. Our portfolio of life-changing technologies spans the spectrum of healthcare, with leading businesses and products in diagnostics, medical devices, nutritionals and branded generic…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-27",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---Illinois---Abbott-Park/Corporate-Internship---Global-Marketing-and-External-Affairs---Summer-2027_31163473",
-      "external_id": "31163473",
-      "verified_at": "2026-11-03T23:29:08Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-931583847ee0",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "Abbott Nutrition Inside Sales Internship Health Care Professionals (HCP) Summer 2027",
-      "location": "United States - Ohio - Columbus",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Abbott is a global healthcare leader that helps people live more fully at all stages of life. Our portfolio of life-changing technologies spans the spectrum of healthcare, with leading businesses and products in diagnostics, medical devices, nutritionals and branded generic…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-20",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---Ohio---Columbus/Abbott-Nutrition-Inside-Sales-Internship-Health-Care-Professionals--HCP--Summer-2027_31160320",
-      "external_id": "31160320",
-      "verified_at": "2026-11-03T23:29:08Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-7e000a5b3990",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "2027 Winter Engineering Co-Op",
-      "location": "United States - Minnesota - St. Paul",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Abbott is a global healthcare leader that helps people live more fully at all stages of life. Our portfolio of life-changing technologies spans the spectrum of healthcare, with leading businesses and products in diagnostics, medical devices, nutritionals and branded generic…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-30",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States---Minnesota---St-Paul/XMLNAME-2027-Winter-Engineering-Co-Op_31161074",
-      "external_id": "31161074",
-      "verified_at": "2026-11-03T23:29:09Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-bba379bde987",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "2027 Sales Cancer Diagnostics Intern",
-      "location": "United States > Madison : 1 Exact Lane",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Finance"
-      ],
-      "summary": "Abbott is a global healthcare leader that helps people live more fully at all stages of life. Our portfolio of life-changing technologies spans the spectrum of healthcare, with leading businesses and products in diagnostics, medical devices, nutritionals and branded generic…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-20",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States--Madison--1-Exact-Lane/XMLNAME-2027-Sales-Cancer-Diagnostics-Intern_31161558",
-      "external_id": "31161558",
-      "verified_at": "2026-11-03T23:29:05Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-4fc90e1c152a",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "2027 Operations Cancer Diagnostics Intern",
-      "location": "United States > Madison : 1 Exact Lane",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Abbott is a global healthcare leader that helps people live more fully at all stages of life. Our portfolio of life-changing technologies spans the spectrum of healthcare, with leading businesses and products in diagnostics, medical devices, nutritionals and branded generic…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-20",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States--Madison--1-Exact-Lane/XMLNAME-2027-Operations-Cancer-Diagnostics-Intern_31162236",
-      "external_id": "31162236",
-      "verified_at": "2026-11-03T23:29:05Z",
-      "match_score": 85
-    },
-    {
-      "id": "abbott-laboratories-9936e55958d5",
-      "source_key": "abbott-laboratories",
-      "fortune_rank": 107,
-      "fortune_500": true,
-      "company": "Abbott Laboratories",
-      "title": "2027 Finance Cancer Diagnostics Intern",
-      "location": "United States > Madison : 1 Exact Lane",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "FP&A"
-      ],
-      "tags": [
-        "Excel",
-        "Power BI",
-        "Finance",
-        "Credit",
-        "Accounting"
-      ],
-      "summary": "Abbott is a global healthcare leader that helps people live more fully at all stages of life. Our portfolio of life-changing technologies spans the spectrum of healthcare, with leading businesses and products in diagnostics, medical devices, nutritionals and branded generic…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-20",
-      "url": "https://abbott.wd5.myworkdayjobs.com/abbottcareers/job/United-States--Madison--1-Exact-Lane/XMLNAME-2027-Finance-Cancer-Diagnostics-Intern_31161561",
-      "external_id": "31161561",
-      "verified_at": "2026-11-03T23:29:05Z",
-      "match_score": 85
-    },
-    {
       "id": "zoetis-7e269d241e94",
       "source_key": "zoetis",
       "fortune_rank": 434,
@@ -12606,6 +10351,39 @@
       "url": "https://www.zoetis.com/join-us/intern-at-zoetis",
       "external_id": null,
       "verified_at": "2026-11-05T11:03:48Z",
+      "match_score": 85
+    },
+    {
+      "id": "valero-energy-ac21abc6c4fd",
+      "source_key": "valero-energy",
+      "fortune_rank": 40,
+      "fortune_500": true,
+      "company": "Valero Energy",
+      "title": "Intern Programs",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "SQL",
+        "Excel",
+        "Product",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Turn what you’re learning in the classroom into meaningful, real-world experience at Valero. Contribute to important projects, learn from industry professionals and build skills that can help launch your career. Interns receive competitive pay, professional development,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.valero.com/careers/university-recruiting/intern-programs",
+      "external_id": null,
+      "verified_at": "2026-11-05T18:48:28Z",
       "match_score": 85
     },
     {
@@ -12695,7 +10473,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-11-05T11:01:19Z",
+      "verified_at": "2026-11-05T18:46:48Z",
       "match_score": 85
     },
     {
@@ -12755,7 +10533,7 @@
       "deadline": null,
       "url": "https://careers.massmutual.com/job/windsor-locks/corporate-aviation-summer-2027-internship/724/102794641344",
       "external_id": null,
-      "verified_at": "2026-11-05T11:01:18Z",
+      "verified_at": "2026-11-05T18:46:47Z",
       "match_score": 85
     },
     {
@@ -13174,6 +10952,35 @@
       "match_score": 85
     },
     {
+      "id": "equinix-26b20c29d201",
+      "source_key": "equinix",
+      "fortune_rank": 436,
+      "fortune_500": true,
+      "company": "Equinix",
+      "title": "Intern to impact – Haley Wynne",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Technical Solutions",
+        "Solutions Architect",
+        "Sales Engineer"
+      ],
+      "tags": [
+        "Strategy"
+      ],
+      "summary": "Kiosk mode Intern to impact – Haley Wynne Oct 14 2025 What if your internship could be the launchpad for your entire tech career? For Haley Wynne, it was exactly that. In 2023, Haley joined Equinix as an intern on our Global Technical Solutions Team (GTST) Public Sector team",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://careers.equinix.com/blogs/life-at-equinix-blogs/intern-to-impact-hayley-wynne",
+      "external_id": null,
+      "verified_at": "2026-11-05T18:47:26Z",
+      "match_score": 85
+    },
+    {
       "id": "ey-0dd08072497a",
       "source_key": "ey",
       "fortune_rank": null,
@@ -13400,33 +11207,6 @@
       "match_score": 85
     },
     {
-      "id": "carmax-4f828c989a33",
-      "source_key": "carmax",
-      "fortune_rank": 162,
-      "fortune_500": true,
-      "company": "CarMax",
-      "title": "Apprentice Technician",
-      "location": "45210 Towlern Pl, Sterling, VA 20166, United States",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "All jobs / Role details Apprentice Technician 45210 Towlern Pl, Sterling, VA 20166, United States Job Description 7132 - Dulles - 45210 Towlern Pl, Sterling, Virginia, 20166 CarMax, the way your career should be! Position Overview As an Automotive Tech-Apprentice, you’ll…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://careers.carmax.com/apprentice-technician/job/F768B724B552DBE6CFE5AFD5D4248E95",
-      "external_id": null,
-      "verified_at": "2026-11-03T23:28:02Z",
-      "match_score": 85
-    },
-    {
       "id": "capital-one-financial-42c9917ee8c3",
       "source_key": "capital-one-financial",
       "fortune_rank": 63,
@@ -13493,34 +11273,6 @@
       "match_score": 85
     },
     {
-      "id": "csx-3c33b469389c",
-      "source_key": "csx",
-      "fortune_rank": 324,
-      "fortune_500": true,
-      "company": "CSX",
-      "title": "Internship Programs",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Finance"
-      ],
-      "summary": "CSX $ / ShipCSX / REPORT AN EMERGENCY: 1-800-232-0144 / About Us Community Customers Suppliers Investors Working at CSX Media At CSX, we strive to effectively communicate our vision to our customers, partners, and communities. Read our press releases and view our ads and videos",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.csx.com/index.cfm/working-at-csx/job-overviews/internship-programs/",
-      "external_id": null,
-      "verified_at": "2026-11-03T23:27:33Z",
-      "match_score": 85
-    },
-    {
       "id": "chs-dda28745bb41",
       "source_key": "chs",
       "fortune_rank": 130,
@@ -13582,31 +11334,6 @@
       "match_score": 85
     },
     {
-      "id": "brightspring-health-services-8ab26e506f03",
-      "source_key": "brightspring-health-services",
-      "fortune_rank": 323,
-      "fortune_500": true,
-      "company": "BrightSpring Health Services",
-      "title": "Internship Opportunities - BrightSpring Health Services",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "CAMPUS OPPORTUNITIES Internship Opportunities Home / Campus Opportunities / Internship Opportunities Build Your Future with Our Internship Program Our internship program offers the opportunity to engage in meaningful work that makes a positive impact on both your community and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.brightspringhealth.com/campus-opportunities/internship-opportunities/",
-      "external_id": null,
-      "verified_at": "2026-11-03T23:27:19Z",
-      "match_score": 85
-    },
-    {
       "id": "boston-consulting-group-bcg-8e598938abbf",
       "source_key": "bcg",
       "fortune_rank": null,
@@ -13640,12 +11367,12 @@
       "match_score": 85
     },
     {
-      "id": "booz-allen-hamilton-holding-f627c087cdbf",
-      "source_key": "booz-allen-hamilton-holding",
-      "fortune_rank": 372,
+      "id": "avery-dennison-4c9323a46392",
+      "source_key": "avery-dennison",
+      "fortune_rank": 448,
       "fortune_500": true,
-      "company": "Booz Allen Hamilton Holding",
-      "title": "Systems Administrator - Summer Intern - - 132357 - Booz | Allen | Hamilton ®",
+      "company": "Avery Dennison",
+      "title": "Join the Avery Dennison Internship Community",
       "location": "Location not listed",
       "region": "Global",
       "opportunity_type": "Internship",
@@ -13653,18 +11380,17 @@
         "Asset-based lending"
       ],
       "tags": [
-        "AI / ML",
-        "Operations"
+        "AI / ML"
       ],
-      "summary": "Driven by purpose Join a culture of empowerment and connectivity. Develop your craft Learn the skills you need to accelerate your career. Build your wellbeing Discover benefits that support your life and work. Innovate with intention Build mission-ready tech that protects the…",
+      "summary": "Profile Background Are you looking for an Internship opportunity where you can bring your unique skills and talents to work every day? Do you thrive on ideas and making a visible impact? Do you want to work with colleagues who are as excited about what they do as you are, and…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": null,
       "deadline": null,
-      "url": "https://careers.boozallen.com/jobs/JobDetail/Annapolis-Junction-Systems-Administrator-Summer-Intern-R0252406/132357",
+      "url": "https://join.smartrecruiters.com/AveryDennison/eed4fbc6-ff4b-4f23-8d4b-0ff5fd2e0a1f-internship-community",
       "external_id": null,
-      "verified_at": "2026-11-03T23:30:53Z",
+      "verified_at": "2026-11-05T18:47:53Z",
       "match_score": 85
     },
     {
