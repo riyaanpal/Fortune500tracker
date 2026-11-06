@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05T18:50:50Z",
+  "updated_at": "2026-11-06T00:22:43Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -11,10 +11,10 @@
   "directory_warnings": [
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-11-05T18:46:44Z",
+  "directory_refreshed_at": "2026-11-06T00:20:21Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 176,
-  "companies_failed_last_24h": 12,
+  "companies_failed_last_24h": 13,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "accendra-health",
@@ -28,19 +28,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": null
-    },
-    {
-      "key": "baxter-international",
-      "rank": 382,
-      "company": "Baxter International",
-      "fortune_500": true,
-      "checked_at": "2026-11-04T21:58:56Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://baxter.wd1.myworkdayjobs.com/wday/cxs/baxter/baxter/jobs: 429 Client Error: Too Many Requests for url: https://baxter.wd1.myworkdayjobs.com/wday/cxs/baxter/baxter/jobs"
     },
     {
       "key": "continental-resources",
@@ -121,6 +108,19 @@
       "error": "Failed request: https://prologis.wd5.myworkdayjobs.com/wday/cxs/prologis/Prologis_External_Careers/jobs: 429 Client Error: Too Many Requests for url: https://prologis.wd5.myworkdayjobs.com/wday/cxs/prologis/Prologis_External_Careers/jobs"
     },
     {
+      "key": "pultegroup",
+      "rank": 256,
+      "company": "PulteGroup",
+      "fortune_500": true,
+      "checked_at": "2026-11-06T00:22:43Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://pultegroup.wd1.myworkdayjobs.com/PGI",
+      "error": "Failed request: https://pultegroup.wd1.myworkdayjobs.com/wday/cxs/pultegroup/PGI/jobs: 429 Client Error: Too Many Requests for url: https://pultegroup.wd1.myworkdayjobs.com/wday/cxs/pultegroup/PGI/jobs"
+    },
+    {
       "key": "qvc-group",
       "rank": 433,
       "company": "QVC Group",
@@ -132,6 +132,32 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://qvc.wd5.myworkdayjobs.com/wday/cxs/qvc/QRG/jobs: 429 Client Error: Too Many Requests for url: https://qvc.wd5.myworkdayjobs.com/wday/cxs/qvc/QRG/jobs"
+    },
+    {
+      "key": "solventum",
+      "rank": 468,
+      "company": "Solventum",
+      "fortune_500": true,
+      "checked_at": "2026-11-06T00:22:43Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://healthcare.wd1.myworkdayjobs.com/wday/cxs/healthcare/Search/jobs: 429 Client Error: Too Many Requests for url: https://healthcare.wd1.myworkdayjobs.com/wday/cxs/healthcare/Search/jobs"
+    },
+    {
+      "key": "somnigroup-international",
+      "rank": 35,
+      "company": "Somnigroup International",
+      "fortune_500": true,
+      "checked_at": "2026-11-06T00:22:43Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://mattressfirm.wd1.myworkdayjobs.com/MattressFirmCareers",
+      "error": "Failed request: https://att.wd1.myworkdayjobs.com/wday/cxs/att/ATTGeneral/jobs: 429 Client Error: Too Many Requests for url: https://att.wd1.myworkdayjobs.com/wday/cxs/att/ATTGeneral/jobs"
     },
     {
       "key": "target",
@@ -147,19 +173,6 @@
       "error": "Failed request: https://target.wd5.myworkdayjobs.com/wday/cxs/target/targetcareers/jobs: 429 Client Error: Too Many Requests for url: https://target.wd5.myworkdayjobs.com/wday/cxs/target/targetcareers/jobs"
     },
     {
-      "key": "ups",
-      "rank": 48,
-      "company": "UPS",
-      "fortune_500": true,
-      "checked_at": "2026-11-04T21:58:56Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
-    },
-    {
       "key": "xylem",
       "rank": 443,
       "company": "Xylem",
@@ -173,9 +186,9 @@
       "error": "Failed request: https://xylem.wd5.myworkdayjobs.com/wday/cxs/xylem/xylem-careers/jobs: 429 Client Error: Too Many Requests for url: https://xylem.wd5.myworkdayjobs.com/wday/cxs/xylem/xylem-careers/jobs"
     }
   ],
-  "companies_with_eligible_jobs": 49,
+  "companies_with_eligible_jobs": 47,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 393,
+  "opportunity_count": 346,
   "opportunities": [
     {
       "id": "jones-lang-lasalle-9ceb586e2f9c",
@@ -204,97 +217,6 @@
       "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Gurugram-HR/Apprentice_REQ538326",
       "external_id": "REQ538326",
       "verified_at": "2026-11-04T15:30:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-e8a987e2e9a4",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Artificial Intelligence Intern",
-      "location": "Remote",
-      "region": "Remote",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Technical Solutions",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Cloud",
-        "AI / ML",
-        "Product"
-      ],
-      "summary": "Job Description Summary Job Description Company Overview: Working at GE Aerospace means you are bringing your unique perspective, innovative spirit, drive, and curiosity to a collaborative and diverse team working to advance aerospace for future generations",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-04",
-      "deadline": "2026-11-11",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Remote/Artificial-Intelligence-Intern_R5042291-1",
-      "external_id": "R5042291",
-      "verified_at": "2026-11-04T06:33:57Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-400000473a71",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Artificial Intelligence Intern",
-      "location": "Remote",
-      "region": "Remote",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Technical Solutions",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Cloud",
-        "AI / ML",
-        "Product"
-      ],
-      "summary": "Job Description Summary Job Description Company Overview: Working at GE Aerospace means you are bringing your unique perspective, innovative spirit, drive, and curiosity to a collaborative and diverse team working to advance aerospace for future generations",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-04",
-      "deadline": "2026-11-11",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Remote/Artificial-Intelligence-Intern_R5042294-1",
-      "external_id": "R5042294",
-      "verified_at": "2026-11-04T06:33:57Z",
-      "match_score": 85
-    },
-    {
-      "id": "dxc-technology-419ad2ec91eb",
-      "source_key": "dxc-technology",
-      "fortune_rank": 343,
-      "fortune_500": true,
-      "company": "DXC Technology",
-      "title": "JAVA intern",
-      "location": "TWN - TPE - TAIPEI",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "SQL"
-      ],
-      "summary": "Our work model prioritizes in-person collaboration while offering flexibility to support wellbeing, productivity, individual work styles, and life circumstances. We’re committed to fostering an inclusive environment where everyone can thrive",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-04",
-      "deadline": null,
-      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/TWN---TPE---TAIPEI/JAVA-intern_51591998",
-      "external_id": "51591998",
-      "verified_at": "2026-11-04T06:33:33Z",
       "match_score": 85
     },
     {
@@ -404,6 +326,31 @@
       "match_score": 85
     },
     {
+      "id": "boeing-6d68a5be3df5",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Engineering Intern - January 2027",
+      "location": "IRL - Dublin, Ireland",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Engineering Intern - January 2027 Company: Boeing Ireland Limited Boeing Global Services are looking for Engineering Interns to join our team in Dublin and gain exposure through supporting the certification of aircraft modifications",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-04",
+      "deadline": "2026-11-10",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/IRL---Dublin-Ireland/Engineering-Intern---January-2027_JR2026524284",
+      "external_id": "JR2026524284",
+      "verified_at": "2026-11-06T00:21:46Z",
+      "match_score": 85
+    },
+    {
       "id": "biogen-812094b6569d",
       "source_key": "biogen",
       "fortune_rank": 421,
@@ -451,38 +398,6 @@
       "url": "https://biibhr.wd3.myworkdayjobs.com/external/job/Solothurn-Switzerland/Internship-Manufacturing-Engineering_REQ24488",
       "external_id": "REQ24488",
       "verified_at": "2026-11-05T11:03:19Z",
-      "match_score": 85
-    },
-    {
-      "id": "assurant-8e79c0b436e9",
-      "source_key": "assurant",
-      "fortune_rank": 345,
-      "fortune_500": true,
-      "company": "Assurant",
-      "title": "FP&A Intern",
-      "location": "Buenos Aires (Butty)",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "FP&A",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Power BI",
-        "AI / ML",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Job Purpose Support to FP&A head on short / long term Planning cycles and their reviews. P&L trend analysis, gaps mitigation and added value to the area to make improvements in financial modeling/processes . GCC Enterprise financial processes coordination",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-04",
-      "deadline": null,
-      "url": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Buenos-Aires-Butty/FP-A-Intern_R-116111-1",
-      "external_id": "R-116111",
-      "verified_at": "2026-11-04T06:33:00Z",
       "match_score": 85
     },
     {
@@ -630,62 +545,6 @@
       "match_score": 85
     },
     {
-      "id": "ge-aerospace-f5855e2425de",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "EID Intern - Fluids Systems",
-      "location": "Queretaro",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Job Description Summary Support the engineering activities related to assigned fluids system components in a collaborative, multifunctional team environment. Assigned components may include electromechanical devices used in aircraft engines, such as pumps, air valves, filters,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-03",
-      "deadline": "2026-11-11",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Queretaro/EID-Intern---Fluids-Systems_R5042621-1",
-      "external_id": "R5042621",
-      "verified_at": "2026-11-04T06:33:58Z",
-      "match_score": 85
-    },
-    {
-      "id": "dxc-technology-e5209c0859a5",
-      "source_key": "dxc-technology",
-      "fortune_rank": 343,
-      "fortune_500": true,
-      "company": "DXC Technology",
-      "title": "ITO Intern",
-      "location": "MYS - PETALING JAYA",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Job Description: DXC Technology (NYSE: DXC) is a leading enterprise technology and innovation partner delivering software, services, and solutions to global enterprises and public sector organizations — helping them harness AI to drive outcomes at a time of exponential change…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-03",
-      "deadline": null,
-      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/ITO-Intern_51591003",
-      "external_id": "51591003",
-      "verified_at": "2026-11-04T06:33:33Z",
-      "match_score": 85
-    },
-    {
       "id": "citigroup-e82c6b5427fe",
       "source_key": "citigroup",
       "fortune_rank": 24,
@@ -714,6 +573,36 @@
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/Getzville-New-York-United-States/Market-Operations-Junior-Analyst-Program-Hybrid_26991391-1",
       "external_id": "26991391",
       "verified_at": "2026-11-04T15:32:36Z",
+      "match_score": 85
+    },
+    {
+      "id": "auto-owners-insurance-f19c71e1fd46",
+      "source_key": "auto-owners-insurance",
+      "fortune_rank": 241,
+      "fortune_500": true,
+      "company": "Auto-Owners Insurance",
+      "title": "Home Office Underwriting/Audit Internship - Summer 2027",
+      "location": "Lansing, MI",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "IT analyst",
+        "Accounting / financial analyst"
+      ],
+      "tags": [
+        "Product",
+        "Credit",
+        "Accounting"
+      ],
+      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking a motivated…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-03",
+      "deadline": null,
+      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Home-Office-Underwriting-Audit-Internship---Summer-2027_R_14361",
+      "external_id": "R_14361",
+      "verified_at": "2026-11-06T00:21:19Z",
       "match_score": 85
     },
     {
@@ -885,33 +774,6 @@
       "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Gurugram-HR/Apprentice_REQ538293",
       "external_id": "REQ538293",
       "verified_at": "2026-11-04T15:31:08Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-92f6cd0a4227",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Modern Engineering Apprenticeship, Prestwick, 2027 intake",
-      "location": "Prestwick",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Description Summary Our apprentices follow a three-year training programme, with day release college attendance. This is a full-time role, Monday-Friday. Job Description About GE Aerospace Are you ready to see your future take flight?",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-02",
-      "deadline": "2026-11-15",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Prestwick/Modern-Engineering-Apprenticeship--Prestwick--2027-intake_R5042516-1",
-      "external_id": "R5042516",
-      "verified_at": "2026-11-04T06:34:12Z",
       "match_score": 85
     },
     {
@@ -1144,90 +1006,6 @@
       "match_score": 85
     },
     {
-      "id": "ge-aerospace-5e601d1a7135",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Quality Practitioner Apprenticeship, Dowty 2027 intake",
-      "location": "Gloucester",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Accounting"
-      ],
-      "summary": "Job Description Summary As a Quality Practitioner Apprentice you will work within the Quality department which oversees various aspects of our Quality Management System. Quality plays a key role to ensure our products are consistent, improve our manufacturing processes and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-31",
-      "deadline": "2026-11-07",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Gloucester/Quality-Practitioner-Apprenticeship--Dowty-2027-intake_R5040783-2",
-      "external_id": "R5040783",
-      "verified_at": "2026-11-04T06:34:00Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-ad4dc2620d91",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Intern - Inspection",
-      "location": "Subang",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Product",
-        "Operations"
-      ],
-      "summary": "Job Description Summary Job Description Company Overview: Working at GE Aerospace means you are bringing your unique perspective, innovative spirit, drive, and curiosity to a collaborative and diverse team working to advance aerospace for future generations",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-31",
-      "deadline": null,
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Subang/Intern---Inspection_R5041883-1",
-      "external_id": "R5041883",
-      "verified_at": "2026-11-04T06:34:00Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-22802c4cc583",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Dowty- Calibration Apprenticeship, 2027 intake",
-      "location": "Gloucester",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Description Summary As a Calibration Apprentice, you will work within the Facilities Department, responsible for all site services across the Dowty Facilities. Calibration is the discipline that keeps every measurement — pressure, temperature, torque, dimension — accurate…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-31",
-      "deadline": "2026-11-07",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Gloucester/Dowty--Calibration-Apprenticeship--2027-intake_R5040695-2",
-      "external_id": "R5040695",
-      "verified_at": "2026-11-04T06:34:00Z",
-      "match_score": 85
-    },
-    {
       "id": "motorola-solutions-73ac707b2565",
       "source_key": "motorola-solutions",
       "fortune_rank": 378,
@@ -1312,63 +1090,6 @@
       "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Singapore-Singapore/Asia-HR-Intern_R69739",
       "external_id": "R69739",
       "verified_at": "2026-11-04T15:30:41Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-66ddb5598d89",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Materials Application Engineer Intern",
-      "location": "Queretaro",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Product"
-      ],
-      "summary": "Job Description Summary Materials Application Engineer (MAE) intern will support the analysis of hardware by performing different activities related to aviation engines engineering projects, addressing the solution to different material requests, and guiding internal customers…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-30",
-      "deadline": "2026-11-07",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Queretaro/Materials-Application-Engineer-Intern_R5037702-1",
-      "external_id": "R5037702",
-      "verified_at": "2026-11-04T06:34:00Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-9e389a9fb241",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Intern - Quality Assurance",
-      "location": "Subang",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Accounting"
-      ],
-      "summary": "Job Description Summary The Quality Assurance (QA) Intern Job Description Company Overview: Working at GE Aerospace means you are bringing your unique perspective, innovative spirit, drive, and curiosity to a collaborative and diverse team working to advance aerospace for…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-30",
-      "deadline": null,
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Subang/Internship---Quality-Assurance_R5041887-1",
-      "external_id": "R5041887",
-      "verified_at": "2026-11-04T06:34:01Z",
       "match_score": 85
     },
     {
@@ -1722,35 +1443,6 @@
       "match_score": 85
     },
     {
-      "id": "assurant-3876ac931a66",
-      "source_key": "assurant",
-      "fortune_rank": 345,
-      "fortune_500": true,
-      "company": "Assurant",
-      "title": "Summer 2027 Intern: Global Onboarding Intern",
-      "location": "Atlanta, GA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML"
-      ],
-      "summary": "The Assurant Internship Program is a 12-week immersive experience where interns do not sit on the sidelines. You will gain real-world experience by tackling business challenges and helping drive meaningful outcomes. The program combines hands-on work with learning and…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "ve onboarding efficiency, measurement, and reporting. What We're Looking For Education Current undergraduate student graduating between December 2027 - May 2029 Preferred…",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-29",
-      "deadline": "2027-08-07",
-      "url": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Atlanta-GA/Summer-2027-Intern--Global-Onboarding-Intern_R-116065",
-      "external_id": "R-116065",
-      "verified_at": "2026-11-04T06:33:01Z",
-      "match_score": 90
-    },
-    {
       "id": "marvell-technology-706035249fd3",
       "source_key": "marvell-technology",
       "fortune_rank": 476,
@@ -1900,6 +1592,91 @@
       "match_score": 85
     },
     {
+      "id": "j-m-smucker-337eea07955a",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Human Resources Intern- McCalla, AL (Part-time)",
+      "location": "McCalla, AL",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Your Opportunity as a Human Resources intern As an intern within our Human Resources department at one of our manufacturing facilities, you will work with the Human Resources teams to assist in manufacturing hiring, onboarding, talent management, talent development, workforce…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-28",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/McCalla-AL/Human-Resources-Intern--McCalla--AL--Fall-2026--Part-time-_115933",
+      "external_id": "115933",
+      "verified_at": "2026-11-06T00:21:06Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-8f2a2310a0f8",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Intern - Student Engineer (Systems Eng)",
+      "location": "GBR - Bristol, UK",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Intern - Student Engineer (Systems Eng) Company: Boeing Defence United Kingdom Limited Overview: This post is for a Systems Engineering Intern to work within the engineering function in Boeing Defence UK (BDUK) ideally based in Bristol but with an option for basing it in…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-28",
+      "deadline": "2026-11-17",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Bristol-UK/Intern---Student-Engineer--Systems-Eng-_JR2026525683",
+      "external_id": "JR2026525683",
+      "verified_at": "2026-11-06T00:21:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "auto-owners-insurance-500b7daf50c0",
+      "source_key": "auto-owners-insurance",
+      "fortune_rank": 241,
+      "fortune_500": true,
+      "company": "Auto-Owners Insurance",
+      "title": "Intern - Analytics Web Systems Developer",
+      "location": "Lansing, MI",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "SQL",
+        "Cloud"
+      ],
+      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking a web…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-28",
+      "deadline": null,
+      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Intern---Analytics-Web-Systems-Developer_R_14272",
+      "external_id": "R_14272",
+      "verified_at": "2026-11-06T00:21:20Z",
+      "match_score": 85
+    },
+    {
       "id": "andersons-3a1f3377a9ac",
       "source_key": "andersons",
       "fortune_rank": 397,
@@ -1952,7 +1729,8 @@
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Sales-Development-Program---Internship_R-120996",
       "external_id": "R-120996",
       "verified_at": "2026-11-05T18:50:49Z",
-      "match_score": 85
+      "match_score": 85,
+      "source_stale": true
     },
     {
       "id": "motorola-solutions-e80b1f0e6e37",
@@ -2134,67 +1912,6 @@
       "external_id": "REQ523575",
       "verified_at": "2026-11-04T15:30:24Z",
       "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-337eea07955a",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Human Resources Intern- McCalla, AL (Part-time)",
-      "location": "McCalla, AL",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Your Opportunity as a Human Resources intern As an intern within our Human Resources department at one of our manufacturing facilities, you will work with the Human Resources teams to assist in manufacturing hiring, onboarding, talent management, talent development, workforce…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-27",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/McCalla-AL/Human-Resources-Intern--McCalla--AL--Fall-2026--Part-time-_115933",
-      "external_id": "115933",
-      "verified_at": "2026-11-05T18:47:31Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-02fd20617d60",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Finance Co-op – US – Fall 2027",
-      "location": "Evendale",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "FP&A",
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations",
-        "Finance",
-        "FP&A",
-        "Accounting"
-      ],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "we serve Willingness to relocate to headquarters in Cincinnati, Ohio Qualifications/Requirements: Graduation date between August 2028 and May/June 2030 Attending a full-time…",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-27",
-      "deadline": "2026-11-22",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Finance-Co-op---US---Fall-2027_R5030148-1",
-      "external_id": "R5030148",
-      "verified_at": "2026-11-04T06:34:02Z",
-      "match_score": 90
     },
     {
       "id": "carrier-global-2994637876f5",
@@ -2539,32 +2256,36 @@
       "match_score": 85
     },
     {
-      "id": "crown-holdings-4230b0123b71",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
+      "id": "auto-owners-insurance-85d11f0575e3",
+      "source_key": "auto-owners-insurance",
+      "fortune_rank": 241,
       "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Manufacturing Intern",
-      "location": "Toluca",
-      "region": "Global",
+      "company": "Auto-Owners Insurance",
+      "title": "Business Intelligence Developer Internship - Summer 2027",
+      "location": "Lansing, MI",
+      "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
+        "Data analyst",
         "Asset-based lending"
       ],
       "tags": [
+        "Python",
+        "SQL",
         "Excel",
-        "Operations"
+        "Tableau",
+        "Power BI"
       ],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
+      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking a motivated…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "line, and have at least two years of coursework completed. Master’s students are also considered if graduation is August 2027 or later. High aptitude for mathematics and…",
+      "freshman_friendly": true,
       "posted_date": "2026-10-24",
       "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Toluca/Manufacturing-Intern_JR103913",
-      "external_id": "JR103913",
-      "verified_at": "2026-11-04T06:33:40Z",
-      "match_score": 85
+      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14772",
+      "external_id": "R_14772",
+      "verified_at": "2026-11-06T00:21:20Z",
+      "match_score": 90
     },
     {
       "id": "primoris-services-60410a63511c",
@@ -2800,36 +2521,116 @@
       "match_score": 85
     },
     {
-      "id": "assurant-3d67bad9c778",
-      "source_key": "assurant",
-      "fortune_rank": 345,
+      "id": "j-m-smucker-3c0622beadb2",
+      "source_key": "smucker",
+      "fortune_rank": 456,
       "fortune_500": true,
-      "company": "Assurant",
-      "title": "Summer 2027 Intern: Manufactured Housing Product Analysis Intern",
-      "location": "Miami, FL",
+      "company": "J.M. Smucker",
+      "title": "Revenue Growth Management Intern, Summer 2027",
+      "location": "Orrville, OH",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
-        "Product management",
-        "Risk management",
-        "Data analyst"
+        "Data analyst",
+        "Asset-based lending"
       ],
       "tags": [
-        "SQL",
-        "Excel",
-        "Power BI",
-        "AI / ML",
-        "Product"
+        "Product",
+        "Strategy",
+        "Finance"
       ],
-      "summary": "Manufactured Home Product Analyst Intern: The Assurant Internship Program is a 12-week immersive experience where interns do not sit on the sidelines. You will gain real-world experience by tackling business challenges and helping drive meaningful outcomes",
+      "summary": "Your Opportunity as a Revenue Growth Management Intern Revenue Growth Management (RGM) uses data and analytics to help drive profitable growth for our brands and retail partners. As an RGM intern, you’ll gain hands-on experience analyzing pricing, promotions, product mix, and…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": "2026-10-23",
-      "deadline": "2027-08-07",
-      "url": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Miami-FL/Summer-2027-Intern--Manufactured-Housing-Product-Analysis-Intern_R-115769",
-      "external_id": "R-115769",
-      "verified_at": "2026-11-04T06:33:02Z",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Revenue-Growth-Management-Intern--Summer-2027_116012",
+      "external_id": "116012",
+      "verified_at": "2026-11-06T00:21:05Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-m-smucker-ec21fd80851a",
+      "source_key": "smucker",
+      "fortune_rank": 456,
+      "fortune_500": true,
+      "company": "J.M. Smucker",
+      "title": "Net Revenue Optimization Intern, Summer 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Finance"
+      ],
+      "summary": "Your Opportunity as a Net Revenue Optimization Intern Our commitment to leveraging strategic analysis to drive the right strategy and executions has taken on greater importance in today’s competitive and shifting market environment",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-23",
+      "deadline": null,
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Net-Revenue-Optimization-Intern--Summer-2027_116006",
+      "external_id": "116006",
+      "verified_at": "2026-11-06T00:21:06Z",
+      "match_score": 85
+    },
+    {
+      "id": "auto-owners-insurance-76ab6ad9307c",
+      "source_key": "auto-owners-insurance",
+      "fortune_rank": 241,
+      "fortune_500": true,
+      "company": "Auto-Owners Insurance",
+      "title": "Legal Internship - Winter 2026/Spring 2027",
+      "location": "Lansing, MI",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Credit"
+      ],
+      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance is a mutual insurance company with a simple human…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-23",
+      "deadline": null,
+      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Legal-Internship---Winter-2026-Spring-2027_R_14702",
+      "external_id": "R_14702",
+      "verified_at": "2026-11-06T00:21:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "auto-owners-insurance-a66b0c8348f3",
+      "source_key": "auto-owners-insurance",
+      "fortune_rank": 241,
+      "fortune_500": true,
+      "company": "Auto-Owners Insurance",
+      "title": "Legal Internship - Winter 2026/Spring 2027",
+      "location": "Lansing, MI",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Credit"
+      ],
+      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance is a mutual insurance company with a simple human…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-23",
+      "deadline": null,
+      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Legal-Internship---Winter-2026-Spring-2027_R_14704",
+      "external_id": "R_14704",
+      "verified_at": "2026-11-06T00:21:20Z",
       "match_score": 85
     },
     {
@@ -2884,92 +2685,6 @@
       "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Shanghai/Customer-Quality-Intern_2604617",
       "external_id": "2604617",
       "verified_at": "2026-11-05T02:32:01Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-3c0622beadb2",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Revenue Growth Management Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Strategy",
-        "Finance"
-      ],
-      "summary": "Your Opportunity as a Revenue Growth Management Intern Revenue Growth Management (RGM) uses data and analytics to help drive profitable growth for our brands and retail partners. As an RGM intern, you’ll gain hands-on experience analyzing pricing, promotions, product mix, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-22",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Revenue-Growth-Management-Intern--Summer-2027_116012",
-      "external_id": "116012",
-      "verified_at": "2026-11-05T18:47:31Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-ec21fd80851a",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Net Revenue Optimization Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Finance"
-      ],
-      "summary": "Your Opportunity as a Net Revenue Optimization Intern Our commitment to leveraging strategic analysis to drive the right strategy and executions has taken on greater importance in today’s competitive and shifting market environment",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-22",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Net-Revenue-Optimization-Intern--Summer-2027_116006",
-      "external_id": "116006",
-      "verified_at": "2026-11-05T18:47:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-4d8457668936",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Procurement Intern",
-      "location": "Nuevo León",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-22",
-      "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Procurement-Intern_JR104030",
-      "external_id": "JR104030",
-      "verified_at": "2026-11-04T06:33:40Z",
       "match_score": 85
     },
     {
@@ -3713,33 +3428,30 @@
       "match_score": 85
     },
     {
-      "id": "dxc-technology-ba83530c0318",
-      "source_key": "dxc-technology",
-      "fortune_rank": 343,
+      "id": "j-m-smucker-bac848157501",
+      "source_key": "smucker",
+      "fortune_rank": 456,
       "fortune_500": true,
-      "company": "DXC Technology",
-      "title": "SAP Intern (SAP Concur / SAP ABAP)",
-      "location": "MYS - PETALING JAYA",
-      "region": "Global",
+      "company": "J.M. Smucker",
+      "title": "Sensory and Products Research Intern, Summer 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
         "Asset-based lending"
       ],
       "tags": [
-        "Python",
-        "SQL",
-        "AI / ML",
-        "Operations"
+        "Product"
       ],
-      "summary": "Job Description: DXC Technology (NYSE: DXC) is a leading enterprise technology and innovation partner delivering software, services, and solutions to global enterprises and public sector organizations — helping them harness AI to drive outcomes at a time of exponential change…",
+      "summary": "Your Opportunity as an Intern This posting represents two internship opportunities: Sensory and R&D Products Research. Both roles are looking for students interested in sensory and consumer research. While both apply scientific rigor to understand our products and serve as a…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
+      "freshman_friendly": true,
       "posted_date": "2026-10-20",
       "deadline": null,
-      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/SAP-Intern--SAP-Concur---SAP-ABAP-_51590743",
-      "external_id": "51590743",
-      "verified_at": "2026-11-04T06:33:33Z",
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
+      "external_id": "115677",
+      "verified_at": "2026-11-06T00:21:05Z",
       "match_score": 85
     },
     {
@@ -3915,145 +3627,6 @@
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-bac848157501",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Sensory and Products Research Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Your Opportunity as an Intern This posting represents two internship opportunities: Sensory and R&D Products Research. Both roles are looking for students interested in sensory and consumer research. While both apply scientific rigor to understand our products and serve as a…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-19",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
-      "external_id": "115677",
-      "verified_at": "2026-11-05T18:47:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-7d7695b18f98",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Test Technician Apprenticeship, Cheltenham 2027 intake",
-      "location": "Cheltenham",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "Job Description Summary As a Test Technician Apprentice (TTA) you will join our Cheltenham based Supply Chain on a 3.5-year rotational scheme that will train you be a Test Technician, enabling you to understand the end-to-end manufacturing process, down to component level, from…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-19",
-      "deadline": "2026-11-15",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Cheltenham/Test-Technician-Apprenticeship--Cheltenham-2027-intake_R5041748-1",
-      "external_id": "R5041748",
-      "verified_at": "2026-11-04T06:34:03Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-3f235c5fc402",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Manufacturing Engineering Apprentice, Cheltenham 2027 intake",
-      "location": "Cheltenham",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "Job Description Summary As a Manufacturing Engineering Apprentice (MEA), you will join our Cheltenham based Supply Chain, on a 4-year rotational scheme that will enable you to understand end-to-end manufacturing processes, through the lens of a Manufacturing Engineer",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-19",
-      "deadline": "2026-11-15",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Cheltenham/Manufacturing-Engineering-Apprentice--Cheltenham-2027-intake_R5041743-1",
-      "external_id": "R5041743",
-      "verified_at": "2026-11-04T06:34:03Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-2b365a5d8cac",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Environmental Health & Safety (EHS) Apprenticeship, Cheltenham 2027 Intake",
-      "location": "Cheltenham",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Finance",
-        "Risk"
-      ],
-      "summary": "Job Description Summary This is a unique opportunity to complete a Health, Safety and Environmental Apprenticeship for a global Aerospace company, applying the technical skills learned in a practical environment supported by a team of experienced environment, health and safety…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-19",
-      "deadline": "2026-11-15",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Cheltenham/Environmental-Health---Safety--EHS--Apprenticeship--Cheltenham-2027-Intake_R5041749",
-      "external_id": "R5041749",
-      "verified_at": "2026-11-04T06:34:03Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-e135b7009630",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Advanced Manufacturing Apprenticeship, Cheltenham 2027 intake",
-      "location": "Cheltenham",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "Job Description Summary As an Advanced Manufacturing Apprentice (AMA) you will join our Cheltenham based Supply Chain on a 3.5 year rotational scheme, which will train you to be an Operator, building product on the shop floor, within one of our 5 core business areas",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-19",
-      "deadline": "2026-11-15",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Cheltenham/Advanced-Manufacturing-Apprenticeship--Cheltenham-2027-intake_R5041750-1",
-      "external_id": "R5041750",
-      "verified_at": "2026-11-04T06:34:03Z",
-      "match_score": 85
-    },
-    {
       "id": "carrier-global-df5152e8f420",
       "source_key": "carrier-global",
       "fortune_rank": 212,
@@ -4192,42 +3765,11 @@
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
-      "posted_date": "2026-10-16",
+      "posted_date": "2026-10-17",
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance-Technology-Intern--Spring-2027_116016",
       "external_id": "116016",
-      "verified_at": "2026-11-05T18:47:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "dxc-technology-5a67361c2a21",
-      "source_key": "dxc-technology",
-      "fortune_rank": 343,
-      "fortune_500": true,
-      "company": "DXC Technology",
-      "title": "Business Intelligence (BI) Intern",
-      "location": "MYS - PETALING JAYA",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "Excel",
-        "Power BI",
-        "AI / ML"
-      ],
-      "summary": "Job Description: DXC Technology (NYSE: DXC) is a leading enterprise technology and innovation partner delivering software, services, and solutions to global enterprises and public sector organizations — helping them harness AI to drive outcomes at a time of exponential change…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-16",
-      "deadline": null,
-      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/Business-Intelligence--BI--Intern_51591002",
-      "external_id": "51591002",
-      "verified_at": "2026-11-04T06:33:33Z",
+      "verified_at": "2026-11-06T00:21:05Z",
       "match_score": 85
     },
     {
@@ -4310,71 +3852,6 @@
       "match_score": 85
     },
     {
-      "id": "assurant-72a0e9a6e6a4",
-      "source_key": "assurant",
-      "fortune_rank": 345,
-      "fortune_500": true,
-      "company": "Assurant",
-      "title": "Summer 2027 Intern: Global Finance Intern",
-      "location": "Atlanta, GA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Corporate finance",
-        "Business analyst",
-        "Wealth management"
-      ],
-      "tags": [
-        "SQL",
-        "Excel",
-        "Power BI",
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Overview The Global Finance Internship Program at Assurant is a 12-week immersive experience designed to provide hands-on exposure within Accounting, Business Finance, Tax, Investments, Internal Audit & Analytics, Vendor Management or Actuarial",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "related field and will have at least on semester remaining following the summer internship Expected graduation between December 2027 – June 2029 Basic Excel skills…",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-15",
-      "deadline": "2027-08-07",
-      "url": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Atlanta-GA/Summer-2027-Intern--Global-Finance-Intern_R-115643",
-      "external_id": "R-115643",
-      "verified_at": "2026-11-04T06:33:03Z",
-      "match_score": 90
-    },
-    {
-      "id": "assurant-ede9c1f53f9e",
-      "source_key": "assurant",
-      "fortune_rank": 345,
-      "fortune_500": true,
-      "company": "Assurant",
-      "title": "Summer 2027 Intern: Data Support Analyst",
-      "location": "Illinois Virtual",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "SQL",
-        "Excel",
-        "Power BI",
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "The Assurant Internship Program is a 12-week immersive experience where interns do not sit on the sidelines. You will gain real-world experience by tackling business challenges and helping drive meaningful outcomes. The program combines hands-on work with learning and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-15",
-      "deadline": "2027-08-07",
-      "url": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Illinois-Virtual/Summer-2027-Intern--Data-Support-Analyst_R-115717",
-      "external_id": "R-115717",
-      "verified_at": "2026-11-04T06:33:03Z",
-      "match_score": 85
-    },
-    {
       "id": "motorola-solutions-62a94267527c",
       "source_key": "motorola-solutions",
       "fortune_rank": 378,
@@ -4404,58 +3881,56 @@
       "match_score": 85
     },
     {
-      "id": "ge-aerospace-640fcf364636",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
+      "id": "j-m-smucker-1710b1d8b4ce",
+      "source_key": "smucker",
+      "fortune_rank": 456,
       "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Manufacturing/Supply Chain Intern – Hooksett, NH – Summer 2027",
-      "location": "Hooksett",
-      "region": "Global",
+      "company": "J.M. Smucker",
+      "title": "Talent Acquisition Intern, Summer 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
-        "Operations analyst",
         "Asset-based lending"
       ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Description Summary Job Description Help invent the future of flight, lift people up, and bring them home safely as a GE Aerospace supply chain intern in Hooksett, NH. At GE Aerospace, safety and quality are our top priorities. You’ll join a high-impact operations team…",
+      "tags": [],
+      "summary": "Your Opportunity as a Talent Intern As an intern within our Talent Acquisition function, you will work closely with our team on key strategies and initiatives that span across Talent Acquisition, Emerging Talent programming (which includes our Internship Program), and Candidate…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
+      "freshman_friendly": true,
       "posted_date": "2026-10-14",
       "deadline": null,
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Hooksett/Manufacturing-Supply-Chain-Intern---Hooksett--NH---Summer-2027_R5041386-1",
-      "external_id": "R5041386",
-      "verified_at": "2026-11-04T06:34:31Z",
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Talent-Acquisition-Intern--Summer-2027_115992",
+      "external_id": "115992",
+      "verified_at": "2026-11-06T00:21:05Z",
       "match_score": 85
     },
     {
-      "id": "ge-aerospace-9bd27e8b82c7",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
+      "id": "j-m-smucker-7ef1c6e966cd",
+      "source_key": "smucker",
+      "fortune_rank": 456,
       "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Environmental/Health/Safety Intern – Hooksett, NH – Summer 2027",
-      "location": "Hooksett",
-      "region": "Global",
+      "company": "J.M. Smucker",
+      "title": "Marketing Intern, Summer 2027",
+      "location": "Orrville, OH",
+      "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
+        "Business analyst",
         "Asset-based lending"
       ],
       "tags": [
-        "Risk"
+        "Strategy"
       ],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
+      "summary": "Your Opportunity as a Marketing Intern As an intern within our Marketing department, you will evaluate data and business trends and communicate those insights to the core business team. You will execute specifically requested analyses via syndicated data (Circana & Internal…",
       "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
       "posted_date": "2026-10-14",
       "deadline": null,
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Hooksett/Environmental-Health-Safety-Intern---Hooksett--NH---Summer-2027_R5041385-1",
-      "external_id": "R5041385",
-      "verified_at": "2026-11-04T06:34:03Z",
+      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Marketing-Intern--Summer-2027_115771",
+      "external_id": "115771",
+      "verified_at": "2026-11-06T00:21:04Z",
       "match_score": 85
     },
     {
@@ -4646,56 +4121,30 @@
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-1710b1d8b4ce",
-      "source_key": "smucker",
-      "fortune_rank": 456,
+      "id": "auto-owners-insurance-c18e226e3835",
+      "source_key": "auto-owners-insurance",
+      "fortune_rank": 241,
       "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Talent Acquisition Intern, Summer 2027",
-      "location": "Orrville, OH",
+      "company": "Auto-Owners Insurance",
+      "title": "Legal Internship - Summer 2027",
+      "location": "Lansing, MI",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Your Opportunity as a Talent Intern As an intern within our Talent Acquisition function, you will work closely with our team on key strategies and initiatives that span across Talent Acquisition, Emerging Talent programming (which includes our Internship Program), and Candidate…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-13",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Talent-Acquisition-Intern--Summer-2027_115992",
-      "external_id": "115992",
-      "verified_at": "2026-11-05T18:47:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-7ef1c6e966cd",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Marketing Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Business analyst",
         "Asset-based lending"
       ],
       "tags": [
-        "Strategy"
+        "Credit"
       ],
-      "summary": "Your Opportunity as a Marketing Intern As an intern within our Marketing department, you will evaluate data and business trends and communicate those insights to the core business team. You will execute specifically requested analyses via syndicated data (Circana & Internal…",
+      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance is a mutual insurance company with a simple human…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
+      "freshman_friendly": false,
       "posted_date": "2026-10-13",
       "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Marketing-Intern--Summer-2027_115771",
-      "external_id": "115771",
-      "verified_at": "2026-11-05T18:47:29Z",
+      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Legal-Internship---Summer-2027_R_14649",
+      "external_id": "R_14649",
+      "verified_at": "2026-11-06T00:21:21Z",
       "match_score": 85
     },
     {
@@ -4979,63 +4428,6 @@
       "match_score": 85
     },
     {
-      "id": "ge-aerospace-759f74975284",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Process Improvement Intern - Module Shop",
-      "location": "Singapore",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Description Summary You will be joining our newly set-up Engine Module Shop to support process improvement initiatives for engine module disassembly and assembly operations. This internship offers a cross-functional and hands-on experience in problem solving and continuous…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-10",
-      "deadline": null,
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Singapore/Process-Improvement-Intern---Module-Shop_R5037069-1",
-      "external_id": "R5037069",
-      "verified_at": "2026-11-04T06:34:03Z",
-      "match_score": 85
-    },
-    {
-      "id": "dxc-technology-8e20e83265d7",
-      "source_key": "dxc-technology",
-      "fortune_rank": 343,
-      "fortune_500": true,
-      "company": "DXC Technology",
-      "title": "Service Desk Agent (Intern)",
-      "location": "SGP - SINGAPORE",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Job Description: DXC Technology (NYSE: DXC) is a leading enterprise technology and innovation partner delivering software, services, and solutions to global enterprises and public sector organizations — helping them harness AI to drive outcomes at a time of exponential change…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-10",
-      "deadline": null,
-      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/SGP---SINGAPORE/Service-Desk-Agent--Intern-_51579463",
-      "external_id": "51579463",
-      "verified_at": "2026-11-04T06:33:33Z",
-      "match_score": 85
-    },
-    {
       "id": "live-nation-entertainment-e609ea560249",
       "source_key": "live-nation-entertainment",
       "fortune_rank": 180,
@@ -5087,117 +4479,6 @@
       "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/New-York-NY/Sustainability-Operations-Summer-2027-Internship---New-York--NY_REQ540054",
       "external_id": "REQ540054",
       "verified_at": "2026-11-04T15:30:27Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-98edefbb4ad0",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Quality Intern",
-      "location": "Singapore",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Description Summary In this role, you will be responsible for leading projects of Calibration and Metallurgy Laboratory and working with GEAESS Laboratories team for exciting task. Job Description Company Overview: Are you ready to see your career take flight?",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-09",
-      "deadline": null,
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Singapore/Quality-Intern_R5036384-1",
-      "external_id": "R5036384",
-      "verified_at": "2026-11-04T06:34:03Z",
-      "match_score": 85
-    },
-    {
-      "id": "dxc-technology-830f8e3db8de",
-      "source_key": "dxc-technology",
-      "fortune_rank": 343,
-      "fortune_500": true,
-      "company": "DXC Technology",
-      "title": "Network Operation Analyst Level 1 Internship (2026/2027 Intake)",
-      "location": "MYS - PETALING JAYA",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "Operations"
-      ],
-      "summary": "Job Description: DXC Technology is a Fortune 500 global IT services leader. Our more than 130,000 people in 70- plus countries are entrusted by our customers to deliver what matters most. We use the power of technology to deliver mission-critical IT services across the…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-09",
-      "deadline": null,
-      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/Network-Operation-Analyst-Level-1-Internship--2026-Intake-_51580570",
-      "external_id": "51580570",
-      "verified_at": "2026-11-04T06:33:34Z",
-      "match_score": 85
-    },
-    {
-      "id": "dxc-technology-9cb088cc89b6",
-      "source_key": "dxc-technology",
-      "fortune_rank": 343,
-      "fortune_500": true,
-      "company": "DXC Technology",
-      "title": "Network / Infrastructure Engineer Internship (2026 Intake)",
-      "location": "MYS - PETALING JAYA",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Job Description: DXC Technology is a Fortune 500 global IT services leader. Our more than 130,000 people in 70- plus countries are entrusted by our customers to deliver what matters most. We use the power of technology to deliver mission-critical IT services across the…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-09",
-      "deadline": null,
-      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/Network---Infrastructure-Engineer-Internship--2026-Intake-_51580569",
-      "external_id": "51580569",
-      "verified_at": "2026-11-04T06:33:34Z",
-      "match_score": 85
-    },
-    {
-      "id": "dxc-technology-584768e8bddf",
-      "source_key": "dxc-technology",
-      "fortune_rank": 343,
-      "fortune_500": true,
-      "company": "DXC Technology",
-      "title": "Cloud and IT Operation Intern (2026 Intake)",
-      "location": "MYS - PETALING JAYA",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "Excel",
-        "Cloud",
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Job Description: DXC Technology is a Fortune 500 global IT services leader. Our more than 130,000 people in 70- plus countries are entrusted by our customers to deliver what matters most. We use the power of technology to deliver mission-critical IT services across the…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-09",
-      "deadline": null,
-      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/Cloud-and-IT-Operation-Intern--2026-Intake-_51580572",
-      "external_id": "51580572",
-      "verified_at": "2026-11-04T06:33:33Z",
       "match_score": 85
     },
     {
@@ -5531,34 +4812,63 @@
       "match_score": 85
     },
     {
-      "id": "dxc-technology-4b534fe94755",
-      "source_key": "dxc-technology",
-      "fortune_rank": 343,
+      "id": "boeing-766f6eda899f",
+      "source_key": "boeing",
+      "fortune_rank": 47,
       "fortune_500": true,
-      "company": "DXC Technology",
-      "title": "Cybersecurity Intern",
-      "location": "MY012 - Petaling Jaya,Malaysia(MY012)",
-      "region": "Global",
+      "company": "Boeing",
+      "title": "Boeing Summer 2027 Internship Program (Paid) – Security & Fire Operation (S&FO)",
+      "location": "USA - Everett, WA",
+      "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
         "Asset-based lending"
       ],
       "tags": [
-        "AI / ML",
+        "Strategy",
         "Operations",
         "Risk",
         "Accounting"
       ],
-      "summary": "Job Description: DXC Technology (NYSE: DXC) is a leading enterprise technology and innovation partner delivering software, services, and solutions to global enterprises and public sector organizations — helping them harness AI to drive outcomes at a time of exponential change…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-07",
+      "summary": "Boeing Summer 2027 Internship Program (Paid) – Security & Fire Operation (S&FO) Company: Launch your career with Boeing, celebrated by WayUp as a Top 100 Internship Program in the US for 2026! We are seeking motivated, enthusiastic, and innovative students to join our 2027…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "during Summer 2027 Currently an enrolled student attending a college or university with an expected graduation date on or after August 2027 Preferred Qualifications (Desired…",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-08",
+      "deadline": "2026-11-15",
+      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/USA---Everett-WA/Boeing-Summer-2027-Internship-Program--Paid----Security---Fire-Operation--S-FO-_JR2026521717-1",
+      "external_id": "JR2026521717",
+      "verified_at": "2026-11-06T00:21:46Z",
+      "match_score": 90
+    },
+    {
+      "id": "auto-owners-insurance-5d413219704f",
+      "source_key": "auto-owners-insurance",
+      "fortune_rank": 241,
+      "fortune_500": true,
+      "company": "Auto-Owners Insurance",
+      "title": "Business Intelligence Engineering Intern - Summer 2027",
+      "location": "Lansing, MI",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking a motivated…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "line, and have at least two years of coursework completed. Master’s students are also considered if graduation is August 2026 or later. Actuarial studies and exams are…",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-08",
       "deadline": null,
-      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MY012---Petaling-JayaMalaysiaMY012/Cybersecurity-Intern_51590043",
-      "external_id": "51590043",
-      "verified_at": "2026-11-04T06:33:33Z",
-      "match_score": 85
+      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Business-Intelligence-Engineering-Intern---Summer-2027_R_14662",
+      "external_id": "R_14662",
+      "verified_at": "2026-11-06T00:21:22Z",
+      "match_score": 90
     },
     {
       "id": "marvell-technology-b38e52c986e8",
@@ -5798,6 +5108,103 @@
       "match_score": 85
     },
     {
+      "id": "voya-financial-df34a19aba8c",
+      "source_key": "voya-financial",
+      "fortune_rank": 477,
+      "fortune_500": true,
+      "company": "Voya Financial",
+      "title": "Summer 2027 Technology Intern",
+      "location": "United States-Remote",
+      "region": "Remote",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Power BI",
+        "AI / ML"
+      ],
+      "summary": "Together we fight for everyone’s opportunity for a better financial future. We will do this together — with customers, partners and colleagues. We will fight for others, not against: We will stand up for and champion everyone’s access to opportunities",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://godirect.wd5.myworkdayjobs.com/voya_jobs/job/United-States-Remote/Summer-2027-Technology-Intern_JR0033187",
+      "external_id": "JR0033187",
+      "verified_at": "2026-11-06T00:22:37Z",
+      "match_score": 85
+    },
+    {
+      "id": "voya-financial-c2d3342822f7",
+      "source_key": "voya-financial",
+      "fortune_rank": 477,
+      "fortune_500": true,
+      "company": "Voya Financial",
+      "title": "Summer 2027 Finance Intern",
+      "location": "United States-Remote",
+      "region": "Remote",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate finance",
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Tableau",
+        "Power BI",
+        "Operations",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Together we fight for everyone’s opportunity for a better financial future. We will do this together — with customers, partners and colleagues. We will fight for others, not against: We will stand up for and champion everyone’s access to opportunities",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://godirect.wd5.myworkdayjobs.com/voya_jobs/job/United-States-Remote/Summer-2027-Finance-Intern_JR0033183",
+      "external_id": "JR0033183",
+      "verified_at": "2026-11-06T00:22:37Z",
+      "match_score": 85
+    },
+    {
+      "id": "voya-financial-456ce0203c1c",
+      "source_key": "voya-financial",
+      "fortune_rank": 477,
+      "fortune_500": true,
+      "company": "Voya Financial",
+      "title": "Summer 2027 Employee Benefits Intern",
+      "location": "Minneapolis, MN",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Tableau",
+        "Product",
+        "Operations",
+        "Finance",
+        "Credit"
+      ],
+      "summary": "Together we fight for everyone’s opportunity for a better financial future. We will do this together — with customers, partners and colleagues. We will fight for others, not against: We will stand up for and champion everyone’s access to opportunities",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://godirect.wd5.myworkdayjobs.com/voya_jobs/job/Minneapolis-MN/Summer-2027-Employee-Benefits-Intern_JR0033189",
+      "external_id": "JR0033189",
+      "verified_at": "2026-11-06T00:22:37Z",
+      "match_score": 85
+    },
+    {
       "id": "vf-320d38dc4530",
       "source_key": "vf",
       "fortune_rank": 425,
@@ -5939,36 +5346,38 @@
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
       "verified_at": "2026-11-05T18:47:56Z",
-      "match_score": 85
+      "match_score": 85,
+      "source_stale": true
     },
     {
-      "id": "salesforce-68087b8a9a6c",
-      "source_key": "salesforce",
-      "fortune_rank": 114,
+      "id": "securian-financial-group-fb4747c4818f",
+      "source_key": "securian-financial-group",
+      "fortune_rank": 457,
       "fortune_500": true,
-      "company": "Salesforce",
-      "title": "Internship- Sales or Solution Engineering Paths-Copenhagen",
-      "location": "Denmark - Copenhagen",
-      "region": "Global",
+      "company": "Securian Financial Group",
+      "title": "Engineering Internship - Summer 2027",
+      "location": "Saint Paul, MN Campus",
+      "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
-        "Solutions Engineer",
-        "Tech consulting",
-        "Technical Solutions"
+        "Asset-based lending"
       ],
       "tags": [
+        "Python",
+        "SQL",
+        "Cloud",
         "AI / ML",
-        "Product"
+        "Operations"
       ],
-      "summary": "To get the best candidate experience, please consider applying for a maximum of 3 roles within 12 months to ensure you are not duplicating efforts. About Futureforce University Recruiting Our Futureforce University Recruiting program is dedicated to attracting, retaining and…",
+      "summary": "Program Overview An internship with Securian Financial means an opportunity to create meaningful connections with established associates and fellow interns while exploring professional development in your field of study. Our interns are connected to work that matters, helping…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "School enrollment is required, but no graduation year is stated.",
       "freshman_friendly": false,
       "posted_date": "2026-01-30",
       "deadline": null,
-      "url": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/Denmark---Copenhagen/Internship--Sales-or-Solution-Engineering-Paths-Copenhagen_JR335115",
-      "external_id": "JR335115",
-      "verified_at": "2026-11-04T06:34:03Z",
+      "url": "https://hq.wd12.myworkdayjobs.com/Securian_External/job/Saint-Paul-MN-Campus/Engineering-Internship---Summer-2027_R-010892",
+      "external_id": "R-010892",
+      "verified_at": "2026-11-06T00:21:45Z",
       "match_score": 85
     },
     {
@@ -6994,7 +6403,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Supply-Chain-Intern--Summer-2027_115694",
       "external_id": "115694",
-      "verified_at": "2026-11-05T18:47:29Z",
+      "verified_at": "2026-11-06T00:21:04Z",
       "match_score": 85
     },
     {
@@ -7023,7 +6432,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
       "external_id": "115736",
-      "verified_at": "2026-11-05T18:47:31Z",
+      "verified_at": "2026-11-06T00:21:06Z",
       "match_score": 85
     },
     {
@@ -7051,7 +6460,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Quality-Assurance-Intern---Oxnard--CA_115727",
       "external_id": "115727",
-      "verified_at": "2026-11-05T18:47:32Z",
+      "verified_at": "2026-11-06T00:21:06Z",
       "match_score": 85
     },
     {
@@ -7076,7 +6485,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
       "external_id": "115725",
-      "verified_at": "2026-11-05T18:47:31Z",
+      "verified_at": "2026-11-06T00:21:06Z",
       "match_score": 85
     },
     {
@@ -7104,7 +6513,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
       "external_id": "115735",
-      "verified_at": "2026-11-05T18:47:32Z",
+      "verified_at": "2026-11-06T00:21:07Z",
       "match_score": 85
     },
     {
@@ -7131,7 +6540,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sales-Intern--Summer-2027_115803",
       "external_id": "115803",
-      "verified_at": "2026-11-05T18:47:29Z",
+      "verified_at": "2026-11-06T00:21:05Z",
       "match_score": 85
     },
     {
@@ -7158,7 +6567,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
       "external_id": "115698",
-      "verified_at": "2026-11-05T18:47:30Z",
+      "verified_at": "2026-11-06T00:21:05Z",
       "match_score": 85
     },
     {
@@ -7185,7 +6594,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Columbus-GA/Operations-QA-Intern--Summer-2027-Columbus--GA_115774",
       "external_id": "115774",
-      "verified_at": "2026-11-05T18:47:31Z",
+      "verified_at": "2026-11-06T00:21:06Z",
       "match_score": 85
     },
     {
@@ -7212,7 +6621,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Decatur-AL/Operations-QA-Intern--Summer-2027--Decatur--AL_115757",
       "external_id": "115757",
-      "verified_at": "2026-11-05T18:47:31Z",
+      "verified_at": "2026-11-06T00:21:06Z",
       "match_score": 85
     },
     {
@@ -7239,7 +6648,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/New-Orleans-LA/Operations-Engineering-Intern--Summer-2027--Multiple-Locations-_115721",
       "external_id": "115721",
-      "verified_at": "2026-11-05T18:47:31Z",
+      "verified_at": "2026-11-06T00:21:06Z",
       "match_score": 85
     },
     {
@@ -7264,7 +6673,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Microbiology-Intern--Summer-2027_115676",
       "external_id": "115676",
-      "verified_at": "2026-11-05T18:47:29Z",
+      "verified_at": "2026-11-06T00:21:04Z",
       "match_score": 85
     },
     {
@@ -7293,7 +6702,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Information-Services-Intern--Summer-2027_115744",
       "external_id": "115744",
-      "verified_at": "2026-11-05T18:47:30Z",
+      "verified_at": "2026-11-06T00:21:05Z",
       "match_score": 85
     },
     {
@@ -7321,7 +6730,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/McCalla-AL/Human-Resources-Intern--McCalla--AL--Summer-2027_115887",
       "external_id": "115887",
-      "verified_at": "2026-11-05T18:47:31Z",
+      "verified_at": "2026-11-06T00:21:06Z",
       "match_score": 85
     },
     {
@@ -7349,7 +6758,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Emporia-KS/Human-Resources-Intern--Emporia--KS--Summer-2027_115888",
       "external_id": "115888",
-      "verified_at": "2026-11-05T18:47:31Z",
+      "verified_at": "2026-11-06T00:21:06Z",
       "match_score": 85
     },
     {
@@ -7377,7 +6786,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Buffalo-NY/Human-Resources-Intern--Buffalo--NY--Summer-2027_115886",
       "external_id": "115886",
-      "verified_at": "2026-11-05T18:47:31Z",
+      "verified_at": "2026-11-06T00:21:06Z",
       "match_score": 85
     },
     {
@@ -7402,7 +6811,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Human-Resources-Intern--Summer-2027_115918",
       "external_id": "115918",
-      "verified_at": "2026-11-05T18:47:30Z",
+      "verified_at": "2026-11-06T00:21:05Z",
       "match_score": 85
     },
     {
@@ -7435,7 +6844,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Summer-2027_115743",
       "external_id": "115743",
-      "verified_at": "2026-11-05T18:47:30Z",
+      "verified_at": "2026-11-06T00:21:05Z",
       "match_score": 85
     },
     {
@@ -7468,7 +6877,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-11-05T18:47:29Z",
+      "verified_at": "2026-11-06T00:21:04Z",
       "match_score": 85
     },
     {
@@ -7493,7 +6902,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Corporate-Communications-Intern--Summer-2027_115919",
       "external_id": "115919",
-      "verified_at": "2026-11-05T18:47:30Z",
+      "verified_at": "2026-11-06T00:21:05Z",
       "match_score": 85
     },
     {
@@ -7519,7 +6928,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Category-Leadership-Intern--Summer-2027_115804",
       "external_id": "115804",
-      "verified_at": "2026-11-05T18:47:30Z",
+      "verified_at": "2026-11-06T00:21:05Z",
       "match_score": 85
     },
     {
@@ -7546,7 +6955,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Analytical-Lab-Intern--Summer-2027_115678",
       "external_id": "115678",
-      "verified_at": "2026-11-05T18:47:30Z",
+      "verified_at": "2026-11-06T00:21:05Z",
       "match_score": 85
     },
     {
@@ -7835,751 +7244,6 @@
       "match_score": 85
     },
     {
-      "id": "ge-aerospace-6b6bf721a41e",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Unison Engineering Intern - Summer 2027",
-      "location": "Jacksonville",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Jacksonville/Unison-Engineering-Intern---Summer-2027_R5037097",
-      "external_id": "R5037097",
-      "verified_at": "2026-11-04T06:34:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-4957c939c3fd",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Unison Engineering Intern - Spring 2027",
-      "location": "Jacksonville",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Jacksonville/Unison-Engineering-Intern---Spring-2027_R5037093-1",
-      "external_id": "R5037093",
-      "verified_at": "2026-11-04T06:34:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-ca3641521669",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Unison Engineering Intern - Fall 2027",
-      "location": "Jacksonville",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Jacksonville/Unison-Engineering-Intern---Fall-2027_R5037092-1",
-      "external_id": "R5037092",
-      "verified_at": "2026-11-04T06:34:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-c124af5dcec8",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Systems Engineering Intern - Mechanical/Aerospace Engineering (Electric Power) - US - Summer 2027",
-      "location": "Dayton",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Intern---Mechanical-Aerospace-Engineering--Electric-Power----US---Summer-2027_R5030140-1",
-      "external_id": "R5030140",
-      "verified_at": "2026-11-04T06:34:35Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-25a6cd8c3d6d",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Systems Engineering Intern - Electrical Engineering & Computer Engineering/Science (Electric Power) - US - Summer 2027",
-      "location": "Dayton",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Intern---Electrical-Engineering---Computer-Engineering-Science--Electric-Power----US---Summer-2027_R5030137-1",
-      "external_id": "R5030137",
-      "verified_at": "2026-11-04T06:34:36Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-7cd239573ecd",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Systems Engineering Intern - Electrical Engineering & Computer Engineering/Science (Avionics) - US - Summer 2027",
-      "location": "Grand Rapids",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Grand-Rapids/Systems-Engineering-Intern---Electrical-Engineering---Computer-Engineering-Science--Avionics----US---Summer-2027_R5030118-1",
-      "external_id": "R5030118",
-      "verified_at": "2026-11-04T06:34:34Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-6f33ee7b6a92",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Systems Engineering Co-op - Mechanical/Aerospace Engineering (Electric Power) - US - Spring 2027",
-      "location": "Dayton",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Mechanical-Aerospace-Engineering--Electric-Power----US---Spring-2027_R5030103-1",
-      "external_id": "R5030103",
-      "verified_at": "2026-11-04T06:34:35Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-9ff0148daff0",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Systems Engineering Co-op - Mechanical/Aerospace Engineering (Electric Power) - US - Fall 2027",
-      "location": "Dayton",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Dayton/Systems-Engineering-Co-op---Mechanical-Aerospace-Engineering--Electric-Power----US---Fall-2027_R5030145-1",
-      "external_id": "R5030145",
-      "verified_at": "2026-11-04T06:34:34Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-6e78a591adbc",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Systems Engineering Co-op - Electrical Engineering & Computer Engineering/Science (Avionics) - US - Spring 2027",
-      "location": "Grand Rapids",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Grand-Rapids/Systems-Engineering-Co-op---Electrical-Engineering---Computer-Engineering-Science--Avionics----US---Spring-2027_R5030096-2",
-      "external_id": "R5030096",
-      "verified_at": "2026-11-04T06:34:34Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-e9065ce439c5",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Supply Chain Operations Intern – US – Summer 2027",
-      "location": "Evendale",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "FP&A",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "FP&A",
-        "Risk"
-      ],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Supply-Chain-Operations-Intern---US---Summer-2027_R5029660-1",
-      "external_id": "R5029660",
-      "verified_at": "2026-11-04T06:34:05Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-5bda700b68b0",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Supply Chain Operations Co-op – US – Spring 2027",
-      "location": "Evendale",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Operations analyst",
-        "FP&A",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "FP&A",
-        "Risk"
-      ],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Supply-Chain-Operations-Co-op---US---Spring-2027_R5029665-1",
-      "external_id": "R5029665",
-      "verified_at": "2026-11-04T06:34:05Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-9c56f34f0a4e",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Supply Chain Operations Co-op – US – Fall 2027",
-      "location": "Evendale",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Operations analyst",
-        "FP&A",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "FP&A",
-        "Risk"
-      ],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Supply-Chain-Operations-Co-op---US---Fall-2027_R5029666-2",
-      "external_id": "R5029666",
-      "verified_at": "2026-11-04T06:34:05Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-631720676488",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Military DoD SkillBridge Internship - Test Technician Level 2 – On Wing Support",
-      "location": "Pittsburgh",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Description Summary The Military DoD SkillBridge program is an opportunity for Service members to gain valuable civilian work experience through specific industry training, apprenticeships, or internships during the last 180 days of service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Pittsburgh/Military-DoD-SkillBridge-Internship---Test-Technician-Level-2---On-Wing-Support_R5040996-1",
-      "external_id": "R5040996",
-      "verified_at": "2026-11-04T06:34:03Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-4038322323e5",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Military DoD SkillBridge Internship - Structure Parts Operations Supervisor (1st Shift)",
-      "location": "Springdale",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Job Description Summary The Military DoD SkillBridge program is an opportunity for Service members to gain valuable civilian work experience through specific industry training, apprenticeships, or internships during the last 180 days of service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Springdale/Military-DoD-SkillBridge-Internship---Structure-Parts-Operations-Supervisor--1st-Shift-_R5040965-1",
-      "external_id": "R5040965",
-      "verified_at": "2026-11-04T06:34:04Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-6bcbc5dade25",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Military DoD SkillBridge Internship - Maintenance Technician",
-      "location": "Pittsburgh",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "FP&A",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Job Description Summary The Military DoD SkillBridge program is an opportunity for Service members to gain valuable civilian work experience through specific industry training, apprenticeships, or internships during the last 180 days of service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Pittsburgh/Military-DoD-SkillBridge-Internship---Maintenance-Technician_R5040995-1",
-      "external_id": "R5040995",
-      "verified_at": "2026-11-04T06:34:03Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-4afabe987465",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Manufacturing Engineering Intern – US – Summer 2027",
-      "location": "Evendale",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Manufacturing-Engineering-Intern---US---Summer-2027_R5029659",
-      "external_id": "R5029659",
-      "verified_at": "2026-11-04T06:34:05Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-3bbd7cac0e8d",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Manufacturing Engineering Co-op – US – Spring 2027",
-      "location": "Evendale",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Manufacturing-Engineering-Co-op---US---Spring-2027_R5029663",
-      "external_id": "R5029663",
-      "verified_at": "2026-11-04T06:34:05Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-1296234c975b",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Manufacturing Engineering Co-op – US – Fall 2027",
-      "location": "Evendale",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Manufacturing-Engineering-Co-op---US---Fall-2027_R5029664-1",
-      "external_id": "R5029664",
-      "verified_at": "2026-11-04T06:34:05Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-ba8251f41510",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Finance Co-op – US – Spring 2027",
-      "location": "Evendale",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "FP&A",
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations",
-        "Finance",
-        "FP&A",
-        "Accounting"
-      ],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "we serve Willingness to relocate to headquarters in Cincinnati, Ohio Qualifications/Requirements: Graduation date between August 2027 and May/June 2029 Attending a full-time…",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Finance-Co-op---US---Spring-2027_R5030146-2",
-      "external_id": "R5030146",
-      "verified_at": "2026-11-04T06:34:04Z",
-      "match_score": 90
-    },
-    {
-      "id": "ge-aerospace-ec0dc07c0060",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Environmental/Health/Safety, Facilities, & Maintenance Intern – US – Summer 2027",
-      "location": "Evendale",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Risk"
-      ],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Environmental-Health-Safety--Facilities----Maintenance-Intern---US---Summer-2027_R5029661",
-      "external_id": "R5029661",
-      "verified_at": "2026-11-04T06:34:04Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-a7b2163fb131",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Environmental/Health/Safety, Facilities, & Maintenance Co-op – US – Spring 2027",
-      "location": "Evendale",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Risk"
-      ],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Environmental-Health-Safety--Facilities----Maintenance-Co-op---US---Spring-2027_R5029667-1",
-      "external_id": "R5029667",
-      "verified_at": "2026-11-04T06:34:04Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-301a8471d826",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Environmental/Health/Safety, Facilities, & Maintenance Co-op – US – Fall 2027",
-      "location": "Evendale",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Risk"
-      ],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Environmental-Health-Safety--Facilities----Maintenance-Co-op---US---Fall-2027_R5029668-1",
-      "external_id": "R5029668",
-      "verified_at": "2026-11-04T06:34:04Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-52238edb35f1",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Engines Engineering MBSE Intern - Summer 2027",
-      "location": "Evendale",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2027-10-09",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Engines-Engineering-MBSE-Intern---Summer-2027_R5034811",
-      "external_id": "R5034811",
-      "verified_at": "2026-11-04T06:34:33Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-a475f82d7785",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Engines Engineering Intern – US – Summer 2027",
-      "location": "Evendale",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Engines-Engineering-Intern---US---Summer-2027_R5029621-1",
-      "external_id": "R5029621",
-      "verified_at": "2026-11-04T06:34:34Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-4bf376c1340e",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Engines Engineering Co-op – US – Fall 2027",
-      "location": "Evendale",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "r Lynn, MA. Reliable transportation, many of our sites do not have public transportation available. Graduation date on or after July 2028. Eligibility Requirements: Any…",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Engines-Engineering-Co-op---US---Fall-2027_R5029625-1",
-      "external_id": "R5029625",
-      "verified_at": "2026-11-04T06:34:33Z",
-      "match_score": 90
-    },
-    {
-      "id": "ge-aerospace-0fafc425f00a",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Edison Works Engineering Intern - US - Signature Design & Test - Summer 2027",
-      "location": "Evendale",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Edison-Works-Engineering-Intern---US---Signature-Design---Test---Summer-2027_R5038789-1",
-      "external_id": "R5038789",
-      "verified_at": "2026-11-04T06:34:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "ge-aerospace-21fcb171037f",
-      "source_key": "ge-aerospace",
-      "fortune_rank": 101,
-      "fortune_500": true,
-      "company": "GE Aerospace",
-      "title": "Edison Works Engineering Intern - Aero Design - US - Summer 2027",
-      "location": "Evendale",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Job Description Summary Are you ready to see your future take flight? At GE Aerospace, we believe the world works better when it flies. We are a world-leading provider of jet engines, components, and integrated systems for commercial and military aircraft",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": "2026-11-06",
-      "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Evendale/Edison-Works-Engineering-Intern---Aero-Design---US---Summer-2027_R5038737",
-      "external_id": "R5038737",
-      "verified_at": "2026-11-04T06:34:25Z",
-      "match_score": 85
-    },
-    {
       "id": "elevance-health-38bf1bac479c",
       "source_key": "elevance-health",
       "fortune_rank": 18,
@@ -8637,337 +7301,6 @@
       "url": "https://elevancehealth.wd1.myworkdayjobs.com/ANT/job/IN-INDIANAPOLIS-220-VIRGINIA-AVE/Information-Security-Co-Op-Internship---2027_JR205939",
       "external_id": "JR205939",
       "verified_at": "2026-11-05T11:01:57Z",
-      "match_score": 85
-    },
-    {
-      "id": "dxc-technology-aff2ed093301",
-      "source_key": "dxc-technology",
-      "fortune_rank": 343,
-      "fortune_500": true,
-      "company": "DXC Technology",
-      "title": "Technical Intern",
-      "location": "CHN - DALIAN",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Risk"
-      ],
-      "summary": "Job Description: Essential Job Functions: • Perform quality control tasks, including inspections and testing, to ensure product compliance with established standards. • Assist in maintaining quality standards and documentation. • Collaborate with cross-functional teams to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/CHN---DALIAN/Technical-Intern_51589633",
-      "external_id": "51589633",
-      "verified_at": "2026-11-04T06:33:33Z",
-      "match_score": 85
-    },
-    {
-      "id": "dxc-technology-88ede7e68b54",
-      "source_key": "dxc-technology",
-      "fortune_rank": 343,
-      "fortune_500": true,
-      "company": "DXC Technology",
-      "title": "Technical Intern",
-      "location": "CHN - DALIAN",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Risk"
-      ],
-      "summary": "Job Description: Essential Job Functions: • Perform quality control tasks, including inspections and testing, to ensure product compliance with established standards. • Assist in maintaining quality standards and documentation. • Collaborate with cross-functional teams to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/CHN---DALIAN/Technical-Intern_51589634",
-      "external_id": "51589634",
-      "verified_at": "2026-11-04T06:33:33Z",
-      "match_score": 85
-    },
-    {
-      "id": "dxc-technology-6856e605f97a",
-      "source_key": "dxc-technology",
-      "fortune_rank": 343,
-      "fortune_500": true,
-      "company": "DXC Technology",
-      "title": "Technical Intern",
-      "location": "CHN - DALIAN",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Risk"
-      ],
-      "summary": "Job Description: Essential Job Functions: • Perform quality control tasks, including inspections and testing, to ensure product compliance with established standards. • Assist in maintaining quality standards and documentation. • Collaborate with cross-functional teams to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/CHN---DALIAN/Technical-Intern_51589631",
-      "external_id": "51589631",
-      "verified_at": "2026-11-04T06:33:33Z",
-      "match_score": 85
-    },
-    {
-      "id": "dxc-technology-fb7a2ac93a0c",
-      "source_key": "dxc-technology",
-      "fortune_rank": 343,
-      "fortune_500": true,
-      "company": "DXC Technology",
-      "title": "ServiceDesk Intern",
-      "location": "SGP - SINGAPORE",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Job Description: DXC Technology (NYSE: DXC) is a leading enterprise technology and innovation partner delivering software, services, and solutions to global enterprises and public sector organizations — helping them harness AI to drive outcomes at a time of exponential change…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/SGP---SINGAPORE/ServiceDesk-Intern_51587333",
-      "external_id": "51587333",
-      "verified_at": "2026-11-04T06:33:33Z",
-      "match_score": 85
-    },
-    {
-      "id": "dxc-technology-0a4c468ba4f2",
-      "source_key": "dxc-technology",
-      "fortune_rank": 343,
-      "fortune_500": true,
-      "company": "DXC Technology",
-      "title": "RR-0393497 Service Desk Intern-19",
-      "location": "SGP - SINGAPORE",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Job Description: Profile: The ideal candidate has previous experience in effectively coping with a fast-paced, high-pressure role in a constantly changing business environment. He/she will be strongly team-focused and have proven communication skills",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/SGP---SINGAPORE/RR-0393497-Service-Desk-Intern-19_51583322",
-      "external_id": "51583322",
-      "verified_at": "2026-11-04T06:33:33Z",
-      "match_score": 85
-    },
-    {
-      "id": "dxc-technology-abd080b11213",
-      "source_key": "dxc-technology",
-      "fortune_rank": 343,
-      "fortune_500": true,
-      "company": "DXC Technology",
-      "title": "IT Support Internship (2026 Intake)",
-      "location": "MYS - PETALING JAYA",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Job Description: DXC Technology is a Fortune 500 global IT services leader. Our more than 130,000 people in 70- plus countries are entrusted by our customers to deliver what matters most. We use the power of technology to deliver mission-critical IT services across the…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/IT-Support-Internship--2026-Intake-_51580567",
-      "external_id": "51580567",
-      "verified_at": "2026-11-04T06:33:34Z",
-      "match_score": 85
-    },
-    {
-      "id": "dxc-technology-ed9b246e3f87",
-      "source_key": "dxc-technology",
-      "fortune_rank": 343,
-      "fortune_500": true,
-      "company": "DXC Technology",
-      "title": "IT Intern",
-      "location": "MYS - PETALING JAYA",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "IT analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "Power BI",
-        "AI / ML"
-      ],
-      "summary": "Job Description: Job Description for IT Intern DXC Technology is a Fortune 500 global IT services leader. Our more than 130,000 people in 70- plus countries are entrusted by our customers to deliver what matters most. We use the power of technology to deliver mission-critical…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/IT-Intern_51580573",
-      "external_id": "51580573",
-      "verified_at": "2026-11-04T06:33:33Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-be0c31721ba1",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Production Line Operator Intern",
-      "location": "Nuevo León",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Production-Line-Operator-Intern_JR101884",
-      "external_id": "JR101884",
-      "verified_at": "2026-11-04T06:33:40Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-756154fbc9f5",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Plant Administration Intern",
-      "location": "Meoqui",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Meoqui/Plant-Administration-Intern_JR103867",
-      "external_id": "JR103867",
-      "verified_at": "2026-11-04T06:33:39Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-da501655176b",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Plant Administration Intern",
-      "location": "Meoqui",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Meoqui/Plant-Administration-Intern_JR103865",
-      "external_id": "JR103865",
-      "verified_at": "2026-11-04T06:33:40Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-953c10bbda88",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Finance Procurement Intern",
-      "location": "Nuevo León",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Power BI",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Finance-Procurement-Intern_JR103801",
-      "external_id": "JR103801",
-      "verified_at": "2026-11-04T06:33:40Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-f8ccb9e8b595",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Commercial Intern",
-      "location": "Nuevo León",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Commercial-Intern_JR102918",
-      "external_id": "JR102918",
-      "verified_at": "2026-11-04T06:33:40Z",
       "match_score": 85
     },
     {
@@ -9761,6 +8094,84 @@
       "match_score": 85
     },
     {
+      "id": "auto-owners-insurance-a69577721c72",
+      "source_key": "auto-owners-insurance",
+      "fortune_rank": 241,
+      "fortune_500": true,
+      "company": "Auto-Owners Insurance",
+      "title": "IT Document Automation Developer Internship - Summer 2027",
+      "location": "Lansing, MI",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking a motivated…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/IT-Document-Automation-Developer-Internship---Summer-2027_R_14471",
+      "external_id": "R_14471",
+      "verified_at": "2026-11-06T00:21:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "auto-owners-insurance-985d62a77fcc",
+      "source_key": "auto-owners-insurance",
+      "fortune_rank": 241,
+      "fortune_500": true,
+      "company": "Auto-Owners Insurance",
+      "title": "Data Engineering Internship - Summer 2027",
+      "location": "Lansing, MI",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking a motivated…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "line, and have at least two years of coursework completed. Master’s students are also considered if graduation is August 2027 or later. Successful completion of actuarial…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Data-Engineering-Internship---Summer-2026_R_12318",
+      "external_id": "R_12318",
+      "verified_at": "2026-11-06T00:21:26Z",
+      "match_score": 90
+    },
+    {
+      "id": "auto-owners-insurance-6136965e2b0b",
+      "source_key": "auto-owners-insurance",
+      "fortune_rank": 241,
+      "fortune_500": true,
+      "company": "Auto-Owners Insurance",
+      "title": "Business/Quality Analyst Internship - Summer 2027",
+      "location": "Lansing, MI",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking motivated…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Business-Quality-Analyst-Internship---Summer-2027_R_14407",
+      "external_id": "R_14407",
+      "verified_at": "2026-11-06T00:21:25Z",
+      "match_score": 85
+    },
+    {
       "id": "andersons-77f55b7c6530",
       "source_key": "andersons",
       "fortune_rank": 397,
@@ -10387,6 +8798,60 @@
       "match_score": 85
     },
     {
+      "id": "steel-dynamics-e24157b42c67",
+      "source_key": "steel-dynamics",
+      "fortune_rank": 244,
+      "fortune_500": true,
+      "company": "Steel Dynamics",
+      "title": "Maintenance Mechanic Apprenticeship",
+      "location": "Division/Location: Great Lakes Division - Detroit Ave.",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Department: Maintenance - Shredder or Yard Work Schedule: 6:00AM - 4:00PM (Weekends as needed) Reports to: Craig Munger Pay Grade: Hourly Date Posted: October 30, 2026 Brief Description: Performing preventive and corrective maintenance on both stationery and mobile equipment",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.steeldynamics.com/jobs/maintenance-mechanic-apprenticeship/",
+      "external_id": null,
+      "verified_at": "2026-11-06T00:21:07Z",
+      "match_score": 85
+    },
+    {
+      "id": "steel-dynamics-b535eda4b2bc",
+      "source_key": "steel-dynamics",
+      "fortune_rank": 244,
+      "fortune_500": true,
+      "company": "Steel Dynamics",
+      "title": "Maintenance Apprentice",
+      "location": "Division/Location: Non-Ferrous Division",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "At the conclusion of the program, the apprentice will have completed the requirements and receive a Technical Certificate in Industrial Technology and demonstrated on-the-job training experience. o Complete necessary paperwork and effective communication • The apprenticeship…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.steeldynamics.com/jobs/maintenance-apprentice-4/",
+      "external_id": null,
+      "verified_at": "2026-11-06T00:21:07Z",
+      "match_score": 85
+    },
+    {
       "id": "mosaic-ce363fc3131b",
       "source_key": "mosaic",
       "fortune_rank": 366,
@@ -10473,36 +8938,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-11-05T18:46:48Z",
-      "match_score": 85
-    },
-    {
-      "id": "micron-technology-9ccca65e5d82",
-      "source_key": "micron-technology",
-      "fortune_rank": 125,
-      "fortune_500": true,
-      "company": "Micron Technology",
-      "title": "Micron's registered apprenticeship program",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "AI / ML",
-        "Product"
-      ],
-      "summary": "close close close close Sign in / Register Welcome to Micron.com, please Log in or Register an account to continue. Enter your email address check_circle_two_tone Please enter a valid email address Restricted email domain. Please enter your registered work email address",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.micron.com/about/careers/apprenticeship",
-      "external_id": null,
-      "verified_at": "2026-11-04T06:31:59Z",
+      "verified_at": "2026-11-06T00:20:25Z",
       "match_score": 85
     },
     {
@@ -10533,35 +8969,7 @@
       "deadline": null,
       "url": "https://careers.massmutual.com/job/windsor-locks/corporate-aviation-summer-2027-internship/724/102794641344",
       "external_id": null,
-      "verified_at": "2026-11-05T18:46:47Z",
-      "match_score": 85
-    },
-    {
-      "id": "huntington-ingalls-industries-70decc5f8728",
-      "source_key": "huntington-ingalls-industries",
-      "fortune_rank": 352,
-      "fortune_500": true,
-      "company": "Huntington Ingalls Industries",
-      "title": "Ingalls Apprentice School",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Credit"
-      ],
-      "summary": "Ingalls Apprentice School Since 1952, the Ingalls Apprentice School has produced more than 4,000 graduates in support of Ingalls Shipbuilding's operational needs About the Program The apprentice school program involves comprehensive three- to four-year curriculum for students…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://hii.com/careers/ingalls-apprentice-school",
-      "external_id": null,
-      "verified_at": "2026-11-04T06:33:00Z",
+      "verified_at": "2026-11-06T00:20:25Z",
       "match_score": 85
     },
     {
@@ -10949,6 +9357,36 @@
       "url": "https://www.hormelfoods.com/ask-and-answer/food-safety-quality-internship/",
       "external_id": null,
       "verified_at": "2026-11-04T15:28:54Z",
+      "match_score": 85
+    },
+    {
+      "id": "goodyear-tire-rubber-30bda25ae03d",
+      "source_key": "goodyear-tire-rubber",
+      "fortune_rank": 239,
+      "fortune_500": true,
+      "company": "Goodyear Tire & Rubber",
+      "title": "11,000+ Intern Jobs in United States",
+      "location": "Clear text",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Product management",
+        "Operations analyst"
+      ],
+      "tags": [
+        "Product",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "Get notified when a new job is posted. Set alert Sign in to set job alerts for “Intern” roles. Email or phone Password Show Forgot password? Sign in Sign in with Email or New to LinkedIn? Join now By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement ,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.linkedin.com/jobs/intern-jobs",
+      "external_id": null,
+      "verified_at": "2026-11-06T00:21:40Z",
       "match_score": 85
     },
     {
@@ -11367,6 +9805,320 @@
       "match_score": 85
     },
     {
+      "id": "boeing-bba324d8f147",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Đoàn Sĩ Anh | Retrofit Engineering Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Đoàn Sĩ Anh | Retrofit Engineering Intern Published Sept. 26, 2024 Business Unit: Engineering Location: Ho Chi Minh, Vietnam University: TU Delft Degree Program: Aerospace Engineering What is your role…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/meet-Doan",
+      "external_id": null,
+      "verified_at": "2026-11-06T00:22:32Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-1f189a7c918c",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Niyathi Gorantla | Sustainability Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Niyathi Gorantla | Sustainability Intern Published Aug. 20, 2024 Business Unit: Corporate Location: Chicago University: Duke University Degree Program: B.S. in Computer Science What is your role at Boeing?",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "Learn more Shop‑floor wisdom, family support fuels new Boeing engineer After years on the 737 line, graduate brings hands‑on experience to engineering. Learn more Learn more…",
+      "freshman_friendly": true,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/NiyathiGorantla",
+      "external_id": null,
+      "verified_at": "2026-11-06T00:22:30Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-fb5e2f819966",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Mya Beathley | Engineering Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Mya Beathley | Engineering Intern Published Aug. 20, 2024 Business Unit: Boeing Defense, Space & Security Location: Oklahoma City University: University of Southern California Degree Program: B.S",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/MyaBeathley",
+      "external_id": null,
+      "verified_at": "2026-11-06T00:22:30Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-aa00c3ee8d66",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Meet Abbey Carlson: Former Intern Turned Space and Launch Engineer",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Meet Abbey Carlson: Former Intern Turned Space and Launch Engineer Published April 16, 2021 While 2020 was an unusual year for everyone, with many life events put on pause or canceled, Abbey Carlson was…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "Learn more Shop‑floor wisdom, family support fuels new Boeing engineer After years on the 737 line, graduate brings hands‑on experience to engineering. Learn more Learn more…",
+      "freshman_friendly": true,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/Meet-Abbey-Carlson",
+      "external_id": null,
+      "verified_at": "2026-11-06T00:22:29Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-3bbefc4598f8",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Eva Strang | Strategy Analyst Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Eva Strang | Strategy Analyst Intern Published Aug. 20, 2024 Business Unit: Boeing Global, Ventures and Innovation Location: London University: University of Strathclyde Degree Program: B.A",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "Learn more Shop‑floor wisdom, family support fuels new Boeing engineer After years on the 737 line, graduate brings hands‑on experience to engineering. Learn more Learn more…",
+      "freshman_friendly": true,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/EvaStrang",
+      "external_id": null,
+      "verified_at": "2026-11-06T00:22:30Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-eb83478639e0",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Elisa Rwagasana Ishimwe | Information Technology and Data Analytics Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Elisa Rwagasana Ishimwe | Information Technology and Data Analytics Intern Published Aug. 20, 2024 Business Unit: Corporate Location: Kent, Wash. University: College of Wooster Degree Program: B.A",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "Learn more Shop‑floor wisdom, family support fuels new Boeing engineer After years on the 737 line, graduate brings hands‑on experience to engineering. Learn more Learn more…",
+      "freshman_friendly": true,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/ElisaRwagasanaIshimwe",
+      "external_id": null,
+      "verified_at": "2026-11-06T00:22:30Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-22e159d099e9",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Boeing Technical Apprenticeship Program (BTAP)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Boeing Technical Apprenticeship Program (BTAP) Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Boeing Technical Apprenticeship Program (BTAP) The digital revolution has introduced new demands for technical skills across the aerospace industry, and the…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/BTAP",
+      "external_id": null,
+      "verified_at": "2026-11-06T00:22:28Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-fe9864b7a9cf",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Atira Sarat | Sustainability Innovation Research Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Atira Sarat | Sustainability Innovation Research Intern Published Sept. 26, 2024 Business Unit: Commercial Airplanes Digital Product Development Location: Singapore University: National University of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/meet-Atira",
+      "external_id": null,
+      "verified_at": "2026-11-06T00:22:31Z",
+      "match_score": 85
+    },
+    {
+      "id": "boeing-d3fc1e29e260",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Adrian Sosa | Structures Design Engineer Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Adrian Sosa | Structures Design Engineer Intern Published Aug. 20, 2024 Business Unit: Boeing Commercial Airplanes Location: Everett, Wash. University: University of Puerto Rico at Mayagüez Degree…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "Learn more Shop‑floor wisdom, family support fuels new Boeing engineer After years on the 737 line, graduate brings hands‑on experience to engineering. Learn more Learn more…",
+      "freshman_friendly": true,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/AdrianSosa",
+      "external_id": null,
+      "verified_at": "2026-11-06T00:22:29Z",
+      "match_score": 90
+    },
+    {
+      "id": "boeing-1a2b13c2711c",
+      "source_key": "boeing",
+      "fortune_rank": 47,
+      "fortune_500": true,
+      "company": "Boeing",
+      "title": "Adrian Loekman | Airplane Maintenance Engineering Intern",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Adrian Loekman | Airplane Maintenance Engineering Intern Published Sept. 26, 2024 Business Unit: Airplane Maintenance Engineering Location: Jakarta, Indonesia & Seal Beach, California University: UCLA…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://jobs.boeing.com/meet-AdrianL",
+      "external_id": null,
+      "verified_at": "2026-11-06T00:22:31Z",
+      "match_score": 85
+    },
+    {
       "id": "avery-dennison-4c9323a46392",
       "source_key": "avery-dennison",
       "fortune_rank": 448,
@@ -11394,12 +10146,12 @@
       "match_score": 85
     },
     {
-      "id": "airbnb-ffbd3d16c91e",
-      "source_key": "airbnb",
-      "fortune_rank": 357,
+      "id": "auto-owners-insurance-9fc16ab9ccee",
+      "source_key": "auto-owners-insurance",
+      "fortune_rank": 241,
       "fortune_500": true,
-      "company": "Airbnb",
-      "title": "Internship Programs",
+      "company": "Auto-Owners Insurance",
+      "title": "Internship",
       "location": "Location not listed",
       "region": "Global",
       "opportunity_type": "Internship",
@@ -11407,46 +10159,18 @@
         "Asset-based lending"
       ],
       "tags": [
-        "Product",
-        "Operations",
-        "Finance"
+        "Credit",
+        "Accounting"
       ],
-      "summary": "Interns Featuring a mix of mentorship, fun, and challenge, our internships are designed to accelerate your learning curve as you make a real impact on our product. What to Expect Onboarding experience to get you familiar with Airbnb and your new team, and set you up for success",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://careers.airbnb.com/internship-programs/",
-      "external_id": null,
-      "verified_at": "2026-11-04T06:33:15Z",
-      "match_score": 85
-    },
-    {
-      "id": "airbnb-d1fc1ff6677b",
-      "source_key": "airbnb",
-      "fortune_rank": 357,
-      "fortune_500": true,
-      "company": "Airbnb",
-      "title": "Connect Engineering Apprenticeship",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud"
-      ],
-      "summary": "What it’s about The Connect Engineering Apprenticeship Program bridges the opportunity gap for entry-level engineering candidates. Candidates from underrepresented backgrounds and unconventional paths are encouraged to apply. Engineering apprentices gain invaluable exposure to…",
+      "summary": "Sign up Find an Agent Sign In Search Internship Internship Home Career Opportunities Internship No prior insurance experience or knowledge? Interning with us can open your eyes to all the insurance industry offers! Our associates contribute their diverse talents to help people…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
+      "freshman_friendly": true,
       "posted_date": null,
       "deadline": null,
-      "url": "https://careers.airbnb.com/connect-engineering-apprenticeship/",
+      "url": "https://www.auto-owners.com/about/career-opportunities/internship",
       "external_id": null,
-      "verified_at": "2026-11-04T06:33:15Z",
+      "verified_at": "2026-11-06T00:21:26Z",
       "match_score": 85
     }
   ]
