@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07T18:53:02Z",
+  "updated_at": "2026-11-07T22:51:15Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -11,7 +11,7 @@
   "directory_warnings": [
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-11-07T18:49:27Z",
+  "directory_refreshed_at": "2026-11-07T22:47:09Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 218,
   "companies_failed_last_24h": 16,
@@ -93,19 +93,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Expecting value: line 1 column 1 (char 0)"
-    },
-    {
-      "key": "ferguson-enterprises",
-      "rank": 147,
-      "company": "Ferguson Enterprises",
-      "fortune_500": true,
-      "checked_at": "2026-11-06T20:59:52Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
     },
     {
       "key": "franklin-templeton",
@@ -212,6 +199,19 @@
       "error": "Expecting value: line 1 column 1 (char 0)"
     },
     {
+      "key": "ups",
+      "rank": 48,
+      "company": "UPS",
+      "fortune_500": true,
+      "checked_at": "2026-11-07T22:51:15Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
       "key": "visa",
       "rank": 119,
       "company": "Visa",
@@ -225,9 +225,9 @@
       "error": "Expecting value: line 1 column 1 (char 0)"
     }
   ],
-  "companies_with_eligible_jobs": 47,
+  "companies_with_eligible_jobs": 56,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 478,
+  "opportunity_count": 539,
   "opportunities": [
     {
       "id": "booz-allen-hamilton-holding-460e29d7f33f",
@@ -487,6 +487,34 @@
       "match_score": 85
     },
     {
+      "id": "sonoco-products-39a568d639ca",
+      "source_key": "sonoco-products",
+      "fortune_rank": 489,
+      "fortune_500": true,
+      "company": "Sonoco Products",
+      "title": "Intern - Supply Chain",
+      "location": "Hartsville, SC, USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "From a small family business to a multi-billion-dollar global company, Sonoco has been changing the face of products and packaging since 1899 — all while keeping the heart of “People Build Businesses” alive. Our talented people are at the core of our growth, constantly…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-06",
+      "deadline": null,
+      "url": "https://sonoco.wd1.myworkdayjobs.com/CorporateCareers/job/Hartsville-SC-USA/Intern---Supply-Chain_JR-161400",
+      "external_id": "JR-161400",
+      "verified_at": "2026-11-07T22:50:01Z",
+      "match_score": 85
+    },
+    {
       "id": "salesforce-5ec36d72c3b9",
       "source_key": "salesforce",
       "fortune_rank": 114,
@@ -711,6 +739,61 @@
       "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/CHN---DALIAN/Techinical-Intern_51589625",
       "external_id": "51589625",
       "verified_at": "2026-11-07T14:07:41Z",
+      "match_score": 85
+    },
+    {
+      "id": "carrier-global-37ac50c87275",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
+      "fortune_500": true,
+      "company": "Carrier Global",
+      "title": "Systems Engineering Intern - Summer",
+      "location": "CAG01: CTD-Athens, 700 Olympic Drive, Athens, GA, 30601 USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Product management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-06",
+      "deadline": "2026-12-04",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAG01-CTD-Athens-700-Olympic-Drive-Athens-GA-30601-USA/Systems-Engineering-Intern---Summer_30220566",
+      "external_id": "30220566",
+      "verified_at": "2026-11-07T22:48:56Z",
+      "match_score": 85
+    },
+    {
+      "id": "carrier-global-c760a52d3a38",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
+      "fortune_500": true,
+      "company": "Carrier Global",
+      "title": "Inside Sales Intern - Summer (Automated Logic)",
+      "location": "CAN79: Clifton, 100 Delawanna Avenue, Clifton, NJ, 07014 USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-06",
+      "deadline": "2026-12-04",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAN79-Clifton-100-Delawanna-Avenue-Clifton-NJ-07014-USA/Inside-Sales-Intern---Summer_30219798",
+      "external_id": "30219798",
+      "verified_at": "2026-11-07T22:48:57Z",
       "match_score": 85
     },
     {
@@ -1389,6 +1472,34 @@
       "match_score": 85
     },
     {
+      "id": "andersons-afad381b7350",
+      "source_key": "andersons",
+      "fortune_rank": 397,
+      "fortune_500": true,
+      "company": "Andersons",
+      "title": "Customer Service Intern (Spring 2027)",
+      "location": "Maumee, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "As a North American leader in agribusiness and renewable fuels, The Andersons operates in a unique space, bringing together agriculture, energy, and global markets. From the farm to customers around the world, we help move food, feed, and fuel where it’s needed most",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-04",
+      "deadline": null,
+      "url": "https://andersonsinc.wd1.myworkdayjobs.com/TheAndersonsCareers/job/Maumee-OH/Customer-Service-Intern--Spring-2027-_R12463",
+      "external_id": "R12463",
+      "verified_at": "2026-11-07T22:49:01Z",
+      "match_score": 85
+    },
+    {
       "id": "american-electric-power-8706f55c4d30",
       "source_key": "american-electric-power",
       "fortune_rank": 209,
@@ -1745,6 +1856,34 @@
       "match_score": 85
     },
     {
+      "id": "andersons-709de871b501",
+      "source_key": "andersons",
+      "fortune_rank": 397,
+      "fortune_500": true,
+      "company": "Andersons",
+      "title": "SAP Intern, Information Services (Summer 2027)",
+      "location": "Maumee, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Business analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Accounting"
+      ],
+      "summary": "As a North American leader in agribusiness and renewable fuels, The Andersons operates in a unique space, bringing together agriculture, energy, and global markets. From the farm to customers around the world, we help move food, feed, and fuel where it’s needed most",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-03",
+      "deadline": null,
+      "url": "https://andersonsinc.wd1.myworkdayjobs.com/TheAndersonsCareers/job/Maumee-OH/SAP-Intern--Information-Services--Summer-2027-_R12473",
+      "external_id": "R12473",
+      "verified_at": "2026-11-07T22:49:01Z",
+      "match_score": 85
+    },
+    {
       "id": "tyson-foods-ed53eb3d1104",
       "source_key": "tyson-foods",
       "fortune_rank": 87,
@@ -1893,6 +2032,34 @@
       "match_score": 90
     },
     {
+      "id": "marvell-technology-fdaadb873d3c",
+      "source_key": "marvell-technology",
+      "fortune_rank": 476,
+      "fortune_500": true,
+      "company": "Marvell Technology",
+      "title": "Digital IC Design Intern",
+      "location": "IL - Petah Tikva",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud",
+        "AI / ML"
+      ],
+      "summary": "About Marvell Marvell’s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-02",
+      "deadline": null,
+      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/IL---Petah-Tikva/Digital-IC-Design-Intern_2604490",
+      "external_id": "2604490",
+      "verified_at": "2026-11-07T22:49:41Z",
+      "match_score": 85
+    },
+    {
       "id": "jones-lang-lasalle-b5a002b9c89b",
       "source_key": "jones-lang-lasalle",
       "fortune_rank": 175,
@@ -2031,6 +2198,90 @@
       "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/ITO-Intern_51591003",
       "external_id": "51591003",
       "verified_at": "2026-11-07T14:07:41Z",
+      "match_score": 85
+    },
+    {
+      "id": "carrier-global-50c51bd02232",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
+      "fortune_500": true,
+      "company": "Carrier Global",
+      "title": "Engineering Apprenticeship",
+      "location": "UK Field Based, Field Based, United Kingdom",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Sales Engineer",
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Applications for our 202 6 apprenticeship program are now closed. By submitting your application, you will join our talent community to be considered for our apprenticeship program for 202 7 . Kick-Start Your Career with a Carrier Apprenticeship for 2027!",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-02",
+      "deadline": "2026-12-01",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/UK-Field-Based-Field-Based-United-Kingdom/Engineering-Apprenticeship_30217789",
+      "external_id": "30217789",
+      "verified_at": "2026-11-07T22:49:00Z",
+      "match_score": 85
+    },
+    {
+      "id": "capital-one-financial-0f5d9e556c2d",
+      "source_key": "capital-one-financial",
+      "fortune_rank": 63,
+      "fortune_500": true,
+      "company": "Capital One Financial",
+      "title": "Technology Internship Program - Mexico - 2027",
+      "location": "Mexico City, Mexico",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Cloud",
+        "AI / ML"
+      ],
+      "summary": "Recruiting: Mexico City, Mex, Mexico, Ciudad de Mexico, Ciudad de Mexico Technology Internship Program - Mexico - 2027 Key Role Details This is a part-time paid Academic Year internship program spanning eight months from August 2027 through March 2028",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-02",
+      "deadline": null,
+      "url": "https://capitalone.wd12.myworkdayjobs.com/Capital_One/job/Mexico-City-Mexico/Technology-Internship-Program---Mexico---2027_R1004783",
+      "external_id": "R1004783",
+      "verified_at": "2026-11-07T22:49:59Z",
+      "match_score": 85
+    },
+    {
+      "id": "marvell-technology-4c8c0122b4f5",
+      "source_key": "marvell-technology",
+      "fortune_rank": 476,
+      "fortune_500": true,
+      "company": "Marvell Technology",
+      "title": "Legal Intern",
+      "location": "Yokneam",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud",
+        "AI / ML"
+      ],
+      "summary": "About Marvell Marvell’s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-01",
+      "deadline": null,
+      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Yokneam/Legal-Intern_2605116",
+      "external_id": "2605116",
+      "verified_at": "2026-11-07T22:49:42Z",
       "match_score": 85
     },
     {
@@ -2236,6 +2487,38 @@
       "match_score": 85
     },
     {
+      "id": "marvell-technology-e1da21e4bfbc",
+      "source_key": "marvell-technology",
+      "fortune_rank": 476,
+      "fortune_500": true,
+      "company": "Marvell Technology",
+      "title": "Hardware Engineer Intern - Bachelor's Degree",
+      "location": "Singapore",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "FP&A",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud",
+        "AI / ML",
+        "Product",
+        "FP&A"
+      ],
+      "summary": "About Marvell Marvell’s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-30",
+      "deadline": null,
+      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Singapore/Hardware-Engineer-Intern---Bachelor-s-Degree_2603825",
+      "external_id": "2603825",
+      "verified_at": "2026-11-07T22:49:45Z",
+      "match_score": 85
+    },
+    {
       "id": "ge-aerospace-ad4dc2620d91",
       "source_key": "ge-aerospace",
       "fortune_rank": 101,
@@ -2296,6 +2579,33 @@
       "url": "https://citi.wd5.myworkdayjobs.com/2/job/London--United-Kingdom/Banking--Corporate-Banking--Summer-Analyst--London---United-Kingdom--2027_26991689",
       "external_id": "26991689",
       "verified_at": "2026-11-07T14:11:05Z",
+      "match_score": 85
+    },
+    {
+      "id": "carrier-global-2054db0a6b62",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
+      "fortune_500": true,
+      "company": "Carrier Global",
+      "title": "Commercial HVAC Apprentice Service Technician - UNION",
+      "location": "CAL06: CCS-Shreveport, 1520 North Hearne Avenue, Shreveport, LA, 71107 USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "About Carrier Carrier, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control, air quality and…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-30",
+      "deadline": "2026-11-18",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAL06-CCS-Shreveport-1520-North-Hearne-Avenue-Shreveport-LA-71107-USA/Commercial-HVAC-Apprentice-Service-Technician---UNION_30217552-1",
+      "external_id": "30217552",
+      "verified_at": "2026-11-07T22:49:17Z",
       "match_score": 85
     },
     {
@@ -3576,6 +3886,33 @@
       "external_id": "R-116065",
       "verified_at": "2026-11-07T14:07:06Z",
       "match_score": 90
+    },
+    {
+      "id": "andersons-3a1f3377a9ac",
+      "source_key": "andersons",
+      "fortune_rank": 397,
+      "fortune_500": true,
+      "company": "Andersons",
+      "title": "Legal Intern (Summer 2027)",
+      "location": "Maumee, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "As a North American leader in agribusiness and renewable fuels, The Andersons operates in a unique space, bringing together agriculture, energy, and global markets. From the farm to customers around the world, we help move food, feed, and fuel where it’s needed most",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-28",
+      "deadline": null,
+      "url": "https://andersonsinc.wd1.myworkdayjobs.com/TheAndersonsCareers/job/Maumee-OH/Legal-Intern--Summer-2027-_R12494",
+      "external_id": "R12494",
+      "verified_at": "2026-11-07T22:49:01Z",
+      "match_score": 85
     },
     {
       "id": "xcel-energy-11fe1a654aa3",
@@ -5276,7 +5613,7 @@
       "deadline": "2026-11-30",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Sales-Development-Program---Internship_R-120996",
       "external_id": "R-120996",
-      "verified_at": "2026-11-07T18:51:44Z",
+      "verified_at": "2026-11-07T22:49:34Z",
       "match_score": 85
     },
     {
@@ -5430,6 +5767,66 @@
       "match_score": 85
     },
     {
+      "id": "marvell-technology-706035249fd3",
+      "source_key": "marvell-technology",
+      "fortune_rank": 476,
+      "fortune_500": true,
+      "company": "Marvell Technology",
+      "title": "Product Engineer Intern - Bachelor's Degree Summer 2027",
+      "location": "Singapore",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud",
+        "AI / ML",
+        "Product",
+        "Operations"
+      ],
+      "summary": "About Marvell Marvell’s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-27",
+      "deadline": null,
+      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Singapore/Product-Engineer-Intern---Bachelor-s-Degree-Summer-2027_2603840",
+      "external_id": "2603840",
+      "verified_at": "2026-11-07T22:49:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "marvell-technology-1974651756e0",
+      "source_key": "marvell-technology",
+      "fortune_rank": 476,
+      "fortune_500": true,
+      "company": "Marvell Technology",
+      "title": "Design Verification- Intern",
+      "location": "IL - Petah Tikva",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Cloud",
+        "AI / ML"
+      ],
+      "summary": "About Marvell Marvell’s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-27",
+      "deadline": null,
+      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/IL---Petah-Tikva/Design-Verification--Intern_2604486",
+      "external_id": "2604486",
+      "verified_at": "2026-11-07T22:49:45Z",
+      "match_score": 85
+    },
+    {
       "id": "jones-lang-lasalle-fa7406e642ad",
       "source_key": "jones-lang-lasalle",
       "fortune_rank": 175,
@@ -5570,7 +5967,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/McCalla-AL/Human-Resources-Intern--McCalla--AL--Fall-2026--Part-time-_115933",
       "external_id": "115933",
-      "verified_at": "2026-11-07T18:50:08Z",
+      "verified_at": "2026-11-07T22:47:47Z",
       "match_score": 85
     },
     {
@@ -5626,6 +6023,88 @@
       "url": "https://gevernova.wd5.myworkdayjobs.com/Vernova_ExternalSite/job/Findlay-Township/GE-Vernova-Power-Conversion-Engineering-Intern-Co-op---Fall-2027_R5057170-2",
       "external_id": "R5057170",
       "verified_at": "2026-11-07T14:07:07Z",
+      "match_score": 85
+    },
+    {
+      "id": "carrier-global-2994637876f5",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
+      "fortune_500": true,
+      "company": "Carrier Global",
+      "title": "Project Engineering Intern - Summer",
+      "location": "CAV20: ALC - Virginia, 4948 Dominion Boulevard, Glen Allen, VA, 23060 USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-27",
+      "deadline": "2026-11-20",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAV20-ALC---Virginia-4948-Dominion-Boulevard-Glen-Allen-VA-23060-USA/Project-Engineering-Intern---Summer_30220971",
+      "external_id": "30220971",
+      "verified_at": "2026-11-07T22:48:56Z",
+      "match_score": 85
+    },
+    {
+      "id": "carrier-global-bf1db0aad9d4",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
+      "fortune_500": true,
+      "company": "Carrier Global",
+      "title": "Field Service Intern - Summer",
+      "location": "CAP25: Pittsburgh, 1011 Alcon Street, Pittsburgh, PA, 15220 USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-27",
+      "deadline": "2026-11-20",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAP25-Pittsburgh-1011-Alcon-Street-Pittsburgh-PA-15220-USA/Field-Service-Intern---Summer_30217242-1",
+      "external_id": "30217242",
+      "verified_at": "2026-11-07T22:48:55Z",
+      "match_score": 85
+    },
+    {
+      "id": "carrier-global-b8d01f4525eb",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
+      "fortune_500": true,
+      "company": "Carrier Global",
+      "title": "Building Automation Field Engineer Intern - Summer",
+      "location": "CAG16: AL Georgia (ATL), 1975 Vaughn Road, Kennesaw, GA, 30144 USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Digital transformation",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-27",
+      "deadline": "2026-11-20",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAG16-AL-Georgia-ATL-1975-Vaughn-Road-Kennesaw-GA-30144-USA/Building-Automation-Field-Engineer-Intern---Summer_30220863",
+      "external_id": "30220863",
+      "verified_at": "2026-11-07T22:48:57Z",
       "match_score": 85
     },
     {
@@ -6003,6 +6482,94 @@
       "match_score": 85
     },
     {
+      "id": "marvell-technology-474d14c884f1",
+      "source_key": "marvell-technology",
+      "fortune_rank": 476,
+      "fortune_500": true,
+      "company": "Marvell Technology",
+      "title": "OSAT Procurement Intern - Bachelor's Degree",
+      "location": "Singapore",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud",
+        "AI / ML"
+      ],
+      "summary": "About Marvell Marvell’s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-23",
+      "deadline": null,
+      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Singapore/OSAT-Procurement-Intern----Bachelor-s-Degree_2604911",
+      "external_id": "2604911",
+      "verified_at": "2026-11-07T22:49:48Z",
+      "match_score": 85
+    },
+    {
+      "id": "live-nation-entertainment-27cc9f5c6980",
+      "source_key": "live-nation-entertainment",
+      "fortune_rank": 180,
+      "fortune_500": true,
+      "company": "Live Nation Entertainment",
+      "title": "Venue Analytics Intern",
+      "location": "Chicago, IL, USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "SQL",
+        "Excel",
+        "Tableau",
+        "AI / ML",
+        "Finance"
+      ],
+      "summary": "Live Nation Entertainment is the world’s leading live entertainment company, comprised of global market leaders: Ticketmaster, Live Nation Concerts, and Live Nation Media & Sponsorship. Ticketmaster is the global leader in event ticketing with over 500 million tickets sold…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-23",
+      "deadline": null,
+      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Chicago-IL-USA/Venue-Analytics-Intern_JR-93773-2",
+      "external_id": "JR-93773",
+      "verified_at": "2026-11-07T22:48:18Z",
+      "match_score": 85
+    },
+    {
+      "id": "live-nation-entertainment-dbebea24363c",
+      "source_key": "live-nation-entertainment",
+      "fortune_rank": 180,
+      "fortune_500": true,
+      "company": "Live Nation Entertainment",
+      "title": "Ticketing Intern (Winter 2027)",
+      "location": "Toronto, ON",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML"
+      ],
+      "summary": "Live Nation Entertainment is the world’s leading live entertainment company, comprised of global market leaders: Ticketmaster, Live Nation Concerts, and Live Nation Media & Sponsorship. Ticketmaster is the global leader in event ticketing with over 620 million tickets sold…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-23",
+      "deadline": null,
+      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Toronto-ON/Ticketing-Intern--Winter-2027-_JR-93942",
+      "external_id": "JR-93942",
+      "verified_at": "2026-11-07T22:48:18Z",
+      "match_score": 85
+    },
+    {
       "id": "jabil-ac687b51152f",
       "source_key": "jabil",
       "fortune_rank": 151,
@@ -6143,7 +6710,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Revenue-Growth-Management-Intern--Summer-2027_116012",
       "external_id": "116012",
-      "verified_at": "2026-11-07T18:50:08Z",
+      "verified_at": "2026-11-07T22:47:47Z",
       "match_score": 85
     },
     {
@@ -6172,7 +6739,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Net-Revenue-Optimization-Intern--Summer-2027_116006",
       "external_id": "116006",
-      "verified_at": "2026-11-07T18:50:08Z",
+      "verified_at": "2026-11-07T22:47:47Z",
       "match_score": 85
     },
     {
@@ -6324,6 +6891,33 @@
       "url": "https://assurant.wd1.myworkdayjobs.com/Assurant_Careers/job/Miami-FL/Summer-2027-Intern--Manufactured-Housing-Product-Analysis-Intern_R-115769",
       "external_id": "R-115769",
       "verified_at": "2026-11-07T14:07:06Z",
+      "match_score": 85
+    },
+    {
+      "id": "andersons-547617fc975c",
+      "source_key": "andersons",
+      "fortune_rank": 397,
+      "fortune_500": true,
+      "company": "Andersons",
+      "title": "eCommerce Content Creator Intern (Spring 2027)",
+      "location": "Maumee, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "As a North American leader in agribusiness and renewable fuels, The Andersons operates in a unique space, bringing together agriculture, energy, and global markets. From the farm to customers around the world, we help move food, feed, and fuel where it’s needed most",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-22",
+      "deadline": null,
+      "url": "https://andersonsinc.wd1.myworkdayjobs.com/TheAndersonsCareers/job/Maumee-OH/eCommerce-Content-Creator-Intern--Spring-2027-_R12452",
+      "external_id": "R12452",
+      "verified_at": "2026-11-07T22:49:01Z",
       "match_score": 85
     },
     {
@@ -6674,6 +7268,35 @@
       "match_score": 85
     },
     {
+      "id": "live-nation-entertainment-d6a968411615",
+      "source_key": "live-nation-entertainment",
+      "fortune_rank": 180,
+      "fortune_500": true,
+      "company": "Live Nation Entertainment",
+      "title": "Brand Partnerships Intern (Winter 2027)",
+      "location": "Toronto, ON",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Strategy"
+      ],
+      "summary": "Live Nation Entertainment is the world’s leading live entertainment company, comprised of global market leaders: Ticketmaster, Live Nation Concerts, and Live Nation Media & Sponsorship. Ticketmaster is the global leader in event ticketing with over 620 million tickets sold…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-20",
+      "deadline": null,
+      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Toronto-ON/Brand-Partnerships-Intern--Winter-2027-_JR-93778",
+      "external_id": "JR-93778",
+      "verified_at": "2026-11-07T22:48:18Z",
+      "match_score": 85
+    },
+    {
       "id": "jones-lang-lasalle-59616c3fd196",
       "source_key": "jones-lang-lasalle",
       "fortune_rank": 175,
@@ -6736,6 +7359,90 @@
       "match_score": 85
     },
     {
+      "id": "carrier-global-d24af877ed2b",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
+      "fortune_500": true,
+      "company": "Carrier Global",
+      "title": "Systems Engineering Intern - Summer",
+      "location": "CAI23: Carrier-Indianapolis, 7310 West Morris Street, Indianapolis, IN, 46231 USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-20",
+      "deadline": "2026-11-16",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAI23-Carrier-Indianapolis-7310-West-Morris-Street-Indianapolis-IN-46231-USA/Systems-Engineering-Intern---Summer_30220210",
+      "external_id": "30220210",
+      "verified_at": "2026-11-07T22:48:56Z",
+      "match_score": 85
+    },
+    {
+      "id": "carrier-global-aa49ac2d1881",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
+      "fortune_500": true,
+      "company": "Carrier Global",
+      "title": "Electrical Engineering Intern - Summer",
+      "location": "CAI19: UTEC-Huntington, 111 East Wayne Street, Fort Wayne, IN, 46802 USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Product"
+      ],
+      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-20",
+      "deadline": "2026-11-16",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAI19-UTEC-Huntington-111-East-Wayne-Street-Fort-Wayne-IN-46802-USA/Electrical-Engineering-Intern---Summer_30220218",
+      "external_id": "30220218",
+      "verified_at": "2026-11-07T22:48:56Z",
+      "match_score": 85
+    },
+    {
+      "id": "carrier-global-5d763009d15b",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
+      "fortune_500": true,
+      "company": "Carrier Global",
+      "title": "Design Engineering Intern - Summer",
+      "location": "CAI19: UTEC-Huntington, 111 East Wayne Street, Fort Wayne, IN, 46802 USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python"
+      ],
+      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-20",
+      "deadline": "2026-11-16",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAI19-UTEC-Huntington-111-East-Wayne-Street-Fort-Wayne-IN-46802-USA/Design-Engineering-Intern---Summer_30220221-2",
+      "external_id": "30220221",
+      "verified_at": "2026-11-07T22:48:56Z",
+      "match_score": 85
+    },
+    {
       "id": "united-rentals-34da9f6b404c",
       "source_key": "united-rentals",
       "fortune_rank": 279,
@@ -6760,6 +7467,34 @@
       "url": "https://ur.wd1.myworkdayjobs.com/URcareers/job/Indianapolis-IN-USA/Sales-Intern--Paid-_102883",
       "external_id": "102883",
       "verified_at": "2026-11-06T20:56:39Z",
+      "match_score": 85
+    },
+    {
+      "id": "sonoco-products-0a2a5c5c9736",
+      "source_key": "sonoco-products",
+      "fortune_rank": 489,
+      "fortune_500": true,
+      "company": "Sonoco Products",
+      "title": "Intern",
+      "location": "Dalton, GA, USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations"
+      ],
+      "summary": "From a small family business to a multi-billion-dollar global company, Sonoco has been changing the face of products and packaging since 1899 — all while keeping the heart of “People Build Businesses” alive. Our talented people are at the core of our growth, constantly…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-19",
+      "deadline": null,
+      "url": "https://sonoco.wd1.myworkdayjobs.com/CorporateCareers/job/Dalton-GA-USA/Intern_JR-160142",
+      "external_id": "JR-160142",
+      "verified_at": "2026-11-07T22:50:00Z",
       "match_score": 85
     },
     {
@@ -6926,7 +7661,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
       "external_id": "115677",
-      "verified_at": "2026-11-07T18:50:07Z",
+      "verified_at": "2026-11-07T22:47:47Z",
       "match_score": 85
     },
     {
@@ -6957,6 +7692,56 @@
       "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/SAP-Intern--SAP-Concur---SAP-ABAP-_51590743",
       "external_id": "51590743",
       "verified_at": "2026-11-07T14:07:42Z",
+      "match_score": 85
+    },
+    {
+      "id": "carrier-global-df5152e8f420",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
+      "fortune_500": true,
+      "company": "Carrier Global",
+      "title": "Test Engineering Intern - Summer",
+      "location": "CAI19: UTEC-Huntington, 111 East Wayne Street, Fort Wayne, IN, 46802 USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-19",
+      "deadline": "2026-11-13",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAI19-UTEC-Huntington-111-East-Wayne-Street-Fort-Wayne-IN-46802-USA/Test-Engineering-Intern---Summer_30220233",
+      "external_id": "30220233",
+      "verified_at": "2026-11-07T22:48:55Z",
+      "match_score": 85
+    },
+    {
+      "id": "carrier-global-5d7a89cb1b22",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
+      "fortune_500": true,
+      "company": "Carrier Global",
+      "title": "Quality Engineering Intern - Summer",
+      "location": "CAN01: Carrier-Syracuse, 6304 Carrier Parkway, East Syracuse, NY, 13057 USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "About Carrier Carrier Global Corporation, global leader in intelligent climate and energy solutions, is committed to creating innovations that bring comfort, safety and sustainability to life. Through cutting-edge advancements in climate solutions such as temperature control,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-19",
+      "deadline": "2026-11-13",
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/CAN01-Carrier-Syracuse-6304-Carrier-Parkway-East-Syracuse-NY-13057-USA/Quality-Engineering-Intern---Summer_30220256-1",
+      "external_id": "30220256",
+      "verified_at": "2026-11-07T22:48:55Z",
       "match_score": 85
     },
     {
@@ -7376,7 +8161,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance-Technology-Intern--Spring-2027_116016",
       "external_id": "116016",
-      "verified_at": "2026-11-07T18:50:08Z",
+      "verified_at": "2026-11-07T22:47:47Z",
       "match_score": 85
     },
     {
@@ -7571,6 +8356,31 @@
       "url": "https://tysonfoods.wd5.myworkdayjobs.com/TSN1/job/Corporate---Springdale-Arkansas/Retail-Value-Added-Poultry--RVAP--Year-round-Intern_R0491759-1",
       "external_id": "R0491759",
       "verified_at": "2026-11-06T20:59:49Z",
+      "match_score": 85
+    },
+    {
+      "id": "live-nation-entertainment-46150cca6940",
+      "source_key": "live-nation-entertainment",
+      "fortune_rank": 180,
+      "fortune_500": true,
+      "company": "Live Nation Entertainment",
+      "title": "Emo Nite - Design Intern",
+      "location": "Calabasas, CA, USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Do you have a deep-rooted love for emo, pop-punk, and alternative music? Are you a creative thinker with a passion for fostering community and delivering unforgettable experiences? If so, you might be just the person we're looking for!",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-15",
+      "deadline": null,
+      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Calabasas-CA-USA/Emo-Nite---Design-Intern_JR-92845",
+      "external_id": "JR-92845",
+      "verified_at": "2026-11-07T22:48:18Z",
       "match_score": 85
     },
     {
@@ -8057,7 +8867,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Talent-Acquisition-Intern--Summer-2027_115992",
       "external_id": "115992",
-      "verified_at": "2026-11-07T18:50:08Z",
+      "verified_at": "2026-11-07T22:47:47Z",
       "match_score": 85
     },
     {
@@ -8113,6 +8923,81 @@
       "url": "https://geaerospace.wd5.myworkdayjobs.com/GE_ExternalSite/job/Hooksett/Environmental-Health-Safety-Intern---Hooksett--NH---Summer-2027_R5041385-1",
       "external_id": "R5041385",
       "verified_at": "2026-11-07T14:06:21Z",
+      "match_score": 85
+    },
+    {
+      "id": "live-nation-entertainment-bebf1dbf278b",
+      "source_key": "live-nation-entertainment",
+      "fortune_rank": 180,
+      "fortune_500": true,
+      "company": "Live Nation Entertainment",
+      "title": "Insomniac - Paid Spring Public Relations Intern",
+      "location": "Calabasas, CA, USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Are you passionate about Public Relations and Communications? We are looking for a highly motivated self-starter who embodies both a passion for dance culture and a love of the public relations space. If you possess exceptional writing skills and thrive in dynamic environments,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-12",
+      "deadline": "2027-01-16",
+      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Calabasas-CA-USA/Insomniac---Paid-Spring-Public-Relations-Intern_JR-93565-1",
+      "external_id": "JR-93565",
+      "verified_at": "2026-11-07T22:48:18Z",
+      "match_score": 85
+    },
+    {
+      "id": "live-nation-entertainment-5cce438cf932",
+      "source_key": "live-nation-entertainment",
+      "fortune_rank": 180,
+      "fortune_500": true,
+      "company": "Live Nation Entertainment",
+      "title": "Insomniac - Paid Spring Music Group PR & Promo Intern",
+      "location": "Calabasas, CA, USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Are you passionate about Public Relations and Record Labels? We are looking for a highly motivated self-starter who embodies both a passion for dance culture and a love of the public relations space. Insomniac produces some of the most innovative, immersive music festivals and…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-12",
+      "deadline": "2027-01-16",
+      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Calabasas-CA-USA/Insomniac---Paid-Spring-Music-Group-PR---Promo-Intern_JR-93562-1",
+      "external_id": "JR-93562",
+      "verified_at": "2026-11-07T22:48:18Z",
+      "match_score": 85
+    },
+    {
+      "id": "live-nation-entertainment-dcce453c3fd7",
+      "source_key": "live-nation-entertainment",
+      "fortune_rank": 180,
+      "fortune_500": true,
+      "company": "Live Nation Entertainment",
+      "title": "Insomniac - Paid Spring Legal Intern",
+      "location": "Calabasas, CA, USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Driven, with an entrepreneurial spirit. Resourceful, innovative, forward thinking and committed. At Insomniac, our people embrace these qualities, so if this sounds like you then please read on! Insomniac produces some of the most innovative, immersive music festivals and…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-12",
+      "deadline": "2027-01-16",
+      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Calabasas-CA-USA/Insomniac---Paid-Spring-Legal-Intern_JR-93567-4",
+      "external_id": "JR-93567",
+      "verified_at": "2026-11-07T22:48:18Z",
       "match_score": 85
     },
     {
@@ -8203,6 +9088,31 @@
       "url": "https://jabil.wd5.myworkdayjobs.com/Jabil_Careers/job/Austin-TX/Marketing---Communications-Intern_J2467203",
       "external_id": "J2467203",
       "verified_at": "2026-11-07T00:58:36Z",
+      "match_score": 85
+    },
+    {
+      "id": "live-nation-entertainment-e609ea560249",
+      "source_key": "live-nation-entertainment",
+      "fortune_rank": 180,
+      "fortune_500": true,
+      "company": "Live Nation Entertainment",
+      "title": "Insomniac - Paid Spring Street Marketing Internship",
+      "location": "Calabasas, CA, USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Driven, with an entrepreneurial spirit. Resourceful, innovative, forward thinking and committed. At Insomniac, our people embrace these qualities, so if this sounds like you then please read on! Insomniac produces some of the most innovative, immersive music festivals and…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-09",
+      "deadline": "2027-01-16",
+      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Calabasas-CA-USA/Insomniac---Paid-Spring-Street-Marketing-Internship_JR-93561-1",
+      "external_id": "JR-93561",
+      "verified_at": "2026-11-07T22:48:18Z",
       "match_score": 85
     },
     {
@@ -9095,7 +10005,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-11-07T18:50:23Z",
+      "verified_at": "2026-11-07T22:48:08Z",
       "match_score": 85
     },
     {
@@ -9672,6 +10582,189 @@
       "match_score": 85
     },
     {
+      "id": "marvell-technology-b38e52c986e8",
+      "source_key": "marvell-technology",
+      "fortune_rank": 476,
+      "fortune_500": true,
+      "company": "Marvell Technology",
+      "title": "Test Solutions Engineering Intern - Bachelor's Degree",
+      "location": "Singapore",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Solutions Engineer",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Cloud",
+        "AI / ML",
+        "Product",
+        "Strategy"
+      ],
+      "summary": "About Marvell Marvell’s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Singapore/Test-Solutions-Engineering-Intern---Bachelor-s-Degree_2604801",
+      "external_id": "2604801",
+      "verified_at": "2026-11-07T22:49:44Z",
+      "match_score": 85
+    },
+    {
+      "id": "marvell-technology-b8b70d5d54aa",
+      "source_key": "marvell-technology",
+      "fortune_rank": 476,
+      "fortune_500": true,
+      "company": "Marvell Technology",
+      "title": "Supply Chain Technology & Analytics Intern - Bachelor's Degree",
+      "location": "Singapore",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Risk management",
+        "FP&A"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Power BI",
+        "Cloud"
+      ],
+      "summary": "About Marvell Marvell’s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Singapore/Supply-Chain-Technology---Analytics-Intern---Bachelor-s-Degree_2603845",
+      "external_id": "2603845",
+      "verified_at": "2026-11-07T22:49:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "marvell-technology-8f5e92dce373",
+      "source_key": "marvell-technology",
+      "fortune_rank": 476,
+      "fortune_500": true,
+      "company": "Marvell Technology",
+      "title": "Supplier Quality Intern - Bachelor's Degree",
+      "location": "Singapore",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud",
+        "AI / ML",
+        "Product",
+        "Risk",
+        "Accounting"
+      ],
+      "summary": "About Marvell Marvell’s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Singapore/Supplier-Quality-Intern---Bachelor-s-Degree_2603823",
+      "external_id": "2603823",
+      "verified_at": "2026-11-07T22:49:48Z",
+      "match_score": 85
+    },
+    {
+      "id": "marvell-technology-c6ab28fe2603",
+      "source_key": "marvell-technology",
+      "fortune_rank": 476,
+      "fortune_500": true,
+      "company": "Marvell Technology",
+      "title": "Program Management Intern",
+      "location": "Cordoba, Argentina",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud",
+        "AI / ML"
+      ],
+      "summary": "About Marvell Marvell’s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Cordoba-Argentina/Program-Management-Intern_2502670",
+      "external_id": "2502670",
+      "verified_at": "2026-11-07T22:49:48Z",
+      "match_score": 85
+    },
+    {
+      "id": "marvell-technology-3ea8db7b36f5",
+      "source_key": "marvell-technology",
+      "fortune_rank": 476,
+      "fortune_500": true,
+      "company": "Marvell Technology",
+      "title": "Business Planning System Analyst Intern - Bachelor's Degree",
+      "location": "Singapore",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Power BI",
+        "Cloud",
+        "AI / ML"
+      ],
+      "summary": "About Marvell Marvell’s semiconductor solutions are the essential building blocks of the data infrastructure that connects our world. Across enterprise, cloud and AI, and carrier architectures, our innovative technology is enabling new possibilities",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers/job/Singapore/Business-Planning-System-Analyst-Intern---Bachelor-s-Degree_2603816",
+      "external_id": "2603816",
+      "verified_at": "2026-11-07T22:49:43Z",
+      "match_score": 85
+    },
+    {
+      "id": "live-nation-entertainment-5f48dd360589",
+      "source_key": "live-nation-entertainment",
+      "fortune_rank": 180,
+      "fortune_500": true,
+      "company": "Live Nation Entertainment",
+      "title": "Insomniac - Paid Fall Street Marketing Internship",
+      "location": "Calabasas, CA, USA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Driven, with an entrepreneurial spirit. Resourceful, innovative, forward thinking and committed. At Insomniac, our people embrace these qualities, so if this sounds like you then please read on! Insomniac produces some of the most innovative, immersive music festivals and…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://livenation.wd503.myworkdayjobs.com/LNExternalSite/job/Calabasas-CA-USA/Insomniac---Paid-Fall-Street-Marketing-Internship_JR-92052-1",
+      "external_id": "JR-92052",
+      "verified_at": "2026-11-07T22:48:18Z",
+      "match_score": 85
+    },
+    {
       "id": "land-o-lakes-6d48031c8b80",
       "source_key": "land-o-lakes",
       "fortune_rank": 273,
@@ -10195,7 +11288,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
       "external_id": "115736",
-      "verified_at": "2026-11-07T18:50:08Z",
+      "verified_at": "2026-11-07T22:47:47Z",
       "match_score": 85
     },
     {
@@ -10223,7 +11316,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Quality-Assurance-Intern---Oxnard--CA_115727",
       "external_id": "115727",
-      "verified_at": "2026-11-07T18:50:08Z",
+      "verified_at": "2026-11-07T22:47:48Z",
       "match_score": 85
     },
     {
@@ -10248,7 +11341,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
       "external_id": "115725",
-      "verified_at": "2026-11-07T18:50:08Z",
+      "verified_at": "2026-11-07T22:47:47Z",
       "match_score": 85
     },
     {
@@ -10276,7 +11369,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
       "external_id": "115735",
-      "verified_at": "2026-11-07T18:50:08Z",
+      "verified_at": "2026-11-07T22:47:48Z",
       "match_score": 85
     },
     {
@@ -10303,7 +11396,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sales-Intern--Summer-2027_115803",
       "external_id": "115803",
-      "verified_at": "2026-11-07T18:50:07Z",
+      "verified_at": "2026-11-07T22:47:46Z",
       "match_score": 85
     },
     {
@@ -10330,7 +11423,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
       "external_id": "115698",
-      "verified_at": "2026-11-07T18:50:08Z",
+      "verified_at": "2026-11-07T22:47:47Z",
       "match_score": 85
     },
     {
@@ -10357,7 +11450,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Decatur-AL/Operations-QA-Intern--Summer-2027--Decatur--AL_115757",
       "external_id": "115757",
-      "verified_at": "2026-11-07T18:50:08Z",
+      "verified_at": "2026-11-07T22:47:47Z",
       "match_score": 85
     },
     {
@@ -10385,7 +11478,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/McCalla-AL/Human-Resources-Intern--McCalla--AL--Summer-2027_115887",
       "external_id": "115887",
-      "verified_at": "2026-11-07T18:50:08Z",
+      "verified_at": "2026-11-07T22:47:47Z",
       "match_score": 85
     },
     {
@@ -10413,7 +11506,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Emporia-KS/Human-Resources-Intern--Emporia--KS--Summer-2027_115888",
       "external_id": "115888",
-      "verified_at": "2026-11-07T18:50:08Z",
+      "verified_at": "2026-11-07T22:47:47Z",
       "match_score": 85
     },
     {
@@ -10441,7 +11534,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Buffalo-NY/Human-Resources-Intern--Buffalo--NY--Summer-2027_115886",
       "external_id": "115886",
-      "verified_at": "2026-11-07T18:50:08Z",
+      "verified_at": "2026-11-07T22:47:47Z",
       "match_score": 85
     },
     {
@@ -10466,7 +11559,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Human-Resources-Intern--Summer-2027_115918",
       "external_id": "115918",
-      "verified_at": "2026-11-07T18:50:08Z",
+      "verified_at": "2026-11-07T22:47:47Z",
       "match_score": 85
     },
     {
@@ -10499,7 +11592,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-11-07T18:50:07Z",
+      "verified_at": "2026-11-07T22:47:46Z",
       "match_score": 85
     },
     {
@@ -10524,7 +11617,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Corporate-Communications-Intern--Summer-2027_115919",
       "external_id": "115919",
-      "verified_at": "2026-11-07T18:50:07Z",
+      "verified_at": "2026-11-07T22:47:47Z",
       "match_score": 85
     },
     {
@@ -10550,7 +11643,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Category-Leadership-Intern--Summer-2027_115804",
       "external_id": "115804",
-      "verified_at": "2026-11-07T18:50:07Z",
+      "verified_at": "2026-11-07T22:47:46Z",
       "match_score": 85
     },
     {
@@ -10577,7 +11670,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Analytical-Lab-Intern--Summer-2027_115678",
       "external_id": "115678",
-      "verified_at": "2026-11-07T18:50:07Z",
+      "verified_at": "2026-11-07T22:47:47Z",
       "match_score": 85
     },
     {
@@ -10638,6 +11731,61 @@
       "url": "https://jbhunt.wd501.myworkdayjobs.com/Careers/job/Lowell-AR---JB-Hunt-Corporate-A--Marketing/Finance-Internship--Summer-2027_00644160",
       "external_id": "00644160",
       "verified_at": "2026-11-07T18:51:32Z",
+      "match_score": 85
+    },
+    {
+      "id": "international-paper-21ab7fa85f01",
+      "source_key": "international-paper",
+      "fortune_rank": 176,
+      "fortune_500": true,
+      "company": "International Paper",
+      "title": "Supply Chain Intern",
+      "location": "Pomezia",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML"
+      ],
+      "summary": "DS Smith | Packaging Division è alla ricerca di un Supply Chain Intern per il plant di Pomezia (RM) Vuoi far parte di una realtà internazionale in rapida evoluzione, con una cultura inclusiva e orientata al cambiamento? DS Smith | Packaging Division , leader globale nelle…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://dssmith.wd3.myworkdayjobs.com/careers/job/Pomezia/Supply-Chain-Intern_R-14112-1",
+      "external_id": "R-14112",
+      "verified_at": "2026-11-07T22:48:13Z",
+      "match_score": 85
+    },
+    {
+      "id": "international-paper-936c6d407d84",
+      "source_key": "international-paper",
+      "fortune_rank": 176,
+      "fortune_500": true,
+      "company": "International Paper",
+      "title": "Design Intern",
+      "location": "Brussels",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Internship opportunity for all Design students at our Packaging Design studio Duration: 1-6 months Location : DS Smith Design & Innovation, Tour&Taxis, Brussels, Belgium We are DS Smith, a FTSE100 company who is redefining packaging for a changing world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://dssmith.wd3.myworkdayjobs.com/careers/job/Brussels/Design-Intern_R-8606",
+      "external_id": "R-8606",
+      "verified_at": "2026-11-07T22:48:12Z",
       "match_score": 85
     },
     {
@@ -12137,6 +13285,32 @@
       "match_score": 85
     },
     {
+      "id": "carrier-global-c7eab9237445",
+      "source_key": "carrier-global",
+      "fortune_rank": 212,
+      "fortune_500": true,
+      "company": "Carrier Global",
+      "title": "Engineering Apprenticeship",
+      "location": "UK Field Based, Field Based, United Kingdom",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Sales Engineer",
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Applications for our 2025 apprenticeship program are now closed. By submitting your application, you will join our talent community to be considered for our apprenticeship program for 2026. Kick-Start Your Career with a Carrier Apprenticeship for 2026!",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://carrier.wd5.myworkdayjobs.com/jobs/job/UK-Field-Based-Field-Based-United-Kingdom/Engineering-Apprenticeship_30190431",
+      "external_id": "30190431",
+      "verified_at": "2026-11-07T22:49:06Z",
+      "match_score": 85
+    },
+    {
       "id": "c-h-robinson-worldwide-1acbffd23baa",
       "source_key": "c-h-robinson-worldwide",
       "fortune_rank": 277,
@@ -12896,6 +14070,123 @@
       "match_score": 85
     },
     {
+      "id": "andersons-77f55b7c6530",
+      "source_key": "andersons",
+      "fortune_rank": 397,
+      "fortune_500": true,
+      "company": "Andersons",
+      "title": "Tax Intern (Summer 2027)",
+      "location": "Maumee, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "As a North American leader in agribusiness and renewable fuels, The Andersons operates in a unique space, bringing together agriculture, energy, and global markets. From the farm to customers around the world, we help move food, feed, and fuel where it’s needed most",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://andersonsinc.wd1.myworkdayjobs.com/TheAndersonsCareers/job/Maumee-OH/Tax-Intern--Summer-2027-_R12483",
+      "external_id": "R12483",
+      "verified_at": "2026-11-07T22:49:01Z",
+      "match_score": 85
+    },
+    {
+      "id": "andersons-4292fd3ecdb2",
+      "source_key": "andersons",
+      "fortune_rank": 397,
+      "fortune_500": true,
+      "company": "Andersons",
+      "title": "Renewables Engineering Intern (Summer 2027)",
+      "location": "Logansport, IN",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending",
+        "Operations analyst"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "As a North American leader in agribusiness and renewable fuels, The Andersons operates in a unique space, bringing together agriculture, energy, and global markets. From the farm to customers around the world, we help move food, feed, and fuel where it’s needed most",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://andersonsinc.wd1.myworkdayjobs.com/TheAndersonsCareers/job/Logansport-IN/Renewables-Engineering-Intern--Summer-2027-_R12498",
+      "external_id": "R12498",
+      "verified_at": "2026-11-07T22:49:01Z",
+      "match_score": 85
+    },
+    {
+      "id": "andersons-9961d7113fbe",
+      "source_key": "andersons",
+      "fortune_rank": 397,
+      "fortune_500": true,
+      "company": "Andersons",
+      "title": "Agronomy Intern (Summer 2027)",
+      "location": "Galveston, IN",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "As a North American leader in agribusiness and renewable fuels, The Andersons operates in a unique space, bringing together agriculture, energy, and global markets. From the farm to customers around the world, we help move food, feed, and fuel where it’s needed most",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://andersonsinc.wd1.myworkdayjobs.com/TheAndersonsCareers/job/Galveston-IN/Agronomy-Intern--Summer-2027-_R12478",
+      "external_id": "R12478",
+      "verified_at": "2026-11-07T22:49:01Z",
+      "match_score": 85
+    },
+    {
+      "id": "andersons-ae1b8edb5b91",
+      "source_key": "andersons",
+      "fortune_rank": 397,
+      "fortune_500": true,
+      "company": "Andersons",
+      "title": "Accounting Intern (Summer 2027)",
+      "location": "Maumee, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Accounting / financial analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "As a North American leader in agribusiness and renewable fuels, The Andersons operates in a unique space, bringing together agriculture, energy, and global markets. From the farm to customers around the world, we help move food, feed, and fuel where it’s needed most",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://andersonsinc.wd1.myworkdayjobs.com/TheAndersonsCareers/job/Maumee-OH/Accounting-Intern--Summer-2027-_R12482",
+      "external_id": "R12482",
+      "verified_at": "2026-11-07T22:49:01Z",
+      "match_score": 85
+    },
+    {
       "id": "american-electric-power-765b31a370c3",
       "source_key": "american-electric-power",
       "fortune_rank": 209,
@@ -12973,6 +14264,228 @@
       "external_id": "R18719",
       "verified_at": "2026-11-07T18:50:52Z",
       "match_score": 90
+    },
+    {
+      "id": "ameren-24504618a196",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "Supply Chain Internship",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-21",
+      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/Supply-Chain-Internship_033958-2",
+      "external_id": "033958",
+      "verified_at": "2026-11-07T22:47:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-24504618a196",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "Supply Chain Internship",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-21",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Supply-Chain-Internship_033958",
+      "external_id": "033958",
+      "verified_at": "2026-11-07T22:48:06Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-16c417418d9a",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "Strategic Sourcing Intern-1",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-22",
+      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/Strategic-Sourcing-Intern-1_033838",
+      "external_id": "033838",
+      "verified_at": "2026-11-07T22:47:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-16c417418d9a",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "Strategic Sourcing Intern-1",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-22",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Strategic-Sourcing-Intern-1_033838-1",
+      "external_id": "033838",
+      "verified_at": "2026-11-07T22:48:05Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-744210ecb41b",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "GIS Co-op (Real Estate)",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-24",
+      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/GIS-Co-op--Real-Estate-_033670",
+      "external_id": "033670",
+      "verified_at": "2026-11-07T22:47:35Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-744210ecb41b",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "GIS Co-op (Real Estate)",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-24",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/GIS-Co-op--Real-Estate-_033670-1",
+      "external_id": "033670",
+      "verified_at": "2026-11-07T22:48:06Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-5ed297248032",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "CAD Technician Co-op",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2027-04-05",
+      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/CAD-Technician-Co-op_033920",
+      "external_id": "033920",
+      "verified_at": "2026-11-07T22:47:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-5ed297248032",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "CAD Technician Co-op",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2027-04-05",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/CAD-Technician-Co-op_033920-1",
+      "external_id": "033920",
+      "verified_at": "2026-11-07T22:48:05Z",
+      "match_score": 85
     },
     {
       "id": "mosaic-769accf74e1e",
@@ -13061,7 +14574,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-11-07T18:49:34Z",
+      "verified_at": "2026-11-07T22:47:16Z",
       "match_score": 85
     },
     {
@@ -13121,7 +14634,7 @@
       "deadline": null,
       "url": "https://careers.massmutual.com/job/windsor-locks/corporate-aviation-summer-2027-internship/724/102794641344",
       "external_id": null,
-      "verified_at": "2026-11-07T18:49:33Z",
+      "verified_at": "2026-11-07T22:47:15Z",
       "match_score": 85
     },
     {
@@ -13759,6 +15272,218 @@
       "url": "https://enterpriseproducts.com/careers/early-careers/",
       "external_id": null,
       "verified_at": "2026-11-06T20:57:36Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-0dd08072497a",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - Learning & Development (Poly) 2027",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy"
+      ],
+      "summary": "Show More Intern - Learning & Development (Poly) 2027 1757932 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you want it to go",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/r0wHiAwxNiRVMq0Py7gdZA?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-11-07T22:47:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-674b64c393f1",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - EY-Parthenon - Financial Services, Financial Diligence (Jan - June 2027)",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Technical Account Management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Show More Intern - EY-Parthenon - Financial Services, Financial Diligence (Jan - June 2027) 1759387 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/Q-ZNiHJElRJSq8GveKzmfQ?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-11-07T22:47:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-1c655fa32ee9",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "Intern - Brand, Marketing & Communications (Poly) 2027",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy"
+      ],
+      "summary": "Show More Intern - Brand, Marketing & Communications (Poly) 2027 1757935 SGP-Singapore apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career wherever you want it…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/DOgbRdPJQ3sst3cjlNiKNg?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-11-07T22:47:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-e343fdf81d8a",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "EY Pakistan CBS Karachi - Clients & Industries Internship Program FY27",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Strategy",
+        "Finance"
+      ],
+      "summary": "Show More EY Pakistan CBS Karachi - Clients & Industries Internship Program FY27 1758415 PAK-Karachi_ EYFR apply ________ At EY, we’re all in to shape your future with confidence. We’ll help you succeed in a globally connected powerhouse of diverse teams and take your career…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/TpfX88aG_bGd37yStFTGLg?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-11-07T22:47:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "ey-5a7d62c9b849",
+      "source_key": "ey",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "EY",
+      "title": "EY Internship Programme - Assurance",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Show More EY Internship Programme - Assurance 1517586 MYS-Kuala Lumpur apply _________ What if we didn’t focus on who you are now, but who you could become? Here at EY, you’ll have the chance to build a truly exceptional experience",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://eyglobal.yello.co/jobs/Dl0Oynr96SkFtzfblRO35g?job_board_id=c1riT--B2O-KySgYWsZO1Q",
+      "external_id": null,
+      "verified_at": "2026-11-07T22:47:20Z",
+      "match_score": 85
+    },
+    {
+      "id": "capital-one-financial-42c9917ee8c3",
+      "source_key": "capital-one-financial",
+      "fortune_rank": 63,
+      "fortune_500": true,
+      "company": "Capital One Financial",
+      "title": "Internship Programs",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Commercial banking",
+        "Business analyst",
+        "Risk management"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "You’re located near You’re interested in Find Jobs Internship Programs This is the start of something great. Marlina External Affairs Manager How will you shape the future? In our 10-week internship programs, you’re paid to dig into challenging projects with real business impact",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.capitalonecareers.com/internship-programs",
+      "external_id": null,
+      "verified_at": "2026-11-07T22:51:14Z",
+      "match_score": 85
+    },
+    {
+      "id": "capital-one-financial-5cb1bacbbd24",
+      "source_key": "capital-one-financial",
+      "fortune_rank": 63,
+      "fortune_500": true,
+      "company": "Capital One Financial",
+      "title": "Early Internship Program",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Commercial banking",
+        "Risk management",
+        "Business analyst"
+      ],
+      "tags": [
+        "SQL",
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "You’re located near You’re interested in Find Jobs Early Internship Program Give your career a head start. Facebook LinkedIn Instagram YouTube Glassdoor Kickstart your career with the Early Internship Program Capital One’s Early Internship Program gives current college students…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": true,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.capitalonecareers.com/early-internships-program",
+      "external_id": null,
+      "verified_at": "2026-11-07T22:51:14Z",
       "match_score": 85
     },
     {
