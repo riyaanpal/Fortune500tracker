@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T17:57:07Z",
+  "updated_at": "2026-11-10T23:30:52Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -11,7 +11,7 @@
   "directory_warnings": [
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-11-10T17:54:04Z",
+  "directory_refreshed_at": "2026-11-10T23:26:44Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 176,
   "companies_failed_last_24h": 19,
@@ -41,6 +41,19 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/Careers/jobs: 429 Client Error: Too Many Requests for url: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/Careers/jobs"
+    },
+    {
+      "key": "alphabet",
+      "rank": 5,
+      "company": "Alphabet",
+      "fortune_500": true,
+      "checked_at": "2026-11-10T23:30:52Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
     },
     {
       "key": "baker-hughes",
@@ -93,19 +106,6 @@
       "adapter": "discovery",
       "careers_url": "https://jobs.citi.com/search-jobs",
       "error": "Failed request: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs: 429 Client Error: Too Many Requests for url: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs"
-    },
-    {
-      "key": "ferguson-enterprises",
-      "rank": 147,
-      "company": "Ferguson Enterprises",
-      "fortune_500": true,
-      "checked_at": "2026-11-09T18:57:35Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
     },
     {
       "key": "franklin-templeton",
@@ -199,6 +199,32 @@
       "error": "Failed request: https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/MTB/jobs: 429 Client Error: Too Many Requests for url: https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/MTB/jobs"
     },
     {
+      "key": "marvell-technology",
+      "rank": 476,
+      "company": "Marvell Technology",
+      "fortune_500": true,
+      "checked_at": "2026-11-10T23:30:52Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers",
+      "error": "Failed request: https://marvell.wd1.myworkdayjobs.com/wday/cxs/marvell/MarvellCareers/jobs: 429 Client Error: Too Many Requests for url: https://marvell.wd1.myworkdayjobs.com/wday/cxs/marvell/MarvellCareers/jobs"
+    },
+    {
+      "key": "nasdaq",
+      "rank": 470,
+      "company": "Nasdaq",
+      "fortune_500": true,
+      "checked_at": "2026-11-10T23:30:52Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site",
+      "error": "Failed request: https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs: 429 Client Error: Too Many Requests for url: https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs"
+    },
+    {
       "key": "occidental-petroleum",
       "rank": 173,
       "company": "Occidental Petroleum",
@@ -210,19 +236,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://oxy.wd5.myworkdayjobs.com/wday/cxs/oxy/Corporate/jobs: 429 Client Error: Too Many Requests for url: https://oxy.wd5.myworkdayjobs.com/wday/cxs/oxy/Corporate/jobs"
-    },
-    {
-      "key": "somnigroup-international",
-      "rank": 35,
-      "company": "Somnigroup International",
-      "fortune_500": true,
-      "checked_at": "2026-11-10T17:57:07Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": "https://mattressfirm.wd1.myworkdayjobs.com/MattressFirmCareers",
-      "error": "Failed request: https://att.wd1.myworkdayjobs.com/wday/cxs/att/ATTGeneral/jobs: 429 Client Error: Too Many Requests for url: https://att.wd1.myworkdayjobs.com/wday/cxs/att/ATTGeneral/jobs"
     },
     {
       "key": "state-street",
@@ -238,19 +251,6 @@
       "error": "Failed request: https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs: 429 Client Error: Too Many Requests for url: https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs"
     },
     {
-      "key": "united-services-automobile-assn",
-      "rank": 93,
-      "company": "United Services Automobile Assn.",
-      "fortune_500": true,
-      "checked_at": "2026-11-09T18:57:35Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
-    },
-    {
       "key": "xcel-energy",
       "rank": 306,
       "company": "Xcel Energy",
@@ -264,9 +264,9 @@
       "error": "Failed request: https://xcelenergy.wd1.myworkdayjobs.com/wday/cxs/xcelenergy/External/jobs: 429 Client Error: Too Many Requests for url: https://xcelenergy.wd1.myworkdayjobs.com/wday/cxs/xcelenergy/External/jobs"
     }
   ],
-  "companies_with_eligible_jobs": 34,
+  "companies_with_eligible_jobs": 43,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 305,
+  "opportunity_count": 400,
   "opportunities": [
     {
       "id": "travelers-101d131b5334",
@@ -326,6 +326,63 @@
       "url": "https://travelers.wd5.myworkdayjobs.com/External/job/CT---Hartford/Legal-Intern_R-53660",
       "external_id": "R-53660",
       "verified_at": "2026-11-10T02:12:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-56a66c5a945d",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Project & Development Services Summer 2027 Internship - Nashville, TN",
+      "location": "Nashville, TN",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-10",
+      "deadline": "2026-12-30",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Nashville-TN/Project---Development-Services-Summer-2027-Internship---Nashville--TN_REQ544847",
+      "external_id": "REQ544847",
+      "verified_at": "2026-11-10T23:28:46Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-5a0c6d0ea4eb",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Apprentice Engineer- UNION",
+      "location": "San Francisco, CA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-10",
+      "deadline": "2026-11-17",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/San-Francisco-CA/Apprentice-Engineer--UNION_REQ545252",
+      "external_id": "REQ545252",
+      "verified_at": "2026-11-10T23:28:46Z",
       "match_score": 85
     },
     {
@@ -489,6 +546,35 @@
       "url": "https://expedia.wd108.myworkdayjobs.com/search/job/Brazil---Sao-Paulo/Business-Development-Intern_R-105869-1",
       "external_id": "R-105869",
       "verified_at": "2026-11-10T02:13:17Z",
+      "match_score": 90
+    },
+    {
+      "id": "american-electric-power-1c30cd43dcc0",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "HR/Talent Acquisition - Campus Intern",
+      "location": "Columbus, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Job Posting End Date 11-20-2026 Please note the job posting will close on the day before the posting end date. Job Summary Summer Internship Program at American Electric Power Each summer, American Electric Power welcomes the brightest and most driven college students to join…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "PowerPoint, Outlook, Teams, etc.) Familiarity with Canva is a plus. Must be at least 18 years old. Graduation date must be December 2027 or later. This position is not…",
+      "freshman_friendly": true,
+      "posted_date": "2026-11-10",
+      "deadline": "2026-11-20",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Columbus-OH/HR-Talent-Acquisition---Campus-Intern_R19835",
+      "external_id": "R19835",
+      "verified_at": "2026-11-10T23:28:09Z",
       "match_score": 90
     },
     {
@@ -710,7 +796,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance-Technology-Intern--Summer-2027_116135",
       "external_id": "116135",
-      "verified_at": "2026-11-10T17:54:45Z",
+      "verified_at": "2026-11-10T23:27:25Z",
       "match_score": 85
     },
     {
@@ -737,7 +823,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Working-Remote-USA/Field-Sales-Intern--Sacramento--CA----Summer-2027_116137",
       "external_id": "116137",
-      "verified_at": "2026-11-10T17:54:46Z",
+      "verified_at": "2026-11-10T23:27:26Z",
       "match_score": 85
     },
     {
@@ -764,7 +850,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Working-Remote-USA/Field-Sales-Intern--Chicago----Summer-2027_116138",
       "external_id": "116138",
-      "verified_at": "2026-11-10T17:54:46Z",
+      "verified_at": "2026-11-10T23:27:26Z",
       "match_score": 85
     },
     {
@@ -795,6 +881,61 @@
       "external_id": "R5039331",
       "verified_at": "2026-11-10T09:59:02Z",
       "match_score": 85
+    },
+    {
+      "id": "american-electric-power-0436c676a5bd",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Maintenance Mechanic Intern",
+      "location": "Rockport, IN",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Job Posting End Date 11-12-2026 Please note the job posting will close on the day before the posting end date Job Summary The Maintenance Mechanic Intern provides students pursuing a technical degree or certificate with hands-on exposure to mechanical maintenance activities in…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-09",
+      "deadline": "2026-11-12",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Rockport-IN/Maintenance-Mechanic-Intern_R20964",
+      "external_id": "R20964",
+      "verified_at": "2026-11-10T23:28:09Z",
+      "match_score": 85
+    },
+    {
+      "id": "american-electric-power-85c79afaa4be",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Engineering Intern – Shreveport, LA and nearby areas",
+      "location": "Shreveport, LA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "Job Posting End Date 11-12-2026 Please note the job posting will close on the day before the posting end date. Job Summary Summer Internship Program at American Electric Power Each summer, American Electric Power welcomes the brightest and most driven college students to join…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ation Board for Engineering and Technology (ABET). Must have completed at least your freshman year. Graduation date of December 2027 or later. Must be at least 18 years old.…",
+      "freshman_friendly": true,
+      "posted_date": "2026-11-09",
+      "deadline": "2026-11-12",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Shreveport-LA/Engineering-Intern---Shreveport--LA-and-nearby-areas_R18668",
+      "external_id": "R18668",
+      "verified_at": "2026-11-10T23:28:09Z",
+      "match_score": 90
     },
     {
       "id": "johnson-johnson-a5f4fb04cc3b",
@@ -1055,6 +1196,35 @@
       "match_score": 90
     },
     {
+      "id": "jones-lang-lasalle-c09b30767f0f",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Automation Engineering Apprentice",
+      "location": "Niagara Falls, NY",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-06",
+      "deadline": "2026-11-12",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Niagara-Falls-NY/Automation-Engineering-Apprentice_REQ530510",
+      "external_id": "REQ530510",
+      "verified_at": "2026-11-10T23:29:03Z",
+      "match_score": 85
+    },
+    {
       "id": "johnson-johnson-f5cec2c78de7",
       "source_key": "johnson-johnson",
       "fortune_rank": 45,
@@ -1225,6 +1395,61 @@
       "match_score": 85
     },
     {
+      "id": "motorola-solutions-be2a35564a4c",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "UO FE Summer Internship 2027",
+      "location": "Tennessee Remote Work",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-05",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Tennessee-Remote-Work/UO-FE-Summer-Internship-2027_R69092",
+      "external_id": "R69092",
+      "verified_at": "2026-11-10T23:29:37Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-eae98366c919",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "HSE Internship",
+      "location": "Johor Bahru, Malaysia",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-05",
+      "deadline": "2026-12-04",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Johor-Bahru-Malaysia/HSE-Internship_REQ547215",
+      "external_id": "REQ547215",
+      "verified_at": "2026-11-10T23:28:48Z",
+      "match_score": 85
+    },
+    {
       "id": "johnson-johnson-91e489060cff",
       "source_key": "johnson-johnson",
       "fortune_rank": 45,
@@ -1342,6 +1567,38 @@
       "match_score": 85
     },
     {
+      "id": "american-electric-power-203a009a7cce",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Accounting Intern - Spring Semester 2027",
+      "location": "Columbus, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Accounting / financial analyst",
+        "FP&A",
+        "Corporate finance"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "FP&A",
+        "Accounting"
+      ],
+      "summary": "Job Posting End Date 11-20-2026 Please note the job posting will close on the day before the posting end date. Job Summary We are seeking a motivated and detail-oriented Accounting & Finance Intern to join our accounting and finance team",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-05",
+      "deadline": "2026-11-20",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Columbus-OH/Accounting-Intern---Spring-Semester-2027_R20920",
+      "external_id": "R20920",
+      "verified_at": "2026-11-10T23:28:10Z",
+      "match_score": 85
+    },
+    {
       "id": "prudential-financial-61dd68a877f1",
       "source_key": "prudential-financial",
       "fortune_rank": 78,
@@ -1399,6 +1656,65 @@
       "url": "https://bah.wd1.myworkdayjobs.com/BAH_Jobs/job/McLean-VA/University--AI-RAN-Telecommunications-Engineer-Intern_R0253024",
       "external_id": "R0253024",
       "verified_at": "2026-11-09T18:55:37Z",
+      "match_score": 85
+    },
+    {
+      "id": "american-electric-power-8706f55c4d30",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "HR/Talent Acquisition - Campus Intern",
+      "location": "Tulsa, OK",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Job Posting End Date 11-14-2026 Please note the job posting will close on the day before the posting end date. Job Summary Summer Internship Program at American Electric Power Each summer, American Electric Power welcomes the brightest and most driven college students to join…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "PowerPoint, Outlook, Teams, etc.) Familiarity with Canva is a plus. Must be at least 18 years old. Graduation date must be December 2027 or later. This position is not…",
+      "freshman_friendly": true,
+      "posted_date": "2026-11-04",
+      "deadline": "2026-11-14",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Tulsa-OK/HR-Talent-Acquisition---Campus-Intern_R20774",
+      "external_id": "R20774",
+      "verified_at": "2026-11-10T23:28:10Z",
+      "match_score": 90
+    },
+    {
+      "id": "jones-lang-lasalle-cfeab6afc74c",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Intern",
+      "location": "Kuala Lumpur, Malaysia",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-03",
+      "deadline": "2026-11-30",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Kuala-Lumpur-Malaysia/Intern_REQ543495",
+      "external_id": "REQ543495",
+      "verified_at": "2026-11-10T23:28:48Z",
       "match_score": 85
     },
     {
@@ -1780,6 +2096,92 @@
       "match_score": 85
     },
     {
+      "id": "jones-lang-lasalle-e5d16c5ecab3",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Tétris Intern Project Manager Luxembourg",
+      "location": "Bertrange, LUX",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-02",
+      "deadline": "2027-01-04",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Bertrange-LUX/Ttris-Intern-Project-Manager-Luxembourg_REQ537658",
+      "external_id": "REQ537658",
+      "verified_at": "2026-11-10T23:29:11Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-b5a002b9c89b",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Tétris Intern Project Manager Brussels",
+      "location": "Brussels, BEL",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-02",
+      "deadline": "2027-01-29",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Brussels-BEL/Ttris-Intern-Project-Manager-Brussels_REQ460223",
+      "external_id": "REQ460223",
+      "verified_at": "2026-11-10T23:29:11Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-44dc896936d0",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Leasing Summer 2027 Internship - Irvine, CA",
+      "location": "Irvine, CA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Tech consulting",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-02",
+      "deadline": "2027-08-31",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Irvine-CA/Leasing-Summer-2027-Internship---Irvine--CA_REQ540051",
+      "external_id": "REQ540051",
+      "verified_at": "2026-11-10T23:28:48Z",
+      "match_score": 85
+    },
+    {
       "id": "ge-aerospace-f5855e2425de",
       "source_key": "ge-aerospace",
       "fortune_rank": 101,
@@ -1836,6 +2238,35 @@
       "match_score": 85
     },
     {
+      "id": "jones-lang-lasalle-a289b62611af",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Hotels and Hospitality Summer 2027 Internship - Chicago, IL",
+      "location": "Chicago, IL",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-01",
+      "deadline": "2027-01-01",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Chicago-IL/Hotels-and-Hospitality-Summer-2027-Internship---Chicago--IL_REQ531742",
+      "external_id": "REQ531742",
+      "verified_at": "2026-11-10T23:28:48Z",
+      "match_score": 85
+    },
+    {
       "id": "conocophillips-acbc7a4dfdee",
       "source_key": "conocophillips",
       "fortune_rank": 75,
@@ -1862,6 +2293,93 @@
       "external_id": "REQ-006200",
       "verified_at": "2026-11-09T08:02:59Z",
       "match_score": 90
+    },
+    {
+      "id": "motorola-solutions-73ac707b2565",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Test Automation Intern",
+      "location": "Ho Chi Minh, Vietnam",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Digital transformation",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Strategy",
+        "Risk"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-30",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Ho-Chi-Minh-Vietnam/Test-Automation-Engineer-Intern_R69625",
+      "external_id": "R69625",
+      "verified_at": "2026-11-10T23:29:33Z",
+      "match_score": 85
+    },
+    {
+      "id": "motorola-solutions-d8d7b0a3ac6c",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "QA Automation Intern",
+      "location": "Ho Chi Minh, Vietnam",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Digital transformation",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Risk"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-30",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Ho-Chi-Minh-Vietnam/QA-Automation-Fresher_R69443",
+      "external_id": "R69443",
+      "verified_at": "2026-11-10T23:29:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "motorola-solutions-768bbd111105",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Asia HR Intern",
+      "location": "Singapore, Singapore",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-30",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Singapore-Singapore/Asia-HR-Intern_R69739",
+      "external_id": "R69739",
+      "verified_at": "2026-11-10T23:29:34Z",
+      "match_score": 85
     },
     {
       "id": "ge-aerospace-ad4dc2620d91",
@@ -1918,6 +2436,119 @@
       "url": "https://carmax.wd1.myworkdayjobs.com/External/job/Corporate---Richmond/Process-Engineer-Intern_JR-189094-1",
       "external_id": "JR-189094",
       "verified_at": "2026-11-10T09:57:30Z",
+      "match_score": 85
+    },
+    {
+      "id": "american-electric-power-fac5279f5e24",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Work Scheduling Intern",
+      "location": "Pulaski, VA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "Job Posting End Date Please note the job posting will close on the day before the posting end date. Job Summary Under direct supervision, utilize business administration principles to perform analytical studies. Provide assistance on projects that involve planning, preparing…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-30",
+      "deadline": null,
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Pulaski-VA/Work-Scheduling-Intern_R20769",
+      "external_id": "R20769",
+      "verified_at": "2026-11-10T23:28:09Z",
+      "match_score": 85
+    },
+    {
+      "id": "american-electric-power-139b7b26d4d5",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Communications & Marketing Intern",
+      "location": "Roanoke, VA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy"
+      ],
+      "summary": "Job Posting End Date 11-20-2026 Please note the job posting will close on the day before the posting end date. Job Summary Appalachian Power Company is seeking a full-time, paid Communications & Marketing intern for its Roanoke, Virginia office for Summer 2027",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-30",
+      "deadline": "2026-11-20",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Roanoke-VA/Communications---Marketing-Intern_R20502",
+      "external_id": "R20502",
+      "verified_at": "2026-11-10T23:28:08Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-70982b6f9278",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Leasing Summer 2027 Internship - Chicago, IL",
+      "location": "Chicago, IL",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Tech consulting",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-29",
+      "deadline": "2027-01-30",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Chicago-IL/Leasing-Summer-2027-Internship---Chicago--IL_REQ539373",
+      "external_id": "REQ539373",
+      "verified_at": "2026-11-10T23:28:49Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-ad1473c4b108",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "HVAC Technician Intern",
+      "location": "Berkeley, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-29",
+      "deadline": "2026-11-29",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Berkeley-MO/HVAC-Technician-Intern_REQ524659",
+      "external_id": "REQ524659",
+      "verified_at": "2026-11-10T23:28:49Z",
       "match_score": 85
     },
     {
@@ -2004,6 +2635,95 @@
       "url": "https://visa.wd5.myworkdayjobs.com/Visa/job/ES---Madrid-Spain/Consulting---Analytics-Summer-Intern_REF089917W-1",
       "external_id": "REF089917W",
       "verified_at": "2026-11-10T09:57:29Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-d1b1c6a9ec6a",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Property Management Intern",
+      "location": "Lynchburg, VA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-28",
+      "deadline": "2026-11-30",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Lynchburg-VA/Property-Management-Intern_REQ543436",
+      "external_id": "REQ543436",
+      "verified_at": "2026-11-10T23:28:49Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-c11555a458a5",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Leasing Summer 2027 Internship - Chicago, IL",
+      "location": "Chicago, IL",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Tech consulting",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-28",
+      "deadline": "2027-01-28",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Chicago-IL/Leasing-Summer-2027-Internship---Chicago--IL_REQ539556",
+      "external_id": "REQ539556",
+      "verified_at": "2026-11-10T23:28:49Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-6515f5e8d7b3",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Engineering Summer 2027 Internship - Atlanta, GA",
+      "location": "Atlanta, GA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-28",
+      "deadline": "2026-12-28",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Atlanta-GA/Engineering-Summer-2027-Internship---Atlanta--GA_REQ544583",
+      "external_id": "REQ544583",
+      "verified_at": "2026-11-10T23:28:49Z",
       "match_score": 85
     },
     {
@@ -4099,9 +4819,189 @@
       "deadline": "2026-11-30",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/Sales-Development-Program---Internship_R-120996",
       "external_id": "R-120996",
-      "verified_at": "2026-11-10T09:59:38Z",
-      "match_score": 85,
-      "source_stale": true
+      "verified_at": "2026-11-10T23:30:07Z",
+      "match_score": 85
+    },
+    {
+      "id": "motorola-solutions-e80b1f0e6e37",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Pricing & Analytics Intern",
+      "location": "Penang, Malaysia",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Operations analyst",
+        "FP&A"
+      ],
+      "tags": [
+        "Excel",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-27",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Penang-Malaysia/Pricing---Analytics-Intern_R70031",
+      "external_id": "R70031",
+      "verified_at": "2026-11-10T23:29:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "motorola-solutions-0e16ccfcd529",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Motorola Solutions Foundation - 2027 Summer Internship",
+      "location": "Chicago, IL",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "scretion #LI-CR1 Basic Requirements Candidate must be currently pursuing a Bachelor's Degree with a graduation date on or after December 2027 Candidates must be local to the…",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-27",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Motorola-Solutions-Foundation---2027-Summer-Internship_R68722",
+      "external_id": "R68722",
+      "verified_at": "2026-11-10T23:29:38Z",
+      "match_score": 90
+    },
+    {
+      "id": "motorola-solutions-4841b6c4c253",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Intern DevOps Engineer",
+      "location": "Krakow, Poland",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-27",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Krakow-Poland/Intern-DevOps-Engineer_R69906",
+      "external_id": "R69906",
+      "verified_at": "2026-11-10T23:29:35Z",
+      "match_score": 85
+    },
+    {
+      "id": "motorola-solutions-b190b0a7dcca",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Finance Intern",
+      "location": "Penang, Malaysia",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate finance",
+        "Business analyst",
+        "FP&A"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations",
+        "Finance",
+        "FP&A",
+        "Accounting"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-27",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Penang-Malaysia/Finance-Intern_R69744",
+      "external_id": "R69744",
+      "verified_at": "2026-11-10T23:29:33Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-fa7406e642ad",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Transaction Management Summer 2027 Internship - Washington, DC",
+      "location": "Washington, DC",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Strategy"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-27",
+      "deadline": "2026-12-27",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Washington-DC/Transaction-Management-Summer-2027-Internship---Washington--DC_REQ541940",
+      "external_id": "REQ541940",
+      "verified_at": "2026-11-10T23:28:49Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-80b61c256f7c",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Intern, Office Leasing Advisory",
+      "location": "Makati, Philippines",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Tech consulting",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-27",
+      "deadline": "2026-11-30",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Makati-Philippines/Intern--Office-Leasing-Advisory_REQ523575",
+      "external_id": "REQ523575",
+      "verified_at": "2026-11-10T23:28:49Z",
+      "match_score": 85
     },
     {
       "id": "j-m-smucker-337eea07955a",
@@ -4128,7 +5028,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/McCalla-AL/Human-Resources-Intern--McCalla--AL--Fall-2026--Part-time-_115933",
       "external_id": "115933",
-      "verified_at": "2026-11-10T17:54:46Z",
+      "verified_at": "2026-11-10T23:27:26Z",
       "match_score": 85
     },
     {
@@ -4295,6 +5195,39 @@
       "match_score": 85
     },
     {
+      "id": "motorola-solutions-221489066151",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Intern – Business Management & Finance",
+      "location": "Singapore, Singapore",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Business analyst",
+        "Operations analyst",
+        "FP&A"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Finance"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-26",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Singapore-Singapore/Intern---Business-Management----Finance_R67673",
+      "external_id": "R67673",
+      "verified_at": "2026-11-10T23:29:35Z",
+      "match_score": 85
+    },
+    {
       "id": "hartford-insurance-group-2384d5ffb64c",
       "source_key": "hartford-insurance-group",
       "fortune_rank": 160,
@@ -4387,6 +5320,91 @@
       "match_score": 90
     },
     {
+      "id": "american-electric-power-7bc2925bd918",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Electrical Engineering Intern - Summer 2027",
+      "location": "Columbus, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Job Posting End Date 11-13-2026 Please note the job posting will close on the day before the posting end date. This is your chance to embark on an exciting journey where you can make a real impact from day one! You’ll learn directly from industry leaders, collaborate with a…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ation Board for Engineering and Technology (ABET). Must have completed at least your freshman year. Graduation date of December 2027 or later. Must be at least 18 years old.…",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-26",
+      "deadline": "2026-11-13",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Columbus-OH/Electrical-Engineering-Intern---Columbus--OH-and-nearby-areas--Summer-2027_R20679",
+      "external_id": "R20679",
+      "verified_at": "2026-11-10T23:28:10Z",
+      "match_score": 90
+    },
+    {
+      "id": "american-electric-power-717675f6a3a0",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Customer Design Technician Intern",
+      "location": "Pulaski, VA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Job Posting End Date Please note the job posting will close on the day before the posting end date. Job Summary This position involves using computer-aided drafting (CAD) to create & update 3D Inventory parts, assemblies, and drawings, as well as 2D AutoCAD Electrical drawings",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-26",
+      "deadline": null,
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Pulaski-VA/Customer-Design-Technician-Intern_R20594",
+      "external_id": "R20594",
+      "verified_at": "2026-11-10T23:28:10Z",
+      "match_score": 85
+    },
+    {
+      "id": "motorola-solutions-6adab7af34fa",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Finance Intern",
+      "location": "Penang, Malaysia",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate finance",
+        "Business analyst",
+        "FP&A"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations",
+        "Finance",
+        "FP&A",
+        "Accounting"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-23",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Penang-Malaysia/Finance-Intern_R70034-1",
+      "external_id": "R70034",
+      "verified_at": "2026-11-10T23:29:33Z",
+      "match_score": 85
+    },
+    {
       "id": "crown-holdings-4230b0123b71",
       "source_key": "crown-holdings",
       "fortune_rank": 356,
@@ -4413,6 +5431,31 @@
       "external_id": "JR103913",
       "verified_at": "2026-11-10T17:56:07Z",
       "match_score": 85
+    },
+    {
+      "id": "american-electric-power-e2075e769940",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Construction Management Intern",
+      "location": "Louisa, KY",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Job Posting End Date 11-13-2026 Please note the job posting will close on the day before the posting end date. This is your chance to embark on an exciting journey where you can make a real impact from day one! You’ll learn directly from industry leaders, collaborate with a…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "nical Engineering, Project Management, or a related field from an accredited college or university. Graduation date of December 2027 or later. Must be at least 18 years old.…",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-23",
+      "deadline": "2026-11-13",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Louisa-KY/Construction-Management-Intern_R19754",
+      "external_id": "R19754",
+      "verified_at": "2026-11-10T23:28:08Z",
+      "match_score": 90
     },
     {
       "id": "unum-group-3a7c8cd37d33",
@@ -4468,7 +5511,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Revenue-Growth-Management-Intern--Summer-2027_116012",
       "external_id": "116012",
-      "verified_at": "2026-11-10T17:54:46Z",
+      "verified_at": "2026-11-10T23:27:26Z",
       "match_score": 85
     },
     {
@@ -4497,7 +5540,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Net-Revenue-Optimization-Intern--Summer-2027_116006",
       "external_id": "116006",
-      "verified_at": "2026-11-10T17:54:46Z",
+      "verified_at": "2026-11-10T23:27:26Z",
       "match_score": 85
     },
     {
@@ -4561,6 +5604,271 @@
       "match_score": 85
     },
     {
+      "id": "american-electric-power-09159a16b69b",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Utility Forester Intern - Summer 2027",
+      "location": "Charleston, WV",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations"
+      ],
+      "summary": "Job Posting End Date 11-20-2026 Please note the job posting will close on the day before the posting end date. This is your chance to embark on an exciting journey where you can make a real impact from day one! You’ll learn directly from industry leaders, collaborate with a…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "to travel/drive as required by field assignments. Must have completed at least your freshman year. Graduation date of December 2027 or later. Must be at least 18 years old.…",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-22",
+      "deadline": "2026-11-20",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Charleston-WV/Utility-Forester-Intern_R14578",
+      "external_id": "R14578",
+      "verified_at": "2026-11-10T23:28:09Z",
+      "match_score": 90
+    },
+    {
+      "id": "american-electric-power-662214b5cf1c",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "User Experience Design Intern",
+      "location": "Columbus, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Product management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "Job Posting End Date 11-13-2026 Please note the job posting will close on the day before the posting end date. As a User Experience Design Intern, you will join the User Experience team within AEP's Information Technology organization, creating effective digital experiences for…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "sual Design, Computer Science, or a related field. Must have completed at least your freshman year. Graduation date of December 2027 or later. Must be at least 18 years old.…",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-22",
+      "deadline": "2026-11-13",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Columbus-OH/User-Experience-Design-Intern_R20054",
+      "external_id": "R20054",
+      "verified_at": "2026-11-10T23:28:09Z",
+      "match_score": 90
+    },
+    {
+      "id": "american-electric-power-7aabc234689b",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Technology Intern - Cook Nuclear - Bridgman, MI",
+      "location": "Bridgman, MI",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Job Posting End Date 11-13-2026 Please note the job posting will close on the day before the posting end date. This is your chance to embark on an exciting journey where you can make a real impact from day one! You’ll learn directly from industry leaders, collaborate with a…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "nce, or related technology degree. Minimum 3.0 GPA Must have completed at least your freshman year. Graduation date of December 2027 or later. Must be at least 18 years old.…",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-22",
+      "deadline": "2026-11-13",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Bridgman-MI/Technology-Intern---Cook-Nuclear---Bridgman--MI_R20018",
+      "external_id": "R20018",
+      "verified_at": "2026-11-10T23:28:09Z",
+      "match_score": 90
+    },
+    {
+      "id": "american-electric-power-69ebf38a830f",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Supply Chain Intern- Columbus, OH",
+      "location": "Columbus, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Job Posting End Date 11-13-2026 Please note the job posting will close on the day before the posting end date. This is your chance to embark on an exciting journey where you can make a real impact from day one! You’ll learn directly from industry leaders, collaborate with a…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ess degree with a focus on Supply Chain Management Must have completed at least your freshman year. Graduation date of December 2027 or later. Must be at least 18 years old.…",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-22",
+      "deadline": "2026-11-13",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Columbus-OH/Supply-Chain-Intern--Columbus--OH_R19950",
+      "external_id": "R19950",
+      "verified_at": "2026-11-10T23:28:09Z",
+      "match_score": 90
+    },
+    {
+      "id": "american-electric-power-20d6b6e4baef",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Engineering Intern – Ft. Wayne, IN",
+      "location": "Ft. Wayne, IN",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Job Posting End Date 11-14-2026 Please note the job posting will close on the day before the posting end date. Job Summary Summer Internship Program at American Electric Power Each summer, American Electric Power welcomes the brightest and most driven college students to join…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ation Board for Engineering and Technology (ABET). Must have completed at least your freshman year. Graduation date of December 2027 or later. Must be at least 18 years old.…",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-22",
+      "deadline": "2026-11-14",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Ft-Wayne-IN/Engineering-Intern---Ft-Wayne--IN_R20041",
+      "external_id": "R20041",
+      "verified_at": "2026-11-10T23:28:09Z",
+      "match_score": 90
+    },
+    {
+      "id": "american-electric-power-4c5ddee6900d",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Data Scientist Intern",
+      "location": "Columbus, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Tableau",
+        "Power BI",
+        "AI / ML"
+      ],
+      "summary": "Job Posting End Date 11-13-2026 Please note the job posting will close on the day before the posting end date. This is your chance to embark on an exciting journey where you can make a real impact from day one! You’ll learn directly from industry leaders, collaborate with a…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ity to work collaboratively in a team environment. Must have completed at least your freshman year. Graduation date of December 2027 or later. Must be at least 18 years old.…",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-22",
+      "deadline": "2026-11-13",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Columbus-OH/Data-Scientist-Intern---Columbus--OH_R20499",
+      "external_id": "R20499",
+      "verified_at": "2026-11-10T23:28:08Z",
+      "match_score": 90
+    },
+    {
+      "id": "american-electric-power-1eaa982cd874",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Business Ops Support Intern - Charleston, WV",
+      "location": "Charleston, WV",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "FP&A",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "FP&A",
+        "Accounting"
+      ],
+      "summary": "Job Posting End Date 11-13-2026 Please note the job posting will close on the day before the posting end date. This is your chance to embark on an exciting journey where you can make a real impact from day one! You’ll learn directly from industry leaders, collaborate with a…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "egree in Accounting, Finance, or a related field. Must have completed at least your sophomore year. Graduation date of December 2027 or later. Must be at least 18 years old.…",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-22",
+      "deadline": "2026-11-13",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Charleston-WV/Business-Ops-Support-Intern---Charleston--WV_R19974",
+      "external_id": "R19974",
+      "verified_at": "2026-11-10T23:28:10Z",
+      "match_score": 90
+    },
+    {
+      "id": "american-electric-power-9d3481833189",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Accounting & Finance Intern – Columbus, OH and nearby areas",
+      "location": "Columbus, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate finance",
+        "Business analyst",
+        "FP&A"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "FP&A",
+        "Accounting"
+      ],
+      "summary": "Job Posting End Date 11-13-2026 Please note the job posting will close on the day before the posting end date. This is your chance to embark on an exciting journey where you can make a real impact from day one! You’ll learn directly from industry leaders, collaborate with a…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "degree in Accounting, Finance, or a related field. Must have completed at least your freshman year. Graduation date of December 2027 or later. Must be at least 18 years old.…",
+      "freshman_friendly": true,
+      "posted_date": "2026-10-22",
+      "deadline": "2026-11-13",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Columbus-OH/Acounting---Finance-Intern---Columbus--OH-and-nearby-areas_R18884",
+      "external_id": "R18884",
+      "verified_at": "2026-11-10T23:28:09Z",
+      "match_score": 90
+    },
+    {
+      "id": "jones-lang-lasalle-a20261c42292",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Intern – Administration & Business Support",
+      "location": "Colombo, Sri Lanka",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-21",
+      "deadline": "2026-11-25",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Colombo-Sri-Lanka/Intern---Administration---Business-Support_REQ543355",
+      "external_id": "REQ543355",
+      "verified_at": "2026-11-10T23:28:50Z",
+      "match_score": 85
+    },
+    {
       "id": "hartford-insurance-group-656bf9758900",
       "source_key": "hartford-insurance-group",
       "fortune_rank": 160,
@@ -4614,6 +5922,68 @@
       "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Procurement-Intern_JR104030",
       "external_id": "JR104030",
       "verified_at": "2026-11-10T17:56:07Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-59616c3fd196",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Property Management Summer 2027 Internship - Orlando, FL",
+      "location": "Orlando, FL",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-20",
+      "deadline": "2026-12-18",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Orlando-FL/Property-Management-Summer-2027-Internship---Orlando--FL_REQ540388",
+      "external_id": "REQ540388",
+      "verified_at": "2026-11-10T23:28:50Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-ee9e46dcd929",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Operations Summer 2027 Internship – Cambridge, MA",
+      "location": "Cambridge, MA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Operations analyst",
+        "Data analyst"
+      ],
+      "tags": [
+        "Excel",
+        "Tableau",
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-20",
+      "deadline": "2026-12-20",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Cambridge-MA/Operations-Summer-2027-Internship---Cambridge--MA_REQ541934",
+      "external_id": "REQ541934",
+      "verified_at": "2026-11-10T23:28:50Z",
       "match_score": 85
     },
     {
@@ -4814,30 +6184,35 @@
       "match_score": 85
     },
     {
-      "id": "j-m-smucker-bac848157501",
-      "source_key": "smucker",
-      "fortune_rank": 456,
+      "id": "jones-lang-lasalle-42f93e28fbb5",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
       "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Sensory and Products Research Intern, Summer 2027",
-      "location": "Orrville, OH",
+      "company": "Jones Lang LaSalle",
+      "title": "Center of Excellence Summer 2027 Internship",
+      "location": "Plymouth, MN",
       "region": "United States",
       "opportunity_type": "Internship",
       "categories": [
+        "Wealth management",
         "Asset-based lending"
       ],
       "tags": [
-        "Product"
+        "Excel",
+        "AI / ML",
+        "Strategy",
+        "Operations",
+        "Accounting"
       ],
-      "summary": "Your Opportunity as an Intern This posting represents two internship opportunities: Sensory and R&D Products Research. Both roles are looking for students interested in sensory and consumer research. While both apply scientific rigor to understand our products and serve as a…",
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
+      "freshman_friendly": false,
       "posted_date": "2026-10-19",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sensory-and-Products-Research-Intern--Summer-2027_115677",
-      "external_id": "115677",
-      "verified_at": "2026-11-10T17:54:45Z",
+      "deadline": "2026-12-19",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Plymouth-MN/Center-of-Excellence-Summer-2027-Internship_REQ541722",
+      "external_id": "REQ541722",
+      "verified_at": "2026-11-10T23:28:50Z",
       "match_score": 85
     },
     {
@@ -5130,6 +6505,35 @@
       "match_score": 85
     },
     {
+      "id": "jones-lang-lasalle-b85d88023b43",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Hotels and Hospitality Summer 2027 Internship - Miami, FL",
+      "location": "Miami, FL",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-15",
+      "deadline": "2026-11-15",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Miami-FL/Hotels-and-Hospitality-Summer-2027-Internship---Miami--FL_REQ542763",
+      "external_id": "REQ542763",
+      "verified_at": "2026-11-10T23:28:50Z",
+      "match_score": 85
+    },
+    {
       "id": "johnson-johnson-af4779c3dbc0",
       "source_key": "johnson-johnson",
       "fortune_rank": 45,
@@ -5190,6 +6594,35 @@
       "url": "https://dxctechnology.wd1.myworkdayjobs.com/DXCJobs/job/MYS---PETALING-JAYA/Business-Intelligence--BI--Intern_51591002",
       "external_id": "51591002",
       "verified_at": "2026-11-10T17:56:01Z",
+      "match_score": 85
+    },
+    {
+      "id": "motorola-solutions-62a94267527c",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Test Automation Intern",
+      "location": "Ho Chi Minh, Vietnam",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Digital transformation",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Risk"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-14",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Ho-Chi-Minh-Vietnam/Test-Automation-Intern_R69442",
+      "external_id": "R69442",
+      "verified_at": "2026-11-10T23:29:33Z",
       "match_score": 85
     },
     {
@@ -5479,6 +6912,66 @@
       "match_score": 85
     },
     {
+      "id": "jones-lang-lasalle-a07c44a31eea",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Leasing Summer 2027 Internship - Parsippany, NJ",
+      "location": "Parsippany, NJ",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Tech consulting",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-13",
+      "deadline": "2026-12-13",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Parsippany-NJ/Leasing-Summer-2027-Internship---Parsippany--NJ_REQ539620",
+      "external_id": "REQ539620",
+      "verified_at": "2026-11-10T23:28:50Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-0451852dd093",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Leasing Summer 2027 Internship - New York, NY",
+      "location": "New York, NY",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Tech consulting",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-13",
+      "deadline": "2026-12-14",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/New-York-NY/Leasing-Summer-2027-Internship---New-York--NY_REQ539617",
+      "external_id": "REQ539617",
+      "verified_at": "2026-11-10T23:28:50Z",
+      "match_score": 85
+    },
+    {
       "id": "johnson-johnson-0436572ca6da",
       "source_key": "johnson-johnson",
       "fortune_rank": 45,
@@ -5560,7 +7053,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Talent-Acquisition-Intern--Summer-2027_115992",
       "external_id": "115992",
-      "verified_at": "2026-11-10T17:54:45Z",
+      "verified_at": "2026-11-10T23:27:25Z",
       "match_score": 85
     },
     {
@@ -5947,9 +7440,8 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-11-10T09:57:25Z",
-      "match_score": 85,
-      "source_stale": true
+      "verified_at": "2026-11-10T23:28:10Z",
+      "match_score": 85
     },
     {
       "id": "salesforce-68087b8a9a6c",
@@ -6198,6 +7690,330 @@
       "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Houston-TX/Blending-Coordinator-Intern_R8582-1",
       "external_id": "R8582",
       "verified_at": "2026-11-09T08:02:51Z",
+      "match_score": 85
+    },
+    {
+      "id": "motorola-solutions-ac865e17f020",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Test Engineering Internship 2027",
+      "location": "Greater Chicago Area",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Product"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "Bachelor's Degree in Computer Science, Mechanical Engineering or Electrical Engineering Must have a graduation date on or after December 2027 Legal authorization to work in…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Greater-Chicago-Area/Test-Engineering-Internship-2027_R68059",
+      "external_id": "R68059",
+      "verified_at": "2026-11-10T23:29:36Z",
+      "match_score": 90
+    },
+    {
+      "id": "motorola-solutions-482ca6164043",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Systems Integration Engineering Intern (Summer 2027)",
+      "location": "Greater Chicago Area",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "mputer Engineering, Computer Science, IT Networking, or a related discipline. Must have an expected graduation date between 12/2028 and 6/2030. Legal authorization to work…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Greater-Chicago-Area/Systems-Integration-Engineering-Intern--Summer-2027-_R68894",
+      "external_id": "R68894",
+      "verified_at": "2026-11-10T23:29:49Z",
+      "match_score": 90
+    },
+    {
+      "id": "motorola-solutions-d7aa9f0c92f9",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Supply Chain Data Analyst Internship 2027",
+      "location": "Chicago, IL",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "FP&A",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Product",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "suing a Bachelors Degree in Supply Chain, Finance, Business, Mathematics or Engineering Must have a graduation date on or after December 2027 Travel Requirements None…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Supply-Chain-Data-Analyst-Internship-2027_R68682",
+      "external_id": "R68682",
+      "verified_at": "2026-11-10T23:29:37Z",
+      "match_score": 90
+    },
+    {
+      "id": "motorola-solutions-0e221dbe293e",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Repair Effectiveness Internship Summer 2027",
+      "location": "Chicago, IL",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "s Currently pursuing a degree in Business, Engineering, Operations, Supply Chain or a related field Graduation date no later then Dec. 2029. Travel Requirements None…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Repair-Effectiveness-Internship-Summer-2027_R68426",
+      "external_id": "R68426",
+      "verified_at": "2026-11-10T23:29:36Z",
+      "match_score": 90
+    },
+    {
+      "id": "motorola-solutions-af717c1ed3e2",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Quality & Process Engineer Summer Internship 2027",
+      "location": "Elgin, IL",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "rrently pursuing a B.S. in Engineering (Industrial, Mechanical, Electrical or Manufacturing) with a graduation date no later than Dec. 2029 Legal authorization to work in…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Elgin-IL/Quality---Process-Engineer-Summer-Internship-2027_R68673",
+      "external_id": "R68673",
+      "verified_at": "2026-11-10T23:29:37Z",
+      "match_score": 90
+    },
+    {
+      "id": "motorola-solutions-afc3d54f428a",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Customer Support Engineer Intern",
+      "location": "Taipei, Taiwan (ZTW27)",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Taipei-Taiwan-ZTW27/Customer-Support-Engineer-Intern_R66744",
+      "external_id": "R66744",
+      "verified_at": "2026-11-10T23:29:35Z",
+      "match_score": 85
+    },
+    {
+      "id": "motorola-solutions-c610cdccae2b",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Business Systems Analyst Internship Summer 2027",
+      "location": "Chicago, IL",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "IT analyst",
+        "FP&A",
+        "Business analyst"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Excel",
+        "Power BI",
+        "Cloud"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "’s degree in Supply Chain Management, Logistics, Business Analytics, Operations, or a related field Graduation date not later then Dec.2029 Travel Requirements Under 10%…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Chicago-IL/Business-Systems-Analyst-Internship-Summer-2027_R68572",
+      "external_id": "R68572",
+      "verified_at": "2026-11-10T23:29:37Z",
+      "match_score": 90
+    },
+    {
+      "id": "motorola-solutions-beede83a1aa7",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Business Support Intern",
+      "location": "Penang, Malaysia",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Penang-Malaysia/Business-Support-Intern_R69197",
+      "external_id": "R69197",
+      "verified_at": "2026-11-10T23:29:33Z",
+      "match_score": 85
+    },
+    {
+      "id": "motorola-solutions-53d403f03252",
+      "source_key": "motorola-solutions",
+      "fortune_rank": 378,
+      "fortune_500": true,
+      "company": "Motorola Solutions",
+      "title": "Business Analyst - Intern",
+      "location": "Singapore, Singapore",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Business analyst",
+        "Operations analyst",
+        "FP&A"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Excel",
+        "AI / ML",
+        "Finance"
+      ],
+      "summary": "Company Overview At Motorola Solutions, we believe that everything starts with our people. We’re a global close-knit community, united by the relentless pursuit to help keep people safer everywhere. We build and connect technologies to help protect people, property and places",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://motorolasolutions.wd5.myworkdayjobs.com/Careers/job/Singapore-Singapore/Business-Analyst---Intern_R68858",
+      "external_id": "R68858",
+      "verified_at": "2026-11-10T23:29:33Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-074cafa442a5",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Mosaic Biosciences Agronomy Co-Op/Intern – Summer 2027",
+      "location": "Virtual - US",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/Virtual---US/Co-op-Student-Admin_65109",
+      "external_id": "65109",
+      "verified_at": "2026-11-10T23:28:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-d75a6a78b3a2",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "Artificial Intelligence Co-Op/Intern - Spring 2027",
+      "location": "US - Tampa, FL (Lithia area)",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Product management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "Cloud",
+        "AI / ML",
+        "Product",
+        "Operations"
+      ],
+      "summary": "The Mosaic Company (NYSE: MOS) is the world’s leading integrated producer of concentrated phosphate and potash—two of the three most important nutrients in agriculture. We employ more than 13,000 people in six countries to serve farmers all over the world",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://mosaic.wd5.myworkdayjobs.com/mosaic/job/US---Tampa-FL-Lithia-area/Artificial-Intelligence-Co-Op-Intern---Spring-2027_64729",
+      "external_id": "64729",
+      "verified_at": "2026-11-10T23:28:34Z",
       "match_score": 85
     },
     {
@@ -6500,6 +8316,128 @@
       "match_score": 85
     },
     {
+      "id": "jones-lang-lasalle-bd8d6b1dc0c6",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Strategic Program Support Summer 2027 Internship - San Francisco, CA",
+      "location": "San Francisco, CA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Tableau",
+        "Power BI",
+        "AI / ML",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-08",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/San-Francisco-CA/Strategic-Program-Support-Summer-2027-Internship---San-Francisco--CA_REQ534203",
+      "external_id": "REQ534203",
+      "verified_at": "2026-11-10T23:28:52Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-dfb1ca50e9eb",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Property Management Summer 2027 Internship - Washington, DC",
+      "location": "Washington, DC",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-11-27",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/Washington-DC/Property-Management-Summer-2027-Internship---Washington--DC_REQ540468",
+      "external_id": "REQ540468",
+      "verified_at": "2026-11-10T23:28:52Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-bb5eb32645c7",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Property Management Summer 2027 Internship - San Francisco, CA",
+      "location": "San Francisco, CA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-11-27",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/San-Francisco-CA/Property-Management-Summer-2027-Internship---San-Francisco--CA_REQ540476",
+      "external_id": "REQ540476",
+      "verified_at": "2026-11-10T23:28:52Z",
+      "match_score": 85
+    },
+    {
+      "id": "jones-lang-lasalle-05ab23883fbf",
+      "source_key": "jones-lang-lasalle",
+      "fortune_rank": 175,
+      "fortune_500": true,
+      "company": "Jones Lang LaSalle",
+      "title": "Communications Internship - New York, NY",
+      "location": "New York, NY",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "JLL empowers you to shape a brighter way . Our people at JLL are shaping the future of real estate for a better world by combining world class services, advisory and technology for our clients. We are committed to hiring the best, most talented people and empowering them to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-08",
+      "url": "https://jll.wd1.myworkdayjobs.com/jllcareers/job/New-York-NY/Communications-Internship---New-York--NY_REQ534207",
+      "external_id": "REQ534207",
+      "verified_at": "2026-11-10T23:28:52Z",
+      "match_score": 85
+    },
+    {
       "id": "johnson-johnson-de9dc13eeff0",
       "source_key": "johnson-johnson",
       "fortune_rank": 45,
@@ -6578,7 +8516,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
       "external_id": "115736",
-      "verified_at": "2026-11-10T17:54:46Z",
+      "verified_at": "2026-11-10T23:27:28Z",
       "match_score": 85
     },
     {
@@ -6606,7 +8544,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Quality-Assurance-Intern---Oxnard--CA_115727",
       "external_id": "115727",
-      "verified_at": "2026-11-10T17:54:47Z",
+      "verified_at": "2026-11-10T23:27:26Z",
       "match_score": 85
     },
     {
@@ -6631,7 +8569,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
       "external_id": "115725",
-      "verified_at": "2026-11-10T17:54:46Z",
+      "verified_at": "2026-11-10T23:27:25Z",
       "match_score": 85
     },
     {
@@ -6659,7 +8597,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
       "external_id": "115735",
-      "verified_at": "2026-11-10T17:54:47Z",
+      "verified_at": "2026-11-10T23:27:27Z",
       "match_score": 85
     },
     {
@@ -6686,61 +8624,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Sales-Intern--Summer-2027_115803",
       "external_id": "115803",
-      "verified_at": "2026-11-10T17:54:45Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-ea5ec0d5abdb",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Research & Development Intern/Co-Op, 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Your Opportunity as a Research & Development Intern As an intern within our Research and Development organization you will have the opportunity to independently manage and conduct all technical functions of a small research project, as well as analyze data and report on key…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Research---Development-Intern-Co-Op--2027_115698",
-      "external_id": "115698",
-      "verified_at": "2026-11-10T17:54:45Z",
-      "match_score": 85
-    },
-    {
-      "id": "j-m-smucker-d6ff7a6cb30e",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Operations QA Intern, Summer 2027- Decatur, AL",
-      "location": "Decatur, AL",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Your Opportunity as an Operations QA Intern As an intern within Operations, you will work with operating technicians and salaried employees to collect data and learn the manufacturing process to better understand process capabilities for meeting specifications and support…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Decatur-AL/Operations-QA-Intern--Summer-2027--Decatur--AL_115757",
-      "external_id": "115757",
-      "verified_at": "2026-11-10T17:54:45Z",
+      "verified_at": "2026-11-10T23:27:25Z",
       "match_score": 85
     },
     {
@@ -6768,7 +8652,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/McCalla-AL/Human-Resources-Intern--McCalla--AL--Summer-2027_115887",
       "external_id": "115887",
-      "verified_at": "2026-11-10T17:54:46Z",
+      "verified_at": "2026-11-10T23:27:25Z",
       "match_score": 85
     },
     {
@@ -6796,7 +8680,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Emporia-KS/Human-Resources-Intern--Emporia--KS--Summer-2027_115888",
       "external_id": "115888",
-      "verified_at": "2026-11-10T17:54:46Z",
+      "verified_at": "2026-11-10T23:27:25Z",
       "match_score": 85
     },
     {
@@ -6824,7 +8708,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Buffalo-NY/Human-Resources-Intern--Buffalo--NY--Summer-2027_115886",
       "external_id": "115886",
-      "verified_at": "2026-11-10T17:54:46Z",
+      "verified_at": "2026-11-10T23:27:26Z",
       "match_score": 85
     },
     {
@@ -6849,7 +8733,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Human-Resources-Intern--Summer-2027_115918",
       "external_id": "115918",
-      "verified_at": "2026-11-10T17:54:45Z",
+      "verified_at": "2026-11-10T23:27:25Z",
       "match_score": 85
     },
     {
@@ -6882,7 +8766,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-11-10T17:54:45Z",
+      "verified_at": "2026-11-10T23:27:25Z",
       "match_score": 85
     },
     {
@@ -6907,7 +8791,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Corporate-Communications-Intern--Summer-2027_115919",
       "external_id": "115919",
-      "verified_at": "2026-11-10T17:54:45Z",
+      "verified_at": "2026-11-10T23:27:25Z",
       "match_score": 85
     },
     {
@@ -6933,7 +8817,67 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Category-Leadership-Intern--Summer-2027_115804",
       "external_id": "115804",
-      "verified_at": "2026-11-10T17:54:45Z",
+      "verified_at": "2026-11-10T23:27:25Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-b-hunt-transport-services-2a0daa4de436",
+      "source_key": "j-b-hunt-transport-services",
+      "fortune_rank": 371,
+      "fortune_500": true,
+      "company": "J.B. Hunt Transport Services",
+      "title": "Logistics Engineering Internship, Summer 2027",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud",
+        "Operations"
+      ],
+      "summary": "This position is designed to give students the opportunity to extend their classroom learning and receive industry experience over the summer with up to 40 hours a week. Have and maintain a cumulative GPA of 2.75, with a 3.0 in the major field of study",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://jbhunt.wd501.myworkdayjobs.com/Careers/job/Logistics-Engineering-Internship--Summer-2027_00639665",
+      "external_id": "00639665",
+      "verified_at": "2026-11-10T23:29:05Z",
+      "match_score": 85
+    },
+    {
+      "id": "j-b-hunt-transport-services-1b3af31e37bc",
+      "source_key": "j-b-hunt-transport-services",
+      "fortune_rank": 371,
+      "fortune_500": true,
+      "company": "J.B. Hunt Transport Services",
+      "title": "Finance Internship, Summer 2027",
+      "location": "Lowell, AR - JB Hunt Corporate A & Marketing",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate finance",
+        "Business analyst",
+        "FP&A"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "FP&A",
+        "Accounting"
+      ],
+      "summary": "Job Title: Finance Internship, Summer 2027 Department: Finance Country: United States of America State/Province: Arkansas City: Lowell Full/Part Time: Part time Job Summary: Under close supervision, this position performs clerical activities such as financial data entry, record…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://jbhunt.wd501.myworkdayjobs.com/Careers/job/Lowell-AR---JB-Hunt-Corporate-A--Marketing/Finance-Internship--Summer-2027_00644160",
+      "external_id": "00644160",
+      "verified_at": "2026-11-10T23:29:00Z",
       "match_score": 85
     },
     {
@@ -8492,6 +10436,338 @@
       "match_score": 85
     },
     {
+      "id": "american-electric-power-765b31a370c3",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "SkillBridge Military Intern (DOW)",
+      "location": "Columbus, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Job Posting End Date 12-31-2026 Please note the job posting will close on the day before the posting end date Job Summary AEP is a proud participant in the DOW SkillBridge program, and open to considering SkillBridge interns for all of our different departments and positions…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-31",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Columbus-OH/SkillBridge-Military-Intern--DOW-_R13772",
+      "external_id": "R13772",
+      "verified_at": "2026-11-10T23:28:09Z",
+      "match_score": 85
+    },
+    {
+      "id": "american-electric-power-09eb219f61ff",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Engineering Intern – Roanoke, VA and nearby areas",
+      "location": "Roanoke, VA",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Job Posting End Date 11-30-2026 Please note the job posting will close on the day before the posting end date. Job Summary Summer Internship Program at American Electric Power Each summer, American Electric Power welcomes the brightest and most driven college students to join…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ation Board for Engineering and Technology (ABET). Must have completed at least your freshman year. Graduation date of December 2027 or later. Must be at least 18 years old.…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-11-30",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Roanoke-VA/Engineering-Intern---Roanoke--VA-and-nearby-areas_R18722",
+      "external_id": "R18722",
+      "verified_at": "2026-11-10T23:28:09Z",
+      "match_score": 90
+    },
+    {
+      "id": "american-electric-power-7c8dabafd341",
+      "source_key": "american-electric-power",
+      "fortune_rank": 209,
+      "fortune_500": true,
+      "company": "American Electric Power",
+      "title": "Engineering Intern – Columbus, OH and nearby areas",
+      "location": "Columbus, OH",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "Job Posting End Date 11-30-2026 Please note the job posting will close on the day before the posting end date. Job Summary Summer Internship Program at American Electric Power Each summer, American Electric Power welcomes the brightest and most driven college students to join…",
+      "grad_status": "2029 eligible",
+      "grad_evidence": "ation Board for Engineering and Technology (ABET). Must have completed at least your freshman year. Graduation date of December 2027 or later. Must be at least 18 years old.…",
+      "freshman_friendly": true,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-11-30",
+      "url": "https://aep.wd1.myworkdayjobs.com/AEPCareerSite/job/Columbus-OH/Engineering-Intern---Columbus--OH-and-nearby-areas_R18719",
+      "external_id": "R18719",
+      "verified_at": "2026-11-10T23:28:09Z",
+      "match_score": 90
+    },
+    {
+      "id": "ameren-24504618a196",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "Supply Chain Internship",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-21",
+      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/Supply-Chain-Internship_033958-2",
+      "external_id": "033958",
+      "verified_at": "2026-11-10T23:29:02Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-16c417418d9a",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "Strategic Sourcing Intern-1",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-22",
+      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/Strategic-Sourcing-Intern-1_033838",
+      "external_id": "033838",
+      "verified_at": "2026-11-10T23:29:01Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-16c417418d9a",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "Strategic Sourcing Intern-1",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-22",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/Strategic-Sourcing-Intern-1_033838-1",
+      "external_id": "033838",
+      "verified_at": "2026-11-10T23:29:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-744210ecb41b",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "GIS Co-op (Real Estate)",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-24",
+      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/GIS-Co-op--Real-Estate-_033670",
+      "external_id": "033670",
+      "verified_at": "2026-11-10T23:29:02Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-744210ecb41b",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "GIS Co-op (Real Estate)",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-24",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/GIS-Co-op--Real-Estate-_033670-1",
+      "external_id": "033670",
+      "verified_at": "2026-11-10T23:29:26Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-5ed297248032",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "CAD Technician Co-op",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2027-04-05",
+      "url": "https://ameren.wd1.myworkdayjobs.com/Collegiate/job/St-Louis-MO/CAD-Technician-Co-op_033920",
+      "external_id": "033920",
+      "verified_at": "2026-11-10T23:29:01Z",
+      "match_score": 85
+    },
+    {
+      "id": "ameren-5ed297248032",
+      "source_key": "ameren",
+      "fortune_rank": 466,
+      "fortune_500": true,
+      "company": "Ameren",
+      "title": "CAD Technician Co-op",
+      "location": "St. Louis, MO",
+      "region": "United States",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "Ameren is a leader in the energy industry, and our transformation toward more clean, renewable energy is also transforming other industries and infrastructure in our communities. As a regional company serving local customers, we not only serve our communities, we're a part of…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2027-04-05",
+      "url": "https://ameren.wd1.myworkdayjobs.com/External/job/St-Louis-MO/CAD-Technician-Co-op_033920-1",
+      "external_id": "033920",
+      "verified_at": "2026-11-10T23:29:24Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-ce363fc3131b",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "North America Mosaic Co-Op Program",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Digital transformation",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Co-Ops Program — Mosaic Applications for the upcoming term are closing soon — closes Oct 18 . North America Mosaic Co-Op Program Gain real-world experience Work along side industry experts Make an impact at a Fortune 500 Company Apply → Paid Co-op + Relocation Support **…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://mosaicco.com/Co-Op-and-Internships",
+      "external_id": null,
+      "verified_at": "2026-11-10T23:28:40Z",
+      "match_score": 85
+    },
+    {
+      "id": "mosaic-769accf74e1e",
+      "source_key": "mosaic",
+      "fortune_rank": 366,
+      "fortune_500": true,
+      "company": "Mosaic",
+      "title": "North America Mosaic Co-Op Program",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Digital transformation",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML",
+        "Operations",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Co-Ops Program — Mosaic Applications for the upcoming term are closing soon — closes Oct 18 . North America Mosaic Co-Op Program Gain real-world experience Work along side industry experts Make an impact at a Fortune 500 Company Apply → Paid Co-op + Relocation Support **…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://mosaicco.com/Co-op-and-Internships",
+      "external_id": null,
+      "verified_at": "2026-11-10T23:28:41Z",
+      "match_score": 85
+    },
+    {
       "id": "mondelez-international-2ce83e181602",
       "source_key": "mondelez-international",
       "fortune_rank": 122,
@@ -8516,7 +10792,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-11-10T17:54:08Z",
+      "verified_at": "2026-11-10T23:26:50Z",
       "match_score": 85
     },
     {
@@ -8632,6 +10908,393 @@
       "match_score": 85
     },
     {
+      "id": "hormel-foods-6979850c34dd",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Supply Chain Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Preferred major(s): Supply Chain Management Preferred GPA: Minimum 2.7 cumulative, preferred 3.0 cumulative Length of program: 3-month summer internship Need Something Else? More Internship Opportunities Questions View All FAQs Go Contact Us Go",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/supply-chain-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-10T23:27:49Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-ce3807904c98",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "R&D Product Development Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Product management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "Preferred major(s): Food Science or another related field Preferred GPA: Minimum 3.0 cumulative Length of program: 3-month summer internship Need Something Else? More Internship Opportunities Questions View All FAQs Go Contact Us Go",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/rd-product-development-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-10T23:27:49Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-def3a6809eb0",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "R&D Packaging Engineering Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Preferred major(s): Packaging Engineering Preferred GPA: Minimum 3.0 cumulative Length of program: 3-month summer internship or 6-month co-op Need Something Else? More Internship Opportunities Questions View All FAQs Go Contact Us Go",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/rd-packaging-engineering-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-10T23:27:49Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-fcc911fdbecc",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Production Management Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "< Ask & Answer Internship Opportunities Explore This Section Behind the Label Company & General Charitable Giving & Donations Coupons, Samples & Recipes Food Prep, Safety & Storage Product Availability Social Responsibility Internship Opportunities Production Management…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/production-management-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-10T23:27:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-45f0af090889",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Marketing Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "< Ask & Answer Internship Opportunities Explore This Section Behind the Label Company & General Charitable Giving & Donations Coupons, Samples & Recipes Food Prep, Safety & Storage Product Availability Social Responsibility Internship Opportunities Marketing Internship Tags…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/marketing-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-10T23:27:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-d3ffbfeee034",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Maintenance Engineering Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Preferred major(s): Mechanical Engineering, Electrical Engineering, Civil Engineering, or a related engineering field Preferred GPA: Minimum 2.7 cumulative Length of program: 3-month summer internship or 6-month co-op Need Something Else?",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/maintenance-engineering-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-10T23:27:48Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-440dfc2ff788",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Live Production Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "< Ask & Answer Internship Opportunities Explore This Section Behind the Label Company & General Charitable Giving & Donations Coupons, Samples & Recipes Food Prep, Safety & Storage Product Availability Social Responsibility Internship Opportunities Live Production Internship…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/live-production-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-10T23:27:48Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-f4c280645704",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Internship Opportunities",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Strategy",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "< Working at Hormel Foods Internship Opportunities Apply Now Explore This Section Our Culture Employee Resource Groups Military Recruitment History with U.S. Military Our Hometown Working at Hormel Foods Internship Opportunities Our Locations World Headquarters – Austin, MN…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/careers/career-center/internship-opportunities/",
+      "external_id": null,
+      "verified_at": "2026-11-10T23:27:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-00c20d33c5c0",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Insights & Analytics Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Will gain exposure to and understanding of consumer and customer research components of category and brand thought leadership initiatives, analyzing various data/information sources to develop recommendations for brand growth opportunities",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/insights-analytics-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-10T23:27:50Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-48ff69caea2f",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Information Technology Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "IT analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Preferred major(s): Management of Information Systems (MIS) or related field Preferred GPA: Minimum 3.0 cumulative Length of program: 3-month summer internship Need Something Else? More Internship Opportunities Questions View All FAQs Go Contact Us Go",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/information-technology-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-10T23:27:50Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-62dcb4e134fc",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Industrial Engineering Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "Identify improvements to work methods by reviewing the methods and analyzing potential method/design changes. Analyze operations and create AutoCAD layouts. Evaluate downtimes and methods to increase efficiency. Evaluate, recommend and install new equipment and layouts",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/industrial-engineering-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-10T23:27:48Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-1ac843a64258",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Hormel Foods Recognized for Having One of the Nation’s Top Internship Programs",
+      "location": "Austin , Minn.",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "< Press Releases Company Explore This Section Press Releases Awards & Recognition Brands Company Responsibility Events Performance Innovation News Awards & Recognition Brands Company Responsibility Events Performance Innovation Media Resources Hormel Foods Recognized for Having…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/newsroom/press-releases/hormel-foods-recognized-for-having-one-of-the-nations-top-internship-programs/",
+      "external_id": null,
+      "verified_at": "2026-11-10T23:27:44Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-788d5e3f503c",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Foodservice Sales Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Preferred major(s): Marketing, Professional Selling, Agribusiness, Business Administration, Hospitality or Hotel/Restaurant Management or relevant degree program Preferred GPA: Minimum 3.0 cumulative Length of program: 3-month summer internship Need Something Else?",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/foodservice-sales-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-10T23:27:48Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-cd84bb756d5a",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Food Safety & Quality Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "This includes supporting management in the implementation of food safety and food quality processes and procedures. Preferred major(s): Food Science, Animal Science, Agricultural Business, Management, or related field Preferred GPA: Minimum 2.7 cumulative Length of program:…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/food-safety-quality-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-10T23:27:48Z",
+      "match_score": 85
+    },
+    {
       "id": "hp-452712869ca3",
       "source_key": "hp",
       "fortune_rank": 84,
@@ -8741,6 +11404,72 @@
       "match_score": 85
     },
     {
+      "id": "capital-one-financial-42c9917ee8c3",
+      "source_key": "capital-one-financial",
+      "fortune_rank": 63,
+      "fortune_500": true,
+      "company": "Capital One Financial",
+      "title": "Internship Programs",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Commercial banking",
+        "Business analyst",
+        "Risk management"
+      ],
+      "tags": [
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "You’re located near You’re interested in Find Jobs Internship Programs This is the start of something great. Marlina External Affairs Manager How will you shape the future? In our 10-week internship programs, you’re paid to dig into challenging projects with real business impact",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.capitalonecareers.com/internship-programs",
+      "external_id": null,
+      "verified_at": "2026-11-10T23:30:52Z",
+      "match_score": 85
+    },
+    {
+      "id": "capital-one-financial-5cb1bacbbd24",
+      "source_key": "capital-one-financial",
+      "fortune_rank": 63,
+      "fortune_500": true,
+      "company": "Capital One Financial",
+      "title": "Early Internship Program",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Commercial banking",
+        "Risk management",
+        "Business analyst"
+      ],
+      "tags": [
+        "SQL",
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "You’re located near You’re interested in Find Jobs Early Internship Program Give your career a head start. Facebook LinkedIn Instagram YouTube Glassdoor Kickstart your career with the Early Internship Program Capital One’s Early Internship Program gives current college students…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": true,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.capitalonecareers.com/early-internships-program",
+      "external_id": null,
+      "verified_at": "2026-11-10T23:30:52Z",
+      "match_score": 85
+    },
+    {
       "id": "brightspring-health-services-8ab26e506f03",
       "source_key": "brightspring-health-services",
       "fortune_rank": 323,
@@ -8763,6 +11492,39 @@
       "url": "https://www.brightspringhealth.com/campus-opportunities/internship-opportunities/",
       "external_id": null,
       "verified_at": "2026-11-10T09:56:54Z",
+      "match_score": 85
+    },
+    {
+      "id": "boston-consulting-group-bcg-8e598938abbf",
+      "source_key": "bcg",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "Boston Consulting Group (BCG)",
+      "title": "Internship Opportunities",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Tech consulting",
+        "Risk management",
+        "Product management"
+      ],
+      "tags": [
+        "Product",
+        "Operations",
+        "Finance",
+        "Treasury",
+        "Risk"
+      ],
+      "summary": "Internship Opportunities As a consulting intern, you’ll collaborate with a diverse team to solve our clients’ problems, benefitting from our world-class learning and development programs. You can also build a solid foundation from which to apply for a full-time consulting role…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://careers.bcg.com/global/en/internship-opportunities",
+      "external_id": null,
+      "verified_at": "2026-11-10T23:28:05Z",
       "match_score": 85
     },
     {
