@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T17:16:34Z",
+  "updated_at": "2026-11-15T21:54:19Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -11,17 +11,30 @@
   "directory_warnings": [
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-11-15T17:13:41Z",
+  "directory_refreshed_at": "2026-11-15T21:51:17Z",
   "companies_scanned_this_run": 50,
-  "companies_scanned_last_24h": 218,
-  "companies_failed_last_24h": 5,
+  "companies_scanned_last_24h": 176,
+  "companies_failed_last_24h": 6,
   "failed_or_blocked_companies_last_24h": [
     {
-      "key": "accendra-health",
-      "rank": 407,
-      "company": "Accendra Health",
+      "key": "booz-allen-hamilton-holding",
+      "rank": 372,
+      "company": "Booz Allen Hamilton Holding",
       "fortune_500": true,
-      "checked_at": "2026-11-14T21:34:41Z",
+      "checked_at": "2026-11-15T21:54:19Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.boozallen.com/jobs/search",
+      "error": "Failed request: https://bah.wd1.myworkdayjobs.com/wday/cxs/bah/BAH_Jobs/jobs: 429 Client Error: Too Many Requests for url: https://bah.wd1.myworkdayjobs.com/wday/cxs/bah/BAH_Jobs/jobs"
+    },
+    {
+      "key": "ge-healthcare",
+      "rank": 217,
+      "company": "GE HealthCare",
+      "fortune_500": true,
+      "checked_at": "2026-11-15T02:00:26Z",
       "status": "no-career-source",
       "issue_type": "No careers source found",
       "eligible_jobs": 0,
@@ -30,11 +43,24 @@
       "error": null
     },
     {
-      "key": "ge-healthcare",
-      "rank": 217,
-      "company": "GE HealthCare",
+      "key": "international-business-machines",
+      "rank": 66,
+      "company": "International Business Machines",
       "fortune_500": true,
-      "checked_at": "2026-11-15T02:00:26Z",
+      "checked_at": "2026-11-15T21:54:19Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "msd",
+      "rank": 68,
+      "company": "MSD",
+      "fortune_500": true,
+      "checked_at": "2026-11-15T21:54:19Z",
       "status": "no-career-source",
       "issue_type": "No careers source found",
       "eligible_jobs": 0,
@@ -67,24 +93,11 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://qvc.wd5.myworkdayjobs.com/wday/cxs/qvc/QVCEurope/jobs: 429 Client Error: Too Many Requests for url: https://qvc.wd5.myworkdayjobs.com/wday/cxs/qvc/QVCEurope/jobs"
-    },
-    {
-      "key": "ups",
-      "rank": 48,
-      "company": "UPS",
-      "fortune_500": true,
-      "checked_at": "2026-11-14T17:14:32Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
     }
   ],
-  "companies_with_eligible_jobs": 47,
+  "companies_with_eligible_jobs": 44,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 245,
+  "opportunity_count": 240,
   "opportunities": [
     {
       "id": "elevance-health-e196454598fd",
@@ -140,7 +153,7 @@
       "deadline": "2026-12-04",
       "url": "https://att.wd1.myworkdayjobs.com/ATTCollege/job/Dallas-Texas/LegalEdge-Intern_R-120886",
       "external_id": "R-120886",
-      "verified_at": "2026-11-15T17:16:32Z",
+      "verified_at": "2026-11-15T21:53:49Z",
       "match_score": 85
     },
     {
@@ -173,7 +186,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance-Technology-Intern--Summer-2027_116135",
       "external_id": "116135",
-      "verified_at": "2026-11-15T17:14:16Z",
+      "verified_at": "2026-11-15T21:51:55Z",
       "match_score": 85
     },
     {
@@ -200,7 +213,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Working-Remote-USA/Field-Sales-Intern--Sacramento--CA----Summer-2027_116137",
       "external_id": "116137",
-      "verified_at": "2026-11-15T17:14:17Z",
+      "verified_at": "2026-11-15T21:51:55Z",
       "match_score": 85
     },
     {
@@ -227,7 +240,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Working-Remote-USA/Field-Sales-Intern--Chicago----Summer-2027_116138",
       "external_id": "116138",
-      "verified_at": "2026-11-15T17:14:16Z",
+      "verified_at": "2026-11-15T21:51:55Z",
       "match_score": 85
     },
     {
@@ -663,6 +676,92 @@
       "match_score": 85
     },
     {
+      "id": "omnicom-group-622e6823331c",
+      "source_key": "omnicom-group",
+      "fortune_rank": 257,
+      "fortune_500": true,
+      "company": "Omnicom Group",
+      "title": "Intern, Design",
+      "location": "Washington, District of Columbia, United States of America",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML"
+      ],
+      "summary": "Agency: Weber Shandwick Job Function: Creative Job Subfunction: Design Job Description: Are you someone who sees the world visually—and knows how to bring ideas to life through design? Do you enjoy turning a creative concept into something that stops people in their tracks,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-10",
+      "deadline": null,
+      "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/Washington-District-of-Columbia-United-States-of-America/Intern--Design_R16263",
+      "external_id": "R16263",
+      "verified_at": "2026-11-15T21:52:39Z",
+      "match_score": 85
+    },
+    {
+      "id": "omnicom-group-59f755ad6989",
+      "source_key": "omnicom-group",
+      "fortune_rank": 257,
+      "fortune_500": true,
+      "company": "Omnicom Group",
+      "title": "Intern, Corporate & Public Affairs",
+      "location": "Washington, District of Columbia, United States of America",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Tech consulting",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel"
+      ],
+      "summary": "Agency: Weber Shandwick Job Function: Communications and PR Job Subfunction: Public Relations Job Description: Are you the person who always knows what’s happening—and has an opinion on what should happen next? Do you enjoy turning a half-formed idea into a compelling story,…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-10",
+      "deadline": null,
+      "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/Washington-District-of-Columbia-United-States-of-America/Intern--Client-Experience_R16405",
+      "external_id": "R16405",
+      "verified_at": "2026-11-15T21:52:39Z",
+      "match_score": 85
+    },
+    {
+      "id": "omnicom-group-7c7d08217013",
+      "source_key": "omnicom-group",
+      "fortune_rank": 257,
+      "fortune_500": true,
+      "company": "Omnicom Group",
+      "title": "Intern, Analytics",
+      "location": "Washington, District of Columbia, United States of America",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Strategy"
+      ],
+      "summary": "Agency: Weber Shandwick Job Function: Data and Analytics Job Subfunction: Data Science and Analytics Job Description: Are you the person who wants to know not just what happened, but why? Do you enjoy digging into information, spotting a trend, and turning a lot of data into a…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-10",
+      "deadline": null,
+      "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/Washington-District-of-Columbia-United-States-of-America/Intern--Analytics_R16262",
+      "external_id": "R16262",
+      "verified_at": "2026-11-15T21:52:39Z",
+      "match_score": 85
+    },
+    {
       "id": "cigna-group-f9f33c8979d4",
       "source_key": "cigna-group",
       "fortune_rank": 14,
@@ -902,6 +1001,36 @@
       "match_score": 85
     },
     {
+      "id": "omnicom-group-5839829f2fc4",
+      "source_key": "omnicom-group",
+      "fortune_rank": 257,
+      "fortune_500": true,
+      "company": "Omnicom Group",
+      "title": "Intern, Social & Influencer",
+      "location": "Washington, District of Columbia, United States of America",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Digital transformation",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Strategy"
+      ],
+      "summary": "Agency: Weber Shandwick Job Function: Media Job Subfunction: Social Media and Influencer Marketing Job Description: Have you ever been accused of being extremely online? Do you keep up with social media trends, scroll through Instagram and TikTok with purpose, and have a media…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-06",
+      "deadline": null,
+      "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/Washington-District-of-Columbia-United-States-of-America/Intern--Social---Influencer_R16261",
+      "external_id": "R16261",
+      "verified_at": "2026-11-15T21:52:39Z",
+      "match_score": 85
+    },
+    {
       "id": "centene-2e053bde2f9b",
       "source_key": "centene",
       "fortune_rank": 19,
@@ -1067,6 +1196,33 @@
       "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/Netherlands---Breda/Data---Analytics-Intern_R-261001",
       "external_id": "R-261001",
       "verified_at": "2026-11-15T01:59:04Z",
+      "match_score": 85
+    },
+    {
+      "id": "omnicom-group-7638db31d832",
+      "source_key": "omnicom-group",
+      "fortune_rank": 257,
+      "fortune_500": true,
+      "company": "Omnicom Group",
+      "title": "Intern, Client Experience (Brand)",
+      "location": "New York, New York, United States of America",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Agency: Weber Shandwick Job Function: Non Standard Job Profiles Job Subfunction: Contingent Job Description: Weber Shandwick is looking for an Intern to work across some of the most iconic consumer brands in the world. This is a full-time (40 hours/week), paid internship",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-05",
+      "deadline": null,
+      "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/New-York-New-York-United-States-of-America/Intern--Client-Experience--Brand-_R17859",
+      "external_id": "R17859",
+      "verified_at": "2026-11-15T21:52:39Z",
       "match_score": 85
     },
     {
@@ -1777,7 +1933,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/McCalla-AL/Human-Resources-Intern--McCalla--AL--Fall-2026--Part-time-_115933",
       "external_id": "115933",
-      "verified_at": "2026-11-15T17:14:17Z",
+      "verified_at": "2026-11-15T21:51:56Z",
       "match_score": 85
     },
     {
@@ -2236,7 +2392,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Revenue-Growth-Management-Intern--Summer-2027_116012",
       "external_id": "116012",
-      "verified_at": "2026-11-15T17:14:16Z",
+      "verified_at": "2026-11-15T21:51:55Z",
       "match_score": 85
     },
     {
@@ -2265,34 +2421,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Net-Revenue-Optimization-Intern--Summer-2027_116006",
       "external_id": "116006",
-      "verified_at": "2026-11-15T17:14:16Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-4d8457668936",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Procurement Intern",
-      "location": "Nuevo León",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-22",
-      "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Procurement-Intern_JR104030",
-      "external_id": "JR104030",
-      "verified_at": "2026-11-14T03:21:50Z",
+      "verified_at": "2026-11-15T21:51:55Z",
       "match_score": 85
     },
     {
@@ -2465,6 +2594,36 @@
       "external_id": "R-20260812-0021",
       "verified_at": "2026-11-15T01:59:45Z",
       "match_score": 90
+    },
+    {
+      "id": "omnicom-group-90af0f3db6f1",
+      "source_key": "omnicom-group",
+      "fortune_rank": 257,
+      "fortune_500": true,
+      "company": "Omnicom Group",
+      "title": "Research Intern",
+      "location": "New York, New York, United States of America",
+      "region": "United States",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Digital transformation",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Strategy"
+      ],
+      "summary": "Agency: FleishmanHillard Job Function: Communications and PR Job Subfunction: Communications Job Description: Role: TGI Intern Overview FleishmanHillard is seeking an intern with an interest in research and strategy to join its TRUE Global Intelligence team in one of the…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-20",
+      "deadline": null,
+      "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/New-York-New-York-United-States-of-America/Research-Intern_R17283",
+      "external_id": "R17283",
+      "verified_at": "2026-11-15T21:52:39Z",
+      "match_score": 85
     },
     {
       "id": "live-nation-entertainment-d6a968411615",
@@ -2875,6 +3034,33 @@
       "url": "https://godirect.wd5.myworkdayjobs.com/voya_jobs/job/Minneapolis-MN/Summer-2027-Employee-Benefits-Intern_JR0033189",
       "external_id": "JR0033189",
       "verified_at": "2026-11-15T17:15:57Z",
+      "match_score": 85
+    },
+    {
+      "id": "vistra-828bc94324df",
+      "source_key": "vistra",
+      "fortune_rank": 251,
+      "fortune_500": true,
+      "company": "Vistra",
+      "title": "Nuclear Instrument & Control Tech Apprentice-Shift",
+      "location": "Shippingport, Pennsylvania",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations"
+      ],
+      "summary": "If you have what it takes to become part of the Vistra family and would like to start a promising career with a global leader, take a look at the exciting employment opportunities that are currently available and apply online. Job Summary Job Description DUTIES: Under direct…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://vst.wd5.myworkdayjobs.com/vistra_careers/job/Shippingport-Pennsylvania/Nuclear-Instrument---Control-Tech-Apprentice-Shift_40015781-1",
+      "external_id": "40015781",
+      "verified_at": "2026-11-15T21:53:07Z",
       "match_score": 85
     },
     {
@@ -3712,7 +3898,7 @@
       "deadline": null,
       "url": "https://tempurpedic.wd108.myworkdayjobs.com/Tempur-Sealy-Careers/job/Hayes-UK/Marketing-Apprentice_14126-1",
       "external_id": "14126",
-      "verified_at": "2026-11-15T17:14:54Z",
+      "verified_at": "2026-11-15T21:52:05Z",
       "match_score": 85
     },
     {
@@ -4335,7 +4521,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Talent-Acquisition-Intern--Summer-2027_115992",
       "external_id": "115992",
-      "verified_at": "2026-11-15T17:14:16Z",
+      "verified_at": "2026-11-15T21:51:55Z",
       "match_score": 85
     },
     {
@@ -4364,7 +4550,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
       "external_id": "115736",
-      "verified_at": "2026-11-15T17:14:17Z",
+      "verified_at": "2026-11-15T21:51:56Z",
       "match_score": 85
     },
     {
@@ -4389,7 +4575,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
       "external_id": "115725",
-      "verified_at": "2026-11-15T17:14:17Z",
+      "verified_at": "2026-11-15T21:51:56Z",
       "match_score": 85
     },
     {
@@ -4417,7 +4603,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
       "external_id": "115735",
-      "verified_at": "2026-11-15T17:14:17Z",
+      "verified_at": "2026-11-15T21:51:56Z",
       "match_score": 85
     },
     {
@@ -4445,7 +4631,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/McCalla-AL/Human-Resources-Intern--McCalla--AL--Summer-2027_115887",
       "external_id": "115887",
-      "verified_at": "2026-11-15T17:14:17Z",
+      "verified_at": "2026-11-15T21:51:55Z",
       "match_score": 85
     },
     {
@@ -4473,7 +4659,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Emporia-KS/Human-Resources-Intern--Emporia--KS--Summer-2027_115888",
       "external_id": "115888",
-      "verified_at": "2026-11-15T17:14:17Z",
+      "verified_at": "2026-11-15T21:51:55Z",
       "match_score": 85
     },
     {
@@ -4501,7 +4687,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Buffalo-NY/Human-Resources-Intern--Buffalo--NY--Summer-2027_115886",
       "external_id": "115886",
-      "verified_at": "2026-11-15T17:14:16Z",
+      "verified_at": "2026-11-15T21:51:55Z",
       "match_score": 85
     },
     {
@@ -4526,7 +4712,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Human-Resources-Intern--Summer-2027_115918",
       "external_id": "115918",
-      "verified_at": "2026-11-15T17:14:16Z",
+      "verified_at": "2026-11-15T21:51:55Z",
       "match_score": 85
     },
     {
@@ -4559,7 +4745,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
       "external_id": "114929",
-      "verified_at": "2026-11-15T17:14:16Z",
+      "verified_at": "2026-11-15T21:51:54Z",
       "match_score": 85
     },
     {
@@ -4584,7 +4770,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Corporate-Communications-Intern--Summer-2027_115919",
       "external_id": "115919",
-      "verified_at": "2026-11-15T17:14:16Z",
+      "verified_at": "2026-11-15T21:51:54Z",
       "match_score": 85
     },
     {
@@ -4610,7 +4796,7 @@
       "deadline": null,
       "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Category-Leadership-Intern--Summer-2027_115804",
       "external_id": "115804",
-      "verified_at": "2026-11-15T17:14:16Z",
+      "verified_at": "2026-11-15T21:51:55Z",
       "match_score": 85
     },
     {
@@ -4840,138 +5026,6 @@
       "url": "https://genmills.wd1.myworkdayjobs.com/GMI_External_Careers/job/Minneapolis-MN/Internship---Digital---Technology-Associate_10128716",
       "external_id": "10128716",
       "verified_at": "2026-11-15T01:58:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-be0c31721ba1",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Production Line Operator Intern",
-      "location": "Nuevo León",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Production-Line-Operator-Intern_JR101884",
-      "external_id": "JR101884",
-      "verified_at": "2026-11-14T03:21:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-756154fbc9f5",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Plant Administration Intern",
-      "location": "Meoqui",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Meoqui/Plant-Administration-Intern_JR103867",
-      "external_id": "JR103867",
-      "verified_at": "2026-11-14T03:21:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-da501655176b",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Plant Administration Intern",
-      "location": "Meoqui",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Meoqui/Plant-Administration-Intern_JR103865",
-      "external_id": "JR103865",
-      "verified_at": "2026-11-14T03:21:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-953c10bbda88",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Finance Procurement Intern",
-      "location": "Nuevo León",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Power BI",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Finance-Procurement-Intern_JR103801",
-      "external_id": "JR103801",
-      "verified_at": "2026-11-14T03:21:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "crown-holdings-f8ccb9e8b595",
-      "source_key": "crown-holdings",
-      "fortune_rank": 356,
-      "fortune_500": true,
-      "company": "Crown Holdings",
-      "title": "Commercial Intern",
-      "location": "Nuevo León",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "through it's subsidiaries, is a world leader in the metal packaging production process. We design and manufacture a wide range of innovative and sustainable metal packaging solutions and products. Our clients are some of the largest and most respected companies in the world",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://crownholdings.wd501.myworkdayjobs.com/CrownHoldings/job/Nuevo-Len/Commercial-Intern_JR102918",
-      "external_id": "JR102918",
-      "verified_at": "2026-11-14T03:21:50Z",
       "match_score": 85
     },
     {
@@ -5851,36 +5905,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-11-15T17:13:45Z",
-      "match_score": 85
-    },
-    {
-      "id": "micron-technology-9ccca65e5d82",
-      "source_key": "micron-technology",
-      "fortune_rank": 125,
-      "fortune_500": true,
-      "company": "Micron Technology",
-      "title": "Micron's registered apprenticeship program",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "AI / ML",
-        "Product"
-      ],
-      "summary": "close close close close Sign in / Register Welcome to Micron.com, please Log in or Register an account to continue. Enter your email address check_circle_two_tone Please enter a valid email address Restricted email domain. Please enter your registered work email address",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.micron.com/about/careers/apprenticeship",
-      "external_id": null,
-      "verified_at": "2026-11-14T03:20:46Z",
+      "verified_at": "2026-11-15T21:51:20Z",
       "match_score": 85
     },
     {
@@ -5913,36 +5938,8 @@
       "deadline": null,
       "url": "https://careers.massmutual.com/job/springfield/business-operations-intern-summer-2027/724/100746307024",
       "external_id": null,
-      "verified_at": "2026-11-15T17:13:44Z",
+      "verified_at": "2026-11-15T21:51:20Z",
       "match_score": 90
-    },
-    {
-      "id": "huntington-ingalls-industries-70decc5f8728",
-      "source_key": "huntington-ingalls-industries",
-      "fortune_rank": 352,
-      "fortune_500": true,
-      "company": "Huntington Ingalls Industries",
-      "title": "Ingalls Apprentice School",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Credit"
-      ],
-      "summary": "Ingalls Apprentice School Since 1952, the Ingalls Apprentice School has produced more than 4,000 graduates in support of Ingalls Shipbuilding's operational needs About the Program The apprentice school program involves comprehensive three- to four-year curriculum for students…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://hii.com/careers/ingalls-apprentice-school",
-      "external_id": null,
-      "verified_at": "2026-11-14T03:21:12Z",
-      "match_score": 85
     },
     {
       "id": "hormel-foods-6979850c34dd",
@@ -6530,72 +6527,6 @@
       "match_score": 85
     },
     {
-      "id": "capital-one-financial-42c9917ee8c3",
-      "source_key": "capital-one-financial",
-      "fortune_rank": 63,
-      "fortune_500": true,
-      "company": "Capital One Financial",
-      "title": "Internship Programs",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Commercial banking",
-        "Business analyst",
-        "Risk management"
-      ],
-      "tags": [
-        "AI / ML",
-        "Product",
-        "Strategy",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "You’re located near You’re interested in Find Jobs Internship Programs This is the start of something great. Marlina External Affairs Manager How will you shape the future? In our 10-week internship programs, you’re paid to dig into challenging projects with real business impact",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.capitalonecareers.com/internship-programs",
-      "external_id": null,
-      "verified_at": "2026-11-14T03:23:24Z",
-      "match_score": 85
-    },
-    {
-      "id": "capital-one-financial-5cb1bacbbd24",
-      "source_key": "capital-one-financial",
-      "fortune_rank": 63,
-      "fortune_500": true,
-      "company": "Capital One Financial",
-      "title": "Early Internship Program",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Commercial banking",
-        "Risk management",
-        "Business analyst"
-      ],
-      "tags": [
-        "SQL",
-        "AI / ML",
-        "Product",
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "You’re located near You’re interested in Find Jobs Early Internship Program Give your career a head start. Facebook LinkedIn Instagram YouTube Glassdoor Kickstart your career with the Early Internship Program Capital One’s Early Internship Program gives current college students…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.capitalonecareers.com/early-internships-program",
-      "external_id": null,
-      "verified_at": "2026-11-14T03:23:24Z",
-      "match_score": 85
-    },
-    {
       "id": "chs-dc7aa3be24e3",
       "source_key": "chs",
       "fortune_rank": 130,
@@ -7024,62 +6955,6 @@
       "url": "https://www.auto-owners.com/about/career-opportunities/internship",
       "external_id": null,
       "verified_at": "2026-11-15T17:14:46Z",
-      "match_score": 85
-    },
-    {
-      "id": "airbnb-ffbd3d16c91e",
-      "source_key": "airbnb",
-      "fortune_rank": 357,
-      "fortune_500": true,
-      "company": "Airbnb",
-      "title": "Internship Programs",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Interns Featuring a mix of mentorship, fun, and challenge, our internships are designed to accelerate your learning curve as you make a real impact on our product. What to Expect Onboarding experience to get you familiar with Airbnb and your new team, and set you up for success",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://careers.airbnb.com/internship-programs/",
-      "external_id": null,
-      "verified_at": "2026-11-14T03:21:26Z",
-      "match_score": 85
-    },
-    {
-      "id": "airbnb-d1fc1ff6677b",
-      "source_key": "airbnb",
-      "fortune_rank": 357,
-      "fortune_500": true,
-      "company": "Airbnb",
-      "title": "Connect Engineering Apprenticeship",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud"
-      ],
-      "summary": "What it’s about The Connect Engineering Apprenticeship Program bridges the opportunity gap for entry-level engineering candidates. Candidates from underrepresented backgrounds and unconventional paths are encouraged to apply. Engineering apprentices gain invaluable exposure to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://careers.airbnb.com/connect-engineering-apprenticeship/",
-      "external_id": null,
-      "verified_at": "2026-11-14T03:21:26Z",
       "match_score": 85
     }
   ]
