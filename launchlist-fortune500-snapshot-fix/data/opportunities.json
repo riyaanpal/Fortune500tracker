@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T13:31:41Z",
+  "updated_at": "2026-11-17T22:30:19Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -11,10 +11,10 @@
   "directory_warnings": [
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-11-17T13:30:48Z",
+  "directory_refreshed_at": "2026-11-17T22:26:47Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 134,
-  "companies_failed_last_24h": 38,
+  "companies_failed_last_24h": 34,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "abbott-laboratories",
@@ -43,6 +43,19 @@
       "error": "Failed request: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/Careers/jobs: 429 Client Error: Too Many Requests for url: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/Careers/jobs"
     },
     {
+      "key": "alphabet",
+      "rank": 5,
+      "company": "Alphabet",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T22:30:19Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
       "key": "ameren",
       "rank": 466,
       "company": "Ameren",
@@ -54,6 +67,19 @@
       "adapter": "discovery",
       "careers_url": "https://ameren.wd1.myworkdayjobs.com/Collegiate",
       "error": "Failed request: https://ameren.wd1.myworkdayjobs.com/wday/cxs/ameren/Collegiate/jobs: 429 Client Error: Too Many Requests for url: https://ameren.wd1.myworkdayjobs.com/wday/cxs/ameren/Collegiate/jobs"
+    },
+    {
+      "key": "american-electric-power",
+      "rank": 209,
+      "company": "American Electric Power",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T22:30:19Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://aep.wd1.myworkdayjobs.com/wday/cxs/aep/AEPCareerSite/jobs: 429 Client Error: Too Many Requests for url: https://aep.wd1.myworkdayjobs.com/wday/cxs/aep/AEPCareerSite/jobs"
     },
     {
       "key": "assurant",
@@ -80,19 +106,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://bakerhughes.wd5.myworkdayjobs.com/wday/cxs/bakerhughes/BakerHughes/jobs: 429 Client Error: Too Many Requests for url: https://bakerhughes.wd5.myworkdayjobs.com/wday/cxs/bakerhughes/BakerHughes/jobs"
-    },
-    {
-      "key": "bristol-myers-squibb",
-      "rank": 97,
-      "company": "Bristol-Myers Squibb",
-      "fortune_500": true,
-      "checked_at": "2026-11-16T20:33:51Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://bristolmyerssquibb.wd5.myworkdayjobs.com/wday/cxs/bristolmyerssquibb/BMS/jobs: 429 Client Error: Too Many Requests for url: https://bristolmyerssquibb.wd5.myworkdayjobs.com/wday/cxs/bristolmyerssquibb/BMS/jobs"
     },
     {
       "key": "capital-one-financial",
@@ -147,32 +160,6 @@
       "error": "Failed request: https://crownholdings.wd501.myworkdayjobs.com/wday/cxs/crownholdings/CrownHoldings/jobs: 429 Client Error: Too Many Requests for url: https://crownholdings.wd501.myworkdayjobs.com/wday/cxs/crownholdings/CrownHoldings/jobs"
     },
     {
-      "key": "expedia-group",
-      "rank": 304,
-      "company": "Expedia Group",
-      "fortune_500": true,
-      "checked_at": "2026-11-16T20:33:51Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs: 429 Client Error: Too Many Requests for url: https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs"
-    },
-    {
-      "key": "fidelity-national-financial",
-      "rank": 311,
-      "company": "Fidelity National Financial",
-      "fortune_500": true,
-      "checked_at": "2026-11-16T20:33:51Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://fntg.wd5.myworkdayjobs.com/wday/cxs/fntg/FNF-Careers/jobs: 429 Client Error: Too Many Requests for url: https://fntg.wd5.myworkdayjobs.com/wday/cxs/fntg/FNF-Careers/jobs"
-    },
-    {
       "key": "franklin-templeton",
       "rank": 452,
       "company": "Franklin Templeton",
@@ -199,19 +186,6 @@
       "error": "Failed request: https://gevernova.wd5.myworkdayjobs.com/wday/cxs/gevernova/Vernova_ExternalSite/jobs: 429 Client Error: Too Many Requests for url: https://gevernova.wd5.myworkdayjobs.com/wday/cxs/gevernova/Vernova_ExternalSite/jobs"
     },
     {
-      "key": "gilead-sciences",
-      "rank": 153,
-      "company": "Gilead Sciences",
-      "fortune_500": true,
-      "checked_at": "2026-11-16T20:33:51Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://gilead.wd1.myworkdayjobs.com/wday/cxs/gilead/gileadcareers/jobs: 429 Client Error: Too Many Requests for url: https://gilead.wd1.myworkdayjobs.com/wday/cxs/gilead/gileadcareers/jobs"
-    },
-    {
       "key": "graybar-electric",
       "rank": 342,
       "company": "Graybar Electric",
@@ -223,6 +197,19 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://graybar.wd1.myworkdayjobs.com/wday/cxs/graybar/Careers/jobs: 429 Client Error: Too Many Requests for url: https://graybar.wd1.myworkdayjobs.com/wday/cxs/graybar/Careers/jobs"
+    },
+    {
+      "key": "guardian-life-ins-co-of-america",
+      "rank": 232,
+      "company": "Guardian Life Ins. Co. of America",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T22:30:19Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers",
+      "error": "Failed request: https://guardianlife.wd5.myworkdayjobs.com/wday/cxs/guardianlife/Guardian-Life-Careers/jobs: 429 Client Error: Too Many Requests for url: https://guardianlife.wd5.myworkdayjobs.com/wday/cxs/guardianlife/Guardian-Life-Careers/jobs"
     },
     {
       "key": "hartford-insurance-group",
@@ -251,11 +238,24 @@
       "error": "Failed request: https://henryschein.wd1.myworkdayjobs.com/wday/cxs/henryschein/External_Careers/jobs: 429 Client Error: Too Many Requests for url: https://henryschein.wd1.myworkdayjobs.com/wday/cxs/henryschein/External_Careers/jobs"
     },
     {
+      "key": "j-b-hunt-transport-services",
+      "rank": 371,
+      "company": "J.B. Hunt Transport Services",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T22:30:19Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://jbhunt.wd501.myworkdayjobs.com/wday/cxs/jbhunt/Careers/jobs: 429 Client Error: Too Many Requests for url: https://jbhunt.wd501.myworkdayjobs.com/wday/cxs/jbhunt/Careers/jobs"
+    },
+    {
       "key": "smucker",
       "rank": 456,
       "company": "J.M. Smucker",
       "fortune_500": true,
-      "checked_at": "2026-11-17T13:31:41Z",
+      "checked_at": "2026-11-17T22:30:19Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
@@ -264,43 +264,17 @@
       "error": "Failed request: https://smucker.wd5.myworkdayjobs.com/wday/cxs/smucker/US_External_Careers/jobs: 429 Client Error: Too Many Requests for url: https://smucker.wd5.myworkdayjobs.com/wday/cxs/smucker/US_External_Careers/jobs"
     },
     {
-      "key": "jabil",
-      "rank": 151,
-      "company": "Jabil",
+      "key": "jones-lang-lasalle",
+      "rank": 175,
+      "company": "Jones Lang LaSalle",
       "fortune_500": true,
-      "checked_at": "2026-11-16T20:33:51Z",
+      "checked_at": "2026-11-17T22:30:19Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": "Failed request: https://jabil.wd5.myworkdayjobs.com/wday/cxs/jabil/Jabil_Careers/jobs: 429 Client Error: Too Many Requests for url: https://jabil.wd5.myworkdayjobs.com/wday/cxs/jabil/Jabil_Careers/jobs"
-    },
-    {
-      "key": "kenvue",
-      "rank": 299,
-      "company": "Kenvue",
-      "fortune_500": true,
-      "checked_at": "2026-11-16T20:33:51Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://kenvue.wd5.myworkdayjobs.com/wday/cxs/kenvue/kenvue/jobs: 429 Client Error: Too Many Requests for url: https://kenvue.wd5.myworkdayjobs.com/wday/cxs/kenvue/kenvue/jobs"
-    },
-    {
-      "key": "kyndryl-holdings",
-      "rank": 300,
-      "company": "Kyndryl Holdings",
-      "fortune_500": true,
-      "checked_at": "2026-11-16T20:33:51Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://kyndryl.wd5.myworkdayjobs.com/wday/cxs/kyndryl/KyndrylEarlyCareers/jobs: 429 Client Error: Too Many Requests for url: https://kyndryl.wd5.myworkdayjobs.com/wday/cxs/kyndryl/KyndrylEarlyCareers/jobs"
+      "error": "Failed request: https://jll.wd1.myworkdayjobs.com/wday/cxs/jll/jllcareers/jobs: 429 Client Error: Too Many Requests for url: https://jll.wd1.myworkdayjobs.com/wday/cxs/jll/jllcareers/jobs"
     },
     {
       "key": "labcorp-holdings",
@@ -355,6 +329,32 @@
       "error": "Failed request: https://marvell.wd1.myworkdayjobs.com/wday/cxs/marvell/MarvellCareers/jobs: 429 Client Error: Too Many Requests for url: https://marvell.wd1.myworkdayjobs.com/wday/cxs/marvell/MarvellCareers/jobs"
     },
     {
+      "key": "mosaic",
+      "rank": 366,
+      "company": "Mosaic",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T22:30:19Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://mosaic.wd5.myworkdayjobs.com/wday/cxs/mosaic/mosaic/jobs: 429 Client Error: Too Many Requests for url: https://mosaic.wd5.myworkdayjobs.com/wday/cxs/mosaic/mosaic/jobs"
+    },
+    {
+      "key": "motorola-solutions",
+      "rank": 378,
+      "company": "Motorola Solutions",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T22:30:19Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://motorolasolutions.wd5.myworkdayjobs.com/wday/cxs/motorolasolutions/Careers/jobs: 429 Client Error: Too Many Requests for url: https://motorolasolutions.wd5.myworkdayjobs.com/wday/cxs/motorolasolutions/Careers/jobs"
+    },
+    {
       "key": "nasdaq",
       "rank": 470,
       "company": "Nasdaq",
@@ -368,19 +368,6 @@
       "error": "Failed request: https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs: 429 Client Error: Too Many Requests for url: https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs"
     },
     {
-      "key": "northern-trust",
-      "rank": 317,
-      "company": "Northern Trust",
-      "fortune_500": true,
-      "checked_at": "2026-11-16T20:33:51Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://ntrs.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs: 429 Client Error: Too Many Requests for url: https://ntrs.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs"
-    },
-    {
       "key": "occidental-petroleum",
       "rank": 173,
       "company": "Occidental Petroleum",
@@ -392,19 +379,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://oxy.wd5.myworkdayjobs.com/wday/cxs/oxy/Corporate/jobs: 429 Client Error: Too Many Requests for url: https://oxy.wd5.myworkdayjobs.com/wday/cxs/oxy/Corporate/jobs"
-    },
-    {
-      "key": "pbf-energy",
-      "rank": 154,
-      "company": "PBF Energy",
-      "fortune_500": true,
-      "checked_at": "2026-11-16T20:33:51Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://pbfenergy.wd1.myworkdayjobs.com/wday/cxs/pbfenergy/PBF/jobs: 429 Client Error: Too Many Requests for url: https://pbfenergy.wd1.myworkdayjobs.com/wday/cxs/pbfenergy/PBF/jobs"
     },
     {
       "key": "ryder-system",
@@ -424,13 +398,26 @@
       "rank": 35,
       "company": "Somnigroup International",
       "fortune_500": true,
-      "checked_at": "2026-11-17T13:31:41Z",
+      "checked_at": "2026-11-17T22:30:19Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://mattressfirm.wd1.myworkdayjobs.com/MattressFirmCareers",
       "error": "Failed request: https://mattressfirm.wd1.myworkdayjobs.com/wday/cxs/mattressfirm/MattressFirmCareers/jobs: 429 Client Error: Too Many Requests for url: https://mattressfirm.wd1.myworkdayjobs.com/wday/cxs/mattressfirm/MattressFirmCareers/jobs"
+    },
+    {
+      "key": "sonoco-products",
+      "rank": 489,
+      "company": "Sonoco Products",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T22:30:19Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://sonoco.wd1.myworkdayjobs.com/CorporateCareers",
+      "error": "Failed request: https://sonoco.wd1.myworkdayjobs.com/wday/cxs/sonoco/CorporateCareers/jobs: 429 Client Error: Too Many Requests for url: https://sonoco.wd1.myworkdayjobs.com/wday/cxs/sonoco/CorporateCareers/jobs"
     },
     {
       "key": "state-street",
@@ -446,19 +433,6 @@
       "error": "Failed request: https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs: 429 Client Error: Too Many Requests for url: https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs"
     },
     {
-      "key": "travelers",
-      "rank": 96,
-      "company": "Travelers",
-      "fortune_500": true,
-      "checked_at": "2026-11-16T20:33:51Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://travelers.wd5.myworkdayjobs.com/wday/cxs/travelers/External/jobs: 429 Client Error: Too Many Requests for url: https://travelers.wd5.myworkdayjobs.com/wday/cxs/travelers/External/jobs"
-    },
-    {
       "key": "unum-group",
       "rank": 338,
       "company": "Unum Group",
@@ -472,19 +446,6 @@
       "error": "Failed request: https://unum.wd1.myworkdayjobs.com/wday/cxs/unum/External/jobs: 429 Client Error: Too Many Requests for url: https://unum.wd1.myworkdayjobs.com/wday/cxs/unum/External/jobs"
     },
     {
-      "key": "viatris",
-      "rank": 318,
-      "company": "Viatris",
-      "fortune_500": true,
-      "checked_at": "2026-11-16T20:33:51Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://viatris.wd5.myworkdayjobs.com/wday/cxs/viatris/External/jobs: 429 Client Error: Too Many Requests for url: https://viatris.wd5.myworkdayjobs.com/wday/cxs/viatris/External/jobs"
-    },
-    {
       "key": "visa",
       "rank": 119,
       "company": "Visa",
@@ -496,24 +457,11 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs"
-    },
-    {
-      "key": "xcel-energy",
-      "rank": 306,
-      "company": "Xcel Energy",
-      "fortune_500": true,
-      "checked_at": "2026-11-16T20:33:51Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://xcelenergy.wd1.myworkdayjobs.com/wday/cxs/xcelenergy/External/jobs: 429 Client Error: Too Many Requests for url: https://xcelenergy.wd1.myworkdayjobs.com/wday/cxs/xcelenergy/External/jobs"
     }
   ],
-  "companies_with_eligible_jobs": 19,
+  "companies_with_eligible_jobs": 14,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 73,
+  "opportunity_count": 48,
   "opportunities": [
     {
       "id": "j-m-smucker-a00b1bae9ef7",
@@ -635,241 +583,6 @@
       "source_stale": true
     },
     {
-      "id": "prudential-financial-61dd68a877f1",
-      "source_key": "prudential-financial",
-      "fortune_rank": 78,
-      "fortune_500": true,
-      "company": "Prudential Financial",
-      "title": "Public and Private Credit Intern – 9-month placement | PGIM Ireland",
-      "location": "Letterkenny, Ireland",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "IT analyst",
-        "Credit analyst / enterprise credit",
-        "Wealth management"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Finance",
-        "Credit",
-        "Accounting"
-      ],
-      "summary": "PGIM Public and Private Credit – Intern – 9-month placement Starting in Aug/Sept 2027. This role will be based in Letterkenny onsite 2/3 days a week A GLOBAL LEADING ASSET MANAGER WITH A DIVERSE & INCLUSIVE CULTURE As the Global Asset Management business of Prudential, we’re…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-13",
-      "deadline": null,
-      "url": "https://pru.wd5.myworkdayjobs.com/Careers/job/Letterkenny-Ireland/Public-and-Private-Credit-Fixed-Income-Intern---9-month-placement----PGIM-Ireland_R-125380-1",
-      "external_id": "R-125380",
-      "verified_at": "2026-11-16T02:13:32Z",
-      "match_score": 85
-    },
-    {
-      "id": "omnicom-group-622e6823331c",
-      "source_key": "omnicom-group",
-      "fortune_rank": 257,
-      "fortune_500": true,
-      "company": "Omnicom Group",
-      "title": "Intern, Design",
-      "location": "Washington, District of Columbia, United States of America",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML"
-      ],
-      "summary": "Agency: Weber Shandwick Job Function: Creative Job Subfunction: Design Job Description: Are you someone who sees the world visually—and knows how to bring ideas to life through design? Do you enjoy turning a creative concept into something that stops people in their tracks,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-10",
-      "deadline": null,
-      "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/Washington-District-of-Columbia-United-States-of-America/Intern--Design_R16263",
-      "external_id": "R16263",
-      "verified_at": "2026-11-15T21:52:39Z",
-      "match_score": 85
-    },
-    {
-      "id": "omnicom-group-59f755ad6989",
-      "source_key": "omnicom-group",
-      "fortune_rank": 257,
-      "fortune_500": true,
-      "company": "Omnicom Group",
-      "title": "Intern, Corporate & Public Affairs",
-      "location": "Washington, District of Columbia, United States of America",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Tech consulting",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel"
-      ],
-      "summary": "Agency: Weber Shandwick Job Function: Communications and PR Job Subfunction: Public Relations Job Description: Are you the person who always knows what’s happening—and has an opinion on what should happen next? Do you enjoy turning a half-formed idea into a compelling story,…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-10",
-      "deadline": null,
-      "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/Washington-District-of-Columbia-United-States-of-America/Intern--Client-Experience_R16405",
-      "external_id": "R16405",
-      "verified_at": "2026-11-15T21:52:39Z",
-      "match_score": 85
-    },
-    {
-      "id": "omnicom-group-7c7d08217013",
-      "source_key": "omnicom-group",
-      "fortune_rank": 257,
-      "fortune_500": true,
-      "company": "Omnicom Group",
-      "title": "Intern, Analytics",
-      "location": "Washington, District of Columbia, United States of America",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Strategy"
-      ],
-      "summary": "Agency: Weber Shandwick Job Function: Data and Analytics Job Subfunction: Data Science and Analytics Job Description: Are you the person who wants to know not just what happened, but why? Do you enjoy digging into information, spotting a trend, and turning a lot of data into a…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-10",
-      "deadline": null,
-      "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/Washington-District-of-Columbia-United-States-of-America/Intern--Analytics_R16262",
-      "external_id": "R16262",
-      "verified_at": "2026-11-15T21:52:39Z",
-      "match_score": 85
-    },
-    {
-      "id": "omnicom-group-5839829f2fc4",
-      "source_key": "omnicom-group",
-      "fortune_rank": 257,
-      "fortune_500": true,
-      "company": "Omnicom Group",
-      "title": "Intern, Social & Influencer",
-      "location": "Washington, District of Columbia, United States of America",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Digital transformation",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Strategy"
-      ],
-      "summary": "Agency: Weber Shandwick Job Function: Media Job Subfunction: Social Media and Influencer Marketing Job Description: Have you ever been accused of being extremely online? Do you keep up with social media trends, scroll through Instagram and TikTok with purpose, and have a media…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-06",
-      "deadline": null,
-      "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/Washington-District-of-Columbia-United-States-of-America/Intern--Social---Influencer_R16261",
-      "external_id": "R16261",
-      "verified_at": "2026-11-15T21:52:39Z",
-      "match_score": 85
-    },
-    {
-      "id": "omnicom-group-7638db31d832",
-      "source_key": "omnicom-group",
-      "fortune_rank": 257,
-      "fortune_500": true,
-      "company": "Omnicom Group",
-      "title": "Intern, Client Experience (Brand)",
-      "location": "New York, New York, United States of America",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Agency: Weber Shandwick Job Function: Non Standard Job Profiles Job Subfunction: Contingent Job Description: Weber Shandwick is looking for an Intern to work across some of the most iconic consumer brands in the world. This is a full-time (40 hours/week), paid internship",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-05",
-      "deadline": null,
-      "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/New-York-New-York-United-States-of-America/Intern--Client-Experience--Brand-_R17859",
-      "external_id": "R17859",
-      "verified_at": "2026-11-15T21:52:39Z",
-      "match_score": 85
-    },
-    {
-      "id": "pfizer-6855d5a2389f",
-      "source_key": "pfizer",
-      "fortune_rank": 73,
-      "fortune_500": true,
-      "company": "Pfizer",
-      "title": "Data Analytics & AI Innovation Intern",
-      "location": "Colombia - Bogota - Suba",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Power BI",
-        "AI / ML"
-      ],
-      "summary": "About the Role We are looking for a highly motivated Data Analytics & AI Innovation Intern to support the Commercial Excellence & Innovation (CEI) team. This role is ideal for a student with a strong foundation in data analytics, Power BI, Power Query and programming (Python…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-04",
-      "deadline": "2026-11-16",
-      "url": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Colombia---Bogota---Suba/Data-Analytics---AI-Innovation-Intern_4966876",
-      "external_id": "4966876",
-      "verified_at": "2026-11-16T02:13:28Z",
-      "match_score": 85
-    },
-    {
-      "id": "conocophillips-acbc7a4dfdee",
-      "source_key": "conocophillips",
-      "fortune_rank": 75,
-      "fortune_500": true,
-      "company": "ConocoPhillips",
-      "title": "Intern, Information Technology 2027",
-      "location": "Bartlesville, OK",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "Operations"
-      ],
-      "summary": "Welcome to ConocoPhillips, where innovation and excellence create a platform for opportunity and growth. Come realize your full potential here. Who We Are We are one of the world’s largest independent exploration and production companies, based on proved reserves and production…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "her related field, or foreign equivalent Current level in college: Freshman through Senior Expected graduation date: Fall 2027 through Spring/Fall 2030 Available for…",
-      "freshman_friendly": true,
-      "posted_date": "2026-11-02",
-      "deadline": "2027-01-01",
-      "url": "https://conocophillips.wd1.myworkdayjobs.com/External/job/Bartlesville-OK/Intern--Information-Technology-2027_REQ-006200",
-      "external_id": "REQ-006200",
-      "verified_at": "2026-11-16T02:12:51Z",
-      "match_score": 90
-    },
-    {
       "id": "j-m-smucker-337eea07955a",
       "source_key": "smucker",
       "fortune_rank": 456,
@@ -960,171 +673,6 @@
       "source_stale": true
     },
     {
-      "id": "oneok-9355c9d46ac5",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Instrumentation and Electrical Technician Intern",
-      "location": "Mont Belvieu, TX",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-20",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Mont-Belvieu-TX/Instrumentation-and-Electrical-Technician-Intern_R8439-1",
-      "external_id": "R8439",
-      "verified_at": "2026-11-16T02:13:14Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-e4d5495cb736",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Field Mechanic Intern",
-      "location": "Mentone, TX",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Exciting internship opportunity as a Field Mechanic Intern at ONEOK, Inc. You will gain hands-on experience in mechanical work on equipment at our natural gas gathering and processing facilities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-20",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Mentone-TX/Field-Mechanic-Intern_R8366-1",
-      "external_id": "R8366",
-      "verified_at": "2026-11-16T02:13:14Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-21dec5649187",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Field Mechanic Intern",
-      "location": "Midland, TX",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Exciting internship opportunity as a Field Mechanic Intern at ONEOK, Inc. You will gain hands-on experience in mechanical work on equipment at our natural gas gathering and processing facilities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-20",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Midland-TX/Field-Mechanic-Intern_R8367-1",
-      "external_id": "R8367",
-      "verified_at": "2026-11-16T02:13:14Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-2c9789904cae",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Field Mechanic Intern",
-      "location": "Watford City, ND",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Exciting internship opportunity as a Field Mechanic Intern at ONEOK, Inc. You will gain hands-on experience in mechanical work on equipment at our natural gas gathering and processing facilities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-20",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Watford-City-ND/Field-Mechanic-Intern_R8358-1",
-      "external_id": "R8358",
-      "verified_at": "2026-11-16T02:13:14Z",
-      "match_score": 85
-    },
-    {
-      "id": "omnicom-group-90af0f3db6f1",
-      "source_key": "omnicom-group",
-      "fortune_rank": 257,
-      "fortune_500": true,
-      "company": "Omnicom Group",
-      "title": "Research Intern",
-      "location": "New York, New York, United States of America",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Digital transformation",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Strategy"
-      ],
-      "summary": "Agency: FleishmanHillard Job Function: Communications and PR Job Subfunction: Communications Job Description: Role: TGI Intern Overview FleishmanHillard is seeking an intern with an interest in research and strategy to join its TRUE Global Intelligence team in one of the…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-20",
-      "deadline": null,
-      "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/New-York-New-York-United-States-of-America/Research-Intern_R17283",
-      "external_id": "R17283",
-      "verified_at": "2026-11-15T21:52:39Z",
-      "match_score": 85
-    },
-    {
-      "id": "vistra-828bc94324df",
-      "source_key": "vistra",
-      "fortune_rank": 251,
-      "fortune_500": true,
-      "company": "Vistra",
-      "title": "Nuclear Instrument & Control Tech Apprentice-Shift",
-      "location": "Shippingport, Pennsylvania",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "If you have what it takes to become part of the Vistra family and would like to start a promising career with a global leader, take a look at the exciting employment opportunities that are currently available and apply online. Job Summary Job Description DUTIES: Under direct…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://vst.wd5.myworkdayjobs.com/vistra_careers/job/Shippingport-Pennsylvania/Nuclear-Instrument---Control-Tech-Apprentice-Shift_40015781-1",
-      "external_id": "40015781",
-      "verified_at": "2026-11-15T21:53:07Z",
-      "match_score": 85
-    },
-    {
       "id": "somnigroup-international-08dd22ac2137",
       "source_key": "somnigroup-international",
       "fortune_rank": 35,
@@ -1149,690 +697,6 @@
       "verified_at": "2026-11-15T21:52:05Z",
       "match_score": 85,
       "source_stale": true
-    },
-    {
-      "id": "prudential-financial-7803c90cc485",
-      "source_key": "prudential-financial",
-      "fortune_rank": 78,
-      "fortune_500": true,
-      "company": "Prudential Financial",
-      "title": "PGIM | Real Estate Private Equity Analyst Intern (all genders)",
-      "location": "Paris, France",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Wealth management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "WHAT YOU WILL DO The Intern Analyst will work on a wide range of deals, including direct and operational real estate. The Intern will be involved in the full investment process and will assist with acquisition, asset management, portfolio management and disposition duties",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://pru.wd5.myworkdayjobs.com/Careers/job/Paris-France/PGIM---Real-Estate-Private-Equity-Analyst-Intern--all-genders-_R-124980-2",
-      "external_id": "R-124980",
-      "verified_at": "2026-11-16T02:13:35Z",
-      "match_score": 85
-    },
-    {
-      "id": "pfizer-2152dfa43136",
-      "source_key": "pfizer",
-      "fortune_rank": 73,
-      "fortune_500": true,
-      "company": "Pfizer",
-      "title": "Internship – APAC RIO (Regulatory)",
-      "location": "Malaysia - Kuala Lumpur",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "To learn more about acceptable and prohibited uses of AI during the recruitment process, please review our candidate AI-use guidelines available on Pfizer Careers",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Malaysia---Kuala-Lumpur/Internship---APAC-RIO--Regulatory-_4964215",
-      "external_id": "4964215",
-      "verified_at": "2026-11-16T02:13:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-93f5e09a43f7",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Instrumentation and Electrical Technician Intern (Tulsa or Oklahoma City, OK)",
-      "location": "Oklahoma City, OK",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Oklahoma-City-OK/Instrumentation-and-Electrical-Technician-Intern--Tulsa-or-Oklahoma-City--OK-_R8441-1",
-      "external_id": "R8441",
-      "verified_at": "2026-11-16T02:13:14Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-1d2832824248",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Instrumentation and Electrical Technician Intern",
-      "location": "Lubbock, TX",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Lubbock-TX/Instrumentation-and-Electrical-Technician-Intern_R8440-1",
-      "external_id": "R8440",
-      "verified_at": "2026-11-16T02:13:14Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-f20e1fc9a0dc",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Instrumentation and Electrical Technician Intern",
-      "location": "Watford City, ND",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Watford-City-ND/Instrumentation-and-Electrical-Technician-Intern_R8357-1",
-      "external_id": "R8357",
-      "verified_at": "2026-11-16T02:13:14Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-1eb16fdc316a",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Instrumentation and Electrical Technician Intern",
-      "location": "Williston, ND",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Williston-ND/Instrumentation-and-Electrical-Technician-Intern_R8360",
-      "external_id": "R8360",
-      "verified_at": "2026-11-16T02:13:14Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-fd1b08392330",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Instrumentation and Electrical Technician Intern",
-      "location": "Medford, OK",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Medford-OK/Instrumentation-and-Electrical-Technician-Intern_R8426-1",
-      "external_id": "R8426",
-      "verified_at": "2026-11-16T02:13:14Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-4e1e90ab0d4e",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Instrumentation & Electrical Technician Intern",
-      "location": "Midland, TX",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as an Instrumentation and Electrical Technician Intern this summer and become part of a team that upholds our core values of ethics, safety and environmental, excellence, diversity and inclusion, innovation, and service",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Midland-TX/Instrumentation---Electrical-Technician-Intern_R8354",
-      "external_id": "R8354",
-      "verified_at": "2026-11-16T02:13:14Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-80a1c3b49c49",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Field Mechanic Intern",
-      "location": "Williston, ND",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Exciting internship opportunity as a Field Mechanic Intern at ONEOK, Inc. You will gain hands-on experience in mechanical work on equipment at our natural gas gathering and processing facilities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Williston-ND/Intern---Field--DOT---Unfilled-_R8359-1",
-      "external_id": "R8359",
-      "verified_at": "2026-11-16T02:13:14Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-d6895e7705fc",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Field Mechanic Intern",
-      "location": "Eufaula, OK",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Exciting internship opportunity as a Field Mechanic Intern at ONEOK, Inc. You will gain hands-on experience in mechanical work on equipment at our natural gas gathering and processing facilities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Eufaula-OK/Field-Mechanic-Intern_R8442-1",
-      "external_id": "R8442",
-      "verified_at": "2026-11-16T02:13:14Z",
-      "match_score": 85
-    },
-    {
-      "id": "oneok-63ee7d6c2ed8",
-      "source_key": "oneok",
-      "fortune_rank": 138,
-      "fortune_500": true,
-      "company": "Oneok",
-      "title": "Blending Coordinator Intern",
-      "location": "Houston, TX",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "Leading midstream service provider. JOB SUMMARY Join ONEOK as a Blending Coordinator Intern in Houston, TX. This hands-on internship is ideal for students in vocational or technical programs such as Pipeline, Plant or Terminal Operations, Process Technology, or similar fields",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://oneok.wd1.myworkdayjobs.com/ONEOK/job/Houston-TX/Blending-Coordinator-Intern_R8582-1",
-      "external_id": "R8582",
-      "verified_at": "2026-11-16T02:13:14Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-ee7621e98dba",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "WinField United Summer Research Technician Internship - Central",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "WinField United Summer Research Technician Internship - Central WinField United Summer Research Technician Internship - Central The WinField Answer Plot® Program hosts agronomic research plots across the country. Plots provide area farmers to see firsthand how seed and crop…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/WinField-United-Summer-Research-Technician-Internship---Central_R-40719",
-      "external_id": "R-40719",
-      "verified_at": "2026-11-16T02:14:21Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-381bbb188b75",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "WinField United Summer Research Technician Intern - River Falls, WI",
-      "location": "River Falls, WI (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "WinField United Summer Research Technician Intern - River Falls, WI WinField United Summer Research Technician Internship - River Falls, WI The WinField Answer Plot® Program hosts agronomic research plots across the country. Plots provide area farmers to see firsthand how seed…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/River-Falls-WI-USA/WinField-United-Summer-Research-Technician-Intern---River-Falls--WI_R-40734",
-      "external_id": "R-40734",
-      "verified_at": "2026-11-16T02:14:20Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-2a7d7b5f33ac",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "WinField United Research & Development Lab Intern, Summer 2027",
-      "location": "River Falls, WI (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "WinField United Research & Development Lab Intern, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/River-Falls-WI-USA/WinField-United-Research---Development-Lab-Intern--Summer-2027_R-40232",
-      "external_id": "R-40232",
-      "verified_at": "2026-11-16T02:14:19Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-406bfc023829",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "WinField United Market Development Agronomist Intern, Summer 2027",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations"
-      ],
-      "summary": "WinField United Market Development Agronomist Intern, Summer 2027 When you intern at Land O’Lakes, you're joining a Fortune 250 agribusiness and food production leader with more than 100 years of operations as a farmer- and member-owned cooperative",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/WinField-United-Market-Development-Agronomist-Intern--Summer-2027_R-40235",
-      "external_id": "R-40235",
-      "verified_at": "2026-11-16T02:14:19Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-6d48031c8b80",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Supply Chain Intern Summer 2027",
-      "location": "Arden Hills, MN (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Risk management",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "Supply Chain Intern Summer 2027 As a Supply Chain intern, you will: Get broad exposure to our Supply Chain organization and leadership team. Gain invaluable job experience, career development, and leadership opportunities. Receive both technical and leadership training to…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/Supply-Chain-Intern-Summer-2027_R-36773",
-      "external_id": "R-36773",
-      "verified_at": "2026-11-16T02:14:19Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-e54a4d303723",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Purina Farm & Ranch Sales Intern",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Purina Farm & Ranch Sales Intern As a Purina Farm & Ranch Feed Sales Intern, you will be working alongside Purina Animal Nutrition Retail Operations Managers with national retailers, such as Tractor Supply Co and Regional Farm and Ranch accounts",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Purina-Farm---Ranch-Sales-Intern_R-40708",
-      "external_id": "R-40708",
-      "verified_at": "2026-11-16T02:14:21Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-eba09fc6bb3f",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "IT Intern",
-      "location": "Arden Hills, MN (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "IT analyst",
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "IT Intern Pay: $2 8 / hr Position Duration: May 2027 – July 2027 Position Location: Arden Hills, MN The Land O'Lakes Technology Internship brings your education to life by providing hands-on experience applying technology and data solutions to real business challenges",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/IT-Intern_R-40138",
-      "external_id": "R-40138",
-      "verified_at": "2026-11-16T02:14:19Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-36428f8efd02",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Feed Sales Intern - West Region",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Feed Sales Intern - West Region Position Summary: As a Purina Feed Sales Intern, you will be employed by Land O'Lakes, Inc. and placed in a market with participating dealers and cooperatives. This is a field-based sales internship built for students who want to turn animal…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Feed-Sales-Intern---West-Region_R-40354",
-      "external_id": "R-40354",
-      "verified_at": "2026-11-16T02:14:19Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-188b9b1ebd9c",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Feed Sales Intern - Southwest Region",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Feed Sales Intern - Southwest Region Position Summary: As a Purina Feed Sales Intern, you will be employed by Land O'Lakes, Inc. and placed in a market with participating dealers and cooperatives. This is a field-based sales internship built for students who want to turn animal…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Feed-Sales-Intern---Southwest-Region_R-40363",
-      "external_id": "R-40363",
-      "verified_at": "2026-11-16T02:14:19Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-f9b8a4a9b0e7",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Feed Sales Intern - Great Lakes Region",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Feed Sales Intern - Great Lakes Region Position Summary: As a Purina Feed Sales Intern, you will be employed by Land O'Lakes, Inc. and placed in a market with participating dealers and cooperatives. This is a field-based sales internship built for students who want to turn…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Feed-Sales-Intern---Great-Lakes-Region_R-40359",
-      "external_id": "R-40359",
-      "verified_at": "2026-11-16T02:14:19Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-1be4e96743e2",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Feed Sales Intern - East Region",
-      "location": "Virtual (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Feed Sales Intern - East Region Position Summary: As a Purina Feed Sales Intern, you will be employed by Land O'Lakes, Inc. and placed in a market with participating dealers and cooperatives. This is a field-based sales internship built for students who want to turn animal…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Virtual-USA/Feed-Sales-Intern---East-Region_R-40361",
-      "external_id": "R-40361",
-      "verified_at": "2026-11-16T02:14:19Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-d45074918cf7",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Dairy Member Services Intern",
-      "location": "Arden Hills, MN (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Dairy Member Services Intern Pay: $23/ hr Position Duration: May 2027 - July 2027 Position Location: Arden Hills, MN Team The Dairy Member Services team is responsible for providing value-added products and services to our Dairy Members as part of their cooperative membership…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/Dairy-Member-Services-Intern_R-40412",
-      "external_id": "R-40412",
-      "verified_at": "2026-11-16T02:14:34Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-f0a3c00decd6",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Culinary Center Intern",
-      "location": "Arden Hills, MN (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "Culinary Center Intern P ay: $24/ h r Position Duration: May 2027 – July 2027 Position Location: Arden Hills, MN Position Summary The Culinary Center Intern will engage in a structured 1 1 -week program designed to build foundational culinary skills and contribute to strategic…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/Culinary-Center-Intern_R-40365",
-      "external_id": "R-40365",
-      "verified_at": "2026-11-16T02:14:19Z",
-      "match_score": 85
-    },
-    {
-      "id": "land-o-lakes-fb833cbffdc5",
-      "source_key": "land-o-lakes",
-      "fortune_rank": 273,
-      "fortune_500": true,
-      "company": "Land O'Lakes",
-      "title": "Communications Intern",
-      "location": "Arden Hills, MN (USA)",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Communications Intern Pay : $22/ hr Position Duration: May 2027 – July 2027 Position Location: Arden Hills, MN Land O'Lakes is looking for talented, driven communications candidates for our summer internship program. As an intern, you will be assigned specific responsibilities…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://landolakes.wd1.myworkdayjobs.com/LandOLakes/job/Arden-Hills-MN-USA/Communications-Intern_R-40461",
-      "external_id": "R-40461",
-      "verified_at": "2026-11-16T02:14:19Z",
-      "match_score": 85
     },
     {
       "id": "j-m-smucker-1710b1d8b4ce",
@@ -2146,6 +1010,37 @@
       "source_stale": true
     },
     {
+      "id": "unitedhealth-group-3d0137a8c159",
+      "source_key": "unitedhealth-group",
+      "fortune_rank": 3,
+      "fortune_500": true,
+      "company": "UnitedHealth Group",
+      "title": "Enterprise Partnership Internship - PBDP -Milwaukee, WI",
+      "location": "Location",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Product",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Search Jobs Open search form Keyword or job number Location Go Explore remote jobs Pursue your passion and potential Enterprise Partnership Internship - PBDP -Milwaukee, WI Milwaukee, Wisconsin Apply Internal apply Bookmark job Jump to Our values Job description Benefits…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://careers.unitedhealthgroup.com/job/milwaukee/enterprise-partnership-internship-pbdp-milwaukee-wi/34088/103437774256",
+      "external_id": null,
+      "verified_at": "2026-11-17T22:27:00Z",
+      "match_score": 85
+    },
+    {
       "id": "mondelez-international-2ce83e181602",
       "source_key": "mondelez-international",
       "fortune_rank": 122,
@@ -2170,7 +1065,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-11-17T13:30:55Z",
+      "verified_at": "2026-11-17T22:26:51Z",
       "match_score": 85
     },
     {
@@ -2232,65 +1127,8 @@
       "deadline": null,
       "url": "https://careers.massmutual.com/job/springfield/business-operations-intern-summer-2027/724/100746307024",
       "external_id": null,
-      "verified_at": "2026-11-17T13:30:54Z",
+      "verified_at": "2026-11-17T22:26:50Z",
       "match_score": 90
-    },
-    {
-      "id": "keurig-dr-pepper-4d6cbbf26d17",
-      "source_key": "keurig-dr-pepper",
-      "fortune_rank": 268,
-      "fortune_500": true,
-      "company": "Keurig Dr Pepper",
-      "title": "Étudiant(e), Superviseur(e) Production COOP d'hiver | Student, Operations Supervisor Winter Co-op",
-      "location": "Location",
-      "region": "Global",
-      "opportunity_type": "Co-op",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Operations"
-      ],
-      "summary": "Préparez-vous à propulser votre carrière grâce à un stage inoubliable chez Keurig Dr Pepper, une entreprise qui allie innovation, saveur et enthousiasme à chaque gorgée. En tant que stagiaire enthousiaste, vous aurez l'occasion d'apprendre auprès de mentors expérimentés, de…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://careers.keurigdrpepper.com/en/job/montreal/etudiant-e-superviseur-e-production-coop-d-hiver-student-operations-supervisor-winter-co-op/42849/100720667504",
-      "external_id": null,
-      "verified_at": "2026-11-16T02:13:36Z",
-      "match_score": 85
-    },
-    {
-      "id": "keurig-dr-pepper-46d2e02647f7",
-      "source_key": "keurig-dr-pepper",
-      "fortune_rank": 268,
-      "fortune_500": true,
-      "company": "Keurig Dr Pepper",
-      "title": "Summer 2027 Intern - Environmental Health & Safety",
-      "location": "Location",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Risk"
-      ],
-      "summary": "This includes conducting machine risk assessments in coffee processing and packaging areas, assisting with daily department activities, and supporting the coordination and preparation of reports, training manuals, and programs. The Company cannot offer employment to F-1…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://careers.keurigdrpepper.com/en/job/aspers/summer-2027-intern-environmental-health-and-safety/42849/103271956144",
-      "external_id": null,
-      "verified_at": "2026-11-16T02:13:36Z",
-      "match_score": 85
     },
     {
       "id": "huntington-ingalls-industries-70decc5f8728",
@@ -2318,6 +1156,393 @@
       "url": "https://hii.com/careers/ingalls-apprentice-school",
       "external_id": null,
       "verified_at": "2026-11-17T13:31:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-6979850c34dd",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Supply Chain Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Preferred major(s): Supply Chain Management Preferred GPA: Minimum 2.7 cumulative, preferred 3.0 cumulative Length of program: 3-month summer internship Need Something Else? More Internship Opportunities Questions View All FAQs Go Contact Us Go",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/supply-chain-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-17T22:27:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-ce3807904c98",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "R&D Product Development Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Product management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "Preferred major(s): Food Science or another related field Preferred GPA: Minimum 3.0 cumulative Length of program: 3-month summer internship Need Something Else? More Internship Opportunities Questions View All FAQs Go Contact Us Go",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/rd-product-development-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-17T22:27:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-def3a6809eb0",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "R&D Packaging Engineering Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Preferred major(s): Packaging Engineering Preferred GPA: Minimum 3.0 cumulative Length of program: 3-month summer internship or 6-month co-op Need Something Else? More Internship Opportunities Questions View All FAQs Go Contact Us Go",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/rd-packaging-engineering-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-17T22:27:29Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-fcc911fdbecc",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Production Management Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "< Ask & Answer Internship Opportunities Explore This Section Behind the Label Company & General Charitable Giving & Donations Coupons, Samples & Recipes Food Prep, Safety & Storage Product Availability Social Responsibility Internship Opportunities Production Management…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/production-management-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-17T22:27:29Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-45f0af090889",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Marketing Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "< Ask & Answer Internship Opportunities Explore This Section Behind the Label Company & General Charitable Giving & Donations Coupons, Samples & Recipes Food Prep, Safety & Storage Product Availability Social Responsibility Internship Opportunities Marketing Internship Tags…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/marketing-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-17T22:27:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-d3ffbfeee034",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Maintenance Engineering Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Preferred major(s): Mechanical Engineering, Electrical Engineering, Civil Engineering, or a related engineering field Preferred GPA: Minimum 2.7 cumulative Length of program: 3-month summer internship or 6-month co-op Need Something Else?",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/maintenance-engineering-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-17T22:27:29Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-440dfc2ff788",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Live Production Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "< Ask & Answer Internship Opportunities Explore This Section Behind the Label Company & General Charitable Giving & Donations Coupons, Samples & Recipes Food Prep, Safety & Storage Product Availability Social Responsibility Internship Opportunities Live Production Internship…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/live-production-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-17T22:27:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-f4c280645704",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Internship Opportunities",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Strategy",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "< Working at Hormel Foods Internship Opportunities Apply Now Explore This Section Our Culture Employee Resource Groups Military Recruitment History with U.S. Military Our Hometown Working at Hormel Foods Internship Opportunities Our Locations World Headquarters – Austin, MN…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/careers/career-center/internship-opportunities/",
+      "external_id": null,
+      "verified_at": "2026-11-17T22:27:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-00c20d33c5c0",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Insights & Analytics Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Will gain exposure to and understanding of consumer and customer research components of category and brand thought leadership initiatives, analyzing various data/information sources to develop recommendations for brand growth opportunities",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/insights-analytics-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-17T22:27:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-48ff69caea2f",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Information Technology Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "IT analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Preferred major(s): Management of Information Systems (MIS) or related field Preferred GPA: Minimum 3.0 cumulative Length of program: 3-month summer internship Need Something Else? More Internship Opportunities Questions View All FAQs Go Contact Us Go",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/information-technology-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-17T22:27:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-62dcb4e134fc",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Industrial Engineering Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "Identify improvements to work methods by reviewing the methods and analyzing potential method/design changes. Analyze operations and create AutoCAD layouts. Evaluate downtimes and methods to increase efficiency. Evaluate, recommend and install new equipment and layouts",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/industrial-engineering-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-17T22:27:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-1ac843a64258",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Hormel Foods Recognized for Having One of the Nation’s Top Internship Programs",
+      "location": "Austin , Minn.",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "< Press Releases Company Explore This Section Press Releases Awards & Recognition Brands Company Responsibility Events Performance Innovation News Awards & Recognition Brands Company Responsibility Events Performance Innovation Media Resources Hormel Foods Recognized for Having…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/newsroom/press-releases/hormel-foods-recognized-for-having-one-of-the-nations-top-internship-programs/",
+      "external_id": null,
+      "verified_at": "2026-11-17T22:27:22Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-788d5e3f503c",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Foodservice Sales Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Preferred major(s): Marketing, Professional Selling, Agribusiness, Business Administration, Hospitality or Hotel/Restaurant Management or relevant degree program Preferred GPA: Minimum 3.0 cumulative Length of program: 3-month summer internship Need Something Else?",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/foodservice-sales-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-17T22:27:23Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-cd84bb756d5a",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Food Safety & Quality Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "This includes supporting management in the implementation of food safety and food quality processes and procedures. Preferred major(s): Food Science, Animal Science, Agricultural Business, Management, or related field Preferred GPA: Minimum 2.7 cumulative Length of program:…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/food-safety-quality-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-17T22:27:23Z",
       "match_score": 85
     },
     {
@@ -2423,6 +1648,39 @@
       "url": "https://www.brightspringhealth.com/campus-opportunities/internship-opportunities/",
       "external_id": null,
       "verified_at": "2026-11-17T03:56:48Z",
+      "match_score": 85
+    },
+    {
+      "id": "boston-consulting-group-bcg-8e598938abbf",
+      "source_key": "bcg",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "Boston Consulting Group (BCG)",
+      "title": "Internship Opportunities",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Tech consulting",
+        "Risk management",
+        "Product management"
+      ],
+      "tags": [
+        "Product",
+        "Operations",
+        "Finance",
+        "Treasury",
+        "Risk"
+      ],
+      "summary": "Internship Opportunities As a consulting intern, you’ll collaborate with a diverse team to solve our clients’ problems, benefitting from our world-class learning and development programs. You can also build a solid foundation from which to apply for a full-time consulting role…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://careers.bcg.com/global/en/internship-opportunities",
+      "external_id": null,
+      "verified_at": "2026-11-17T22:28:08Z",
       "match_score": 85
     },
     {
