@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T20:33:51Z",
+  "updated_at": "2026-11-17T03:59:30Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -11,11 +11,24 @@
   "directory_warnings": [
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-11-16T20:31:00Z",
+  "directory_refreshed_at": "2026-11-17T03:56:24Z",
   "companies_scanned_this_run": 50,
-  "companies_scanned_last_24h": 176,
-  "companies_failed_last_24h": 26,
+  "companies_scanned_last_24h": 134,
+  "companies_failed_last_24h": 34,
   "failed_or_blocked_companies_last_24h": [
+    {
+      "key": "abbott-laboratories",
+      "rank": 107,
+      "company": "Abbott Laboratories",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T03:59:30Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://abbott.wd5.myworkdayjobs.com/wday/cxs/abbott/abbottcareers/jobs: 429 Client Error: Too Many Requests for url: https://abbott.wd5.myworkdayjobs.com/wday/cxs/abbott/abbottcareers/jobs"
+    },
     {
       "key": "bank-of-america",
       "rank": 20,
@@ -28,19 +41,6 @@
       "adapter": "discovery",
       "careers_url": "https://careers.bankofamerica.com/en-us/students/job-search?ref=search&search=getAllJobs&start=0&rows=10",
       "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 429 Client Error: Too Many Requests for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
-    },
-    {
-      "key": "booz-allen-hamilton-holding",
-      "rank": 372,
-      "company": "Booz Allen Hamilton Holding",
-      "fortune_500": true,
-      "checked_at": "2026-11-15T21:54:19Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": "https://careers.boozallen.com/jobs/search",
-      "error": "Failed request: https://bah.wd1.myworkdayjobs.com/wday/cxs/bah/BAH_Jobs/jobs: 429 Client Error: Too Many Requests for url: https://bah.wd1.myworkdayjobs.com/wday/cxs/bah/BAH_Jobs/jobs"
     },
     {
       "key": "bristol-myers-squibb",
@@ -69,6 +69,32 @@
       "error": "Failed request: https://chrobinson.wd5.myworkdayjobs.com/wday/cxs/chrobinson/CHRobinson/jobs: 429 Client Error: Too Many Requests for url: https://chrobinson.wd5.myworkdayjobs.com/wday/cxs/chrobinson/CHRobinson/jobs"
     },
     {
+      "key": "capital-one-financial",
+      "rank": 63,
+      "company": "Capital One Financial",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T03:59:30Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://www.capitalonecareers.com/search-jobs",
+      "error": "Failed request: https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/Capital_One/jobs: 429 Client Error: Too Many Requests for url: https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/Capital_One/jobs"
+    },
+    {
+      "key": "carmax",
+      "rank": 162,
+      "company": "CarMax",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T03:59:30Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://carmax.wd1.myworkdayjobs.com/wday/cxs/carmax/External/jobs: 429 Client Error: Too Many Requests for url: https://carmax.wd1.myworkdayjobs.com/wday/cxs/carmax/External/jobs"
+    },
+    {
       "key": "citigroup",
       "rank": 24,
       "company": "Citigroup",
@@ -82,17 +108,17 @@
       "error": "Failed request: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs: 429 Client Error: Too Many Requests for url: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs"
     },
     {
-      "key": "coterra-energy",
-      "rank": 496,
-      "company": "Coterra Energy",
+      "key": "comfort-systems-usa",
+      "rank": 440,
+      "company": "Comfort Systems USA",
       "fortune_500": true,
-      "checked_at": "2026-11-16T02:16:04Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
+      "checked_at": "2026-11-17T03:59:30Z",
+      "status": "error",
+      "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
-      "careers_url": null,
-      "error": null
+      "careers_url": "https://comfortsystemsusa.com/careers/",
+      "error": "Failed request: https://comfortsystemsusa.wd1.myworkdayjobs.com/wday/cxs/comfortsystemsusa/Corpcareers/jobs: 429 Client Error: Too Many Requests for url: https://comfortsystemsusa.wd1.myworkdayjobs.com/wday/cxs/comfortsystemsusa/Corpcareers/jobs"
     },
     {
       "key": "expedia-group",
@@ -134,6 +160,19 @@
       "error": "Failed request: https://fntg.wd5.myworkdayjobs.com/wday/cxs/fntg/FNF-Careers/jobs: 429 Client Error: Too Many Requests for url: https://fntg.wd5.myworkdayjobs.com/wday/cxs/fntg/FNF-Careers/jobs"
     },
     {
+      "key": "franklin-templeton",
+      "rank": 452,
+      "company": "Franklin Templeton",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T03:59:30Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
       "key": "ge-aerospace",
       "rank": 101,
       "company": "GE Aerospace",
@@ -160,24 +199,50 @@
       "error": "Failed request: https://gilead.wd1.myworkdayjobs.com/wday/cxs/gilead/gileadcareers/jobs: 429 Client Error: Too Many Requests for url: https://gilead.wd1.myworkdayjobs.com/wday/cxs/gilead/gileadcareers/jobs"
     },
     {
-      "key": "international-business-machines",
-      "rank": 66,
-      "company": "International Business Machines",
+      "key": "graybar-electric",
+      "rank": 342,
+      "company": "Graybar Electric",
       "fortune_500": true,
-      "checked_at": "2026-11-15T21:54:19Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
+      "checked_at": "2026-11-17T03:59:30Z",
+      "status": "error",
+      "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": null
+      "error": "Failed request: https://graybar.wd1.myworkdayjobs.com/wday/cxs/graybar/Careers/jobs: 429 Client Error: Too Many Requests for url: https://graybar.wd1.myworkdayjobs.com/wday/cxs/graybar/Careers/jobs"
+    },
+    {
+      "key": "hartford-insurance-group",
+      "rank": 160,
+      "company": "Hartford Insurance Group",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T03:59:30Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://thehartford.wd5.myworkdayjobs.com/wday/cxs/thehartford/Careers_External/jobs: 429 Client Error: Too Many Requests for url: https://thehartford.wd5.myworkdayjobs.com/wday/cxs/thehartford/Careers_External/jobs"
+    },
+    {
+      "key": "henry-schein",
+      "rank": 335,
+      "company": "Henry Schein",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T03:59:30Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://henryschein.wd1.myworkdayjobs.com/wday/cxs/henryschein/External_Careers/jobs: 429 Client Error: Too Many Requests for url: https://henryschein.wd1.myworkdayjobs.com/wday/cxs/henryschein/External_Careers/jobs"
     },
     {
       "key": "smucker",
       "rank": 456,
       "company": "J.M. Smucker",
       "fortune_500": true,
-      "checked_at": "2026-11-16T20:33:51Z",
+      "checked_at": "2026-11-17T03:59:30Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
@@ -225,17 +290,43 @@
       "error": "Failed request: https://kyndryl.wd5.myworkdayjobs.com/wday/cxs/kyndryl/KyndrylEarlyCareers/jobs: 429 Client Error: Too Many Requests for url: https://kyndryl.wd5.myworkdayjobs.com/wday/cxs/kyndryl/KyndrylEarlyCareers/jobs"
     },
     {
-      "key": "msd",
-      "rank": 68,
-      "company": "MSD",
+      "key": "labcorp-holdings",
+      "rank": 326,
+      "company": "Labcorp Holdings",
       "fortune_500": true,
-      "checked_at": "2026-11-15T21:54:19Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
+      "checked_at": "2026-11-17T03:59:30Z",
+      "status": "error",
+      "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": null
+      "error": "Failed request: https://labcorp.wd1.myworkdayjobs.com/wday/cxs/labcorp/External/jobs: 429 Client Error: Too Many Requests for url: https://labcorp.wd1.myworkdayjobs.com/wday/cxs/labcorp/External/jobs"
+    },
+    {
+      "key": "lkq",
+      "rank": 325,
+      "company": "LKQ",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T03:59:30Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://lkqcorp.wd5.myworkdayjobs.com/wday/cxs/lkqcorp/ExternalCareerSite-LKQ/jobs: 429 Client Error: Too Many Requests for url: https://lkqcorp.wd5.myworkdayjobs.com/wday/cxs/lkqcorp/ExternalCareerSite-LKQ/jobs"
+    },
+    {
+      "key": "m-t-bank",
+      "rank": 334,
+      "company": "M&T Bank",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T03:59:30Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/MTB/jobs: 429 Client Error: Too Many Requests for url: https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/MTB/jobs"
     },
     {
       "key": "northern-trust",
@@ -264,24 +355,11 @@
       "error": "Failed request: https://pbfenergy.wd1.myworkdayjobs.com/wday/cxs/pbfenergy/PBF/jobs: 429 Client Error: Too Many Requests for url: https://pbfenergy.wd1.myworkdayjobs.com/wday/cxs/pbfenergy/PBF/jobs"
     },
     {
-      "key": "roper-technologies",
-      "rank": 487,
-      "company": "Roper Technologies",
-      "fortune_500": true,
-      "checked_at": "2026-11-16T02:16:04Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
-    },
-    {
       "key": "somnigroup-international",
       "rank": 35,
       "company": "Somnigroup International",
       "fortune_500": true,
-      "checked_at": "2026-11-16T20:33:51Z",
+      "checked_at": "2026-11-17T03:59:30Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
@@ -329,6 +407,19 @@
       "error": null
     },
     {
+      "key": "unum-group",
+      "rank": 338,
+      "company": "Unum Group",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T03:59:30Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://unum.wd1.myworkdayjobs.com/wday/cxs/unum/External/jobs: 429 Client Error: Too Many Requests for url: https://unum.wd1.myworkdayjobs.com/wday/cxs/unum/External/jobs"
+    },
+    {
       "key": "viatris",
       "rank": 318,
       "company": "Viatris",
@@ -340,6 +431,19 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://viatris.wd5.myworkdayjobs.com/wday/cxs/viatris/External/jobs: 429 Client Error: Too Many Requests for url: https://viatris.wd5.myworkdayjobs.com/wday/cxs/viatris/External/jobs"
+    },
+    {
+      "key": "visa",
+      "rank": 119,
+      "company": "Visa",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T03:59:30Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs"
     },
     {
       "key": "xcel-energy",
@@ -355,9 +459,9 @@
       "error": "Failed request: https://xcelenergy.wd1.myworkdayjobs.com/wday/cxs/xcelenergy/External/jobs: 429 Client Error: Too Many Requests for url: https://xcelenergy.wd1.myworkdayjobs.com/wday/cxs/xcelenergy/External/jobs"
     }
   ],
-  "companies_with_eligible_jobs": 28,
+  "companies_with_eligible_jobs": 22,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 147,
+  "opportunity_count": 100,
   "opportunities": [
     {
       "id": "j-m-smucker-a00b1bae9ef7",
@@ -512,124 +616,6 @@
       "match_score": 85
     },
     {
-      "id": "xylem-0f2a0f9e3a17",
-      "source_key": "xylem",
-      "fortune_rank": 443,
-      "fortune_500": true,
-      "company": "Xylem",
-      "title": "Sales Support Intern",
-      "location": "Lainate",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Strategy"
-      ],
-      "summary": "Xylem is a Fortune 500 global water solutions company dedicated to advancing sustainable impact and empowering the people who make water work every day. As a leading water technology company with 23,000 employees operating in over 150 countries, Xylem is at the forefront of…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-11",
-      "deadline": null,
-      "url": "https://xylem.wd5.myworkdayjobs.com/xylem-careers/job/Lainate/Sales-Support-Intern_R50693",
-      "external_id": "R50693",
-      "verified_at": "2026-11-15T09:32:55Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-9928aae0f8ef",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Marketing Intern-Minneapolis, MN (Starting Summer 2027)",
-      "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy"
-      ],
-      "summary": "Starting Hourly Rate $26.00 per hour. About us Working at Target means helping all families discover the joy of everyday life. We bring that vision to life through our values and culture. About the internship As a Marketing Intern, you'll gain a realistic preview of a career…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-11",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Marketing-Intern-Minneapolis--MN--Starting-Summer-2027-_R0000449107",
-      "external_id": "R0000449107",
-      "verified_at": "2026-11-15T09:32:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-bd0eb5d96079",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Space & Presentation Business Partner Intern – Minneapolis, MN (Starting Summer 2027)",
-      "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Strategy",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "This position is an internship that starts in Summer 2027. Starting Hourly Rate $29.00 per hour. About us Working at Target means helping all families discover the joy of everyday life. We bring that vision to life through our values and culture",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-10",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Space---Presentation-Business-Partner-Intern---Minneapolis--MN--Starting-Summer-2027-_R0000478342",
-      "external_id": "R0000478342",
-      "verified_at": "2026-11-15T09:32:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "palo-alto-networks-423fab906d1a",
-      "source_key": "palo-alto-networks",
-      "fortune_rank": 437,
-      "fortune_500": true,
-      "company": "Palo Alto Networks",
-      "title": "Legal Intern, Intellectual Property",
-      "location": "Office - Israel - Petach Tikva",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Product",
-        "Strategy",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "Our Mission At Palo Alto Networks®, we’re united by a shared mission—to protect our digital way of life. We thrive at the intersection of innovation and impact, solving real-world problems with cutting-edge technology and bold thinking",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-10",
-      "deadline": null,
-      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---Israel---Petach-Tikva/Legal-Intern--Intellectual-Property_JR-022705",
-      "external_id": "JR-022705",
-      "verified_at": "2026-11-15T09:32:42Z",
-      "match_score": 85
-    },
-    {
       "id": "omnicom-group-622e6823331c",
       "source_key": "omnicom-group",
       "fortune_rank": 257,
@@ -713,35 +699,6 @@
       "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/Washington-District-of-Columbia-United-States-of-America/Intern--Analytics_R16262",
       "external_id": "R16262",
       "verified_at": "2026-11-15T21:52:39Z",
-      "match_score": 85
-    },
-    {
-      "id": "palo-alto-networks-9a8fc0c71c33",
-      "source_key": "palo-alto-networks",
-      "fortune_rank": 437,
-      "fortune_500": true,
-      "company": "Palo Alto Networks",
-      "title": "Senior Program Specialist - Intern & Keep Warm Programs",
-      "location": "Office - USA - CA - Headquarters",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Strategy",
-        "Accounting"
-      ],
-      "summary": "Our Mission At Palo Alto Networks®, we’re united by a shared mission—to protect our digital way of life. We thrive at the intersection of innovation and impact, solving real-world problems with cutting-edge technology and bold thinking",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-09",
-      "deadline": null,
-      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Senior-Program-Specialist---Intern---Keep-Warm-Programs_JR-022876",
-      "external_id": "JR-022876",
-      "verified_at": "2026-11-15T09:32:46Z",
       "match_score": 85
     },
     {
@@ -894,34 +851,6 @@
       "match_score": 85
     },
     {
-      "id": "target-7cdb82780d58",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Dallas + Forth Worth, TX (Starting Summer 2027)",
-      "location": "2755 W University Dr. Ste 1101, Denton,TX 76201-1618",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "The pay range per hour is $25.50- $26.50. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-03",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/2755-W-University-Dr-Ste-1101-DentonTX-76201-1618/Store-Executive-Intern--Store-Leadership-Intern----W-Dallas--TX--Starting-Summer-2027-_R0000448516",
-      "external_id": "R0000448516",
-      "verified_at": "2026-11-15T09:32:51Z",
-      "match_score": 85
-    },
-    {
       "id": "conocophillips-acbc7a4dfdee",
       "source_key": "conocophillips",
       "fortune_rank": 75,
@@ -980,258 +909,6 @@
       "match_score": 85
     },
     {
-      "id": "target-572fdf42b836",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Southeastern Pennsylvania & Delaware (Starting Summer 2027)",
-      "location": "201 Sunrise Blvd, Exton,PA 19341-2336",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "The pay range per hour is $27.00- $28.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-28",
-      "deadline": "2026-12-31",
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/201-Sunrise-Blvd-ExtonPA-19341-2336/Store-Executive-Intern--Store-Leadership-Intern----Southeastern-Pennsylvania---Delaware--Starting-Summer-2027-_R0000446889",
-      "external_id": "R0000446889",
-      "verified_at": "2026-11-15T09:32:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-fd85620a3dbb",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - South Alabama & Florida Panhandle (Starting Summer 2027)",
-      "location": "4711 Bayou Blvd, Pensacola,FL 32503-2607",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "The pay range per hour is $23.00- $24.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-28",
-      "deadline": "2026-12-31",
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/4711-Bayou-Blvd-PensacolaFL-32503-2607/Store-Executive-Intern--Store-Leadership-Intern----South-Alabama---Florida-Panhandle--Starting-Summer-2027-_R0000446942",
-      "external_id": "R0000446942",
-      "verified_at": "2026-11-15T09:32:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-246184839bab",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Philadelphia, PA (Starting Summer 2027)",
-      "location": "1 Mifflin St, Philadelphia,PA 19148-2017",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "The pay range per hour is $27.00- $28.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-28",
-      "deadline": "2026-12-31",
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1-Mifflin-St-PhiladelphiaPA-19148-2017/Store-Executive-Intern--Store-Leadership-Intern----Philadelphia--PA--Starting-Summer-2027-_R0000446877",
-      "external_id": "R0000446877",
-      "verified_at": "2026-11-15T09:32:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-3edd86bd7f91",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - North & Central Alabama (Starting Summer 2027)",
-      "location": "6275 University Dr NW, Huntsville,AL 35806-1776",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "The pay range per hour is $24.00- $25.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-28",
-      "deadline": "2026-12-31",
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/6275-University-Dr-NW-HuntsvilleAL-35806-1776/Store-Executive-Intern--Store-Leadership-Intern----North---Central-Alabama--Starting-Summer-2027-_R0000446940-1",
-      "external_id": "R0000446940",
-      "verified_at": "2026-11-15T09:32:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-99c9754a0907",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Norridge, IL (Starting Summer 2027) ​",
-      "location": "4050 N Harlem Ave, Norridge,IL 60706-1202",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "The pay range per hour is $28.00- $29.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-28",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/4050-N-Harlem-Ave-NorridgeIL-60706-1202/Store-Executive-Intern--Store-Leadership-Intern----Norridge--IL--Starting-Summer-2027---_R0000449086",
-      "external_id": "R0000449086",
-      "verified_at": "2026-11-15T09:32:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-8fde6b2413c2",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Memphis, TN (Starting Summer 2027)",
-      "location": "601 Colonial Rd, Memphis,TN 38117-5132",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "The pay range per hour is $24.00- $25.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-28",
-      "deadline": "2026-12-31",
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/601-Colonial-Rd-MemphisTN-38117-5132/Store-Executive-Intern--Store-Leadership-Intern----Memphis--TN--Starting-Summer-2027-_R0000446938",
-      "external_id": "R0000446938",
-      "verified_at": "2026-11-15T09:32:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-2bddbde56e49",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Hudson Valley & Lower New York (Starting Summer 2027)",
-      "location": "4120 Palisades Center Dr, West Nyack,NY 10994-6801",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "The pay range per hour is $29.50- $30.50. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-28",
-      "deadline": "2026-12-31",
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/4120-Palisades-Center-Dr-West-NyackNY-10994-6801/Store-Executive-Intern--Store-Leadership-Intern----Hudson-Valley---Lower-New-York--Starting-Summer-2027-_R0000446905-1",
-      "external_id": "R0000446905",
-      "verified_at": "2026-11-15T09:32:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-67e39ffdbe2e",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Greater Pittsburgh & Central Pennsylvania (Starting Summer 2027)",
-      "location": "153 Sierra Dr, Altoona,PA 16601-9341",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "The pay range per hour is $25.00- $26.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-28",
-      "deadline": "2026-12-31",
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/153-Sierra-Dr-AltoonaPA-16601-9341/Store-Executive-Intern--Store-Leadership-Intern----Greater-Pittsburgh---Central-Pennsylvania--Starting-Summer-2027-_R0000446886",
-      "external_id": "R0000446886",
-      "verified_at": "2026-11-15T09:32:50Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-d23b74173775",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Boston, MA (Starting Summer 2027)",
-      "location": "1341 BOYLSTON ST, Boston,MA 02215-3936",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "The pay range per hour is $30.00- $31.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-28",
-      "deadline": "2026-12-31",
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1341-BOYLSTON-ST-BostonMA-02215-3936/Store-Executive-Intern--Store-Leadership-Intern----Boston--MA--Starting-Summer-2027-_R0000446890",
-      "external_id": "R0000446890",
-      "verified_at": "2026-11-15T09:32:51Z",
-      "match_score": 85
-    },
-    {
       "id": "j-m-smucker-337eea07955a",
       "source_key": "smucker",
       "fortune_rank": 456,
@@ -1259,35 +936,6 @@
       "verified_at": "2026-11-16T02:12:49Z",
       "match_score": 85,
       "source_stale": true
-    },
-    {
-      "id": "target-6c94bce77431",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) Rochester, MN (Starting Summer 2027) ​",
-      "location": "3827 Marketplace Dr NW, Rochester,MN 55901-3192",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $24.00- $28.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-27",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/3827-Marketplace-Dr-NW-RochesterMN-55901-3192/Store-Executive-Intern--Store-Leadership-Intern--Rochester--MN--Starting-Summer-2027---_R0000479039",
-      "external_id": "R0000479039",
-      "verified_at": "2026-11-15T09:32:51Z",
-      "match_score": 85
     },
     {
       "id": "boeing-8f2a2310a0f8",
@@ -1438,35 +1086,6 @@
       "external_id": "R_14772",
       "verified_at": "2026-11-15T17:14:40Z",
       "match_score": 90
-    },
-    {
-      "id": "target-c86411392f23",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Designer Intern, Owned Brands- Minneapolis, MN (Starting Summer, 2027)",
-      "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Cloud",
-        "Product",
-        "Strategy"
-      ],
-      "summary": "This position is entry-level position that starts in Summer 2027. Starting Hourly Rate $27.00 per hour. About us Working at Target means helping all families discover the joy of everyday life. We bring that vision to life through our values and culture",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-22",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Designer-Intern--Owned-Brands--Minneapolis--MN--Starting-Summer--2027-_R0000478536-1",
-      "external_id": "R0000478536",
-      "verified_at": "2026-11-15T09:32:51Z",
-      "match_score": 85
     },
     {
       "id": "auto-owners-insurance-a66b0c8348f3",
@@ -1785,728 +1404,6 @@
       "match_score": 85
     },
     {
-      "id": "target-cde033401256",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "UX Design Internship - Minneapolis, MN (Starting Summer, 2027)",
-      "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "This position is entry-level position that starts in Summer 2027. Starting Hourly Rate $34.00 per hour. Our UX Design Summer Internship opportunity is a 10-week program centered around supporting new UX talent. The UX Internship Program provides a structured, supportive…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/UX-Design-Internship---Minneapolis--MN--Starting-Summer--2027-_R0000451077",
-      "external_id": "R0000451077",
-      "verified_at": "2026-11-15T09:32:52Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-ec1aa81ff196",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) – Cookeville, TN (Starting Summer 2027)",
-      "location": "1100 S Willow Ave, Cookeville,TN 38501-4139",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $23.25- $24.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1100-S-Willow-Ave-CookevilleTN-38501-4139/Store-Executive-Intern--Store-Leadership-Intern----Knoxville--TN--Starting-Summer-2027-_R0000449839",
-      "external_id": "R0000449839",
-      "verified_at": "2026-11-15T09:32:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-2a344772b3dc",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Virginia (Starting Summer 2027) ​",
-      "location": "4521 S Laburnum Ave, Richmond,VA 23231-2421",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $24.00- $29.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/4521-S-Laburnum-Ave-RichmondVA-23231-2421/Store-Executive-Intern--Store-Leadership-Intern----Virginia--Starting-Summer-2027---_R0000447451",
-      "external_id": "R0000447451",
-      "verified_at": "2026-11-15T09:32:52Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-cd107c791cd1",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Tampa + St. Pete + Sarasota, FL (Starting Summer 2027) ​ ​",
-      "location": "1544 N Dale Mabry Hwy, Tampa,FL 33607-2551",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $24.50- $25.50. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1544-N-Dale-Mabry-Hwy-TampaFL-33607-2551/Store-Executive-Intern--Store-Leadership-Intern----Tampa---St-Pete---Sarasota--FL--Starting-Summer-2027------_R0000448578",
-      "external_id": "R0000448578",
-      "verified_at": "2026-11-15T09:32:53Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-090d4116541a",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - St. Cloud, MN (Starting Summer 2027) ​ ​",
-      "location": "4201 W Division St, Saint Cloud,MN 56301-6601",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Cloud",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $27.25- $28.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/4201-W-Division-St-Saint-CloudMN-56301-6601/Store-Executive-Intern--Store-Leadership-Intern----St-Cloud--MN--Starting-Summer-2027------_R0000449255",
-      "external_id": "R0000449255",
-      "verified_at": "2026-11-15T09:32:53Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-a0df10096a90",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Schaumburg, IL (Starting Summer 2027) ​",
-      "location": "2621 W Schaumburg Rd, Schaumburg,IL 60194-3894",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $28.00- $29.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/2621-W-Schaumburg-Rd-SchaumburgIL-60194-3894/Store-Executive-Intern--Store-Leadership-Intern----Schaumburg--IL--Starting-Summer-2027---_R0000449085",
-      "external_id": "R0000449085",
-      "verified_at": "2026-11-15T09:32:53Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-ad364e892189",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Raleigh, NC (Starting Summer 2027)",
-      "location": "2021 Walnut St, Cary,NC 27518-9205",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $25.00- $26.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/2021-Walnut-St-CaryNC-27518-9205/Store-Executive-Intern--Store-Leadership-Intern----Raleigh--NC--Starting-Summer-2027-_R0000449293",
-      "external_id": "R0000449293",
-      "verified_at": "2026-11-15T09:32:52Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-651e90c54360",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Orlando, FL (Starting Summer 2027)",
-      "location": "325 N Alafaya Trl, Orlando,FL 32828-7012",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $24.50- $25.50. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/325-N-Alafaya-Trl-OrlandoFL-32828-7012/Store-Executive-Intern--Store-Leadership-Intern----Orlando--FL--Starting-Summer-2027-_R0000448580",
-      "external_id": "R0000448580",
-      "verified_at": "2026-11-15T09:32:53Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-38a56c321436",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - New York City, NY (Starting Summer 2027) ​",
-      "location": "400 Grand St, New York,NY 10002-3949",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $30.75- $31.75. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/400-Grand-St-New-YorkNY-10002-3949/Store-Executive-Intern--Store-Leadership-Intern----New-York-City--NY--Starting-Summer-2027---_R0000447441",
-      "external_id": "R0000447441",
-      "verified_at": "2026-11-15T09:32:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-0a285d651a1d",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - New Jersey (Starting Summer 2027) ​",
-      "location": "400 Ryders Ln, Milltown,NJ 08850-1700",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $28.00- $28.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/400-Ryders-Ln-MilltownNJ-08850-1700/Store-Executive-Intern--Store-Leadership-Intern----New-Jersey--Starting-Summer-2027---_R0000447448",
-      "external_id": "R0000447448",
-      "verified_at": "2026-11-15T09:32:52Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-58b1b5773d2b",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Miami- Starting Summer 2027)​",
-      "location": "249 NW 6th St, Ste 120, Miami,FL 33136-4248",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $25.50- $25.75. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/249-NW-6th-St-Ste-120-MiamiFL-33136-4248/Store-Executive-Intern--Store-Leadership-Intern----South-FL--Miami-to-West-Palm---Starting-Summer-2027--_R0000448573",
-      "external_id": "R0000448573",
-      "verified_at": "2026-11-15T09:32:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-47490f46a1f6",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Madison, WI (Starting Summer 2027) ​ ​",
-      "location": "201 Junction Rd, Madison,WI 53717-2615",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $24.00- $28.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/201-Junction-Rd-MadisonWI-53717-2615/Store-Executive-Intern--Store-Leadership-Intern----Madison--WI--Starting-Summer-2027------_R0000449243",
-      "external_id": "R0000449243",
-      "verified_at": "2026-11-15T09:32:53Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-e5b03c63a289",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Long Island, NY (Starting Summer 2027) ​",
-      "location": "3850 Hempstead Tpke, Levittown,NY 11756-1303",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $30.00- $31.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/3850-Hempstead-Tpke-LevittownNY-11756-1303/Store-Executive-Intern--Store-Leadership-Intern----Long-Island--NY--Starting-Summer-2027---_R0000447446",
-      "external_id": "R0000447446",
-      "verified_at": "2026-11-15T09:32:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-b45387342e99",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Houston, TX (Starting Summer 2027)",
-      "location": "2580 Shearn St, Houston,TX 77007-3967",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $25.25- $25.75. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/2580-Shearn-St-HoustonTX-77007-3967/Store-Executive-Intern--Store-Leadership-Intern----Houston--TX--Starting-Summer-2027-_R0000449299",
-      "external_id": "R0000449299",
-      "verified_at": "2026-11-15T09:32:52Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-8c9b244ef1b8",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Greater Minneapolis, MN (Starting Summer 2027) ​ ​",
-      "location": "900 Nicollet Mall, Minneapolis,MN 55403-2530",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $27.25- $28.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/900-Nicollet-Mall-MinneapolisMN-55403-2530/Store-Executive-Intern--Store-Leadership-Intern----Greater-Minneapolis--MN--Starting-Summer-2027------_R0000449251",
-      "external_id": "R0000449251",
-      "verified_at": "2026-11-15T09:32:54Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-acfc7289e2dd",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Duluth, MN (Starting Summer 2027) ​ ​",
-      "location": "1902 Miller Trunk Hwy, Duluth,MN 55811-1810",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $27.25- $28.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1902-Miller-Trunk-Hwy-DuluthMN-55811-1810/Store-Executive-Intern--Store-Leadership-Intern----Duluth--MN--Starting-Summer-2027------_R0000449254",
-      "external_id": "R0000449254",
-      "verified_at": "2026-11-15T09:32:53Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-fb63ba08723e",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - D.C & Maryland (Starting Summer 2027) ​",
-      "location": "3500 East West Hwy Ste 1200, Hyattsville,MD 20782-5003",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $28.00- $29.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/3500-East-West-Hwy-Ste-1200-HyattsvilleMD-20782-5003/Store-Executive-Intern--Store-Leadership-Intern----DC---Maryland--Starting-Summer-2027---_R0000447453",
-      "external_id": "R0000447453",
-      "verified_at": "2026-11-15T09:32:52Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-0d54b3941c6f",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Charlotte, NC (Starting Summer 2027) ​",
-      "location": "900 Metropolitan Ave, Ste 2Charlotte, NC 28204-3262",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $24.75- $25.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/900-Metropolitan-Ave-Ste-2Charlotte-NC-28204-3262/Store-Executive-Intern--Store-Leadership-Intern----Charlotte--NC--Starting-Summer-2027---_R0000448581",
-      "external_id": "R0000448581",
-      "verified_at": "2026-11-15T09:32:52Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-3fa725695890",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Charleston, SC + Savannah, GA (Starting Summer 2027) ​",
-      "location": "450 Azalea Square Blvd, Summerville,SC 29483-7321",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $24.00- $25.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/450-Azalea-Square-Blvd-SummervilleSC-29483-7321/Store-Executive-Intern--Store-Leadership-Intern----Charleston--SC---Savannah--GA--Starting-Summer-2027---_R0000448584",
-      "external_id": "R0000448584",
-      "verified_at": "2026-11-15T09:32:52Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-1fc8eded259a",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Central Pennsylvania (Starting Summer 2027) ​",
-      "location": "4599 Perkiomen Ave, Reading, PA 19606-3201",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $25.00- $25.50. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/4599-Perkiomen-Ave-Reading-PA-19606-3201/Store-Executive-Intern--Store-Leadership-Intern----Central-Pennsylvania--Starting-Summer-2027---_R0000447455",
-      "external_id": "R0000447455",
-      "verified_at": "2026-11-15T09:32:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-8c36c3960b9d",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Cedar Rapids, IA (Starting Summer 2027) ​ ​",
-      "location": "3400 Edgewood Rd SW, Cedar Rapids,IA 52404-7214",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $24.00- $28.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/3400-Edgewood-Rd-SW-Cedar-RapidsIA-52404-7214/Store-Executive-Intern--Store-Leadership-Intern----Cedar-Rapids--IA--Starting-Summer-2027------_R0000449242",
-      "external_id": "R0000449242",
-      "verified_at": "2026-11-15T09:32:54Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-e4b63e047d88",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Arlington Heights, IL (Starting Summer 2027) ​",
-      "location": "1700 E Rand Rd, Arlington Heights,IL 60004-4379",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $21.25- $33.25. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1700-E-Rand-Rd-Arlington-HeightsIL-60004-4379/Store-Executive-Intern--Store-Leadership-Intern----Arlington-Heights--IL--Starting-Summer-2027---_R0000448963",
-      "external_id": "R0000448963",
-      "verified_at": "2026-11-15T09:32:53Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-f001af95b2bd",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Store Executive Intern (Store Leadership Intern) - Algonquin, IL (Starting Summer 2027) ​ ​",
-      "location": "750 S Randall Rd, Algonquin,IL 60102-5915",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk"
-      ],
-      "summary": "The pay range per hour is $24.00- $28.00. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications. In addition to your pay, Target cares about and invests in you as…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/750-S-Randall-Rd-AlgonquinIL-60102-5915/Store-Executive-Intern--Store-Leadership-Intern----Algonquin--Starting-Summer-2027------_R0000449248",
-      "external_id": "R0000449248",
-      "verified_at": "2026-11-15T09:32:53Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-7981f0e34887",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Operations Manager Intern (Starting Summer 2027) IR3 Distribution Center, Upper Marlboro, MD",
-      "location": "16070 Leeland Rd, Upper Marlboro,MD 20774-8528",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations",
-        "Risk",
-        "Accounting"
-      ],
-      "summary": "The pay range per hour is $28.25-$29.25. You may also earn additional compensation in the form of a shift differential, ranging from $2.00 to $3.50 per hour, based on eligibility. Pay is based on several factors which vary based on position",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/16070-Leeland-Rd-Upper-MarlboroMD-20774-8528/Operations-Manager-Intern--Starting-Summer-2027--IR3-Distribution-Center--Upper-Marlboro--MD_R0000450155",
-      "external_id": "R0000450155",
-      "verified_at": "2026-11-15T09:32:52Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-a3e6f08b052b",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Inventory Analyst Intern - Minneapolis, MN (Starting Summer, 2027)",
-      "location": "1000 Nicollet Mall, Minneapolis,MN 55403-2542",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "This is an entry level intern position that starts in Summer 2027. Starting Hourly Rate $29.00 per hour. Pay is based on several factors which vary based on position. These include labor markets and in some instances may include education, work experience and certifications",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://target.wd5.myworkdayjobs.com/targetcareers/job/1000-Nicollet-Mall-MinneapolisMN-55403-2542/Inventory-Analyst-Intern---Minneapolis--MN--Starting-Summer--2027-_R0000450965",
-      "external_id": "R0000450965",
-      "verified_at": "2026-11-15T09:32:56Z",
-      "match_score": 85
-    },
-    {
       "id": "somnigroup-international-08dd22ac2137",
       "source_key": "somnigroup-international",
       "fortune_rank": 35,
@@ -2619,37 +1516,6 @@
       "url": "https://pfizer.wd1.myworkdayjobs.com/PfizerCareers/job/Malaysia---Kuala-Lumpur/Internship---APAC-RIO--Regulatory-_4964215",
       "external_id": "4964215",
       "verified_at": "2026-11-16T02:13:30Z",
-      "match_score": 85
-    },
-    {
-      "id": "palo-alto-networks-3cc54198818d",
-      "source_key": "palo-alto-networks",
-      "fortune_rank": 437,
-      "fortune_500": true,
-      "company": "Palo Alto Networks",
-      "title": "Intern - GRC Engineer",
-      "location": "Office - USA - CA - Headquarters",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Implementation Consulting",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "Cloud",
-        "AI / ML",
-        "Risk"
-      ],
-      "summary": "Our Mission At Palo Alto Networks®, we’re united by a shared mission—to protect our digital way of life. We thrive at the intersection of innovation and impact, solving real-world problems with cutting-edge technology and bold thinking",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://paloaltonetworks.wd5.myworkdayjobs.com/panwexternalcareers/job/Office---USA---CA---Headquarters/Intern---GRC-Engineer_JR-013678",
-      "external_id": "JR-013678",
-      "verified_at": "2026-11-15T09:32:47Z",
       "match_score": 85
     },
     {
@@ -3724,64 +2590,6 @@
       "match_score": 90
     },
     {
-      "id": "valero-energy-ac21abc6c4fd",
-      "source_key": "valero-energy",
-      "fortune_rank": 40,
-      "fortune_500": true,
-      "company": "Valero Energy",
-      "title": "Intern Programs",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Risk management",
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "SQL",
-        "Excel",
-        "Product",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Intern Programs Internships at Valero Fueling Valero’s Talent Pipeline Join the Legacy. Turn what you’re learning in the classroom into meaningful, real-world experience at Valero. Contribute to important projects, learn from industry professionals and build skills that can…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.valero.com/careers/university-recruiting/intern-programs",
-      "external_id": null,
-      "verified_at": "2026-11-15T09:31:26Z",
-      "match_score": 85
-    },
-    {
-      "id": "target-74cfe5e85296",
-      "source_key": "target",
-      "fortune_rank": 42,
-      "fortune_500": true,
-      "company": "Target",
-      "title": "Explore Intern & Entry-Level Careers",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Pre-internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Explore career areas and jobs for you Saved jobs Create a job alert Search jobs Saved jobs Create a job alert Home Careers Career Areas Explore Intern & Entry-Level Careers Accelerate your professional growth through one of our internships or entry-level programs and level up…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://corporate.target.com/careers/career-areas/intern-entry-level",
-      "external_id": null,
-      "verified_at": "2026-11-15T09:33:13Z",
-      "match_score": 85
-    },
-    {
       "id": "steel-dynamics-e24157b42c67",
       "source_key": "steel-dynamics",
       "fortune_rank": 244,
@@ -3860,7 +2668,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-11-16T20:31:06Z",
+      "verified_at": "2026-11-17T03:56:28Z",
       "match_score": 85
     },
     {
@@ -3893,7 +2701,7 @@
       "deadline": null,
       "url": "https://careers.massmutual.com/job/springfield/business-operations-intern-summer-2027/724/100746307024",
       "external_id": null,
-      "verified_at": "2026-11-16T20:31:20Z",
+      "verified_at": "2026-11-17T03:56:27Z",
       "match_score": 90
     },
     {
@@ -4034,64 +2842,6 @@
       "match_score": 85
     },
     {
-      "id": "expand-energy-ff8e5e9f1c9b",
-      "source_key": "expand-energy",
-      "fortune_rank": 362,
-      "fortune_500": true,
-      "company": "Expand Energy",
-      "title": "Intern - Supply Chain",
-      "location": "Search by Location",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Risk"
-      ],
-      "summary": "We use cookies to offer you the best possible website experience. Your cookie preferences will be stored in your browser’s local storage. This includes cookies necessary for the website's operation. Additionally, you can freely decide and change any time whether you accept…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "alifications Previous industry experience, preferred Previous internship experience, preferred Must graduate on or after December 2027 Expand Energy takes necessary action…",
-      "freshman_friendly": true,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://jobs.expandenergy.com/job/Oklahoma-City-Intern-Supply-Chain-OK-73118/1430442400/",
-      "external_id": null,
-      "verified_at": "2026-11-15T09:33:13Z",
-      "match_score": 90
-    },
-    {
-      "id": "equinix-26b20c29d201",
-      "source_key": "equinix",
-      "fortune_rank": 436,
-      "fortune_500": true,
-      "company": "Equinix",
-      "title": "Intern to impact – Haley Wynne",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Technical Solutions",
-        "Solutions Architect",
-        "Sales Engineer"
-      ],
-      "tags": [
-        "Strategy"
-      ],
-      "summary": "Kiosk mode Intern to impact – Haley Wynne Oct 14 2025 What if your internship could be the launchpad for your entire tech career? For Haley Wynne, it was exactly that. In 2023, Haley joined Equinix as an intern on our Global Technical Solutions Team (GTST) Public Sector team",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://careers.equinix.com/blogs/life-at-equinix-blogs/intern-to-impact-hayley-wynne",
-      "external_id": null,
-      "verified_at": "2026-11-15T09:31:57Z",
-      "match_score": 85
-    },
-    {
       "id": "enterprise-products-partners-2c9f6af1610b",
       "source_key": "enterprise-products-partners",
       "fortune_rank": 89,
@@ -4119,6 +2869,31 @@
       "url": "https://enterpriseproducts.com/careers/early-careers/",
       "external_id": null,
       "verified_at": "2026-11-16T09:50:13Z",
+      "match_score": 85
+    },
+    {
+      "id": "brightspring-health-services-8ab26e506f03",
+      "source_key": "brightspring-health-services",
+      "fortune_rank": 323,
+      "fortune_500": true,
+      "company": "BrightSpring Health Services",
+      "title": "Internship Opportunities - BrightSpring Health Services",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "CAMPUS OPPORTUNITIES Internship Opportunities Home / Campus Opportunities / Internship Opportunities Build Your Future with Our Internship Program Our internship program offers the opportunity to engage in meaningful work that makes a positive impact on both your community and…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.brightspringhealth.com/campus-opportunities/internship-opportunities/",
+      "external_id": null,
+      "verified_at": "2026-11-17T03:56:48Z",
       "match_score": 85
     },
     {
@@ -4526,33 +3301,6 @@
       "url": "https://jobs.boeing.com/meet-AdrianL",
       "external_id": null,
       "verified_at": "2026-11-15T17:15:16Z",
-      "match_score": 85
-    },
-    {
-      "id": "avery-dennison-4c9323a46392",
-      "source_key": "avery-dennison",
-      "fortune_rank": 448,
-      "fortune_500": true,
-      "company": "Avery Dennison",
-      "title": "Join the Avery Dennison Internship Community",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML"
-      ],
-      "summary": "Profile Background Are you looking for an Internship opportunity where you can bring your unique skills and talents to work every day? Do you thrive on ideas and making a visible impact? Do you want to work with colleagues who are as excited about what they do as you are, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://join.smartrecruiters.com/AveryDennison/eed4fbc6-ff4b-4f23-8d4b-0ff5fd2e0a1f-internship-community",
-      "external_id": null,
-      "verified_at": "2026-11-15T09:32:25Z",
       "match_score": 85
     },
     {
