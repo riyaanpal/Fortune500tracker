@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17T03:59:30Z",
+  "updated_at": "2026-11-17T13:31:41Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -11,10 +11,10 @@
   "directory_warnings": [
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-11-17T03:56:24Z",
+  "directory_refreshed_at": "2026-11-17T13:30:48Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 134,
-  "companies_failed_last_24h": 34,
+  "companies_failed_last_24h": 38,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "abbott-laboratories",
@@ -30,17 +30,56 @@
       "error": "Failed request: https://abbott.wd5.myworkdayjobs.com/wday/cxs/abbott/abbottcareers/jobs: 429 Client Error: Too Many Requests for url: https://abbott.wd5.myworkdayjobs.com/wday/cxs/abbott/abbottcareers/jobs"
     },
     {
-      "key": "bank-of-america",
-      "rank": 20,
-      "company": "Bank of America",
+      "key": "alcoa",
+      "rank": 344,
+      "company": "Alcoa",
       "fortune_500": true,
-      "checked_at": "2026-11-16T09:53:26Z",
+      "checked_at": "2026-11-17T13:31:41Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
-      "careers_url": "https://careers.bankofamerica.com/en-us/students/job-search?ref=search&search=getAllJobs&start=0&rows=10",
-      "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 429 Client Error: Too Many Requests for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
+      "careers_url": null,
+      "error": "Failed request: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/Careers/jobs: 429 Client Error: Too Many Requests for url: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/Careers/jobs"
+    },
+    {
+      "key": "ameren",
+      "rank": 466,
+      "company": "Ameren",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T13:31:41Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://ameren.wd1.myworkdayjobs.com/Collegiate",
+      "error": "Failed request: https://ameren.wd1.myworkdayjobs.com/wday/cxs/ameren/Collegiate/jobs: 429 Client Error: Too Many Requests for url: https://ameren.wd1.myworkdayjobs.com/wday/cxs/ameren/Collegiate/jobs"
+    },
+    {
+      "key": "assurant",
+      "rank": 345,
+      "company": "Assurant",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T13:31:41Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://assurant.wd1.myworkdayjobs.com/wday/cxs/assurant/Assurant_Careers/jobs: 429 Client Error: Too Many Requests for url: https://assurant.wd1.myworkdayjobs.com/wday/cxs/assurant/Assurant_Careers/jobs"
+    },
+    {
+      "key": "baker-hughes",
+      "rank": 164,
+      "company": "Baker Hughes",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T13:31:41Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://bakerhughes.wd5.myworkdayjobs.com/wday/cxs/bakerhughes/BakerHughes/jobs: 429 Client Error: Too Many Requests for url: https://bakerhughes.wd5.myworkdayjobs.com/wday/cxs/bakerhughes/BakerHughes/jobs"
     },
     {
       "key": "bristol-myers-squibb",
@@ -54,19 +93,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://bristolmyerssquibb.wd5.myworkdayjobs.com/wday/cxs/bristolmyerssquibb/BMS/jobs: 429 Client Error: Too Many Requests for url: https://bristolmyerssquibb.wd5.myworkdayjobs.com/wday/cxs/bristolmyerssquibb/BMS/jobs"
-    },
-    {
-      "key": "c-h-robinson-worldwide",
-      "rank": 277,
-      "company": "C.H. Robinson Worldwide",
-      "fortune_500": true,
-      "checked_at": "2026-11-16T09:53:26Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://chrobinson.wd5.myworkdayjobs.com/wday/cxs/chrobinson/CHRobinson/jobs: 429 Client Error: Too Many Requests for url: https://chrobinson.wd5.myworkdayjobs.com/wday/cxs/chrobinson/CHRobinson/jobs"
     },
     {
       "key": "capital-one-financial",
@@ -95,19 +121,6 @@
       "error": "Failed request: https://carmax.wd1.myworkdayjobs.com/wday/cxs/carmax/External/jobs: 429 Client Error: Too Many Requests for url: https://carmax.wd1.myworkdayjobs.com/wday/cxs/carmax/External/jobs"
     },
     {
-      "key": "citigroup",
-      "rank": 24,
-      "company": "Citigroup",
-      "fortune_500": true,
-      "checked_at": "2026-11-16T09:53:26Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": "https://jobs.citi.com/search-jobs",
-      "error": "Failed request: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs: 429 Client Error: Too Many Requests for url: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs"
-    },
-    {
       "key": "comfort-systems-usa",
       "rank": 440,
       "company": "Comfort Systems USA",
@@ -121,6 +134,19 @@
       "error": "Failed request: https://comfortsystemsusa.wd1.myworkdayjobs.com/wday/cxs/comfortsystemsusa/Corpcareers/jobs: 429 Client Error: Too Many Requests for url: https://comfortsystemsusa.wd1.myworkdayjobs.com/wday/cxs/comfortsystemsusa/Corpcareers/jobs"
     },
     {
+      "key": "crown-holdings",
+      "rank": 356,
+      "company": "Crown Holdings",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T13:31:41Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://crownholdings.wd501.myworkdayjobs.com/wday/cxs/crownholdings/CrownHoldings/jobs: 429 Client Error: Too Many Requests for url: https://crownholdings.wd501.myworkdayjobs.com/wday/cxs/crownholdings/CrownHoldings/jobs"
+    },
+    {
       "key": "expedia-group",
       "rank": 304,
       "company": "Expedia Group",
@@ -132,19 +158,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs: 429 Client Error: Too Many Requests for url: https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs"
-    },
-    {
-      "key": "ferguson-enterprises",
-      "rank": 147,
-      "company": "Ferguson Enterprises",
-      "fortune_500": true,
-      "checked_at": "2026-11-16T09:53:26Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
     },
     {
       "key": "fidelity-national-financial",
@@ -173,17 +186,17 @@
       "error": null
     },
     {
-      "key": "ge-aerospace",
-      "rank": 101,
-      "company": "GE Aerospace",
+      "key": "ge-vernova",
+      "rank": 124,
+      "company": "GE Vernova",
       "fortune_500": true,
-      "checked_at": "2026-11-16T09:53:26Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
+      "checked_at": "2026-11-17T13:31:41Z",
+      "status": "error",
+      "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": "Failed request: https://geaerospace.wd5.myworkdayjobs.com/wday/cxs/geaerospace/GE_ExternalSite/jobs: 429 Client Error: Too Many Requests for url: https://geaerospace.wd5.myworkdayjobs.com/wday/cxs/geaerospace/GE_ExternalSite/jobs"
+      "error": "Failed request: https://gevernova.wd5.myworkdayjobs.com/wday/cxs/gevernova/Vernova_ExternalSite/jobs: 429 Client Error: Too Many Requests for url: https://gevernova.wd5.myworkdayjobs.com/wday/cxs/gevernova/Vernova_ExternalSite/jobs"
     },
     {
       "key": "gilead-sciences",
@@ -242,7 +255,7 @@
       "rank": 456,
       "company": "J.M. Smucker",
       "fortune_500": true,
-      "checked_at": "2026-11-17T03:59:30Z",
+      "checked_at": "2026-11-17T13:31:41Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
@@ -329,6 +342,32 @@
       "error": "Failed request: https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/MTB/jobs: 429 Client Error: Too Many Requests for url: https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/MTB/jobs"
     },
     {
+      "key": "marvell-technology",
+      "rank": 476,
+      "company": "Marvell Technology",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T13:31:41Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers",
+      "error": "Failed request: https://marvell.wd1.myworkdayjobs.com/wday/cxs/marvell/MarvellCareers/jobs: 429 Client Error: Too Many Requests for url: https://marvell.wd1.myworkdayjobs.com/wday/cxs/marvell/MarvellCareers/jobs"
+    },
+    {
+      "key": "nasdaq",
+      "rank": 470,
+      "company": "Nasdaq",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T13:31:41Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site",
+      "error": "Failed request: https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs: 429 Client Error: Too Many Requests for url: https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs"
+    },
+    {
       "key": "northern-trust",
       "rank": 317,
       "company": "Northern Trust",
@@ -340,6 +379,19 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://ntrs.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs: 429 Client Error: Too Many Requests for url: https://ntrs.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs"
+    },
+    {
+      "key": "occidental-petroleum",
+      "rank": 173,
+      "company": "Occidental Petroleum",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T13:31:41Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://oxy.wd5.myworkdayjobs.com/wday/cxs/oxy/Corporate/jobs: 429 Client Error: Too Many Requests for url: https://oxy.wd5.myworkdayjobs.com/wday/cxs/oxy/Corporate/jobs"
     },
     {
       "key": "pbf-energy",
@@ -355,17 +407,43 @@
       "error": "Failed request: https://pbfenergy.wd1.myworkdayjobs.com/wday/cxs/pbfenergy/PBF/jobs: 429 Client Error: Too Many Requests for url: https://pbfenergy.wd1.myworkdayjobs.com/wday/cxs/pbfenergy/PBF/jobs"
     },
     {
+      "key": "ryder-system",
+      "rank": 346,
+      "company": "Ryder System",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T13:31:41Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://ryder.wd5.myworkdayjobs.com/wday/cxs/ryder/RyderCareers/jobs: 429 Client Error: Too Many Requests for url: https://ryder.wd5.myworkdayjobs.com/wday/cxs/ryder/RyderCareers/jobs"
+    },
+    {
       "key": "somnigroup-international",
       "rank": 35,
       "company": "Somnigroup International",
       "fortune_500": true,
-      "checked_at": "2026-11-17T03:59:30Z",
+      "checked_at": "2026-11-17T13:31:41Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://mattressfirm.wd1.myworkdayjobs.com/MattressFirmCareers",
       "error": "Failed request: https://mattressfirm.wd1.myworkdayjobs.com/wday/cxs/mattressfirm/MattressFirmCareers/jobs: 429 Client Error: Too Many Requests for url: https://mattressfirm.wd1.myworkdayjobs.com/wday/cxs/mattressfirm/MattressFirmCareers/jobs"
+    },
+    {
+      "key": "state-street",
+      "rank": 202,
+      "company": "State Street",
+      "fortune_500": true,
+      "checked_at": "2026-11-17T13:31:41Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs: 429 Client Error: Too Many Requests for url: https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs"
     },
     {
       "key": "travelers",
@@ -379,32 +457,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://travelers.wd5.myworkdayjobs.com/wday/cxs/travelers/External/jobs: 429 Client Error: Too Many Requests for url: https://travelers.wd5.myworkdayjobs.com/wday/cxs/travelers/External/jobs"
-    },
-    {
-      "key": "tyson-foods",
-      "rank": 87,
-      "company": "Tyson Foods",
-      "fortune_500": true,
-      "checked_at": "2026-11-16T09:53:26Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://tysonfoods.wd5.myworkdayjobs.com/wday/cxs/tysonfoods/TSN/jobs: 429 Client Error: Too Many Requests for url: https://tysonfoods.wd5.myworkdayjobs.com/wday/cxs/tysonfoods/TSN/jobs"
-    },
-    {
-      "key": "united-services-automobile-assn",
-      "rank": 93,
-      "company": "United Services Automobile Assn.",
-      "fortune_500": true,
-      "checked_at": "2026-11-16T09:53:26Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
     },
     {
       "key": "unum-group",
@@ -459,9 +511,9 @@
       "error": "Failed request: https://xcelenergy.wd1.myworkdayjobs.com/wday/cxs/xcelenergy/External/jobs: 429 Client Error: Too Many Requests for url: https://xcelenergy.wd1.myworkdayjobs.com/wday/cxs/xcelenergy/External/jobs"
     }
   ],
-  "companies_with_eligible_jobs": 22,
+  "companies_with_eligible_jobs": 19,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 100,
+  "opportunity_count": 73,
   "opportunities": [
     {
       "id": "j-m-smucker-a00b1bae9ef7",
@@ -702,38 +754,6 @@
       "match_score": 85
     },
     {
-      "id": "voya-financial-692c186dc5a2",
-      "source_key": "voya-financial",
-      "fortune_rank": 477,
-      "fortune_500": true,
-      "company": "Voya Financial",
-      "title": "Summer Intern – Renewable Energy Infrastructure Debt",
-      "location": "New York, NY",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending",
-        "Wealth management"
-      ],
-      "tags": [
-        "Excel",
-        "AI / ML",
-        "Strategy",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Together we fight for everyone’s opportunity for a better financial future. We will do this together — with customers, partners and colleagues. We will fight for others, not against: We will stand up for and champion everyone’s access to opportunities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-06",
-      "deadline": null,
-      "url": "https://godirect.wd5.myworkdayjobs.com/voya_jobs/job/New-York-NY/Summer-Intern---Renewable-Energy-Infrastructure-Debt_JR0033386",
-      "external_id": "JR0033386",
-      "verified_at": "2026-11-15T17:15:57Z",
-      "match_score": 85
-    },
-    {
       "id": "omnicom-group-5839829f2fc4",
       "source_key": "omnicom-group",
       "fortune_rank": 257,
@@ -761,35 +781,6 @@
       "url": "https://interpublic.wd5.myworkdayjobs.com/OMC/job/Washington-District-of-Columbia-United-States-of-America/Intern--Social---Influencer_R16261",
       "external_id": "R16261",
       "verified_at": "2026-11-15T21:52:39Z",
-      "match_score": 85
-    },
-    {
-      "id": "boeing-51768aca0567",
-      "source_key": "boeing",
-      "fortune_rank": 47,
-      "fortune_500": true,
-      "company": "Boeing",
-      "title": "Facilities Management Intern - Summer 2027",
-      "location": "GBR - Hounslow, UK",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Operations"
-      ],
-      "summary": "Facilities Management Intern - Summer 2027 Company: Boeing United Kingdom Limited Role Overview Join our Integrated Facilities Management (IFM) team for a summer internship, where you’ll gain hands-on experience supporting operational excellence, contract alignment, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-06",
-      "deadline": "2026-11-20",
-      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Hounslow-UK/Facilities-Management-Intern---Summer-2027_JR2026525476",
-      "external_id": "JR2026525476",
-      "verified_at": "2026-11-15T17:14:51Z",
       "match_score": 85
     },
     {
@@ -879,36 +870,6 @@
       "match_score": 90
     },
     {
-      "id": "auto-owners-insurance-f19c71e1fd46",
-      "source_key": "auto-owners-insurance",
-      "fortune_rank": 241,
-      "fortune_500": true,
-      "company": "Auto-Owners Insurance",
-      "title": "Home Office Underwriting/Audit Internship - Summer 2027",
-      "location": "Lansing, MI",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "IT analyst",
-        "Accounting / financial analyst"
-      ],
-      "tags": [
-        "Product",
-        "Credit",
-        "Accounting"
-      ],
-      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking a motivated…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-02",
-      "deadline": null,
-      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Home-Office-Underwriting-Audit-Internship---Summer-2027_R_14361",
-      "external_id": "R_14361",
-      "verified_at": "2026-11-15T17:14:40Z",
-      "match_score": 85
-    },
-    {
       "id": "j-m-smucker-337eea07955a",
       "source_key": "smucker",
       "fortune_rank": 456,
@@ -936,63 +897,6 @@
       "verified_at": "2026-11-16T02:12:49Z",
       "match_score": 85,
       "source_stale": true
-    },
-    {
-      "id": "boeing-8f2a2310a0f8",
-      "source_key": "boeing",
-      "fortune_rank": 47,
-      "fortune_500": true,
-      "company": "Boeing",
-      "title": "Intern - Student Engineer (Systems Eng)",
-      "location": "GBR - Bristol, UK",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Intern - Student Engineer (Systems Eng) Company: Boeing Defence United Kingdom Limited Overview: This post is for a Systems Engineering Intern to work within the engineering function in Boeing Defence UK (BDUK) ideally based in Bristol but with an option for basing it in…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-27",
-      "deadline": "2026-11-17",
-      "url": "https://boeing.wd1.myworkdayjobs.com/EXTERNAL_CAREERS/job/GBR---Bristol-UK/Intern---Student-Engineer--Systems-Eng-_JR2026525683",
-      "external_id": "JR2026525683",
-      "verified_at": "2026-11-15T17:14:51Z",
-      "match_score": 85
-    },
-    {
-      "id": "auto-owners-insurance-500b7daf50c0",
-      "source_key": "auto-owners-insurance",
-      "fortune_rank": 241,
-      "fortune_500": true,
-      "company": "Auto-Owners Insurance",
-      "title": "Intern - Analytics Web Systems Developer",
-      "location": "Lansing, MI",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "SQL",
-        "Cloud"
-      ],
-      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking a web…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-27",
-      "deadline": null,
-      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Intern---Analytics-Web-Systems-Developer_R_14272",
-      "external_id": "R_14272",
-      "verified_at": "2026-11-15T17:14:41Z",
-      "match_score": 85
     },
     {
       "id": "j-m-smucker-3c0622beadb2",
@@ -1054,92 +958,6 @@
       "verified_at": "2026-11-16T02:12:48Z",
       "match_score": 85,
       "source_stale": true
-    },
-    {
-      "id": "auto-owners-insurance-85d11f0575e3",
-      "source_key": "auto-owners-insurance",
-      "fortune_rank": 241,
-      "fortune_500": true,
-      "company": "Auto-Owners Insurance",
-      "title": "Business Intelligence Developer Internship - Summer 2027",
-      "location": "Lansing, MI",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Excel",
-        "Tableau",
-        "Power BI"
-      ],
-      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking a motivated…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "line, and have at least two years of coursework completed. Master’s students are also considered if graduation is August 2027 or later. High aptitude for mathematics and…",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-23",
-      "deadline": null,
-      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Business-Intelligence-Developer-Internship---Summer-2027_R_14772",
-      "external_id": "R_14772",
-      "verified_at": "2026-11-15T17:14:40Z",
-      "match_score": 90
-    },
-    {
-      "id": "auto-owners-insurance-a66b0c8348f3",
-      "source_key": "auto-owners-insurance",
-      "fortune_rank": 241,
-      "fortune_500": true,
-      "company": "Auto-Owners Insurance",
-      "title": "Legal Internship - Winter 2026/Spring 2027",
-      "location": "Lansing, MI",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Credit"
-      ],
-      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance is a mutual insurance company with a simple human…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-22",
-      "deadline": null,
-      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Legal-Internship---Winter-2026-Spring-2027_R_14704",
-      "external_id": "R_14704",
-      "verified_at": "2026-11-15T17:14:41Z",
-      "match_score": 85
-    },
-    {
-      "id": "auto-owners-insurance-76ab6ad9307c",
-      "source_key": "auto-owners-insurance",
-      "fortune_rank": 241,
-      "fortune_500": true,
-      "company": "Auto-Owners Insurance",
-      "title": "Legal Internship - Winter 2026/Spring 2027",
-      "location": "Lansing, MI",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Credit"
-      ],
-      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance is a mutual insurance company with a simple human…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-22",
-      "deadline": null,
-      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Legal-Internship---Winter-2026-Spring-2027_R_14702",
-      "external_id": "R_14702",
-      "verified_at": "2026-11-15T17:14:41Z",
-      "match_score": 85
     },
     {
       "id": "oneok-9355c9d46ac5",
@@ -1280,103 +1098,6 @@
       "match_score": 85
     },
     {
-      "id": "voya-financial-df34a19aba8c",
-      "source_key": "voya-financial",
-      "fortune_rank": 477,
-      "fortune_500": true,
-      "company": "Voya Financial",
-      "title": "Summer 2027 Technology Intern",
-      "location": "United States-Remote",
-      "region": "Remote",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Wealth management",
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Power BI",
-        "AI / ML"
-      ],
-      "summary": "Together we fight for everyone’s opportunity for a better financial future. We will do this together — with customers, partners and colleagues. We will fight for others, not against: We will stand up for and champion everyone’s access to opportunities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://godirect.wd5.myworkdayjobs.com/voya_jobs/job/United-States-Remote/Summer-2027-Technology-Intern_JR0033187",
-      "external_id": "JR0033187",
-      "verified_at": "2026-11-15T17:15:57Z",
-      "match_score": 85
-    },
-    {
-      "id": "voya-financial-c2d3342822f7",
-      "source_key": "voya-financial",
-      "fortune_rank": 477,
-      "fortune_500": true,
-      "company": "Voya Financial",
-      "title": "Summer 2027 Finance Intern",
-      "location": "United States-Remote",
-      "region": "Remote",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Corporate finance",
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Tableau",
-        "Power BI",
-        "Operations",
-        "Finance",
-        "Accounting"
-      ],
-      "summary": "Together we fight for everyone’s opportunity for a better financial future. We will do this together — with customers, partners and colleagues. We will fight for others, not against: We will stand up for and champion everyone’s access to opportunities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://godirect.wd5.myworkdayjobs.com/voya_jobs/job/United-States-Remote/Summer-2027-Finance-Intern_JR0033183",
-      "external_id": "JR0033183",
-      "verified_at": "2026-11-15T17:15:57Z",
-      "match_score": 85
-    },
-    {
-      "id": "voya-financial-456ce0203c1c",
-      "source_key": "voya-financial",
-      "fortune_rank": 477,
-      "fortune_500": true,
-      "company": "Voya Financial",
-      "title": "Summer 2027 Employee Benefits Intern",
-      "location": "Minneapolis, MN",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Tableau",
-        "Product",
-        "Operations",
-        "Finance",
-        "Credit"
-      ],
-      "summary": "Together we fight for everyone’s opportunity for a better financial future. We will do this together — with customers, partners and colleagues. We will fight for others, not against: We will stand up for and champion everyone’s access to opportunities",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://godirect.wd5.myworkdayjobs.com/voya_jobs/job/Minneapolis-MN/Summer-2027-Employee-Benefits-Intern_JR0033189",
-      "external_id": "JR0033189",
-      "verified_at": "2026-11-15T17:15:57Z",
-      "match_score": 85
-    },
-    {
       "id": "vistra-828bc94324df",
       "source_key": "vistra",
       "fortune_rank": 251,
@@ -1428,37 +1149,6 @@
       "verified_at": "2026-11-15T21:52:05Z",
       "match_score": 85,
       "source_stale": true
-    },
-    {
-      "id": "securian-financial-group-fb4747c4818f",
-      "source_key": "securian-financial-group",
-      "fortune_rank": 457,
-      "fortune_500": true,
-      "company": "Securian Financial Group",
-      "title": "Engineering Internship - Summer 2027",
-      "location": "Saint Paul, MN Campus",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Cloud",
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "Program Overview An internship with Securian Financial means an opportunity to create meaningful connections with established associates and fellow interns while exploring professional development in your field of study. Our interns are connected to work that matters, helping…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://hq.wd12.myworkdayjobs.com/Securian_External/job/Saint-Paul-MN-Campus/Engineering-Internship---Summer-2027_R-010892",
-      "external_id": "R-010892",
-      "verified_at": "2026-11-15T17:15:08Z",
-      "match_score": 85
     },
     {
       "id": "prudential-financial-7803c90cc485",
@@ -2456,194 +2146,6 @@
       "source_stale": true
     },
     {
-      "id": "auto-owners-insurance-c18e226e3835",
-      "source_key": "auto-owners-insurance",
-      "fortune_rank": 241,
-      "fortune_500": true,
-      "company": "Auto-Owners Insurance",
-      "title": "Legal Internship - Summer 2027",
-      "location": "Lansing, MI",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Credit"
-      ],
-      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance is a mutual insurance company with a simple human…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Legal-Internship---Summer-2027_R_14649",
-      "external_id": "R_14649",
-      "verified_at": "2026-11-15T17:14:42Z",
-      "match_score": 85
-    },
-    {
-      "id": "auto-owners-insurance-a69577721c72",
-      "source_key": "auto-owners-insurance",
-      "fortune_rank": 241,
-      "fortune_500": true,
-      "company": "Auto-Owners Insurance",
-      "title": "IT Document Automation Developer Internship - Summer 2027",
-      "location": "Lansing, MI",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking a motivated…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/IT-Document-Automation-Developer-Internship---Summer-2027_R_14471",
-      "external_id": "R_14471",
-      "verified_at": "2026-11-15T17:14:46Z",
-      "match_score": 85
-    },
-    {
-      "id": "auto-owners-insurance-985d62a77fcc",
-      "source_key": "auto-owners-insurance",
-      "fortune_rank": 241,
-      "fortune_500": true,
-      "company": "Auto-Owners Insurance",
-      "title": "Data Engineering Internship - Summer 2027",
-      "location": "Lansing, MI",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking a motivated…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "line, and have at least two years of coursework completed. Master’s students are also considered if graduation is August 2027 or later. Successful completion of actuarial…",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Data-Engineering-Internship---Summer-2026_R_12318",
-      "external_id": "R_12318",
-      "verified_at": "2026-11-15T17:14:45Z",
-      "match_score": 90
-    },
-    {
-      "id": "auto-owners-insurance-6136965e2b0b",
-      "source_key": "auto-owners-insurance",
-      "fortune_rank": 241,
-      "fortune_500": true,
-      "company": "Auto-Owners Insurance",
-      "title": "Business/Quality Analyst Internship - Summer 2027",
-      "location": "Lansing, MI",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking motivated…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Business-Quality-Analyst-Internship---Summer-2027_R_14407",
-      "external_id": "R_14407",
-      "verified_at": "2026-11-15T17:14:45Z",
-      "match_score": 85
-    },
-    {
-      "id": "auto-owners-insurance-5d413219704f",
-      "source_key": "auto-owners-insurance",
-      "fortune_rank": 241,
-      "fortune_500": true,
-      "company": "Auto-Owners Insurance",
-      "title": "Business Intelligence Engineering Intern - Summer 2027",
-      "location": "Lansing, MI",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Operations"
-      ],
-      "summary": "A career at Auto-Owners is challenging and rewarding. Our group of caring associates create financial security by helping individuals and businesses make a new start when a loss occurs. Job Description Auto-Owners Insurance, a top-rated insurance carrier, is seeking a motivated…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "line, and have at least two years of coursework completed. Master’s students are also considered if graduation is August 2026 or later. Actuarial studies and exams are…",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://aoins.wd5.myworkdayjobs.com/AutoOwners/job/Lansing-MI/Business-Intelligence-Engineering-Intern---Summer-2027_R_14662",
-      "external_id": "R_14662",
-      "verified_at": "2026-11-15T17:14:42Z",
-      "match_score": 90
-    },
-    {
-      "id": "steel-dynamics-e24157b42c67",
-      "source_key": "steel-dynamics",
-      "fortune_rank": 244,
-      "fortune_500": true,
-      "company": "Steel Dynamics",
-      "title": "Maintenance Mechanic Apprenticeship",
-      "location": "Division/Location: Great Lakes Division - Detroit Ave.",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Department: Maintenance - Shredder or Yard Work Schedule: 6:00AM - 4:00PM (Weekends as needed) Reports to: Craig Munger Pay Grade: Hourly Date Posted: October 30, 2026 Brief Description: Performing preventive and corrective maintenance on both stationery and mobile equipment",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.steeldynamics.com/jobs/maintenance-mechanic-apprenticeship/",
-      "external_id": null,
-      "verified_at": "2026-11-15T17:14:31Z",
-      "match_score": 85
-    },
-    {
-      "id": "steel-dynamics-b535eda4b2bc",
-      "source_key": "steel-dynamics",
-      "fortune_rank": 244,
-      "fortune_500": true,
-      "company": "Steel Dynamics",
-      "title": "Maintenance Apprentice",
-      "location": "Division/Location: Non-Ferrous Division",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "At the conclusion of the program, the apprentice will have completed the requirements and receive a Technical Certificate in Industrial Technology and demonstrated on-the-job training experience. o Complete necessary paperwork and effective communication • The apprenticeship…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.steeldynamics.com/jobs/maintenance-apprentice-4/",
-      "external_id": null,
-      "verified_at": "2026-11-15T17:14:30Z",
-      "match_score": 85
-    },
-    {
       "id": "mondelez-international-2ce83e181602",
       "source_key": "mondelez-international",
       "fortune_rank": 122,
@@ -2668,7 +2170,36 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-11-17T03:56:28Z",
+      "verified_at": "2026-11-17T13:30:55Z",
+      "match_score": 85
+    },
+    {
+      "id": "micron-technology-9ccca65e5d82",
+      "source_key": "micron-technology",
+      "fortune_rank": 125,
+      "fortune_500": true,
+      "company": "Micron Technology",
+      "title": "Micron's registered apprenticeship program",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud",
+        "AI / ML",
+        "Product"
+      ],
+      "summary": "close close close close Sign in / Register Welcome to Micron.com, please Log in or Register an account to continue. Enter your email address check_circle_two_tone Please enter a valid email address Restricted email domain. Please enter your registered work email address",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.micron.com/about/careers/apprenticeship",
+      "external_id": null,
+      "verified_at": "2026-11-17T13:30:58Z",
       "match_score": 85
     },
     {
@@ -2701,7 +2232,7 @@
       "deadline": null,
       "url": "https://careers.massmutual.com/job/springfield/business-operations-intern-summer-2027/724/100746307024",
       "external_id": null,
-      "verified_at": "2026-11-17T03:56:27Z",
+      "verified_at": "2026-11-17T13:30:54Z",
       "match_score": 90
     },
     {
@@ -2762,33 +2293,31 @@
       "match_score": 85
     },
     {
-      "id": "goodyear-tire-rubber-30bda25ae03d",
-      "source_key": "goodyear-tire-rubber",
-      "fortune_rank": 239,
+      "id": "huntington-ingalls-industries-70decc5f8728",
+      "source_key": "huntington-ingalls-industries",
+      "fortune_rank": 352,
       "fortune_500": true,
-      "company": "Goodyear Tire & Rubber",
-      "title": "11,000+ Intern Jobs in United States",
-      "location": "Clear text",
+      "company": "Huntington Ingalls Industries",
+      "title": "Ingalls Apprentice School",
+      "location": "Location not listed",
       "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
-        "Product management",
-        "Operations analyst"
+        "Asset-based lending"
       ],
       "tags": [
-        "Product",
         "Operations",
-        "Risk"
+        "Credit"
       ],
-      "summary": "Get notified when a new job is posted. Set alert Sign in to set job alerts for “Intern” roles. Email or phone Password Show Forgot password? Sign in Sign in with Email or New to LinkedIn? Join now By clicking Continue to join or sign in, you agree to LinkedIn’s User Agreement ,…",
+      "summary": "Ingalls Apprentice School Since 1952, the Ingalls Apprentice School has produced more than 4,000 graduates in support of Ingalls Shipbuilding's operational needs About the Program The apprentice school program involves comprehensive three- to four-year curriculum for students…",
       "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
       "freshman_friendly": false,
       "posted_date": null,
       "deadline": null,
-      "url": "https://www.linkedin.com/jobs/intern-jobs",
+      "url": "https://hii.com/careers/ingalls-apprentice-school",
       "external_id": null,
-      "verified_at": "2026-11-15T17:15:04Z",
+      "verified_at": "2026-11-17T13:31:23Z",
       "match_score": 85
     },
     {
@@ -2990,12 +2519,12 @@
       "match_score": 85
     },
     {
-      "id": "boeing-bba324d8f147",
-      "source_key": "boeing",
-      "fortune_rank": 47,
+      "id": "airbnb-ffbd3d16c91e",
+      "source_key": "airbnb",
+      "fortune_rank": 357,
       "fortune_500": true,
-      "company": "Boeing",
-      "title": "Đoàn Sĩ Anh | Retrofit Engineering Intern",
+      "company": "Airbnb",
+      "title": "Internship Programs",
       "location": "Location not listed",
       "region": "Global",
       "opportunity_type": "Internship",
@@ -3003,62 +2532,28 @@
         "Asset-based lending"
       ],
       "tags": [
-        "AI / ML",
         "Product",
-        "Strategy",
         "Operations",
         "Finance"
       ],
-      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Đoàn Sĩ Anh | Retrofit Engineering Intern Published Sept. 26, 2024 Business Unit: Engineering Location: Ho Chi Minh, Vietnam University: TU Delft Degree Program: Aerospace Engineering What is your role…",
+      "summary": "Interns Featuring a mix of mentorship, fun, and challenge, our internships are designed to accelerate your learning curve as you make a real impact on our product. What to Expect Onboarding experience to get you familiar with Airbnb and your new team, and set you up for success",
       "grad_status": "No graduation year listed",
       "grad_evidence": "School enrollment is required, but no graduation year is stated.",
       "freshman_friendly": false,
       "posted_date": null,
       "deadline": null,
-      "url": "https://jobs.boeing.com/meet-Doan",
+      "url": "https://careers.airbnb.com/internship-programs/",
       "external_id": null,
-      "verified_at": "2026-11-15T17:15:16Z",
+      "verified_at": "2026-11-17T13:31:34Z",
       "match_score": 85
     },
     {
-      "id": "boeing-1f189a7c918c",
-      "source_key": "boeing",
-      "fortune_rank": 47,
+      "id": "airbnb-d1fc1ff6677b",
+      "source_key": "airbnb",
+      "fortune_rank": 357,
       "fortune_500": true,
-      "company": "Boeing",
-      "title": "Niyathi Gorantla | Sustainability Intern",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Product",
-        "Strategy",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Niyathi Gorantla | Sustainability Intern Published Aug. 20, 2024 Business Unit: Corporate Location: Chicago University: Duke University Degree Program: B.S. in Computer Science What is your role at Boeing?",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "Learn more Shop‑floor wisdom, family support fuels new Boeing engineer After years on the 737 line, graduate brings hands‑on experience to engineering. Learn more Learn more…",
-      "freshman_friendly": true,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://jobs.boeing.com/NiyathiGorantla",
-      "external_id": null,
-      "verified_at": "2026-11-15T17:15:15Z",
-      "match_score": 90
-    },
-    {
-      "id": "boeing-fb5e2f819966",
-      "source_key": "boeing",
-      "fortune_rank": 47,
-      "fortune_500": true,
-      "company": "Boeing",
-      "title": "Mya Beathley | Engineering Intern",
+      "company": "Airbnb",
+      "title": "Connect Engineering Apprenticeship",
       "location": "Location not listed",
       "region": "Global",
       "opportunity_type": "Internship",
@@ -3066,269 +2561,17 @@
         "Asset-based lending"
       ],
       "tags": [
-        "AI / ML",
-        "Product",
-        "Strategy",
-        "Operations",
-        "Finance"
+        "Cloud"
       ],
-      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Mya Beathley | Engineering Intern Published Aug. 20, 2024 Business Unit: Boeing Defense, Space & Security Location: Oklahoma City University: University of Southern California Degree Program: B.S",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://jobs.boeing.com/MyaBeathley",
-      "external_id": null,
-      "verified_at": "2026-11-15T17:15:15Z",
-      "match_score": 85
-    },
-    {
-      "id": "boeing-aa00c3ee8d66",
-      "source_key": "boeing",
-      "fortune_rank": 47,
-      "fortune_500": true,
-      "company": "Boeing",
-      "title": "Meet Abbey Carlson: Former Intern Turned Space and Launch Engineer",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Product",
-        "Strategy",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Meet Abbey Carlson: Former Intern Turned Space and Launch Engineer Published April 16, 2021 While 2020 was an unusual year for everyone, with many life events put on pause or canceled, Abbey Carlson was…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "Learn more Shop‑floor wisdom, family support fuels new Boeing engineer After years on the 737 line, graduate brings hands‑on experience to engineering. Learn more Learn more…",
-      "freshman_friendly": true,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://jobs.boeing.com/Meet-Abbey-Carlson",
-      "external_id": null,
-      "verified_at": "2026-11-15T17:15:14Z",
-      "match_score": 90
-    },
-    {
-      "id": "boeing-3bbefc4598f8",
-      "source_key": "boeing",
-      "fortune_rank": 47,
-      "fortune_500": true,
-      "company": "Boeing",
-      "title": "Eva Strang | Strategy Analyst Intern",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Product",
-        "Strategy",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Eva Strang | Strategy Analyst Intern Published Aug. 20, 2024 Business Unit: Boeing Global, Ventures and Innovation Location: London University: University of Strathclyde Degree Program: B.A",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "Learn more Shop‑floor wisdom, family support fuels new Boeing engineer After years on the 737 line, graduate brings hands‑on experience to engineering. Learn more Learn more…",
-      "freshman_friendly": true,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://jobs.boeing.com/EvaStrang",
-      "external_id": null,
-      "verified_at": "2026-11-15T17:15:15Z",
-      "match_score": 90
-    },
-    {
-      "id": "boeing-eb83478639e0",
-      "source_key": "boeing",
-      "fortune_rank": 47,
-      "fortune_500": true,
-      "company": "Boeing",
-      "title": "Elisa Rwagasana Ishimwe | Information Technology and Data Analytics Intern",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Product",
-        "Strategy",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Elisa Rwagasana Ishimwe | Information Technology and Data Analytics Intern Published Aug. 20, 2024 Business Unit: Corporate Location: Kent, Wash. University: College of Wooster Degree Program: B.A",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "Learn more Shop‑floor wisdom, family support fuels new Boeing engineer After years on the 737 line, graduate brings hands‑on experience to engineering. Learn more Learn more…",
-      "freshman_friendly": true,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://jobs.boeing.com/ElisaRwagasanaIshimwe",
-      "external_id": null,
-      "verified_at": "2026-11-15T17:15:15Z",
-      "match_score": 90
-    },
-    {
-      "id": "boeing-22e159d099e9",
-      "source_key": "boeing",
-      "fortune_rank": 47,
-      "fortune_500": true,
-      "company": "Boeing",
-      "title": "Boeing Technical Apprenticeship Program (BTAP)",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Product",
-        "Strategy",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Boeing Technical Apprenticeship Program (BTAP) Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Boeing Technical Apprenticeship Program (BTAP) The digital revolution has introduced new demands for technical skills across the aerospace industry, and the…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://jobs.boeing.com/BTAP",
-      "external_id": null,
-      "verified_at": "2026-11-15T17:15:13Z",
-      "match_score": 85
-    },
-    {
-      "id": "boeing-fe9864b7a9cf",
-      "source_key": "boeing",
-      "fortune_rank": 47,
-      "fortune_500": true,
-      "company": "Boeing",
-      "title": "Atira Sarat | Sustainability Innovation Research Intern",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Product",
-        "Strategy",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Atira Sarat | Sustainability Innovation Research Intern Published Sept. 26, 2024 Business Unit: Commercial Airplanes Digital Product Development Location: Singapore University: National University of…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://jobs.boeing.com/meet-Atira",
-      "external_id": null,
-      "verified_at": "2026-11-15T17:15:16Z",
-      "match_score": 85
-    },
-    {
-      "id": "boeing-d3fc1e29e260",
-      "source_key": "boeing",
-      "fortune_rank": 47,
-      "fortune_500": true,
-      "company": "Boeing",
-      "title": "Adrian Sosa | Structures Design Engineer Intern",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Product",
-        "Strategy",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Adrian Sosa | Structures Design Engineer Intern Published Aug. 20, 2024 Business Unit: Boeing Commercial Airplanes Location: Everett, Wash. University: University of Puerto Rico at Mayagüez Degree…",
-      "grad_status": "2029 eligible",
-      "grad_evidence": "Learn more Shop‑floor wisdom, family support fuels new Boeing engineer After years on the 737 line, graduate brings hands‑on experience to engineering. Learn more Learn more…",
-      "freshman_friendly": true,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://jobs.boeing.com/AdrianSosa",
-      "external_id": null,
-      "verified_at": "2026-11-15T17:15:15Z",
-      "match_score": 90
-    },
-    {
-      "id": "boeing-1a2b13c2711c",
-      "source_key": "boeing",
-      "fortune_rank": 47,
-      "fortune_500": true,
-      "company": "Boeing",
-      "title": "Adrian Loekman | Airplane Maintenance Engineering Intern",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "AI / ML",
-        "Product",
-        "Strategy",
-        "Operations",
-        "Finance"
-      ],
-      "summary": "Search Search by Location Search by Keyword Search Find U.S. Contract Jobs Adrian Loekman | Airplane Maintenance Engineering Intern Published Sept. 26, 2024 Business Unit: Airplane Maintenance Engineering Location: Jakarta, Indonesia & Seal Beach, California University: UCLA…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://jobs.boeing.com/meet-AdrianL",
-      "external_id": null,
-      "verified_at": "2026-11-15T17:15:16Z",
-      "match_score": 85
-    },
-    {
-      "id": "auto-owners-insurance-9fc16ab9ccee",
-      "source_key": "auto-owners-insurance",
-      "fortune_rank": 241,
-      "fortune_500": true,
-      "company": "Auto-Owners Insurance",
-      "title": "Internship",
-      "location": "Location not listed",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Credit",
-        "Accounting"
-      ],
-      "summary": "Sign up Find an Agent Sign In Search Internship Internship Home Career Opportunities Internship No prior insurance experience or knowledge? Interning with us can open your eyes to all the insurance industry offers! Our associates contribute their diverse talents to help people…",
+      "summary": "What it’s about The Connect Engineering Apprenticeship Program bridges the opportunity gap for entry-level engineering candidates. Candidates from underrepresented backgrounds and unconventional paths are encouraged to apply. Engineering apprentices gain invaluable exposure to…",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
+      "freshman_friendly": false,
       "posted_date": null,
       "deadline": null,
-      "url": "https://www.auto-owners.com/about/career-opportunities/internship",
+      "url": "https://careers.airbnb.com/connect-engineering-apprenticeship/",
       "external_id": null,
-      "verified_at": "2026-11-15T17:14:46Z",
+      "verified_at": "2026-11-17T13:31:34Z",
       "match_score": 85
     }
   ]
