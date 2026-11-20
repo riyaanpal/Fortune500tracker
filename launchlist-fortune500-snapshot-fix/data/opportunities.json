@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T03:27:06Z",
+  "updated_at": "2026-11-20T13:03:17Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -11,10 +11,10 @@
   "directory_warnings": [
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-11-20T03:23:53Z",
+  "directory_refreshed_at": "2026-11-20T12:59:51Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 176,
-  "companies_failed_last_24h": 33,
+  "companies_failed_last_24h": 29,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "allstate",
@@ -56,19 +56,6 @@
       "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 429 Client Error: Too Many Requests for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
     },
     {
-      "key": "boeing",
-      "rank": 47,
-      "company": "Boeing",
-      "fortune_500": true,
-      "checked_at": "2026-11-19T03:37:00Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://boeing.wd1.myworkdayjobs.com/wday/cxs/boeing/EXTERNAL_CAREERS/jobs: 429 Client Error: Too Many Requests for url: https://boeing.wd1.myworkdayjobs.com/wday/cxs/boeing/EXTERNAL_CAREERS/jobs"
-    },
-    {
       "key": "booz-allen-hamilton-holding",
       "rank": 372,
       "company": "Booz Allen Hamilton Holding",
@@ -80,6 +67,19 @@
       "adapter": "discovery",
       "careers_url": "https://careers.boozallen.com/jobs/search",
       "error": "Failed request: https://bah.wd1.myworkdayjobs.com/wday/cxs/bah/BAH_Jobs/jobs: 429 Client Error: Too Many Requests for url: https://bah.wd1.myworkdayjobs.com/wday/cxs/bah/BAH_Jobs/jobs"
+    },
+    {
+      "key": "c-h-robinson-worldwide",
+      "rank": 277,
+      "company": "C.H. Robinson Worldwide",
+      "fortune_500": true,
+      "checked_at": "2026-11-20T13:03:17Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://chrobinson.wd5.myworkdayjobs.com/wday/cxs/chrobinson/CHRobinson/jobs: 429 Client Error: Too Many Requests for url: https://chrobinson.wd5.myworkdayjobs.com/wday/cxs/chrobinson/CHRobinson/jobs"
     },
     {
       "key": "citigroup",
@@ -106,19 +106,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://conocophillips.wd1.myworkdayjobs.com/wday/cxs/conocophillips/External/jobs: 429 Client Error: Too Many Requests for url: https://conocophillips.wd1.myworkdayjobs.com/wday/cxs/conocophillips/External/jobs"
-    },
-    {
-      "key": "corebridge-financial",
-      "rank": 236,
-      "company": "Corebridge Financial",
-      "fortune_500": true,
-      "checked_at": "2026-11-19T03:37:00Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://corebridgefinancial.wd1.myworkdayjobs.com/wday/cxs/corebridgefinancial/CorebridgeFinancial/jobs: 429 Client Error: Too Many Requests for url: https://corebridgefinancial.wd1.myworkdayjobs.com/wday/cxs/corebridgefinancial/CorebridgeFinancial/jobs"
     },
     {
       "key": "coterra-energy",
@@ -173,6 +160,19 @@
       "error": "Failed request: https://fanniemae.wd1.myworkdayjobs.com/wday/cxs/fanniemae/FannieMaeCareers/jobs: 429 Client Error: Too Many Requests for url: https://fanniemae.wd1.myworkdayjobs.com/wday/cxs/fanniemae/FannieMaeCareers/jobs"
     },
     {
+      "key": "ferguson-enterprises",
+      "rank": 147,
+      "company": "Ferguson Enterprises",
+      "fortune_500": true,
+      "checked_at": "2026-11-20T13:03:17Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
       "key": "ge-aerospace",
       "rank": 101,
       "company": "GE Aerospace",
@@ -216,7 +216,7 @@
       "rank": 456,
       "company": "J.M. Smucker",
       "fortune_500": true,
-      "checked_at": "2026-11-20T03:27:06Z",
+      "checked_at": "2026-11-20T13:03:17Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
@@ -236,19 +236,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://landolakes.wd1.myworkdayjobs.com/wday/cxs/landolakes/LandOLakes/jobs: 429 Client Error: Too Many Requests for url: https://landolakes.wd1.myworkdayjobs.com/wday/cxs/landolakes/LandOLakes/jobs"
-    },
-    {
-      "key": "loews",
-      "rank": 237,
-      "company": "Loews",
-      "fortune_500": true,
-      "checked_at": "2026-11-19T03:37:00Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://loewscorp.wd1.myworkdayjobs.com/wday/cxs/loewscorp/loewscorp/jobs: 429 Client Error: Too Many Requests for url: https://loewscorp.wd1.myworkdayjobs.com/wday/cxs/loewscorp/loewscorp/jobs"
     },
     {
       "key": "msd",
@@ -277,32 +264,6 @@
       "error": "Failed request: https://oneok.wd1.myworkdayjobs.com/wday/cxs/oneok/ONEOK/jobs: 429 Client Error: Too Many Requests for url: https://oneok.wd1.myworkdayjobs.com/wday/cxs/oneok/ONEOK/jobs"
     },
     {
-      "key": "ovintiv",
-      "rank": 447,
-      "company": "Ovintiv",
-      "fortune_500": true,
-      "checked_at": "2026-11-19T03:37:00Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://ovintiv.wd3.myworkdayjobs.com/wday/cxs/ovintiv/ovintivcareers/jobs: 429 Client Error: Too Many Requests for url: https://ovintiv.wd3.myworkdayjobs.com/wday/cxs/ovintiv/ovintivcareers/jobs"
-    },
-    {
-      "key": "palo-alto-networks",
-      "rank": 437,
-      "company": "Palo Alto Networks",
-      "fortune_500": true,
-      "checked_at": "2026-11-19T03:37:00Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs: 429 Client Error: Too Many Requests for url: https://paloaltonetworks.wd5.myworkdayjobs.com/wday/cxs/paloaltonetworks/panwexternalcareers/jobs"
-    },
-    {
       "key": "pfizer",
       "rank": 73,
       "company": "Pfizer",
@@ -314,19 +275,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/jobs: 429 Client Error: Too Many Requests for url: https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/jobs"
-    },
-    {
-      "key": "prologis",
-      "rank": 451,
-      "company": "Prologis",
-      "fortune_500": true,
-      "checked_at": "2026-11-19T03:37:00Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://prologis.wd5.myworkdayjobs.com/wday/cxs/prologis/Prologis_External_Careers/jobs: 429 Client Error: Too Many Requests for url: https://prologis.wd5.myworkdayjobs.com/wday/cxs/prologis/Prologis_External_Careers/jobs"
     },
     {
       "key": "roper-technologies",
@@ -372,26 +320,13 @@
       "rank": 35,
       "company": "Somnigroup International",
       "fortune_500": true,
-      "checked_at": "2026-11-20T03:27:06Z",
+      "checked_at": "2026-11-20T13:03:17Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://mattressfirm.wd1.myworkdayjobs.com/MattressFirmCareers",
       "error": "Failed request: https://mattressfirm.wd1.myworkdayjobs.com/wday/cxs/mattressfirm/MattressFirmCareers/jobs: 429 Client Error: Too Many Requests for url: https://mattressfirm.wd1.myworkdayjobs.com/wday/cxs/mattressfirm/MattressFirmCareers/jobs"
-    },
-    {
-      "key": "target",
-      "rank": 42,
-      "company": "Target",
-      "fortune_500": true,
-      "checked_at": "2026-11-19T03:37:00Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://target.wd5.myworkdayjobs.com/wday/cxs/target/targetcareers/jobs: 429 Client Error: Too Many Requests for url: https://target.wd5.myworkdayjobs.com/wday/cxs/target/targetcareers/jobs"
     },
     {
       "key": "taylor-morrison-home",
@@ -405,6 +340,32 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://taylormorrison.wd1.myworkdayjobs.com/wday/cxs/taylormorrison/TaylorMorrisonCareers/jobs: 429 Client Error: Too Many Requests for url: https://taylormorrison.wd1.myworkdayjobs.com/wday/cxs/taylormorrison/TaylorMorrisonCareers/jobs"
+    },
+    {
+      "key": "tyson-foods",
+      "rank": 87,
+      "company": "Tyson Foods",
+      "fortune_500": true,
+      "checked_at": "2026-11-20T13:03:17Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://tysonfoods.wd5.myworkdayjobs.com/wday/cxs/tysonfoods/TSN/jobs: 429 Client Error: Too Many Requests for url: https://tysonfoods.wd5.myworkdayjobs.com/wday/cxs/tysonfoods/TSN/jobs"
+    },
+    {
+      "key": "united-services-automobile-assn",
+      "rank": 93,
+      "company": "United Services Automobile Assn.",
+      "fortune_500": true,
+      "checked_at": "2026-11-20T13:03:17Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
     },
     {
       "key": "vistra",
@@ -431,50 +392,12 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://godirect.wd5.myworkdayjobs.com/wday/cxs/godirect/voya_jobs/jobs: 429 Client Error: Too Many Requests for url: https://godirect.wd5.myworkdayjobs.com/wday/cxs/godirect/voya_jobs/jobs"
-    },
-    {
-      "key": "xylem",
-      "rank": 443,
-      "company": "Xylem",
-      "fortune_500": true,
-      "checked_at": "2026-11-19T03:37:00Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://xylem.wd5.myworkdayjobs.com/wday/cxs/xylem/xylem-careers/jobs: 429 Client Error: Too Many Requests for url: https://xylem.wd5.myworkdayjobs.com/wday/cxs/xylem/xylem-careers/jobs"
     }
   ],
-  "companies_with_eligible_jobs": 9,
+  "companies_with_eligible_jobs": 8,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 27,
+  "opportunity_count": 25,
   "opportunities": [
-    {
-      "id": "bitgo-holdings-637a8c97d5a9",
-      "source_key": "bitgo-holdings",
-      "fortune_rank": 278,
-      "fortune_500": true,
-      "company": "Bitgo Holdings",
-      "title": "Recruitment Coordinator - Intern (6 Months)",
-      "location": "India",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "BitGo (NYSE: BTGO) is the digital asset infrastructure company delivering custody, wallets, staking, trading, financing, stablecoins, and settlement services from regulated cold storage. Since 2013, BitGo has focused on accelerating the transition of the financial system to a…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-16",
-      "deadline": null,
-      "url": "https://job-boards.greenhouse.io/bitgo/jobs/8944293002",
-      "external_id": "8944293002",
-      "verified_at": "2026-11-18T14:07:49Z",
-      "match_score": 85
-    },
     {
       "id": "j-m-smucker-a00b1bae9ef7",
       "source_key": "smucker",
@@ -1027,36 +950,6 @@
       "match_score": 85
     },
     {
-      "id": "paramount-skydance-e2c1b0aa9d10",
-      "source_key": "paramount-skydance",
-      "fortune_rank": 155,
-      "fortune_500": true,
-      "company": "Paramount Skydance",
-      "title": "PTP Intern",
-      "location": "Search by Location",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Credit",
-        "Accounting"
-      ],
-      "summary": "Ready to turn your university theory into real-world global finance experience? Join our Global Business Services (GBS) team in Budapest as a PTP Intern and see how a multinational company operates from the inside out. Reporting directly to the PTP Manager, you won’t just be…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://careers.paramount.com/job/Budapest-PTP-Intern/1391722900/",
-      "external_id": null,
-      "verified_at": "2026-11-18T14:07:47Z",
-      "match_score": 85
-    },
-    {
       "id": "mondelez-international-2ce83e181602",
       "source_key": "mondelez-international",
       "fortune_rank": 122,
@@ -1075,13 +968,13 @@
       ],
       "summary": "/ What Itâs Like to Intern at MondelÄz International \"The culture at MondelÄz International, especially in our function, is built on collaboration, mutual support, and a strong focus on people. Everyone willingly helps, shares knowledge, and proactively collaborates on…",
       "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
       "freshman_friendly": false,
       "posted_date": null,
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-11-20T03:23:56Z",
+      "verified_at": "2026-11-20T12:59:56Z",
       "match_score": 85
     },
     {
@@ -1176,6 +1069,36 @@
       "match_score": 85
     },
     {
+      "id": "enterprise-products-partners-2c9f6af1610b",
+      "source_key": "enterprise-products-partners",
+      "fortune_rank": 89,
+      "fortune_500": true,
+      "company": "Enterprise Products Partners",
+      "title": "Internship Program",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Wealth management",
+        "Risk management"
+      ],
+      "tags": [
+        "Operations",
+        "Risk",
+        "Accounting"
+      ],
+      "summary": "Hands-on internship work related to wealth management, risk management",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://enterpriseproducts.com/careers/early-careers/",
+      "external_id": null,
+      "verified_at": "2026-11-20T13:00:09Z",
+      "match_score": 85
+    },
+    {
       "id": "chs-dc7aa3be24e3",
       "source_key": "chs",
       "fortune_rank": 130,
@@ -1203,31 +1126,6 @@
       "url": "https://jobs.chsinc.com/category/internship-jobs/34006/8429904/1",
       "external_id": null,
       "verified_at": "2026-11-18T22:01:25Z",
-      "match_score": 85
-    },
-    {
-      "id": "bitgo-holdings-be99e792c802",
-      "source_key": "bitgo-holdings",
-      "fortune_rank": 278,
-      "fortune_500": true,
-      "company": "Bitgo Holdings",
-      "title": "Recruitment Coordinator - Intern (6 Months)",
-      "location": "India",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Back to jobs New Recruitment Coordinator - Intern (6 Months) India Apply BitGo (NYSE: BTGO) is the digital asset infrastructure company delivering custody, wallets, staking, trading, financing, stablecoins, and settlement services from regulated cold storage",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "http://job-boards.greenhouse.io/bitgo/jobs/8944293002",
-      "external_id": null,
-      "verified_at": "2026-11-18T14:07:49Z",
       "match_score": 85
     }
   ]
