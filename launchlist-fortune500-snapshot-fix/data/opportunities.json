@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T02:25:26Z",
+  "updated_at": "2026-11-21T09:58:37Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -11,10 +11,10 @@
   "directory_warnings": [
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-11-21T02:22:14Z",
+  "directory_refreshed_at": "2026-11-21T09:57:38Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 176,
-  "companies_failed_last_24h": 42,
+  "companies_failed_last_24h": 44,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "abbott-laboratories",
@@ -30,17 +30,56 @@
       "error": "Failed request: https://abbott.wd5.myworkdayjobs.com/wday/cxs/abbott/abbottcareers/jobs: 429 Client Error: Too Many Requests for url: https://abbott.wd5.myworkdayjobs.com/wday/cxs/abbott/abbottcareers/jobs"
     },
     {
-      "key": "bank-of-america",
-      "rank": 20,
-      "company": "Bank of America",
+      "key": "alcoa",
+      "rank": 344,
+      "company": "Alcoa",
       "fortune_500": true,
-      "checked_at": "2026-11-20T03:27:06Z",
+      "checked_at": "2026-11-21T09:58:37Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
-      "careers_url": "https://careers.bankofamerica.com/en-us/students/job-search?ref=search&search=getAllJobs&start=0&rows=10",
-      "error": "Failed request: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs: 429 Client Error: Too Many Requests for url: https://ghr.wd1.myworkdayjobs.com/wday/cxs/ghr/en-us/jobs"
+      "careers_url": null,
+      "error": "Failed request: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/Careers/jobs: 429 Client Error: Too Many Requests for url: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/Careers/jobs"
+    },
+    {
+      "key": "ameren",
+      "rank": 466,
+      "company": "Ameren",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T09:58:37Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://ameren.wd1.myworkdayjobs.com/Collegiate",
+      "error": "Failed request: https://ameren.wd1.myworkdayjobs.com/wday/cxs/ameren/Collegiate/jobs: 429 Client Error: Too Many Requests for url: https://ameren.wd1.myworkdayjobs.com/wday/cxs/ameren/Collegiate/jobs"
+    },
+    {
+      "key": "assurant",
+      "rank": 345,
+      "company": "Assurant",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T09:58:37Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://assurant.wd1.myworkdayjobs.com/wday/cxs/assurant/Assurant_Careers/jobs: 429 Client Error: Too Many Requests for url: https://assurant.wd1.myworkdayjobs.com/wday/cxs/assurant/Assurant_Careers/jobs"
+    },
+    {
+      "key": "baker-hughes",
+      "rank": 164,
+      "company": "Baker Hughes",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T09:58:37Z",
+      "status": "error",
+      "issue_type": "Scan error",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "key": "bristol-myers-squibb",
@@ -95,19 +134,6 @@
       "error": "Failed request: https://carmax.wd1.myworkdayjobs.com/wday/cxs/carmax/External/jobs: 429 Client Error: Too Many Requests for url: https://carmax.wd1.myworkdayjobs.com/wday/cxs/carmax/External/jobs"
     },
     {
-      "key": "citigroup",
-      "rank": 24,
-      "company": "Citigroup",
-      "fortune_500": true,
-      "checked_at": "2026-11-20T03:27:06Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": "https://jobs.citi.com/search-jobs",
-      "error": "Failed request: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs: 429 Client Error: Too Many Requests for url: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs"
-    },
-    {
       "key": "comfort-systems-usa",
       "rank": 440,
       "company": "Comfort Systems USA",
@@ -121,43 +147,17 @@
       "error": "Failed request: https://comfortsystemsusa.wd1.myworkdayjobs.com/wday/cxs/comfortsystemsusa/Corpcareers/jobs: 429 Client Error: Too Many Requests for url: https://comfortsystemsusa.wd1.myworkdayjobs.com/wday/cxs/comfortsystemsusa/Corpcareers/jobs"
     },
     {
-      "key": "conocophillips",
-      "rank": 75,
-      "company": "ConocoPhillips",
+      "key": "crown-holdings",
+      "rank": 356,
+      "company": "Crown Holdings",
       "fortune_500": true,
-      "checked_at": "2026-11-20T03:27:06Z",
+      "checked_at": "2026-11-21T09:58:37Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": "Failed request: https://conocophillips.wd1.myworkdayjobs.com/wday/cxs/conocophillips/External/jobs: 429 Client Error: Too Many Requests for url: https://conocophillips.wd1.myworkdayjobs.com/wday/cxs/conocophillips/External/jobs"
-    },
-    {
-      "key": "coterra-energy",
-      "rank": 496,
-      "company": "Coterra Energy",
-      "fortune_500": true,
-      "checked_at": "2026-11-20T03:27:06Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
-    },
-    {
-      "key": "duke-energy",
-      "rank": 145,
-      "company": "Duke Energy",
-      "fortune_500": true,
-      "checked_at": "2026-11-20T03:27:06Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://dukeenergy.wd1.myworkdayjobs.com/wday/cxs/dukeenergy/search/jobs: 429 Client Error: Too Many Requests for url: https://dukeenergy.wd1.myworkdayjobs.com/wday/cxs/dukeenergy/search/jobs"
+      "error": "Failed request: https://crownholdings.wd501.myworkdayjobs.com/wday/cxs/crownholdings/CrownHoldings/jobs: 429 Client Error: Too Many Requests for url: https://crownholdings.wd501.myworkdayjobs.com/wday/cxs/crownholdings/CrownHoldings/jobs"
     },
     {
       "key": "expedia-group",
@@ -225,17 +225,17 @@
       "error": null
     },
     {
-      "key": "ge-aerospace",
-      "rank": 101,
-      "company": "GE Aerospace",
+      "key": "ge-vernova",
+      "rank": 124,
+      "company": "GE Vernova",
       "fortune_500": true,
-      "checked_at": "2026-11-20T03:27:06Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
+      "checked_at": "2026-11-21T09:58:37Z",
+      "status": "error",
+      "issue_type": "Scan error",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": "Failed request: https://geaerospace.wd5.myworkdayjobs.com/wday/cxs/geaerospace/GE_ExternalSite/jobs: 429 Client Error: Too Many Requests for url: https://geaerospace.wd5.myworkdayjobs.com/wday/cxs/geaerospace/GE_ExternalSite/jobs"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "key": "gilead-sciences",
@@ -262,6 +262,19 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://graybar.wd1.myworkdayjobs.com/wday/cxs/graybar/Careers/jobs: 429 Client Error: Too Many Requests for url: https://graybar.wd1.myworkdayjobs.com/wday/cxs/graybar/Careers/jobs"
+    },
+    {
+      "key": "guardian-life-ins-co-of-america",
+      "rank": 232,
+      "company": "Guardian Life Ins. Co. of America",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T09:58:37Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://guardianlife.wd5.myworkdayjobs.com/Guardian-Life-Careers",
+      "error": "Failed request: https://guardianlife.wd5.myworkdayjobs.com/wday/cxs/guardianlife/Guardian-Life-Careers/jobs: 429 Client Error: Too Many Requests for url: https://guardianlife.wd5.myworkdayjobs.com/wday/cxs/guardianlife/Guardian-Life-Careers/jobs"
     },
     {
       "key": "hartford-insurance-group",
@@ -294,13 +307,13 @@
       "rank": 456,
       "company": "J.M. Smucker",
       "fortune_500": true,
-      "checked_at": "2026-11-21T02:25:26Z",
+      "checked_at": "2026-11-21T09:58:37Z",
       "status": "error",
-      "issue_type": "Rate limited",
+      "issue_type": "Scan error",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": "Failed request: https://smucker.wd5.myworkdayjobs.com/wday/cxs/smucker/US_External_Careers/jobs: 429 Client Error: Too Many Requests for url: https://smucker.wd5.myworkdayjobs.com/wday/cxs/smucker/US_External_Careers/jobs"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "key": "jabil",
@@ -355,19 +368,6 @@
       "error": "Failed request: https://labcorp.wd1.myworkdayjobs.com/wday/cxs/labcorp/External/jobs: 429 Client Error: Too Many Requests for url: https://labcorp.wd1.myworkdayjobs.com/wday/cxs/labcorp/External/jobs"
     },
     {
-      "key": "land-o-lakes",
-      "rank": 273,
-      "company": "Land O'Lakes",
-      "fortune_500": true,
-      "checked_at": "2026-11-20T03:27:06Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://landolakes.wd1.myworkdayjobs.com/wday/cxs/landolakes/LandOLakes/jobs: 429 Client Error: Too Many Requests for url: https://landolakes.wd1.myworkdayjobs.com/wday/cxs/landolakes/LandOLakes/jobs"
-    },
-    {
       "key": "lkq",
       "rank": 325,
       "company": "LKQ",
@@ -394,6 +394,32 @@
       "error": "Failed request: https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/MTB/jobs: 429 Client Error: Too Many Requests for url: https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/MTB/jobs"
     },
     {
+      "key": "marvell-technology",
+      "rank": 476,
+      "company": "Marvell Technology",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T09:58:37Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://marvell.wd1.myworkdayjobs.com/MarvellCareers",
+      "error": "Failed request: https://marvell.wd1.myworkdayjobs.com/wday/cxs/marvell/MarvellCareers/jobs: 429 Client Error: Too Many Requests for url: https://marvell.wd1.myworkdayjobs.com/wday/cxs/marvell/MarvellCareers/jobs"
+    },
+    {
+      "key": "nasdaq",
+      "rank": 470,
+      "company": "Nasdaq",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T09:58:37Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://nasdaq.wd1.myworkdayjobs.com/Global_External_Site",
+      "error": "Failed request: https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs: 429 Client Error: Too Many Requests for url: https://nasdaq.wd1.myworkdayjobs.com/wday/cxs/nasdaq/Global_External_Site/jobs"
+    },
+    {
       "key": "northern-trust",
       "rank": 317,
       "company": "Northern Trust",
@@ -407,17 +433,17 @@
       "error": "Failed request: https://ntrs.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs: 429 Client Error: Too Many Requests for url: https://ntrs.wd1.myworkdayjobs.com/wday/cxs/ntrs/northerntrust/jobs"
     },
     {
-      "key": "oneok",
-      "rank": 138,
-      "company": "Oneok",
+      "key": "occidental-petroleum",
+      "rank": 173,
+      "company": "Occidental Petroleum",
       "fortune_500": true,
-      "checked_at": "2026-11-20T03:27:06Z",
+      "checked_at": "2026-11-21T09:58:37Z",
       "status": "error",
-      "issue_type": "Rate limited",
+      "issue_type": "Scan error",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": "Failed request: https://oneok.wd1.myworkdayjobs.com/wday/cxs/oneok/ONEOK/jobs: 429 Client Error: Too Many Requests for url: https://oneok.wd1.myworkdayjobs.com/wday/cxs/oneok/ONEOK/jobs"
+      "error": "Expecting value: line 1 column 1 (char 0)"
     },
     {
       "key": "pbf-energy",
@@ -433,43 +459,43 @@
       "error": "Failed request: https://pbfenergy.wd1.myworkdayjobs.com/wday/cxs/pbfenergy/PBF/jobs: 429 Client Error: Too Many Requests for url: https://pbfenergy.wd1.myworkdayjobs.com/wday/cxs/pbfenergy/PBF/jobs"
     },
     {
-      "key": "pfizer",
-      "rank": 73,
-      "company": "Pfizer",
+      "key": "ryder-system",
+      "rank": 346,
+      "company": "Ryder System",
       "fortune_500": true,
-      "checked_at": "2026-11-20T03:27:06Z",
+      "checked_at": "2026-11-21T09:58:37Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": "Failed request: https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/jobs: 429 Client Error: Too Many Requests for url: https://pfizer.wd1.myworkdayjobs.com/wday/cxs/pfizer/PfizerCareers/jobs"
-    },
-    {
-      "key": "roper-technologies",
-      "rank": 487,
-      "company": "Roper Technologies",
-      "fortune_500": true,
-      "checked_at": "2026-11-20T03:27:06Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
+      "error": "Failed request: https://ryder.wd5.myworkdayjobs.com/wday/cxs/ryder/RyderCareers/jobs: 429 Client Error: Too Many Requests for url: https://ryder.wd5.myworkdayjobs.com/wday/cxs/ryder/RyderCareers/jobs"
     },
     {
       "key": "somnigroup-international",
       "rank": 35,
       "company": "Somnigroup International",
       "fortune_500": true,
-      "checked_at": "2026-11-21T02:25:26Z",
+      "checked_at": "2026-11-21T09:58:37Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://mattressfirm.wd1.myworkdayjobs.com/MattressFirmCareers",
       "error": "Failed request: https://mattressfirm.wd1.myworkdayjobs.com/wday/cxs/mattressfirm/MattressFirmCareers/jobs: 429 Client Error: Too Many Requests for url: https://mattressfirm.wd1.myworkdayjobs.com/wday/cxs/mattressfirm/MattressFirmCareers/jobs"
+    },
+    {
+      "key": "state-street",
+      "rank": 202,
+      "company": "State Street",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T09:58:37Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs: 429 Client Error: Too Many Requests for url: https://statestreet.wd1.myworkdayjobs.com/wday/cxs/statestreet/Global/jobs"
     },
     {
       "key": "travelers",
@@ -563,528 +589,10 @@
       "error": "Failed request: https://xcelenergy.wd1.myworkdayjobs.com/wday/cxs/xcelenergy/External/jobs: 429 Client Error: Too Many Requests for url: https://xcelenergy.wd1.myworkdayjobs.com/wday/cxs/xcelenergy/External/jobs"
     }
   ],
-  "companies_with_eligible_jobs": 6,
+  "companies_with_eligible_jobs": 7,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 23,
+  "opportunity_count": 9,
   "opportunities": [
-    {
-      "id": "j-m-smucker-a00b1bae9ef7",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Finance Technology Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Python",
-        "SQL",
-        "Tableau",
-        "Power BI",
-        "AI / ML"
-      ],
-      "summary": "Your Opportunity as a Finance Technology Intern As an intern on our Finance Technology team, you will gain hands-on experience supporting the data, analytics, automation, and technology solutions used across Finance. You will work alongside experienced developers and business…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-14",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance-Technology-Intern--Summer-2027_116135",
-      "external_id": "116135",
-      "verified_at": "2026-11-18T04:27:46Z",
-      "match_score": 85,
-      "source_stale": true
-    },
-    {
-      "id": "j-m-smucker-bcc2d975734b",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Field Sales Intern (Sacramento, CA) - Summer 2027",
-      "location": "Working Remote USA",
-      "region": "Remote",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy"
-      ],
-      "summary": "Your Opportunity as an Away From Home Sales Intern As a Sales Intern with the Away From Home team, you will have an exciting opportunity to work for one of the oldest and established American food company building relationships with some of the largest retailers in the nation…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-14",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Working-Remote-USA/Field-Sales-Intern--Sacramento--CA----Summer-2027_116137",
-      "external_id": "116137",
-      "verified_at": "2026-11-18T04:27:47Z",
-      "match_score": 85,
-      "source_stale": true
-    },
-    {
-      "id": "j-m-smucker-a0b55e77bdf3",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Field Sales Intern (Chicago) - Summer 2027",
-      "location": "Working Remote USA",
-      "region": "Remote",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy"
-      ],
-      "summary": "Your Opportunity as an Away From Home Sales Intern As a Sales Intern with the Away From Home team, you will have an exciting opportunity to work for one of the oldest and established American food company building relationships with some of the largest retailers in the nation…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-11-14",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Working-Remote-USA/Field-Sales-Intern--Chicago----Summer-2027_116138",
-      "external_id": "116138",
-      "verified_at": "2026-11-18T04:27:46Z",
-      "match_score": 85,
-      "source_stale": true
-    },
-    {
-      "id": "j-m-smucker-337eea07955a",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Human Resources Intern- McCalla, AL (Part-time)",
-      "location": "McCalla, AL",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Your Opportunity as a Human Resources intern As an intern within our Human Resources department at one of our manufacturing facilities, you will work with the Human Resources teams to assist in manufacturing hiring, onboarding, talent management, talent development, workforce…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-28",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/McCalla-AL/Human-Resources-Intern--McCalla--AL--Fall-2026--Part-time-_115933",
-      "external_id": "115933",
-      "verified_at": "2026-11-18T04:27:46Z",
-      "match_score": 85,
-      "source_stale": true
-    },
-    {
-      "id": "j-m-smucker-3c0622beadb2",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Revenue Growth Management Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Data analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Strategy",
-        "Finance"
-      ],
-      "summary": "Your Opportunity as a Revenue Growth Management Intern Revenue Growth Management (RGM) uses data and analytics to help drive profitable growth for our brands and retail partners. As an RGM intern, you’ll gain hands-on experience analyzing pricing, promotions, product mix, and…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-10-23",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Revenue-Growth-Management-Intern--Summer-2027_116012",
-      "external_id": "116012",
-      "verified_at": "2026-11-18T04:27:46Z",
-      "match_score": 85,
-      "source_stale": true
-    },
-    {
-      "id": "j-m-smucker-ec21fd80851a",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Net Revenue Optimization Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Finance"
-      ],
-      "summary": "Your Opportunity as a Net Revenue Optimization Intern Our commitment to leveraging strategic analysis to drive the right strategy and executions has taken on greater importance in today’s competitive and shifting market environment",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-10-23",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Net-Revenue-Optimization-Intern--Summer-2027_116006",
-      "external_id": "116006",
-      "verified_at": "2026-11-18T04:27:46Z",
-      "match_score": 85,
-      "source_stale": true
-    },
-    {
-      "id": "j-m-smucker-1710b1d8b4ce",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Talent Acquisition Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Your Opportunity as a Talent Intern As an intern within our Talent Acquisition function, you will work closely with our team on key strategies and initiatives that span across Talent Acquisition, Emerging Talent programming (which includes our Internship Program), and Candidate…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Talent-Acquisition-Intern--Summer-2027_115992",
-      "external_id": "115992",
-      "verified_at": "2026-11-18T04:27:46Z",
-      "match_score": 85,
-      "source_stale": true
-    },
-    {
-      "id": "j-m-smucker-9b1c1a7ac540",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Spring/Summer 2027 Supply Chain Intern - Oxnard, CA",
-      "location": "Oxnard, CA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Operations analyst",
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product",
-        "Accounting"
-      ],
-      "summary": "Your Opportunity as a Supply Chain Intern As an intern within our logistics department, you will work closely with management, office, quality control, maintenance and hourly personnel to achieve goals. You will have constant communication with the carrier offices and the…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Supply-Chain-Intern---Oxnard--CA_115736-1",
-      "external_id": "115736",
-      "verified_at": "2026-11-18T04:27:47Z",
-      "match_score": 85,
-      "source_stale": true
-    },
-    {
-      "id": "j-m-smucker-a06ab7a2cfe0",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Spring/Summer 2027 Human Resources Intern - Oxnard, CA",
-      "location": "Oxnard, CA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Your Opportunity as a Human Resources Intern As an intern within our human resources department, you will work closely with management, office, quality control, maintenance and hourly personnel to achieve goals. Location: Oxnard, CA Work Arrangements: Onsite, 100% of the time…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Spring-Summer-2027-Human-Resources-Intern---Oxnard--CA_115725-1",
-      "external_id": "115725",
-      "verified_at": "2026-11-18T04:27:47Z",
-      "match_score": 85,
-      "source_stale": true
-    },
-    {
-      "id": "j-m-smucker-a612a0474adf",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Spring/Summer 2027 Field Operations and Grower Representative Intern - Oxnard, CA",
-      "location": "Oxnard, CA",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Operations",
-        "Accounting"
-      ],
-      "summary": "Your Opportunity as a Field Operations & Grower Representative Intern As an intern within our operations department, you will work closely with the processing manager to ensure coordination of field fruit deliveries. You will ensure proper contact and relationships with the…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Oxnard-CA/Job-Posting-Title-Spring-Summer-2027-Field-Operations-and-Grower-Representative-Intern---Oxnard--CA_115735",
-      "external_id": "115735",
-      "verified_at": "2026-11-18T04:27:47Z",
-      "match_score": 85,
-      "source_stale": true
-    },
-    {
-      "id": "j-m-smucker-3c9b68498186",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Human Resources Intern- McCalla, AL, Summer 2027",
-      "location": "McCalla, AL",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Your Opportunity as a Humane Resources intern As an intern within our Human Resources department at one of our manufacturing facilities, you will work with the Human Resources teams to assist in manufacturing hiring, onboarding, talent management, talent development, workforce…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/McCalla-AL/Human-Resources-Intern--McCalla--AL--Summer-2027_115887",
-      "external_id": "115887",
-      "verified_at": "2026-11-18T04:27:50Z",
-      "match_score": 85,
-      "source_stale": true
-    },
-    {
-      "id": "j-m-smucker-f0f3b5aa25e8",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Human Resources Intern- Emporia, KS, Summer 2027",
-      "location": "Emporia, KS",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Your Opportunity as a Humane Resources intern As an intern within our Human Resources department at one of our manufacturing facilities, you will work with the Human Resources teams to assist in manufacturing hiring, onboarding, talent management, talent development, workforce…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Emporia-KS/Human-Resources-Intern--Emporia--KS--Summer-2027_115888",
-      "external_id": "115888",
-      "verified_at": "2026-11-18T04:27:46Z",
-      "match_score": 85,
-      "source_stale": true
-    },
-    {
-      "id": "j-m-smucker-578c197945d9",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Human Resources Intern- Buffalo, NY, Summer 2027",
-      "location": "Buffalo, NY",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Strategy",
-        "Operations"
-      ],
-      "summary": "Your Opportunity as a Humane Resources intern As an intern within our Human Resources department at one of our manufacturing facilities, you will work with the Human Resources teams to assist in manufacturing hiring, onboarding, talent management, talent development, workforce…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Buffalo-NY/Human-Resources-Intern--Buffalo--NY--Summer-2027_115886",
-      "external_id": "115886",
-      "verified_at": "2026-11-18T04:27:46Z",
-      "match_score": 85,
-      "source_stale": true
-    },
-    {
-      "id": "j-m-smucker-fc673d357b61",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Human Resources Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Your Opportunity as a Human Resources Intern As an intern within our Human Resources department, you will serve as a resource for current and former Smucker employees, their families, and, occasionally, non-employees such as applicants or contractors for questions regarding all…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Human-Resources-Intern--Summer-2027_115918",
-      "external_id": "115918",
-      "verified_at": "2026-11-18T04:27:46Z",
-      "match_score": 85,
-      "source_stale": true
-    },
-    {
-      "id": "j-m-smucker-ca48df236875",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Finance & Accounting Intern, Spring 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Accounting / financial analyst",
-        "FP&A",
-        "Corporate finance"
-      ],
-      "tags": [
-        "Excel",
-        "Finance",
-        "Treasury",
-        "FP&A",
-        "Accounting"
-      ],
-      "summary": "Your Opportunity as a Finance Intern As an intern within our Finance and Accounting organization, responsibilities will vary based on the department and role within Finance. We have internship opportunities in Financial Planning & Analysis, Supply Chain Finance, Supply Chain…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Finance---Accounting-Intern--Spring-2027_114929",
-      "external_id": "114929",
-      "verified_at": "2026-11-18T04:27:46Z",
-      "match_score": 85,
-      "source_stale": true
-    },
-    {
-      "id": "j-m-smucker-47744eb4e650",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Corporate Communications Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Your Opportunity as a Corporate Communications Intern As an intern in our communications organization, your responsibilities may include copywriting and editing, communications planning and execution, social media content development, media relations, multi-media content…",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Corporate-Communications-Intern--Summer-2027_115919",
-      "external_id": "115919",
-      "verified_at": "2026-11-18T04:27:46Z",
-      "match_score": 85,
-      "source_stale": true
-    },
-    {
-      "id": "j-m-smucker-e1de1074c0c1",
-      "source_key": "smucker",
-      "fortune_rank": 456,
-      "fortune_500": true,
-      "company": "J.M. Smucker",
-      "title": "Category Leadership Intern, Summer 2027",
-      "location": "Orrville, OH",
-      "region": "United States",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Business analyst",
-        "Asset-based lending"
-      ],
-      "tags": [],
-      "summary": "Your Opportunity as a Category Leadership Intern As an intern within our Category Leadership department, you will have an e xciting opportunity to analy ze and gro w top bran ds and categorie s in the consumer-packaged food industr y",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": "2026-01-30",
-      "deadline": null,
-      "url": "https://smucker.wd5.myworkdayjobs.com/US_External_Careers/job/Orrville-OH/Category-Leadership-Intern--Summer-2027_115804",
-      "external_id": "115804",
-      "verified_at": "2026-11-18T04:27:46Z",
-      "match_score": 85,
-      "source_stale": true
-    },
-    {
-      "id": "steel-dynamics-e24157b42c67",
-      "source_key": "steel-dynamics",
-      "fortune_rank": 244,
-      "fortune_500": true,
-      "company": "Steel Dynamics",
-      "title": "Maintenance Mechanic Apprenticeship",
-      "location": "Division/Location: Great Lakes Division - Detroit Ave.",
-      "region": "Global",
-      "opportunity_type": "Internship",
-      "categories": [
-        "Asset-based lending"
-      ],
-      "tags": [
-        "Product"
-      ],
-      "summary": "Department: Maintenance - Shredder or Yard Work Schedule: 6:00AM - 4:00PM (Weekends as needed) Reports to: Craig Munger Pay Grade: Hourly Date Posted: October 30, 2026 Brief Description: Performing preventive and corrective maintenance on both stationery and mobile equipment",
-      "grad_status": "No graduation year listed",
-      "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": false,
-      "posted_date": null,
-      "deadline": null,
-      "url": "https://www.steeldynamics.com/jobs/maintenance-mechanic-apprenticeship/",
-      "external_id": null,
-      "verified_at": "2026-11-19T13:19:21Z",
-      "match_score": 85
-    },
     {
       "id": "mondelez-international-2ce83e181602",
       "source_key": "mondelez-international",
@@ -1110,7 +618,64 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-11-21T02:22:21Z",
+      "verified_at": "2026-11-21T09:57:41Z",
+      "match_score": 85
+    },
+    {
+      "id": "micron-technology-9ccca65e5d82",
+      "source_key": "micron-technology",
+      "fortune_rank": 125,
+      "fortune_500": true,
+      "company": "Micron Technology",
+      "title": "Micron's registered apprenticeship program",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud",
+        "AI / ML",
+        "Product"
+      ],
+      "summary": "close close close close Sign in / Register Welcome to Micron.com, please Log in or Register an account to continue. Enter your email address check_circle_two_tone Please enter a valid email address Restricted email domain. Please enter your registered work email address",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.micron.com/about/careers/apprenticeship",
+      "external_id": null,
+      "verified_at": "2026-11-21T09:57:47Z",
+      "match_score": 85
+    },
+    {
+      "id": "huntington-ingalls-industries-70decc5f8728",
+      "source_key": "huntington-ingalls-industries",
+      "fortune_rank": 352,
+      "fortune_500": true,
+      "company": "Huntington Ingalls Industries",
+      "title": "Ingalls Apprentice School",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Operations",
+        "Credit"
+      ],
+      "summary": "Ingalls Apprentice School Since 1952, the Ingalls Apprentice School has produced more than 4,000 graduates in support of Ingalls Shipbuilding's operational needs About the Program The apprentice school program involves comprehensive three- to four-year curriculum for students…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://hii.com/careers/ingalls-apprentice-school",
+      "external_id": null,
+      "verified_at": "2026-11-21T09:58:09Z",
       "match_score": 85
     },
     {
@@ -1216,6 +781,62 @@
       "url": "https://www.brightspringhealth.com/campus-opportunities/internship-opportunities/",
       "external_id": null,
       "verified_at": "2026-11-21T02:22:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "airbnb-ffbd3d16c91e",
+      "source_key": "airbnb",
+      "fortune_rank": 357,
+      "fortune_500": true,
+      "company": "Airbnb",
+      "title": "Internship Programs",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Interns Featuring a mix of mentorship, fun, and challenge, our internships are designed to accelerate your learning curve as you make a real impact on our product. What to Expect Onboarding experience to get you familiar with Airbnb and your new team, and set you up for success",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://careers.airbnb.com/internship-programs/",
+      "external_id": null,
+      "verified_at": "2026-11-21T09:58:24Z",
+      "match_score": 85
+    },
+    {
+      "id": "airbnb-d1fc1ff6677b",
+      "source_key": "airbnb",
+      "fortune_rank": 357,
+      "fortune_500": true,
+      "company": "Airbnb",
+      "title": "Connect Engineering Apprenticeship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Cloud"
+      ],
+      "summary": "What it’s about The Connect Engineering Apprenticeship Program bridges the opportunity gap for entry-level engineering candidates. Candidates from underrepresented backgrounds and unconventional paths are encouraged to apply. Engineering apprentices gain invaluable exposure to…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://careers.airbnb.com/connect-engineering-apprenticeship/",
+      "external_id": null,
+      "verified_at": "2026-11-21T09:58:24Z",
       "match_score": 85
     }
   ]
