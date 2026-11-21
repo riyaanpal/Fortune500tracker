@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T09:58:37Z",
+  "updated_at": "2026-11-21T17:39:46Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -11,10 +11,10 @@
   "directory_warnings": [
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-11-21T09:57:38Z",
+  "directory_refreshed_at": "2026-11-21T17:36:14Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 176,
-  "companies_failed_last_24h": 44,
+  "companies_failed_last_24h": 48,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "abbott-laboratories",
@@ -43,6 +43,19 @@
       "error": "Failed request: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/Careers/jobs: 429 Client Error: Too Many Requests for url: https://alcoa.wd5.myworkdayjobs.com/wday/cxs/alcoa/Careers/jobs"
     },
     {
+      "key": "alphabet",
+      "rank": 5,
+      "company": "Alphabet",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T17:39:46Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
       "key": "ameren",
       "rank": 466,
       "company": "Ameren",
@@ -54,6 +67,19 @@
       "adapter": "discovery",
       "careers_url": "https://ameren.wd1.myworkdayjobs.com/Collegiate",
       "error": "Failed request: https://ameren.wd1.myworkdayjobs.com/wday/cxs/ameren/Collegiate/jobs: 429 Client Error: Too Many Requests for url: https://ameren.wd1.myworkdayjobs.com/wday/cxs/ameren/Collegiate/jobs"
+    },
+    {
+      "key": "american-electric-power",
+      "rank": 209,
+      "company": "American Electric Power",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T17:39:46Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://aep.wd1.myworkdayjobs.com/wday/cxs/aep/AEPCareerSite/jobs: 429 Client Error: Too Many Requests for url: https://aep.wd1.myworkdayjobs.com/wday/cxs/aep/AEPCareerSite/jobs"
     },
     {
       "key": "assurant",
@@ -93,19 +119,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://bristolmyerssquibb.wd5.myworkdayjobs.com/wday/cxs/bristolmyerssquibb/BMS/jobs: 429 Client Error: Too Many Requests for url: https://bristolmyerssquibb.wd5.myworkdayjobs.com/wday/cxs/bristolmyerssquibb/BMS/jobs"
-    },
-    {
-      "key": "c-h-robinson-worldwide",
-      "rank": 277,
-      "company": "C.H. Robinson Worldwide",
-      "fortune_500": true,
-      "checked_at": "2026-11-20T13:03:17Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://chrobinson.wd5.myworkdayjobs.com/wday/cxs/chrobinson/CHRobinson/jobs: 429 Client Error: Too Many Requests for url: https://chrobinson.wd5.myworkdayjobs.com/wday/cxs/chrobinson/CHRobinson/jobs"
     },
     {
       "key": "capital-one-financial",
@@ -171,19 +184,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs: 429 Client Error: Too Many Requests for url: https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs"
-    },
-    {
-      "key": "ferguson-enterprises",
-      "rank": 147,
-      "company": "Ferguson Enterprises",
-      "fortune_500": true,
-      "checked_at": "2026-11-20T13:03:17Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
     },
     {
       "key": "fidelity-national-financial",
@@ -303,17 +303,30 @@
       "error": "Failed request: https://henryschein.wd1.myworkdayjobs.com/wday/cxs/henryschein/External_Careers/jobs: 429 Client Error: Too Many Requests for url: https://henryschein.wd1.myworkdayjobs.com/wday/cxs/henryschein/External_Careers/jobs"
     },
     {
+      "key": "j-b-hunt-transport-services",
+      "rank": 371,
+      "company": "J.B. Hunt Transport Services",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T17:39:46Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://jbhunt.wd501.myworkdayjobs.com/wday/cxs/jbhunt/Careers/jobs: 429 Client Error: Too Many Requests for url: https://jbhunt.wd501.myworkdayjobs.com/wday/cxs/jbhunt/Careers/jobs"
+    },
+    {
       "key": "smucker",
       "rank": 456,
       "company": "J.M. Smucker",
       "fortune_500": true,
-      "checked_at": "2026-11-21T09:58:37Z",
+      "checked_at": "2026-11-21T17:39:46Z",
       "status": "error",
-      "issue_type": "Scan error",
+      "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": "Expecting value: line 1 column 1 (char 0)"
+      "error": "Failed request: https://smucker.wd5.myworkdayjobs.com/wday/cxs/smucker/US_External_Careers/jobs: 429 Client Error: Too Many Requests for url: https://smucker.wd5.myworkdayjobs.com/wday/cxs/smucker/US_External_Careers/jobs"
     },
     {
       "key": "jabil",
@@ -327,6 +340,19 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://jabil.wd5.myworkdayjobs.com/wday/cxs/jabil/Jabil_Careers/jobs: 429 Client Error: Too Many Requests for url: https://jabil.wd5.myworkdayjobs.com/wday/cxs/jabil/Jabil_Careers/jobs"
+    },
+    {
+      "key": "jones-lang-lasalle",
+      "rank": 175,
+      "company": "Jones Lang LaSalle",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T17:39:46Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://jll.wd1.myworkdayjobs.com/wday/cxs/jll/jllcareers/jobs: 429 Client Error: Too Many Requests for url: https://jll.wd1.myworkdayjobs.com/wday/cxs/jll/jllcareers/jobs"
     },
     {
       "key": "kenvue",
@@ -407,6 +433,32 @@
       "error": "Failed request: https://marvell.wd1.myworkdayjobs.com/wday/cxs/marvell/MarvellCareers/jobs: 429 Client Error: Too Many Requests for url: https://marvell.wd1.myworkdayjobs.com/wday/cxs/marvell/MarvellCareers/jobs"
     },
     {
+      "key": "mosaic",
+      "rank": 366,
+      "company": "Mosaic",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T17:39:46Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://mosaic.wd5.myworkdayjobs.com/wday/cxs/mosaic/mosaic/jobs: 429 Client Error: Too Many Requests for url: https://mosaic.wd5.myworkdayjobs.com/wday/cxs/mosaic/mosaic/jobs"
+    },
+    {
+      "key": "motorola-solutions",
+      "rank": 378,
+      "company": "Motorola Solutions",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T17:39:46Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://motorolasolutions.wd5.myworkdayjobs.com/wday/cxs/motorolasolutions/Careers/jobs: 429 Client Error: Too Many Requests for url: https://motorolasolutions.wd5.myworkdayjobs.com/wday/cxs/motorolasolutions/Careers/jobs"
+    },
+    {
       "key": "nasdaq",
       "rank": 470,
       "company": "Nasdaq",
@@ -459,6 +511,19 @@
       "error": "Failed request: https://pbfenergy.wd1.myworkdayjobs.com/wday/cxs/pbfenergy/PBF/jobs: 429 Client Error: Too Many Requests for url: https://pbfenergy.wd1.myworkdayjobs.com/wday/cxs/pbfenergy/PBF/jobs"
     },
     {
+      "key": "pultegroup",
+      "rank": 256,
+      "company": "PulteGroup",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T17:39:46Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://pultegroup.wd1.myworkdayjobs.com/PGI",
+      "error": "Failed request: https://pultegroup.wd1.myworkdayjobs.com/wday/cxs/pultegroup/PGI/jobs: 429 Client Error: Too Many Requests for url: https://pultegroup.wd1.myworkdayjobs.com/wday/cxs/pultegroup/PGI/jobs"
+    },
+    {
       "key": "ryder-system",
       "rank": 346,
       "company": "Ryder System",
@@ -476,13 +541,26 @@
       "rank": 35,
       "company": "Somnigroup International",
       "fortune_500": true,
-      "checked_at": "2026-11-21T09:58:37Z",
+      "checked_at": "2026-11-21T17:39:46Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://mattressfirm.wd1.myworkdayjobs.com/MattressFirmCareers",
       "error": "Failed request: https://mattressfirm.wd1.myworkdayjobs.com/wday/cxs/mattressfirm/MattressFirmCareers/jobs: 429 Client Error: Too Many Requests for url: https://mattressfirm.wd1.myworkdayjobs.com/wday/cxs/mattressfirm/MattressFirmCareers/jobs"
+    },
+    {
+      "key": "sonoco-products",
+      "rank": 489,
+      "company": "Sonoco Products",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T17:39:46Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://sonoco.wd1.myworkdayjobs.com/CorporateCareers",
+      "error": "Failed request: https://sonoco.wd1.myworkdayjobs.com/wday/cxs/sonoco/CorporateCareers/jobs: 429 Client Error: Too Many Requests for url: https://sonoco.wd1.myworkdayjobs.com/wday/cxs/sonoco/CorporateCareers/jobs"
     },
     {
       "key": "state-street",
@@ -509,32 +587,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://travelers.wd5.myworkdayjobs.com/wday/cxs/travelers/External/jobs: 429 Client Error: Too Many Requests for url: https://travelers.wd5.myworkdayjobs.com/wday/cxs/travelers/External/jobs"
-    },
-    {
-      "key": "tyson-foods",
-      "rank": 87,
-      "company": "Tyson Foods",
-      "fortune_500": true,
-      "checked_at": "2026-11-20T13:03:17Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://tysonfoods.wd5.myworkdayjobs.com/wday/cxs/tysonfoods/TSN/jobs: 429 Client Error: Too Many Requests for url: https://tysonfoods.wd5.myworkdayjobs.com/wday/cxs/tysonfoods/TSN/jobs"
-    },
-    {
-      "key": "united-services-automobile-assn",
-      "rank": 93,
-      "company": "United Services Automobile Assn.",
-      "fortune_500": true,
-      "checked_at": "2026-11-20T13:03:17Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
     },
     {
       "key": "unum-group",
@@ -589,9 +641,9 @@
       "error": "Failed request: https://xcelenergy.wd1.myworkdayjobs.com/wday/cxs/xcelenergy/External/jobs: 429 Client Error: Too Many Requests for url: https://xcelenergy.wd1.myworkdayjobs.com/wday/cxs/xcelenergy/External/jobs"
     }
   ],
-  "companies_with_eligible_jobs": 7,
+  "companies_with_eligible_jobs": 9,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 9,
+  "opportunity_count": 24,
   "opportunities": [
     {
       "id": "mondelez-international-2ce83e181602",
@@ -618,7 +670,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-11-21T09:57:41Z",
+      "verified_at": "2026-11-21T17:36:17Z",
       "match_score": 85
     },
     {
@@ -676,6 +728,393 @@
       "url": "https://hii.com/careers/ingalls-apprentice-school",
       "external_id": null,
       "verified_at": "2026-11-21T09:58:09Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-6979850c34dd",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Supply Chain Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Preferred major(s): Supply Chain Management Preferred GPA: Minimum 2.7 cumulative, preferred 3.0 cumulative Length of program: 3-month summer internship Need Something Else? More Internship Opportunities Questions View All FAQs Go Contact Us Go",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/supply-chain-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-21T17:36:52Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-ce3807904c98",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "R&D Product Development Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Product management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "Preferred major(s): Food Science or another related field Preferred GPA: Minimum 3.0 cumulative Length of program: 3-month summer internship Need Something Else? More Internship Opportunities Questions View All FAQs Go Contact Us Go",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/rd-product-development-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-21T17:36:52Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-def3a6809eb0",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "R&D Packaging Engineering Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Preferred major(s): Packaging Engineering Preferred GPA: Minimum 3.0 cumulative Length of program: 3-month summer internship or 6-month co-op Need Something Else? More Internship Opportunities Questions View All FAQs Go Contact Us Go",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/rd-packaging-engineering-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-21T17:36:52Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-fcc911fdbecc",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Production Management Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "< Ask & Answer Internship Opportunities Explore This Section Behind the Label Company & General Charitable Giving & Donations Coupons, Samples & Recipes Food Prep, Safety & Storage Product Availability Social Responsibility Internship Opportunities Production Management…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/production-management-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-21T17:36:51Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-45f0af090889",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Marketing Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "< Ask & Answer Internship Opportunities Explore This Section Behind the Label Company & General Charitable Giving & Donations Coupons, Samples & Recipes Food Prep, Safety & Storage Product Availability Social Responsibility Internship Opportunities Marketing Internship Tags…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/marketing-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-21T17:36:48Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-d3ffbfeee034",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Maintenance Engineering Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Preferred major(s): Mechanical Engineering, Electrical Engineering, Civil Engineering, or a related engineering field Preferred GPA: Minimum 2.7 cumulative Length of program: 3-month summer internship or 6-month co-op Need Something Else?",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/maintenance-engineering-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-21T17:36:50Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-440dfc2ff788",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Live Production Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "< Ask & Answer Internship Opportunities Explore This Section Behind the Label Company & General Charitable Giving & Donations Coupons, Samples & Recipes Food Prep, Safety & Storage Product Availability Social Responsibility Internship Opportunities Live Production Internship…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/live-production-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-21T17:36:51Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-f4c280645704",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Internship Opportunities",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Strategy",
+        "Operations",
+        "Accounting"
+      ],
+      "summary": "< Working at Hormel Foods Internship Opportunities Apply Now Explore This Section Our Culture Employee Resource Groups Military Recruitment History with U.S. Military Our Hometown Working at Hormel Foods Internship Opportunities Our Locations World Headquarters – Austin, MN…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/careers/career-center/internship-opportunities/",
+      "external_id": null,
+      "verified_at": "2026-11-21T17:36:48Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-00c20d33c5c0",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Insights & Analytics Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Will gain exposure to and understanding of consumer and customer research components of category and brand thought leadership initiatives, analyzing various data/information sources to develop recommendations for brand growth opportunities",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/insights-analytics-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-21T17:36:53Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-48ff69caea2f",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Information Technology Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "IT analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Preferred major(s): Management of Information Systems (MIS) or related field Preferred GPA: Minimum 3.0 cumulative Length of program: 3-month summer internship Need Something Else? More Internship Opportunities Questions View All FAQs Go Contact Us Go",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/information-technology-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-21T17:36:53Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-62dcb4e134fc",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Industrial Engineering Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "Identify improvements to work methods by reviewing the methods and analyzing potential method/design changes. Analyze operations and create AutoCAD layouts. Evaluate downtimes and methods to increase efficiency. Evaluate, recommend and install new equipment and layouts",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/industrial-engineering-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-21T17:36:50Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-1ac843a64258",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Hormel Foods Recognized for Having One of the Nation’s Top Internship Programs",
+      "location": "Austin , Minn.",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "< Press Releases Company Explore This Section Press Releases Awards & Recognition Brands Company Responsibility Events Performance Innovation News Awards & Recognition Brands Company Responsibility Events Performance Innovation Media Resources Hormel Foods Recognized for Having…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/newsroom/press-releases/hormel-foods-recognized-for-having-one-of-the-nations-top-internship-programs/",
+      "external_id": null,
+      "verified_at": "2026-11-21T17:36:48Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-788d5e3f503c",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Foodservice Sales Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "Preferred major(s): Marketing, Professional Selling, Agribusiness, Business Administration, Hospitality or Hotel/Restaurant Management or relevant degree program Preferred GPA: Minimum 3.0 cumulative Length of program: 3-month summer internship Need Something Else?",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/foodservice-sales-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-21T17:36:50Z",
+      "match_score": 85
+    },
+    {
+      "id": "hormel-foods-cd84bb756d5a",
+      "source_key": "hormel-foods",
+      "fortune_rank": 363,
+      "fortune_500": true,
+      "company": "Hormel Foods",
+      "title": "Food Safety & Quality Internship",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product"
+      ],
+      "summary": "This includes supporting management in the implementation of food safety and food quality processes and procedures. Preferred major(s): Food Science, Animal Science, Agricultural Business, Management, or related field Preferred GPA: Minimum 2.7 cumulative Length of program:…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.hormelfoods.com/ask-and-answer/food-safety-quality-internship/",
+      "external_id": null,
+      "verified_at": "2026-11-21T17:36:52Z",
       "match_score": 85
     },
     {
@@ -781,6 +1220,39 @@
       "url": "https://www.brightspringhealth.com/campus-opportunities/internship-opportunities/",
       "external_id": null,
       "verified_at": "2026-11-21T02:22:45Z",
+      "match_score": 85
+    },
+    {
+      "id": "boston-consulting-group-bcg-8e598938abbf",
+      "source_key": "bcg",
+      "fortune_rank": null,
+      "fortune_500": false,
+      "company": "Boston Consulting Group (BCG)",
+      "title": "Internship Opportunities",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Tech consulting",
+        "Risk management",
+        "Product management"
+      ],
+      "tags": [
+        "Product",
+        "Operations",
+        "Finance",
+        "Treasury",
+        "Risk"
+      ],
+      "summary": "Internship Opportunities As a consulting intern, you’ll collaborate with a diverse team to solve our clients’ problems, benefitting from our world-class learning and development programs. You can also build a solid foundation from which to apply for a full-time consulting role…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://careers.bcg.com/global/en/internship-opportunities",
+      "external_id": null,
+      "verified_at": "2026-11-21T17:37:29Z",
       "match_score": 85
     },
     {
