@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T21:13:57Z",
+  "updated_at": "2026-11-21T02:25:26Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -11,23 +11,23 @@
   "directory_warnings": [
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-11-20T21:11:08Z",
+  "directory_refreshed_at": "2026-11-21T02:22:14Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 176,
-  "companies_failed_last_24h": 38,
+  "companies_failed_last_24h": 42,
   "failed_or_blocked_companies_last_24h": [
     {
-      "key": "allstate",
-      "rank": 64,
-      "company": "Allstate",
+      "key": "abbott-laboratories",
+      "rank": 107,
+      "company": "Abbott Laboratories",
       "fortune_500": true,
-      "checked_at": "2026-11-19T21:41:10Z",
+      "checked_at": "2026-11-21T02:25:26Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": "Failed request: https://allstate.wd5.myworkdayjobs.com/wday/cxs/allstate/allstate_careers/jobs: 429 Client Error: Too Many Requests for url: https://allstate.wd5.myworkdayjobs.com/wday/cxs/allstate/allstate_careers/jobs"
+      "error": "Failed request: https://abbott.wd5.myworkdayjobs.com/wday/cxs/abbott/abbottcareers/jobs: 429 Client Error: Too Many Requests for url: https://abbott.wd5.myworkdayjobs.com/wday/cxs/abbott/abbottcareers/jobs"
     },
     {
       "key": "bank-of-america",
@@ -82,6 +82,19 @@
       "error": "Failed request: https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/Capital_One/jobs: 429 Client Error: Too Many Requests for url: https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/Capital_One/jobs"
     },
     {
+      "key": "carmax",
+      "rank": 162,
+      "company": "CarMax",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T02:25:26Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://carmax.wd1.myworkdayjobs.com/wday/cxs/carmax/External/jobs: 429 Client Error: Too Many Requests for url: https://carmax.wd1.myworkdayjobs.com/wday/cxs/carmax/External/jobs"
+    },
+    {
       "key": "citigroup",
       "rank": 24,
       "company": "Citigroup",
@@ -134,19 +147,6 @@
       "error": null
     },
     {
-      "key": "dick-s-sporting-goods",
-      "rank": 258,
-      "company": "Dick's Sporting Goods",
-      "fortune_500": true,
-      "checked_at": "2026-11-19T21:41:10Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://dickssportinggoods.wd1.myworkdayjobs.com/wday/cxs/dickssportinggoods/DSG/jobs: 429 Client Error: Too Many Requests for url: https://dickssportinggoods.wd1.myworkdayjobs.com/wday/cxs/dickssportinggoods/DSG/jobs"
-    },
-    {
       "key": "duke-energy",
       "rank": 145,
       "company": "Duke Energy",
@@ -171,19 +171,6 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs: 429 Client Error: Too Many Requests for url: https://expedia.wd108.myworkdayjobs.com/wday/cxs/expedia/search/jobs"
-    },
-    {
-      "key": "fannie-mae",
-      "rank": 26,
-      "company": "Fannie Mae",
-      "fortune_500": true,
-      "checked_at": "2026-11-19T21:41:10Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://fanniemae.wd1.myworkdayjobs.com/wday/cxs/fanniemae/FannieMaeCareers/jobs: 429 Client Error: Too Many Requests for url: https://fanniemae.wd1.myworkdayjobs.com/wday/cxs/fanniemae/FannieMaeCareers/jobs"
     },
     {
       "key": "ferguson-enterprises",
@@ -225,6 +212,19 @@
       "error": "Failed request: https://fis.wd5.myworkdayjobs.com/wday/cxs/fis/SearchJobs/jobs: 429 Client Error: Too Many Requests for url: https://fis.wd5.myworkdayjobs.com/wday/cxs/fis/SearchJobs/jobs"
     },
     {
+      "key": "franklin-templeton",
+      "rank": 452,
+      "company": "Franklin Templeton",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T02:25:26Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
       "key": "ge-aerospace",
       "rank": 101,
       "company": "GE Aerospace",
@@ -251,24 +251,50 @@
       "error": "Failed request: https://gilead.wd1.myworkdayjobs.com/wday/cxs/gilead/gileadcareers/jobs: 429 Client Error: Too Many Requests for url: https://gilead.wd1.myworkdayjobs.com/wday/cxs/gilead/gileadcareers/jobs"
     },
     {
-      "key": "international-business-machines",
-      "rank": 66,
-      "company": "International Business Machines",
+      "key": "graybar-electric",
+      "rank": 342,
+      "company": "Graybar Electric",
       "fortune_500": true,
-      "checked_at": "2026-11-19T21:41:10Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
+      "checked_at": "2026-11-21T02:25:26Z",
+      "status": "error",
+      "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": null
+      "error": "Failed request: https://graybar.wd1.myworkdayjobs.com/wday/cxs/graybar/Careers/jobs: 429 Client Error: Too Many Requests for url: https://graybar.wd1.myworkdayjobs.com/wday/cxs/graybar/Careers/jobs"
+    },
+    {
+      "key": "hartford-insurance-group",
+      "rank": 160,
+      "company": "Hartford Insurance Group",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T02:25:26Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://thehartford.wd5.myworkdayjobs.com/wday/cxs/thehartford/Careers_External/jobs: 429 Client Error: Too Many Requests for url: https://thehartford.wd5.myworkdayjobs.com/wday/cxs/thehartford/Careers_External/jobs"
+    },
+    {
+      "key": "henry-schein",
+      "rank": 335,
+      "company": "Henry Schein",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T02:25:26Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://henryschein.wd1.myworkdayjobs.com/wday/cxs/henryschein/External_Careers/jobs: 429 Client Error: Too Many Requests for url: https://henryschein.wd1.myworkdayjobs.com/wday/cxs/henryschein/External_Careers/jobs"
     },
     {
       "key": "smucker",
       "rank": 456,
       "company": "J.M. Smucker",
       "fortune_500": true,
-      "checked_at": "2026-11-20T21:13:57Z",
+      "checked_at": "2026-11-21T02:25:26Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
@@ -316,6 +342,19 @@
       "error": "Failed request: https://kyndryl.wd5.myworkdayjobs.com/wday/cxs/kyndryl/KyndrylEarlyCareers/jobs: 429 Client Error: Too Many Requests for url: https://kyndryl.wd5.myworkdayjobs.com/wday/cxs/kyndryl/KyndrylEarlyCareers/jobs"
     },
     {
+      "key": "labcorp-holdings",
+      "rank": 326,
+      "company": "Labcorp Holdings",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T02:25:26Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://labcorp.wd1.myworkdayjobs.com/wday/cxs/labcorp/External/jobs: 429 Client Error: Too Many Requests for url: https://labcorp.wd1.myworkdayjobs.com/wday/cxs/labcorp/External/jobs"
+    },
+    {
       "key": "land-o-lakes",
       "rank": 273,
       "company": "Land O'Lakes",
@@ -329,17 +368,30 @@
       "error": "Failed request: https://landolakes.wd1.myworkdayjobs.com/wday/cxs/landolakes/LandOLakes/jobs: 429 Client Error: Too Many Requests for url: https://landolakes.wd1.myworkdayjobs.com/wday/cxs/landolakes/LandOLakes/jobs"
     },
     {
-      "key": "msd",
-      "rank": 68,
-      "company": "MSD",
+      "key": "lkq",
+      "rank": 325,
+      "company": "LKQ",
       "fortune_500": true,
-      "checked_at": "2026-11-19T21:41:10Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
+      "checked_at": "2026-11-21T02:25:26Z",
+      "status": "error",
+      "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": null
+      "error": "Failed request: https://lkqcorp.wd5.myworkdayjobs.com/wday/cxs/lkqcorp/ExternalCareerSite-LKQ/jobs: 429 Client Error: Too Many Requests for url: https://lkqcorp.wd5.myworkdayjobs.com/wday/cxs/lkqcorp/ExternalCareerSite-LKQ/jobs"
+    },
+    {
+      "key": "m-t-bank",
+      "rank": 334,
+      "company": "M&T Bank",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T02:25:26Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/MTB/jobs: 429 Client Error: Too Many Requests for url: https://mtb.wd5.myworkdayjobs.com/wday/cxs/mtb/MTB/jobs"
     },
     {
       "key": "northern-trust",
@@ -411,26 +463,13 @@
       "rank": 35,
       "company": "Somnigroup International",
       "fortune_500": true,
-      "checked_at": "2026-11-20T21:13:57Z",
+      "checked_at": "2026-11-21T02:25:26Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": "https://mattressfirm.wd1.myworkdayjobs.com/MattressFirmCareers",
       "error": "Failed request: https://mattressfirm.wd1.myworkdayjobs.com/wday/cxs/mattressfirm/MattressFirmCareers/jobs: 429 Client Error: Too Many Requests for url: https://mattressfirm.wd1.myworkdayjobs.com/wday/cxs/mattressfirm/MattressFirmCareers/jobs"
-    },
-    {
-      "key": "taylor-morrison-home",
-      "rank": 483,
-      "company": "Taylor Morrison Home",
-      "fortune_500": true,
-      "checked_at": "2026-11-19T21:41:10Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://taylormorrison.wd1.myworkdayjobs.com/wday/cxs/taylormorrison/TaylorMorrisonCareers/jobs: 429 Client Error: Too Many Requests for url: https://taylormorrison.wd1.myworkdayjobs.com/wday/cxs/taylormorrison/TaylorMorrisonCareers/jobs"
     },
     {
       "key": "travelers",
@@ -472,6 +511,19 @@
       "error": null
     },
     {
+      "key": "unum-group",
+      "rank": 338,
+      "company": "Unum Group",
+      "fortune_500": true,
+      "checked_at": "2026-11-21T02:25:26Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://unum.wd1.myworkdayjobs.com/wday/cxs/unum/External/jobs: 429 Client Error: Too Many Requests for url: https://unum.wd1.myworkdayjobs.com/wday/cxs/unum/External/jobs"
+    },
+    {
       "key": "viatris",
       "rank": 318,
       "company": "Viatris",
@@ -485,17 +537,17 @@
       "error": "Failed request: https://viatris.wd5.myworkdayjobs.com/wday/cxs/viatris/External/jobs: 429 Client Error: Too Many Requests for url: https://viatris.wd5.myworkdayjobs.com/wday/cxs/viatris/External/jobs"
     },
     {
-      "key": "vistra",
-      "rank": 251,
-      "company": "Vistra",
+      "key": "visa",
+      "rank": 119,
+      "company": "Visa",
       "fortune_500": true,
-      "checked_at": "2026-11-19T21:41:10Z",
+      "checked_at": "2026-11-21T02:25:26Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
-      "error": "Failed request: https://vst.wd5.myworkdayjobs.com/wday/cxs/vst/vistra_careers/jobs: 429 Client Error: Too Many Requests for url: https://vst.wd5.myworkdayjobs.com/wday/cxs/vst/vistra_careers/jobs"
+      "error": "Failed request: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs: 429 Client Error: Too Many Requests for url: https://visa.wd5.myworkdayjobs.com/wday/cxs/visa/Visa/jobs"
     },
     {
       "key": "xcel-energy",
@@ -511,9 +563,9 @@
       "error": "Failed request: https://xcelenergy.wd1.myworkdayjobs.com/wday/cxs/xcelenergy/External/jobs: 429 Client Error: Too Many Requests for url: https://xcelenergy.wd1.myworkdayjobs.com/wday/cxs/xcelenergy/External/jobs"
     }
   ],
-  "companies_with_eligible_jobs": 5,
+  "companies_with_eligible_jobs": 6,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 22,
+  "opportunity_count": 23,
   "opportunities": [
     {
       "id": "j-m-smucker-a00b1bae9ef7",
@@ -1058,7 +1110,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-11-20T21:11:13Z",
+      "verified_at": "2026-11-21T02:22:21Z",
       "match_score": 85
     },
     {
@@ -1139,6 +1191,31 @@
       "url": "https://enterpriseproducts.com/careers/early-careers/",
       "external_id": null,
       "verified_at": "2026-11-20T13:00:09Z",
+      "match_score": 85
+    },
+    {
+      "id": "brightspring-health-services-8ab26e506f03",
+      "source_key": "brightspring-health-services",
+      "fortune_rank": 323,
+      "fortune_500": true,
+      "company": "BrightSpring Health Services",
+      "title": "Internship Opportunities - BrightSpring Health Services",
+      "location": "Location not listed",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [],
+      "summary": "CAMPUS OPPORTUNITIES Internship Opportunities Home / Campus Opportunities / Internship Opportunities Build Your Future with Our Internship Program Our internship program offers the opportunity to engage in meaningful work that makes a positive impact on both your community and…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": true,
+      "posted_date": null,
+      "deadline": null,
+      "url": "https://www.brightspringhealth.com/campus-opportunities/internship-opportunities/",
+      "external_id": null,
+      "verified_at": "2026-11-21T02:22:45Z",
       "match_score": 85
     }
   ]
