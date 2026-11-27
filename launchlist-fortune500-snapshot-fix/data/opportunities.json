@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T19:08:51Z",
+  "updated_at": "2026-11-27T02:18:01Z",
   "eligibility_policy": "2029 explicitly allowed, an allowed range reaches 2029, 'or later' includes 2029, or no graduation year is listed; graduate-level Master's/MBA/PhD/doctoral internships are excluded",
   "degree_policy": "Undergraduate-friendly internships only. Excludes postings specifically branded for Master's, MBA, PhD, doctoral, graduate, or postdoctoral candidates.",
   "expanded_role_policy": "Also searches banking, credit, treasury, corporate finance, FP&A, accounting, financial analyst, and risk-management internships.",
@@ -11,10 +11,10 @@
   "directory_warnings": [
     "Fortune contains tied ranks 160, 350; duplicate rank numbers are preserved as separate companies"
   ],
-  "directory_refreshed_at": "2026-11-26T19:04:46Z",
+  "directory_refreshed_at": "2026-11-27T02:13:56Z",
   "companies_scanned_this_run": 50,
   "companies_scanned_last_24h": 134,
-  "companies_failed_last_24h": 24,
+  "companies_failed_last_24h": 25,
   "failed_or_blocked_companies_last_24h": [
     {
       "key": "accendra-health",
@@ -43,32 +43,6 @@
       "error": "Failed request: https://aig.wd1.myworkdayjobs.com/wday/cxs/aig/early_careers/jobs: 429 Client Error: Too Many Requests for url: https://aig.wd1.myworkdayjobs.com/wday/cxs/aig/early_careers/jobs"
     },
     {
-      "key": "alphabet",
-      "rank": 5,
-      "company": "Alphabet",
-      "fortune_500": true,
-      "checked_at": "2026-11-25T23:43:11Z",
-      "status": "no-career-source",
-      "issue_type": "No careers source found",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": null
-    },
-    {
-      "key": "american-electric-power",
-      "rank": 209,
-      "company": "American Electric Power",
-      "fortune_500": true,
-      "checked_at": "2026-11-25T23:43:11Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://aep.wd1.myworkdayjobs.com/wday/cxs/aep/AEPCareerSite/jobs: 429 Client Error: Too Many Requests for url: https://aep.wd1.myworkdayjobs.com/wday/cxs/aep/AEPCareerSite/jobs"
-    },
-    {
       "key": "andersons",
       "rank": 397,
       "company": "Andersons",
@@ -93,6 +67,32 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://baxter.wd1.myworkdayjobs.com/wday/cxs/baxter/baxter/jobs: 429 Client Error: Too Many Requests for url: https://baxter.wd1.myworkdayjobs.com/wday/cxs/baxter/baxter/jobs"
+    },
+    {
+      "key": "biogen",
+      "rank": 421,
+      "company": "Biogen",
+      "fortune_500": true,
+      "checked_at": "2026-11-27T02:18:01Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://biibhr.wd3.myworkdayjobs.com/wday/cxs/biibhr/external/jobs: 429 Client Error: Too Many Requests for url: https://biibhr.wd3.myworkdayjobs.com/wday/cxs/biibhr/external/jobs"
+    },
+    {
+      "key": "booz-allen-hamilton-holding",
+      "rank": 372,
+      "company": "Booz Allen Hamilton Holding",
+      "fortune_500": true,
+      "checked_at": "2026-11-27T02:18:01Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": "https://careers.boozallen.com/jobs/search",
+      "error": "Failed request: https://bah.wd1.myworkdayjobs.com/wday/cxs/bah/BAH_Jobs/jobs: 429 Client Error: Too Many Requests for url: https://bah.wd1.myworkdayjobs.com/wday/cxs/bah/BAH_Jobs/jobs"
     },
     {
       "key": "campbell-s",
@@ -186,6 +186,45 @@
       "error": "Failed request: https://elevancehealth.wd1.myworkdayjobs.com/wday/cxs/elevancehealth/ANT/jobs: 429 Client Error: Too Many Requests for url: https://elevancehealth.wd1.myworkdayjobs.com/wday/cxs/elevancehealth/ANT/jobs"
     },
     {
+      "key": "ge-healthcare",
+      "rank": 217,
+      "company": "GE HealthCare",
+      "fortune_500": true,
+      "checked_at": "2026-11-27T02:18:01Z",
+      "status": "no-career-source",
+      "issue_type": "No careers source found",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": null
+    },
+    {
+      "key": "general-mills",
+      "rank": 227,
+      "company": "General Mills",
+      "fortune_500": true,
+      "checked_at": "2026-11-27T02:18:01Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://genmills.wd1.myworkdayjobs.com/wday/cxs/genmills/GMI_External_Careers/jobs: 429 Client Error: Too Many Requests for url: https://genmills.wd1.myworkdayjobs.com/wday/cxs/genmills/GMI_External_Careers/jobs"
+    },
+    {
+      "key": "home-depot",
+      "rank": 25,
+      "company": "Home Depot",
+      "fortune_500": true,
+      "checked_at": "2026-11-27T02:18:01Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://homedepot.wd5.myworkdayjobs.com/wday/cxs/homedepot/CareerDepot/jobs: 429 Client Error: Too Many Requests for url: https://homedepot.wd5.myworkdayjobs.com/wday/cxs/homedepot/CareerDepot/jobs"
+    },
+    {
       "key": "international-paper",
       "rank": 176,
       "company": "International Paper",
@@ -199,82 +238,17 @@
       "error": "Failed request: https://dssmith.wd3.myworkdayjobs.com/wday/cxs/dssmith/careers/jobs: 429 Client Error: Too Many Requests for url: https://dssmith.wd3.myworkdayjobs.com/wday/cxs/dssmith/careers/jobs"
     },
     {
-      "key": "j-b-hunt-transport-services",
-      "rank": 371,
-      "company": "J.B. Hunt Transport Services",
-      "fortune_500": true,
-      "checked_at": "2026-11-25T23:43:11Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://jbhunt.wd501.myworkdayjobs.com/wday/cxs/jbhunt/Careers/jobs: 429 Client Error: Too Many Requests for url: https://jbhunt.wd501.myworkdayjobs.com/wday/cxs/jbhunt/Careers/jobs"
-    },
-    {
       "key": "smucker",
       "rank": 456,
       "company": "J.M. Smucker",
       "fortune_500": true,
-      "checked_at": "2026-11-26T19:08:51Z",
+      "checked_at": "2026-11-27T02:18:01Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
       "careers_url": null,
       "error": "Failed request: https://smucker.wd5.myworkdayjobs.com/wday/cxs/smucker/US_External_Careers/jobs: 429 Client Error: Too Many Requests for url: https://smucker.wd5.myworkdayjobs.com/wday/cxs/smucker/US_External_Careers/jobs"
-    },
-    {
-      "key": "jones-lang-lasalle",
-      "rank": 175,
-      "company": "Jones Lang LaSalle",
-      "fortune_500": true,
-      "checked_at": "2026-11-25T23:43:11Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://jll.wd1.myworkdayjobs.com/wday/cxs/jll/jllcareers/jobs: 429 Client Error: Too Many Requests for url: https://jll.wd1.myworkdayjobs.com/wday/cxs/jll/jllcareers/jobs"
-    },
-    {
-      "key": "medline",
-      "rank": 159,
-      "company": "Medline",
-      "fortune_500": true,
-      "checked_at": "2026-11-25T23:43:11Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": "https://medline.wd5.myworkdayjobs.com/Medline",
-      "error": "Failed request: https://medline.wd5.myworkdayjobs.com/wday/cxs/medline/Medline/jobs: 429 Client Error: Too Many Requests for url: https://medline.wd5.myworkdayjobs.com/wday/cxs/medline/Medline/jobs"
-    },
-    {
-      "key": "mosaic",
-      "rank": 366,
-      "company": "Mosaic",
-      "fortune_500": true,
-      "checked_at": "2026-11-25T23:43:11Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://mosaic.wd5.myworkdayjobs.com/wday/cxs/mosaic/mosaic/jobs: 429 Client Error: Too Many Requests for url: https://mosaic.wd5.myworkdayjobs.com/wday/cxs/mosaic/mosaic/jobs"
-    },
-    {
-      "key": "motorola-solutions",
-      "rank": 378,
-      "company": "Motorola Solutions",
-      "fortune_500": true,
-      "checked_at": "2026-11-25T23:43:11Z",
-      "status": "error",
-      "issue_type": "Rate limited",
-      "eligible_jobs": 0,
-      "adapter": "discovery",
-      "careers_url": null,
-      "error": "Failed request: https://motorolasolutions.wd5.myworkdayjobs.com/wday/cxs/motorolasolutions/Careers/jobs: 429 Client Error: Too Many Requests for url: https://motorolasolutions.wd5.myworkdayjobs.com/wday/cxs/motorolasolutions/Careers/jobs"
     },
     {
       "key": "primoris-services",
@@ -290,11 +264,24 @@
       "error": "Failed request: https://prim.wd108.myworkdayjobs.com/wday/cxs/prim/Primoris/jobs: 429 Client Error: Too Many Requests for url: https://prim.wd108.myworkdayjobs.com/wday/cxs/prim/Primoris/jobs"
     },
     {
+      "key": "qvc-group",
+      "rank": 433,
+      "company": "QVC Group",
+      "fortune_500": true,
+      "checked_at": "2026-11-27T02:18:01Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://qvc.wd5.myworkdayjobs.com/wday/cxs/qvc/QRG/jobs: 429 Client Error: Too Many Requests for url: https://qvc.wd5.myworkdayjobs.com/wday/cxs/qvc/QRG/jobs"
+    },
+    {
       "key": "somnigroup-international",
       "rank": 35,
       "company": "Somnigroup International",
       "fortune_500": true,
-      "checked_at": "2026-11-26T19:08:51Z",
+      "checked_at": "2026-11-27T02:18:01Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
@@ -303,17 +290,17 @@
       "error": "Failed request: https://mattressfirm.wd1.myworkdayjobs.com/wday/cxs/mattressfirm/MattressFirmCareers/jobs: 429 Client Error: Too Many Requests for url: https://mattressfirm.wd1.myworkdayjobs.com/wday/cxs/mattressfirm/MattressFirmCareers/jobs"
     },
     {
-      "key": "sonoco-products",
-      "rank": 489,
-      "company": "Sonoco Products",
+      "key": "thrivent-financial",
+      "rank": 387,
+      "company": "Thrivent Financial",
       "fortune_500": true,
-      "checked_at": "2026-11-25T23:43:11Z",
+      "checked_at": "2026-11-27T02:18:01Z",
       "status": "error",
       "issue_type": "Rate limited",
       "eligible_jobs": 0,
       "adapter": "discovery",
-      "careers_url": "https://sonoco.wd1.myworkdayjobs.com/CorporateCareers",
-      "error": "Failed request: https://sonoco.wd1.myworkdayjobs.com/wday/cxs/sonoco/CorporateCareers/jobs: 429 Client Error: Too Many Requests for url: https://sonoco.wd1.myworkdayjobs.com/wday/cxs/sonoco/CorporateCareers/jobs"
+      "careers_url": "https://careers.thrivent.com/jobs/#results",
+      "error": "Failed request: https://thrivent.wd5.myworkdayjobs.com/wday/cxs/thrivent/external/jobs: 429 Client Error: Too Many Requests for url: https://thrivent.wd5.myworkdayjobs.com/wday/cxs/thrivent/external/jobs"
     },
     {
       "key": "ups",
@@ -327,12 +314,213 @@
       "adapter": "discovery",
       "careers_url": null,
       "error": null
+    },
+    {
+      "key": "vf",
+      "rank": 425,
+      "company": "VF",
+      "fortune_500": true,
+      "checked_at": "2026-11-27T02:18:01Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://vfc.wd5.myworkdayjobs.com/wday/cxs/vfc/vfc_careers/jobs: 429 Client Error: Too Many Requests for url: https://vfc.wd5.myworkdayjobs.com/wday/cxs/vfc/vfc_careers/jobs"
+    },
+    {
+      "key": "zoetis",
+      "rank": 434,
+      "company": "Zoetis",
+      "fortune_500": true,
+      "checked_at": "2026-11-27T02:18:01Z",
+      "status": "error",
+      "issue_type": "Rate limited",
+      "eligible_jobs": 0,
+      "adapter": "discovery",
+      "careers_url": null,
+      "error": "Failed request: https://zoetis.wd5.myworkdayjobs.com/wday/cxs/zoetis/zoetis/jobs: 429 Client Error: Too Many Requests for url: https://zoetis.wd5.myworkdayjobs.com/wday/cxs/zoetis/zoetis/jobs"
     }
   ],
-  "companies_with_eligible_jobs": 11,
+  "companies_with_eligible_jobs": 12,
   "estimated_full_cycle_hours": 10.2,
-  "opportunity_count": 29,
+  "opportunity_count": 44,
   "opportunities": [
+    {
+      "id": "amgen-bfb9d4c1c30e",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "Undergrad Intern – R&D Local Safety Officer (Summer 2027)",
+      "location": "United States - Remote",
+      "region": "Remote",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations"
+      ],
+      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-26",
+      "deadline": null,
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Undergrad-Intern---R-D-Local-Safety-Officer--Summer-2027-_R-261779",
+      "external_id": "R-261779",
+      "verified_at": "2026-11-27T02:15:35Z",
+      "match_score": 85
+    },
+    {
+      "id": "amgen-45c3a85ed401",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "Undergrad Intern – Global Patient Safety (Summer 2027)",
+      "location": "United States - Remote",
+      "region": "Remote",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Risk"
+      ],
+      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-25",
+      "deadline": null,
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Undergrad-Intern---Global-Patient-Safety--Summer-2027-_R-260144",
+      "external_id": "R-260144",
+      "verified_at": "2026-11-27T02:15:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "amgen-868b078b7360",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "Undergrad Intern - Commercialization Technology and Decision Support (Summer 2027)",
+      "location": "United States - Remote",
+      "region": "Remote",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML"
+      ],
+      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-25",
+      "deadline": null,
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Undergrad-Intern---Commercialization-Technology-and-Decision-Support--Summer-2027-_R-261663",
+      "external_id": "R-261663",
+      "verified_at": "2026-11-27T02:15:35Z",
+      "match_score": 85
+    },
+    {
+      "id": "amgen-12a0d1e33dca",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "Undergrad Intern – R&D EOS | Global Program Management (Summer 2027)",
+      "location": "United States - Remote",
+      "region": "Remote",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Risk management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Strategy",
+        "Operations",
+        "Risk"
+      ],
+      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-18",
+      "deadline": null,
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Undergrad-Intern---R-D-EOS---Global-Program-Management--Summer-2027-_R-260924",
+      "external_id": "R-260924",
+      "verified_at": "2026-11-27T02:15:35Z",
+      "match_score": 85
+    },
+    {
+      "id": "amgen-cb3124ac00c1",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "Undergrad Intern - Change Readiness and Organization Effectiveness (Summer 2027)",
+      "location": "United States - Remote",
+      "region": "Remote",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "AI / ML",
+        "Operations"
+      ],
+      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-18",
+      "deadline": null,
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Undergrad-Intern---Change-Readiness-and-Organization-Effectiveness--Summer-2027-_R-261940",
+      "external_id": "R-261940",
+      "verified_at": "2026-11-27T02:15:35Z",
+      "match_score": 85
+    },
+    {
+      "id": "amgen-8d03c3f51c2b",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "Undergrad Intern – R&D Execution, Operations & Strategy (Summer 2027)",
+      "location": "United States - Remote",
+      "region": "Remote",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Product management",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Strategy",
+        "Operations",
+        "Finance"
+      ],
+      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-17",
+      "deadline": null,
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Undergrad-Intern---R-D-Execution--Operations---Strategy--Summer-2027-_R-259964",
+      "external_id": "R-259964",
+      "verified_at": "2026-11-27T02:15:35Z",
+      "match_score": 85
+    },
     {
       "id": "bitgo-holdings-637a8c97d5a9",
       "source_key": "bitgo-holdings",
@@ -356,6 +544,273 @@
       "url": "https://job-boards.greenhouse.io/bitgo/jobs/8944293002",
       "external_id": "8944293002",
       "verified_at": "2026-11-25T23:40:40Z",
+      "match_score": 85
+    },
+    {
+      "id": "amgen-7ab2212474a0",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "Undergrad Clinical Immunology Intern (Summer 2027)",
+      "location": "US - California - Thousand Oaks",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Risk"
+      ],
+      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-06",
+      "deadline": null,
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---California---Thousand-Oaks/Undergrad-Clinical-Immunology-Intern--Summer-2027-_R-259640",
+      "external_id": "R-259640",
+      "verified_at": "2026-11-27T02:15:33Z",
+      "match_score": 85
+    },
+    {
+      "id": "amgen-02a05a7118c7",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "Data & Analytics Intern",
+      "location": "Netherlands - Breda",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Data analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "SQL",
+        "Power BI",
+        "AI / ML",
+        "Product"
+      ],
+      "summary": "Career Category Business Development Job Description Turn data into business value at one of Europe's leading biotechnology hubs Are you a student passionate about data, analytics, AI, and technology? Do you want to gain hands-on experience working on real business challenges…",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-06",
+      "deadline": null,
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/Netherlands---Breda/Data---Analytics-Intern_R-261001",
+      "external_id": "R-261001",
+      "verified_at": "2026-11-27T02:15:32Z",
+      "match_score": 85
+    },
+    {
+      "id": "amgen-5bbbf8fd0061",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "Undergrad Intern – Amgen Foundation (Summer 2027)",
+      "location": "United States - Remote",
+      "region": "Remote",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-11-03",
+      "deadline": null,
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Undergrad-Intern---Amgen-Foundation--Summer-2027-_R-260402",
+      "external_id": "R-260402",
+      "verified_at": "2026-11-27T02:15:33Z",
+      "match_score": 85
+    },
+    {
+      "id": "amgen-c5c114ea3e85",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "Undergrad Intern – R&D Knowledge Management (Summer 2027)",
+      "location": "United States - Remote",
+      "region": "Remote",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "AI / ML"
+      ],
+      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-10-28",
+      "deadline": null,
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Undergrad-Intern---R-D-Knowledge-Management--Summer-2027-_R-259905",
+      "external_id": "R-259905",
+      "verified_at": "2026-11-27T02:15:35Z",
+      "match_score": 85
+    },
+    {
+      "id": "amgen-fc95e66b9add",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "Undergrad Intern - Manufacturing and Clinical Supply - Process Development (Summer 2027)",
+      "location": "US - California - Thousand Oaks",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Product",
+        "Operations"
+      ],
+      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---California---Thousand-Oaks/Undergrad-Intern---Manufacturing-and-Clinical-Supply---Process-Development--Summer-2027-_R-259434",
+      "external_id": "R-259434",
+      "verified_at": "2026-11-27T02:15:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "amgen-0cebdc7bc4de",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "Undergrad Co-op – Finance/Accounting",
+      "location": "United States - Remote",
+      "region": "Remote",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "FP&A",
+        "Corporate finance",
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Excel",
+        "Operations",
+        "Finance",
+        "FP&A",
+        "Accounting"
+      ],
+      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/United-States---Remote/Undergrad-Co-op---Finance-Accounting_R-258006",
+      "external_id": "R-258006",
+      "verified_at": "2026-11-27T02:15:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "amgen-de16fffd42e5",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "Undergrad Co-op - Accelerating Attribute Sciences’ Data Compilation Capabilities & Agility",
+      "location": "US - Massachusetts - Cambridge",
+      "region": "Global",
+      "opportunity_type": "Co-op",
+      "categories": [
+        "Asset-based lending"
+      ],
+      "tags": [
+        "Python",
+        "AI / ML",
+        "Product"
+      ],
+      "summary": "Career Category College Job Job Description Join Amgen’s Mission of Serving Patients At Amgen, if you feel like you’re part of something bigger, it’s because you are. Our shared mission—to serve patients living with serious illnesses—drives all that we do",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/US---Massachusetts---Cambridge/Undergrad-Co-op---Accelerating-Attribute-Sciences--Data-Compilation-Capabilities---Agility_R-258090",
+      "external_id": "R-258090",
+      "verified_at": "2026-11-27T02:15:34Z",
+      "match_score": 85
+    },
+    {
+      "id": "amgen-542d7e4f4754",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "SEA Medical Affairs Intern",
+      "location": "Singapore Affiliate - Duo Tower",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Operations analyst"
+      ],
+      "tags": [
+        "Excel",
+        "Strategy",
+        "Operations"
+      ],
+      "summary": "Career Category Training Job Description About Amgen: Amgen is one of the world’s leading biotechnology companies. Amgen is a values-based company, deeply rooted in science and innovation to transform new ideas and discoveries into medicines for patients with serious illnesses",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "School enrollment is required, but no graduation year is stated.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": null,
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/Singapore-Affiliate---Duo-Tower/SEA-Medical-Affairs-Intern_R-253798",
+      "external_id": "R-253798",
+      "verified_at": "2026-11-27T02:15:32Z",
+      "match_score": 85
+    },
+    {
+      "id": "amgen-634938e2fe6a",
+      "source_key": "amgen",
+      "fortune_rank": 129,
+      "fortune_500": true,
+      "company": "Amgen",
+      "title": "Finance Intern",
+      "location": "Singapore Affiliate - Duo Tower",
+      "region": "Global",
+      "opportunity_type": "Internship",
+      "categories": [
+        "Corporate finance",
+        "Business analyst",
+        "FP&A"
+      ],
+      "tags": [
+        "Excel",
+        "Power BI",
+        "Finance",
+        "FP&A",
+        "Accounting"
+      ],
+      "summary": "Career Category Training Job Description Amgen is one of the world’s leading biotechnology companies. Amgen is a values-based company, deeply rooted in science and innovation to transform new ideas and discoveries into medicines for patients with serious illnesses",
+      "grad_status": "No graduation year listed",
+      "grad_evidence": "The posting does not state a graduation-year requirement.",
+      "freshman_friendly": false,
+      "posted_date": "2026-01-30",
+      "deadline": "2026-12-31",
+      "url": "https://amgen.wd1.myworkdayjobs.com/Careers/job/Singapore-Affiliate---Duo-Tower/Finance-Intern_R-253789",
+      "external_id": "R-253789",
+      "verified_at": "2026-11-27T02:15:32Z",
       "match_score": 85
     },
     {
@@ -443,7 +898,7 @@
       "deadline": null,
       "url": "https://www.mondelezinternational.com/news/careers-meet-olya-zinovieva/",
       "external_id": null,
-      "verified_at": "2026-11-26T19:04:50Z",
+      "verified_at": "2026-11-27T02:14:00Z",
       "match_score": 85
     },
     {
@@ -1011,28 +1466,32 @@
       "match_score": 85
     },
     {
-      "id": "brightspring-health-services-8ab26e506f03",
-      "source_key": "brightspring-health-services",
-      "fortune_rank": 323,
+      "id": "chs-dc7aa3be24e3",
+      "source_key": "chs",
+      "fortune_rank": 130,
       "fortune_500": true,
-      "company": "BrightSpring Health Services",
-      "title": "Internship Opportunities - BrightSpring Health Services",
-      "location": "Location not listed",
+      "company": "CHS",
+      "title": "84 Results for Internship Jobs",
+      "location": "Location",
       "region": "Global",
       "opportunity_type": "Internship",
       "categories": [
-        "Asset-based lending"
+        "Operations analyst"
       ],
-      "tags": [],
-      "summary": "CAMPUS OPPORTUNITIES Internship Opportunities Home / Campus Opportunities / Internship Opportunities Build Your Future with Our Internship Program Our internship program offers the opportunity to engage in meaningful work that makes a positive impact on both your community and…",
+      "tags": [
+        "Operations",
+        "Finance",
+        "Accounting"
+      ],
+      "summary": "Page of 6 Go Show All Commitment to sustainability CHS knows that investing in a foundation of sustainability provides access to the global marketplace while growing a responsible and resilient business that creates value for our owners",
       "grad_status": "No graduation year listed",
       "grad_evidence": "The posting does not state a graduation-year requirement.",
-      "freshman_friendly": true,
+      "freshman_friendly": false,
       "posted_date": null,
       "deadline": null,
-      "url": "https://www.brightspringhealth.com/campus-opportunities/internship-opportunities/",
+      "url": "https://jobs.chsinc.com/category/internship-jobs/34006/8429904/1",
       "external_id": null,
-      "verified_at": "2026-11-25T04:16:21Z",
+      "verified_at": "2026-11-27T02:14:23Z",
       "match_score": 85
     },
     {
